@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "futurex-causal-benchmark"
+name = "abel-causal-benchmark"
 version = "2.0.0"
-description = "FutureX Causal Prediction Benchmark - Testing causal reasoning capabilities against forward-looking financial prediction questions"
+description = "Abel Causal Benchmark (ACB) - Testing causal reasoning capabilities against forward-looking financial prediction questions"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
@@ -46,19 +46,19 @@ viz = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/abel-ai/futurex-causal-benchmark"
-Documentation = "https://github.com/abel-ai/futurex-causal-benchmark#readme"
-Repository = "https://github.com/abel-ai/futurex-causal-benchmark"
-Issues = "https://github.com/abel-ai/futurex-causal-benchmark/issues"
+Homepage = "https://github.com/abel-ai/abel-causal-benchmark"
+Documentation = "https://github.com/abel-ai/abel-causal-benchmark#readme"
+Repository = "https://github.com/abel-ai/abel-causal-benchmark"
+Issues = "https://github.com/abel-ai/abel-causal-benchmark/issues"
 
 [project.scripts]
-futurex-benchmark = "futurex_benchmark.cli:main"
+abel-benchmark = "abel_benchmark.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.setuptools.package-data]
-"futurex_benchmark" = ["references/*.json"]
+"abel_benchmark" = ["references/*.json"]
 
 [tool.black]
 line-length = 100

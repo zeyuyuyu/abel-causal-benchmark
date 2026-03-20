@@ -9,7 +9,7 @@ Tests how well Abel Graph Computer implements CAP primitives:
 - path: Causal chain tracing
 - attest: Cross-sectional comparison
 
-Uses FutureX Benchmark V2 questions as test cases.
+Uses Abel Causal Benchmark V2 questions as test cases.
 
 Usage:
     # Test all CAP primitives

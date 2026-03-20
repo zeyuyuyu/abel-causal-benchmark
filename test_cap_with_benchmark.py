@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-CAP (Causal Agent Protocol) Test with FutureX Benchmark V2
+CAP (Causal Agent Protocol) Test with Abel Causal Benchmark V2
 
 This script tests Abel Graph Computer's CAP implementation against
-FutureX Benchmark's 35 forward-looking prediction questions.
+Abel Causal Benchmark's 35 forward-looking prediction questions.
 
 Usage:
     python test_cap_with_benchmark.py \

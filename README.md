@@ -1,4 +1,4 @@
-# FutureX Causal Prediction Benchmark V2
+# Abel Causal Benchmark (ACB) V2
 
 [![CI](https://github.com/abel-ai/futurex-causal-benchmark/actions/workflows/ci.yml/badge.svg)](https://github.com/abel-ai/futurex-causal-benchmark/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -6,11 +6,11 @@
 
 A comprehensive benchmark for testing **causal reasoning capabilities** against **forward-looking financial prediction questions**.
 
-> **What's New in V2**: 35 questions (up from 25), 10 intervention scenarios, complete CAP (Causal Agent Protocol) mapping, and enhanced CEVS scoring.
+> **What's New in V2**: 35 questions (up from 25), 10 intervention scenarios, complete CAP (Causal Agent Protocol) mapping, and enhanced CEVS scoring for the Abel Graph Computer.
 
 ## 🎯 Purpose
 
-FutureX Benchmark tests whether causal graph systems can provide **"causal emotional value"** - predictions that are:
+Abel Causal Benchmark tests whether causal graph systems can provide **"causal emotional value"** - predictions that are:
 - **Explainable**: Show causal paths (Fed Rate → Bond Yield → Tech → NVDA)
 - **Intervenable**: Answer "What if Fed cuts 50bp?" quantitatively
 - **Confident**: Probability calibrated from graph topology
@@ -41,18 +41,18 @@ cd futurex-causal-benchmark
 pip install -e ".[dev,viz]"
 
 # Verify installation
-futurex-benchmark --help
+abel-benchmark --help
 ```
 
 ### 3-Step Quick Run
 
 ```bash
 # Step 1: Validate questions format
-futurex-benchmark validate \
+abel-benchmark validate \
   --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json
 
 # Step 2: Run benchmark against your API
-futurex-benchmark run \
+abel-benchmark run \
   --base-url "https://abel-graph-computer-sit.abel.ai" \
   --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
   --output-dir ./results/$(date +%Y%m%d_%H%M%S)
@@ -223,7 +223,7 @@ V2 includes questions tied to real 2025 events for post-hoc validation:
 
 1. Edit `src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json`
 2. Follow existing format with CAP primitive specification
-3. Validate: `futurex-benchmark validate --questions your_file.json`
+3. Validate: `abel-benchmark validate --questions your_file.json`
 4. Test run against your API
 5. Submit PR with context on why this question tests unique causal value
 
@@ -246,7 +246,7 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -e ".[dev,viz]"
 
 # Verify
-futurex-benchmark --help
+abel-benchmark --help
 ```
 
 #### 2. Configure API Connection
@@ -255,11 +255,11 @@ Set your Abel Graph Computer API endpoint:
 
 ```bash
 # Option 1: Command line
-futurex-benchmark run --base-url "https://abel-graph-computer-sit.abel.ai" ...
+abel-benchmark run --base-url "https://abel-graph-computer-sit.abel.ai" ...
 
 # Option 2: Environment variable
 export CG_API_URL="https://abel-graph-computer-sit.abel.ai"
-futurex-benchmark run --base-url $CG_API_URL ...
+abel-benchmark run --base-url $CG_API_URL ...
 ```
 
 #### 3. Run Full Benchmark
@@ -269,7 +269,7 @@ futurex-benchmark run --base-url $CG_API_URL ...
 mkdir -p results
 
 # Run complete benchmark
-futurex-benchmark run \
+abel-benchmark run \
   --base-url "https://abel-graph-computer-sit.abel.ai" \
   --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
   --output-dir "./results/$(date +%Y%m%d_%H%M%S)"
@@ -441,7 +441,7 @@ if (predicted_impact > 0) == (tech_stocks_rose > 0):
 
 ```bash
 # Run with verbose logging
-futurex-benchmark run \
+abel-benchmark run \
   --base-url $CG_API_URL \
   --questions questions.json \
   --output-dir ./debug \
@@ -482,7 +482,7 @@ Add your own forward-looking questions:
 
 ```bash
 # Validate custom question
-futurex-benchmark validate --questions custom_question.json
+abel-benchmark validate --questions custom_question.json
 
 # Add to benchmark
 jq -s '.[0] + {questions: (.[0].questions + .[1].questions)}' \
@@ -517,7 +517,7 @@ jobs:
         env:
           CG_API_URL: ${{ secrets.CG_API_URL }}
         run: |
-          futurex-benchmark run \
+          abel-benchmark run \
             --base-url $CG_API_URL \
             --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
             --output-dir ./results
@@ -629,11 +629,11 @@ cat cap_compatibility_results/cap_compatibility_report.json | jq '.by_primitive'
 ## Citation
 
 ```bibtex
-@software{futurex_benchmark_2025,
-  title = {FutureX Causal Prediction Benchmark V2},
+@software{abel_causal_benchmark_2025,
+  title = {Abel Causal Benchmark (ACB) V2},
   author = {Abel AI Team},
   year = {2025},
-  url = {https://github.com/abel-ai/futurex-causal-benchmark},
+  url = {https://github.com/abel-ai/abel-causal-benchmark},
   version = {2.0.0}
 }
 ```
@@ -650,8 +650,8 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## 💬 Contact
 
-- Issues: [GitHub Issues](https://github.com/abel-ai/futurex-causal-benchmark/issues)
-- Discussions: [GitHub Discussions](https://github.com/abel-ai/futurex-causal-benchmark/discussions)
+- Issues: [GitHub Issues](https://github.com/abel-ai/abel-causal-benchmark/issues)
+- Discussions: [GitHub Discussions](https://github.com/abel-ai/abel-causal-benchmark/discussions)
 - Email: team@abel.ai
 
 ---

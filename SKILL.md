@@ -1,12 +1,12 @@
 ---
-name: futurex-causal-benchmark-v2
-description: Run FutureX V2 Enhanced benchmark with 35 forward-looking prediction questions. Features 10 intervention scenarios, CAP (Causal Agent Protocol) mapping, and Enhanced CEVS scoring. Tests "causal emotional value" through explainable predictions, what-if analysis, and multi-hop causal chains that surpass generic LLM capabilities.
+name: abel-causal-benchmark-v2
+description: Run Abel Causal Benchmark V2 with 35 forward-looking prediction questions. Features 10 intervention scenarios, CAP (Causal Agent Protocol) mapping, and Enhanced CEVS scoring. Tests "causal emotional value" through explainable predictions, what-if analysis, and multi-hop causal chains that surpass generic LLM capabilities.
 compatibility: Requires Abel Graph Computer API access. Python 3.10+ with httpx/pandas.
 version: 2.0
 release_date: 2025-03
 ---
 
-# FutureX Causal Prediction Benchmark V2 (Enhanced)
+# Abel Causal Benchmark (ACB) V2 - Enhanced
 
 ## What's New in V2
 
@@ -49,7 +49,7 @@ V2 includes complete mapping from CAP primitives to CG API:
 
 ## Purpose
 
-Run 35 FutureX-style forward-looking prediction questions to demonstrate the unique "causal emotional value" of Abel's causal graph system compared to generic LLMs.
+Run 35 forward-looking prediction questions to demonstrate the unique "causal emotional value" of Abel's causal graph system compared to generic LLMs.
 
 ## What "Causal Emotional Value" Means
 
