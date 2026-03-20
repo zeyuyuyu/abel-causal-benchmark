@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_128",
+  "index": 128,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average treatment effect of participation in the home-visiting program on children's standardized cognitive test scores at approximately 36 months?",
+  "vague_question": "What is the effect of giving home visits to families on a child's later cognitive development?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0093/metadata.txt",
+  "data_path": "data/ds_0093/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_2_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_2_0/question/estimation.py",
+  "effect": 4.070148,
+  "standard_error": 0.105599
+}

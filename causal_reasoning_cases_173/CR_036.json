@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_036",
+  "index": 36,
+  "dataset_group": "research_papers",
+  "causal_question": "Did designation as fully exempt from short-sale price restrictions alter the probability that firms reported any federal lobbying activity between 2002 and 2005?",
+  "vague_question": "Did exempting some companies from short-selling price rules change whether they tried to influence the federal government (i.e., lobbied) during 2002-2005?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0019/metadata.txt",
+  "data_path": "data/ds_0019/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Kroeger_Silfa_2023/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Kroeger_Silfa_2023/question_1/estimation.py",
+  "effect": 0.02558520667475296,
+  "standard_error": 0.012991949238672616
+}

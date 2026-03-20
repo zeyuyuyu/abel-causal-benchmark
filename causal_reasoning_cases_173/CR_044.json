@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_044",
+  "index": 44,
+  "dataset_group": "research_papers",
+  "causal_question": "Among favela complexes that began a UPP around the selected date, how did the monthly rate of fatal police shootings (Autos de Resistencia) per 100,000 residents evolve after the intervention versus before, compared with complexes that had not yet received the program at that time?",
+  "vague_question": "When a Pacifying Police Unit (UPP) moved into a favela complex, did fatal police shootings in that area tend to go up, go down, or stay the same afterward compared with other places that hadn't received a UPP yet?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0023/metadata.txt",
+  "data_path": "data/ds_0023/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Magaloni_etal_2020/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Magaloni_etal_2020/question_1/estimation.py",
+  "effect": -7.320133528775574,
+  "standard_error": 0.334547294980151
+}

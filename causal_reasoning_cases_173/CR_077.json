@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_077",
+  "index": 77,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of closely reading/opening the esteem-promising email on the probability of RSVPing 'yes' to the event among recipients whose opening behavior was responsive to the email variant they received?",
+  "vague_question": "Does actually opening a community-praise email increase the chance someone says they'll attend the rally - focusing on people whose decision to open the email was influenced by which version they got?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0047/metadata.txt",
+  "data_path": "data/ds_0047/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/McClendon2014/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/McClendon2014/question/estimation.py",
+  "effect": 0.314876079278295,
+  "standard_error": 0.09504846217830387
+}

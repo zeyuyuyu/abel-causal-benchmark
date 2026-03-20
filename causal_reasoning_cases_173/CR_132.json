@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_132",
+  "index": 132,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who received specialist home visits, what was the average effect of the visits on their cognitive test scores?",
+  "vague_question": "For babies who got home visits, how much did those visits change their later test scores on average?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0097/metadata.txt",
+  "data_path": "data/ds_0097/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_3_1/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_3_1/question/estimation.py",
+  "effect": 4.105083810279937,
+  "standard_error": 0.19197972945354685
+}

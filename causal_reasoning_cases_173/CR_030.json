@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_030",
+  "index": 30,
+  "dataset_group": "research_papers",
+  "causal_question": "For cities that switched to single-member district elections in 2016, how did the switch affect the natural log of multifamily units permitted between 2015 and 2017 compared to otherwise-similar cities that had not switched by 2017, adjusting for population, homeownership and vacancy rates, median home value and income, and prior minority electoral success?",
+  "vague_question": "What happened to the amount of new multifamily housing that got permitted in cities that switched to district-based city council elections in 2016 when you look at the years just before and after the change?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0016/metadata.txt",
+  "data_path": "data/ds_0016/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Hankinson_Magazinnik_2023/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Hankinson_Magazinnik_2023/question_1/estimation.py",
+  "effect": -0.5031064147781619,
+  "standard_error": 1.1469753421917865
+}

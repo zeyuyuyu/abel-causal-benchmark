@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_007",
+  "index": 7,
+  "dataset_group": "research_papers",
+  "causal_question": "Did Democrats who newly joined the Blue Dog Coalition experience a change in the mean ideology of their contributors after joining compared with comparable Democrats who did not join?",
+  "vague_question": "When Democrats join the Blue Dog group, does the political outlook of the people who give them money seem to change?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0004/metadata.txt",
+  "data_path": "data/ds_0004/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Clarke_2020/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Clarke_2020/question_1/estimation.py",
+  "effect": 0.10058679829181771,
+  "standard_error": 0.04170992816627088
+}

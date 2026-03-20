@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_114",
+  "index": 114,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the effect of serving a Senate term on the probability of ever serving on a corporate board, for candidates whose service is determined by election outcomes?",
+  "vague_question": "How much does winning a Senate election change a candidate's chance of later serving on a corporate board?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0079/metadata.txt",
+  "data_path": "data/ds_0079/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/palmer_schneer_2016a/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/palmer_schneer_2016a/question_1/estimation.py",
+  "effect": 0.3276553502201477,
+  "standard_error": 0.1858726681755152
+}

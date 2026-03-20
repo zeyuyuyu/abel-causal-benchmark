@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_153",
+  "index": 153,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average percent change in hourly wage caused by one additional year of education?",
+  "vague_question": "On average, by what percent does an extra year of schooling change a person’s hourly pay?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0118/metadata.txt",
+  "data_path": "data/ds_0118/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/wage_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/wage_0/question/estimation.py",
+  "effect": 2.37,
+  "standard_error": 0.9371
+}

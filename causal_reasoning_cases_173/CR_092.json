@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_092",
+  "index": 92,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average causal effect of casting a ballot in 2008 on the probability of voting in 2010 for individuals at the margin of voting in 2008?",
+  "vague_question": "If someone votes in 2008 when they are on the cusp of voting, how much more likely are they to vote again in 2010? This focuses on people for whom voting in 2008 was a close call.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0060/metadata.txt",
+  "data_path": "data/ds_0060/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/coppock_green_2016/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/coppock_green_2016/question_1/estimation.py",
+  "effect": 0.06598304070643407,
+  "standard_error": 0.01549875068350682
+}

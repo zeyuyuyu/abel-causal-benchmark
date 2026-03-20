@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_163",
+  "index": 163,
+  "dataset_group": "textbook",
+  "causal_question": "For district-election observations with nearly tied vote shares, what is the causal effect of a Democratic win in election t on the representative's ADA roll-call score in session t (i.e., the effect among near-tied races)?",
+  "vague_question": "In very close U.S. House elections, how much more (or less) liberal is the representative's roll-call voting when the Democrat narrowly wins compared with when the Democrat narrowly loses?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0128/metadata.txt",
+  "data_path": "data/ds_0128/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/close_elections_lmb_2/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/close_elections_lmb_2/question/estimation.py",
+  "effect": 24.844324464745874,
+  "standard_error": 3.851257018079177
+}

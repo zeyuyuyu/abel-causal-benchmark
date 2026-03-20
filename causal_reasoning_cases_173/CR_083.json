@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_083",
+  "index": 83,
+  "dataset_group": "research_papers",
+  "causal_question": "Among candidates at the win-loss margin, what is the average causal effect of holding office on the probability of running in the next election?",
+  "vague_question": "For candidates who barely won or lost, how much does winning a seat change their chance of running again next election? What is the average change in that probability?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0053/metadata.txt",
+  "data_path": "data/ds_0053/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/ariga_2015/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/ariga_2015/question_1/estimation.py",
+  "effect": 0.10822290111227129,
+  "standard_error": 0.05250984555532867
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_124",
+  "index": 124,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average treatment effect on the controls (ATC) of the home-visit intervention on children’s cognitive test scores at about 36 months in the IHDP data?",
+  "vague_question": "For infants who didn’t get home visits, how many points higher would their cognitive scores around age 3 have been if they had received the visits?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0089/metadata.txt",
+  "data_path": "data/ds_0089/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_0_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_0_2/question/estimation.py",
+  "effect": 3.6,
+  "standard_error": 0.4547061927737714
+}

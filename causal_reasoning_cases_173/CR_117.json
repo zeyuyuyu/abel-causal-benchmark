@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_117",
+  "index": 117,
+  "dataset_group": "research_papers",
+  "causal_question": "Among U.S. House districts with very close elections around the 50% Democratic vote threshold in the 78th Congress, what is the causal effect of electing a Democrat (versus a Republican) on the probability that the representative signs a civil-rights discharge petition?",
+  "vague_question": "In very close 1943-44 House races, how much did electing a Democrat rather than a Republican change whether the member signed civil-rights discharge petitions?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0082/metadata.txt",
+  "data_path": "data/ds_0082/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/schickler_etal_2009b/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/schickler_etal_2009b/question_1/estimation.py",
+  "effect": 0.18483608780919436,
+  "standard_error": 0.09219797591861177
+}

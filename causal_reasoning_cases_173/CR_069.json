@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_069",
+  "index": 69,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of a district's frequency of peasant unrest during 1851-1863 on the statutory share of zemstvo assembly seats allocated to peasants in 1864, interpreted as the local average treatment effect for districts whose unrest was shifted by historical, plausibly exogenous variation?",
+  "vague_question": "Did districts with more peasant disturbances in the 1850s-early 1860s end up with less peasant representation in the 1864 local assemblies? (Estimate the causal effect for districts where unrest was driven by historical, plausibly exogenous factors.)",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0039/metadata.txt",
+  "data_path": "data/ds_0039/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Dower2018b/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Dower2018b/question/estimation.py",
+  "effect": -42.45445580750584,
+  "standard_error": 8.338368272462345
+}

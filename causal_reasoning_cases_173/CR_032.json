@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_032",
+  "index": 32,
+  "dataset_group": "research_papers",
+  "causal_question": "Did states that adopted direct primaries in 1908 experience an increase in the log of the state-average daily candidate newspaper advertisements (week before the election) from 1906 to 1908 relative to states that had not yet adopted?",
+  "vague_question": "Did adopting direct primary rules around 1908 lead to more candidate newspaper advertising in the week before general elections?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0017/metadata.txt",
+  "data_path": "data/ds_0017/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Hirano_etal_2022/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Hirano_etal_2022/question_1/estimation.py",
+  "effect": 0.19542464647176022,
+  "standard_error": 0.16647987316254834
+}

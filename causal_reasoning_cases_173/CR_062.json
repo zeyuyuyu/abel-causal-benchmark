@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_062",
+  "index": 62,
+  "dataset_group": "research_papers",
+  "causal_question": "Did counties identified as marginal-faction in 1998 experience larger increases in the non-state share of industrial output from 1965 to 1998 than other counties?",
+  "vague_question": "Did counties labeled as \"marginal\" in 1998 show larger increases in the non-state share of industrial output from the mid-1960s up through 1998 than other counties?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0032/metadata.txt",
+  "data_path": "data/ds_0032/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Zhang_etal_2021/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Zhang_etal_2021/question_2/estimation.py",
+  "effect": -0.04018143506236438,
+  "standard_error": 0.04936979382899201
+}

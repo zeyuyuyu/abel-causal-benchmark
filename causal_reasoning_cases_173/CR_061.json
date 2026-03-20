@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_061",
+  "index": 61,
+  "dataset_group": "research_papers",
+  "causal_question": "Did counties identified as marginal-faction in 1978 experience larger growth in the non-state (collective + private) share of industrial output from 1965 to 1978 than other counties?",
+  "vague_question": "Did counties labeled as \"marginal\" in 1978 see bigger increases in the share of industry run by non-state firms between the mid-1960s and 1978 compared with other counties?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0032/metadata.txt",
+  "data_path": "data/ds_0032/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Zhang_etal_2021/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Zhang_etal_2021/question_1/estimation.py",
+  "effect": 0.11527391703742929,
+  "standard_error": 0.06183612726843541
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_035",
+  "index": 35,
+  "dataset_group": "research_papers",
+  "causal_question": "Among candidates who began using a full public campaign finance program between 2010 and 2012, how did their candidate-district ideological distance change relative to candidates who stayed privately financed over the same period?",
+  "vague_question": "When candidates start using public campaign funding, do they become more or less aligned with the typical voter in their district compared with candidates who remain privately financed?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0018/metadata.txt",
+  "data_path": "data/ds_0018/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Kilborn_Vishwanath_2022/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Kilborn_Vishwanath_2022/question_2/estimation.py",
+  "effect": -0.05266523832905763,
+  "standard_error": 0.06537234067599568
+}

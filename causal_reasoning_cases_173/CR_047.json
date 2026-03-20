@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_047",
+  "index": 47,
+  "dataset_group": "research_papers",
+  "causal_question": "How did primary-school enrollment (percent of ages 5-14) evolve after the onset of a country's first civil war in 1849 compared with countries that had not experienced civil war by 1859?",
+  "vague_question": "What happened to primary-school enrollment (ages 5-14) after a country experienced its first civil war around 1849, compared with countries that stayed peaceful through the 1850s?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0025/metadata.txt",
+  "data_path": "data/ds_0025/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Paglayan_2022/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Paglayan_2022/question_1/estimation.py",
+  "effect": 9.258225123087575,
+  "standard_error": 7.032683735288662
+}

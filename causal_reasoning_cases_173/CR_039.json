@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_039",
+  "index": 39,
+  "dataset_group": "research_papers",
+  "causal_question": "How did municipal adoption of a civil service commission between 1930 and 1940 change the share of blue-collar city jobs held by foreign-born white residents in subsequent decennial censuses, once the city's foreign-born white population share is taken into account?",
+  "vague_question": "When a city created a civil service commission, did that change how many blue-collar municipal jobs went to foreign-born white residents afterwards?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0020/metadata.txt",
+  "data_path": "data/ds_0020/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Kuipers_Sahn_2023/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Kuipers_Sahn_2023/question_2/estimation.py",
+  "effect": -0.0008283822752591808,
+  "standard_error": 0.026730258555135965
+}

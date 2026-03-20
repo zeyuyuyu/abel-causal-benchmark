@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_118",
+  "index": 118,
+  "dataset_group": "research_papers",
+  "causal_question": "Among U.S. House races decided near the 50% threshold prior to the 83rd Congress, what is the effect of electing a Democrat (versus a Republican) on the representative's likelihood of supporting civil-rights discharge petitions during the 83rd Congress?",
+  "vague_question": "If a Democrat barely wins a House race, how does that change the lawmaker's chance of supporting civil-rights petitions in the next Congress compared with a Republican barely winning?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0083/metadata.txt",
+  "data_path": "data/ds_0083/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/schickler_etal_2009c/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/schickler_etal_2009c/question_1/estimation.py",
+  "effect": 0.478657420332135,
+  "standard_error": 0.12858727557352104
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_042",
+  "index": 42,
+  "dataset_group": "research_papers",
+  "causal_question": "How much did engaging in immigration-related lobbying in 2017 alter a firm's firm-year share of H-1B petitions denied from 2016 to 2017, relative to firms that did not lobby in 2017? (Report the effect in percentage points.)",
+  "vague_question": "Did a firm's immigration-related lobbying in 2017 change the share of its H-1B visa petitions that were denied between 2016 and 2017?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0022/metadata.txt",
+  "data_path": "data/ds_0022/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Liao_2023/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Liao_2023/question_1/estimation.py",
+  "effect": -0.030004441602746863,
+  "standard_error": 0.006356630611240632
+}

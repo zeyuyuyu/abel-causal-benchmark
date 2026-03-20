@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_171",
+  "index": 171,
+  "dataset_group": "textbook",
+  "causal_question": "What is the causal effect of a higher friends' insurance purchase rate on an individual's probability of buying insurance among second-round participants whose friends' behavior responds to the intervention?",
+  "vague_question": "How much does a higher share of your friends buying insurance change your own chance of buying insurance?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0138/metadata.txt",
+  "data_path": "data/ds_0138/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/social_insure/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/social_insure/question/estimation.py",
+  "effect": 0.7910969602184679,
+  "standard_error": 0.2671120497261521
+}

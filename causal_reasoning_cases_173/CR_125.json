@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_125",
+  "index": 125,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average treatment effect of participation in the IHDP home-visit program (treatment) on standardized 36-month cognitive test scores (y) in the full sample?",
+  "vague_question": "What is the effect of receiving IHDP home visits on children's cognitive scores?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0090/metadata.txt",
+  "data_path": "data/ds_0090/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_1_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_1_0/question/estimation.py",
+  "effect": 4.046699259992941,
+  "standard_error": 0.27465116215902413
+}

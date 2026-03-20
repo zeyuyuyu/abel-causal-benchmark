@@ -1,0 +1,8155 @@
+{
+  "metadata": {
+    "source": "causal-nlp/corr2cause",
+    "split": "test",
+    "total_cases": 1162,
+    "label_distribution": {
+      "0": 982,
+      "1": 180
+    },
+    "template_distribution": {
+      "non-parent ancestor": 195,
+      "parent": 194,
+      "child": 194,
+      "has_collider": 193,
+      "non-child descendant": 193,
+      "has_confounder": 193
+    }
+  },
+  "cases": [
+    {
+      "file_id": "C2C_0001",
+      "label": 0,
+      "num_variables": 2,
+      "template": "has_collider",
+      "filename": "C2C_0001.json"
+    },
+    {
+      "file_id": "C2C_0002",
+      "label": 0,
+      "num_variables": 2,
+      "template": "parent",
+      "filename": "C2C_0002.json"
+    },
+    {
+      "file_id": "C2C_0003",
+      "label": 0,
+      "num_variables": 2,
+      "template": "non-child descendant",
+      "filename": "C2C_0003.json"
+    },
+    {
+      "file_id": "C2C_0004",
+      "label": 0,
+      "num_variables": 2,
+      "template": "child",
+      "filename": "C2C_0004.json"
+    },
+    {
+      "file_id": "C2C_0005",
+      "label": 0,
+      "num_variables": 2,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0005.json"
+    },
+    {
+      "file_id": "C2C_0006",
+      "label": 0,
+      "num_variables": 2,
+      "template": "has_confounder",
+      "filename": "C2C_0006.json"
+    },
+    {
+      "file_id": "C2C_0007",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0007.json"
+    },
+    {
+      "file_id": "C2C_0008",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0008.json"
+    },
+    {
+      "file_id": "C2C_0009",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0009.json"
+    },
+    {
+      "file_id": "C2C_0010",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0010.json"
+    },
+    {
+      "file_id": "C2C_0011",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0011.json"
+    },
+    {
+      "file_id": "C2C_0012",
+      "label": 1,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0012.json"
+    },
+    {
+      "file_id": "C2C_0013",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0013.json"
+    },
+    {
+      "file_id": "C2C_0014",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0014.json"
+    },
+    {
+      "file_id": "C2C_0015",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0015.json"
+    },
+    {
+      "file_id": "C2C_0016",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0016.json"
+    },
+    {
+      "file_id": "C2C_0017",
+      "label": 1,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0017.json"
+    },
+    {
+      "file_id": "C2C_0018",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0018.json"
+    },
+    {
+      "file_id": "C2C_0019",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0019.json"
+    },
+    {
+      "file_id": "C2C_0020",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0020.json"
+    },
+    {
+      "file_id": "C2C_0021",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0021.json"
+    },
+    {
+      "file_id": "C2C_0022",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0022.json"
+    },
+    {
+      "file_id": "C2C_0023",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0023.json"
+    },
+    {
+      "file_id": "C2C_0024",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0024.json"
+    },
+    {
+      "file_id": "C2C_0025",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0025.json"
+    },
+    {
+      "file_id": "C2C_0026",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0026.json"
+    },
+    {
+      "file_id": "C2C_0027",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0027.json"
+    },
+    {
+      "file_id": "C2C_0028",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0028.json"
+    },
+    {
+      "file_id": "C2C_0029",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0029.json"
+    },
+    {
+      "file_id": "C2C_0030",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0030.json"
+    },
+    {
+      "file_id": "C2C_0031",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0031.json"
+    },
+    {
+      "file_id": "C2C_0032",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0032.json"
+    },
+    {
+      "file_id": "C2C_0033",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0033.json"
+    },
+    {
+      "file_id": "C2C_0034",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0034.json"
+    },
+    {
+      "file_id": "C2C_0035",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0035.json"
+    },
+    {
+      "file_id": "C2C_0036",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0036.json"
+    },
+    {
+      "file_id": "C2C_0037",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0037.json"
+    },
+    {
+      "file_id": "C2C_0038",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0038.json"
+    },
+    {
+      "file_id": "C2C_0039",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0039.json"
+    },
+    {
+      "file_id": "C2C_0040",
+      "label": 1,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0040.json"
+    },
+    {
+      "file_id": "C2C_0041",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0041.json"
+    },
+    {
+      "file_id": "C2C_0042",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0042.json"
+    },
+    {
+      "file_id": "C2C_0043",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0043.json"
+    },
+    {
+      "file_id": "C2C_0044",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0044.json"
+    },
+    {
+      "file_id": "C2C_0045",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0045.json"
+    },
+    {
+      "file_id": "C2C_0046",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0046.json"
+    },
+    {
+      "file_id": "C2C_0047",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0047.json"
+    },
+    {
+      "file_id": "C2C_0048",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0048.json"
+    },
+    {
+      "file_id": "C2C_0049",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0049.json"
+    },
+    {
+      "file_id": "C2C_0050",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0050.json"
+    },
+    {
+      "file_id": "C2C_0051",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0051.json"
+    },
+    {
+      "file_id": "C2C_0052",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0052.json"
+    },
+    {
+      "file_id": "C2C_0053",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0053.json"
+    },
+    {
+      "file_id": "C2C_0054",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0054.json"
+    },
+    {
+      "file_id": "C2C_0055",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0055.json"
+    },
+    {
+      "file_id": "C2C_0056",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0056.json"
+    },
+    {
+      "file_id": "C2C_0057",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0057.json"
+    },
+    {
+      "file_id": "C2C_0058",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0058.json"
+    },
+    {
+      "file_id": "C2C_0059",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0059.json"
+    },
+    {
+      "file_id": "C2C_0060",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0060.json"
+    },
+    {
+      "file_id": "C2C_0061",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0061.json"
+    },
+    {
+      "file_id": "C2C_0062",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0062.json"
+    },
+    {
+      "file_id": "C2C_0063",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0063.json"
+    },
+    {
+      "file_id": "C2C_0064",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0064.json"
+    },
+    {
+      "file_id": "C2C_0065",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0065.json"
+    },
+    {
+      "file_id": "C2C_0066",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0066.json"
+    },
+    {
+      "file_id": "C2C_0067",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0067.json"
+    },
+    {
+      "file_id": "C2C_0068",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0068.json"
+    },
+    {
+      "file_id": "C2C_0069",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0069.json"
+    },
+    {
+      "file_id": "C2C_0070",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0070.json"
+    },
+    {
+      "file_id": "C2C_0071",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0071.json"
+    },
+    {
+      "file_id": "C2C_0072",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0072.json"
+    },
+    {
+      "file_id": "C2C_0073",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0073.json"
+    },
+    {
+      "file_id": "C2C_0074",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0074.json"
+    },
+    {
+      "file_id": "C2C_0075",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0075.json"
+    },
+    {
+      "file_id": "C2C_0076",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0076.json"
+    },
+    {
+      "file_id": "C2C_0077",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0077.json"
+    },
+    {
+      "file_id": "C2C_0078",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0078.json"
+    },
+    {
+      "file_id": "C2C_0079",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0079.json"
+    },
+    {
+      "file_id": "C2C_0080",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0080.json"
+    },
+    {
+      "file_id": "C2C_0081",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0081.json"
+    },
+    {
+      "file_id": "C2C_0082",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0082.json"
+    },
+    {
+      "file_id": "C2C_0083",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0083.json"
+    },
+    {
+      "file_id": "C2C_0084",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0084.json"
+    },
+    {
+      "file_id": "C2C_0085",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0085.json"
+    },
+    {
+      "file_id": "C2C_0086",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0086.json"
+    },
+    {
+      "file_id": "C2C_0087",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0087.json"
+    },
+    {
+      "file_id": "C2C_0088",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0088.json"
+    },
+    {
+      "file_id": "C2C_0089",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0089.json"
+    },
+    {
+      "file_id": "C2C_0090",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0090.json"
+    },
+    {
+      "file_id": "C2C_0091",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0091.json"
+    },
+    {
+      "file_id": "C2C_0092",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0092.json"
+    },
+    {
+      "file_id": "C2C_0093",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0093.json"
+    },
+    {
+      "file_id": "C2C_0094",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0094.json"
+    },
+    {
+      "file_id": "C2C_0095",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0095.json"
+    },
+    {
+      "file_id": "C2C_0096",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0096.json"
+    },
+    {
+      "file_id": "C2C_0097",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0097.json"
+    },
+    {
+      "file_id": "C2C_0098",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0098.json"
+    },
+    {
+      "file_id": "C2C_0099",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0099.json"
+    },
+    {
+      "file_id": "C2C_0100",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0100.json"
+    },
+    {
+      "file_id": "C2C_0101",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0101.json"
+    },
+    {
+      "file_id": "C2C_0102",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0102.json"
+    },
+    {
+      "file_id": "C2C_0103",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0103.json"
+    },
+    {
+      "file_id": "C2C_0104",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0104.json"
+    },
+    {
+      "file_id": "C2C_0105",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0105.json"
+    },
+    {
+      "file_id": "C2C_0106",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0106.json"
+    },
+    {
+      "file_id": "C2C_0107",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0107.json"
+    },
+    {
+      "file_id": "C2C_0108",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0108.json"
+    },
+    {
+      "file_id": "C2C_0109",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0109.json"
+    },
+    {
+      "file_id": "C2C_0110",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0110.json"
+    },
+    {
+      "file_id": "C2C_0111",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0111.json"
+    },
+    {
+      "file_id": "C2C_0112",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0112.json"
+    },
+    {
+      "file_id": "C2C_0113",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0113.json"
+    },
+    {
+      "file_id": "C2C_0114",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0114.json"
+    },
+    {
+      "file_id": "C2C_0115",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0115.json"
+    },
+    {
+      "file_id": "C2C_0116",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0116.json"
+    },
+    {
+      "file_id": "C2C_0117",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0117.json"
+    },
+    {
+      "file_id": "C2C_0118",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0118.json"
+    },
+    {
+      "file_id": "C2C_0119",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0119.json"
+    },
+    {
+      "file_id": "C2C_0120",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0120.json"
+    },
+    {
+      "file_id": "C2C_0121",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0121.json"
+    },
+    {
+      "file_id": "C2C_0122",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0122.json"
+    },
+    {
+      "file_id": "C2C_0123",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0123.json"
+    },
+    {
+      "file_id": "C2C_0124",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0124.json"
+    },
+    {
+      "file_id": "C2C_0125",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0125.json"
+    },
+    {
+      "file_id": "C2C_0126",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_collider",
+      "filename": "C2C_0126.json"
+    },
+    {
+      "file_id": "C2C_0127",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0127.json"
+    },
+    {
+      "file_id": "C2C_0128",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0128.json"
+    },
+    {
+      "file_id": "C2C_0129",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0129.json"
+    },
+    {
+      "file_id": "C2C_0130",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0130.json"
+    },
+    {
+      "file_id": "C2C_0131",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0131.json"
+    },
+    {
+      "file_id": "C2C_0132",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0132.json"
+    },
+    {
+      "file_id": "C2C_0133",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0133.json"
+    },
+    {
+      "file_id": "C2C_0134",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0134.json"
+    },
+    {
+      "file_id": "C2C_0135",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0135.json"
+    },
+    {
+      "file_id": "C2C_0136",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0136.json"
+    },
+    {
+      "file_id": "C2C_0137",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0137.json"
+    },
+    {
+      "file_id": "C2C_0138",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0138.json"
+    },
+    {
+      "file_id": "C2C_0139",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0139.json"
+    },
+    {
+      "file_id": "C2C_0140",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0140.json"
+    },
+    {
+      "file_id": "C2C_0141",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0141.json"
+    },
+    {
+      "file_id": "C2C_0142",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0142.json"
+    },
+    {
+      "file_id": "C2C_0143",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0143.json"
+    },
+    {
+      "file_id": "C2C_0144",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0144.json"
+    },
+    {
+      "file_id": "C2C_0145",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0145.json"
+    },
+    {
+      "file_id": "C2C_0146",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0146.json"
+    },
+    {
+      "file_id": "C2C_0147",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0147.json"
+    },
+    {
+      "file_id": "C2C_0148",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0148.json"
+    },
+    {
+      "file_id": "C2C_0149",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0149.json"
+    },
+    {
+      "file_id": "C2C_0150",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0150.json"
+    },
+    {
+      "file_id": "C2C_0151",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0151.json"
+    },
+    {
+      "file_id": "C2C_0152",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0152.json"
+    },
+    {
+      "file_id": "C2C_0153",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0153.json"
+    },
+    {
+      "file_id": "C2C_0154",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0154.json"
+    },
+    {
+      "file_id": "C2C_0155",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0155.json"
+    },
+    {
+      "file_id": "C2C_0156",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0156.json"
+    },
+    {
+      "file_id": "C2C_0157",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0157.json"
+    },
+    {
+      "file_id": "C2C_0158",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0158.json"
+    },
+    {
+      "file_id": "C2C_0159",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0159.json"
+    },
+    {
+      "file_id": "C2C_0160",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0160.json"
+    },
+    {
+      "file_id": "C2C_0161",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0161.json"
+    },
+    {
+      "file_id": "C2C_0162",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0162.json"
+    },
+    {
+      "file_id": "C2C_0163",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0163.json"
+    },
+    {
+      "file_id": "C2C_0164",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0164.json"
+    },
+    {
+      "file_id": "C2C_0165",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0165.json"
+    },
+    {
+      "file_id": "C2C_0166",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0166.json"
+    },
+    {
+      "file_id": "C2C_0167",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0167.json"
+    },
+    {
+      "file_id": "C2C_0168",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0168.json"
+    },
+    {
+      "file_id": "C2C_0169",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0169.json"
+    },
+    {
+      "file_id": "C2C_0170",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0170.json"
+    },
+    {
+      "file_id": "C2C_0171",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0171.json"
+    },
+    {
+      "file_id": "C2C_0172",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0172.json"
+    },
+    {
+      "file_id": "C2C_0173",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0173.json"
+    },
+    {
+      "file_id": "C2C_0174",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0174.json"
+    },
+    {
+      "file_id": "C2C_0175",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0175.json"
+    },
+    {
+      "file_id": "C2C_0176",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0176.json"
+    },
+    {
+      "file_id": "C2C_0177",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0177.json"
+    },
+    {
+      "file_id": "C2C_0178",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0178.json"
+    },
+    {
+      "file_id": "C2C_0179",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0179.json"
+    },
+    {
+      "file_id": "C2C_0180",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0180.json"
+    },
+    {
+      "file_id": "C2C_0181",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0181.json"
+    },
+    {
+      "file_id": "C2C_0182",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0182.json"
+    },
+    {
+      "file_id": "C2C_0183",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0183.json"
+    },
+    {
+      "file_id": "C2C_0184",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0184.json"
+    },
+    {
+      "file_id": "C2C_0185",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0185.json"
+    },
+    {
+      "file_id": "C2C_0186",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0186.json"
+    },
+    {
+      "file_id": "C2C_0187",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0187.json"
+    },
+    {
+      "file_id": "C2C_0188",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0188.json"
+    },
+    {
+      "file_id": "C2C_0189",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0189.json"
+    },
+    {
+      "file_id": "C2C_0190",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0190.json"
+    },
+    {
+      "file_id": "C2C_0191",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0191.json"
+    },
+    {
+      "file_id": "C2C_0192",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0192.json"
+    },
+    {
+      "file_id": "C2C_0193",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0193.json"
+    },
+    {
+      "file_id": "C2C_0194",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0194.json"
+    },
+    {
+      "file_id": "C2C_0195",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0195.json"
+    },
+    {
+      "file_id": "C2C_0196",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0196.json"
+    },
+    {
+      "file_id": "C2C_0197",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0197.json"
+    },
+    {
+      "file_id": "C2C_0198",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0198.json"
+    },
+    {
+      "file_id": "C2C_0199",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0199.json"
+    },
+    {
+      "file_id": "C2C_0200",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0200.json"
+    },
+    {
+      "file_id": "C2C_0201",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0201.json"
+    },
+    {
+      "file_id": "C2C_0202",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0202.json"
+    },
+    {
+      "file_id": "C2C_0203",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0203.json"
+    },
+    {
+      "file_id": "C2C_0204",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0204.json"
+    },
+    {
+      "file_id": "C2C_0205",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0205.json"
+    },
+    {
+      "file_id": "C2C_0206",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0206.json"
+    },
+    {
+      "file_id": "C2C_0207",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0207.json"
+    },
+    {
+      "file_id": "C2C_0208",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0208.json"
+    },
+    {
+      "file_id": "C2C_0209",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0209.json"
+    },
+    {
+      "file_id": "C2C_0210",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0210.json"
+    },
+    {
+      "file_id": "C2C_0211",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0211.json"
+    },
+    {
+      "file_id": "C2C_0212",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0212.json"
+    },
+    {
+      "file_id": "C2C_0213",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0213.json"
+    },
+    {
+      "file_id": "C2C_0214",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0214.json"
+    },
+    {
+      "file_id": "C2C_0215",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0215.json"
+    },
+    {
+      "file_id": "C2C_0216",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0216.json"
+    },
+    {
+      "file_id": "C2C_0217",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0217.json"
+    },
+    {
+      "file_id": "C2C_0218",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0218.json"
+    },
+    {
+      "file_id": "C2C_0219",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0219.json"
+    },
+    {
+      "file_id": "C2C_0220",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0220.json"
+    },
+    {
+      "file_id": "C2C_0221",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0221.json"
+    },
+    {
+      "file_id": "C2C_0222",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0222.json"
+    },
+    {
+      "file_id": "C2C_0223",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0223.json"
+    },
+    {
+      "file_id": "C2C_0224",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0224.json"
+    },
+    {
+      "file_id": "C2C_0225",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0225.json"
+    },
+    {
+      "file_id": "C2C_0226",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0226.json"
+    },
+    {
+      "file_id": "C2C_0227",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0227.json"
+    },
+    {
+      "file_id": "C2C_0228",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0228.json"
+    },
+    {
+      "file_id": "C2C_0229",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0229.json"
+    },
+    {
+      "file_id": "C2C_0230",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0230.json"
+    },
+    {
+      "file_id": "C2C_0231",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0231.json"
+    },
+    {
+      "file_id": "C2C_0232",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0232.json"
+    },
+    {
+      "file_id": "C2C_0233",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0233.json"
+    },
+    {
+      "file_id": "C2C_0234",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0234.json"
+    },
+    {
+      "file_id": "C2C_0235",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0235.json"
+    },
+    {
+      "file_id": "C2C_0236",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0236.json"
+    },
+    {
+      "file_id": "C2C_0237",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0237.json"
+    },
+    {
+      "file_id": "C2C_0238",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0238.json"
+    },
+    {
+      "file_id": "C2C_0239",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0239.json"
+    },
+    {
+      "file_id": "C2C_0240",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0240.json"
+    },
+    {
+      "file_id": "C2C_0241",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0241.json"
+    },
+    {
+      "file_id": "C2C_0242",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0242.json"
+    },
+    {
+      "file_id": "C2C_0243",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0243.json"
+    },
+    {
+      "file_id": "C2C_0244",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0244.json"
+    },
+    {
+      "file_id": "C2C_0245",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0245.json"
+    },
+    {
+      "file_id": "C2C_0246",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0246.json"
+    },
+    {
+      "file_id": "C2C_0247",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0247.json"
+    },
+    {
+      "file_id": "C2C_0248",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0248.json"
+    },
+    {
+      "file_id": "C2C_0249",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0249.json"
+    },
+    {
+      "file_id": "C2C_0250",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0250.json"
+    },
+    {
+      "file_id": "C2C_0251",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0251.json"
+    },
+    {
+      "file_id": "C2C_0252",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0252.json"
+    },
+    {
+      "file_id": "C2C_0253",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0253.json"
+    },
+    {
+      "file_id": "C2C_0254",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0254.json"
+    },
+    {
+      "file_id": "C2C_0255",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0255.json"
+    },
+    {
+      "file_id": "C2C_0256",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0256.json"
+    },
+    {
+      "file_id": "C2C_0257",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0257.json"
+    },
+    {
+      "file_id": "C2C_0258",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0258.json"
+    },
+    {
+      "file_id": "C2C_0259",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0259.json"
+    },
+    {
+      "file_id": "C2C_0260",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0260.json"
+    },
+    {
+      "file_id": "C2C_0261",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0261.json"
+    },
+    {
+      "file_id": "C2C_0262",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0262.json"
+    },
+    {
+      "file_id": "C2C_0263",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0263.json"
+    },
+    {
+      "file_id": "C2C_0264",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0264.json"
+    },
+    {
+      "file_id": "C2C_0265",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0265.json"
+    },
+    {
+      "file_id": "C2C_0266",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0266.json"
+    },
+    {
+      "file_id": "C2C_0267",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0267.json"
+    },
+    {
+      "file_id": "C2C_0268",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0268.json"
+    },
+    {
+      "file_id": "C2C_0269",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0269.json"
+    },
+    {
+      "file_id": "C2C_0270",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0270.json"
+    },
+    {
+      "file_id": "C2C_0271",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0271.json"
+    },
+    {
+      "file_id": "C2C_0272",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0272.json"
+    },
+    {
+      "file_id": "C2C_0273",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0273.json"
+    },
+    {
+      "file_id": "C2C_0274",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0274.json"
+    },
+    {
+      "file_id": "C2C_0275",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0275.json"
+    },
+    {
+      "file_id": "C2C_0276",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0276.json"
+    },
+    {
+      "file_id": "C2C_0277",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0277.json"
+    },
+    {
+      "file_id": "C2C_0278",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0278.json"
+    },
+    {
+      "file_id": "C2C_0279",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0279.json"
+    },
+    {
+      "file_id": "C2C_0280",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0280.json"
+    },
+    {
+      "file_id": "C2C_0281",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0281.json"
+    },
+    {
+      "file_id": "C2C_0282",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0282.json"
+    },
+    {
+      "file_id": "C2C_0283",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0283.json"
+    },
+    {
+      "file_id": "C2C_0284",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0284.json"
+    },
+    {
+      "file_id": "C2C_0285",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0285.json"
+    },
+    {
+      "file_id": "C2C_0286",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0286.json"
+    },
+    {
+      "file_id": "C2C_0287",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0287.json"
+    },
+    {
+      "file_id": "C2C_0288",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0288.json"
+    },
+    {
+      "file_id": "C2C_0289",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0289.json"
+    },
+    {
+      "file_id": "C2C_0290",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0290.json"
+    },
+    {
+      "file_id": "C2C_0291",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0291.json"
+    },
+    {
+      "file_id": "C2C_0292",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0292.json"
+    },
+    {
+      "file_id": "C2C_0293",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0293.json"
+    },
+    {
+      "file_id": "C2C_0294",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0294.json"
+    },
+    {
+      "file_id": "C2C_0295",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0295.json"
+    },
+    {
+      "file_id": "C2C_0296",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0296.json"
+    },
+    {
+      "file_id": "C2C_0297",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0297.json"
+    },
+    {
+      "file_id": "C2C_0298",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0298.json"
+    },
+    {
+      "file_id": "C2C_0299",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0299.json"
+    },
+    {
+      "file_id": "C2C_0300",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0300.json"
+    },
+    {
+      "file_id": "C2C_0301",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0301.json"
+    },
+    {
+      "file_id": "C2C_0302",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0302.json"
+    },
+    {
+      "file_id": "C2C_0303",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0303.json"
+    },
+    {
+      "file_id": "C2C_0304",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0304.json"
+    },
+    {
+      "file_id": "C2C_0305",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0305.json"
+    },
+    {
+      "file_id": "C2C_0306",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0306.json"
+    },
+    {
+      "file_id": "C2C_0307",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0307.json"
+    },
+    {
+      "file_id": "C2C_0308",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0308.json"
+    },
+    {
+      "file_id": "C2C_0309",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0309.json"
+    },
+    {
+      "file_id": "C2C_0310",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0310.json"
+    },
+    {
+      "file_id": "C2C_0311",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0311.json"
+    },
+    {
+      "file_id": "C2C_0312",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0312.json"
+    },
+    {
+      "file_id": "C2C_0313",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0313.json"
+    },
+    {
+      "file_id": "C2C_0314",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0314.json"
+    },
+    {
+      "file_id": "C2C_0315",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0315.json"
+    },
+    {
+      "file_id": "C2C_0316",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0316.json"
+    },
+    {
+      "file_id": "C2C_0317",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0317.json"
+    },
+    {
+      "file_id": "C2C_0318",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0318.json"
+    },
+    {
+      "file_id": "C2C_0319",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0319.json"
+    },
+    {
+      "file_id": "C2C_0320",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0320.json"
+    },
+    {
+      "file_id": "C2C_0321",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0321.json"
+    },
+    {
+      "file_id": "C2C_0322",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0322.json"
+    },
+    {
+      "file_id": "C2C_0323",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0323.json"
+    },
+    {
+      "file_id": "C2C_0324",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0324.json"
+    },
+    {
+      "file_id": "C2C_0325",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0325.json"
+    },
+    {
+      "file_id": "C2C_0326",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0326.json"
+    },
+    {
+      "file_id": "C2C_0327",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0327.json"
+    },
+    {
+      "file_id": "C2C_0328",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0328.json"
+    },
+    {
+      "file_id": "C2C_0329",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0329.json"
+    },
+    {
+      "file_id": "C2C_0330",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0330.json"
+    },
+    {
+      "file_id": "C2C_0331",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0331.json"
+    },
+    {
+      "file_id": "C2C_0332",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0332.json"
+    },
+    {
+      "file_id": "C2C_0333",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0333.json"
+    },
+    {
+      "file_id": "C2C_0334",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0334.json"
+    },
+    {
+      "file_id": "C2C_0335",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0335.json"
+    },
+    {
+      "file_id": "C2C_0336",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0336.json"
+    },
+    {
+      "file_id": "C2C_0337",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0337.json"
+    },
+    {
+      "file_id": "C2C_0338",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0338.json"
+    },
+    {
+      "file_id": "C2C_0339",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0339.json"
+    },
+    {
+      "file_id": "C2C_0340",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0340.json"
+    },
+    {
+      "file_id": "C2C_0341",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0341.json"
+    },
+    {
+      "file_id": "C2C_0342",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0342.json"
+    },
+    {
+      "file_id": "C2C_0343",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0343.json"
+    },
+    {
+      "file_id": "C2C_0344",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0344.json"
+    },
+    {
+      "file_id": "C2C_0345",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0345.json"
+    },
+    {
+      "file_id": "C2C_0346",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0346.json"
+    },
+    {
+      "file_id": "C2C_0347",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0347.json"
+    },
+    {
+      "file_id": "C2C_0348",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0348.json"
+    },
+    {
+      "file_id": "C2C_0349",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0349.json"
+    },
+    {
+      "file_id": "C2C_0350",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0350.json"
+    },
+    {
+      "file_id": "C2C_0351",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0351.json"
+    },
+    {
+      "file_id": "C2C_0352",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0352.json"
+    },
+    {
+      "file_id": "C2C_0353",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0353.json"
+    },
+    {
+      "file_id": "C2C_0354",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0354.json"
+    },
+    {
+      "file_id": "C2C_0355",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0355.json"
+    },
+    {
+      "file_id": "C2C_0356",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0356.json"
+    },
+    {
+      "file_id": "C2C_0357",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0357.json"
+    },
+    {
+      "file_id": "C2C_0358",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0358.json"
+    },
+    {
+      "file_id": "C2C_0359",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0359.json"
+    },
+    {
+      "file_id": "C2C_0360",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0360.json"
+    },
+    {
+      "file_id": "C2C_0361",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0361.json"
+    },
+    {
+      "file_id": "C2C_0362",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0362.json"
+    },
+    {
+      "file_id": "C2C_0363",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0363.json"
+    },
+    {
+      "file_id": "C2C_0364",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0364.json"
+    },
+    {
+      "file_id": "C2C_0365",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0365.json"
+    },
+    {
+      "file_id": "C2C_0366",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0366.json"
+    },
+    {
+      "file_id": "C2C_0367",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0367.json"
+    },
+    {
+      "file_id": "C2C_0368",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0368.json"
+    },
+    {
+      "file_id": "C2C_0369",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0369.json"
+    },
+    {
+      "file_id": "C2C_0370",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0370.json"
+    },
+    {
+      "file_id": "C2C_0371",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0371.json"
+    },
+    {
+      "file_id": "C2C_0372",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0372.json"
+    },
+    {
+      "file_id": "C2C_0373",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0373.json"
+    },
+    {
+      "file_id": "C2C_0374",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0374.json"
+    },
+    {
+      "file_id": "C2C_0375",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0375.json"
+    },
+    {
+      "file_id": "C2C_0376",
+      "label": 1,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0376.json"
+    },
+    {
+      "file_id": "C2C_0377",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0377.json"
+    },
+    {
+      "file_id": "C2C_0378",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0378.json"
+    },
+    {
+      "file_id": "C2C_0379",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0379.json"
+    },
+    {
+      "file_id": "C2C_0380",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0380.json"
+    },
+    {
+      "file_id": "C2C_0381",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0381.json"
+    },
+    {
+      "file_id": "C2C_0382",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0382.json"
+    },
+    {
+      "file_id": "C2C_0383",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0383.json"
+    },
+    {
+      "file_id": "C2C_0384",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0384.json"
+    },
+    {
+      "file_id": "C2C_0385",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0385.json"
+    },
+    {
+      "file_id": "C2C_0386",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0386.json"
+    },
+    {
+      "file_id": "C2C_0387",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0387.json"
+    },
+    {
+      "file_id": "C2C_0388",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0388.json"
+    },
+    {
+      "file_id": "C2C_0389",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0389.json"
+    },
+    {
+      "file_id": "C2C_0390",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0390.json"
+    },
+    {
+      "file_id": "C2C_0391",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0391.json"
+    },
+    {
+      "file_id": "C2C_0392",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0392.json"
+    },
+    {
+      "file_id": "C2C_0393",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0393.json"
+    },
+    {
+      "file_id": "C2C_0394",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0394.json"
+    },
+    {
+      "file_id": "C2C_0395",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0395.json"
+    },
+    {
+      "file_id": "C2C_0396",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0396.json"
+    },
+    {
+      "file_id": "C2C_0397",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0397.json"
+    },
+    {
+      "file_id": "C2C_0398",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0398.json"
+    },
+    {
+      "file_id": "C2C_0399",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0399.json"
+    },
+    {
+      "file_id": "C2C_0400",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0400.json"
+    },
+    {
+      "file_id": "C2C_0401",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0401.json"
+    },
+    {
+      "file_id": "C2C_0402",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0402.json"
+    },
+    {
+      "file_id": "C2C_0403",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0403.json"
+    },
+    {
+      "file_id": "C2C_0404",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0404.json"
+    },
+    {
+      "file_id": "C2C_0405",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0405.json"
+    },
+    {
+      "file_id": "C2C_0406",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0406.json"
+    },
+    {
+      "file_id": "C2C_0407",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0407.json"
+    },
+    {
+      "file_id": "C2C_0408",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0408.json"
+    },
+    {
+      "file_id": "C2C_0409",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0409.json"
+    },
+    {
+      "file_id": "C2C_0410",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0410.json"
+    },
+    {
+      "file_id": "C2C_0411",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0411.json"
+    },
+    {
+      "file_id": "C2C_0412",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0412.json"
+    },
+    {
+      "file_id": "C2C_0413",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0413.json"
+    },
+    {
+      "file_id": "C2C_0414",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0414.json"
+    },
+    {
+      "file_id": "C2C_0415",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0415.json"
+    },
+    {
+      "file_id": "C2C_0416",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0416.json"
+    },
+    {
+      "file_id": "C2C_0417",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0417.json"
+    },
+    {
+      "file_id": "C2C_0418",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0418.json"
+    },
+    {
+      "file_id": "C2C_0419",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0419.json"
+    },
+    {
+      "file_id": "C2C_0420",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0420.json"
+    },
+    {
+      "file_id": "C2C_0421",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0421.json"
+    },
+    {
+      "file_id": "C2C_0422",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0422.json"
+    },
+    {
+      "file_id": "C2C_0423",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0423.json"
+    },
+    {
+      "file_id": "C2C_0424",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0424.json"
+    },
+    {
+      "file_id": "C2C_0425",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0425.json"
+    },
+    {
+      "file_id": "C2C_0426",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0426.json"
+    },
+    {
+      "file_id": "C2C_0427",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0427.json"
+    },
+    {
+      "file_id": "C2C_0428",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0428.json"
+    },
+    {
+      "file_id": "C2C_0429",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0429.json"
+    },
+    {
+      "file_id": "C2C_0430",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0430.json"
+    },
+    {
+      "file_id": "C2C_0431",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0431.json"
+    },
+    {
+      "file_id": "C2C_0432",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0432.json"
+    },
+    {
+      "file_id": "C2C_0433",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0433.json"
+    },
+    {
+      "file_id": "C2C_0434",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0434.json"
+    },
+    {
+      "file_id": "C2C_0435",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0435.json"
+    },
+    {
+      "file_id": "C2C_0436",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0436.json"
+    },
+    {
+      "file_id": "C2C_0437",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0437.json"
+    },
+    {
+      "file_id": "C2C_0438",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0438.json"
+    },
+    {
+      "file_id": "C2C_0439",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0439.json"
+    },
+    {
+      "file_id": "C2C_0440",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0440.json"
+    },
+    {
+      "file_id": "C2C_0441",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0441.json"
+    },
+    {
+      "file_id": "C2C_0442",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0442.json"
+    },
+    {
+      "file_id": "C2C_0443",
+      "label": 1,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0443.json"
+    },
+    {
+      "file_id": "C2C_0444",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0444.json"
+    },
+    {
+      "file_id": "C2C_0445",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0445.json"
+    },
+    {
+      "file_id": "C2C_0446",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0446.json"
+    },
+    {
+      "file_id": "C2C_0447",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0447.json"
+    },
+    {
+      "file_id": "C2C_0448",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0448.json"
+    },
+    {
+      "file_id": "C2C_0449",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0449.json"
+    },
+    {
+      "file_id": "C2C_0450",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0450.json"
+    },
+    {
+      "file_id": "C2C_0451",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0451.json"
+    },
+    {
+      "file_id": "C2C_0452",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0452.json"
+    },
+    {
+      "file_id": "C2C_0453",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0453.json"
+    },
+    {
+      "file_id": "C2C_0454",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0454.json"
+    },
+    {
+      "file_id": "C2C_0455",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0455.json"
+    },
+    {
+      "file_id": "C2C_0456",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0456.json"
+    },
+    {
+      "file_id": "C2C_0457",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0457.json"
+    },
+    {
+      "file_id": "C2C_0458",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0458.json"
+    },
+    {
+      "file_id": "C2C_0459",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0459.json"
+    },
+    {
+      "file_id": "C2C_0460",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0460.json"
+    },
+    {
+      "file_id": "C2C_0461",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0461.json"
+    },
+    {
+      "file_id": "C2C_0462",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0462.json"
+    },
+    {
+      "file_id": "C2C_0463",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0463.json"
+    },
+    {
+      "file_id": "C2C_0464",
+      "label": 0,
+      "num_variables": 5,
+      "template": "parent",
+      "filename": "C2C_0464.json"
+    },
+    {
+      "file_id": "C2C_0465",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0465.json"
+    },
+    {
+      "file_id": "C2C_0466",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0466.json"
+    },
+    {
+      "file_id": "C2C_0467",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0467.json"
+    },
+    {
+      "file_id": "C2C_0468",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0468.json"
+    },
+    {
+      "file_id": "C2C_0469",
+      "label": 0,
+      "num_variables": 5,
+      "template": "non-child descendant",
+      "filename": "C2C_0469.json"
+    },
+    {
+      "file_id": "C2C_0470",
+      "label": 0,
+      "num_variables": 5,
+      "template": "child",
+      "filename": "C2C_0470.json"
+    },
+    {
+      "file_id": "C2C_0471",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0471.json"
+    },
+    {
+      "file_id": "C2C_0472",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0472.json"
+    },
+    {
+      "file_id": "C2C_0473",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0473.json"
+    },
+    {
+      "file_id": "C2C_0474",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0474.json"
+    },
+    {
+      "file_id": "C2C_0475",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0475.json"
+    },
+    {
+      "file_id": "C2C_0476",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0476.json"
+    },
+    {
+      "file_id": "C2C_0477",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0477.json"
+    },
+    {
+      "file_id": "C2C_0478",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0478.json"
+    },
+    {
+      "file_id": "C2C_0479",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0479.json"
+    },
+    {
+      "file_id": "C2C_0480",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0480.json"
+    },
+    {
+      "file_id": "C2C_0481",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0481.json"
+    },
+    {
+      "file_id": "C2C_0482",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0482.json"
+    },
+    {
+      "file_id": "C2C_0483",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0483.json"
+    },
+    {
+      "file_id": "C2C_0484",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0484.json"
+    },
+    {
+      "file_id": "C2C_0485",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0485.json"
+    },
+    {
+      "file_id": "C2C_0486",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0486.json"
+    },
+    {
+      "file_id": "C2C_0487",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0487.json"
+    },
+    {
+      "file_id": "C2C_0488",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0488.json"
+    },
+    {
+      "file_id": "C2C_0489",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0489.json"
+    },
+    {
+      "file_id": "C2C_0490",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0490.json"
+    },
+    {
+      "file_id": "C2C_0491",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0491.json"
+    },
+    {
+      "file_id": "C2C_0492",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0492.json"
+    },
+    {
+      "file_id": "C2C_0493",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0493.json"
+    },
+    {
+      "file_id": "C2C_0494",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0494.json"
+    },
+    {
+      "file_id": "C2C_0495",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0495.json"
+    },
+    {
+      "file_id": "C2C_0496",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0496.json"
+    },
+    {
+      "file_id": "C2C_0497",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0497.json"
+    },
+    {
+      "file_id": "C2C_0498",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0498.json"
+    },
+    {
+      "file_id": "C2C_0499",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0499.json"
+    },
+    {
+      "file_id": "C2C_0500",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0500.json"
+    },
+    {
+      "file_id": "C2C_0501",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0501.json"
+    },
+    {
+      "file_id": "C2C_0502",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0502.json"
+    },
+    {
+      "file_id": "C2C_0503",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0503.json"
+    },
+    {
+      "file_id": "C2C_0504",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0504.json"
+    },
+    {
+      "file_id": "C2C_0505",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0505.json"
+    },
+    {
+      "file_id": "C2C_0506",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0506.json"
+    },
+    {
+      "file_id": "C2C_0507",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0507.json"
+    },
+    {
+      "file_id": "C2C_0508",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0508.json"
+    },
+    {
+      "file_id": "C2C_0509",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0509.json"
+    },
+    {
+      "file_id": "C2C_0510",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0510.json"
+    },
+    {
+      "file_id": "C2C_0511",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0511.json"
+    },
+    {
+      "file_id": "C2C_0512",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0512.json"
+    },
+    {
+      "file_id": "C2C_0513",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0513.json"
+    },
+    {
+      "file_id": "C2C_0514",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0514.json"
+    },
+    {
+      "file_id": "C2C_0515",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0515.json"
+    },
+    {
+      "file_id": "C2C_0516",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0516.json"
+    },
+    {
+      "file_id": "C2C_0517",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0517.json"
+    },
+    {
+      "file_id": "C2C_0518",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0518.json"
+    },
+    {
+      "file_id": "C2C_0519",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0519.json"
+    },
+    {
+      "file_id": "C2C_0520",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0520.json"
+    },
+    {
+      "file_id": "C2C_0521",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0521.json"
+    },
+    {
+      "file_id": "C2C_0522",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0522.json"
+    },
+    {
+      "file_id": "C2C_0523",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0523.json"
+    },
+    {
+      "file_id": "C2C_0524",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0524.json"
+    },
+    {
+      "file_id": "C2C_0525",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0525.json"
+    },
+    {
+      "file_id": "C2C_0526",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0526.json"
+    },
+    {
+      "file_id": "C2C_0527",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0527.json"
+    },
+    {
+      "file_id": "C2C_0528",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0528.json"
+    },
+    {
+      "file_id": "C2C_0529",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0529.json"
+    },
+    {
+      "file_id": "C2C_0530",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0530.json"
+    },
+    {
+      "file_id": "C2C_0531",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0531.json"
+    },
+    {
+      "file_id": "C2C_0532",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0532.json"
+    },
+    {
+      "file_id": "C2C_0533",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0533.json"
+    },
+    {
+      "file_id": "C2C_0534",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0534.json"
+    },
+    {
+      "file_id": "C2C_0535",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0535.json"
+    },
+    {
+      "file_id": "C2C_0536",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0536.json"
+    },
+    {
+      "file_id": "C2C_0537",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0537.json"
+    },
+    {
+      "file_id": "C2C_0538",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0538.json"
+    },
+    {
+      "file_id": "C2C_0539",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0539.json"
+    },
+    {
+      "file_id": "C2C_0540",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0540.json"
+    },
+    {
+      "file_id": "C2C_0541",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0541.json"
+    },
+    {
+      "file_id": "C2C_0542",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0542.json"
+    },
+    {
+      "file_id": "C2C_0543",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0543.json"
+    },
+    {
+      "file_id": "C2C_0544",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0544.json"
+    },
+    {
+      "file_id": "C2C_0545",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0545.json"
+    },
+    {
+      "file_id": "C2C_0546",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0546.json"
+    },
+    {
+      "file_id": "C2C_0547",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0547.json"
+    },
+    {
+      "file_id": "C2C_0548",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0548.json"
+    },
+    {
+      "file_id": "C2C_0549",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0549.json"
+    },
+    {
+      "file_id": "C2C_0550",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0550.json"
+    },
+    {
+      "file_id": "C2C_0551",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0551.json"
+    },
+    {
+      "file_id": "C2C_0552",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0552.json"
+    },
+    {
+      "file_id": "C2C_0553",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0553.json"
+    },
+    {
+      "file_id": "C2C_0554",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0554.json"
+    },
+    {
+      "file_id": "C2C_0555",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0555.json"
+    },
+    {
+      "file_id": "C2C_0556",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0556.json"
+    },
+    {
+      "file_id": "C2C_0557",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0557.json"
+    },
+    {
+      "file_id": "C2C_0558",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0558.json"
+    },
+    {
+      "file_id": "C2C_0559",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0559.json"
+    },
+    {
+      "file_id": "C2C_0560",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0560.json"
+    },
+    {
+      "file_id": "C2C_0561",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0561.json"
+    },
+    {
+      "file_id": "C2C_0562",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0562.json"
+    },
+    {
+      "file_id": "C2C_0563",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0563.json"
+    },
+    {
+      "file_id": "C2C_0564",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0564.json"
+    },
+    {
+      "file_id": "C2C_0565",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0565.json"
+    },
+    {
+      "file_id": "C2C_0566",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0566.json"
+    },
+    {
+      "file_id": "C2C_0567",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0567.json"
+    },
+    {
+      "file_id": "C2C_0568",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0568.json"
+    },
+    {
+      "file_id": "C2C_0569",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0569.json"
+    },
+    {
+      "file_id": "C2C_0570",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0570.json"
+    },
+    {
+      "file_id": "C2C_0571",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0571.json"
+    },
+    {
+      "file_id": "C2C_0572",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0572.json"
+    },
+    {
+      "file_id": "C2C_0573",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0573.json"
+    },
+    {
+      "file_id": "C2C_0574",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0574.json"
+    },
+    {
+      "file_id": "C2C_0575",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0575.json"
+    },
+    {
+      "file_id": "C2C_0576",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0576.json"
+    },
+    {
+      "file_id": "C2C_0577",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0577.json"
+    },
+    {
+      "file_id": "C2C_0578",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0578.json"
+    },
+    {
+      "file_id": "C2C_0579",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0579.json"
+    },
+    {
+      "file_id": "C2C_0580",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0580.json"
+    },
+    {
+      "file_id": "C2C_0581",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0581.json"
+    },
+    {
+      "file_id": "C2C_0582",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0582.json"
+    },
+    {
+      "file_id": "C2C_0583",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0583.json"
+    },
+    {
+      "file_id": "C2C_0584",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0584.json"
+    },
+    {
+      "file_id": "C2C_0585",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0585.json"
+    },
+    {
+      "file_id": "C2C_0586",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0586.json"
+    },
+    {
+      "file_id": "C2C_0587",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0587.json"
+    },
+    {
+      "file_id": "C2C_0588",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0588.json"
+    },
+    {
+      "file_id": "C2C_0589",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0589.json"
+    },
+    {
+      "file_id": "C2C_0590",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0590.json"
+    },
+    {
+      "file_id": "C2C_0591",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0591.json"
+    },
+    {
+      "file_id": "C2C_0592",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0592.json"
+    },
+    {
+      "file_id": "C2C_0593",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0593.json"
+    },
+    {
+      "file_id": "C2C_0594",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0594.json"
+    },
+    {
+      "file_id": "C2C_0595",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0595.json"
+    },
+    {
+      "file_id": "C2C_0596",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0596.json"
+    },
+    {
+      "file_id": "C2C_0597",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0597.json"
+    },
+    {
+      "file_id": "C2C_0598",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0598.json"
+    },
+    {
+      "file_id": "C2C_0599",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0599.json"
+    },
+    {
+      "file_id": "C2C_0600",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0600.json"
+    },
+    {
+      "file_id": "C2C_0601",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0601.json"
+    },
+    {
+      "file_id": "C2C_0602",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0602.json"
+    },
+    {
+      "file_id": "C2C_0603",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0603.json"
+    },
+    {
+      "file_id": "C2C_0604",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0604.json"
+    },
+    {
+      "file_id": "C2C_0605",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0605.json"
+    },
+    {
+      "file_id": "C2C_0606",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0606.json"
+    },
+    {
+      "file_id": "C2C_0607",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0607.json"
+    },
+    {
+      "file_id": "C2C_0608",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0608.json"
+    },
+    {
+      "file_id": "C2C_0609",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0609.json"
+    },
+    {
+      "file_id": "C2C_0610",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0610.json"
+    },
+    {
+      "file_id": "C2C_0611",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0611.json"
+    },
+    {
+      "file_id": "C2C_0612",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0612.json"
+    },
+    {
+      "file_id": "C2C_0613",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0613.json"
+    },
+    {
+      "file_id": "C2C_0614",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0614.json"
+    },
+    {
+      "file_id": "C2C_0615",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0615.json"
+    },
+    {
+      "file_id": "C2C_0616",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0616.json"
+    },
+    {
+      "file_id": "C2C_0617",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0617.json"
+    },
+    {
+      "file_id": "C2C_0618",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0618.json"
+    },
+    {
+      "file_id": "C2C_0619",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0619.json"
+    },
+    {
+      "file_id": "C2C_0620",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0620.json"
+    },
+    {
+      "file_id": "C2C_0621",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0621.json"
+    },
+    {
+      "file_id": "C2C_0622",
+      "label": 1,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0622.json"
+    },
+    {
+      "file_id": "C2C_0623",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0623.json"
+    },
+    {
+      "file_id": "C2C_0624",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0624.json"
+    },
+    {
+      "file_id": "C2C_0625",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0625.json"
+    },
+    {
+      "file_id": "C2C_0626",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0626.json"
+    },
+    {
+      "file_id": "C2C_0627",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0627.json"
+    },
+    {
+      "file_id": "C2C_0628",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0628.json"
+    },
+    {
+      "file_id": "C2C_0629",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0629.json"
+    },
+    {
+      "file_id": "C2C_0630",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0630.json"
+    },
+    {
+      "file_id": "C2C_0631",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0631.json"
+    },
+    {
+      "file_id": "C2C_0632",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0632.json"
+    },
+    {
+      "file_id": "C2C_0633",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0633.json"
+    },
+    {
+      "file_id": "C2C_0634",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0634.json"
+    },
+    {
+      "file_id": "C2C_0635",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0635.json"
+    },
+    {
+      "file_id": "C2C_0636",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0636.json"
+    },
+    {
+      "file_id": "C2C_0637",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0637.json"
+    },
+    {
+      "file_id": "C2C_0638",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0638.json"
+    },
+    {
+      "file_id": "C2C_0639",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_collider",
+      "filename": "C2C_0639.json"
+    },
+    {
+      "file_id": "C2C_0640",
+      "label": 0,
+      "num_variables": 5,
+      "template": "has_confounder",
+      "filename": "C2C_0640.json"
+    },
+    {
+      "file_id": "C2C_0641",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0641.json"
+    },
+    {
+      "file_id": "C2C_0642",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0642.json"
+    },
+    {
+      "file_id": "C2C_0643",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0643.json"
+    },
+    {
+      "file_id": "C2C_0644",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0644.json"
+    },
+    {
+      "file_id": "C2C_0645",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0645.json"
+    },
+    {
+      "file_id": "C2C_0646",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0646.json"
+    },
+    {
+      "file_id": "C2C_0647",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0647.json"
+    },
+    {
+      "file_id": "C2C_0648",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0648.json"
+    },
+    {
+      "file_id": "C2C_0649",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0649.json"
+    },
+    {
+      "file_id": "C2C_0650",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0650.json"
+    },
+    {
+      "file_id": "C2C_0651",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0651.json"
+    },
+    {
+      "file_id": "C2C_0652",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0652.json"
+    },
+    {
+      "file_id": "C2C_0653",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0653.json"
+    },
+    {
+      "file_id": "C2C_0654",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0654.json"
+    },
+    {
+      "file_id": "C2C_0655",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0655.json"
+    },
+    {
+      "file_id": "C2C_0656",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0656.json"
+    },
+    {
+      "file_id": "C2C_0657",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0657.json"
+    },
+    {
+      "file_id": "C2C_0658",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0658.json"
+    },
+    {
+      "file_id": "C2C_0659",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0659.json"
+    },
+    {
+      "file_id": "C2C_0660",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0660.json"
+    },
+    {
+      "file_id": "C2C_0661",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0661.json"
+    },
+    {
+      "file_id": "C2C_0662",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0662.json"
+    },
+    {
+      "file_id": "C2C_0663",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0663.json"
+    },
+    {
+      "file_id": "C2C_0664",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0664.json"
+    },
+    {
+      "file_id": "C2C_0665",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0665.json"
+    },
+    {
+      "file_id": "C2C_0666",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0666.json"
+    },
+    {
+      "file_id": "C2C_0667",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0667.json"
+    },
+    {
+      "file_id": "C2C_0668",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0668.json"
+    },
+    {
+      "file_id": "C2C_0669",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0669.json"
+    },
+    {
+      "file_id": "C2C_0670",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0670.json"
+    },
+    {
+      "file_id": "C2C_0671",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0671.json"
+    },
+    {
+      "file_id": "C2C_0672",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0672.json"
+    },
+    {
+      "file_id": "C2C_0673",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0673.json"
+    },
+    {
+      "file_id": "C2C_0674",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0674.json"
+    },
+    {
+      "file_id": "C2C_0675",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0675.json"
+    },
+    {
+      "file_id": "C2C_0676",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0676.json"
+    },
+    {
+      "file_id": "C2C_0677",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0677.json"
+    },
+    {
+      "file_id": "C2C_0678",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0678.json"
+    },
+    {
+      "file_id": "C2C_0679",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0679.json"
+    },
+    {
+      "file_id": "C2C_0680",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0680.json"
+    },
+    {
+      "file_id": "C2C_0681",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0681.json"
+    },
+    {
+      "file_id": "C2C_0682",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0682.json"
+    },
+    {
+      "file_id": "C2C_0683",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0683.json"
+    },
+    {
+      "file_id": "C2C_0684",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0684.json"
+    },
+    {
+      "file_id": "C2C_0685",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0685.json"
+    },
+    {
+      "file_id": "C2C_0686",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0686.json"
+    },
+    {
+      "file_id": "C2C_0687",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0687.json"
+    },
+    {
+      "file_id": "C2C_0688",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0688.json"
+    },
+    {
+      "file_id": "C2C_0689",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0689.json"
+    },
+    {
+      "file_id": "C2C_0690",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0690.json"
+    },
+    {
+      "file_id": "C2C_0691",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0691.json"
+    },
+    {
+      "file_id": "C2C_0692",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0692.json"
+    },
+    {
+      "file_id": "C2C_0693",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0693.json"
+    },
+    {
+      "file_id": "C2C_0694",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0694.json"
+    },
+    {
+      "file_id": "C2C_0695",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0695.json"
+    },
+    {
+      "file_id": "C2C_0696",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0696.json"
+    },
+    {
+      "file_id": "C2C_0697",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0697.json"
+    },
+    {
+      "file_id": "C2C_0698",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0698.json"
+    },
+    {
+      "file_id": "C2C_0699",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0699.json"
+    },
+    {
+      "file_id": "C2C_0700",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0700.json"
+    },
+    {
+      "file_id": "C2C_0701",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0701.json"
+    },
+    {
+      "file_id": "C2C_0702",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0702.json"
+    },
+    {
+      "file_id": "C2C_0703",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0703.json"
+    },
+    {
+      "file_id": "C2C_0704",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0704.json"
+    },
+    {
+      "file_id": "C2C_0705",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0705.json"
+    },
+    {
+      "file_id": "C2C_0706",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0706.json"
+    },
+    {
+      "file_id": "C2C_0707",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0707.json"
+    },
+    {
+      "file_id": "C2C_0708",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0708.json"
+    },
+    {
+      "file_id": "C2C_0709",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0709.json"
+    },
+    {
+      "file_id": "C2C_0710",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0710.json"
+    },
+    {
+      "file_id": "C2C_0711",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0711.json"
+    },
+    {
+      "file_id": "C2C_0712",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0712.json"
+    },
+    {
+      "file_id": "C2C_0713",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0713.json"
+    },
+    {
+      "file_id": "C2C_0714",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0714.json"
+    },
+    {
+      "file_id": "C2C_0715",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0715.json"
+    },
+    {
+      "file_id": "C2C_0716",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0716.json"
+    },
+    {
+      "file_id": "C2C_0717",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0717.json"
+    },
+    {
+      "file_id": "C2C_0718",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0718.json"
+    },
+    {
+      "file_id": "C2C_0719",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0719.json"
+    },
+    {
+      "file_id": "C2C_0720",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0720.json"
+    },
+    {
+      "file_id": "C2C_0721",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0721.json"
+    },
+    {
+      "file_id": "C2C_0722",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0722.json"
+    },
+    {
+      "file_id": "C2C_0723",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0723.json"
+    },
+    {
+      "file_id": "C2C_0724",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0724.json"
+    },
+    {
+      "file_id": "C2C_0725",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0725.json"
+    },
+    {
+      "file_id": "C2C_0726",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0726.json"
+    },
+    {
+      "file_id": "C2C_0727",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0727.json"
+    },
+    {
+      "file_id": "C2C_0728",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0728.json"
+    },
+    {
+      "file_id": "C2C_0729",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0729.json"
+    },
+    {
+      "file_id": "C2C_0730",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0730.json"
+    },
+    {
+      "file_id": "C2C_0731",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0731.json"
+    },
+    {
+      "file_id": "C2C_0732",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0732.json"
+    },
+    {
+      "file_id": "C2C_0733",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0733.json"
+    },
+    {
+      "file_id": "C2C_0734",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0734.json"
+    },
+    {
+      "file_id": "C2C_0735",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0735.json"
+    },
+    {
+      "file_id": "C2C_0736",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0736.json"
+    },
+    {
+      "file_id": "C2C_0737",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0737.json"
+    },
+    {
+      "file_id": "C2C_0738",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0738.json"
+    },
+    {
+      "file_id": "C2C_0739",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0739.json"
+    },
+    {
+      "file_id": "C2C_0740",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0740.json"
+    },
+    {
+      "file_id": "C2C_0741",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0741.json"
+    },
+    {
+      "file_id": "C2C_0742",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0742.json"
+    },
+    {
+      "file_id": "C2C_0743",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0743.json"
+    },
+    {
+      "file_id": "C2C_0744",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0744.json"
+    },
+    {
+      "file_id": "C2C_0745",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0745.json"
+    },
+    {
+      "file_id": "C2C_0746",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0746.json"
+    },
+    {
+      "file_id": "C2C_0747",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0747.json"
+    },
+    {
+      "file_id": "C2C_0748",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0748.json"
+    },
+    {
+      "file_id": "C2C_0749",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0749.json"
+    },
+    {
+      "file_id": "C2C_0750",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0750.json"
+    },
+    {
+      "file_id": "C2C_0751",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0751.json"
+    },
+    {
+      "file_id": "C2C_0752",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0752.json"
+    },
+    {
+      "file_id": "C2C_0753",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0753.json"
+    },
+    {
+      "file_id": "C2C_0754",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0754.json"
+    },
+    {
+      "file_id": "C2C_0755",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0755.json"
+    },
+    {
+      "file_id": "C2C_0756",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0756.json"
+    },
+    {
+      "file_id": "C2C_0757",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0757.json"
+    },
+    {
+      "file_id": "C2C_0758",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0758.json"
+    },
+    {
+      "file_id": "C2C_0759",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0759.json"
+    },
+    {
+      "file_id": "C2C_0760",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0760.json"
+    },
+    {
+      "file_id": "C2C_0761",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0761.json"
+    },
+    {
+      "file_id": "C2C_0762",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0762.json"
+    },
+    {
+      "file_id": "C2C_0763",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0763.json"
+    },
+    {
+      "file_id": "C2C_0764",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0764.json"
+    },
+    {
+      "file_id": "C2C_0765",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0765.json"
+    },
+    {
+      "file_id": "C2C_0766",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0766.json"
+    },
+    {
+      "file_id": "C2C_0767",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0767.json"
+    },
+    {
+      "file_id": "C2C_0768",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0768.json"
+    },
+    {
+      "file_id": "C2C_0769",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0769.json"
+    },
+    {
+      "file_id": "C2C_0770",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0770.json"
+    },
+    {
+      "file_id": "C2C_0771",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0771.json"
+    },
+    {
+      "file_id": "C2C_0772",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0772.json"
+    },
+    {
+      "file_id": "C2C_0773",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0773.json"
+    },
+    {
+      "file_id": "C2C_0774",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0774.json"
+    },
+    {
+      "file_id": "C2C_0775",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0775.json"
+    },
+    {
+      "file_id": "C2C_0776",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0776.json"
+    },
+    {
+      "file_id": "C2C_0777",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0777.json"
+    },
+    {
+      "file_id": "C2C_0778",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0778.json"
+    },
+    {
+      "file_id": "C2C_0779",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0779.json"
+    },
+    {
+      "file_id": "C2C_0780",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0780.json"
+    },
+    {
+      "file_id": "C2C_0781",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0781.json"
+    },
+    {
+      "file_id": "C2C_0782",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0782.json"
+    },
+    {
+      "file_id": "C2C_0783",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0783.json"
+    },
+    {
+      "file_id": "C2C_0784",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0784.json"
+    },
+    {
+      "file_id": "C2C_0785",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0785.json"
+    },
+    {
+      "file_id": "C2C_0786",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0786.json"
+    },
+    {
+      "file_id": "C2C_0787",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0787.json"
+    },
+    {
+      "file_id": "C2C_0788",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0788.json"
+    },
+    {
+      "file_id": "C2C_0789",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0789.json"
+    },
+    {
+      "file_id": "C2C_0790",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0790.json"
+    },
+    {
+      "file_id": "C2C_0791",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0791.json"
+    },
+    {
+      "file_id": "C2C_0792",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0792.json"
+    },
+    {
+      "file_id": "C2C_0793",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0793.json"
+    },
+    {
+      "file_id": "C2C_0794",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0794.json"
+    },
+    {
+      "file_id": "C2C_0795",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0795.json"
+    },
+    {
+      "file_id": "C2C_0796",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0796.json"
+    },
+    {
+      "file_id": "C2C_0797",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0797.json"
+    },
+    {
+      "file_id": "C2C_0798",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0798.json"
+    },
+    {
+      "file_id": "C2C_0799",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0799.json"
+    },
+    {
+      "file_id": "C2C_0800",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0800.json"
+    },
+    {
+      "file_id": "C2C_0801",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0801.json"
+    },
+    {
+      "file_id": "C2C_0802",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0802.json"
+    },
+    {
+      "file_id": "C2C_0803",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0803.json"
+    },
+    {
+      "file_id": "C2C_0804",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0804.json"
+    },
+    {
+      "file_id": "C2C_0805",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0805.json"
+    },
+    {
+      "file_id": "C2C_0806",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0806.json"
+    },
+    {
+      "file_id": "C2C_0807",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0807.json"
+    },
+    {
+      "file_id": "C2C_0808",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0808.json"
+    },
+    {
+      "file_id": "C2C_0809",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0809.json"
+    },
+    {
+      "file_id": "C2C_0810",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0810.json"
+    },
+    {
+      "file_id": "C2C_0811",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0811.json"
+    },
+    {
+      "file_id": "C2C_0812",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0812.json"
+    },
+    {
+      "file_id": "C2C_0813",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0813.json"
+    },
+    {
+      "file_id": "C2C_0814",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0814.json"
+    },
+    {
+      "file_id": "C2C_0815",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0815.json"
+    },
+    {
+      "file_id": "C2C_0816",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0816.json"
+    },
+    {
+      "file_id": "C2C_0817",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0817.json"
+    },
+    {
+      "file_id": "C2C_0818",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0818.json"
+    },
+    {
+      "file_id": "C2C_0819",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0819.json"
+    },
+    {
+      "file_id": "C2C_0820",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0820.json"
+    },
+    {
+      "file_id": "C2C_0821",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0821.json"
+    },
+    {
+      "file_id": "C2C_0822",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0822.json"
+    },
+    {
+      "file_id": "C2C_0823",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0823.json"
+    },
+    {
+      "file_id": "C2C_0824",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0824.json"
+    },
+    {
+      "file_id": "C2C_0825",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0825.json"
+    },
+    {
+      "file_id": "C2C_0826",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0826.json"
+    },
+    {
+      "file_id": "C2C_0827",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0827.json"
+    },
+    {
+      "file_id": "C2C_0828",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0828.json"
+    },
+    {
+      "file_id": "C2C_0829",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0829.json"
+    },
+    {
+      "file_id": "C2C_0830",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0830.json"
+    },
+    {
+      "file_id": "C2C_0831",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0831.json"
+    },
+    {
+      "file_id": "C2C_0832",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0832.json"
+    },
+    {
+      "file_id": "C2C_0833",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0833.json"
+    },
+    {
+      "file_id": "C2C_0834",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0834.json"
+    },
+    {
+      "file_id": "C2C_0835",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0835.json"
+    },
+    {
+      "file_id": "C2C_0836",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0836.json"
+    },
+    {
+      "file_id": "C2C_0837",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0837.json"
+    },
+    {
+      "file_id": "C2C_0838",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0838.json"
+    },
+    {
+      "file_id": "C2C_0839",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0839.json"
+    },
+    {
+      "file_id": "C2C_0840",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0840.json"
+    },
+    {
+      "file_id": "C2C_0841",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0841.json"
+    },
+    {
+      "file_id": "C2C_0842",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0842.json"
+    },
+    {
+      "file_id": "C2C_0843",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0843.json"
+    },
+    {
+      "file_id": "C2C_0844",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0844.json"
+    },
+    {
+      "file_id": "C2C_0845",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0845.json"
+    },
+    {
+      "file_id": "C2C_0846",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0846.json"
+    },
+    {
+      "file_id": "C2C_0847",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0847.json"
+    },
+    {
+      "file_id": "C2C_0848",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0848.json"
+    },
+    {
+      "file_id": "C2C_0849",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0849.json"
+    },
+    {
+      "file_id": "C2C_0850",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0850.json"
+    },
+    {
+      "file_id": "C2C_0851",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0851.json"
+    },
+    {
+      "file_id": "C2C_0852",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0852.json"
+    },
+    {
+      "file_id": "C2C_0853",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0853.json"
+    },
+    {
+      "file_id": "C2C_0854",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0854.json"
+    },
+    {
+      "file_id": "C2C_0855",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0855.json"
+    },
+    {
+      "file_id": "C2C_0856",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0856.json"
+    },
+    {
+      "file_id": "C2C_0857",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0857.json"
+    },
+    {
+      "file_id": "C2C_0858",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0858.json"
+    },
+    {
+      "file_id": "C2C_0859",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0859.json"
+    },
+    {
+      "file_id": "C2C_0860",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0860.json"
+    },
+    {
+      "file_id": "C2C_0861",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0861.json"
+    },
+    {
+      "file_id": "C2C_0862",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0862.json"
+    },
+    {
+      "file_id": "C2C_0863",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0863.json"
+    },
+    {
+      "file_id": "C2C_0864",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0864.json"
+    },
+    {
+      "file_id": "C2C_0865",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0865.json"
+    },
+    {
+      "file_id": "C2C_0866",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0866.json"
+    },
+    {
+      "file_id": "C2C_0867",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0867.json"
+    },
+    {
+      "file_id": "C2C_0868",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0868.json"
+    },
+    {
+      "file_id": "C2C_0869",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0869.json"
+    },
+    {
+      "file_id": "C2C_0870",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0870.json"
+    },
+    {
+      "file_id": "C2C_0871",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0871.json"
+    },
+    {
+      "file_id": "C2C_0872",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0872.json"
+    },
+    {
+      "file_id": "C2C_0873",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0873.json"
+    },
+    {
+      "file_id": "C2C_0874",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0874.json"
+    },
+    {
+      "file_id": "C2C_0875",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0875.json"
+    },
+    {
+      "file_id": "C2C_0876",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0876.json"
+    },
+    {
+      "file_id": "C2C_0877",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0877.json"
+    },
+    {
+      "file_id": "C2C_0878",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0878.json"
+    },
+    {
+      "file_id": "C2C_0879",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0879.json"
+    },
+    {
+      "file_id": "C2C_0880",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0880.json"
+    },
+    {
+      "file_id": "C2C_0881",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0881.json"
+    },
+    {
+      "file_id": "C2C_0882",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0882.json"
+    },
+    {
+      "file_id": "C2C_0883",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0883.json"
+    },
+    {
+      "file_id": "C2C_0884",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0884.json"
+    },
+    {
+      "file_id": "C2C_0885",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0885.json"
+    },
+    {
+      "file_id": "C2C_0886",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0886.json"
+    },
+    {
+      "file_id": "C2C_0887",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0887.json"
+    },
+    {
+      "file_id": "C2C_0888",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0888.json"
+    },
+    {
+      "file_id": "C2C_0889",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0889.json"
+    },
+    {
+      "file_id": "C2C_0890",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0890.json"
+    },
+    {
+      "file_id": "C2C_0891",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0891.json"
+    },
+    {
+      "file_id": "C2C_0892",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0892.json"
+    },
+    {
+      "file_id": "C2C_0893",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0893.json"
+    },
+    {
+      "file_id": "C2C_0894",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0894.json"
+    },
+    {
+      "file_id": "C2C_0895",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0895.json"
+    },
+    {
+      "file_id": "C2C_0896",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0896.json"
+    },
+    {
+      "file_id": "C2C_0897",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_0897.json"
+    },
+    {
+      "file_id": "C2C_0898",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0898.json"
+    },
+    {
+      "file_id": "C2C_0899",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0899.json"
+    },
+    {
+      "file_id": "C2C_0900",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_0900.json"
+    },
+    {
+      "file_id": "C2C_0901",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0901.json"
+    },
+    {
+      "file_id": "C2C_0902",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0902.json"
+    },
+    {
+      "file_id": "C2C_0903",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0903.json"
+    },
+    {
+      "file_id": "C2C_0904",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0904.json"
+    },
+    {
+      "file_id": "C2C_0905",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0905.json"
+    },
+    {
+      "file_id": "C2C_0906",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0906.json"
+    },
+    {
+      "file_id": "C2C_0907",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0907.json"
+    },
+    {
+      "file_id": "C2C_0908",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0908.json"
+    },
+    {
+      "file_id": "C2C_0909",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0909.json"
+    },
+    {
+      "file_id": "C2C_0910",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0910.json"
+    },
+    {
+      "file_id": "C2C_0911",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_0911.json"
+    },
+    {
+      "file_id": "C2C_0912",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0912.json"
+    },
+    {
+      "file_id": "C2C_0913",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0913.json"
+    },
+    {
+      "file_id": "C2C_0914",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0914.json"
+    },
+    {
+      "file_id": "C2C_0915",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0915.json"
+    },
+    {
+      "file_id": "C2C_0916",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0916.json"
+    },
+    {
+      "file_id": "C2C_0917",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0917.json"
+    },
+    {
+      "file_id": "C2C_0918",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0918.json"
+    },
+    {
+      "file_id": "C2C_0919",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0919.json"
+    },
+    {
+      "file_id": "C2C_0920",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0920.json"
+    },
+    {
+      "file_id": "C2C_0921",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0921.json"
+    },
+    {
+      "file_id": "C2C_0922",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0922.json"
+    },
+    {
+      "file_id": "C2C_0923",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0923.json"
+    },
+    {
+      "file_id": "C2C_0924",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0924.json"
+    },
+    {
+      "file_id": "C2C_0925",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0925.json"
+    },
+    {
+      "file_id": "C2C_0926",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0926.json"
+    },
+    {
+      "file_id": "C2C_0927",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0927.json"
+    },
+    {
+      "file_id": "C2C_0928",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0928.json"
+    },
+    {
+      "file_id": "C2C_0929",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0929.json"
+    },
+    {
+      "file_id": "C2C_0930",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0930.json"
+    },
+    {
+      "file_id": "C2C_0931",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0931.json"
+    },
+    {
+      "file_id": "C2C_0932",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0932.json"
+    },
+    {
+      "file_id": "C2C_0933",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0933.json"
+    },
+    {
+      "file_id": "C2C_0934",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0934.json"
+    },
+    {
+      "file_id": "C2C_0935",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0935.json"
+    },
+    {
+      "file_id": "C2C_0936",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0936.json"
+    },
+    {
+      "file_id": "C2C_0937",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0937.json"
+    },
+    {
+      "file_id": "C2C_0938",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0938.json"
+    },
+    {
+      "file_id": "C2C_0939",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0939.json"
+    },
+    {
+      "file_id": "C2C_0940",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0940.json"
+    },
+    {
+      "file_id": "C2C_0941",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0941.json"
+    },
+    {
+      "file_id": "C2C_0942",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0942.json"
+    },
+    {
+      "file_id": "C2C_0943",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0943.json"
+    },
+    {
+      "file_id": "C2C_0944",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0944.json"
+    },
+    {
+      "file_id": "C2C_0945",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0945.json"
+    },
+    {
+      "file_id": "C2C_0946",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0946.json"
+    },
+    {
+      "file_id": "C2C_0947",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0947.json"
+    },
+    {
+      "file_id": "C2C_0948",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0948.json"
+    },
+    {
+      "file_id": "C2C_0949",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0949.json"
+    },
+    {
+      "file_id": "C2C_0950",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0950.json"
+    },
+    {
+      "file_id": "C2C_0951",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0951.json"
+    },
+    {
+      "file_id": "C2C_0952",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0952.json"
+    },
+    {
+      "file_id": "C2C_0953",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0953.json"
+    },
+    {
+      "file_id": "C2C_0954",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0954.json"
+    },
+    {
+      "file_id": "C2C_0955",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0955.json"
+    },
+    {
+      "file_id": "C2C_0956",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0956.json"
+    },
+    {
+      "file_id": "C2C_0957",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0957.json"
+    },
+    {
+      "file_id": "C2C_0958",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0958.json"
+    },
+    {
+      "file_id": "C2C_0959",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0959.json"
+    },
+    {
+      "file_id": "C2C_0960",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0960.json"
+    },
+    {
+      "file_id": "C2C_0961",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0961.json"
+    },
+    {
+      "file_id": "C2C_0962",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0962.json"
+    },
+    {
+      "file_id": "C2C_0963",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0963.json"
+    },
+    {
+      "file_id": "C2C_0964",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0964.json"
+    },
+    {
+      "file_id": "C2C_0965",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0965.json"
+    },
+    {
+      "file_id": "C2C_0966",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0966.json"
+    },
+    {
+      "file_id": "C2C_0967",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0967.json"
+    },
+    {
+      "file_id": "C2C_0968",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0968.json"
+    },
+    {
+      "file_id": "C2C_0969",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0969.json"
+    },
+    {
+      "file_id": "C2C_0970",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0970.json"
+    },
+    {
+      "file_id": "C2C_0971",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0971.json"
+    },
+    {
+      "file_id": "C2C_0972",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0972.json"
+    },
+    {
+      "file_id": "C2C_0973",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0973.json"
+    },
+    {
+      "file_id": "C2C_0974",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0974.json"
+    },
+    {
+      "file_id": "C2C_0975",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0975.json"
+    },
+    {
+      "file_id": "C2C_0976",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0976.json"
+    },
+    {
+      "file_id": "C2C_0977",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0977.json"
+    },
+    {
+      "file_id": "C2C_0978",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0978.json"
+    },
+    {
+      "file_id": "C2C_0979",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0979.json"
+    },
+    {
+      "file_id": "C2C_0980",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0980.json"
+    },
+    {
+      "file_id": "C2C_0981",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0981.json"
+    },
+    {
+      "file_id": "C2C_0982",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0982.json"
+    },
+    {
+      "file_id": "C2C_0983",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0983.json"
+    },
+    {
+      "file_id": "C2C_0984",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0984.json"
+    },
+    {
+      "file_id": "C2C_0985",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0985.json"
+    },
+    {
+      "file_id": "C2C_0986",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0986.json"
+    },
+    {
+      "file_id": "C2C_0987",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0987.json"
+    },
+    {
+      "file_id": "C2C_0988",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0988.json"
+    },
+    {
+      "file_id": "C2C_0989",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0989.json"
+    },
+    {
+      "file_id": "C2C_0990",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0990.json"
+    },
+    {
+      "file_id": "C2C_0991",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0991.json"
+    },
+    {
+      "file_id": "C2C_0992",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0992.json"
+    },
+    {
+      "file_id": "C2C_0993",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0993.json"
+    },
+    {
+      "file_id": "C2C_0994",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0994.json"
+    },
+    {
+      "file_id": "C2C_0995",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0995.json"
+    },
+    {
+      "file_id": "C2C_0996",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0996.json"
+    },
+    {
+      "file_id": "C2C_0997",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0997.json"
+    },
+    {
+      "file_id": "C2C_0998",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_0998.json"
+    },
+    {
+      "file_id": "C2C_0999",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_0999.json"
+    },
+    {
+      "file_id": "C2C_1000",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1000.json"
+    },
+    {
+      "file_id": "C2C_1001",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1001.json"
+    },
+    {
+      "file_id": "C2C_1002",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1002.json"
+    },
+    {
+      "file_id": "C2C_1003",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1003.json"
+    },
+    {
+      "file_id": "C2C_1004",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1004.json"
+    },
+    {
+      "file_id": "C2C_1005",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1005.json"
+    },
+    {
+      "file_id": "C2C_1006",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1006.json"
+    },
+    {
+      "file_id": "C2C_1007",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1007.json"
+    },
+    {
+      "file_id": "C2C_1008",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1008.json"
+    },
+    {
+      "file_id": "C2C_1009",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1009.json"
+    },
+    {
+      "file_id": "C2C_1010",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1010.json"
+    },
+    {
+      "file_id": "C2C_1011",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1011.json"
+    },
+    {
+      "file_id": "C2C_1012",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1012.json"
+    },
+    {
+      "file_id": "C2C_1013",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1013.json"
+    },
+    {
+      "file_id": "C2C_1014",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1014.json"
+    },
+    {
+      "file_id": "C2C_1015",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1015.json"
+    },
+    {
+      "file_id": "C2C_1016",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1016.json"
+    },
+    {
+      "file_id": "C2C_1017",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1017.json"
+    },
+    {
+      "file_id": "C2C_1018",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1018.json"
+    },
+    {
+      "file_id": "C2C_1019",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1019.json"
+    },
+    {
+      "file_id": "C2C_1020",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1020.json"
+    },
+    {
+      "file_id": "C2C_1021",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1021.json"
+    },
+    {
+      "file_id": "C2C_1022",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1022.json"
+    },
+    {
+      "file_id": "C2C_1023",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1023.json"
+    },
+    {
+      "file_id": "C2C_1024",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1024.json"
+    },
+    {
+      "file_id": "C2C_1025",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1025.json"
+    },
+    {
+      "file_id": "C2C_1026",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1026.json"
+    },
+    {
+      "file_id": "C2C_1027",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1027.json"
+    },
+    {
+      "file_id": "C2C_1028",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1028.json"
+    },
+    {
+      "file_id": "C2C_1029",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1029.json"
+    },
+    {
+      "file_id": "C2C_1030",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1030.json"
+    },
+    {
+      "file_id": "C2C_1031",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1031.json"
+    },
+    {
+      "file_id": "C2C_1032",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1032.json"
+    },
+    {
+      "file_id": "C2C_1033",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1033.json"
+    },
+    {
+      "file_id": "C2C_1034",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1034.json"
+    },
+    {
+      "file_id": "C2C_1035",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1035.json"
+    },
+    {
+      "file_id": "C2C_1036",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1036.json"
+    },
+    {
+      "file_id": "C2C_1037",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1037.json"
+    },
+    {
+      "file_id": "C2C_1038",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1038.json"
+    },
+    {
+      "file_id": "C2C_1039",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1039.json"
+    },
+    {
+      "file_id": "C2C_1040",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1040.json"
+    },
+    {
+      "file_id": "C2C_1041",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1041.json"
+    },
+    {
+      "file_id": "C2C_1042",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1042.json"
+    },
+    {
+      "file_id": "C2C_1043",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1043.json"
+    },
+    {
+      "file_id": "C2C_1044",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1044.json"
+    },
+    {
+      "file_id": "C2C_1045",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1045.json"
+    },
+    {
+      "file_id": "C2C_1046",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1046.json"
+    },
+    {
+      "file_id": "C2C_1047",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1047.json"
+    },
+    {
+      "file_id": "C2C_1048",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1048.json"
+    },
+    {
+      "file_id": "C2C_1049",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1049.json"
+    },
+    {
+      "file_id": "C2C_1050",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1050.json"
+    },
+    {
+      "file_id": "C2C_1051",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1051.json"
+    },
+    {
+      "file_id": "C2C_1052",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1052.json"
+    },
+    {
+      "file_id": "C2C_1053",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1053.json"
+    },
+    {
+      "file_id": "C2C_1054",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1054.json"
+    },
+    {
+      "file_id": "C2C_1055",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1055.json"
+    },
+    {
+      "file_id": "C2C_1056",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1056.json"
+    },
+    {
+      "file_id": "C2C_1057",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1057.json"
+    },
+    {
+      "file_id": "C2C_1058",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1058.json"
+    },
+    {
+      "file_id": "C2C_1059",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1059.json"
+    },
+    {
+      "file_id": "C2C_1060",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1060.json"
+    },
+    {
+      "file_id": "C2C_1061",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1061.json"
+    },
+    {
+      "file_id": "C2C_1062",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1062.json"
+    },
+    {
+      "file_id": "C2C_1063",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1063.json"
+    },
+    {
+      "file_id": "C2C_1064",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1064.json"
+    },
+    {
+      "file_id": "C2C_1065",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1065.json"
+    },
+    {
+      "file_id": "C2C_1066",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1066.json"
+    },
+    {
+      "file_id": "C2C_1067",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1067.json"
+    },
+    {
+      "file_id": "C2C_1068",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1068.json"
+    },
+    {
+      "file_id": "C2C_1069",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1069.json"
+    },
+    {
+      "file_id": "C2C_1070",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1070.json"
+    },
+    {
+      "file_id": "C2C_1071",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1071.json"
+    },
+    {
+      "file_id": "C2C_1072",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1072.json"
+    },
+    {
+      "file_id": "C2C_1073",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1073.json"
+    },
+    {
+      "file_id": "C2C_1074",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1074.json"
+    },
+    {
+      "file_id": "C2C_1075",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1075.json"
+    },
+    {
+      "file_id": "C2C_1076",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1076.json"
+    },
+    {
+      "file_id": "C2C_1077",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1077.json"
+    },
+    {
+      "file_id": "C2C_1078",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1078.json"
+    },
+    {
+      "file_id": "C2C_1079",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1079.json"
+    },
+    {
+      "file_id": "C2C_1080",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1080.json"
+    },
+    {
+      "file_id": "C2C_1081",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1081.json"
+    },
+    {
+      "file_id": "C2C_1082",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1082.json"
+    },
+    {
+      "file_id": "C2C_1083",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1083.json"
+    },
+    {
+      "file_id": "C2C_1084",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1084.json"
+    },
+    {
+      "file_id": "C2C_1085",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1085.json"
+    },
+    {
+      "file_id": "C2C_1086",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1086.json"
+    },
+    {
+      "file_id": "C2C_1087",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1087.json"
+    },
+    {
+      "file_id": "C2C_1088",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1088.json"
+    },
+    {
+      "file_id": "C2C_1089",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1089.json"
+    },
+    {
+      "file_id": "C2C_1090",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1090.json"
+    },
+    {
+      "file_id": "C2C_1091",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1091.json"
+    },
+    {
+      "file_id": "C2C_1092",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1092.json"
+    },
+    {
+      "file_id": "C2C_1093",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1093.json"
+    },
+    {
+      "file_id": "C2C_1094",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1094.json"
+    },
+    {
+      "file_id": "C2C_1095",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1095.json"
+    },
+    {
+      "file_id": "C2C_1096",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1096.json"
+    },
+    {
+      "file_id": "C2C_1097",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1097.json"
+    },
+    {
+      "file_id": "C2C_1098",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1098.json"
+    },
+    {
+      "file_id": "C2C_1099",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1099.json"
+    },
+    {
+      "file_id": "C2C_1100",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1100.json"
+    },
+    {
+      "file_id": "C2C_1101",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1101.json"
+    },
+    {
+      "file_id": "C2C_1102",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1102.json"
+    },
+    {
+      "file_id": "C2C_1103",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1103.json"
+    },
+    {
+      "file_id": "C2C_1104",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1104.json"
+    },
+    {
+      "file_id": "C2C_1105",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1105.json"
+    },
+    {
+      "file_id": "C2C_1106",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1106.json"
+    },
+    {
+      "file_id": "C2C_1107",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1107.json"
+    },
+    {
+      "file_id": "C2C_1108",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1108.json"
+    },
+    {
+      "file_id": "C2C_1109",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1109.json"
+    },
+    {
+      "file_id": "C2C_1110",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1110.json"
+    },
+    {
+      "file_id": "C2C_1111",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1111.json"
+    },
+    {
+      "file_id": "C2C_1112",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1112.json"
+    },
+    {
+      "file_id": "C2C_1113",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1113.json"
+    },
+    {
+      "file_id": "C2C_1114",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1114.json"
+    },
+    {
+      "file_id": "C2C_1115",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1115.json"
+    },
+    {
+      "file_id": "C2C_1116",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1116.json"
+    },
+    {
+      "file_id": "C2C_1117",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1117.json"
+    },
+    {
+      "file_id": "C2C_1118",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1118.json"
+    },
+    {
+      "file_id": "C2C_1119",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1119.json"
+    },
+    {
+      "file_id": "C2C_1120",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1120.json"
+    },
+    {
+      "file_id": "C2C_1121",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1121.json"
+    },
+    {
+      "file_id": "C2C_1122",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1122.json"
+    },
+    {
+      "file_id": "C2C_1123",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1123.json"
+    },
+    {
+      "file_id": "C2C_1124",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1124.json"
+    },
+    {
+      "file_id": "C2C_1125",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1125.json"
+    },
+    {
+      "file_id": "C2C_1126",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1126.json"
+    },
+    {
+      "file_id": "C2C_1127",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1127.json"
+    },
+    {
+      "file_id": "C2C_1128",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1128.json"
+    },
+    {
+      "file_id": "C2C_1129",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1129.json"
+    },
+    {
+      "file_id": "C2C_1130",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1130.json"
+    },
+    {
+      "file_id": "C2C_1131",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1131.json"
+    },
+    {
+      "file_id": "C2C_1132",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1132.json"
+    },
+    {
+      "file_id": "C2C_1133",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1133.json"
+    },
+    {
+      "file_id": "C2C_1134",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1134.json"
+    },
+    {
+      "file_id": "C2C_1135",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1135.json"
+    },
+    {
+      "file_id": "C2C_1136",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1136.json"
+    },
+    {
+      "file_id": "C2C_1137",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1137.json"
+    },
+    {
+      "file_id": "C2C_1138",
+      "label": 1,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1138.json"
+    },
+    {
+      "file_id": "C2C_1139",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1139.json"
+    },
+    {
+      "file_id": "C2C_1140",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1140.json"
+    },
+    {
+      "file_id": "C2C_1141",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1141.json"
+    },
+    {
+      "file_id": "C2C_1142",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1142.json"
+    },
+    {
+      "file_id": "C2C_1143",
+      "label": 1,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1143.json"
+    },
+    {
+      "file_id": "C2C_1144",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1144.json"
+    },
+    {
+      "file_id": "C2C_1145",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1145.json"
+    },
+    {
+      "file_id": "C2C_1146",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1146.json"
+    },
+    {
+      "file_id": "C2C_1147",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1147.json"
+    },
+    {
+      "file_id": "C2C_1148",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-parent ancestor",
+      "filename": "C2C_1148.json"
+    },
+    {
+      "file_id": "C2C_1149",
+      "label": 0,
+      "num_variables": 6,
+      "template": "child",
+      "filename": "C2C_1149.json"
+    },
+    {
+      "file_id": "C2C_1150",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_confounder",
+      "filename": "C2C_1150.json"
+    },
+    {
+      "file_id": "C2C_1151",
+      "label": 0,
+      "num_variables": 6,
+      "template": "parent",
+      "filename": "C2C_1151.json"
+    },
+    {
+      "file_id": "C2C_1152",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1152.json"
+    },
+    {
+      "file_id": "C2C_1153",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1153.json"
+    },
+    {
+      "file_id": "C2C_1154",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1154.json"
+    },
+    {
+      "file_id": "C2C_1155",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1155.json"
+    },
+    {
+      "file_id": "C2C_1156",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1156.json"
+    },
+    {
+      "file_id": "C2C_1157",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1157.json"
+    },
+    {
+      "file_id": "C2C_1158",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1158.json"
+    },
+    {
+      "file_id": "C2C_1159",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1159.json"
+    },
+    {
+      "file_id": "C2C_1160",
+      "label": 0,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1160.json"
+    },
+    {
+      "file_id": "C2C_1161",
+      "label": 1,
+      "num_variables": 6,
+      "template": "has_collider",
+      "filename": "C2C_1161.json"
+    },
+    {
+      "file_id": "C2C_1162",
+      "label": 0,
+      "num_variables": 6,
+      "template": "non-child descendant",
+      "filename": "C2C_1162.json"
+    }
+  ]
+}

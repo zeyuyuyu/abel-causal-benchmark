@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_131",
+  "index": 131,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average causal effect of assignment to specialist home visits on children's cognitive test scores measured at ~36 months?",
+  "vague_question": "What is the effect of providing specialist home visits to families on their child's thinking/learning score at about three years?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0096/metadata.txt",
+  "data_path": "data/ds_0096/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_3_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_3_0/question/estimation.py",
+  "effect": 4.118486798904631,
+  "standard_error": 0.23441322289768093
+}

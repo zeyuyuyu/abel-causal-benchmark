@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_127",
+  "index": 127,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who were in the control group, what is the average effect of assignment to the specialist home-visit program on early-childhood standardized cognitive test scores?",
+  "vague_question": "For infants who didn’t get the home-visit program, how much would their early cognitive test scores change on average if they had been assigned to it?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0092/metadata.txt",
+  "data_path": "data/ds_0092/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_1_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_1_2/question/estimation.py",
+  "effect": 3.4443453944633435,
+  "standard_error": 1.8320601205224518
+}

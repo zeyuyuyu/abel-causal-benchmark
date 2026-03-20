@@ -1,0 +1,7 @@
+{
+  "file_id": "C2C_0036",
+  "input": "Premise: Suppose there is a closed system of 3 variables, A, B and C. All the statistical relations among these 3 variables are as follows: A correlates with B. A correlates with C. B correlates with C.\nHypothesis: There exists at least one confounder (i.e., common cause) of A and C.",
+  "label": 0,
+  "num_variables": 3,
+  "template": "has_confounder"
+}

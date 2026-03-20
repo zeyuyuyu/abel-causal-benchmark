@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_041",
+  "index": 41,
+  "dataset_group": "research_papers",
+  "causal_question": "By how much did the proportion of report text devoted to gender-equality topics increase in Italian company-years after the 2011 quota versus Greek company-years, using 2012 as the post period and 2010 as the baseline?",
+  "vague_question": "Looking at 2012 as the first year after the quota, did Italian firms mention gender-equality issues more than they did around 2010, compared with Greek firms?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0021/metadata.txt",
+  "data_path": "data/ds_0021/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Latura_Weeks_2023/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Latura_Weeks_2023/question_2/estimation.py",
+  "effect": 0.017052902229742505,
+  "standard_error": 0.014621659250378366
+}

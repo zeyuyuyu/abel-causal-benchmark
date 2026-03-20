@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_160",
+  "index": 160,
+  "dataset_group": "textbook",
+  "causal_question": "What is the effect of a state adopting a Castle Doctrine (stand-your-ground) law on the logged homicide rate (ln homicide per 100,000) in that state over 2000-2010, compared with other states that did not adopt the law during this period?",
+  "vague_question": "Did homicide rates in a state rise or fall after that state passed a Castle Doctrine/stand-your-ground law, relative to similar states that did not pass such a law?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0125/metadata.txt",
+  "data_path": "data/ds_0125/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/castle/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/castle/question/estimation.py",
+  "effect": 0.08170229369424614,
+  "standard_error": 0.03140617914959478
+}

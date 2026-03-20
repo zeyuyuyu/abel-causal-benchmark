@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_094",
+  "index": 94,
+  "dataset_group": "research_papers",
+  "causal_question": "Among Danish parents whose child's age is near the voting eligibility threshold in 2013, what is the average causal effect of the child becoming eligible to vote on the parent's probability of voting in that election?",
+  "vague_question": "When a child just becomes old enough to vote, how much does that change their parent's chance of voting in 2013? Focus on parents with children close to the age cutoff.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0062/metadata.txt",
+  "data_path": "data/ds_0062/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/dahlgard_2018b/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/dahlgard_2018b/question_1/estimation.py",
+  "effect": 0.01195327772626631,
+  "standard_error": 0.011003092308878214
+}

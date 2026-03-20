@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_108",
+  "index": 108,
+  "dataset_group": "research_papers",
+  "causal_question": "Among districts at the margin where a more extreme candidate just wins versus just loses the primary, what is the average causal effect of nominating the extremist (versus a relatively moderate candidate) on the party's probability of winning the subsequent general election?",
+  "vague_question": "If a party barely picks a more extreme primary candidate instead of a more moderate one, how does that change its chance of winning the general election? We measure this right at the tipping point of such close primaries.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0073/metadata.txt",
+  "data_path": "data/ds_0073/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/hall_2015/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/hall_2015/question_2/estimation.py",
+  "effect": -0.42404560086430654,
+  "standard_error": 0.2546179674647909
+}

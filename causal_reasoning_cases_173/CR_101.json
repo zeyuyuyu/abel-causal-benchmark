@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_101",
+  "index": 101,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average effect of the party of the sitting governor on the subsequent change in that party's two-party presidential vote share in the state?",
+  "vague_question": "Does having a governor from a party change that party's share of the presidential vote in the state at the next election? If so, by how much on average?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0068/metadata.txt",
+  "data_path": "data/ds_0068/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/erikson_etal_2015/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/erikson_etal_2015/question_1/estimation.py",
+  "effect": -3.438761398131504,
+  "standard_error": 2.121189713213744
+}

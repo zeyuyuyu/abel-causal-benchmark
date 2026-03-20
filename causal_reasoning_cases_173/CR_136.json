@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_136",
+  "index": 136,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of specialist home visits on the Bayley Mental Development Index at 36 months for infants who did not receive the program?",
+  "vague_question": "For babies who didn’t get home visits, how much would their cognitive scores around age three change if they had received visits?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0101/metadata.txt",
+  "data_path": "data/ds_0101/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_4_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_4_2/question/estimation.py",
+  "effect": 8.483137789461903,
+  "standard_error": 0.29585743704264783
+}

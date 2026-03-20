@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_111",
+  "index": 111,
+  "dataset_group": "research_papers",
+  "causal_question": "Among young Florida registrants near voting age during the 2008 election, what is the effect of being offered preregistration during the 2008 campaign (versus registering normally) on the probability of voting in 2012?",
+  "vague_question": "For young Floridians who turned 18 around the 2008 election, how much did being allowed to preregister increase their chance of voting in 2012?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0076/metadata.txt",
+  "data_path": "data/ds_0076/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/holbein_hillygus_2016/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/holbein_hillygus_2016/question_1/estimation.py",
+  "effect": 0.029016665596441893,
+  "standard_error": 0.008597237671134418
+}

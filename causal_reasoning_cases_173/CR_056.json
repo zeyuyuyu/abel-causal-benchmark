@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_056",
+  "index": 56,
+  "dataset_group": "research_papers",
+  "causal_question": "Among voting-eligible citizens observed in both elections, how did transitioning from having any positive household taxable income in 2008 to reporting zero taxable household income by 2009 affect turnout in the 2009 election, relative to individuals who reported positive taxable income in both years?",
+  "vague_question": "Did people who had taxable household income in 2008 but reported none by 2009 change their likelihood of voting in the 2009 election compared with people whose income didn't drop?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0029/metadata.txt",
+  "data_path": "data/ds_0029/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Schafer_2022/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Schafer_2022/question_2/estimation.py",
+  "effect": -0.0840005315874226,
+  "standard_error": 0.005901386909067993
+}

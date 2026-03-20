@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_126",
+  "index": 126,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who received the home-visit intervention, what is the average effect of the program on standardized cognitive test scores measured around 36 months (y)?",
+  "vague_question": "Among infants who got home visits, by how many points did their cognitive scores around age 3 change?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0091/metadata.txt",
+  "data_path": "data/ds_0091/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_1_1/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_1_1/question/estimation.py",
+  "effect": 3.874786029091593,
+  "standard_error": 0.13254896161938964
+}

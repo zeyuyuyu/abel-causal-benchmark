@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_172",
+  "index": 172,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average causal effect of being a first-class passenger (versus other classes) on the probability of survival for the full passenger population, accounting for differences in age and gender?",
+  "vague_question": "After taking age and gender into account, how much did being in first class change a person's chance of surviving the Titanic?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0140/metadata.txt",
+  "data_path": "data/ds_0140/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/titanic/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/titanic/question/estimation.py",
+  "effect": 0.1959842516862476,
+  "standard_error": 0.028678087713734236
+}

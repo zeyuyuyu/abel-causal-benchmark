@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_109",
+  "index": 109,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average effect of nominating an extremist (versus a moderate) U.S. House candidate on that party's share of general-election turnout in 2006-2014 contested primaries?",
+  "vague_question": "If a party picks a more extreme candidate instead of a moderate, how does that change the share of voters from that party who show up in the general election? Report the change in percentage points.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0074/metadata.txt",
+  "data_path": "data/ds_0074/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/hall_thompson_2018/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/hall_thompson_2018/question_1/estimation.py",
+  "effect": -0.08641935780540233,
+  "standard_error": 0.04404510666000531
+}

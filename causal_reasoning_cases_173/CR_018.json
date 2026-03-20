@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_018",
+  "index": 18,
+  "dataset_group": "research_papers",
+  "causal_question": "By how many percentage points did Section 5 preclearance coverage change Black voter registration (share of the Black voting-age population) in covered North Carolina counties from 1960 to 1966 compared with uncovered counties?",
+  "vague_question": "Did the preclearance part of the Voting Rights Act lead to more Black people registering to vote in some North Carolina counties shortly after the law was passed?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0010/metadata.txt",
+  "data_path": "data/ds_0010/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Fresh_2018/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Fresh_2018/question_1/estimation.py",
+  "effect": 0.03486034259007323,
+  "standard_error": 0.07797849662288812
+}

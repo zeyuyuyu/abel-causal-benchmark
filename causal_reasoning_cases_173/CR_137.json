@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_137",
+  "index": 137,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average causal effect of receiving specialist home visits (treatment) on children's cognitive test scores measured at about three years of age (y) in the IHDP sample?",
+  "vague_question": "What is the effect of giving newborns specialist home visits on their cognitive test scores at age three?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0102/metadata.txt",
+  "data_path": "data/ds_0102/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_5_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_5_0/question/estimation.py",
+  "effect": 4.075235127336278,
+  "standard_error": 0.10783692178993654
+}

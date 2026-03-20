@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_133",
+  "index": 133,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who were not assigned to the home-visit program, what is the average difference in their standardized cognitive score at about 36 months if they had been assigned to receive the home visits versus not?",
+  "vague_question": "For babies who weren’t assigned to the home-visit program, how much would their test scores around age three have changed on average if they had been assigned to get the visits?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0098/metadata.txt",
+  "data_path": "data/ds_0098/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_3_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_3_2/question/estimation.py",
+  "effect": 3.6180300612201,
+  "standard_error": 0.7665429414084235
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_102",
+  "index": 102,
+  "dataset_group": "research_papers",
+  "causal_question": "Among states with razor-close gubernatorial elections, what is the average effect of having a Democratic (vs. Republican) governor on the subsequent change in the Democratic share of the two-party presidential vote in that state?",
+  "vague_question": "When a governor barely wins, does having a governor from a party help or hurt that party's presidential candidate in the next election? By how many percentage points does the vote share change?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0068/metadata.txt",
+  "data_path": "data/ds_0068/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/erikson_etal_2015/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/erikson_etal_2015/question_2/estimation.py",
+  "effect": -2.735773839074544,
+  "standard_error": 1.528026088753779
+}

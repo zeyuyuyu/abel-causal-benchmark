@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_145",
+  "index": 145,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who did not receive the specialist home-visit program (controls), what is the average change in cognitive score (y) if they were to receive the program?",
+  "vague_question": "For babies who didn’t get home visits, how much would their test scores have changed on average if they had gotten the visits?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0110/metadata.txt",
+  "data_path": "data/ds_0110/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_7_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_7_2/question/estimation.py",
+  "effect": 3.9285185630304564,
+  "standard_error": 0.32682162041202456
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_027",
+  "index": 27,
+  "dataset_group": "research_papers",
+  "causal_question": "When a district first nominated an Asian, Black, or Latino/Hispanic major-party general-election nominee, how did the district's share of contributions from donors of that same ethnoracial group change between the adjacent pre (2000) - and post (2002)-nomination elections?",
+  "vague_question": "If a district nominates its first Asian, Black, or Latino/Hispanic nominee, does the share of donations from donors of that same group change afterward?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0014/metadata.txt",
+  "data_path": "data/ds_0014/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Grumbach_Sahn_2020/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Grumbach_Sahn_2020/question_2/estimation.py",
+  "effect": 0.10091042241841729,
+  "standard_error": 0.034299849445068226
+}

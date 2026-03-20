@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_091",
+  "index": 91,
+  "dataset_group": "research_papers",
+  "causal_question": "Among individuals whose schooling increases due to higher compulsory schooling requirements in these countries (compliers near eligibility), what is the change in the probability of endorsing restrictive immigration from one additional year of secondary schooling?",
+  "vague_question": "For students kept in school one extra year because the leaving age was raised, how much does this reduce the chance they support restricting immigration? This is averaged across the countries studied.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0059/metadata.txt",
+  "data_path": "data/ds_0059/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/cavaille_marshall_2018/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/cavaille_marshall_2018/question_2/estimation.py",
+  "effect": -0.1284243009770069,
+  "standard_error": 0.057587990714505544
+}

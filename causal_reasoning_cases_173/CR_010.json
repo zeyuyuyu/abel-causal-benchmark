@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_010",
+  "index": 10,
+  "dataset_group": "research_papers",
+  "causal_question": "By how many percentage points did year-over-year agency budget growth in 2007 differ for agencies that became ideologically misaligned versus those that stayed aligned across 2006-2007?",
+  "vague_question": "Around 2007, how did the budgets of agencies change for those whose leaders ended up politically out of step with the new government compared with agencies that stayed politically in step?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0006/metadata.txt",
+  "data_path": "data/ds_0006/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Dahlstrom_Holmgren_2023/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Dahlstrom_Holmgren_2023/question_1/estimation.py",
+  "effect": -2.089422718345667,
+  "standard_error": 3.149212644779541
+}

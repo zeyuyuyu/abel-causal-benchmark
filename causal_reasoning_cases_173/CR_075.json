@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_075",
+  "index": 75,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of a one-unit increase in log(number of broadband providers) on affective partisan polarization (outcome scaled 0-1), estimated for compliers using county-level data pooled across 2004 and 2008?",
+  "vague_question": "Does greater local broadband availability cause people to dislike the opposing political party more? Provide the estimated causal effect (for the subpopulation whose broadband uptake responded to external changes) as the change in the 0-1 partisan-affect score for a one-unit increase in log providers, adjusting for basic county demographics and year.",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0045/metadata.txt",
+  "data_path": "data/ds_0045/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Lelkes2017/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Lelkes2017/question/estimation.py",
+  "effect": 0.03157746492058777,
+  "standard_error": 0.01397096964478184
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_105",
+  "index": 105,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average effect, at very close U.S. House races, of a Democratic victory on the Democratic Party's share of all campaign contributions received in the subsequent election cycle in that district?",
+  "vague_question": "When a party barely wins a U.S. House race, how much does that change the share of campaign donations that party gets next time in that district? We focus on razor-thin victories.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0071/metadata.txt",
+  "data_path": "data/ds_0071/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/fouirnaies_hall_2014a/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/fouirnaies_hall_2014a/question_1/estimation.py",
+  "effect": 15.179268300881112,
+  "standard_error": 6.519994067871143
+}

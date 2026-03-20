@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_029",
+  "index": 29,
+  "dataset_group": "research_papers",
+  "causal_question": "For municipalities that moved to council-based decisions in 1991, 2006, or 2009, how much did ordinary naturalization rates change between 1991 and 2009 relative to municipalities that never changed their local decision regime?",
+  "vague_question": "Over the 1991-2009 period, did municipalities that switched to council decision-making (in years like 1991, 2006, or 2009) end up with different naturalization rates than municipalities that never changed their decision process?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0015/metadata.txt",
+  "data_path": "data/ds_0015/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Hainmueller_Hangartner_2019/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Hainmueller_Hangartner_2019/question_2/estimation.py",
+  "effect": 1.2555431430045876,
+  "standard_error": 0.35697351236815134
+}

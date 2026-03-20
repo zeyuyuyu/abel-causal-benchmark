@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_052",
+  "index": 52,
+  "dataset_group": "research_papers",
+  "causal_question": "How did logged district capital expenditures per capita change in 2005 in districts holding a district head election that year versus districts that did not hold an election that year (restricting to districts without an election the year prior)?",
+  "vague_question": "In 2005, did areas with a local election change how much they spent on construction and infrastructure compared with areas without an election?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0027/metadata.txt",
+  "data_path": "data/ds_0027/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Pierskalla_Sacks_2018/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Pierskalla_Sacks_2018/question_2/estimation.py",
+  "effect": -0.2456380842907292,
+  "standard_error": 0.05791172914055293
+}

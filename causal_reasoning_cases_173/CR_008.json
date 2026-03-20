@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_008",
+  "index": 8,
+  "dataset_group": "research_papers",
+  "causal_question": "How did adopting a parliamentary gender quota in 1998 change a country's public-health spending share compared with countries that never adopted such quotas?",
+  "vague_question": "What happened to a country's share of government spending on public health after it adopted a parliamentary gender quota in 1998?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0005/metadata.txt",
+  "data_path": "data/ds_0005/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Clayton_Zetterberg_2018/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Clayton_Zetterberg_2018/question_1/estimation.py",
+  "effect": 0.27327480718163333,
+  "standard_error": 0.6078400610971942
+}

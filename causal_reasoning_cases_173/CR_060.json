@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_060",
+  "index": 60,
+  "dataset_group": "research_papers",
+  "causal_question": "Did cities first subject to a Fair Housing Act injunctive-relief decision in 2007 experience a decline in the share of non-Hispanic White residents by 2008 relative to cities that had not experienced such a decision by 2008?",
+  "vague_question": "Did cities that got their first Fair Housing Act court injunction in 2007 tend to see a drop in the share of non-Hispanic White residents by 2008?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0031/metadata.txt",
+  "data_path": "data/ds_0031/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Trounstine_2020/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Trounstine_2020/question_2/estimation.py",
+  "effect": -0.00042013785938763495,
+  "standard_error": 0.004423762832682472
+}

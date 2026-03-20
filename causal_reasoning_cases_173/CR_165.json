@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_165",
+  "index": 165,
+  "dataset_group": "textbook",
+  "causal_question": "What is the effect of participating in the NSW program (treat = 1) on individuals' real earnings in 1978 (re78), reported for the treated group (ATT)?",
+  "vague_question": "For people who joined the NSW job-training program, how much did the program change their 1978 earnings compared with comparable nonparticipants?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0130/metadata.txt",
+  "data_path": "data/ds_0130/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/cps_mixtape/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/cps_mixtape/question/estimation.py",
+  "effect": 2735.537610318135,
+  "standard_error": 983.1104225278364
+}

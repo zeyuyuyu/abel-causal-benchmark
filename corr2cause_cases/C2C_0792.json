@@ -1,0 +1,7 @@
+{
+  "file_id": "C2C_0792",
+  "input": "Premise: Suppose there is a closed system of 6 variables, A, B, C, D, E and F. All the statistical relations among these 6 variables are as follows: A correlates with D. A correlates with E. A correlates with F. B correlates with C. B correlates with D. B correlates with F. C correlates with D. C correlates with F. D correlates with E. D correlates with F. E correlates with F. However, A is independent of B. A and B are independent given C. A and B are independent given C and E. A and B are independent given E. A is independent of C. A and C are independent given B. A and C are independent given B and E. A and C are independent given E. B is independent of E. B and E are independent given A. B and E are independent given A and C. B and E are independent given A, C and D. B and E are independent given A and D. B and E are independent given C. C is independent of E. C and E are independent given A. C and E are independent given A and B. C and E are independent given A, B and D. C and E are independent given A and D. C and E are independent given B. D and E are independent given A. D and E are independent given A and B. D and E are independent given A, B and C. D and E are independent given A and C.\nHypothesis: D directly causes B.",
+  "label": 0,
+  "num_variables": 6,
+  "template": "child"
+}

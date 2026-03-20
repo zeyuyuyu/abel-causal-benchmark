@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_143",
+  "index": 143,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of participation in the specialist home-visiting program (treatment) on children's cognitive test scores (y) in the IHDP sample?",
+  "vague_question": "Does getting home visits from specialist doctors change a child's later cognitive test score?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0108/metadata.txt",
+  "data_path": "data/ds_0108/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_7_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_7_0/question/estimation.py",
+  "effect": 3.7762203618104704,
+  "standard_error": 0.1301788465618039
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_089",
+  "index": 89,
+  "dataset_group": "research_papers",
+  "causal_question": "Among states with gubernatorial elections decided near 50-50, what is the average effect of electing a Democratic rather than a Republican governor on the one-year change in state policy liberalism?",
+  "vague_question": "In a very close governor's race, if a Democrat wins instead of a Republican, how much does the state's overall policy orientation shift in the following year?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0058/metadata.txt",
+  "data_path": "data/ds_0058/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/caughey_etal_2017/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/caughey_etal_2017/question_1/estimation.py",
+  "effect": 0.02724502978988668,
+  "standard_error": 0.01802473822893924
+}

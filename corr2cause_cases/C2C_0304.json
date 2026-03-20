@@ -1,0 +1,7 @@
+{
+  "file_id": "C2C_0304",
+  "input": "Premise: Suppose there is a closed system of 5 variables, A, B, C, D and E. All the statistical relations among these 5 variables are as follows: A correlates with E. B correlates with E. C correlates with E. D correlates with E. However, A is independent of B. A and B are independent given C. A and B are independent given C and D. A and B are independent given D. A is independent of C. A and C are independent given B. A and C are independent given B and D. A and C are independent given D. A is independent of D. A and D are independent given B. A and D are independent given B and C. A and D are independent given C. B is independent of C. B and C are independent given A. B and C are independent given A and D. B and C are independent given D. B is independent of D. B and D are independent given A. B and D are independent given A and C. B and D are independent given C. C is independent of D. C and D are independent given A. C and D are independent given A and B. C and D are independent given B.\nHypothesis: D causes something else which causes E.",
+  "label": 0,
+  "num_variables": 5,
+  "template": "non-parent ancestor"
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_076",
+  "index": 76,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of being enrolled in public health insurance (versus only private insurance) on an individual's support for the Affordable Care Act, measured for the subgroup whose insurance enrollment was shifted by the exogenous eligibility variation exploited in this analysis?",
+  "vague_question": "Does switching from private-only to public health insurance make people more likely to support the Affordable Care Act, measured among the group whose coverage changed because of the eligibility variation the study uses?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0046/metadata.txt",
+  "data_path": "data/ds_0046/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Lerman2017/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Lerman2017/question/estimation.py",
+  "effect": 0.045988589833671156,
+  "standard_error": 0.022871988293883778
+}

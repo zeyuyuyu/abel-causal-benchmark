@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_050",
+  "index": 50,
+  "dataset_group": "research_papers",
+  "causal_question": "Did cities that newly experienced partisan incongruence with their state lower-house delegation between 2011 and 2012 change their likelihood of reporting state-level lobbying relative to comparable cities that remained aligned?",
+  "vague_question": "If a city's representation in the state legislature flips to the other party, does that make the city more likely to report hiring state-level lobbyists than cities whose representation does not change?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0026/metadata.txt",
+  "data_path": "data/ds_0026/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Payson_2020_APSR/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Payson_2020_APSR/question_2/estimation.py",
+  "effect": 0.00466868832312894,
+  "standard_error": 0.09124405931644249
+}

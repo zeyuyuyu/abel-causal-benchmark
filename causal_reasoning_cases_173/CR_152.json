@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_152",
+  "index": 152,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average treatment effect of enrollment in an online-only course (format_ol = 1) on exam scores (falsexam) compared to face-to-face instruction?",
+  "vague_question": "How much do online-only classes change exam scores compared with face-to-face classes?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0117/metadata.txt",
+  "data_path": "data/ds_0117/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/online_classroom_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/online_classroom_0/question/estimation.py",
+  "effect": -4.9122214982269465,
+  "standard_error": 1.7667910083461629
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_064",
+  "index": 64,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of a marginal increase in the locality-level share of households actually visited by canvassers on the probability that a woman who was targeted (contacted) votes in the 2013 presidential election? Report the local average treatment effect for the subgroup of women whose exposure responds to the experimentally assigned canvassing intensity.",
+  "vague_question": "For women who were visited by campaign canvassers, how much does increasing the fraction of homes canvassed in their village change their likelihood of voting in the 2013 presidential election?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0034/metadata.txt",
+  "data_path": "data/ds_0034/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Chong2019/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Chong2019/question/estimation.py",
+  "effect": 0.122226,
+  "standard_error": 0.055318
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_100",
+  "index": 100,
+  "dataset_group": "research_papers",
+  "causal_question": "Among UK constituencies with very close prior elections, what is the causal effect of the Conservative party narrowly holding the seat (versus narrowly losing it) on the probability that Conservatives win the next election in that constituency?",
+  "vague_question": "If Conservatives barely win a seat, how much does that boost their chance of winning it again next time compared with barely losing? About 17 percentage points at the knife-edge.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0067/metadata.txt",
+  "data_path": "data/ds_0067/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/eggers_spirling_2017/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/eggers_spirling_2017/question_2/estimation.py",
+  "effect": 0.15129720466634994,
+  "standard_error": 0.048772542979184
+}

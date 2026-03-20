@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_134",
+  "index": 134,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average treatment effect of assignment to the specialist doctor home-visit program on standardized cognitive test scores measured at approximately 36 months?",
+  "vague_question": "What is the effect of giving infants a specialist doctor home visit on their cognitive development?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0099/metadata.txt",
+  "data_path": "data/ds_0099/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_4_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_4_0/question/estimation.py",
+  "effect": 4.195819482934012,
+  "standard_error": 0.20013159587832646
+}

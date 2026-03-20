@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_058",
+  "index": 58,
+  "dataset_group": "research_papers",
+  "causal_question": "What change in a representative's civil-rights support score is associated with a district's transition into Section 5 preclearance, measured by the score in the Congress after exposure versus the Congress before?",
+  "vague_question": "How much did a representative's support for civil-rights legislation change when their district moved into Section 5 preclearance compared with how they voted beforehand?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0030/metadata.txt",
+  "data_path": "data/ds_0030/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Schuit_Rogowski_2017/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Schuit_Rogowski_2017/question_2/estimation.py",
+  "effect": 0.03950627474114425,
+  "standard_error": 0.19583833656769128
+}

@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_012",
+  "index": 12,
+  "dataset_group": "research_papers",
+  "causal_question": "From 2011 to 2012, how did factories that became compliant (per the sourcing agent's annual compliance indicator) change in logged annual order value (natural log of estimated annual order value in constant 2012 USD) relative to factories that remained noncompliant over the same period?",
+  "vague_question": "Around 2011-2012, did factories that moved from noncompliant to compliant see a change in the amount of orders or sales they received compared with factories that stayed noncompliant?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0007/metadata.txt",
+  "data_path": "data/ds_0007/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Distelhorst_Locke_2018/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Distelhorst_Locke_2018/question_1/estimation.py",
+  "effect": 0.33639171169653814,
+  "standard_error": 0.12591763131474554
+}

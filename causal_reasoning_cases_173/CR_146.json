@@ -1,0 +1,14 @@
+{
+  "file_id": "CR_146",
+  "index": 146,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of receiving specialist home visits (treatment) on the standardized cognitive assessment score measured at age three?",
+  "vague_question": "What is the effect of providing specialist home visits on a child's cognitive score at age three?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0111/metadata.txt",
+  "data_path": "data/ds_0111/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_8_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_8_0/question/estimation.py",
+  "effect": 4.513845765041949,
+  "standard_error": 1.5321635730327097
+}
