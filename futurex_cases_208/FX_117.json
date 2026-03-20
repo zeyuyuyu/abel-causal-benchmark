@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_117",
   "id": "69624695e87498005daa01da",
-  "title": "Which companies will run ads during Super Bowl LX?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which companies will run ads during Super Bowl LX? (resolved around 2026-02-09 (GMT+8)). \nA.  the outcome be Robinhood\nB.  the outcome be Google\nC.  the outcome be Amazon\nD.  the outcome be Hyundai\nE.  the outcome be Toyota\nF.  the outcome be Salesforce\nG.  the outcome be Verizon/Visible\nH.  the outcome be Progressive\nI.  the outcome be OpenAI\nJ.  the outcome be State Farms\nK.  the outcome be Coca Cola\nL.  the outcome be Coinbase\nM.  the outcome be Apple\nN.  the outcome be Crypto.com\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-09",
+  "level": 2,
+  "title": "Which companies will run ads during Super Bowl LX?",
   "ground_truth": "['A', 'B', 'C', 'D']",
+  "__index_level_0__": 119,
+  "file_id": "FX_117",
   "options": [
     {
       "id": "A",
@@ -62,6 +64,5 @@
       "id": "N",
       "text": "Crypto.com\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which companies will ru..."
+  ]
 }

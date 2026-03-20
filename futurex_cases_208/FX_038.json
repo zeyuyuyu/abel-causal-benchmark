@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_038",
   "id": "69493cb11e67de005c795a93",
-  "title": "Oscars 2026: Best Director Nominations",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Best Director Nominations  (resolved around 2026-01-22 (GMT+8)). \nA.  Kathryn Bigelow be nominated for Best Director at the 98th Academy Awards\nB.  Paul Thomas Anderson be nominated for Best Director at the 98th Academy Awards\nC.  Chloé Zhao be nominated for Best Director at the 98th Academy Awards\nD.  Ryan Coogler be nominated for Best Director at the 98th Academy Awards\nE.  Joachim Trier be nominated for Best Director at the 98th Academy Awards\nF.  Jafar Panahi be nominated for Best Director at the 98th Academy Awards\nG.  Josh Safdie be nominated for Best Director at the 98th Academy Awards\nH.  Yorgos Lanthimos be nominated for Best Director at the 98th Academy Awards\nI.  Benny Safdie be nominated for Best Director at the 98th Academy Awards\nJ.  Mona Fastvold be nominated for Best Director at the 98th Academy Awards\nK.  James Cameron be nominated for Best Director at the 98th Academy Awards\nL.  Park Chan-wook be nominated for Best Director at the 98th Academy Awards\nM.  Jon M. Chu be nominated for Best Director at the 98th Academy Awards\nN.  Guillermo del Toro be nominated for Best Director at the 98th Academy Awards\nO.  Noah Baumbach be nominated for Best Director at the 98th Academy Awards\nP.  Zach Cregger be nominated for Best Director at the 98th Academy Awards\nQ.  Edward Berger be nominated for Best Director at the 98th Academy Awards\nR.  Anthony Maras be nominated for Best Director at the 98th Academy Awards\nS.  Clint Bentley be nominated for Best Director at the 98th Academy Awards\nT.  Kleber Mendonça Filho be nominated for Best Director at the 98th Academy Awards\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-22",
+  "level": 2,
+  "title": "Oscars 2026: Best Director Nominations",
   "ground_truth": "['B', 'C', 'D', 'E', 'G']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Best Direc..."
+  "__index_level_0__": 37,
+  "file_id": "FX_038",
+  "options": []
 }

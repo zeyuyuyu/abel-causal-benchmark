@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_112",
   "id": "696cd5b0a4b036005c06a931",
-  "title": "Al Fateh Saudi Club vs. Al Hazem SC",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Al Fateh Saudi Club vs. Al Hazem SC (resolved around 2026-02-02 (GMT+8)). \nA. Al Fateh Saudi Club win on 2026-02-01\nB. Al Fateh Saudi Club vs. Al Hazem SC end in a draw\nC. Al Hazem SC win on 2026-02-01\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-02 00:00:00",
+  "level": 1,
+  "title": "Al Fateh Saudi Club vs. Al Hazem SC",
   "ground_truth": "['B']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Al Fateh Saudi Club vs...."
+  "__index_level_0__": 112,
+  "file_id": "FX_112",
+  "options": []
 }

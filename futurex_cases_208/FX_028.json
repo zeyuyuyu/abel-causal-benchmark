@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_028",
   "id": "69624695e87498005daa01d1",
-  "title": "In which city will Tetra be on January 15th 2026?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"In which city will Tetra be on January 15th 2026? (resolved around 2026-01-16 (GMT+8)). \nA. the outcome be Blackpool\nB. the outcome be Middlesbrough\nC. the outcome be Other\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-16 00:00:00",
+  "level": 1,
+  "title": "In which city will Tetra be on January 15th 2026?",
   "ground_truth": "['A']",
+  "__index_level_0__": 27,
+  "file_id": "FX_028",
   "options": [
     {
       "id": "A",
@@ -18,6 +20,5 @@
       "id": "C",
       "text": "Other\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"In which city will Tetr..."
+  ]
 }

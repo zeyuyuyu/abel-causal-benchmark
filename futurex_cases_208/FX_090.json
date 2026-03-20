@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_090",
   "id": "695bb4008b62560069adce54",
-  "title": "What will Gold (GC) settle at in January?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Gold (GC) settle at in January? (resolved around 2026-02-01 (GMT+8)). \nA. Gold (GC) settle at <$4,350 in January\nB. Gold (GC) settle at $4,350-$4,475 in January\nC. Gold (GC) settle at $4,475-$4,600 in January\nD. Gold (GC) settle at $4,600-$4,725 in January\nE. Gold (GC) settle at $4,725-$4,850 in January\nF. Gold (GC) settle at $4,850-$4,975 in January\nG. Gold (GC) settle at $4,975-$5,100 in January\nH. Gold (GC) settle at >$5,100 in January\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-01 00:00:00",
+  "level": 2,
+  "title": "What will Gold (GC) settle at in January?",
   "ground_truth": "['E']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Gold (GC) set..."
+  "__index_level_0__": 90,
+  "file_id": "FX_090",
+  "options": []
 }

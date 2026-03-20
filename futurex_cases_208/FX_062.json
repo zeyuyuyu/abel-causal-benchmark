@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_062",
   "id": "6951230b943bd200688f9cd1",
-  "title": "Will Pam Bondi be arrested over defying the Epstein Files Transparency Act",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Pam Bondi be arrested over defying the Epstein Files Transparency Act (resolved around 2026-01-27 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-27",
+  "level": 1,
+  "title": "Will Pam Bondi be arrested over defying the Epstein Files Transparency Act",
   "ground_truth": "['No']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Pam Bondi be arres..."
+  "__index_level_0__": 61,
+  "file_id": "FX_062",
+  "options": []
 }

@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_088",
   "id": "695bb4008b62560069adce04",
-  "title": "What will Opendoor (OPEN) hit in January 2026?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Opendoor (OPEN) hit in January 2026? (resolved around 2026-02-01 (GMT+8)). \nA. Opendoor reach $11.50 in January\nB. Opendoor reach $10.25 in January\nC. Opendoor reach $9.25 in January\nD. Opendoor reach $8.25 in January\nE. Opendoor reach $7.50 in January\nF. Opendoor reach $7 in January\nG. Opendoor reach $6.50 in January\nH. Opendoor dip to $6 in January\nI. Opendoor dip to $5.50 in January\nJ. Opendoor dip to $5 in January\nK. Opendoor dip to $4.25 in January\nL. Opendoor dip to $3.50 in January\nM. Opendoor dip to $2.50 in January\nN. Opendoor dip to $1.25 in January\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-01 00:00:00",
+  "level": 2,
+  "title": "What will Opendoor (OPEN) hit in January 2026?",
   "ground_truth": "['E', 'F', 'G', 'H', 'I']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Opendoor (OPE..."
+  "__index_level_0__": 88,
+  "file_id": "FX_088",
+  "options": []
 }

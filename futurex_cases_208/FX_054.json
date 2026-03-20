@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_054",
   "id": "6956690920a2e600672a7864",
-  "title": "At close of business on 23 January 2026, will the most recently announced Bank of Japan (BOJ) \"uncollateralized overnight call [interest] rate\" be lower, the same, or higher than it was at close of business on 19 December 2025?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"At close of business on 23 January 2026, will the most recently announced Bank of Japan (BOJ) \"uncollateralized overnight call [interest] rate\" be lower, the same, or higher than it was at close of business on 19 December 2025? (resolved around 2026-01-24 (GMT+8)). \nA.  the outcome be Lower\nB.  the outcome be Same\nC.  the outcome be Higher\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-24",
+  "level": 1,
+  "title": "At close of business on 23 January 2026, will the most recently announced Bank of Japan (BOJ) \"uncollateralized overnight call [interest] rate\" be lower, the same, or higher than it was at close of business on 19 December 2025?",
   "ground_truth": "['B']",
+  "__index_level_0__": 53,
+  "file_id": "FX_054",
   "options": [
     {
       "id": "A",
@@ -18,6 +20,5 @@
       "id": "C",
       "text": "Higher\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"At close of business on..."
+  ]
 }

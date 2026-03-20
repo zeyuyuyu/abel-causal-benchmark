@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_034",
   "id": "6946970d97a129005dec27f7",
-  "title": "How much money will ClaudePlaysPokemon have left after completing Safari Zone?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"How much money will ClaudePlaysPokemon have left after completing Safari Zone? (resolved around 2026-01-22 (GMT+8)). \nA.  the outcome be Does not complete Safari Zone\nB.  the outcome be $0 - $9,999\nC.  the outcome be $10,000-$19,999\nD.  the outcome be $20,000-$29,999\nE.  the outcome be $30,000-$39,999\nF.  the outcome be $40,000-$49,999\nG.  the outcome be $50,000-$59,999\nH.  the outcome be $60,000-$69,999\nI.  the outcome be $70,000+\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-22",
+  "level": 2,
+  "title": "How much money will ClaudePlaysPokemon have left after completing Safari Zone?",
   "ground_truth": "['I']",
+  "__index_level_0__": 33,
+  "file_id": "FX_034",
   "options": [
     {
       "id": "A",
@@ -42,6 +44,5 @@
       "id": "I",
       "text": "$70,000+\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How much money will Cla..."
+  ]
 }

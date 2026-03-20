@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_144",
   "id": "696e274d183bed0068c24d11",
-  "title": "Top 14: Racing 92 vs Perpignan",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Top 14: Racing 92 vs Perpignan (resolved around 2026-02-08 (GMT+8)). \nA.  Racing 92 win\nB.  the match end in a draw\nC.  Perpignan win\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-08",
+  "level": 1,
+  "title": "Top 14: Racing 92 vs Perpignan",
   "ground_truth": "['A']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Top 14: Racing 92 vs Pe..."
+  "__index_level_0__": 146,
+  "file_id": "FX_144",
+  "options": []
 }

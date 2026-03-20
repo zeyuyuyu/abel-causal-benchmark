@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_002",
   "id": "694bdd0b43684c005d3473f6",
-  "title": "How many characters in the solution to @bens puzzle (round 2)",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many characters in the solution to @bens puzzle (round 2) (resolved around 2026-01-18 (GMT+8)). \nA. the outcome be 4 - 6\nB. the outcome be 7 - 9\nC. the outcome be 10 - 12\nD. the outcome be 13 - 15\nE. the outcome be 16 - 18\nF. the outcome be 19 - 20\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-18 00:00:00",
+  "level": 2,
+  "title": "How many characters in the solution to @bens puzzle (round 2)",
   "ground_truth": "['C']",
+  "__index_level_0__": 1,
+  "file_id": "FX_002",
   "options": [
     {
       "id": "A",
@@ -30,6 +32,5 @@
       "id": "F",
       "text": "19 - 20\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How many characters in ..."
+  ]
 }

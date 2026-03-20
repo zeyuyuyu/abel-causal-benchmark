@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_196",
   "id": "6854dcbc7df94a0060eb86d0",
-  "title": "2026-03-08, what will be the",
-  "level": 4,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-08, what will be the \"most recent\" number for \"Waiting for response\" of this date in the Support Stats published by Steam?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-08",
+  "level": 4,
+  "title": "2026-03-08, what will be the",
   "ground_truth": "[50284.0]",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-08, what will b..."
+  "__index_level_0__": 246,
+  "file_id": "FX_196",
+  "options": []
 }

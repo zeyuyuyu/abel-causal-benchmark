@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_077",
   "id": "69663e477dc80a005b6df1ea",
-  "title": "What will Trump say in January?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Trump say in January? (resolved around 2026-01-31 (GMT+8)). \nA. Trump say \"Heart Attack\" in January\nB. Trump say \"N Word\" in January\nC. Trump say \"Banana Republic\" in January\nD. Trump say \"Martin Luther King\" in January\nE. Trump say \"Ego\" in January\nF. Trump say \"Communist\" in January\nG. Trump say \"Jerome Too Late Powell\" in January\nH. Trump say \"Teleprompter\" in January\nI. Trump say \"F-47\" in January\nJ. Trump say \"Food stamps\" in January\nK. Trump say \"Fuck\" or \"Fucking\" or \"Fucked\" in January\nL. Trump say \"Breaking News\" in January\nM. Trump say \"Rolex\" in January\nN. Trump say \"TrumpRx.gov\" or \"TrumpRx.com\" or \"TrumpRx\" in January\nO. Trump say \"Trump Derangement Syndrome\" in January\nP. Trump say \"Bitcoin\" in January\nQ. Trump say \"Skyrocket\" or \"Skyrocketed\" in January\nR. Trump say \"McDonald's\" in January\nS. Trump say \"Dell computer\" in January\nT. Trump say \"Truth Social\" in January\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-31 00:00:00",
+  "level": 2,
+  "title": "What will Trump say in January?",
   "ground_truth": "['F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P', 'Q', 'S']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Trump say in ..."
+  "__index_level_0__": 77,
+  "file_id": "FX_077",
+  "options": []
 }

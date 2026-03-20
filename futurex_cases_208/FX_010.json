@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_010",
   "id": "695e521c255b39006c58f5af",
-  "title": "What will be true of the oil tanker Marinera on 14th January?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be true of the oil tanker Marinera on 14th January? (resolved around 2026-01-15 (GMT+8)). \nA. the outcome be Under US control\nB. the outcome be US claims to have found drugs on board\nC. the outcome be US claims to have found weapons on board\nD. the outcome be Sunk / scuppered / heavily damaged\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-15 00:00:00",
+  "level": 2,
+  "title": "What will be true of the oil tanker Marinera on 14th January?",
   "ground_truth": "['A']",
+  "__index_level_0__": 9,
+  "file_id": "FX_010",
   "options": [
     {
       "id": "A",
@@ -22,6 +24,5 @@
       "id": "D",
       "text": "Sunk / scuppered / heavily damaged\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will be true of th..."
+  ]
 }

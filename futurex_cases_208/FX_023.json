@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_023",
   "id": "694bdd0b43684c005d3473e5",
-  "title": "Will @bens puzzle (round 2) get below 10%?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will @bens puzzle (round 2) get below 10%? (resolved around 2026-01-18 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Yes} or \\boxed{No}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-18 00:00:00",
+  "level": 1,
+  "title": "Will @bens puzzle (round 2) get below 10%?",
   "ground_truth": "['No']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will @bens puzzle (roun..."
+  "__index_level_0__": 22,
+  "file_id": "FX_023",
+  "options": []
 }

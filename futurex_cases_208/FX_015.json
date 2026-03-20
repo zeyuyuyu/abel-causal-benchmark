@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_015",
   "id": "694a8b8fbd65d70068ad7da2",
-  "title": "“Inside CECOT” airs on 60 Minutes by January 18?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"“Inside CECOT” airs on 60 Minutes by January 18? (resolved around 2026-01-18 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Yes} or \\boxed{No}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-18 00:00:00",
+  "level": 1,
+  "title": "“Inside CECOT” airs on 60 Minutes by January 18?",
   "ground_truth": "['Yes']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"“Inside CECOT” airs on ..."
+  "__index_level_0__": 14,
+  "file_id": "FX_015",
+  "options": []
 }

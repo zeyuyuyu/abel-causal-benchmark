@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_120",
   "id": "695e521c255b39006c58f5b8",
-  "title": "Who will win the Masters section of the 2026 Tata Steel Chess Tournament?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Masters section of the 2026 Tata Steel Chess Tournament? (resolved around 2026-02-06 (GMT+8)). \nA.  the outcome be Nodirbek Abdusattorov\nB.  the outcome be Javokhir Sindarov\nC.  the outcome be Jorden van Foreest\nD.  the outcome be Matthias Bluebaum\nE.  the outcome be Hans Niemann\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-06",
+  "level": 2,
+  "title": "Who will win the Masters section of the 2026 Tata Steel Chess Tournament?",
   "ground_truth": "['A']",
+  "__index_level_0__": 122,
+  "file_id": "FX_120",
   "options": [
     {
       "id": "A",
@@ -26,6 +28,5 @@
       "id": "E",
       "text": "Hans Niemann\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Master..."
+  ]
 }

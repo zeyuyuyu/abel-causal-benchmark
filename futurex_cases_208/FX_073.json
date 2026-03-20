@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_073",
   "id": "6851741059f71f006037a1ee",
-  "title": "2026-01-23, what will be the Nikkei Stock Average (Nikkei 225)'s close for the day?",
-  "level": 4,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will be the Nikkei Stock Average (Nikkei 225)'s close for the day?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-23",
+  "level": 4,
+  "title": "2026-01-23, what will be the Nikkei Stock Average (Nikkei 225)'s close for the day?",
   "ground_truth": "[53846.87]",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will b..."
+  "__index_level_0__": 72,
+  "file_id": "FX_073",
+  "options": []
 }

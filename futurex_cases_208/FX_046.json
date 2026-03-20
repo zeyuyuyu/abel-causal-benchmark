@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_046",
   "id": "6957c09b03568a006853e86c",
-  "title": "How long will it take Alex Honnold to free solo Taipei 101?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"How long will it take Alex Honnold to free solo Taipei 101? (resolved around 2026-01-23 (GMT+8)). \nA.  Alex Honnold free solo Taipei 101 in less than 1 hour\nB.  Alex Honnold free solo Taipei 101 in between 1 hour and 30 minutes and 1 hour and 45 minutes\nC.  Alex Honnold free solo Taipei 101 in between 1 hour and 45 minutes and 2 hours\nD.  Alex Honnold free solo Taipei 101 in between 2 hours and 2 hours and 15 minutes\nE.  Alex Honnold free solo Taipei 101 in between 2 hours and 15 minutes and 2 hours and 30 minutes\nF.  Alex Honnold free solo Taipei 101 in over 2 hours and 30 minutes\nG.  Alex Honnold free solo Taipei 101 in between 1 hour and 1 hour and 15 minutes\nH.  Alex Honnold not complete a free solo of Taipei 101 by January 31\nI.  Alex Honnold free solo Taipei 101 in between 1 hour and 15 minutes and 1 hour and 30 minutes\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-23",
+  "level": 2,
+  "title": "How long will it take Alex Honnold to free solo Taipei 101?",
   "ground_truth": "['B']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How long will it take A..."
+  "__index_level_0__": 45,
+  "file_id": "FX_046",
+  "options": []
 }

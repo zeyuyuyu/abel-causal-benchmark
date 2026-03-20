@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_199",
   "id": "687df3a41d972f003b8ba68c",
-  "title": "2026-03-09, what will the open of CanSino (SH:688185) be for the day (in CNY)?",
-  "level": 4,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will the open of CanSino (SH:688185) be for the day (in CNY)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-09",
+  "level": 4,
+  "title": "2026-03-09, what will the open of CanSino (SH:688185) be for the day (in CNY)?",
   "ground_truth": "[71.51]",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will t..."
+  "__index_level_0__": 250,
+  "file_id": "FX_199",
+  "options": []
 }

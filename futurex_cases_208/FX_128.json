@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_128",
   "id": "69624695e87498005daa01ea",
-  "title": "What is the highest Sharpe ratio of any Manifold user?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What is the highest Sharpe ratio of any Manifold user? (resolved around 2026-02-08 (GMT+8)). \nA.  the outcome be Below 5\nB.  the outcome be 5 - 7.4\nC.  the outcome be 7.5 - 9.9\nD.  the outcome be 10 - 12.4\nE.  the outcome be 12.5 - 14.9\nF.  the outcome be 15 - 17.4\nG.  the outcome be 17.5 - 20\nH.  the outcome be Above 20\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-08",
+  "level": 2,
+  "title": "What is the highest Sharpe ratio of any Manifold user?",
   "ground_truth": "['H']",
+  "__index_level_0__": 130,
+  "file_id": "FX_128",
   "options": [
     {
       "id": "A",
@@ -38,6 +40,5 @@
       "id": "H",
       "text": "Above 20\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What is the highest Sha..."
+  ]
 }

@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_182",
   "id": "69a43186f2cb3b006875e9b1",
-  "title": "Alberto Montes vs. Ricky Turcios",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Alberto Montes vs. Ricky Turcios (resolved around 2026-03-08 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Alberto Montes} or \\boxed{Ricky Turcios}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-08",
+  "level": 1,
+  "title": "Alberto Montes vs. Ricky Turcios",
   "ground_truth": "['Ricky Turcios']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Alberto Montes vs. Rick..."
+  "__index_level_0__": 224,
+  "file_id": "FX_182",
+  "options": []
 }

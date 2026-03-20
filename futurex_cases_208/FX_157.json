@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_157",
   "id": "69833c21c6c07e005d385694",
-  "title": "Which New York Rangers will be traded by the 2026 trade deadline?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which New York Rangers will be traded by the 2026 trade deadline? (resolved around 2026-03-07 (GMT+8)). \nA.  the outcome be Vincent Trocheck\nB.  the outcome be Brennan Othmann\nC.  the outcome be Alexis Lafrenière\nD.  the outcome be Carson Soucy\nE.  the outcome be Mika Zibanejad\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-07",
+  "level": 2,
+  "title": "Which New York Rangers will be traded by the 2026 trade deadline?",
   "ground_truth": "['A', 'B', 'C']",
+  "__index_level_0__": 189,
+  "file_id": "FX_157",
   "options": [
     {
       "id": "A",
@@ -26,6 +28,5 @@
       "id": "E",
       "text": "Mika Zibanejad\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which New York Rangers ..."
+  ]
 }

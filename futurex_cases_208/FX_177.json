@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_177",
   "id": "69a4319df2cb3b006875e9c2",
-  "title": "Can this AI Trading Bot turn $100 into $1,000 live on Twitch? Round 1",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Can this AI Trading Bot turn $100 into $1,000 live on Twitch? Round 1 (resolved around 2026-03-08 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-08",
+  "level": 1,
+  "title": "Can this AI Trading Bot turn $100 into $1,000 live on Twitch? Round 1",
   "ground_truth": "['No']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Can this AI Trading Bot..."
+  "__index_level_0__": 218,
+  "file_id": "FX_177",
+  "options": []
 }

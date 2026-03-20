@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_105",
   "id": "6947e88aa66250005c9dc324",
-  "title": "2026 a dream year for trump?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026 a dream year for trump? (resolved around 2026-01-31 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Yes} or \\boxed{No}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-31 00:00:00",
+  "level": 1,
+  "title": "2026 a dream year for trump?",
   "ground_truth": "['No']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026 a dream year for t..."
+  "__index_level_0__": 105,
+  "file_id": "FX_105",
+  "options": []
 }

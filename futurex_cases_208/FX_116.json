@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_116",
   "id": "695fa38ae56c28005d3c3245",
-  "title": "Which NBA players will be traded during the 2025-26 season before the Feb. 5 Trade Deadline?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which NBA players will be traded during the 2025-26 season before the Feb. 5 Trade Deadline? (resolved around 2026-02-05 (GMT+8)). \nA.  the outcome be Trae Young\nB.  the outcome be Jonathan Kuminga\nC.  the outcome be Michael Porter Jr.\nD.  the outcome be Zach LaVine\nE.  the outcome be Giannis Antetokounmpo\nF.  the outcome be Ja Morant\nG.  the outcome be Bennedict Mathurin\nH.  the outcome be Coby White\nI.  the outcome be Anthony Davis\nJ.  the outcome be Malik Monk\nK.  the outcome be Anfernee Simons\nL.  the outcome be Domantas Sabonis\nM.  the outcome be Lauri Markkanen\nN.  the outcome be Ivica Zubac\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-05",
+  "level": 2,
+  "title": "Which NBA players will be traded during the 2025-26 season before the Feb. 5 Trade Deadline?",
   "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
+  "__index_level_0__": 118,
+  "file_id": "FX_116",
   "options": [
     {
       "id": "A",
@@ -62,6 +64,5 @@
       "id": "N",
       "text": "Ivica Zubac\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which NBA players will ..."
+  ]
 }

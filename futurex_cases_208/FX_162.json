@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_162",
   "id": "69a18e890ff98b0068330737",
-  "title": "Will James Talarico win the Texas Democratic primary for se by....?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will James Talarico win the Texas Democratic primary for se by....? (resolved around 2026-03-06 (GMT+8)). \nA.  the outcome be 2.000% or more?\nB.  the outcome be 4.000% or more?\nC.  the outcome be 6.000% or more?\nD.  the outcome be 7.00% or more?\nE.  the outcome be 8.00% or more?\nF.  the outcome be 10.00% or more?\nG.  the outcome be 12.00% or more?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-06",
+  "level": 2,
+  "title": "Will James Talarico win the Texas Democratic primary for se by....?",
   "ground_truth": "['A', 'B', 'C', 'D']",
+  "__index_level_0__": 197,
+  "file_id": "FX_162",
   "options": [
     {
       "id": "A",
@@ -34,6 +36,5 @@
       "id": "G",
       "text": "12.00% or more?\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will James Talarico win..."
+  ]
 }

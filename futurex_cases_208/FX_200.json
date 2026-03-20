@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_200",
   "id": "685171b65b1af900600a3306",
-  "title": "2026-03-09, what will be the stock market capitalization (市价总值) of PetroChina (601857) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?",
-  "level": 4,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will be the stock market capitalization (市价总值) of PetroChina (601857) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-03-09",
+  "level": 4,
+  "title": "2026-03-09, what will be the stock market capitalization (市价总值) of PetroChina (601857) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?",
   "ground_truth": "[209203324.54]",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+  "__index_level_0__": 252,
+  "file_id": "FX_200",
+  "options": []
 }

@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_025",
   "id": "69566c1320a2e600672a79e0",
-  "title": "Sharks vs. Red Wings",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Sharks vs. Red Wings (resolved around 2026-01-17 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Sharks} or \\boxed{Red Wings}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-17 00:00:00",
+  "level": 1,
+  "title": "Sharks vs. Red Wings",
   "ground_truth": "['Red Wings']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Sharks vs. Red Wings (r..."
+  "__index_level_0__": 24,
+  "file_id": "FX_025",
+  "options": []
 }

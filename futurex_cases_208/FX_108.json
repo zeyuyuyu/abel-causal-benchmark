@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_108",
   "id": "69590c18deacd00066876764",
-  "title": "Bitcoin below $82K in January?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Bitcoin below $82K in January? (resolved around 2026-02-02 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Yes} or \\boxed{No}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-02 00:00:00",
+  "level": 1,
+  "title": "Bitcoin below $82K in January?",
   "ground_truth": "['Yes']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Bitcoin below $82K in J..."
+  "__index_level_0__": 108,
+  "file_id": "FX_108",
+  "options": []
 }

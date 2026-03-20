@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_089",
   "id": "695bb4008b62560069adce56",
-  "title": "What will Crude Oil (CL) hit__ by end of January?",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL) hit__ by end of January? (resolved around 2026-02-01 (GMT+8)). \nA. Crude Oil (CL) hit (HIGH) $75 by end of January\nB. Crude Oil (CL) hit (HIGH) $65 by end of January\nC. Crude Oil (CL) hit (HIGH) $58 by end of January\nD. Crude Oil (CL) hit (LOW) $47 by end of January\nE. Crude Oil (CL) hit (LOW) $35 by end of January\nF. Crude Oil (CL) hit (HIGH) $70 by end of January\nG. Crude Oil (CL) hit (HIGH) $62 by end of January\nH. Crude Oil (CL) hit (LOW) $52 by end of January\nI. Crude Oil (CL) hit (LOW) $42 by end of January\nJ. Crude Oil (CL) hit (HIGH) $60 by end of January\nK. Crude Oil (CL) hit (LOW) $50 by end of January\nL. Crude Oil (CL) hit (LOW) $55 by end of January\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-01 00:00:00",
+  "level": 2,
+  "title": "What will Crude Oil (CL) hit__ by end of January?",
   "ground_truth": "['B', 'C', 'G', 'J']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL..."
+  "__index_level_0__": 89,
+  "file_id": "FX_089",
+  "options": []
 }

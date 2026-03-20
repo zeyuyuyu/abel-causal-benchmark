@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_106",
   "id": "69590c18deacd00066876763",
-  "title": "Will Bitcoin close above USD $100,000 on 31 January 2026 (UTC)?",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Bitcoin close above USD $100,000 on 31 January 2026 (UTC)? (resolved around 2026-02-02 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Yes} or \\boxed{No}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-02-02 00:00:00",
+  "level": 1,
+  "title": "Will Bitcoin close above USD $100,000 on 31 January 2026 (UTC)?",
   "ground_truth": "['No']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Bitcoin close abov..."
+  "__index_level_0__": 106,
+  "file_id": "FX_106",
+  "options": []
 }

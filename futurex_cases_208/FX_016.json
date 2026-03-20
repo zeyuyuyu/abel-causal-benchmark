@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_016",
   "id": "69566c1320a2e600672a79ba",
-  "title": "Islanders vs. Oilers",
-  "level": 1,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Islanders vs. Oilers (resolved around 2026-01-16 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Islanders} or \\boxed{Oilers}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-16 00:00:00",
+  "level": 1,
+  "title": "Islanders vs. Oilers",
   "ground_truth": "['Islanders']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Islanders vs. Oilers (r..."
+  "__index_level_0__": 15,
+  "file_id": "FX_016",
+  "options": []
 }

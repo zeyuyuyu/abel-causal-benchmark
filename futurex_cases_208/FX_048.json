@@ -1,10 +1,11 @@
 {
-  "file_id": "FX_048",
   "id": "694e82d4028e36005d93d3f3",
-  "title": "NFC Champion",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"NFC Champion  (resolved around 2026-01-27 (GMT+8)). \nA.  the Cardinals win the NFC Championship\nB.  the Falcons win the NFC Championship\nC.  the Panthers win the NFC Championship\nD.  the Bears win the NFC Championship\nE.  the Cowboys win the NFC Championship\nF.  the Lions win the NFC Championship\nG.  the Packers win the NFC Championship\nH.  the Rams win the NFC Championship\nI.  the Vikings win the NFC Championship\nJ.  the Saints win the NFC Championship\nK.  the Giants win the 2026 NFC Championship\nL.  the Eagles win the 2026 NFC Championship\nM.  the 49ers win the 2026 NFC Championship\nN.  the Seahawks win the 2026 NFC Championship\nO.  the Buccaneers win the 2026 NFC Championship\nP.  the Commanders win the 2026 NFC Championship\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-27",
+  "level": 2,
+  "title": "NFC Champion",
   "ground_truth": "['N']",
-  "options": [],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"NFC Champion  (resolved..."
+  "__index_level_0__": 47,
+  "file_id": "FX_048",
+  "options": []
 }

@@ -1,10 +1,12 @@
 {
-  "file_id": "FX_007",
   "id": "69590c18deacd00066876767",
-  "title": "MCSR Ranked Playoffs Season 9 Winner",
-  "level": 2,
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"MCSR Ranked Playoffs Season 9 Winner (resolved around 2026-01-15 (GMT+8)). \nA. the outcome be infume\nB. the outcome be doogie\nC. the outcome be hackingnoises\nD. the outcome be lowk3y_\nE. the outcome be edcr\nF. the outcome be Other\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
   "end_time": "2026-01-15 00:00:00",
+  "level": 2,
+  "title": "MCSR Ranked Playoffs Season 9 Winner",
   "ground_truth": "['C']",
+  "__index_level_0__": 6,
+  "file_id": "FX_007",
   "options": [
     {
       "id": "A",
@@ -30,6 +32,5 @@
       "id": "F",
       "text": "Other\""
     }
-  ],
-  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"MCSR Ranked Playoffs Se..."
+  ]
 }

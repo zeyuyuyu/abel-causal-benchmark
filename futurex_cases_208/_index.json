@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source_file": "train-00000-of-00001.parquet",
-    "created_date": "2026-03-20T17:29:20.787312",
+    "created_date": "2026-03-20",
     "total_cases": 208,
     "level_distribution": {
       "L1": 86,
