@@ -36,7 +36,7 @@
    /causal_graph/{ticker}/multi-step-prediction  ✅ 已实现
    /graph_stats/intervention_impact              ❌ 需修复（422 错误）
    /graph_stats/nodes_connection                 ❌ 需修复（422 错误）
-   /causal_graph/multi-step-prediction/batch               ❌ 需实现（404 不存在）
+   /causal_graph/batch/predictions               ❌ 需实现（404 不存在）
    ```
 
 2. **参数解析**

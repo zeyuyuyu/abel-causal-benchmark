@@ -87,7 +87,7 @@ GET /graph_stats/nodes_connection?node_id_1=DXY&node_id_2=BTCUSD&max_depth=3&dir
 
 **测试请求**:
 ```bash
-GET /causal_graph/multi-step-prediction/batch?tickers=BTCUSD,ETHUSD&analysis_mode=comparison
+GET /causal_graph/batch/predictions?tickers=BTCUSD,ETHUSD&analysis_mode=comparison
 ```
 
 **实际响应**: `404 Not Found`
