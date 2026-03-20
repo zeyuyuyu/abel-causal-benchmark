@@ -77,7 +77,7 @@ class CAPCompatibilityTester:
         self.primitive_specs = {
             "predict": {
                 "description": "Markov blanket inference for next-step prediction",
-                "required_fields": ["prediction", "probability_up"],
+                "required_fields": ["cumulative_prediction", "probability_up"],
                 "optional_fields": ["features", "parents", "tau", "confidence"],
                 "primary_endpoint": "/causal_graph/{ticker}/multi-step-prediction",
             },
