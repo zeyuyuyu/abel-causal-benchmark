@@ -550,7 +550,83 @@ A successful benchmark demonstrates:
 
 ## 📖 Citation
 
-If you use this benchmark in research:
+## 🔬 CAP Testing
+
+### Quick Test (No API Required)
+
+```bash
+# Dry run to see test structure
+python test_cap_compatibility.py --dry-run --limit 5
+```
+
+### Test Against Real API
+
+```bash
+# Test all CAP primitives
+python test_cap_compatibility.py \
+  --base-url "https://abel-graph-computer-sit.abel.ai" \
+  --output-dir ./cap_test_results
+
+# Test specific primitive (e.g., intervene - the hardest)
+python test_cap_compatibility.py \
+  --base-url "https://abel-graph-computer-sit.abel.ai" \
+  --primitive intervene \
+  --category B
+
+# Full benchmark with CAP mapping
+python test_cap_with_benchmark.py \
+  --base-url "https://abel-graph-computer-sit.abel.ai" \
+  --output-dir ./full_cap_results
+```
+
+### CAP Test Output
+
+```
+CAP Compatibility Summary
+======================================================================
+Tests Run: 35
+Success Rate: 82.9%
+Behavior Match: 76.5%
+
+✅ CAP compatibility: EXCELLENT
+
+By Primitive:
+  predict:   8/8  (100%) success, 4.2 optional fields avg
+  intervene: 7/10 (70%)  success, 2.1 optional fields avg ⚠️
+  explain:   5/5  (100%) success
+  path:      7/7  (100%) success
+  attest:    5/5  (100%) success
+```
+
+### Understanding CAP Compatibility
+
+| Level | Success Rate | Meaning |
+|-------|--------------|---------|
+| 🟢 Excellent | > 80% | Production-ready CAP implementation |
+| 🟡 Good | 60-80% | Core primitives work, edge cases need work |
+| 🔴 Needs Work | < 60% | Significant gaps in CAP specification |
+
+### CAP Test Reports
+
+After running, check:
+
+```bash
+# Summary report
+cat cap_compatibility_results/cap_compatibility_report.md
+
+# Detailed JSON for programmatic analysis
+cat cap_compatibility_results/cap_compatibility_report.json | jq '.by_primitive'
+```
+
+**Key sections in report**:
+1. **Executive Summary**: Overall compatibility score
+2. **By Primitive**: Per-CAP-primitive breakdown
+3. **Issues**: Specific missing fields/behaviors
+4. **Recommendations**: Priority fixes
+
+---
+
+## Citation
 
 ```bibtex
 @software{futurex_benchmark_2025,
