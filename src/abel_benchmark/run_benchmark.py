@@ -83,7 +83,7 @@ class AbelGraphComputerClient:
         await self.client.aclose()
 
 
-class FutureXBenchmark:
+class AbelCausalBenchmark:
     """Main benchmark orchestrator."""
     
     def __init__(self, base_url: str, questions: List[BenchmarkQuestion]):
@@ -447,7 +447,7 @@ async def main():
         print(f"Running only category {args.category}: {len(questions)} questions")
     
     # Run benchmark
-    benchmark = FutureXBenchmark(args.base_url, questions)
+    benchmark = AbelCausalBenchmark(args.base_url, questions)
     try:
         results = await benchmark.run()
         

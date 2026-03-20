@@ -19,7 +19,7 @@ from typing import List, Dict, Any, Optional
 from pathlib import Path
 
 
-class FutureXSubmitter:
+class AbelSubmitter:
     """Generate Abel CG predictions for FutureX challenge."""
     
     def __init__(self, base_url: str = "https://abel-graph-computer-sit.abel.ai"):
@@ -254,7 +254,7 @@ async def main():
     
     args = parser.parse_args()
     
-    submitter = FutureXSubmitter(args.base_url)
+    submitter = AbelSubmitter(args.base_url)
     
     try:
         print("🚀 Generating Abel CG predictions for FutureX...")

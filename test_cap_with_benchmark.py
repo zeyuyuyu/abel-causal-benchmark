@@ -401,7 +401,7 @@ async def main():
     )
     parser.add_argument(
         "--questions-file",
-        default="src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json",
+        default="src/abel_benchmark/references/benchmark_questions_v2_enhanced.json",
         help="Path to benchmark questions JSON"
     )
     parser.add_argument(

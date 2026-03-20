@@ -1,5 +1,5 @@
 """
-FutureX Causal Prediction Benchmark V2
+Abel Causal Benchmark (ACB) V2
 
 A comprehensive benchmark for testing causal reasoning capabilities
 against forward-looking financial prediction questions.
@@ -17,7 +17,7 @@ from .enhanced_cevs_scorer import (
 )
 from .run_benchmark import (
     AbelGraphComputerClient,
-    FutureXBenchmark,
+    AbelCausalBenchmark,
     BenchmarkReporter,
 )
 
@@ -26,6 +26,6 @@ __all__ = [
     "EnhancedCEVSScorer",
     "calculate_cevs",
     "AbelGraphComputerClient",
-    "FutureXBenchmark",
+    "AbelCausalBenchmark",
     "BenchmarkReporter",
 ]

@@ -14,7 +14,7 @@ import json
 import sys
 from pathlib import Path
 
-from .run_benchmark import FutureXBenchmark, BenchmarkReporter
+from .run_benchmark import AbelCausalBenchmark, BenchmarkReporter
 from .enhanced_cevs_scorer import EnhancedCEVSScorer
 
 
@@ -24,7 +24,7 @@ def cmd_run(args):
         questions = json.load(f)
     
     async def run():
-        benchmark = FutureXBenchmark(
+        benchmark = AbelCausalBenchmark(
             base_url=args.base_url,
             questions=questions['questions']
         )

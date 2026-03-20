@@ -451,7 +451,7 @@ async def main():
     parser = argparse.ArgumentParser(description="Test CAP primitive compatibility")
     parser.add_argument("--base-url", default="", help="CG API base URL")
     parser.add_argument("--questions-file", 
-                       default="src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json",
+                       default="src/abel_benchmark/references/benchmark_questions_v2_enhanced.json",
                        help="Benchmark questions JSON")
     parser.add_argument("--primitive", choices=["predict", "intervene", "explain", "path", "attest", "all"],
                        default="all", help="Primitive to test")

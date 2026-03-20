@@ -3,7 +3,7 @@ Tests for Enhanced CEVS Scorer
 """
 
 import pytest
-from futurex_benchmark.enhanced_cevs_scorer import (
+from abel_benchmark.enhanced_cevs_scorer import (
     CEVSComponents,
     EnhancedCEVSScorer,
     calculate_cevs,

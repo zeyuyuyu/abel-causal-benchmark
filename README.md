@@ -49,12 +49,12 @@ abel-benchmark --help
 ```bash
 # Step 1: Validate questions format
 abel-benchmark validate \
-  --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json
+  --questions src/abel_benchmark/references/benchmark_questions_v2_enhanced.json
 
 # Step 2: Run benchmark against your API
 abel-benchmark run \
   --base-url "https://abel-graph-computer-sit.abel.ai" \
-  --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
+  --questions src/abel_benchmark/references/benchmark_questions_v2_enhanced.json \
   --output-dir ./results/$(date +%Y%m%d_%H%M%S)
 
 # Step 3: View results
@@ -87,11 +87,11 @@ Reports generated:
 ### Programmatic Usage
 
 ```python
-from futurex_benchmark import calculate_cevs, EnhancedCEVSScorer
+from abel_benchmark import calculate_cevs, EnhancedCEVSScorer
 import json
 
 # Load questions
-with open('src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json') as f:
+with open('src/abel_benchmark/references/benchmark_questions_v2_enhanced.json') as f:
     questions = json.load(f)['questions']
 
 # Score a response
@@ -117,7 +117,7 @@ print(f"  Confidence: {cevs.confidence_calibration:.3f}")
 
 ```
 futurex-causal-benchmark/
-├── src/futurex_benchmark/        # Python package
+├── src/abel_benchmark/        # Python package
 │   ├── __init__.py
 │   ├── cli.py                    # Command-line interface
 │   ├── run_benchmark.py          # Benchmark execution
@@ -221,7 +221,7 @@ V2 includes questions tied to real 2025 events for post-hoc validation:
 
 ### Adding New Questions
 
-1. Edit `src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json`
+1. Edit `src/abel_benchmark/references/benchmark_questions_v2_enhanced.json`
 2. Follow existing format with CAP primitive specification
 3. Validate: `abel-benchmark validate --questions your_file.json`
 4. Test run against your API
@@ -271,7 +271,7 @@ mkdir -p results
 # Run complete benchmark
 abel-benchmark run \
   --base-url "https://abel-graph-computer-sit.abel.ai" \
-  --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
+  --questions src/abel_benchmark/references/benchmark_questions_v2_enhanced.json \
   --output-dir "./results/$(date +%Y%m%d_%H%M%S)"
 ```
 
@@ -317,7 +317,7 @@ B1,B,What is causal propagation...,True,0.450,0.500,0.400,0.400,0.500
 
 ```python
 # Example: A1 - BTCUSD 5-hour prediction
-from futurex_benchmark import calculate_cevs
+from abel_benchmark import calculate_cevs
 
 response = {
     "prediction": 0.035,          # Cumulative return prediction
@@ -398,7 +398,7 @@ cevs = calculate_cevs(response, question)
 When your API implements CAP primitives:
 
 ```python
-from futurex_benchmark.run_benchmark import CAPToCGMapper
+from abel_benchmark.run_benchmark import CAPToCGMapper
 
 mapper = CAPToCGMapper()
 
@@ -519,7 +519,7 @@ jobs:
         run: |
           abel-benchmark run \
             --base-url $CG_API_URL \
-            --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
+            --questions src/abel_benchmark/references/benchmark_questions_v2_enhanced.json \
             --output-dir ./results
       
       - name: Upload results
@@ -535,7 +535,7 @@ jobs:
 
 - **SKILL.md**: Detailed skill documentation for Claude/Cursor integration
 - **DEMO_GUIDE.md**: Step-by-step demo walkthrough
-- **CEVS Scoring**: See `src/futurex_benchmark/enhanced_cevs_scorer.py` docstrings
+- **CEVS Scoring**: See `src/abel_benchmark/enhanced_cevs_scorer.py` docstrings
 
 ## 🏆 Success Criteria
 
