@@ -49,6 +49,8 @@ final_test_results/
 *.html
 !references/*.json
 !test_cases/*.json
+!benchmarks_downloaded/**/*.csv
+!benchmarks_downloaded/**/*.json
 
 # Environment variables
 .env
