@@ -1,0 +1,3937 @@
+{
+  "metadata": {
+    "source_file": "train-00000-of-00001.parquet",
+    "created_date": "2026-03-20T17:29:20.787312",
+    "total_cases": 208,
+    "level_distribution": {
+      "L1": 86,
+      "L2": 82,
+      "L3": 14,
+      "L4": 26
+    }
+  },
+  "cases": [
+    {
+      "id": "694bdd0b43684c005d3473f1",
+      "title": "Right approach to @bens puzzle (#2) / Collaboration space",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Order in which hints are revealed matters"
+        },
+        {
+          "id": "B",
+          "text": "Hints should be broken into chunks of size 5 words"
+        },
+        {
+          "id": "C",
+          "text": "Binary"
+        },
+        {
+          "id": "D",
+          "text": "The second letter of the first step is K"
+        },
+        {
+          "id": "E",
+          "text": "Optical (as in round 1)"
+        },
+        {
+          "id": "F",
+          "text": "Wait for more hints (at least 150). Will not be an answer if less than 150 hints"
+        },
+        {
+          "id": "G",
+          "text": "The third letter of the first step is L"
+        },
+        {
+          "id": "H",
+          "text": "A step of the puzzle involves looking for specific letters present or not present in each word"
+        },
+        {
+          "id": "I",
+          "text": "The fourth letter of the first step is I"
+        },
+        {
+          "id": "J",
+          "text": "The first letter of the first step's result is S"
+        },
+        {
+          "id": "K",
+          "text": "Some other symbols or signs than letters"
+        },
+        {
+          "id": "L",
+          "text": "Ignore letter case"
+        },
+        {
+          "id": "M",
+          "text": "The final answer has a Wikipedia page"
+        },
+        {
+          "id": "N",
+          "text": "Each word provides exactly one data point toward the first step of the puzzle\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Right approach to @bens..."
+    },
+    {
+      "id": "694bdd0b43684c005d3473f6",
+      "title": "How many characters in the solution to @bens puzzle (round 2)",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "4 - 6"
+        },
+        {
+          "id": "B",
+          "text": "7 - 9"
+        },
+        {
+          "id": "C",
+          "text": "10 - 12"
+        },
+        {
+          "id": "D",
+          "text": "13 - 15"
+        },
+        {
+          "id": "E",
+          "text": "16 - 18"
+        },
+        {
+          "id": "F",
+          "text": "19 - 20\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How many characters in ..."
+    },
+    {
+      "id": "694a8b8fbd65d70068ad7db4",
+      "title": "Which candidates will make it to the second round of the Portuguese Presidential elections on 18 Jan 2026?",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['B']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Other"
+        },
+        {
+          "id": "B",
+          "text": "António José Seguro vs. André Ventura"
+        },
+        {
+          "id": "C",
+          "text": "Marques Mendes vs. André Ventura"
+        },
+        {
+          "id": "D",
+          "text": "Marques Mendes vs. António José Seguro"
+        },
+        {
+          "id": "E",
+          "text": "Gouveia e Melo vs. André Ventura"
+        },
+        {
+          "id": "F",
+          "text": "Gouveia e Melo vs. Marques Mendes"
+        },
+        {
+          "id": "G",
+          "text": "Gouveia e Melo vs. António José Seguro"
+        },
+        {
+          "id": "H",
+          "text": "No second round\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which candidates will m..."
+    },
+    {
+      "id": "69493cb11e67de005c795b7e",
+      "title": "Who will qualify for the second round of the Portugal Presidential Election?",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['C', 'P']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will qualify for th..."
+    },
+    {
+      "id": "6957ba8a03568a006853e820",
+      "title": "2025 CAF Cup of Nations (AFCON) Winner",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Senegal"
+        },
+        {
+          "id": "B",
+          "text": "Morocco"
+        },
+        {
+          "id": "C",
+          "text": "Nigeria"
+        },
+        {
+          "id": "D",
+          "text": "Egypt\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2025 CAF Cup of Nations..."
+    },
+    {
+      "id": "6941510e41b9d1005effa734",
+      "title": "Global Average Temperature Dec 2025 per LOTI v4 vs 1951-1980 base period (NASA Gistemp)",
+      "level": 2,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "December 2025 less than 1.095C"
+        },
+        {
+          "id": "B",
+          "text": "December 2025 1.095C or more and less than 1.145C"
+        },
+        {
+          "id": "C",
+          "text": "December 2025 1.145C or more and less than 1.195C"
+        },
+        {
+          "id": "D",
+          "text": "December 2025 1.195C or more and less than 1.245C"
+        },
+        {
+          "id": "E",
+          "text": "December 2025 1.245C or more and less than 1.295C"
+        },
+        {
+          "id": "F",
+          "text": "December 2025 1.295C or more and less than 1.345C"
+        },
+        {
+          "id": "G",
+          "text": "December 2025 1.345C or more\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Global Average Temperat..."
+    },
+    {
+      "id": "69590c18deacd00066876767",
+      "title": "MCSR Ranked Playoffs Season 9 Winner",
+      "level": 2,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "infume"
+        },
+        {
+          "id": "B",
+          "text": "doogie"
+        },
+        {
+          "id": "C",
+          "text": "hackingnoises"
+        },
+        {
+          "id": "D",
+          "text": "lowk3y_"
+        },
+        {
+          "id": "E",
+          "text": "edcr"
+        },
+        {
+          "id": "F",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"MCSR Ranked Playoffs Se..."
+    },
+    {
+      "id": "695baf2f8b62560069adcdde",
+      "title": "Who will post the winning guess in Ben’s puzzle (round 2) as yourself!",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['D']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Winning guess is not posted"
+        },
+        {
+          "id": "B",
+          "text": "Other"
+        },
+        {
+          "id": "C",
+          "text": "Phenomist"
+        },
+        {
+          "id": "D",
+          "text": "Eliza"
+        },
+        {
+          "id": "E",
+          "text": "Jim Hays"
+        },
+        {
+          "id": "F",
+          "text": "Q Breezy"
+        },
+        {
+          "id": "G",
+          "text": "MachiNi"
+        },
+        {
+          "id": "H",
+          "text": "@Jack1\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will post the winni..."
+    },
+    {
+      "id": "69566c1320a2e600672a7993",
+      "title": "Sept-Nov Unemployment Rate - U.K.",
+      "level": 2,
+      "end_time": "2026-01-20 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Sept-Nov Unemployment R..."
+    },
+    {
+      "id": "695e521c255b39006c58f5af",
+      "title": "What will be true of the oil tanker Marinera on 14th January?",
+      "level": 2,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Under US control"
+        },
+        {
+          "id": "B",
+          "text": "US claims to have found drugs on board"
+        },
+        {
+          "id": "C",
+          "text": "US claims to have found weapons on board"
+        },
+        {
+          "id": "D",
+          "text": "Sunk / scuppered / heavily damaged\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will be true of th..."
+    },
+    {
+      "id": "6956690c20a2e600672a78a6",
+      "title": "Which team will win the 2025-2026 College Football Playoff National Championship?",
+      "level": 2,
+      "end_time": "2026-01-20 00:00:00",
+      "ground_truth": "['F']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ole miss"
+        },
+        {
+          "id": "B",
+          "text": "Alabama"
+        },
+        {
+          "id": "C",
+          "text": "Miami"
+        },
+        {
+          "id": "D",
+          "text": "Texas Tech"
+        },
+        {
+          "id": "E",
+          "text": "Georgia"
+        },
+        {
+          "id": "F",
+          "text": "Indiana"
+        },
+        {
+          "id": "G",
+          "text": "Oregon"
+        },
+        {
+          "id": "H",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which team will win the..."
+    },
+    {
+      "id": "69566c1320a2e600672a796d",
+      "title": "December Inflation Canada - Annual",
+      "level": 2,
+      "end_time": "2026-01-19 00:00:00",
+      "ground_truth": "['E']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Cana..."
+    },
+    {
+      "id": "69566c1320a2e600672a79ab",
+      "title": "December Inflation Eurozone - Annual",
+      "level": 2,
+      "end_time": "2026-01-19 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Euro..."
+    },
+    {
+      "id": "69566c1320a2e600672a79eb",
+      "title": "Coventry City FC vs. Leicester City FC",
+      "level": 1,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Coventry City FC vs. Le..."
+    },
+    {
+      "id": "694a8b8fbd65d70068ad7da2",
+      "title": "“Inside CECOT” airs on 60 Minutes by January 18?",
+      "level": 1,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"“Inside CECOT” airs on ..."
+    },
+    {
+      "id": "69566c1320a2e600672a79ba",
+      "title": "Islanders vs. Oilers",
+      "level": 1,
+      "end_time": "2026-01-16 00:00:00",
+      "ground_truth": "['Islanders']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Islanders vs. Oilers (r..."
+    },
+    {
+      "id": "69566c1320a2e600672a79dd",
+      "title": "Lightning vs. Blues",
+      "level": 1,
+      "end_time": "2026-01-17 00:00:00",
+      "ground_truth": "[\"Blues\"]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Lightning vs. Blues (re..."
+    },
+    {
+      "id": "69566c1320a2e600672a79e5",
+      "title": "Southampton FC vs. Hull City AFC",
+      "level": 1,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Southampton FC vs. Hull..."
+    },
+    {
+      "id": "69566c1320a2e600672a799a",
+      "title": "Querétaro FC vs. Club Tijuana",
+      "level": 1,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Querétaro FC vs. Club T..."
+    },
+    {
+      "id": "69566c1320a2e600672a7998",
+      "title": "Golden Knights vs. Kings",
+      "level": 1,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['Golden Knights']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Golden Knights vs. King..."
+    },
+    {
+      "id": "69566c1320a2e600672a799b",
+      "title": "CF América vs. Atlético San Luis",
+      "level": 1,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"CF América vs. Atlético..."
+    },
+    {
+      "id": "69590f11deacd00066876794",
+      "title": "Rams Başakşehir FK vs. Fatih Karagümrük SK",
+      "level": 1,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Rams Başakşehir FK vs. ..."
+    },
+    {
+      "id": "694bdd0b43684c005d3473e5",
+      "title": "Will @bens puzzle (round 2) get below 10%?",
+      "level": 1,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will @bens puzzle (roun..."
+    },
+    {
+      "id": "69566c1320a2e600672a79c0",
+      "title": "Melbourne City FC vs. Auckland FC",
+      "level": 1,
+      "end_time": "2026-01-17 00:00:00",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Melbourne City FC vs. A..."
+    },
+    {
+      "id": "69566c1320a2e600672a79e0",
+      "title": "Sharks vs. Red Wings",
+      "level": 1,
+      "end_time": "2026-01-17 00:00:00",
+      "ground_truth": "['Red Wings']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Sharks vs. Red Wings (r..."
+    },
+    {
+      "id": "69566c1320a2e600672a7a33",
+      "title": "NAC Breda vs. NEC",
+      "level": 1,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"NAC Breda vs. NEC (reso..."
+    },
+    {
+      "id": "695e5562255b39006c58f5c5",
+      "title": "Al Ittihad Saudi Club vs. Al Ettifaq Saudi Club",
+      "level": 1,
+      "end_time": "2026-01-17 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Al Ittihad Saudi Club v..."
+    },
+    {
+      "id": "69624695e87498005daa01d1",
+      "title": "In which city will Tetra be on January 15th 2026?",
+      "level": 1,
+      "end_time": "2026-01-16 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Blackpool"
+        },
+        {
+          "id": "B",
+          "text": "Middlesbrough"
+        },
+        {
+          "id": "C",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"In which city will Tetr..."
+    },
+    {
+      "id": "6957c09b03568a006853e87d",
+      "title": "Sharks vs. Panthers",
+      "level": 1,
+      "end_time": "2026-01-20 00:00:00",
+      "ground_truth": "['Sharks']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Sharks vs. Panthers (re..."
+    },
+    {
+      "id": "69566c1320a2e600672a799d",
+      "title": "Deportivo Toluca FC vs. Club Santos Laguna",
+      "level": 1,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Deportivo Toluca FC vs...."
+    },
+    {
+      "id": "695fa38be56c28005d3c324e",
+      "title": "FC Köln vs. FC Bayern München",
+      "level": 1,
+      "end_time": "2026-01-15 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "FC Bayern München"
+        },
+        {
+          "id": "B",
+          "text": "Tie"
+        },
+        {
+          "id": "C",
+          "text": "FC Köln\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"FC Köln vs. FC Bayern M..."
+    },
+    {
+      "id": "6956690920a2e600672a7857",
+      "title": "What will be the domestic box office gross in the opening weekend for \"28 Years Later: The Bone Temple,\" according to Box Office Mojo?",
+      "level": 2,
+      "end_time": "2026-01-18 00:00:00",
+      "ground_truth": "[\"A\"]",
+      "options": [
+        {
+          "id": "A",
+          "text": "Less than $15 million"
+        },
+        {
+          "id": "B",
+          "text": "At least $15 million, but less than $30 million"
+        },
+        {
+          "id": "C",
+          "text": "At least $30 million, but less than $45 million"
+        },
+        {
+          "id": "D",
+          "text": "At least $45 million, but less than $60 million"
+        },
+        {
+          "id": "E",
+          "text": "At least $60 million, but less than $75 million"
+        },
+        {
+          "id": "F",
+          "text": "At least $75 million, but less than $90 million\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will be the domest..."
+    },
+    {
+      "id": "685147092537419998691328",
+      "title": "2026-01-19, what will be the books from rank 4 to 6 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)",
+      "level": 4,
+      "end_time": "2026-01-19 00:00:00",
+      "ground_truth": "[\"The Housemaid\", \"Brimstone\", \"The Correspondent\"]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-19, what will b..."
+    },
+    {
+      "id": "6946970d97a129005dec27f7",
+      "title": "How much money will ClaudePlaysPokemon have left after completing Safari Zone?",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['I']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Does not complete Safari Zone"
+        },
+        {
+          "id": "B",
+          "text": "$0 - $9,999"
+        },
+        {
+          "id": "C",
+          "text": "$10,000-$19,999"
+        },
+        {
+          "id": "D",
+          "text": "$20,000-$29,999"
+        },
+        {
+          "id": "E",
+          "text": "$30,000-$39,999"
+        },
+        {
+          "id": "F",
+          "text": "$40,000-$49,999"
+        },
+        {
+          "id": "G",
+          "text": "$50,000-$59,999"
+        },
+        {
+          "id": "H",
+          "text": "$60,000-$69,999"
+        },
+        {
+          "id": "I",
+          "text": "$70,000+\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How much money will Cla..."
+    },
+    {
+      "id": "6956690c20a2e600672a7879",
+      "title": "Best Actress nominees? (2026 Oscars)",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Jessie Buckley - Hamnet"
+        },
+        {
+          "id": "B",
+          "text": "Rose Byrne - If I Had Legs I'd Kick You"
+        },
+        {
+          "id": "C",
+          "text": "Renate Reinsve - Sentimental Value"
+        },
+        {
+          "id": "D",
+          "text": "Emma Stone - Bugonia"
+        },
+        {
+          "id": "E",
+          "text": "Chase Infiniti - One Battle After Another"
+        },
+        {
+          "id": "F",
+          "text": "Kate Hudson - Song Sung Blue"
+        },
+        {
+          "id": "G",
+          "text": "Amanda Seyfried - The Testament of Ann Lee"
+        },
+        {
+          "id": "H",
+          "text": "Cynthia Erivo - Wicked: For Good"
+        },
+        {
+          "id": "I",
+          "text": "Jennifer Lawrence - Die, My Love"
+        },
+        {
+          "id": "J",
+          "text": "June Squibb - Eleanor the Great"
+        },
+        {
+          "id": "K",
+          "text": "Sydney Sweeney - Christy"
+        },
+        {
+          "id": "L",
+          "text": "Julia Roberts - After the Hunt\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best Actress nominees? ..."
+    },
+    {
+      "id": "69663b097dc80a005b6df1cb",
+      "title": "Portugal Presidential Election First Round Head to Heads",
+      "level": 2,
+      "end_time": "2026-01-26",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F']",
+      "options": [
+        {
+          "id": "A",
+          "text": "André Ventura(YES) vs Henrique Gouveia e Melo(NO)"
+        },
+        {
+          "id": "B",
+          "text": "António José Seguro(YES) vs Henrique Gouveia e Melo(NO)"
+        },
+        {
+          "id": "C",
+          "text": "João Cotrim de Figueiredo(YES) vs Henrique Gouveia e Melo(NO)"
+        },
+        {
+          "id": "D",
+          "text": "António José Seguro(YES) vs João Cotrim de Figueiredo(NO)"
+        },
+        {
+          "id": "E",
+          "text": "André Ventura(YES) vs João Cotrim de Figueiredo(NO)"
+        },
+        {
+          "id": "F",
+          "text": "Luís Marques Mendes(YES) vs Henrique Gouveia e Melo(NO)"
+        },
+        {
+          "id": "G",
+          "text": "António José Seguro(YES) vs André Ventura(NO)"
+        },
+        {
+          "id": "H",
+          "text": "Luís Marques Mendes(YES) vs João Cotrim de Figueiredo(NO)"
+        },
+        {
+          "id": "I",
+          "text": "Luís Marques Mendes(YES) vs André Ventura(NO)"
+        },
+        {
+          "id": "J",
+          "text": "Luís Marques Mendes(YES) vs António José Seguro(NO)\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Portugal Presidential E..."
+    },
+    {
+      "id": "69493cb11e67de005c795a90",
+      "title": "Oscars 2026: Achievement in Casting Nominations",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A', 'B', 'D', 'E']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Achievemen..."
+    },
+    {
+      "id": "69493cb11e67de005c795a93",
+      "title": "Oscars 2026: Best Director Nominations",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['B', 'C', 'D', 'E', 'G']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Best Direc..."
+    },
+    {
+      "id": "695fa38ae56c28005d3c3241",
+      "title": "UEFA Champions League Week Prop Bets, Jan 20th-21st (Matchday 7)",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']",
+      "options": [
+        {
+          "id": "A",
+          "text": "3 (or more) penalty goals"
+        },
+        {
+          "id": "B",
+          "text": "3 (or more) Players get red cards (in any fashion)"
+        },
+        {
+          "id": "C",
+          "text": "Goal in the first 5 minutes of any game"
+        },
+        {
+          "id": "D",
+          "text": "7+ cards in a single match"
+        },
+        {
+          "id": "E",
+          "text": "Erling Haaland scores"
+        },
+        {
+          "id": "F",
+          "text": "Kylian Mbappe scores"
+        },
+        {
+          "id": "G",
+          "text": "Stoppage time winner"
+        },
+        {
+          "id": "H",
+          "text": "Stoppage time equalizer"
+        },
+        {
+          "id": "I",
+          "text": "7+ goals in a single match"
+        },
+        {
+          "id": "J",
+          "text": "2 (or more) 0-0 draws"
+        },
+        {
+          "id": "K",
+          "text": "5 (or more) draws"
+        },
+        {
+          "id": "L",
+          "text": "From 2 goals down to level during a match"
+        },
+        {
+          "id": "M",
+          "text": "A penalty is missed or saved by the goalkeeper"
+        },
+        {
+          "id": "N",
+          "text": "4+ Premier League teams win their matches\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"UEFA Champions League W..."
+    },
+    {
+      "id": "69493cb11e67de005c795a91",
+      "title": "Oscars 2026: Best Documentary Feature Nominations",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A', 'D', 'F', 'L']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Best Docum..."
+    },
+    {
+      "id": "6956690c20a2e600672a788c",
+      "title": "Best Picture nominees? (2026 Oscars)",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hamnet"
+        },
+        {
+          "id": "B",
+          "text": "One Battle After Another"
+        },
+        {
+          "id": "C",
+          "text": "Sinners"
+        },
+        {
+          "id": "D",
+          "text": "Marty Supreme"
+        },
+        {
+          "id": "E",
+          "text": "Sentimental Value"
+        },
+        {
+          "id": "F",
+          "text": "Frankenstein"
+        },
+        {
+          "id": "G",
+          "text": "Bugonia"
+        },
+        {
+          "id": "H",
+          "text": "Train Dreams"
+        },
+        {
+          "id": "I",
+          "text": "It Was Just an Accident"
+        },
+        {
+          "id": "J",
+          "text": "The Secret Agent"
+        },
+        {
+          "id": "K",
+          "text": "F1"
+        },
+        {
+          "id": "L",
+          "text": "Weapons"
+        },
+        {
+          "id": "M",
+          "text": "Wicked: For Good"
+        },
+        {
+          "id": "N",
+          "text": "No Other Choice\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best Picture nominees? ..."
+    },
+    {
+      "id": "694e8009028e36005d93d3cc",
+      "title": "Who will win the main event of UFC 324? (Gaethje vs Pimblett)",
+      "level": 2,
+      "end_time": "2026-01-25",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Justin Gaethje"
+        },
+        {
+          "id": "B",
+          "text": "Paddy Pimblett"
+        },
+        {
+          "id": "C",
+          "text": "Arman Tsarukyan"
+        },
+        {
+          "id": "D",
+          "text": "Charles Oliveira"
+        },
+        {
+          "id": "E",
+          "text": "Max Holloway"
+        },
+        {
+          "id": "F",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the main e..."
+    },
+    {
+      "id": "69639b3e5a6f9800684ed6ab",
+      "title": "MLBB: M7 World Championship Winner",
+      "level": 2,
+      "end_time": "2026-01-25",
+      "ground_truth": "['D']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"MLBB: M7 World Champion..."
+    },
+    {
+      "id": "694a8b8fbd65d70068ad7db1",
+      "title": "Best Supporting Actress nominees? (2026 Oscars)",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Teyana Taylor - One Battle After Another"
+        },
+        {
+          "id": "B",
+          "text": "Amy Madigan - Weapons"
+        },
+        {
+          "id": "C",
+          "text": "Inga Ibsdotter Lilleaas - Sentimental Value"
+        },
+        {
+          "id": "D",
+          "text": "Wunmi Mosaku - Sinners"
+        },
+        {
+          "id": "E",
+          "text": "Ariana Grande - Wicked: For Good"
+        },
+        {
+          "id": "F",
+          "text": "Odessa A'zion - Marty Supreme"
+        },
+        {
+          "id": "G",
+          "text": "Elle Fanning - Sentimental Value"
+        },
+        {
+          "id": "H",
+          "text": "Gwyneth Paltrow - Marty Supreme"
+        },
+        {
+          "id": "I",
+          "text": "Regina Hall - One Battle After Another"
+        },
+        {
+          "id": "J",
+          "text": "Laura Dern - Jay Kelly\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best Supporting Actress..."
+    },
+    {
+      "id": "694a8b8fbd65d70068ad7db2",
+      "title": "Best Director nominees? (2026 Oscars)",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Paul Thomas Anderson - One Battle After Another"
+        },
+        {
+          "id": "B",
+          "text": "Ryan Coogler - Sinners"
+        },
+        {
+          "id": "C",
+          "text": "Chloé Zhao - Hamnet"
+        },
+        {
+          "id": "D",
+          "text": "Joachim Trier - Sentimental Value"
+        },
+        {
+          "id": "E",
+          "text": "Jafar Panahi - It Was Just an Accident"
+        },
+        {
+          "id": "F",
+          "text": "Josh Safdie - Marty Supreme"
+        },
+        {
+          "id": "G",
+          "text": "Guillermo del Toro - Frankenstein"
+        },
+        {
+          "id": "H",
+          "text": "Yorgos Lanthimos - Bugonia"
+        },
+        {
+          "id": "I",
+          "text": "Mona Fastvold - The Testament of Ann Lee"
+        },
+        {
+          "id": "J",
+          "text": "James Cameron - Avatar: Fire and Ash\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best Director nominees?..."
+    },
+    {
+      "id": "6957c09b03568a006853e86c",
+      "title": "How long will it take Alex Honnold to free solo Taipei 101?",
+      "level": 2,
+      "end_time": "2026-01-23",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How long will it take A..."
+    },
+    {
+      "id": "694e8009028e36005d93d3ce",
+      "title": "Who will win the 2026 MIT Science Olympiad Invitational?",
+      "level": 2,
+      "end_time": "2026-01-25",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troy H.S. (Fullerton, CA)"
+        },
+        {
+          "id": "B",
+          "text": "Mason H.S. (Mason, OH)"
+        },
+        {
+          "id": "C",
+          "text": "Monta Vista H.S. (Cupertino, CA)"
+        },
+        {
+          "id": "D",
+          "text": "Seven Lakes H.S. (Katy, TX)"
+        },
+        {
+          "id": "E",
+          "text": "Harriton H.S. (Rosemont, PA)"
+        },
+        {
+          "id": "F",
+          "text": "Montgomery H.S. (Skillman, NJ)"
+        },
+        {
+          "id": "G",
+          "text": "Mountain View H.S. (Mountain View, CA)\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 M..."
+    },
+    {
+      "id": "694e82d4028e36005d93d3f3",
+      "title": "NFC Champion",
+      "level": 2,
+      "end_time": "2026-01-27",
+      "ground_truth": "['N']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"NFC Champion  (resolved..."
+    },
+    {
+      "id": "6956690c20a2e600672a787a",
+      "title": "Best Actor nominees? (2026 Oscars)",
+      "level": 2,
+      "end_time": "2026-01-22",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Leonardo DiCaprio - One Battle After Another"
+        },
+        {
+          "id": "B",
+          "text": "Timothée Chalamet - Marty Supreme"
+        },
+        {
+          "id": "C",
+          "text": "Michael B. Jordan - Sinners"
+        },
+        {
+          "id": "D",
+          "text": "Wagner Moura - The Secret Agent"
+        },
+        {
+          "id": "E",
+          "text": "Ethan Hawke - Blue Moon"
+        },
+        {
+          "id": "F",
+          "text": "Jesse Plemons - Bugonia"
+        },
+        {
+          "id": "G",
+          "text": "Joel Edgarton - Train Dreams"
+        },
+        {
+          "id": "H",
+          "text": "Daniel Day-Lewis - Anemone"
+        },
+        {
+          "id": "I",
+          "text": "Jeremy Allen White - Springsteen: Deliver Me From Nowhere"
+        },
+        {
+          "id": "J",
+          "text": "Dwayne Johnson - The Smashing Machine"
+        },
+        {
+          "id": "K",
+          "text": "George Clooney - Jay Kelly"
+        },
+        {
+          "id": "L",
+          "text": "Paul Mescal - The History of Sound\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best Actor nominees? (2..."
+    },
+    {
+      "id": "694fd195ae81c200695c89be",
+      "title": "Will Polo gram be revealed to be Marco's dad within 1 month",
+      "level": 1,
+      "end_time": "2026-01-26",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Polo gram be revea..."
+    },
+    {
+      "id": "69493a091e67de005c79583b",
+      "title": "Will Bugonia get an Oscar nomination for best picture?",
+      "level": 1,
+      "end_time": "2026-01-22",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Bugonia get an Osc..."
+    },
+    {
+      "id": "6964e98952029b005bc009b6",
+      "title": "The No-Bots Market. Which side will be automated-bots-free market close?",
+      "level": 1,
+      "end_time": "2026-01-23",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"The No-Bots Market. Whi..."
+    },
+    {
+      "id": "694fd4d0ae81c200695c89cf",
+      "title": "Bank of Brazil decision in January?",
+      "level": 1,
+      "end_time": "2026-01-27",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "No change in the Selic rate after Bank of Brazil's January 2026 meeting?"
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Bank of Brazil decision..."
+    },
+    {
+      "id": "6956690920a2e600672a7864",
+      "title": "At close of business on 23 January 2026, will the most recently announced Bank of Japan (BOJ) \"uncollateralized overnight call [interest] rate\" be lower, the same, or higher than it was at close of business on 19 December 2025?",
+      "level": 1,
+      "end_time": "2026-01-24",
+      "ground_truth": "['B']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lower"
+        },
+        {
+          "id": "B",
+          "text": "Same"
+        },
+        {
+          "id": "C",
+          "text": "Higher\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"At close of business on..."
+    },
+    {
+      "id": "6964e98952029b005bc009c2",
+      "title": "RAS2026: Will One Battle After Another gather more Oscars nominations than Marty Supreme?",
+      "level": 1,
+      "end_time": "2026-01-22",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"RAS2026: Will One Battl..."
+    },
+    {
+      "id": "694d2e966344cf0067e820ae",
+      "title": "Will Alex Honnold successfully free solo Taipei 101 on January 23, 2026?",
+      "level": 1,
+      "end_time": "2026-01-24",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Alex Honnold succe..."
+    },
+    {
+      "id": "6956690920a2e600672a7865",
+      "title": "Before 24 January 2026, will Paramount Skydance (Paramount) increase its offer to pay $30.00 per share for outstanding Warner Bros. Discovery (Warner Bros.) shares?",
+      "level": 1,
+      "end_time": "2026-01-25",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Before 24 January 2026,..."
+    },
+    {
+      "id": "6968de07e7876e006835e6b3",
+      "title": "Will the US Storm Prediction Center issue a Tornado Watch between 12:00 am EST 1/18/26 and 11:59 pm EST 1/24/26?",
+      "level": 1,
+      "end_time": "2026-01-25",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the US Storm Predi..."
+    },
+    {
+      "id": "6956690c20a2e600672a786b",
+      "title": "Juventus beats SSC Napoli | Soccer Serie A match 25th Jan 2026",
+      "level": 1,
+      "end_time": "2026-01-26",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Juventus beats SSC Napo..."
+    },
+    {
+      "id": "695fa38ae56c28005d3c3234",
+      "title": "Will Adrian Gonzales be found guilty in Uvalde school shooting response trial?",
+      "level": 1,
+      "end_time": "2026-01-22",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Adrian Gonzales be..."
+    },
+    {
+      "id": "6957ba8a03568a006853e828",
+      "title": "How will the winner of the portugal presidential election win",
+      "level": 1,
+      "end_time": "2026-01-27",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only candidate above 50% in round one"
+        },
+        {
+          "id": "B",
+          "text": "Wins first round and the runoff"
+        },
+        {
+          "id": "C",
+          "text": "2nd place in the first round, wins runoff\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How will the winner of ..."
+    },
+    {
+      "id": "6951230b943bd200688f9cd1",
+      "title": "Will Pam Bondi be arrested over defying the Epstein Files Transparency Act",
+      "level": 1,
+      "end_time": "2026-01-27",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Pam Bondi be arres..."
+    },
+    {
+      "id": "694e8009028e36005d93d3c6",
+      "title": "nasry Asfuras win overturned by a court?",
+      "level": 1,
+      "end_time": "2026-01-26",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"nasry Asfuras win overt..."
+    },
+    {
+      "id": "695d00ac4ef7b4005cb967ee",
+      "title": "Will there be a surprising Best Picture nomination? (2026 Oscars)",
+      "level": 1,
+      "end_time": "2026-01-22",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will there be a surpris..."
+    },
+    {
+      "id": "695e5562255b39006c58f5d4",
+      "title": "Al Hilal Saudi Club vs. Al Fayha Saudi Club",
+      "level": 1,
+      "end_time": "2026-01-23",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Al Hilal Saudi Club vs...."
+    },
+    {
+      "id": "695d03e74ef7b4005cb9682d",
+      "title": "FC Arouca vs. Sporting CP",
+      "level": 1,
+      "end_time": "2026-01-25",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"FC Arouca vs. Sporting ..."
+    },
+    {
+      "id": "6960f83c14d4fb0067208587",
+      "title": "Auckland FC vs. Central Coast Mariners FC",
+      "level": 1,
+      "end_time": "2026-01-24",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Auckland FC vs. Central..."
+    },
+    {
+      "id": "6854dfb0a5e49700606af49d",
+      "title": "2026-01-27, who will be the players ranked from 12 to 14 in the latest Official World Golf Ranking? (Give the names only)",
+      "level": 3,
+      "end_time": "2026-01-27",
+      "ground_truth": "['Sepp Straka', 'Alex Noren', 'Alex Noren']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, who will be..."
+    },
+    {
+      "id": "685147092537420060414059",
+      "title": "2026-01-26, what will be the books from rank 13 to 15 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)",
+      "level": 4,
+      "end_time": "2026-01-26",
+      "ground_truth": "['Heated Rivalry', 'Fourth Wing', 'Quicksilver']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-26, what will b..."
+    },
+    {
+      "id": "6851736beb11c800614780df",
+      "title": "2026-01-23, what will the high of Apple stock (AAPL) be for the day (in US$)?",
+      "level": 4,
+      "end_time": "2026-01-23",
+      "ground_truth": "[249.41]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will t..."
+    },
+    {
+      "id": "6851737f59f71f006037a1e4",
+      "title": "2026-01-26, what will be the day's open of the S&P 500 Index (INDEXSP:.INX)?",
+      "level": 4,
+      "end_time": "2026-01-26",
+      "ground_truth": "[6923.23]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-26, what will b..."
+    },
+    {
+      "id": "685173d659f71f006037a1eb",
+      "title": "2026-01-22, what will be the day's close for the Dow Jones Industrial Average (INDEXDJX:.DJI)?",
+      "level": 4,
+      "end_time": "2026-01-22",
+      "ground_truth": "[49384.01]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-22, what will b..."
+    },
+    {
+      "id": "6851741059f71f006037a1ee",
+      "title": "2026-01-23, what will be the Nikkei Stock Average (Nikkei 225)'s close for the day?",
+      "level": 4,
+      "end_time": "2026-01-23",
+      "ground_truth": "[53846.87]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will b..."
+    },
+    {
+      "id": "68528da19193260061abd8f6",
+      "title": "2026-01-27, what will be the high for Li Auto (NASDAQ:LI) for the day (in US$)?",
+      "level": 4,
+      "end_time": "2026-01-27",
+      "ground_truth": "[16.85]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, what will b..."
+    },
+    {
+      "id": "687df3b6ff05a4003c601bc2",
+      "title": "2026-01-27, what will the NASDAQ Composite Index (.IXIC)'s open be for the day?",
+      "level": 4,
+      "end_time": "2026-01-27",
+      "ground_truth": "[23734.75]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, what will t..."
+    },
+    {
+      "id": "695bb4008b62560069adce4b",
+      "title": "Will Palantir (PLTR) close above ___ end of January?",
+      "level": 2,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['None of the above']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Palantir (PLTR) cl..."
+    },
+    {
+      "id": "69663e477dc80a005b6df1ea",
+      "title": "What will Trump say in January?",
+      "level": 2,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P', 'Q', 'S']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Trump say in ..."
+    },
+    {
+      "id": "6957ba8a03568a006853e83f",
+      "title": "Price of DDR5-6000 2x16GB RAM at the end of January 2026",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['F']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Less than $100"
+        },
+        {
+          "id": "B",
+          "text": "$100-$200"
+        },
+        {
+          "id": "C",
+          "text": "$200-$300"
+        },
+        {
+          "id": "D",
+          "text": "$300-$400"
+        },
+        {
+          "id": "E",
+          "text": "$400-$500"
+        },
+        {
+          "id": "F",
+          "text": "$500-$600"
+        },
+        {
+          "id": "G",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Price of DDR5-6000 2x16..."
+    },
+    {
+      "id": "69566c1320a2e600672a78fd",
+      "title": "Turnout in 2026 Costa Rica Presidential Election First Round",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['I']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Turnout in 2026 Costa R..."
+    },
+    {
+      "id": "693c0b13a23921005c8d53ce",
+      "title": "GPT 5.2 METR time horizon",
+      "level": 2,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['J']",
+      "options": [
+        {
+          "id": "A",
+          "text": "<2h"
+        },
+        {
+          "id": "B",
+          "text": "2h00 - 2h15"
+        },
+        {
+          "id": "C",
+          "text": "2h15 - 2h30"
+        },
+        {
+          "id": "D",
+          "text": "2h30 - 2h45"
+        },
+        {
+          "id": "E",
+          "text": "2h45 - 3h00"
+        },
+        {
+          "id": "F",
+          "text": "3h00 - 3h15"
+        },
+        {
+          "id": "G",
+          "text": "3h15 - 3h30"
+        },
+        {
+          "id": "H",
+          "text": "3h30 - 3h45"
+        },
+        {
+          "id": "I",
+          "text": "3h45 - 4h"
+        },
+        {
+          "id": "J",
+          "text": ">= 4h\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"GPT 5.2 METR time horiz..."
+    },
+    {
+      "id": "69639b3e5a6f9800684ed69a",
+      "title": "Precipitation in NYC in January?",
+      "level": 2,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Precipitation in NYC in..."
+    },
+    {
+      "id": "6972189f11cfd2006997649c",
+      "title": "Which nation will be the focus of Stellaris Invicta Season 3?",
+      "level": 2,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "United Federation of Nations"
+        },
+        {
+          "id": "B",
+          "text": "Tripartite of Sol"
+        },
+        {
+          "id": "C",
+          "text": "Holy Solar Empire"
+        },
+        {
+          "id": "D",
+          "text": "House Triton"
+        },
+        {
+          "id": "E",
+          "text": "Eternal Kreventum\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which nation will be th..."
+    },
+    {
+      "id": "695bb4008b62560069adce53",
+      "title": "Gold (GC) above ___ end of January?",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['H', 'I', 'J', 'K', 'L']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Gold (GC) above ___ end..."
+    },
+    {
+      "id": "695bb4008b62560069adce59",
+      "title": "What will Crude Oil (CL) settle at in January?",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['F']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL..."
+    },
+    {
+      "id": "69590f11deacd00066876793",
+      "title": "Which soccer players will sign with new clubs in winter window?",
+      "level": 2,
+      "end_time": "2026-02-03 00:00:00",
+      "ground_truth": "['D', 'H', 'I', 'J', 'K', 'M', 'O', 'Q', 'W', '`']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which soccer players wi..."
+    },
+    {
+      "id": "6974bec1b31670005dd8d72a",
+      "title": "Measles cases in U.S. by January 31?",
+      "level": 2,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['A', 'B', 'C', 'E', 'F', 'G', 'H', 'I']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Measles cases in U.S. b..."
+    },
+    {
+      "id": "69566c1320a2e600672a78fb",
+      "title": "Grammys: Songwriter of the Year Winner",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Grammys: Songwriter of ..."
+    },
+    {
+      "id": "695bb4008b62560069adce04",
+      "title": "What will Opendoor (OPEN) hit in January 2026?",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['E', 'F', 'G', 'H', 'I']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Opendoor (OPE..."
+    },
+    {
+      "id": "695bb4008b62560069adce56",
+      "title": "What will Crude Oil (CL) hit__ by end of January?",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['B', 'C', 'G', 'J']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL..."
+    },
+    {
+      "id": "695bb4008b62560069adce54",
+      "title": "What will Gold (GC) settle at in January?",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['E']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Gold (GC) set..."
+    },
+    {
+      "id": "695fa38ae56c28005d3c3248",
+      "title": "[January 2026] Top 10 cards in the MTG Arena Powered Cube (by 17Lands GIH WR)",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Time Walk"
+        },
+        {
+          "id": "B",
+          "text": "Black Lotus"
+        },
+        {
+          "id": "C",
+          "text": "Ocelot Pride"
+        },
+        {
+          "id": "D",
+          "text": "Orcish Bowmasters"
+        },
+        {
+          "id": "E",
+          "text": "Mana Crypt"
+        },
+        {
+          "id": "F",
+          "text": "Ancestral Recall"
+        },
+        {
+          "id": "G",
+          "text": "Parallax Wave"
+        },
+        {
+          "id": "H",
+          "text": "Comet, Stellar Pup"
+        },
+        {
+          "id": "I",
+          "text": "Ajani, Nacatl Pariah"
+        },
+        {
+          "id": "J",
+          "text": "Sol Ring"
+        },
+        {
+          "id": "K",
+          "text": "Mox Sapphire"
+        },
+        {
+          "id": "L",
+          "text": "Mox Pearl"
+        },
+        {
+          "id": "M",
+          "text": "Flash"
+        },
+        {
+          "id": "N",
+          "text": "Broadside Bombardiers\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"[January 2026] Top 10 c..."
+    },
+    {
+      "id": "6964eca552029b005bc009f2",
+      "title": "Will Israel strike Gaza on...?",
+      "level": 2,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['C', 'E', 'G', 'H', 'J', 'K', 'L', 'M', 'O', 'U', 'X', '[', ']', '^', '_']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Israel strike Gaza..."
+    },
+    {
+      "id": "6972189f11cfd20069976498",
+      "title": "How Many Days will Arlington Virginia Public Schools be Cancelled Next Week?",
+      "level": 2,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        },
+        {
+          "id": "E",
+          "text": "4\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How Many Days will Arli..."
+    },
+    {
+      "id": "6956690920a2e600672a7867",
+      "title": "Which tennis player will win the Women's Singles Final at the 2026 Australian Open?",
+      "level": 2,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['F']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mirra Andreeva"
+        },
+        {
+          "id": "B",
+          "text": "Amanda Anisimova"
+        },
+        {
+          "id": "C",
+          "text": "Coco Gauff"
+        },
+        {
+          "id": "D",
+          "text": "Madison Keys"
+        },
+        {
+          "id": "E",
+          "text": "Naomi Osaka"
+        },
+        {
+          "id": "F",
+          "text": "Elena Rybakina"
+        },
+        {
+          "id": "G",
+          "text": "Aryna Sabalenka"
+        },
+        {
+          "id": "H",
+          "text": "Iga Swiatek\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which tennis player wil..."
+    },
+    {
+      "id": "695a5d897b2e6a00694886b9",
+      "title": "Who will win the 2026 Grammy for Best Pop Vocal Album?",
+      "level": 2,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['D']",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"SWAG,\" Justin Bieber"
+        },
+        {
+          "id": "B",
+          "text": "\"Man's Best Friend,\" Sabrina Carpenter"
+        },
+        {
+          "id": "C",
+          "text": "\"Something Beautiful,\" Miley Cyrus"
+        },
+        {
+          "id": "D",
+          "text": "\"MAYHEM,\" Lady Gaga"
+        },
+        {
+          "id": "E",
+          "text": "\"I've Tried Everything But Therapy (Part 2),\" Teddy Swims\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 G..."
+    },
+    {
+      "id": "695a5d897b2e6a00694886af",
+      "title": "Who will win the 2026 Grammy for Record of the Year?",
+      "level": 2,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['F']",
+      "options": [
+        {
+          "id": "A",
+          "text": "\"DtMF,\" Bad Bunny"
+        },
+        {
+          "id": "B",
+          "text": "\"Manchild,\" Sabrina Carpenter"
+        },
+        {
+          "id": "C",
+          "text": "\"Anxiety,\" Doechii"
+        },
+        {
+          "id": "D",
+          "text": "\"Wildflower,\" Billie Eilish"
+        },
+        {
+          "id": "E",
+          "text": "\"Abracadabra,\" Lady Gaga"
+        },
+        {
+          "id": "F",
+          "text": "\"Luther,\" Kendrick Lamar with SZA"
+        },
+        {
+          "id": "G",
+          "text": "\"The Subway,\" Chappell Roan\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 G..."
+    },
+    {
+      "id": "6957ba8a03568a006853e82e",
+      "title": "Tesla hits $400 or $500 first before end of January 2026?",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tesla hits or trades below $400.00 first"
+        },
+        {
+          "id": "B",
+          "text": "Tesla hits or trades above $500.00 first"
+        },
+        {
+          "id": "C",
+          "text": "Tesla hits neither $400 nor $500 before market close on Jan 30\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Tesla hits $400 or $500..."
+    },
+    {
+      "id": "695a609d7b2e6a00694886f6",
+      "title": "Reserve Bank of Australia Decision in February",
+      "level": 1,
+      "end_time": "2026-02-03 00:00:00",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Reserve Bank of Austral..."
+    },
+    {
+      "id": "695a5ee87b2e6a00694886d2",
+      "title": "Will thealignedapp.com have 100+ users by Jan 31, 2026?",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will thealignedapp.com ..."
+    },
+    {
+      "id": "6957ba8a03568a006853e82f",
+      "title": "Nvidia hits 170, 200 or neither first by end of January 2026?",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hits or goes below $170.00 first"
+        },
+        {
+          "id": "B",
+          "text": "Hits or goes above $200.00 first"
+        },
+        {
+          "id": "C",
+          "text": "Hits neither before end of trading January 30\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Nvidia hits 170, 200 or..."
+    },
+    {
+      "id": "6957ba8a03568a006853e845",
+      "title": "Reeves or Lammy out first?",
+      "level": 1,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Reeves first"
+        },
+        {
+          "id": "B",
+          "text": "Lammy first"
+        },
+        {
+          "id": "C",
+          "text": "Both are still in post by 1 February 2026\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Reeves or Lammy out fir..."
+    },
+    {
+      "id": "6972189f11cfd2006997647f",
+      "title": "New METR SOTA by end of January, 2026?",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"New METR SOTA by end of..."
+    },
+    {
+      "id": "69566c1320a2e600672a798d",
+      "title": "Will the Doomsday Clock move by ten seconds or more?",
+      "level": 1,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the Doomsday Clock..."
+    },
+    {
+      "id": "6968de07e7876e006835e6b8",
+      "title": "Will they pull a Nasrallah on Khamenei by end of January 2025?",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will they pull a Nasral..."
+    },
+    {
+      "id": "6947e88aa66250005c9dc324",
+      "title": "2026 a dream year for trump?",
+      "level": 1,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026 a dream year for t..."
+    },
+    {
+      "id": "69590c18deacd00066876763",
+      "title": "Will Bitcoin close above USD $100,000 on 31 January 2026 (UTC)?",
+      "level": 1,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Bitcoin close abov..."
+    },
+    {
+      "id": "696e274d183bed0068c24d04",
+      "title": "North Korea missile launch by January 31?",
+      "level": 1,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"North Korea missile lau..."
+    },
+    {
+      "id": "69590c18deacd00066876764",
+      "title": "Bitcoin below $82K in January?",
+      "level": 1,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Bitcoin below $82K in J..."
+    },
+    {
+      "id": "6968e150e7876e006835e6dc",
+      "title": "Nicolás Maduro released from custody by...?",
+      "level": 1,
+      "end_time": "2026-01-31 00:00:00",
+      "ground_truth": "['None of the above']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nicolás Maduro released from custody by December 31, 2026?"
+        },
+        {
+          "id": "B",
+          "text": "Nicolás Maduro released from custody by January 9, 2026?"
+        },
+        {
+          "id": "C",
+          "text": "Nicolás Maduro released from custody by January 31, 2026?\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Nicolás Maduro released..."
+    },
+    {
+      "id": "695baf2f8b62560069adcdd8",
+      "title": "Will something CRAZY happen in January (again)?",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will something CRAZY ha..."
+    },
+    {
+      "id": "696e274d183bed0068c24cfd",
+      "title": "Kings vs. Hurricanes",
+      "level": 1,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['Hurricanes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Kings vs. Hurricanes (r..."
+    },
+    {
+      "id": "696cd5b0a4b036005c06a931",
+      "title": "Al Fateh Saudi Club vs. Al Hazem SC",
+      "level": 1,
+      "end_time": "2026-02-02 00:00:00",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Al Fateh Saudi Club vs...."
+    },
+    {
+      "id": "69721bc011cfd200699764d5",
+      "title": "CA Tucumán vs. CA Huracán",
+      "level": 1,
+      "end_time": "2026-02-01 00:00:00",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"CA Tucumán vs. CA Hurac..."
+    },
+    {
+      "id": "685146342537419957469184",
+      "title": "2026-01-30, what will be the movies ranked from 4 to 6 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
+      "level": 3,
+      "end_time": "2026-01-30 00:00:00",
+      "ground_truth": "['翠湖', '密探', '奥利维娅与云']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-30, what will b..."
+    },
+    {
+      "id": "6972189f11cfd20069976499",
+      "title": "Who will win Super Bowl LX MVP?",
+      "level": 2,
+      "end_time": "2026-02-10",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Matthew Stafford"
+        },
+        {
+          "id": "B",
+          "text": "Sam Darnold"
+        },
+        {
+          "id": "C",
+          "text": "Drake Maye"
+        },
+        {
+          "id": "D",
+          "text": "Jaxon Smith-Njigba"
+        },
+        {
+          "id": "E",
+          "text": "Puka Nacua"
+        },
+        {
+          "id": "F",
+          "text": "Stefon Diggs"
+        },
+        {
+          "id": "G",
+          "text": "Davante Adams"
+        },
+        {
+          "id": "H",
+          "text": "Rashid Shaheed"
+        },
+        {
+          "id": "I",
+          "text": "Jarrett Stidham"
+        },
+        {
+          "id": "J",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win Super Bowl..."
+    },
+    {
+      "id": "695fa38ae56c28005d3c3245",
+      "title": "Which NBA players will be traded during the 2025-26 season before the Feb. 5 Trade Deadline?",
+      "level": 2,
+      "end_time": "2026-02-05",
+      "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trae Young"
+        },
+        {
+          "id": "B",
+          "text": "Jonathan Kuminga"
+        },
+        {
+          "id": "C",
+          "text": "Michael Porter Jr."
+        },
+        {
+          "id": "D",
+          "text": "Zach LaVine"
+        },
+        {
+          "id": "E",
+          "text": "Giannis Antetokounmpo"
+        },
+        {
+          "id": "F",
+          "text": "Ja Morant"
+        },
+        {
+          "id": "G",
+          "text": "Bennedict Mathurin"
+        },
+        {
+          "id": "H",
+          "text": "Coby White"
+        },
+        {
+          "id": "I",
+          "text": "Anthony Davis"
+        },
+        {
+          "id": "J",
+          "text": "Malik Monk"
+        },
+        {
+          "id": "K",
+          "text": "Anfernee Simons"
+        },
+        {
+          "id": "L",
+          "text": "Domantas Sabonis"
+        },
+        {
+          "id": "M",
+          "text": "Lauri Markkanen"
+        },
+        {
+          "id": "N",
+          "text": "Ivica Zubac\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which NBA players will ..."
+    },
+    {
+      "id": "69624695e87498005daa01da",
+      "title": "Which companies will run ads during Super Bowl LX?",
+      "level": 2,
+      "end_time": "2026-02-09",
+      "ground_truth": "['A', 'B', 'C', 'D']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Robinhood"
+        },
+        {
+          "id": "B",
+          "text": "Google"
+        },
+        {
+          "id": "C",
+          "text": "Amazon"
+        },
+        {
+          "id": "D",
+          "text": "Hyundai"
+        },
+        {
+          "id": "E",
+          "text": "Toyota"
+        },
+        {
+          "id": "F",
+          "text": "Salesforce"
+        },
+        {
+          "id": "G",
+          "text": "Verizon/Visible"
+        },
+        {
+          "id": "H",
+          "text": "Progressive"
+        },
+        {
+          "id": "I",
+          "text": "OpenAI"
+        },
+        {
+          "id": "J",
+          "text": "State Farms"
+        },
+        {
+          "id": "K",
+          "text": "Coca Cola"
+        },
+        {
+          "id": "L",
+          "text": "Coinbase"
+        },
+        {
+          "id": "M",
+          "text": "Apple"
+        },
+        {
+          "id": "N",
+          "text": "Crypto.com\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which companies will ru..."
+    },
+    {
+      "id": "69624695e87498005daa01e5",
+      "title": "Who will make an appearance at the Super Bowl halftime show? Super Bowl LX",
+      "level": 2,
+      "end_time": "2026-02-10",
+      "ground_truth": "['A', 'B', 'C', 'D']",
+      "options": [
+        {
+          "id": "A",
+          "text": "J Balvin"
+        },
+        {
+          "id": "B",
+          "text": "Cardi B"
+        },
+        {
+          "id": "C",
+          "text": "E-40"
+        },
+        {
+          "id": "D",
+          "text": "Daddy Yankee"
+        },
+        {
+          "id": "E",
+          "text": "Fat Joe"
+        },
+        {
+          "id": "F",
+          "text": "Karol G"
+        },
+        {
+          "id": "G",
+          "text": "Ricky Martin"
+        },
+        {
+          "id": "H",
+          "text": "Taylor Swift"
+        },
+        {
+          "id": "I",
+          "text": "Pitbull"
+        },
+        {
+          "id": "J",
+          "text": "No Guest\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will make an appear..."
+    },
+    {
+      "id": "69624695e87498005daa01db",
+      "title": "Most streamed album of 2025",
+      "level": 2,
+      "end_time": "2026-02-09",
+      "ground_truth": "['B']",
+      "options": [
+        {
+          "id": "A",
+          "text": "'The Life of a Showgirl' by Taylor Swift"
+        },
+        {
+          "id": "B",
+          "text": "'Debí Tirar Más Fotos' by Bad Bunny"
+        },
+        {
+          "id": "C",
+          "text": "'I'm the Problem' by Morgan Wallen"
+        },
+        {
+          "id": "D",
+          "text": "KPop Demon Hunters Soundtrack"
+        },
+        {
+          "id": "E",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Most streamed album of ..."
+    },
+    {
+      "id": "695e521c255b39006c58f5b8",
+      "title": "Who will win the Masters section of the 2026 Tata Steel Chess Tournament?",
+      "level": 2,
+      "end_time": "2026-02-06",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodirbek Abdusattorov"
+        },
+        {
+          "id": "B",
+          "text": "Javokhir Sindarov"
+        },
+        {
+          "id": "C",
+          "text": "Jorden van Foreest"
+        },
+        {
+          "id": "D",
+          "text": "Matthias Bluebaum"
+        },
+        {
+          "id": "E",
+          "text": "Hans Niemann\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Master..."
+    },
+    {
+      "id": "6963980f5a6f9800684ed67f",
+      "title": "Best New Artist at the 2026 Grammy Awards?",
+      "level": 2,
+      "end_time": "2026-02-10",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Olivia Dean"
+        },
+        {
+          "id": "B",
+          "text": "Katseye"
+        },
+        {
+          "id": "C",
+          "text": "The Marias"
+        },
+        {
+          "id": "D",
+          "text": "Addison Rae"
+        },
+        {
+          "id": "E",
+          "text": "Sombr"
+        },
+        {
+          "id": "F",
+          "text": "Leon Thomas"
+        },
+        {
+          "id": "G",
+          "text": "Alex Warren"
+        },
+        {
+          "id": "H",
+          "text": "Lola Young\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best New Artist at the ..."
+    },
+    {
+      "id": "6978b00cedd409005eef0fd0",
+      "title": "What will the percentage of positive reviews on Highguard be by Feb 9th?",
+      "level": 2,
+      "end_time": "2026-02-09",
+      "ground_truth": "['E']",
+      "options": [
+        {
+          "id": "A",
+          "text": "0 - 9.99%"
+        },
+        {
+          "id": "B",
+          "text": "10 - 19.99%"
+        },
+        {
+          "id": "C",
+          "text": "20 - 29.99%"
+        },
+        {
+          "id": "D",
+          "text": "30 - 39.99%"
+        },
+        {
+          "id": "E",
+          "text": "40 - 49.99%"
+        },
+        {
+          "id": "F",
+          "text": "50 - 59.99%"
+        },
+        {
+          "id": "G",
+          "text": "60 - 69.99%"
+        },
+        {
+          "id": "H",
+          "text": "70 - 79.99%"
+        },
+        {
+          "id": "I",
+          "text": "80 - 89.99%\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will the percentag..."
+    },
+    {
+      "id": "697b53276346c0006551acac",
+      "title": "For which team will Giannis Antetokounmpo play for after the 2026 trade deadline?",
+      "level": 2,
+      "end_time": "2026-02-07",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Milwaukee Bucks (no trade)"
+        },
+        {
+          "id": "B",
+          "text": "Golden State Warriors"
+        },
+        {
+          "id": "C",
+          "text": "New York Knicks"
+        },
+        {
+          "id": "D",
+          "text": "Miami Heat"
+        },
+        {
+          "id": "E",
+          "text": "Atlanta Hawks"
+        },
+        {
+          "id": "F",
+          "text": "Other"
+        },
+        {
+          "id": "G",
+          "text": "Detroit Pistons"
+        },
+        {
+          "id": "H",
+          "text": "San Antonio Spurs"
+        },
+        {
+          "id": "I",
+          "text": "Houston Rockets"
+        },
+        {
+          "id": "J",
+          "text": "Los Angeles Lakers"
+        },
+        {
+          "id": "K",
+          "text": "Boston Celtics"
+        },
+        {
+          "id": "L",
+          "text": "Brooklyn Nets"
+        },
+        {
+          "id": "M",
+          "text": "Los Angeles Clippers"
+        },
+        {
+          "id": "N",
+          "text": "Phoenix Suns\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"For which team will Gia..."
+    },
+    {
+      "id": "69624695e87498005daa01d9",
+      "title": "Which team will be the 2026 Super Bowl Champion?",
+      "level": 2,
+      "end_time": "2026-02-09",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Seattle Seahawks"
+        },
+        {
+          "id": "B",
+          "text": "Los Angeles Rams"
+        },
+        {
+          "id": "C",
+          "text": "Denver Broncos"
+        },
+        {
+          "id": "D",
+          "text": "Philadelphia Eagles"
+        },
+        {
+          "id": "E",
+          "text": "New England Patriots"
+        },
+        {
+          "id": "F",
+          "text": "Buffalo Bills"
+        },
+        {
+          "id": "G",
+          "text": "Jacksonville Jaguars"
+        },
+        {
+          "id": "H",
+          "text": "Houston Texans"
+        },
+        {
+          "id": "I",
+          "text": "San Francisco 49ers"
+        },
+        {
+          "id": "J",
+          "text": "Green Bay Packers"
+        },
+        {
+          "id": "K",
+          "text": "Los Angeles Chargers"
+        },
+        {
+          "id": "L",
+          "text": "Chicago Bears"
+        },
+        {
+          "id": "M",
+          "text": "Pittsburgh Steelers"
+        },
+        {
+          "id": "N",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which team will be the ..."
+    },
+    {
+      "id": "69775e8a96e2d900674cdd58",
+      "title": "SUPER BOWL STATS PREDICTIONS",
+      "level": 2,
+      "end_time": "2026-02-09",
+      "ground_truth": "['A', 'B', 'C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "5+ sacks"
+        },
+        {
+          "id": "B",
+          "text": "Completed FG over 50 yards"
+        },
+        {
+          "id": "C",
+          "text": "6+ Touchdowns"
+        },
+        {
+          "id": "D",
+          "text": "Seahawks have longest punt"
+        },
+        {
+          "id": "E",
+          "text": "Patriots have longest kickoff return"
+        },
+        {
+          "id": "F",
+          "text": "2+ fumbles"
+        },
+        {
+          "id": "G",
+          "text": "2+ missed FGs / extra points\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"SUPER BOWL STATS PREDIC..."
+    },
+    {
+      "id": "69663b097dc80a005b6df1d4",
+      "title": "Who will win the 2026 Superbowl?",
+      "level": 2,
+      "end_time": "2026-02-09",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Chicago Bears"
+        },
+        {
+          "id": "B",
+          "text": "New England Patriots"
+        },
+        {
+          "id": "C",
+          "text": "San Fransisco 49ers"
+        },
+        {
+          "id": "D",
+          "text": "Denver Broncos"
+        },
+        {
+          "id": "E",
+          "text": "Buffalo Bills"
+        },
+        {
+          "id": "F",
+          "text": "Houston Texans"
+        },
+        {
+          "id": "G",
+          "text": "Pittsburg Steelers"
+        },
+        {
+          "id": "H",
+          "text": "Seattle Seahawks"
+        },
+        {
+          "id": "I",
+          "text": "Los Angels Rams"
+        },
+        {
+          "id": "J",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 S..."
+    },
+    {
+      "id": "697761c796e2d900674cdd5f",
+      "title": "How many jobs added in January?",
+      "level": 2,
+      "end_time": "2026-02-06",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How many jobs added in ..."
+    },
+    {
+      "id": "69624695e87498005daa01ea",
+      "title": "What is the highest Sharpe ratio of any Manifold user?",
+      "level": 2,
+      "end_time": "2026-02-08",
+      "ground_truth": "['H']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Below 5"
+        },
+        {
+          "id": "B",
+          "text": "5 - 7.4"
+        },
+        {
+          "id": "C",
+          "text": "7.5 - 9.9"
+        },
+        {
+          "id": "D",
+          "text": "10 - 12.4"
+        },
+        {
+          "id": "E",
+          "text": "12.5 - 14.9"
+        },
+        {
+          "id": "F",
+          "text": "15 - 17.4"
+        },
+        {
+          "id": "G",
+          "text": "17.5 - 20"
+        },
+        {
+          "id": "H",
+          "text": "Above 20\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What is the highest Sha..."
+    },
+    {
+      "id": "69736a06e543cb005f7b9363",
+      "title": "Who will win NFL Coach of the Year?",
+      "level": 2,
+      "end_time": "2026-02-06",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Mike Vrabel (New England Patriots)"
+        },
+        {
+          "id": "B",
+          "text": "Ben Johnson (Chicago Bears)"
+        },
+        {
+          "id": "C",
+          "text": "Liam Coen (Jacksonville Jaguars)"
+        },
+        {
+          "id": "D",
+          "text": "Mike Macdonald (Seattle Seahawks)"
+        },
+        {
+          "id": "E",
+          "text": "Kyle Shanahan (San Francisco 49ers)"
+        },
+        {
+          "id": "F",
+          "text": "Sean Payton (Denver Broncos)"
+        },
+        {
+          "id": "G",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win NFL Coach ..."
+    },
+    {
+      "id": "697b53276346c0006551acaa",
+      "title": "チームみらいが衆院選で獲得する議席数は？(How many seats will Team Mirai win in the Feb 2026 Japan lower house election?)",
+      "level": 2,
+      "end_time": "2026-02-08",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "0～2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        },
+        {
+          "id": "E",
+          "text": "6"
+        },
+        {
+          "id": "F",
+          "text": "7+\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"チームみらいが衆院選で獲得する議席数は？(Ho..."
+    },
+    {
+      "id": "69624695e87498005daa01e8",
+      "title": "Who will perform at the Super Bowl LX halftime show?",
+      "level": 2,
+      "end_time": "2026-02-10",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bad Bunny"
+        },
+        {
+          "id": "B",
+          "text": "Cardi B"
+        },
+        {
+          "id": "C",
+          "text": "Dua Lipa"
+        },
+        {
+          "id": "D",
+          "text": "Post Malone"
+        },
+        {
+          "id": "E",
+          "text": "Justin Bieber"
+        },
+        {
+          "id": "F",
+          "text": "Miley Cyrus"
+        },
+        {
+          "id": "G",
+          "text": "Metallica"
+        },
+        {
+          "id": "H",
+          "text": "Sabrina Carpenter"
+        },
+        {
+          "id": "I",
+          "text": "Morgan Wallen"
+        },
+        {
+          "id": "J",
+          "text": "Taylor Swift"
+        },
+        {
+          "id": "K",
+          "text": "Chappell Roan"
+        },
+        {
+          "id": "L",
+          "text": "Christina Aguilera"
+        },
+        {
+          "id": "M",
+          "text": "Jay-Z\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will perform at the..."
+    },
+    {
+      "id": "6962468be87498005daa01c6",
+      "title": "Who will win the NFL Most Valuable Player Award for the 2025 season?",
+      "level": 2,
+      "end_time": "2026-02-06",
+      "ground_truth": "['F']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Josh Allen"
+        },
+        {
+          "id": "B",
+          "text": "Sam Darnold"
+        },
+        {
+          "id": "C",
+          "text": "Jordan Love"
+        },
+        {
+          "id": "D",
+          "text": "Drake Maye"
+        },
+        {
+          "id": "E",
+          "text": "Dak Prescott"
+        },
+        {
+          "id": "F",
+          "text": "Matthew Stafford"
+        },
+        {
+          "id": "G",
+          "text": "Caleb Williams"
+        },
+        {
+          "id": "H",
+          "text": "Someone else\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the NFL Mo..."
+    },
+    {
+      "id": "696f75a7e146ce005dcc46c6",
+      "title": "Who will win the Democratic Party primary for New Jersey's 11th Congressional District special election in 2026?",
+      "level": 2,
+      "end_time": "2026-02-06",
+      "ground_truth": "['B']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Brendan Gill"
+        },
+        {
+          "id": "B",
+          "text": "Analilia Mejia"
+        },
+        {
+          "id": "C",
+          "text": "Tom Malinowski"
+        },
+        {
+          "id": "D",
+          "text": "Tahasha Way"
+        },
+        {
+          "id": "E",
+          "text": "Someone else\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Democr..."
+    },
+    {
+      "id": "697a01aaaaa579005fb3a51b",
+      "title": "Which party will win Thailand’s legislative election?",
+      "level": 2,
+      "end_time": "2026-02-08",
+      "ground_truth": "['B']",
+      "options": [
+        {
+          "id": "A",
+          "text": "People's Party (PPLE)"
+        },
+        {
+          "id": "B",
+          "text": "Bhumjaithai Party (BJT)"
+        },
+        {
+          "id": "C",
+          "text": "Pheu Thai Party (PTP)"
+        },
+        {
+          "id": "D",
+          "text": "Democrat Party (DP)\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which party will win Th..."
+    },
+    {
+      "id": "697761c796e2d900674cdd7a",
+      "title": "United Rugby Championship: Ospreys vs Dragons",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"United Rugby Championsh..."
+    },
+    {
+      "id": "6956690c20a2e600672a7872",
+      "title": "Who will win Jet Lag: The Game Season 16?",
+      "level": 1,
+      "end_time": "2026-02-06",
+      "ground_truth": "['C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sam"
+        },
+        {
+          "id": "B",
+          "text": "Ben"
+        },
+        {
+          "id": "C",
+          "text": "Adam\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win Jet Lag: T..."
+    },
+    {
+      "id": "697761c796e2d900674cdd7e",
+      "title": "United Rugby Championship: Leinster vs Edinburgh",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"United Rugby Championsh..."
+    },
+    {
+      "id": "6963980d5a6f9800684ed66b",
+      "title": "Will Indiana change its congressional voting map for the 2026 elections?",
+      "level": 1,
+      "end_time": "2026-02-06",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Indiana change its..."
+    },
+    {
+      "id": "6962468be87498005daa01c4",
+      "title": "At close of business on 5 February 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 18 December 2025?",
+      "level": 1,
+      "end_time": "2026-02-06",
+      "ground_truth": "['B']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lower"
+        },
+        {
+          "id": "B",
+          "text": "Same"
+        },
+        {
+          "id": "C",
+          "text": "Higher\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"At close of business on..."
+    },
+    {
+      "id": "697761c796e2d900674cdd79",
+      "title": "United Rugby Championship: Ulster vs Cardiff Rugby",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"United Rugby Championsh..."
+    },
+    {
+      "id": "6974bba3b31670005dd8d70f",
+      "title": "Will Dave Cole get angry at any KOH 26 Driver's meetings?",
+      "level": 1,
+      "end_time": "2026-02-09",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Dave Cole get angr..."
+    },
+    {
+      "id": "695e521c255b39006c58f5ae",
+      "title": "A team from the NFC West will win Super Bowl LX",
+      "level": 1,
+      "end_time": "2026-02-09",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"A team from the NFC Wes..."
+    },
+    {
+      "id": "6976134126a255005c46be44",
+      "title": "Manchester City FC vs Newcastle United FC",
+      "level": 1,
+      "end_time": "2026-02-05",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Manchester City FC vs N..."
+    },
+    {
+      "id": "696e274d183bed0068c24d11",
+      "title": "Top 14: Racing 92 vs Perpignan",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Top 14: Racing 92 vs Pe..."
+    },
+    {
+      "id": "695bb4008b62560069adcdeb",
+      "title": "Transgender women be banned from the Olympics before Winter Games?",
+      "level": 1,
+      "end_time": "2026-02-05",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Transgender women be ba..."
+    },
+    {
+      "id": "697761c796e2d900674cdd7d",
+      "title": "United Rugby Championship: Glasgow Warriors vs Munster",
+      "level": 1,
+      "end_time": "2026-02-07",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"United Rugby Championsh..."
+    },
+    {
+      "id": "697a0186aaa579005fb3a50c",
+      "title": "Will Gustavo Petro stay in the U.S. longer than 5 consecutive days starting Feb 3, 2026?",
+      "level": 1,
+      "end_time": "2026-02-10",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Gustavo Petro stay..."
+    },
+    {
+      "id": "69775e8a96e2d900674cdd4a",
+      "title": "Will the Seahawks beat the Patriots in the 2026 Superbowl?",
+      "level": 1,
+      "end_time": "2026-02-09",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the Seahawks beat ..."
+    },
+    {
+      "id": "6978b359edd409005eef0fe2",
+      "title": "West Bromwich Albion FC vs. Stoke City FC",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['B']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"West Bromwich Albion FC..."
+    },
+    {
+      "id": "6978b359edd409005eef0fe3",
+      "title": "Preston North End FC vs. Portsmouth FC",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['A']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Preston North End FC vs..."
+    },
+    {
+      "id": "697a04c5aaa579005fb3a538",
+      "title": "Querétaro FC vs. Club León FC",
+      "level": 1,
+      "end_time": "2026-02-08",
+      "ground_truth": "['C']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Querétaro FC vs. Club L..."
+    },
+    {
+      "id": "687756de9a85d40047c45626",
+      "title": "2026-02-05, who will be the athletes ranked from 10 to 12 in the latest World Athletics men's triple jump rankings? (Give the names only)",
+      "level": 3,
+      "end_time": "2026-02-05",
+      "ground_truth": "['Jonathan SEREMES', 'Thomas GOGOIS', 'Wen SU']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-02-05, who will be..."
+    },
+    {
+      "id": "686794c85407dd00602c1f79",
+      "title": "2026-02-05, who will be the athletes ranked from 12 to 14 in the latest World Athletics women's 200m rankings? (Give the names only)",
+      "level": 3,
+      "end_time": "2026-02-05",
+      "ground_truth": "['Ashanti MOORE', 'Jaël BESTUÉ', 'JaMeesia FORD']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-02-05, who will be..."
+    },
+    {
+      "id": "685e48b9e582f0005f9cd2c9",
+      "title": "2026-02-08, what will be the vehicles ranked from 5 to 7 on the hot list across China for SUVs (SUV全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
+      "level": 3,
+      "end_time": "2026-02-08",
+      "ground_truth": "['沃尔沃XC60', '奥迪Q5L', '小米YU7']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-02-08, what will b..."
+    },
+    {
+      "id": "6851735859f71f006037a1e2",
+      "title": "2026-02-05, what will be the Agricultural Product Wholesale Price 200 Index (农产品批发价格200指数) monitored by China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?",
+      "level": 4,
+      "end_time": "2026-02-05",
+      "ground_truth": "[129.83]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-02-05, what will b..."
+    },
+    {
+      "id": "696b872b4a95de00666c1162",
+      "title": "Who will win the 2026 Prague Masters chess tournament?",
+      "level": 2,
+      "end_time": "2026-03-08",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nodirbek Abdusattorov"
+        },
+        {
+          "id": "B",
+          "text": "Jorden van Foreest"
+        },
+        {
+          "id": "C",
+          "text": "Vincent Keymer"
+        },
+        {
+          "id": "D",
+          "text": "Gukesh Dommaraju"
+        },
+        {
+          "id": "E",
+          "text": "Nodirbek Yakubboev"
+        },
+        {
+          "id": "F",
+          "text": "David Navara OR David Antón Guijarro"
+        },
+        {
+          "id": "G",
+          "text": "Hans Niemann"
+        },
+        {
+          "id": "H",
+          "text": "Aravindh Chithambaram"
+        },
+        {
+          "id": "I",
+          "text": "Parham Maghsoodloo\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 P..."
+    },
+    {
+      "id": "69833c21c6c07e005d385694",
+      "title": "Which New York Rangers will be traded by the 2026 trade deadline?",
+      "level": 2,
+      "end_time": "2026-03-07",
+      "ground_truth": "['A', 'B', 'C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vincent Trocheck"
+        },
+        {
+          "id": "B",
+          "text": "Brennan Othmann"
+        },
+        {
+          "id": "C",
+          "text": "Alexis Lafrenière"
+        },
+        {
+          "id": "D",
+          "text": "Carson Soucy"
+        },
+        {
+          "id": "E",
+          "text": "Mika Zibanejad\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which New York Rangers ..."
+    },
+    {
+      "id": "6984912ec68c5e005dc9d05c",
+      "title": "Big East Men's College Basketball 2025-2026 Regular Season Champion",
+      "level": 2,
+      "end_time": "2026-03-07",
+      "ground_truth": "['J']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Big East Men's College ..."
+    },
+    {
+      "id": "6989d39ba7590900681117ad",
+      "title": "Nepal House of Representatives Election winner?",
+      "level": 2,
+      "end_time": "2026-03-10",
+      "ground_truth": "['C']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Nepali congress"
+        },
+        {
+          "id": "B",
+          "text": "CPN-UML"
+        },
+        {
+          "id": "C",
+          "text": "RSP"
+        },
+        {
+          "id": "D",
+          "text": "RPP"
+        },
+        {
+          "id": "E",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Nepal House of Represen..."
+    },
+    {
+      "id": "698b2b1f175d470068538759",
+      "title": "Team of winning driver at Australian Grand Prix?",
+      "level": 2,
+      "end_time": "2026-03-10",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "McLaren"
+        },
+        {
+          "id": "B",
+          "text": "Mercedes"
+        },
+        {
+          "id": "C",
+          "text": "Ferrari"
+        },
+        {
+          "id": "D",
+          "text": "Other\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Team of winning driver ..."
+    },
+    {
+      "id": "69a03d178110930068600600",
+      "title": "Ratio of sixes to fours in T20 World Cup 2026",
+      "level": 2,
+      "end_time": "2026-03-10",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Below 0.45"
+        },
+        {
+          "id": "B",
+          "text": "0.45 - 0.49"
+        },
+        {
+          "id": "C",
+          "text": "0.50 - 0.54"
+        },
+        {
+          "id": "D",
+          "text": "Above 0.55\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Ratio of sixes to fours..."
+    },
+    {
+      "id": "69a18e890ff98b0068330737",
+      "title": "Will James Talarico win the Texas Democratic primary for se by....?",
+      "level": 2,
+      "end_time": "2026-03-06",
+      "ground_truth": "['A', 'B', 'C', 'D']",
+      "options": [
+        {
+          "id": "A",
+          "text": "2.000% or more?"
+        },
+        {
+          "id": "B",
+          "text": "4.000% or more?"
+        },
+        {
+          "id": "C",
+          "text": "6.000% or more?"
+        },
+        {
+          "id": "D",
+          "text": "7.00% or more?"
+        },
+        {
+          "id": "E",
+          "text": "8.00% or more?"
+        },
+        {
+          "id": "F",
+          "text": "10.00% or more?"
+        },
+        {
+          "id": "G",
+          "text": "12.00% or more?\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will James Talarico win..."
+    },
+    {
+      "id": "69a4319df2cb3b006875e9cb",
+      "title": "When will Dubai airport resume normal operations",
+      "level": 2,
+      "end_time": "2026-03-08",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "March 2 or earlier"
+        },
+        {
+          "id": "B",
+          "text": "March 3 or 4"
+        },
+        {
+          "id": "C",
+          "text": "March 5 or 6"
+        },
+        {
+          "id": "D",
+          "text": "March 7 or later\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"When will Dubai airport..."
+    },
+    {
+      "id": "698b2507175d47006853871e",
+      "title": "In what place will the Green Party (Bündnis 90/Die Grünen, or the Greens) rank in seats won in the 2026 Baden-Württemberg Landtag (state parliament) elections?",
+      "level": 2,
+      "end_time": "2026-03-09",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "First"
+        },
+        {
+          "id": "B",
+          "text": "Second"
+        },
+        {
+          "id": "C",
+          "text": "Third"
+        },
+        {
+          "id": "D",
+          "text": "Fourth or lower\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"In what place will the ..."
+    },
+    {
+      "id": "698b2507175d47006853871d",
+      "title": "Between 10 October 2025 and 6 March 2026, what will be the lowest closing price of soybeans?",
+      "level": 2,
+      "end_time": "2026-03-07",
+      "ground_truth": "['E']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Less than $8.00/bushel"
+        },
+        {
+          "id": "B",
+          "text": "At least $8.00/bushel, but less than $8.50/bushel"
+        },
+        {
+          "id": "C",
+          "text": "At least $8.50/bushel, but less than $9.00/bushel"
+        },
+        {
+          "id": "D",
+          "text": "At least $9.00/bushel, but less than $9.50/bushel"
+        },
+        {
+          "id": "E",
+          "text": "$9.50/bushel or more\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Between 10 October 2025..."
+    },
+    {
+      "id": "697f47970092a00068c32be3",
+      "title": "Which party will win Colombia’s Chamber of Representatives election?",
+      "level": 2,
+      "end_time": "2026-03-09",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pacto Histórico (PH)"
+        },
+        {
+          "id": "B",
+          "text": "Partido Liberal Colombiano (PLC)"
+        },
+        {
+          "id": "C",
+          "text": "Centro Democrático (CD)"
+        },
+        {
+          "id": "D",
+          "text": "Partido Conservador Colombiano\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which party will win Co..."
+    },
+    {
+      "id": "6981ea9930057a005cdb9e46",
+      "title": "Will global platinum availability fall below 2 million ounces by March 4, 2026, due to South African mine supply issues?",
+      "level": 1,
+      "end_time": "2026-03-05",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will global platinum av..."
+    },
+    {
+      "id": "6964e98652029b005bc009a2",
+      "title": "Brazil in the top 10-20% countries in the 2026 Democracy Report ranking?",
+      "level": 1,
+      "end_time": "2026-03-10",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Brazil in the top 10-20..."
+    },
+    {
+      "id": "698b2507175d47006853871b",
+      "title": "Will the Nepali Congress party win the most seats in the 2026 Nepali House of Representatives elections?",
+      "level": 1,
+      "end_time": "2026-03-06",
+      "ground_truth": "['No']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Yes"
+        },
+        {
+          "id": "B",
+          "text": "No"
+        },
+        {
+          "id": "C",
+          "text": "Another outcome\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the Nepali Congres..."
+    },
+    {
+      "id": "6981ea9930057a005cdb9e49",
+      "title": "Is the shrinking cut-off in Diamond League fully intentional?",
+      "level": 1,
+      "end_time": "2026-03-05",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Is the shrinking cut-of..."
+    },
+    {
+      "id": "6981ea9930057a005cdb9e47",
+      "title": "Will Nornickel's palladium production fall below 2.4 million ounces in 2026?",
+      "level": 1,
+      "end_time": "2026-03-05",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Nornickel's pallad..."
+    },
+    {
+      "id": "697f47970092a00068c32be2",
+      "title": "Which party will win Colombia’s Senate election?",
+      "level": 1,
+      "end_time": "2026-03-09",
+      "ground_truth": "['A']",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pacto Histórico (PH)"
+        },
+        {
+          "id": "B",
+          "text": "Centro Democrático (CD)"
+        },
+        {
+          "id": "C",
+          "text": "Alianza Verde / Coalición Centro Esperanza (AV/CCE)\""
+        }
+      ],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which party will win Co..."
+    },
+    {
+      "id": "698b2507175d47006853871c",
+      "title": "Before 7 March 2026, will an NHL team other than the Pittsburgh Penguins publicly announce or acknowledge that Sidney Crosby will join its roster as a player eligible for the playoffs of the 2025/26 NHL season?",
+      "level": 1,
+      "end_time": "2026-03-07",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Before 7 March 2026, wi..."
+    },
+    {
+      "id": "6987308956940e0068395804",
+      "title": "Will a NON mercedes engine car win the 2026 Formula 1 Australian Grand Prix?",
+      "level": 1,
+      "end_time": "2026-03-08",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will a NON mercedes eng..."
+    },
+    {
+      "id": "6964e98652029b005bc009a4",
+      "title": "Ecuador to improve its score in the 2026 Democracy Report ranking?",
+      "level": 1,
+      "end_time": "2026-03-10",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Ecuador to improve its ..."
+    },
+    {
+      "id": "69a2e0165692ef005cdbf23e",
+      "title": "Trump Sucks?",
+      "level": 1,
+      "end_time": "2026-03-08",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Trump Sucks? (resolved ..."
+    },
+    {
+      "id": "69a4319df2cb3b006875e9c2",
+      "title": "Can this AI Trading Bot turn $100 into $1,000 live on Twitch? Round 1",
+      "level": 1,
+      "end_time": "2026-03-08",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Can this AI Trading Bot..."
+    },
+    {
+      "id": "698f1987da7a8b006575442d",
+      "title": "China's monthly consumer inflation (CPI) greater than 0.2% in February?",
+      "level": 1,
+      "end_time": "2026-03-08",
+      "ground_truth": "['Yes']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"China's monthly consume..."
+    },
+    {
+      "id": "69a03d1781109300686005e1",
+      "title": "Will this market get between 35 and 55 traders?",
+      "level": 1,
+      "end_time": "2026-03-05",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will this market get be..."
+    },
+    {
+      "id": "699d9a1a098cca008728b6d1",
+      "title": "Will Tiger Zhang finish problem set 2 for 18.905 on time?",
+      "level": 1,
+      "end_time": "2026-03-06",
+      "ground_truth": "['No']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Tiger Zhang finish..."
+    },
+    {
+      "id": "69a43186f2cb3b006875e9ad",
+      "title": "Luke Fernandez vs. Rodolfo Bellato",
+      "level": 1,
+      "end_time": "2026-03-08",
+      "ground_truth": "['Rodolfo Bellato']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Luke Fernandez vs. Rodo..."
+    },
+    {
+      "id": "69a43186f2cb3b006875e9b1",
+      "title": "Alberto Montes vs. Ricky Turcios",
+      "level": 1,
+      "end_time": "2026-03-08",
+      "ground_truth": "['Ricky Turcios']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Alberto Montes vs. Rick..."
+    },
+    {
+      "id": "68774eaf0fc811003bd35b6d",
+      "title": "2026-03-09, what variety shows will be ranked from 2 to 4 on the latest overseas word-of-mouth variety show ranking (国外口碑综艺榜) published by Douban (豆瓣)? (Give the show names only)",
+      "level": 3,
+      "end_time": "2026-03-09",
+      "ground_truth": "['天机试炼场', '单身即地狱 第五季', '黑白厨师：料理阶级战争 第二季']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what variet..."
+    },
+    {
+      "id": "685146342537420060414055",
+      "title": "2026-03-06, what will be the movies ranked from 3 to 5 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
+      "level": 3,
+      "end_time": "2026-03-06",
+      "ground_truth": "['诗人', '遇见世界', '好孩子']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will b..."
+    },
+    {
+      "id": "68517362eb11c800614780de",
+      "title": "2026-03-06, what will the price index for edible oil be in the Agricultural Product Wholesale Price 200 Index from China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?",
+      "level": 3,
+      "end_time": "2026-03-06",
+      "ground_truth": "[125.96]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will t..."
+    },
+    {
+      "id": "685173c159f71f006037a1e9",
+      "title": "2026-03-05, what will be the value in Chinese Yuan of 100 units of Euro at the central parity rate?",
+      "level": 3,
+      "end_time": "2026-03-05",
+      "ground_truth": "[803.62]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-05, what will b..."
+    },
+    {
+      "id": "687071f2d3d00b006b624a8c",
+      "title": "2026-03-10, which self-media accounts will be ranked from 8 to 10 on KolRank's daily WeChat self-media overall ranking?",
+      "level": 3,
+      "end_time": "2026-03-10",
+      "ground_truth": "['人物', '第一财经', '南方周末']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, which self-..."
+    },
+    {
+      "id": "687071faab86ea0060215bc7",
+      "title": "2026-03-10, which self-media accounts will be ranked from 2 to 4 on KolRank's daily Weibo self-media overall ranking?",
+      "level": 3,
+      "end_time": "2026-03-10",
+      "ground_truth": "['爱生活的Yoyo酱', '在下科技君', '池九粒Jolie']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, which self-..."
+    },
+    {
+      "id": "68774dbf27798c003c8a0dce",
+      "title": "2026-03-09, what will be the top-ranked short drama on the short drama hot list (短剧热度榜) of this date published by BiaNews (鞭牛士)? (Give the drama name only)",
+      "level": 3,
+      "end_time": "2026-03-09",
+      "ground_truth": "['《金丝玉髓羹》']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+    },
+    {
+      "id": "685e489b6e8dbd006cdc6f70",
+      "title": "2026-03-05, what will be the movies ranked from 2 to 4 on Maoyan's 'Ticket Purchase vs Rating' list (猫眼电影购票评分榜)?",
+      "level": 3,
+      "end_time": "2026-03-05",
+      "ground_truth": "['飞驰人生3', '得闲谨制', '隐者山河']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-05, what will b..."
+    },
+    {
+      "id": "685e48ac6e8dbd006cdc6f71",
+      "title": "2026-03-09, what will be the vehicles ranked from 1 to 3 on the hot list across China for sedans (轿车全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
+      "level": 3,
+      "end_time": "2026-03-09",
+      "ground_truth": "['迈腾', '速腾', '奥迪A6L']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+    },
+    {
+      "id": "685171e0560ebb0061efb2c3",
+      "title": "2026-03-06, what will be the total market capitalization (总市值) of Ping An Bank (000001) on the Shenzhen Stock Exchange in hundreds of millions of yuan (two decimal places)?",
+      "level": 4,
+      "end_time": "2026-03-06",
+      "ground_truth": "[2099.72]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will b..."
+    },
+    {
+      "id": "6867949457e54a0061f98f8c",
+      "title": "2026-03-06, what will be the Grain Index (粮食货种指数) of the China Coastal Bulk Freight Index (中国沿海散货运价指数) published by the Shanghai Shipping Exchange?",
+      "level": 4,
+      "end_time": "2026-03-06",
+      "ground_truth": "[856.86]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will b..."
+    },
+    {
+      "id": "68514628aca664006bceb217",
+      "title": "2026-03-06, according to the latest China Influenza Weekly Report (中国流感监测周报) from the Chinese Center for Disease Control and Prevention, how many outbreaks of influenza-like illness (流感样病例暴发疫情) will be reported nationwide?",
+      "level": 4,
+      "end_time": "2026-03-06",
+      "ground_truth": "['全国未报告流感样病例暴发疫情']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, according t..."
+    },
+    {
+      "id": "6854dcb27df94a0060eb86cf",
+      "title": "2026-03-07, what will be the projects ranked from 1 to 3 on OpenGithubs' github-daily-rank of this date? (Give the project names only)",
+      "level": 4,
+      "end_time": "2026-03-07",
+      "ground_truth": "['moeru-ai/airi', 'msitarzewski/agency-agents', 'shareAI-lab/learn-claude-code']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-07, what will b..."
+    },
+    {
+      "id": "6854dcbc7df94a0060eb86d0",
+      "title": "2026-03-08, what will be the",
+      "level": 4,
+      "end_time": "2026-03-08",
+      "ground_truth": "[50284.0]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-08, what will b..."
+    },
+    {
+      "id": "6854e0397ff26400687d2031",
+      "title": "2026-03-09, what will be the projects ranked from 9 to 11 on the latest OpenGithubs' github-weekly-rank? (Give the project names only)",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "['K-Dense-AI/claude-scientific-skills', 'alibaba/OpenSandbox', 'openai/skills']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+    },
+    {
+      "id": "68774e69336fa8003b890146",
+      "title": "2026-03-09, which works will be ranked from 1 to 3 on the latest weekly tipping chart for audio dramas (广播剧打赏榜周榜) on Maoer (猫耳) FM (MissEvan)? (Give the work names only)",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "['语义错误 第一季', '春雨秋云', '初三的六一儿童节']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, which works..."
+    },
+    {
+      "id": "687df3a41d972f003b8ba68c",
+      "title": "2026-03-09, what will the open of CanSino (SH:688185) be for the day (in CNY)?",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "[71.51]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will t..."
+    },
+    {
+      "id": "685171b65b1af900600a3306",
+      "title": "2026-03-09, what will be the stock market capitalization (市价总值) of PetroChina (601857) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "[209203324.54]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+    },
+    {
+      "id": "685173fb59f71f006037a1ec",
+      "title": "2026-03-09, what songs will be ranked from 6 to 8 on the latest QQ Music Soaring Chart (QQ音乐飙升榜)?",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "['这一生爱上什么人都不为过（咬住下唇）', 'Lonely', '立春']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what songs ..."
+    },
+    {
+      "id": "6851743b59f71f006037a1f1",
+      "title": "2026-03-10, what will be the average price (in yuan per kilogram) of lamb at the national agricultural product wholesale market monitored by the Ministry of Agriculture and Rural Affairs of China?",
+      "level": 4,
+      "end_time": "2026-03-10",
+      "ground_truth": "[64.44]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, what will b..."
+    },
+    {
+      "id": "6851738859f71f006037a1e5",
+      "title": "2026-03-09, what will be the low for the CSI 300 Index for the day?",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "[4548.97]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+    },
+    {
+      "id": "6870731ba3a7fb0061457aab",
+      "title": "2026-03-09, what will be the technologies ranked from 9 to 11 on the latest Smart Technologies Ranking (智能科技榜) published by Autohome (汽车之家)?",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "['AR-HUD', '智能电驱系统', '智能底盘域控制']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+    },
+    {
+      "id": "6854dffd0635c0005f0a1d2f",
+      "title": "2026-03-05, what will be the songs from rank 1 to 3 on the latest NetEase Cloud Music Europe and America Hot Songs Chart (网易云音乐欧美热歌榜)? (Give the song titles only)",
+      "level": 4,
+      "end_time": "2026-03-05",
+      "ground_truth": "['un T happy s Jst 0rrow', 'NO B rZZM ATIDÃO - (沉溺于重 陀 低音的轰鸣)', 'Sweet B JV oy Malcol aMt m Todd']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-05, what will b..."
+    },
+    {
+      "id": "68774ddd3083b1003c629ca8",
+      "title": "2026-03-09, what will the value (in hundreds of millions of yuan, two decimal places) of Daily Sell Trades (当日卖出成交金额) of Shanghai-Hong Kong Stock Connect's Southbound Trading (港股通) be?",
+      "level": 4,
+      "end_time": "2026-03-09",
+      "ground_truth": "[409.0]",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will t..."
+    },
+    {
+      "id": "6944fde51834a500697575da",
+      "title": "2026-03-07, which movies will be ranked from 5 to 7 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)",
+      "level": 4,
+      "end_time": "2026-03-07",
+      "ground_truth": "['One Battle After Another', 'Dracula', 'Nuremberg']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-07, which movie..."
+    },
+    {
+      "id": "6945061ed2f0e700661f17a1",
+      "title": "2026-03-10, what songs will be ranked from 3 to 5 in the latest UK's Official Singles Chart Top 100? (Give the songs only)",
+      "level": 4,
+      "end_time": "2026-03-10",
+      "ground_truth": "['FEVER DREAM', 'Stateside', 'So Easy (To Fall In Love)']",
+      "options": [],
+      "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, what songs ..."
+    }
+  ]
+}
