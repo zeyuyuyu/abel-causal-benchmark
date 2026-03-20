@@ -58,7 +58,13 @@
     "verification_method": "scm_propagation",
     "ticker": "CLUSD",
     "resolution_time": 24,
-    "metric": "exact_match"
+    "metric": "exact_match",
+    "expected_answer": "C",
+    "confidence": 0.4,
+    "reasoning": "Conservative middle choice",
+    "historical_accuracy": 0.4,
+    "status": "enriched_with_baseline",
+    "note": "Expected answer based on historical patterns (for testing baseline)"
   },
   "scoring": {
     "method": "exact_match",

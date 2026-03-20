@@ -1,0 +1,542 @@
+{
+  "total_cases": 75,
+  "ground_truth_summary": {
+    "with_expected_answer": 75,
+    "with_verification_method": 75,
+    "verification_sources": [
+      "expert_judgment",
+      "manifold_markets",
+      "graph_topology",
+      "causal_graph_simulation",
+      "historical_correlation",
+      "yahoo_finance"
+    ]
+  },
+  "cases": [
+    {
+      "id": "D4",
+      "question": "What drives SPY's prediction more: Individual stoc...",
+      "expected_answer": "A",
+      "source": "expert_judgment",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A3",
+      "question": "What will be the price movement of SPY in the next...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "E2",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B9",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69b403b7",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_69566909",
+      "question": "[SPORTS] 2026 Australian Open Women's Singles Winn...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69a4319d",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69b2b226",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B5",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69b00f0e",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F4",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C3",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C2",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B10",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F5",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_69493cb1",
+      "question": "[ELECTION] Portugal Presidential Election second r...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69945f87",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B4",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69970287",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B8",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "E3",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A2",
+      "question": "What will be the price movement of NVDA in the nex...",
+      "expected_answer": "A",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F1",
+      "question": "Will NVDA close price increase in the next 24 hour...",
+      "expected_answer": "A",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "D5",
+      "question": "Which ticker's causal graph is most sensitive to m...",
+      "expected_answer": "A",
+      "source": "expert_judgment",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_6995b10b",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69b16092",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_6997062b",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B3",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F2",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_698c7689",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C5",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69a03d17",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "D2",
+      "question": "What will be the price movement of BTCUSD in the n...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A5",
+      "question": "What will be the price movement of AAPL in the nex...",
+      "expected_answer": "A",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "E4",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_69639b3e",
+      "question": "[WEATHER] NYC Precipitation January 2026...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_69566c13",
+      "question": "[ENTERTAINMENT] Grammys Songwriter of the Year Win...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "E5",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A4",
+      "question": "Will TSLA close price increase in the next 24 hour...",
+      "expected_answer": "A",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69985408",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "D3",
+      "question": "At what tau threshold does NVDA's causal predictio...",
+      "expected_answer": "A",
+      "source": "expert_judgment",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C4",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F3",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B2",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "B",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A8",
+      "question": "What will be the price movement of SOLUSD in the n...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C7",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_695a609d",
+      "question": "[ECONOMICS] Reserve Bank of Australia February Dec...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B1",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "B",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_6944fde5",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69a5830b",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_695a5d89",
+      "question": "[ENTERTAINMENT] 2026 Grammy Record of the Year...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A7",
+      "question": "Will XLF close price increase in the next 24 hours...",
+      "expected_answer": "A",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_6995b107",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_698dce24",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "D1",
+      "question": "What's BTCUSD's probability_up right now, and what...",
+      "expected_answer": "B",
+      "source": "expert_judgment",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A6",
+      "question": "What will be the price movement of ETHUSD in the n...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_6964eca5",
+      "question": "[GEOPOLITICS] Israel strikes Gaza January 2026...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_699c4887",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_6957ba8a",
+      "question": "[HEALTH] Measles cases in U.S. by January 31...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F1",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C6",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69ad6c53",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "XF_694a8b8f",
+      "question": "[ELECTION] Portuguese Presidential elections secon...",
+      "expected_answer": "A",
+      "source": "historical_correlation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "A1",
+      "question": "Will BTCUSD close price increase in the next 24 ho...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "C1",
+      "question": "Is there a direct causal path between the specifie...",
+      "expected_answer": "B",
+      "source": "graph_topology",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F6",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69930e07",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B7",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "B6",
+      "question": "If the specified intervention occurs, what will be...",
+      "expected_answer": "C",
+      "source": "causal_graph_simulation",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "F7",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69a830e5",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "manifold_markets",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "E1",
+      "question": "What will be the price movement of BTCUSD in the n...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_6999a588",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69a977a4",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    },
+    {
+      "id": "FX_69b5552c",
+      "question": "What will be the price movement of UNKNOWN in the ...",
+      "expected_answer": "B",
+      "source": "yahoo_finance",
+      "status": "enriched_with_baseline"
+    }
+  ]
+}

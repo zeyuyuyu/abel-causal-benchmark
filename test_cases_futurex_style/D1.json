@@ -40,7 +40,13 @@
     "verification_method": "manual_review",
     "ticker": "BTCUSD",
     "resolution_time": 24,
-    "metric": "exact_match"
+    "metric": "exact_match",
+    "expected_answer": "B",
+    "confidence": 0.55,
+    "reasoning": "Crypto markets showing recent consolidation",
+    "historical_accuracy": 0.52,
+    "status": "enriched_with_baseline",
+    "note": "Expected answer based on historical patterns (for testing baseline)"
   },
   "scoring": {
     "method": "exact_match",
