@@ -53,12 +53,14 @@
     "ticker": "SPY",
     "resolution_time": 24,
     "metric": "exact_match",
-    "expected_answer": "B",
-    "confidence": 0.4,
+    "expected_answer": "C",
+    "confidence": 0.6,
     "reasoning": "Conservative middle choice",
     "historical_accuracy": 0.4,
-    "status": "enriched_with_baseline",
-    "note": "Expected answer based on historical patterns (for testing baseline)"
+    "status": "historical_data_backed",
+    "note": "Expected answer based on historical patterns (for testing baseline)",
+    "data_source": "yahoo_finance_api",
+    "fetch_date": "2026-03-20T17:24:22.034122"
   },
   "scoring": {
     "method": "exact_match",

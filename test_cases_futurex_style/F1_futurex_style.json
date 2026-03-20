@@ -44,11 +44,19 @@
     "resolution_time": 24,
     "metric": "exact_match",
     "expected_answer": "A",
-    "confidence": 0.6,
-    "reasoning": "Based on recent momentum and causal drivers",
+    "confidence": 0.5258964143426295,
+    "reasoning": "Historical data shows 52.6% up days over 251 days",
     "historical_accuracy": 0.65,
-    "status": "enriched_with_baseline",
-    "note": "Expected answer based on historical patterns (for testing baseline)"
+    "status": "historical_data_backed",
+    "note": "Expected answer based on historical patterns (for testing baseline)",
+    "historical_basis": {
+      "up_days": 132,
+      "down_days": 118,
+      "up_ratio": 0.5258964143426295,
+      "volatility": 0.026054317590671203
+    },
+    "data_source": "yahoo_finance_api",
+    "fetch_date": "2026-03-20T17:24:49.961018"
   },
   "scoring": {
     "method": "exact_match",
