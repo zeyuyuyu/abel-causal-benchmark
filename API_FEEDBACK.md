@@ -43,7 +43,7 @@
 - **需求**: 支持多 ticker 同时预测
 - **示例**:
   ```
-  GET /causal_graph/batch/predictions?tickers=BTCUSD,ETHUSD
+  GET /causal_graph/multi-step-prediction/batch?tickers=BTCUSD,ETHUSD
   ```
 
 ---

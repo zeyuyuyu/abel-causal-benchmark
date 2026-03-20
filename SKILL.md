@@ -45,7 +45,7 @@ V2 includes complete mapping from CAP primitives to CG API:
 | `predict` | `/causal_graph/{ticker}/multi-step-prediction` | Single-step prediction |
 | `path` | `/graph_stats/nodes_connection` | Graph topology queries |
 | `explain` | `/causal_graph/{ticker}/prediction` | Feature attribution analysis |
-| `attest` | `/causal_graph/batch/predictions` | Multiple ticker comparison |
+| `attest` | `/causal_graph/multi-step-prediction/batch` | Multiple ticker comparison |
 
 ## Purpose
 

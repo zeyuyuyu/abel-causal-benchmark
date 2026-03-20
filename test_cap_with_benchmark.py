@@ -82,7 +82,7 @@ class CAPPrimitiveTester:
                 "optional_params": ["include_features"]
             },
             "attest": {
-                "primary": "/causal_graph/batch/predictions",
+                "primary": "/causal_graph/multi-step-prediction/batch",
                 "fallbacks": [],
                 "required_params": ["tickers"],
                 "optional_params": []

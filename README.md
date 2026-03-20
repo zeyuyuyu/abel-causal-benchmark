@@ -145,7 +145,7 @@ V2 includes complete mapping from CAP primitives to causal graph APIs:
 | `predict` | `/causal_graph/{ticker}/multi-step-prediction` | Single-step prediction |
 | `path` | `/graph_stats/nodes_connection` | Graph topology queries |
 | `explain` | `/causal_graph/{ticker}/prediction` | Feature attribution |
-| `attest` | `/causal_graph/batch/predictions` | Multiple ticker comparison |
+| `attest` | `/causal_graph/multi-step-prediction/batch` | Multiple ticker comparison |
 
 See `references/benchmark_questions_v2_enhanced.json` for full mapping specification.
 

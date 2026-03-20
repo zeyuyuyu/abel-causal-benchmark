@@ -132,28 +132,38 @@ POST /causal_graph/mb/{target_node}?cg_version=CausalNodeV2
 
 ## ❌ 未实现端点参数建议
 
-### 6. `/causal_graph/batch/predictions` (404)
+### 6. `/causal_graph/multi-step-prediction/batch` ✅ 已可用
 
-**建议请求格式**:
+**正确请求格式** (使用重复参数):
 ```
-GET /causal_graph/batch/predictions?tickers=BTCUSD,ETHUSD&cg_version=CausalNodeV2
+GET /causal_graph/multi-step-prediction/batch?tickers=NVDA&tickers=SPY
 ```
 
-**建议参数**:
+**参数说明**:
 | 参数名 | 类型 | 必需 | 说明 |
 |--------|------|------|------|
-| `tickers` | string | ✅ | 逗号分隔的 ticker 列表 |
+| `tickers` | string (重复) | ✅ | 多个 ticker，如 `tickers=A&tickers=B` |
 | `cg_version` | string | ❌ | 版本 |
 
-**建议响应**:
+**实际响应**:
 ```json
-{
-  "predictions": [
-    {"ticker": "BTCUSD", "cumulative_prediction": ..., "probability_up": ...},
-    {"ticker": "ETHUSD", "cumulative_prediction": ..., "probability_up": ...}
-  ]
-}
+[
+  {
+    "ticker": "NVDA",
+    "cumulative_prediction": 0.00056,
+    "probability_up": 0.6405,
+    ...
+  },
+  {
+    "ticker": "SPY",
+    "cumulative_prediction": null,
+    "probability_up": null,
+    ...
+  }
+]
 ```
+
+**状态**: ✅ **端点存在且可用** (测试通过)
 
 ---
 

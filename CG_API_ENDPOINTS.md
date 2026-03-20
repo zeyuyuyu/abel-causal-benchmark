@@ -16,7 +16,7 @@
 | `/graph_stats/intervention_impact` | GET | ⚠️ **需修复** | 干预影响分析 |
 | `/graph_stats/nodes_connection` | GET | ⚠️ **需修复** | 节点连接路径 |
 | `/graph_stats/counterfactual` | GET | ❓ **待验证** | 反事实推理 |
-| `/causal_graph/batch/predictions` | GET | ❌ **未实现** | 批量预测 |
+| `/causal_graph/multi-step-prediction/batch` | GET | ✅ **可用** | 批量预测 |
 
 ---
 

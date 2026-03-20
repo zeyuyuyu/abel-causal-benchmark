@@ -103,7 +103,7 @@ class CAPCompatibilityTester:
                 "description": "Cross-sectional causal claim verification",
                 "required_fields": ["comparison", "ranking"],
                 "optional_fields": ["confidence_scores", "evidence", "disagreement_flags"],
-                "primary_endpoint": "/causal_graph/batch/predictions",
+                "primary_endpoint": "/causal_graph/multi-step-prediction/batch",
             },
         }
     
