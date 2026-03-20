@@ -39,20 +39,49 @@ cd futurex-causal-benchmark
 
 # Install
 pip install -e ".[dev,viz]"
+
+# Verify installation
+futurex-benchmark --help
 ```
 
-### Run Benchmark
+### 3-Step Quick Run
 
 ```bash
-# Validate questions
+# Step 1: Validate questions format
 futurex-benchmark validate \
   --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json
 
-# Run against your causal graph API
+# Step 2: Run benchmark against your API
 futurex-benchmark run \
-  --base-url "https://your-cg-api.com" \
+  --base-url "https://abel-graph-computer-sit.abel.ai" \
   --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
-  --output-dir ./results
+  --output-dir ./results/$(date +%Y%m%d_%H%M%S)
+
+# Step 3: View results
+cat ./results/*/benchmark_report.md
+```
+
+### Expected Output
+
+```
+✅ Benchmark complete. Reports saved to: ./results/20250320_143022
+
+📊 Summary:
+   Total Questions: 35
+   Successful: 35/35 (100%)
+   Average CEVS: 0.725
+
+By Category:
+   A (Predict):      0.780 (8 questions)
+   B (Intervene):    0.520 (10 questions) ⭐
+   C (Path):         0.750 (7 questions)
+   D (Sensitivity):  0.680 (5 questions)
+   E (Attest):       0.710 (5 questions)
+
+Reports generated:
+   - benchmark_results.csv
+   - benchmark_results.json
+   - benchmark_report.md
 ```
 
 ### Programmatic Usage
@@ -198,7 +227,311 @@ V2 includes questions tied to real 2025 events for post-hoc validation:
 4. Test run against your API
 5. Submit PR with context on why this question tests unique causal value
 
-## 📚 Documentation
+## 📖 Complete Usage Guide
+
+### Step-by-Step Tutorial
+
+#### 1. Prepare Your Environment
+
+```bash
+# Clone and setup
+git clone https://github.com/abel-ai/futurex-causal-benchmark.git
+cd futurex-causal-benchmark
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -e ".[dev,viz]"
+
+# Verify
+futurex-benchmark --help
+```
+
+#### 2. Configure API Connection
+
+Set your Abel Graph Computer API endpoint:
+
+```bash
+# Option 1: Command line
+futurex-benchmark run --base-url "https://abel-graph-computer-sit.abel.ai" ...
+
+# Option 2: Environment variable
+export CG_API_URL="https://abel-graph-computer-sit.abel.ai"
+futurex-benchmark run --base-url $CG_API_URL ...
+```
+
+#### 3. Run Full Benchmark
+
+```bash
+# Create results directory
+mkdir -p results
+
+# Run complete benchmark
+futurex-benchmark run \
+  --base-url "https://abel-graph-computer-sit.abel.ai" \
+  --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
+  --output-dir "./results/$(date +%Y%m%d_%H%M%S)"
+```
+
+**What happens:**
+1. Loads 35 questions from JSON
+2. For each question, calls appropriate CG API endpoint
+3. Scores response using Enhanced CEVS scorer
+4. Generates CSV, JSON, and Markdown reports
+
+#### 4. Understanding Results
+
+**CSV Output** (`benchmark_results.csv`):
+```csv
+question_id,category,question,success,cevs_total,explainability,intervenability,confidence,accuracy
+A1,A,Will BTCUSD go up...,True,0.780,0.800,0.600,0.900,0.500
+B1,B,What is causal propagation...,True,0.450,0.500,0.400,0.400,0.500
+```
+
+**JSON Output** (`benchmark_results.json`):
+```json
+{
+  "timestamp": "2025-03-20T14:30:22",
+  "total_questions": 35,
+  "successful_executions": 35,
+  "average_cevs": 0.725,
+  "by_category": {
+    "A": {"count": 8, "average_cevs": 0.780},
+    "B": {"count": 10, "average_cevs": 0.520}
+  },
+  "results": [...]
+}
+```
+
+**Markdown Report** (`benchmark_report.md`):
+- Executive summary
+- Category-by-category breakdown
+- Question-level detailed results
+- Recommendations for improvement
+
+#### 5. Category-Specific Deep Dive
+
+**Category A (Predict) - Direct Predictions:**
+
+```python
+# Example: A1 - BTCUSD 5-hour prediction
+from futurex_benchmark import calculate_cevs
+
+response = {
+    "prediction": 0.035,          # Cumulative return prediction
+    "probability_up": 0.68,           # Probability of up move
+    "features": [
+        {"feature": "ETHUSD", "cumulative_impact": 0.02, "tau": 2},
+        {"feature": "BTC_momentum", "cumulative_impact": 0.015, "tau": 1}
+    ],
+    "parents": ["ETHUSD", "SPY", "VIX"]
+}
+
+question = {
+    "id": "A1",
+    "category": "A",
+    "question": "Will BTCUSD go up in next 5 hours?"
+}
+
+cevs = calculate_cevs(response, question)
+print(f"CEVS: {cevs.total:.3f}")  # Should be > 0.6 for good result
+```
+
+**Category B (Intervene) - Shock Propagation:**
+
+```python
+# Example: B3 - NVDA partnership → supply chain impact
+response = {
+    "prediction": 0.03,
+    "shock_magnitude": 0.08,  # Acknowledged shock
+    "propagation_path": [
+        {"node": "NVDA", "hop": 0, "effect": 0.08, "tau": 0},
+        {"node": "LRCX", "hop": 1, "effect": 0.04, "tau": 12},
+        {"node": "AMAT", "hop": 1, "effect": 0.03, "tau": 8}
+    ],
+    "affected_nodes": ["NVDA", "LRCX", "AMAT", "KLAC"],
+    "second_order_effects": [
+        {"node": "TSM", "via": "NVDA_demand", "effect": 0.02}
+    ]
+}
+
+question = {
+    "id": "B3",
+    "category": "B",
+    "question": "If NVDA announced partnership, impact on equipment makers?"
+}
+
+cevs = calculate_cevs(response, question)
+# High score requires: propagation_path + hop-by-hop + second_order
+print(f"Intervenability: {cevs.intervenability:.3f}")  # Target: > 0.6
+```
+
+**Category C (Path) - Causal Chain Tracing:**
+
+```python
+# Example: C1 - DXY → BTC path
+response = {
+    "paths": [
+        {
+            "nodes": ["DXY", "GLD", "BTCUSD"],
+            "total_tau": 48,
+            "strength": 0.65
+        },
+        {
+            "nodes": ["DXY", "EEM", "BTCUSD"],
+            "total_tau": 72,
+            "strength": 0.45
+        }
+    ],
+    "shortest_path_length": 2,
+    "path_exists": True
+}
+
+question = {"id": "C1", "category": "C"}
+cevs = calculate_cevs(response, question)
+```
+
+#### 6. CAP Primitive Mapping
+
+When your API implements CAP primitives:
+
+```python
+from futurex_benchmark.run_benchmark import CAPToCGMapper
+
+mapper = CAPToCGMapper()
+
+# Get API endpoint for CAP primitive
+mapping = mapper.get_cg_endpoint("intervene", {
+    "target_node": "BTCUSD",
+    "intervention": {"delta": 0.05}
+})
+
+print(mapping)
+# {
+#   "endpoint": "/graph_stats/intervention_impact",
+#   "params": {"ticker": "BTCUSD", "shock_magnitude": 0.05},
+#   "fallbacks": [...]
+# }
+```
+
+#### 7. Ground Truth Validation
+
+For resolved questions, validate against actual outcomes:
+
+```python
+# After March 2025 Fed decision
+with open('results/benchmark_results.json') as f:
+    results = json.load(f)
+
+# B4: Fed 50bp cut prediction
+b4_result = next(r for r in results['results'] if r['question']['id'] == 'B4')
+
+# Compare with actual
+actual_fed_cut = 0.50  # Actual was 50bp
+predicted_impact = b4_result['cg_result']['response']['intervention_effect']
+
+# Calculate directional accuracy
+if (predicted_impact > 0) == (tech_stocks_rose > 0):
+    print("✅ Directional accuracy: Correct")
+```
+
+#### 8. Debugging Failed Questions
+
+```bash
+# Run with verbose logging
+futurex-benchmark run \
+  --base-url $CG_API_URL \
+  --questions questions.json \
+  --output-dir ./debug \
+  --verbose 2>&1 | tee debug.log
+
+# Check specific question
+python -c "
+import json
+with open('debug/benchmark_results.json') as f:
+    r = json.load(f)
+    failed = [x for x in r['results'] if not x['cg_result']['success']]
+    for f in failed:
+        print(f'{f[\"question\"][\"id\"]}: {f[\"cg_result\"][\"error\"]}')
+"
+```
+
+#### 9. Custom Questions
+
+Add your own forward-looking questions:
+
+```python
+# custom_question.json
+{
+  "id": "F1",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "If [YOUR EVENT], what happens to [YOUR TICKER]?",
+  "cap_request": {
+    "capability": "intervene",
+    "input": {
+      "target_node": "YOUR_TICKER",
+      "intervention": {"delta": 0.10}
+    }
+  },
+  "cevs_weight": 1.5
+}
+```
+
+```bash
+# Validate custom question
+futurex-benchmark validate --questions custom_question.json
+
+# Add to benchmark
+jq -s '.[0] + {questions: (.[0].questions + .[1].questions)}' \
+  benchmark_questions_v2_enhanced.json custom_question.json \
+  > combined.json
+```
+
+#### 10. CI/CD Integration
+
+Add to your `.github/workflows/benchmark.yml`:
+
+```yaml
+name: Run FutureX Benchmark
+on:
+  schedule:
+    - cron: '0 0 * * 1'  # Weekly
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install
+        run: pip install -e ".[dev]"
+      
+      - name: Run benchmark
+        env:
+          CG_API_URL: ${{ secrets.CG_API_URL }}
+        run: |
+          futurex-benchmark run \
+            --base-url $CG_API_URL \
+            --questions src/futurex_benchmark/references/benchmark_questions_v2_enhanced.json \
+            --output-dir ./results
+      
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: ./results/
+```
+
+---
+
+## 📚 Additional Documentation
 
 - **SKILL.md**: Detailed skill documentation for Claude/Cursor integration
 - **DEMO_GUIDE.md**: Step-by-step demo walkthrough
