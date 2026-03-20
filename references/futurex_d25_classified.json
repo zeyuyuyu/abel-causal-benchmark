@@ -1,0 +1,824 @@
+{
+  "benchmark_name": "FutureX Challenge D25 - Full Reference",
+  "total_cases": 81,
+  "source": "https://huggingface.co/datasets/futurex-ai/Futurex-Online",
+  "classification_summary": {
+    "finance": 43,
+    "political": 2,
+    "sports": 1,
+    "tech": 2,
+    "other": 33
+  },
+  "cases": [
+    {
+      "futurex_id": "698dce247812fd005da42746",
+      "title": "What will be the 2026 USAMO cutoff for AMC 12 B and AIME I?",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69930e07c2413b005de8b80b",
+      "title": "Dutch 2026 local election: Which parties will outperform the 2025 general election vote share, ignoring local parties?",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69945f879b67cb005cfaa292",
+      "title": "Which teams will rank top 8 in the league phase to advance directly to the knockout phase?",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "699702870408ab00683a025e",
+      "title": "How many people will die as a part of the 2025-26 Iranian protests before March 20th (up to 10k)?",
+      "level": 2,
+      "end_time": "2026-03-21",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "699702870408ab00683a025c",
+      "title": "How many people will die as a part of the 2025-26 Iranian protests before March 20th (up to 100k)?",
+      "level": 2,
+      "end_time": "2026-03-21",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "699702870408ab00683a0259",
+      "title": "Milano-Sanremo 2026 Winner (Men Elite)",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6997062b0408ab00683a0262",
+      "title": "Sucre Mayoral Election Winner (Bolivia)",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e619",
+      "title": "Gemini 3.1 Pro METR 50% time horizon",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e61b",
+      "title": "Who will win the 2026 Six Nations Triple Crown?",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e61a",
+      "title": "Which North American teams will qualify for the 2026 ICPC World Finals?",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "699c4887d1d3cf005c1e48cc",
+      "title": "Six Nations Rugby Champion 2026",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a03d1781109300686005fc",
+      "title": "Who will come second in the 2026 Six Nations?",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a4319df2cb3b006875e9d5",
+      "title": "Exit 42 2026 Indoor Season Champion",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a5830b7554ef0068e464d8",
+      "title": "2026 AFC Women's Asian Cup Champion",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a830e529c5bb005eeeb10d",
+      "title": "UEFA Champions League Playoff Prop Bets, Mar 10th-Mar 1",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a977a47e9d43005df0d708",
+      "title": "How many of Pogacar, Ganna, MVDP will be in the first 3 to the top of the Poggio in the 2026 Milan - San Remo race?",
+      "level": 2,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69ad6c53a6622a00642b8aad",
+      "title": "Champions league round of 16 fixtures (both legs)",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69ad6c53a6622a00642b8ab1",
+      "title": "Which team wins the 2026 World Baseball Classic (WBC)?",
+      "level": 2,
+      "end_time": "2026-03-23",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b00f0e54b7b400676ea553",
+      "title": "Who will win the March 2026 grand sumo tournament?",
+      "level": 2,
+      "end_time": "2026-03-23",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b403b749eb3f005a923d1e",
+      "title": "How many total goals will be scored in UCL round of 16 (2026) second leg across all ties？",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b5552c6ccead0066d5b482",
+      "title": "What will the sum of the dice rolls be?",
+      "level": 2,
+      "end_time": "2026-03-21",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b5552c6ccead0066d5b474",
+      "title": "Sweet 16 Predictions: Men's March Madness!",
+      "level": 2,
+      "end_time": "2026-03-20",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b5552c6ccead0066d5b472",
+      "title": "How High will Crude Oil Volatility get next week?",
+      "level": 2,
+      "end_time": "2026-03-20",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6995b1073ea64b005b11f2a2",
+      "title": "What will be the closing price of lumber on 20 March 2026, according to Trading Economics?",
+      "level": 2,
+      "end_time": "2026-03-20",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "698c7689b06cd2005cde5b30",
+      "title": "Next target for Brazil's SELIC interest rate",
+      "level": 2,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b403b749eb3f005a923d11",
+      "title": "will CS camp happen?",
+      "level": 1,
+      "end_time": "2026-03-20",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6995b1073ea64b005b11f2a1",
+      "title": "Will the president of the United States and Nicolás Maduro meet in person before 19 March 2026?",
+      "level": 1,
+      "end_time": "2026-03-19",
+      "category": "P",
+      "category_name": "political",
+      "cap_ability": "low",
+      "test_approach": "LLM"
+    },
+    {
+      "futurex_id": "698c7689b06cd2005cde5b32",
+      "title": "Infinite Games 26 - How many fish will be killed during the Lionfish hunt?",
+      "level": 1,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e617",
+      "title": "How will Warner Bros. Discovery shareholders vote at the Mar 20, 2026 special meeting regarding a sale of the company?",
+      "level": 1,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e5f8",
+      "title": "Will Indonesia-Altilium Group's nickel production exceed 20,000 tonnes by March 22, 2026?",
+      "level": 1,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6995b10b3ea64b005b11f2a9",
+      "title": "Is the ASU Frat Leader an ASU Frat Leader???",
+      "level": 1,
+      "end_time": "2026-03-20",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6995b1073ea64b005b11f2a0",
+      "title": "At close of business on 19 March 2026, will the most recently announced Bank of England (BoE) \"Bank Rate\" be lower, the same, or higher than it was at close of business on 5 February 2026?",
+      "level": 1,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b160921ebfe30068c2cdd2",
+      "title": "Will a new international conflict start next week?",
+      "level": 1,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6995b1073ea64b005b11f29e",
+      "title": "At close of business on 19 March 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 5 February 2026?",
+      "level": 1,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b403b749eb3f005a923d0e",
+      "title": "Italy judicial reform: Will turnout at the March 2026 referendum exceed 50%?",
+      "level": 1,
+      "end_time": "2026-03-23",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b2b226782d0900685d5fb6",
+      "title": "Will 3I/ATLAS produce an RF signature during its Jupiter Hill Sphere entry (March 14–18, 2026)?",
+      "level": 1,
+      "end_time": "2026-03-19",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e5f5",
+      "title": "Will nickel output from Block 21 in Oman exceed 200,000 to by 2031?",
+      "level": 1,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69b403b749eb3f005a923d0d",
+      "title": "Will the 2026 Triton Jeju $100K Main Event exceed 250 entries?",
+      "level": 1,
+      "end_time": "2026-03-24",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6998540873bcba006869e608",
+      "title": "Will the US graphite supply chain shift exceed 50 on a scale of 1-100 by March 22, 2026?",
+      "level": 1,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6999a58817d430006670a390",
+      "title": "Will Aonishiki Arata be promoted to yokozuna after the Haru Basho 2026?",
+      "level": 1,
+      "end_time": "2026-03-23",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6964e98652029b005bc00995",
+      "title": "Will the vice president of Sindnapi, Frei Chico, testify before the INSS CPMI?",
+      "level": 1,
+      "end_time": "2026-03-23",
+      "category": "P",
+      "category_name": "political",
+      "cap_ability": "low",
+      "test_approach": "LLM"
+    },
+    {
+      "futurex_id": "69b2b226782d0900685d5fb4",
+      "title": "Assassin's Creed: Black Flag Resynced (remake) Announced March 20th",
+      "level": 1,
+      "end_time": "2026-03-21",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "699c4887d1d3cf005c1e48ac",
+      "title": "Infinite Games 26 - Will the champion of the Electric-Knife win all matches undefeated?",
+      "level": 1,
+      "end_time": "2026-03-22",
+      "category": "S",
+      "category_name": "sports",
+      "cap_ability": "none",
+      "test_approach": "LLM"
+    },
+    {
+      "futurex_id": "6999a58817d430006670a398",
+      "title": "Which region will the 2026 First Stand Tournament champion come from?",
+      "level": 1,
+      "end_time": "2026-03-23",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a03d1781109300686005e4",
+      "title": "Will MAA release any of the 2026 USA(J)MO Cutoffs?",
+      "level": 1,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "69a4319df2cb3b006875e9d3",
+      "title": "Outcome of the Bank of England MPC rate decision on 19th March?",
+      "level": 1,
+      "end_time": "2026-03-20",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "685141c3b3bf920060db7796",
+      "title": "最新的PIF ATP单打排名第12名到第14名的选手是谁？（用英文回答，只回答姓名）",
+      "level": 3,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685141eca047fd005f77ef02",
+      "title": "最新的PIF WTA双打排名第10名到第12名的选手是谁？（用英文回答，只回答姓名）",
+      "level": 3,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68774eaf0fc811003bd35b6d",
+      "title": "豆瓣发布的最新的国外口碑综艺榜中，排名第1名到第3名的综艺是哪些？（只回答综艺名）",
+      "level": 3,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685146342537420060414055",
+      "title": "豆瓣发布的最新的一周口碑电影榜中，排名第4名到第6名的电影是哪些？（只回答电影名）",
+      "level": 3,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68517362eb11c800614780de",
+      "title": "全国农产品批发市场价格信息系统的农产品批发价格200指数中，畜产品价格指数是多少？",
+      "level": 3,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685173c159f71f006037a1e9",
+      "title": "人民币汇率中间价为100英镑对人民币多少元？",
+      "level": 3,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685e494b6e8dbd006cdc6f7c",
+      "title": "这一天的铀媒上的政法委微博账号影响力排行榜日榜第15名到第17名的微博昵称分别是什么？",
+      "level": 3,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "687071f2d3d00b006b624a8c",
+      "title": "KolRank的微信自媒体总榜中当日排行第7名到第9名分别是哪些自媒体？",
+      "level": 3,
+      "end_time": "2026-03-21",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "687071faab86ea0060215bc7",
+      "title": "KolRank的微博自媒体总榜中当日排行第4名到第6名分别是哪些自媒体？",
+      "level": 3,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685e4893e582f0005f9cd2c8",
+      "title": "猫眼电影想看榜第6名到第8名分别是哪些电影？",
+      "level": 3,
+      "end_time": "2026-03-21",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685e489b6e8dbd006cdc6f70",
+      "title": "猫眼电影购票评分榜第4名到第6名分别是哪些电影？",
+      "level": 3,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685e48b9e582f0005f9cd2c9",
+      "title": "这一天的懂车帝SUV全国热门榜排名第3名到第5名的车型分别是哪些？（只回答车型）",
+      "level": 3,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685e48ac6e8dbd006cdc6f71",
+      "title": "这一天的懂车帝轿车全国热门榜排名第2名到第4名的车型分别是哪些？（只回答车型）",
+      "level": 3,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685171e0560ebb0061efb2c3",
+      "title": "深圳证券交易所平安银行（000001）的总市值是多少亿元（两位小数）？",
+      "level": 4,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6851413f7b52bf0069cac9eb",
+      "title": "Box Office Mojo的Domestic Box Office Weekly的过去这一周的#1 Release是哪部电影？（用英文回答）",
+      "level": 4,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6867949457e54a0061f98f8c",
+      "title": "上海航运交易所发布的中国沿海散货运价指数的成品油货种指数是多少？",
+      "level": 4,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68514628aca664006bceb217",
+      "title": "最新的中国疾控中心的中国流感监测周报中，全国共报告多少起流感样病例暴发疫情？",
+      "level": 4,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6851740359f71f006037a1ed",
+      "title": "印度基金LOF（SZ:164824）的当日最高点是多少元？",
+      "level": 4,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6854dcb27df94a0060eb86cf",
+      "title": "这一天的Github开源项目每天飙升榜/日榜排行的第7名到第9名分别是什么？（用英文回答，回答榜单中的项目名）",
+      "level": 4,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6854dcbc7df94a0060eb86d0",
+      "title": "Steam公布的Support Stats中，这一天的等待响应（Waiting for response）的most recent数字是多少？",
+      "level": 4,
+      "end_time": "2026-03-19",
+      "category": "T",
+      "category_name": "tech",
+      "cap_ability": "medium",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6854e0397ff26400687d2031",
+      "title": "最新的Github开源项目每周飙升榜/周榜排行的第8名到第10名分别是什么？（用英文回答，回答榜单中的项目名）",
+      "level": 4,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68774e5b17ef980047f8ce68",
+      "title": "腾讯云开发者社区发布的最新的原创作者热度排行榜中，排名第4名到第6名的作者分别是谁？（只回答作者名）",
+      "level": 4,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68774e69336fa8003b890146",
+      "title": "最新的猫耳FM的广播剧打赏榜周榜中，排名第13名到第15名的作品是哪些？（只回答作品名）",
+      "level": 4,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "687df3a41d972f003b8ba68c",
+      "title": "康希诺（SH:688185）的当日最高点是多少元？",
+      "level": 4,
+      "end_time": "2026-03-20",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68514682640f4c00608c5aea",
+      "title": "过去这一个自然周的新榜·哔哩哔哩AI账号影响力·周榜的第8名到第10名分别是哪几个UP主？（只回答UP主名称）",
+      "level": 4,
+      "end_time": "2026-03-22",
+      "category": "T",
+      "category_name": "tech",
+      "cap_ability": "medium",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685171b65b1af900600a3306",
+      "title": "上海证券交易所农业银行（601288）的股票市价总值是多少万元（两位小数）？",
+      "level": 4,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "685173fb59f71f006037a1ec",
+      "title": "最新的QQ音乐飙升榜第2名到第4名是哪些歌？",
+      "level": 4,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6851743b59f71f006037a1f1",
+      "title": "农业农村部监测的全国农产品批发市场猪肉平均价格是多少元/公斤？",
+      "level": 4,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6851738859f71f006037a1e5",
+      "title": "沪深300指数的当日最低点是多少？",
+      "level": 4,
+      "end_time": "2026-03-24",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6870731ba3a7fb0061457aab",
+      "title": "最新的汽车之家智能科技榜的第9名到第11名科技分别是什么？",
+      "level": 4,
+      "end_time": "2026-03-23",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6854dffd0635c0005f0a1d2f",
+      "title": "最新的网易云音乐欧美热歌榜第10名到第12名的歌曲分别是什么？（只回答歌曲名）",
+      "level": 4,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "68774ddd3083b1003c629ca8",
+      "title": "上海证券交易所港股通的当日买入成交金额是多少亿元？",
+      "level": 4,
+      "end_time": "2026-03-19",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6944fde51834a500697575da",
+      "title": "which movies will be ranked from 3 to 5 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)",
+      "level": 4,
+      "end_time": "2026-03-22",
+      "category": "F",
+      "category_name": "finance",
+      "cap_ability": "high",
+      "test_approach": "CAP"
+    },
+    {
+      "futurex_id": "6945055fb5edfd005d923316",
+      "title": "and the week ending on this date, which programs will be ranked from 7 to 9 among U.S. audiences in the TOTAL view of Linear TV Top 10 rankings issued by Nielsen? (Give the program names only)",
+      "level": 4,
+      "end_time": "2026-03-22",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    },
+    {
+      "futurex_id": "6945061ed2f0e700661f17a1",
+      "title": "what songs will be ranked from 1 to 3 in the latest UK's Official Singles Chart Top 100? (Give the songs only)",
+      "level": 4,
+      "end_time": "2026-03-24",
+      "category": "O",
+      "category_name": "other",
+      "cap_ability": "unknown",
+      "test_approach": "Hybrid"
+    }
+  ]
+}
