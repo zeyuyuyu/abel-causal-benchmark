@@ -237,6 +237,19 @@ class CAPCompatibilityTester:
             if "delta" in intervention:
                 params["shock_magnitude"] = intervention["delta"]
         
+        # Handle attest batch request - use list for repeated params
+        if primitive == "attest":
+            # Check for various node list fields
+            node_list = None
+            for field in ["nodes", "tickers", "sectors", "assets"]:
+                if field in cap_input:
+                    node_list = cap_input[field]
+                    break
+            
+            if node_list:
+                # Use list for repeated tickers parameter
+                params["tickers"] = node_list
+        
         return params
     
     async def _call_api(self, endpoint: str, params: Dict) -> Dict:
@@ -245,7 +258,17 @@ class CAPCompatibilityTester:
             raise RuntimeError("HTTP client not initialized")
         
         url = f"{self.base_url}{endpoint}"
-        response = await self.client.get(url, params=params)
+        
+        # Handle list params for repeated query parameters (e.g., tickers=A&tickers=B)
+        query_params = []
+        for key, value in params.items():
+            if isinstance(value, list):
+                for item in value:
+                    query_params.append((key, item))
+            else:
+                query_params.append((key, value))
+        
+        response = await self.client.get(url, params=query_params)
         response.raise_for_status()
         return response.json()
     
