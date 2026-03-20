@@ -1,0 +1,39 @@
+{
+  "benchmark_name": "Abel Causal Benchmark",
+  "version": "v2.6",
+  "total_cases": 96,
+  "cases_with_answers": 96,
+  "statistics": {
+    "by_answer_type": {
+      "continuous": 21,
+      "causal_effect": 10,
+      "path_structure": 7,
+      "unknown": 4,
+      "comparison": 11,
+      "multiple_choice": 17,
+      "prediction": 26
+    },
+    "by_scoring_method": {
+      "directional_accuracy": 47,
+      "effect_accuracy": 10,
+      "path_similarity": 7,
+      "expert_evaluation": 4,
+      "rank_correlation": 11,
+      "exact_match": 17
+    },
+    "by_ground_truth_source": {
+      "yahoo_finance": 14,
+      "simulation": 10,
+      "graph_topology": 7,
+      "manual_verification": 4,
+      "futurex_challenge": 7,
+      "historical_correlation": 11,
+      "FutureX_Challenge_D25": 43
+    }
+  },
+  "notes": [
+    "FutureX cases have pending ground truth (resolve on end_date)",
+    "Finance cases use yahoo_finance for ground truth",
+    "Intervention cases use simulation for validation"
+  ]
+}
