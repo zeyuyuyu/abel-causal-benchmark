@@ -1,0 +1,105 @@
+{
+  "case_id": "XF_6964eca5",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[GEOPOLITICS] Israel strikes Gaza January 2026",
+  "context": "FutureX-inspired geopolitics question. Diplomatic, military, and strategic factor analysis. Options: January 1 | January 2 | January 3 | January 4 | January 5 | ... (26 more). Original FutureX Level 2.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "geopolitics",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "January 1",
+        "January 2",
+        "January 3",
+        "January 4",
+        "January 5",
+        "January 6",
+        "January 7",
+        "January 8",
+        "January 9",
+        "January 10",
+        "January 11",
+        "January 12",
+        "January 13",
+        "January 14",
+        "January 15",
+        "January 16",
+        "January 17",
+        "January 18",
+        "January 19",
+        "January 20",
+        "January 21",
+        "January 22",
+        "January 23",
+        "January 24",
+        "January 25",
+        "January 26",
+        "January 27",
+        "January 28",
+        "January 29",
+        "January 30",
+        "January 31"
+      ],
+      "factors_to_consider": [
+        "diplomatic_statements",
+        "military_movements",
+        "historical_patterns",
+        "alliance_dynamics"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "political",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "political not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 0.8
+}

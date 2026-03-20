@@ -1,0 +1,80 @@
+{
+  "case_id": "XF_6957ba8a",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[HEALTH] Measles cases in U.S. by January 31",
+  "context": "FutureX-inspired health question. Epidemiological factors, policy responses, and transmission dynamics. Options: <20 | 20-150 | 150-300 | 300-500 | 500-750 | ... (1 more). Original FutureX Level 2.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "health",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "<20",
+        "20-150",
+        "150-300",
+        "300-500",
+        "500-750",
+        ">750"
+      ],
+      "factors_to_consider": [
+        "transmission_rates",
+        "policy_measures",
+        "seasonal_patterns",
+        "vaccination_rates"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "entertainment",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "entertainment not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 0.8
+}

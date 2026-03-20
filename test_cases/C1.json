@@ -1,0 +1,76 @@
+{
+  "case_id": "C1",
+  "category": "C",
+  "cap_primitive": "path",
+  "question": "How does DXY (Dollar Index) strength affect crypto through the causal chain? Find the shortest path.",
+  "context": "Multi-asset transmission through currency and risk sentiment channels",
+  "cap_request": {
+    "verb": "graph.paths",
+    "params": {
+      "source_node_id": "",
+      "target_node_id": "",
+      "max_depth": 2,
+      "max_paths": 3
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "shortest_path": [
+      "string"
+    ],
+    "path_length": "int",
+    "total_tau_hours": "int",
+    "intermediate_nodes": [
+      "string"
+    ],
+    "path_strength": "float",
+    "alternative_paths": [
+      {
+        "nodes": [
+          "string"
+        ],
+        "tau": "int"
+      }
+    ]
+  },
+  "answer": {
+    "type": "path_structure",
+    "prediction_type": "list",
+    "ground_truth": {
+      "source": "graph_topology",
+      "metric": "path_existence",
+      "status": "verifiable",
+      "method": "structure_validation",
+      "note": "Verify path exists in causal graph"
+    },
+    "scoring_method": "path_similarity",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "graph_topology",
+    "metric": "path_existence",
+    "status": "verifiable",
+    "method": "structure_validation",
+    "note": "Verify path exists in causal graph"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.3
+}

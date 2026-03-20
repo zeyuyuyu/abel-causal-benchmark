@@ -1,0 +1,679 @@
+{
+  "total_cases": 96,
+  "export_date": "2026-03-20",
+  "source": "benchmark_questions_v2_validated.json",
+  "cases": [
+    {
+      "id": "A1",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "A1.json"
+    },
+    {
+      "id": "A2",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "tech",
+      "file": "A2.json"
+    },
+    {
+      "id": "A3",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "other",
+      "file": "A3.json"
+    },
+    {
+      "id": "A4",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "A4.json"
+    },
+    {
+      "id": "A5",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "tech",
+      "file": "A5.json"
+    },
+    {
+      "id": "A6",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "A6.json"
+    },
+    {
+      "id": "A7",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "other",
+      "file": "A7.json"
+    },
+    {
+      "id": "A8",
+      "category": "A",
+      "cap_primitive": "predict",
+      "domain": "other",
+      "file": "A8.json"
+    },
+    {
+      "id": "B1",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B1.json"
+    },
+    {
+      "id": "B2",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B2.json"
+    },
+    {
+      "id": "B3",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "tech",
+      "file": "B3.json"
+    },
+    {
+      "id": "B4",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B4.json"
+    },
+    {
+      "id": "B5",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B5.json"
+    },
+    {
+      "id": "B6",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "tech",
+      "file": "B6.json"
+    },
+    {
+      "id": "B7",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B7.json"
+    },
+    {
+      "id": "B8",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B8.json"
+    },
+    {
+      "id": "B9",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "finance",
+      "file": "B9.json"
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "domain": "political",
+      "file": "B10.json"
+    },
+    {
+      "id": "C1",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "finance",
+      "file": "C1.json"
+    },
+    {
+      "id": "C2",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "finance",
+      "file": "C2.json"
+    },
+    {
+      "id": "C3",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "finance",
+      "file": "C3.json"
+    },
+    {
+      "id": "C4",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "tech",
+      "file": "C4.json"
+    },
+    {
+      "id": "C5",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "finance",
+      "file": "C5.json"
+    },
+    {
+      "id": "C6",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "other",
+      "file": "C6.json"
+    },
+    {
+      "id": "C7",
+      "category": "C",
+      "cap_primitive": "path",
+      "domain": "finance",
+      "file": "C7.json"
+    },
+    {
+      "id": "D1",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "domain": "finance",
+      "file": "D1.json"
+    },
+    {
+      "id": "D2",
+      "category": "D",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "D2.json"
+    },
+    {
+      "id": "D3",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "domain": "finance",
+      "file": "D3.json"
+    },
+    {
+      "id": "D4",
+      "category": "D",
+      "cap_primitive": "explain",
+      "domain": "finance",
+      "file": "D4.json"
+    },
+    {
+      "id": "D5",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "domain": "finance",
+      "file": "D5.json"
+    },
+    {
+      "id": "E1",
+      "category": "E",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "E1.json"
+    },
+    {
+      "id": "E2",
+      "category": "E",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "E2.json"
+    },
+    {
+      "id": "E3",
+      "category": "E",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "E3.json"
+    },
+    {
+      "id": "E4",
+      "category": "E",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "E4.json"
+    },
+    {
+      "id": "E5",
+      "category": "E",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "E5.json"
+    },
+    {
+      "id": "F1",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F1.json"
+    },
+    {
+      "id": "F2",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F2.json"
+    },
+    {
+      "id": "F3",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F3.json"
+    },
+    {
+      "id": "F4",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F4.json"
+    },
+    {
+      "id": "F5",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F5.json"
+    },
+    {
+      "id": "F6",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F6.json"
+    },
+    {
+      "id": "F7",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "F7.json"
+    },
+    {
+      "id": "XF_694a8b8f",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "political",
+      "file": "XF_694a8b8f.json"
+    },
+    {
+      "id": "XF_69493cb1",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "political",
+      "file": "XF_69493cb1.json"
+    },
+    {
+      "id": "XF_69566909",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "sports",
+      "file": "XF_69566909.json"
+    },
+    {
+      "id": "XF_6957ba8a",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "sports",
+      "file": "XF_6957ba8a.json"
+    },
+    {
+      "id": "XF_695a5d89",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "entertainment",
+      "file": "XF_695a5d89.json"
+    },
+    {
+      "id": "XF_695a5d89",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "tech",
+      "file": "XF_695a5d89.json"
+    },
+    {
+      "id": "XF_69566c13",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "entertainment",
+      "file": "XF_69566c13.json"
+    },
+    {
+      "id": "XF_6964eca5",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "political",
+      "file": "XF_6964eca5.json"
+    },
+    {
+      "id": "XF_6957ba8a",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "entertainment",
+      "file": "XF_6957ba8a.json"
+    },
+    {
+      "id": "XF_69639b3e",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "entertainment",
+      "file": "XF_69639b3e.json"
+    },
+    {
+      "id": "XF_695a609d",
+      "category": "X",
+      "cap_primitive": "attest",
+      "domain": "finance",
+      "file": "XF_695a609d.json"
+    },
+    {
+      "id": "FX_698dce24",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "science",
+      "file": "FX_698dce24.json"
+    },
+    {
+      "id": "FX_69930e07",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "political",
+      "file": "FX_69930e07.json"
+    },
+    {
+      "id": "FX_69945f87",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69945f87.json"
+    },
+    {
+      "id": "FX_69970287",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69970287.json"
+    },
+    {
+      "id": "FX_69970287",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69970287.json"
+    },
+    {
+      "id": "FX_69970287",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69970287.json"
+    },
+    {
+      "id": "FX_6997062b",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_6997062b.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_699c4887",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "sports",
+      "file": "FX_699c4887.json"
+    },
+    {
+      "id": "FX_69a03d17",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69a03d17.json"
+    },
+    {
+      "id": "FX_69a4319d",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69a4319d.json"
+    },
+    {
+      "id": "FX_69a5830b",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "sports",
+      "file": "FX_69a5830b.json"
+    },
+    {
+      "id": "FX_69a830e5",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69a830e5.json"
+    },
+    {
+      "id": "FX_69a977a4",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69a977a4.json"
+    },
+    {
+      "id": "FX_69ad6c53",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69ad6c53.json"
+    },
+    {
+      "id": "FX_69ad6c53",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69ad6c53.json"
+    },
+    {
+      "id": "FX_69b00f0e",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b00f0e.json"
+    },
+    {
+      "id": "FX_69b403b7",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b403b7.json"
+    },
+    {
+      "id": "FX_69b5552c",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b5552c.json"
+    },
+    {
+      "id": "FX_69b5552c",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b5552c.json"
+    },
+    {
+      "id": "FX_69b5552c",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b5552c.json"
+    },
+    {
+      "id": "FX_6995b107",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_6995b107.json"
+    },
+    {
+      "id": "FX_698c7689",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_698c7689.json"
+    },
+    {
+      "id": "FX_69b403b7",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b403b7.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "political",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_6995b10b",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_6995b10b.json"
+    },
+    {
+      "id": "FX_6995b107",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_6995b107.json"
+    },
+    {
+      "id": "FX_69b16092",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b16092.json"
+    },
+    {
+      "id": "FX_6995b107",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_6995b107.json"
+    },
+    {
+      "id": "FX_69b403b7",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b403b7.json"
+    },
+    {
+      "id": "FX_69b2b226",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b2b226.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_69b403b7",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b403b7.json"
+    },
+    {
+      "id": "FX_69985408",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69985408.json"
+    },
+    {
+      "id": "FX_6999a588",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_6999a588.json"
+    },
+    {
+      "id": "FX_69b2b226",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69b2b226.json"
+    },
+    {
+      "id": "FX_6999a588",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "sports",
+      "file": "FX_6999a588.json"
+    },
+    {
+      "id": "FX_69a03d17",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69a03d17.json"
+    },
+    {
+      "id": "FX_69a4319d",
+      "category": "F",
+      "cap_primitive": "predict",
+      "domain": "finance",
+      "file": "FX_69a4319d.json"
+    },
+    {
+      "id": "FX_6944fde5",
+      "category": "X",
+      "cap_primitive": "predict",
+      "domain": "entertainment",
+      "file": "FX_6944fde5.json"
+    }
+  ]
+}

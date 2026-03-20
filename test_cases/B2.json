@@ -1,0 +1,74 @@
+{
+  "case_id": "B2",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "What happens if BTCUSD drops 3%? Trace the shock propagation through the causal graph.",
+  "context": "[Final-Fix] PEAKUSD shock affects BTCUSD | Original: [CAP-v2] [Fixed] Bitcoin crash scenario - systemic impact analysis (Using driver: PEAKUSD)",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "PEAKUSD_close",
+      "treatment_value": -0.03,
+      "outcome_node": "BTCUSD_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "shock_magnitude": "float",
+    "propagation_chain": [
+      {
+        "source": "string",
+        "target": "string",
+        "effect": "float",
+        "tau": "int"
+      }
+    ],
+    "vulnerable_nodes": [
+      "string"
+    ],
+    "systemic_risk_indicator": "float"
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.5
+}

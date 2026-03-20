@@ -1,0 +1,67 @@
+{
+  "case_id": "D1",
+  "category": "D",
+  "cap_primitive": "sensitivity",
+  "question": "What's BTCUSD's probability_up right now, and what parent node changes would flip the prediction?",
+  "context": "Confidence breakdown and critical factor identification",
+  "cap_request": {
+    "capability": "sensitivity",
+    "input": {
+      "target_node": "BTCUSD",
+      "analysis_type": "confidence_breakdown",
+      "identify_flip_thresholds": true
+    }
+  },
+  "expected_response": {
+    "probability_up": "float",
+    "confidence_interval": [
+      "float",
+      "float"
+    ],
+    "critical_parents": [
+      {
+        "node": "string",
+        "flip_threshold": "float",
+        "current_value": "float"
+      }
+    ],
+    "robustness_score": "float",
+    "prediction_volatility": "float"
+  },
+  "answer": {
+    "type": "unknown",
+    "ground_truth": {
+      "source": "expert_judgment",
+      "metric": "expert_evaluation",
+      "status": "expert_verification",
+      "method": "manual_review",
+      "note": "Requires domain expert validation"
+    },
+    "scoring_method": "expert_evaluation"
+  },
+  "ground_truth": {
+    "source": "expert_judgment",
+    "metric": "expert_evaluation",
+    "status": "expert_verification",
+    "method": "manual_review",
+    "note": "Requires domain expert validation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

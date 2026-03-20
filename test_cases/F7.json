@@ -1,0 +1,75 @@
+{
+  "case_id": "F7",
+  "category": "F",
+  "cap_primitive": "predict",
+  "question": "Nvidia hits 170, 200 or neither first by end of January 2026?",
+  "context": "[FutureX Inspired] FutureX Challenge D25 - Level 1. Nvidia stock price level prediction...",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": ""
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "cumulative_prediction": "float",
+    "probability_up": "float",
+    "parent_contributions": [
+      {
+        "node": "string",
+        "impact": "float",
+        "tau": "int"
+      }
+    ]
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "futurex_id": "6957ba8a03568a006853e82f",
+      "original_answer": "['A']",
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "delay_hours": 24,
+      "note": "Verify UNKNOWN price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "futurex_id": "6957ba8a03568a006853e82f",
+    "original_answer": "['A']",
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "delay_hours": 24,
+    "note": "Verify UNKNOWN price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

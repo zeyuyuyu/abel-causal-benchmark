@@ -1,0 +1,74 @@
+{
+  "case_id": "E1",
+  "category": "E",
+  "cap_primitive": "predict",
+  "question": "Between BTCUSD and ETHUSD, which has stronger causal drivers right now? Compare predictive power.",
+  "context": "[Attest→Predict] Cross-sectional causal strength comparison",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "BTCUSD_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "comparison": [
+      {
+        "node": "string",
+        "pagerank": "float",
+        "betweenness": "float",
+        "out_degree": "int",
+        "prediction_confidence": "float"
+      }
+    ],
+    "stronger_driver": "string",
+    "power_ratio": "float",
+    "recommendation": "string"
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "BTCUSD",
+      "verification_url": "https://finance.yahoo.com/quote/BTCUSD",
+      "note": "Verify BTCUSD price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "BTCUSD",
+    "verification_url": "https://finance.yahoo.com/quote/BTCUSD",
+    "note": "Verify BTCUSD price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

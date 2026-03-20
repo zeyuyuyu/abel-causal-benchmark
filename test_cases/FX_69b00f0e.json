@@ -1,0 +1,64 @@
+{
+  "case_id": "FX_69b00f0e",
+  "category": "X",
+  "cap_primitive": "predict",
+  "question": "Who will win the March 2026 grand sumo tournament?",
+  "context": "FutureX D25 Challenge - Level 2. Source: https://manifold.markets/sointex/who-will-win-the-march-2026-grand-s",
+  "cap_request": {
+    "verb": "llm_only",
+    "note": "Requires LLM reasoning - not financial/market related"
+  },
+  "answer": {
+    "type": "multiple_choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "Onosato",
+        "type": "outcome"
+      }
+    ],
+    "ground_truth": {
+      "status": "verifiable",
+      "expected_resolve_date": "2026-03-23",
+      "source": "yahoo_finance",
+      "resolution_url": "https://manifold.markets/sointex/who-will-win-the-march-2026-grand-s",
+      "note": "Verify UNKNOWN price movement after 24h",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "metric": "directional_accuracy",
+      "delay_hours": 24
+    },
+    "scoring_method": "exact_match"
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "expected_resolve_date": "2026-03-23",
+    "source": "yahoo_finance",
+    "resolution_url": "https://manifold.markets/sointex/who-will-win-the-march-2026-grand-s",
+    "note": "Verify UNKNOWN price movement after 24h",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "metric": "directional_accuracy",
+    "delay_hours": 24
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L2"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

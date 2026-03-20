@@ -1,0 +1,50 @@
+{
+  "case_id": "A1",
+  "category": "A",
+  "cap_primitive": "predict",
+  "question": "Will BTCUSD go up in the next 5 hours based on current ETH momentum?",
+  "context": "2025-03 Crypto market showing ETH leading BTC correlation",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "BTCUSD_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "cumulative_prediction": "float",
+    "probability_up": "float",
+    "parent_contributions": [
+      {
+        "node": "string",
+        "impact": "float",
+        "tau": "int"
+      }
+    ]
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "source": "yahoo_finance",
+    "method": "api_fetch",
+    "ticker": "BTCUSD",
+    "metric": "directional_accuracy",
+    "delay_hours": 6,
+    "verification_url": "https://finance.yahoo.com/quote/BTCUSD"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      }
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  }
+}

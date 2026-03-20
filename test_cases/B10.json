@@ -1,0 +1,66 @@
+{
+  "case_id": "B10",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "What would happen if China's tech regulation suddenly eased (hypothetical policy shift)? Trace impact: BABA/PDD → US-listed China ETFs → Emerging Markets → Global Tech",
+  "context": "[Final-Fix] Market peak to BABA | Original: [CAP-v2] Policy regime shift - geopolitical risk repricing chain",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "PEAKUSD_close",
+      "treatment_value": 0.03,
+      "outcome_node": "BABA_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "china_adr_impact": "float",
+    "china_etf_impact": "float",
+    "em_contagion": "float",
+    "global_tech_spillover": "float",
+    "policy_uncertainty_reduction": "float"
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "political",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "political not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.5
+}

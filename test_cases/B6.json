@@ -1,0 +1,71 @@
+{
+  "case_id": "B6",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "What would happen if AAPL missed earnings by 5%? Trace the impact through: Apple → Suppliers → Tech sector → Broader market",
+  "context": "[Final-Fix] VIX shock to SPY | Original: [CAP-v2] [Fixed] Earnings miss shock - supply chain and sentiment transmission (Using driver: QQQ)",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "VIX_close",
+      "treatment_value": 0.15,
+      "outcome_node": "SPY_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "aapl_impact": "float",
+    "supplier_impacts": [
+      {
+        "ticker": "string",
+        "impact": "float"
+      }
+    ],
+    "sector_contagion": "float",
+    "market_spillover": "float",
+    "sentiment_decay_rate": "float"
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "tech",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "AI/tech metrics not in causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.5
+}

@@ -1,0 +1,71 @@
+{
+  "case_id": "E4",
+  "category": "E",
+  "cap_primitive": "predict",
+  "question": "Compare Crypto (BTC, ETH) vs Gold (GLD) as inflation hedges using causal graph influence metrics.",
+  "context": "[Attest→Predict] Asset class comparison for specific use case",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": ""
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "hedge_effectiveness": [
+      {
+        "asset": "string",
+        "inflation_beta": "float",
+        "effectiveness_score": "float"
+      }
+    ],
+    "best_inflation_hedge": "string",
+    "regime_dependence": "string"
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "note": "Verify UNKNOWN price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "note": "Verify UNKNOWN price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

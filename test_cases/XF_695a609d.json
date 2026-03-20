@@ -1,0 +1,77 @@
+{
+  "case_id": "XF_695a609d",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[ECONOMICS] Reserve Bank of Australia February Decision",
+  "context": "FutureX-inspired economics question. Macroeconomic indicators, policy decisions, and market expectations. Options: Decrease cash rate | Increase cash rate | No change. Original FutureX Level 1.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "economics",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "Decrease cash rate",
+        "Increase cash rate",
+        "No change"
+      ],
+      "factors_to_consider": [
+        "inflation_data",
+        "employment_figures",
+        "market_expectations",
+        "global_conditions"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 0.8
+}

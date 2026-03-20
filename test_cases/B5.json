@@ -1,0 +1,75 @@
+{
+  "case_id": "B5",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "If oil prices (CLUSD) spike 10% due to geopolitical tensions, trace the causal impact through: Energy → Transportation → Airlines → Consumer spending",
+  "context": "[Final-Fix] BTC shock to MSTR (proxy) | Original: [CAP-v2] Commodity shock - multi-sector transmission chain",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "BTCUSD_close",
+      "treatment_value": 0.05,
+      "outcome_node": "MSTR_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "oil_shock": "float",
+    "sector_impacts": {
+      "XLE": "float",
+      "IYT": "float",
+      "JETS": "float",
+      "XLY": "float"
+    },
+    "propagation_delays": [
+      {
+        "sector": "string",
+        "delay_hours": "int"
+      }
+    ],
+    "peak_impact_sector": "string"
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.5
+}

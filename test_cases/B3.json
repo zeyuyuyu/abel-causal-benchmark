@@ -1,0 +1,74 @@
+{
+  "case_id": "B3",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "If NVDA announced a major AI partnership (hypothetical), what's the causal impact on semiconductor equipment makers (LRCX, AMAT)?",
+  "context": "[Final-Fix] VIX spike impact on NVDA | Original: [CAP-v2] [Fixed] Hypothetical earnings/announcement shock - supply chain propagation (Using driver: PEAKUSD)",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "VIX_close",
+      "treatment_value": 0.1,
+      "outcome_node": "NVDA_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "nvda_shock": "float",
+    "equipment_impacts": {
+      "LRCX": "float",
+      "AMAT": "float",
+      "KLAC": "float"
+    },
+    "supply_chain_delay_hours": "int",
+    "correlation_coefficients": [
+      {
+        "pair": "string",
+        "correlation": "float"
+      }
+    ]
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "tech",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "AI/tech metrics not in causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.5
+}

@@ -1,0 +1,70 @@
+{
+  "case_id": "C5",
+  "category": "C",
+  "cap_primitive": "path",
+  "question": "Find all paths from gold (GLD) to Bitcoin through safe-haven flow, inflation hedge, and risk-on/risk-off sentiment channels.",
+  "context": "Multi-channel asset class relationships",
+  "cap_request": {
+    "verb": "graph.paths",
+    "params": {
+      "source_node_id": "",
+      "target_node_id": "",
+      "max_depth": 2,
+      "max_paths": 3
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "all_paths": [
+      {
+        "nodes": [
+          "string"
+        ],
+        "mechanism": "string",
+        "strength": "float"
+      }
+    ],
+    "dominant_channel": "string",
+    "regime_dependence": "string"
+  },
+  "answer": {
+    "type": "path_structure",
+    "prediction_type": "list",
+    "ground_truth": {
+      "source": "graph_topology",
+      "metric": "path_existence",
+      "status": "verifiable",
+      "method": "structure_validation",
+      "note": "Verify path exists in causal graph"
+    },
+    "scoring_method": "path_similarity",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "graph_topology",
+    "metric": "path_existence",
+    "status": "verifiable",
+    "method": "structure_validation",
+    "note": "Verify path exists in causal graph"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.3
+}

@@ -1,0 +1,61 @@
+{
+  "case_id": "FX_6995b107",
+  "category": "F",
+  "cap_primitive": "predict",
+  "question": "At close of business on 19 March 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 5 February 2026?",
+  "context": "FutureX D25 Challenge - Level 1. Source: https://www.gjopen.com/questions/4734-at-close-of-business-on-19-march-2026-will-the-most-recently-announced-european-central-bank-ecb-deposit-facility-interest-rate-be-lower-the-same-or-higher-than-it-was-at-close-of-business-on-5-february-2026",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {},
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "answer": {
+    "type": "prediction",
+    "options": [],
+    "ground_truth": {
+      "status": "verifiable",
+      "expected_resolve_date": "2026-03-19",
+      "source": "yahoo_finance",
+      "resolution_url": "https://www.gjopen.com/questions/4734-at-close-of-business-on-19-march-2026-will-the-most-recently-announced-european-central-bank-ecb-deposit-facility-interest-rate-be-lower-the-same-or-higher-than-it-was-at-close-of-business-on-5-february-2026",
+      "note": "Verify UNKNOWN price movement after 24h",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "metric": "directional_accuracy",
+      "delay_hours": 24
+    },
+    "scoring_method": "directional_accuracy"
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "expected_resolve_date": "2026-03-19",
+    "source": "yahoo_finance",
+    "resolution_url": "https://www.gjopen.com/questions/4734-at-close-of-business-on-19-march-2026-will-the-most-recently-announced-european-central-bank-ecb-deposit-facility-interest-rate-be-lower-the-same-or-higher-than-it-was-at-close-of-business-on-5-february-2026",
+    "note": "Verify UNKNOWN price movement after 24h",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "metric": "directional_accuracy",
+    "delay_hours": 24
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Financial domain but node availability uncertain"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L1"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

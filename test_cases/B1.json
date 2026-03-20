@@ -1,0 +1,85 @@
+{
+  "case_id": "B1",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "What is the causal propagation if ETHUSD gets a 5% positive shock? Who gets affected downstream?",
+  "context": "[Final-Fix] PEAKUSD -> NVDA (known strong link) | Original: [CAP-v2] [Fixed] Crypto shock propagation through correlation network (Using driver: BTCUSD)",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "PEAKUSD_close",
+      "treatment_value": 0.05,
+      "outcome_node": "NVDA_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "intervention_effect": "float",
+    "propagation_path": [
+      {
+        "node": "string",
+        "hop": "int",
+        "effect": "float",
+        "tau": "int"
+      }
+    ],
+    "affected_nodes": [
+      "string"
+    ],
+    "second_order_effects": [
+      {
+        "node": "string",
+        "via": "string",
+        "magnitude": "float"
+      }
+    ]
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.5,
+  "scoring_criteria": {
+    "path_transparency": 0.4,
+    "magnitude_quantification": 0.3,
+    "second_order_detection": 0.3
+  }
+}

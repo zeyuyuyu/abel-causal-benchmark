@@ -1,0 +1,75 @@
+{
+  "case_id": "E2",
+  "category": "E",
+  "cap_primitive": "predict",
+  "question": "Compare the average path length of Tech stocks (XLK) vs Energy stocks (XLE) in their causal graphs.",
+  "context": "[Attest→Predict] Sector-level structural comparison",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": ""
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "sector_comparison": [
+      {
+        "sector": "string",
+        "avg_path_length": "float",
+        "network_density": "float",
+        "prediction_coherence": "float",
+        "top_tickers": [
+          "string"
+        ]
+      }
+    ],
+    "more_coherent_sector": "string",
+    "structural_difference": "float"
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "note": "Verify UNKNOWN price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "note": "Verify UNKNOWN price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

@@ -1,0 +1,80 @@
+{
+  "case_id": "XF_695a5d89",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[ENTERTAINMENT] 2026 Grammy Record of the Year",
+  "context": "FutureX-inspired entertainment question. Industry trends, critical reception, and commercial performance. Options: Bad Bunny - DtMF | Sabrina Carpenter - Manchild | Doechii - Anxiety | Billie Eilish - Wildflower | Lady Gaga - Abracadabra | ... (1 more). Original FutureX Level 2.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "entertainment",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "Bad Bunny - DtMF",
+        "Sabrina Carpenter - Manchild",
+        "Doechii - Anxiety",
+        "Billie Eilish - Wildflower",
+        "Lady Gaga - Abracadabra",
+        "Kendrick Lamar with SZA - Luther"
+      ],
+      "factors_to_consider": [
+        "chart_performance",
+        "critical_reviews",
+        "commercial_success",
+        "industry_recognition"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "tech",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "AI/tech metrics not in causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "long_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 0.8
+}

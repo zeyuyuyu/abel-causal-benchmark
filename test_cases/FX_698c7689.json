@@ -1,0 +1,67 @@
+{
+  "case_id": "FX_698c7689",
+  "category": "F",
+  "cap_primitive": "predict",
+  "question": "Next target for Brazil's SELIC interest rate",
+  "context": "FutureX D25 Challenge - Level 2. Source: https://futuur.com/q/233377/next-target-for-brazils-selic-interest-rate",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {},
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "answer": {
+    "type": "multiple_choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lower by 0.5% or mor",
+        "type": "outcome"
+      }
+    ],
+    "ground_truth": {
+      "status": "verifiable",
+      "expected_resolve_date": "2026-03-19",
+      "source": "yahoo_finance",
+      "resolution_url": "https://futuur.com/q/233377/next-target-for-brazils-selic-interest-rate",
+      "note": "Verify UNKNOWN price movement after 24h",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "metric": "directional_accuracy",
+      "delay_hours": 24
+    },
+    "scoring_method": "exact_match"
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "expected_resolve_date": "2026-03-19",
+    "source": "yahoo_finance",
+    "resolution_url": "https://futuur.com/q/233377/next-target-for-brazils-selic-interest-rate",
+    "note": "Verify UNKNOWN price movement after 24h",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "metric": "directional_accuracy",
+    "delay_hours": 24
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Financial domain but node availability uncertain"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L2"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

@@ -1,0 +1,67 @@
+{
+  "case_id": "A2",
+  "category": "A",
+  "cap_primitive": "predict",
+  "question": "What's the 3-day outlook for NVDA given current semiconductor sector trends?",
+  "context": "Q1 2025: AI chip demand continues, supply chain normalized",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "NVDA_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "cumulative_prediction": "float",
+    "sector_momentum_contribution": "float",
+    "parent_features": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "NVDA",
+      "verification_url": "https://finance.yahoo.com/quote/NVDA",
+      "note": "Verify NVDA price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "NVDA",
+    "verification_url": "https://finance.yahoo.com/quote/NVDA",
+    "note": "Verify NVDA price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "tech",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "AI/tech metrics not in causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.0
+}

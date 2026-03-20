@@ -1,0 +1,69 @@
+{
+  "case_id": "FX_699c4887",
+  "category": "X",
+  "cap_primitive": "predict",
+  "question": "Six Nations Rugby Champion 2026",
+  "context": "FutureX D25 Challenge - Level 2. Source: https://manifold.markets/ACCT/six-nations-rugby-champion-2026",
+  "cap_request": {
+    "verb": "llm_only",
+    "note": "Requires LLM reasoning - not financial/market related"
+  },
+  "answer": {
+    "type": "multiple_choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "England",
+        "type": "outcome"
+      },
+      {
+        "id": "B",
+        "text": "France",
+        "type": "outcome"
+      }
+    ],
+    "ground_truth": {
+      "status": "verifiable",
+      "expected_resolve_date": "2026-03-22",
+      "source": "yahoo_finance",
+      "resolution_url": "https://manifold.markets/ACCT/six-nations-rugby-champion-2026",
+      "note": "Verify UNKNOWN price movement after 24h",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "metric": "directional_accuracy",
+      "delay_hours": 24
+    },
+    "scoring_method": "exact_match"
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "expected_resolve_date": "2026-03-22",
+    "source": "yahoo_finance",
+    "resolution_url": "https://manifold.markets/ACCT/six-nations-rugby-champion-2026",
+    "note": "Verify UNKNOWN price movement after 24h",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "metric": "directional_accuracy",
+    "delay_hours": 24
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "sports",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "sports not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L2"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.0
+}

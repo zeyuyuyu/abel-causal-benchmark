@@ -1,0 +1,71 @@
+{
+  "case_id": "B9",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "If Treasury yields suddenly dropped 30bp (risk-off flight to safety), trace the impact through: Bonds → Tech valuations → Growth stocks → Market breadth",
+  "context": "[Final-Fix] USD strength vs Silver | Original: [CAP-v2] Flight to quality shock - risk asset repricing chain",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "DXY_close",
+      "treatment_value": 0.02,
+      "outcome_node": "SLV_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "yield_change": "float",
+    "tech_valuation_boost": "float",
+    "growth_vs_value_rotation": "float",
+    "market_breadth_change": "float",
+    "duration_sensitivity": [
+      {
+        "ticker": "string",
+        "sensitivity": "float"
+      }
+    ]
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.5
+}

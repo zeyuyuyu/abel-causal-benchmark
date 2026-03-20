@@ -1,0 +1,60 @@
+{
+  "case_id": "A7",
+  "category": "A",
+  "cap_primitive": "predict",
+  "question": "Will XLF (Financials ETF) rise in the next 48 hours based on yield curve steepening?",
+  "context": "2025-03: Yield curve dynamics affecting bank profitability",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "XLF_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "XLF",
+      "verification_url": "https://finance.yahoo.com/quote/XLF",
+      "note": "Verify XLF price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "XLF",
+    "verification_url": "https://finance.yahoo.com/quote/XLF",
+    "note": "Verify XLF price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "other",
+        "confidence": 0.0
+      },
+      "cap_ability": {
+        "value": "none",
+        "reason": "Unknown domain"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "short_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "Hybrid",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.0
+}

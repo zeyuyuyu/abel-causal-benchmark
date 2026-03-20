@@ -1,0 +1,69 @@
+{
+  "case_id": "C3",
+  "category": "C",
+  "cap_primitive": "path",
+  "question": "Find the causal chain from Fed policy (FEDFUNDS) to mortgage REITs (NLY, AGNC) through rates and housing market.",
+  "context": "Monetary policy transmission to specialized financial instruments",
+  "cap_request": {
+    "verb": "graph.paths",
+    "params": {
+      "source_node_id": "",
+      "target_node_id": "",
+      "max_depth": 2,
+      "max_paths": 3
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "policy_transmission_chain": [
+      "string"
+    ],
+    "rate_sensitivity_per_hop": [
+      {
+        "node": "string",
+        "sensitivity": "float"
+      }
+    ],
+    "mortgage_spread_impact": "float"
+  },
+  "answer": {
+    "type": "path_structure",
+    "prediction_type": "list",
+    "ground_truth": {
+      "source": "graph_topology",
+      "metric": "path_existence",
+      "status": "verifiable",
+      "method": "structure_validation",
+      "note": "Verify path exists in causal graph"
+    },
+    "scoring_method": "path_similarity",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "graph_topology",
+    "metric": "path_existence",
+    "status": "verifiable",
+    "method": "structure_validation",
+    "note": "Verify path exists in causal graph"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Financial domain but node availability uncertain"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.3
+}

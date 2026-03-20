@@ -1,0 +1,82 @@
+{
+  "case_id": "XF_69566909",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[SPORTS] 2026 Australian Open Women's Singles Winner",
+  "context": "FutureX-inspired sports question. Player form, historical performance, and competitive dynamics. Options: Mirra Andreeva | Coco Gauff | Madison Keys | Naomi Osaka | Elena Rybakina | ... (2 more). Original FutureX Level 2.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "sports",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "Mirra Andreeva",
+        "Coco Gauff",
+        "Madison Keys",
+        "Naomi Osaka",
+        "Elena Rybakina",
+        "Aryna Sabalenka",
+        "Iga Swiatek"
+      ],
+      "factors_to_consider": [
+        "recent_form",
+        "head_to_head_history",
+        "injury_status",
+        "home_advantage",
+        "rankings"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "sports",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "sports not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 0.8
+}

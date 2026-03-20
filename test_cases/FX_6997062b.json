@@ -1,0 +1,58 @@
+{
+  "case_id": "FX_6997062b",
+  "category": "X",
+  "cap_primitive": "predict",
+  "question": "Sucre Mayoral Election Winner (Bolivia)",
+  "context": "FutureX D25 Challenge - Level 2. Source: https://polymarket.com/event/sucre-mayoral-election-winner-bolivia",
+  "cap_request": {
+    "verb": "llm_only",
+    "note": "Requires LLM reasoning - not financial/market related"
+  },
+  "answer": {
+    "type": "prediction",
+    "options": [],
+    "ground_truth": {
+      "status": "verifiable",
+      "expected_resolve_date": "2026-03-22",
+      "source": "yahoo_finance",
+      "resolution_url": "https://polymarket.com/event/sucre-mayoral-election-winner-bolivia",
+      "note": "Verify UNKNOWN price movement after 24h",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "metric": "directional_accuracy",
+      "delay_hours": 24
+    },
+    "scoring_method": "directional_accuracy"
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "expected_resolve_date": "2026-03-22",
+    "source": "yahoo_finance",
+    "resolution_url": "https://polymarket.com/event/sucre-mayoral-election-winner-bolivia",
+    "note": "Verify UNKNOWN price movement after 24h",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "metric": "directional_accuracy",
+    "delay_hours": 24
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L2"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

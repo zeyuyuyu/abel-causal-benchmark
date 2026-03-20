@@ -1,0 +1,65 @@
+{
+  "case_id": "A3",
+  "category": "A",
+  "cap_primitive": "predict",
+  "question": "Predict SPY movement in next 24 hours based on current VIX level and bond yields",
+  "context": "2025-03: VIX elevated, 10Y yields fluctuating around 4.3%",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "SPY_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "prediction": "float",
+    "vix_contribution": "float",
+    "yield_contribution": "float"
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "SPY",
+      "verification_url": "https://finance.yahoo.com/quote/SPY",
+      "note": "Verify SPY price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "SPY",
+    "verification_url": "https://finance.yahoo.com/quote/SPY",
+    "note": "Verify SPY price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "other",
+        "confidence": 0.0
+      },
+      "cap_ability": {
+        "value": "none",
+        "reason": "Unknown domain"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "short_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "Hybrid",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.0
+}

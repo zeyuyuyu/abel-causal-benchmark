@@ -1,0 +1,68 @@
+{
+  "case_id": "B8",
+  "category": "B",
+  "cap_primitive": "intervene",
+  "question": "What if a major exchange (Coinbase or Binance) announced regulatory compliance improvements? How would this shock propagate through crypto markets?",
+  "context": "[Final-Fix] Market peak impact on COIN | Original: [CAP-v2] Regulatory clarity shock - sentiment and institutional flow transmission",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "PEAKUSD_close",
+      "treatment_value": 0.03,
+      "outcome_node": "COIN_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "expected_response": {
+    "exchange_impact": "float",
+    "crypto_sentiment_shift": "float",
+    "btc_eth_correlation_spike": "float",
+    "institutional_flow_indicator": "float",
+    "second_wave_tickers": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "causal_effect",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "causal_graph_simulation",
+      "metric": "effect_accuracy",
+      "status": "simulation",
+      "method": "scm_propagation",
+      "acceptable_error": 0.15,
+      "note": "Validate using SCM simulation with Monte Carlo sampling"
+    },
+    "scoring_method": "effect_accuracy",
+    "acceptable_error": 0.1
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "metric": "effect_accuracy",
+    "status": "simulation",
+    "method": "scm_propagation",
+    "acceptable_error": 0.15,
+    "note": "Validate using SCM simulation with Monte Carlo sampling"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.5
+}

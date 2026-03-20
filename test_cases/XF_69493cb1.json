@@ -1,0 +1,80 @@
+{
+  "case_id": "XF_69493cb1",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[ELECTION] Portugal Presidential Election second round qualifiers",
+  "context": "FutureX-inspired election question. Social, economic, and political factors influencing electoral outcomes. Options: André Ventura | Luís Marques Mendes | Henrique Gouveia e Melo | António José Seguro | João Cotrim de Figueiredo | ... (1 more). Original FutureX Level 2.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "election",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "André Ventura",
+        "Luís Marques Mendes",
+        "Henrique Gouveia e Melo",
+        "António José Seguro",
+        "João Cotrim de Figueiredo",
+        "Catarina Martins"
+      ],
+      "factors_to_consider": [
+        "polling_trends",
+        "economic_conditions",
+        "media_coverage",
+        "incumbent_advantage"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "political",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "political not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 0.8
+}

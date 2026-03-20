@@ -1,0 +1,64 @@
+{
+  "case_id": "FX_698dce24",
+  "category": "X",
+  "cap_primitive": "predict",
+  "question": "What will be the 2026 USAMO cutoff for AMC 12 B and AIME I?",
+  "context": "FutureX D25 Challenge - Level 2. Source: https://manifold.markets/jonathan/what-will-be-the-2026-usamo-cutoff",
+  "cap_request": {
+    "verb": "llm_only",
+    "note": "Requires LLM reasoning - not financial/market related"
+  },
+  "answer": {
+    "type": "multiple_choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "Below",
+        "type": "outcome"
+      }
+    ],
+    "ground_truth": {
+      "status": "verifiable",
+      "expected_resolve_date": "2026-03-22",
+      "source": "yahoo_finance",
+      "resolution_url": "https://manifold.markets/jonathan/what-will-be-the-2026-usamo-cutoff",
+      "note": "Verify UNKNOWN price movement after 24h",
+      "method": "api_fetch",
+      "ticker": "UNKNOWN",
+      "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+      "metric": "directional_accuracy",
+      "delay_hours": 24
+    },
+    "scoring_method": "exact_match"
+  },
+  "ground_truth": {
+    "status": "verifiable",
+    "expected_resolve_date": "2026-03-22",
+    "source": "yahoo_finance",
+    "resolution_url": "https://manifold.markets/jonathan/what-will-be-the-2026-usamo-cutoff",
+    "note": "Verify UNKNOWN price movement after 24h",
+    "method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "verification_url": "https://finance.yahoo.com/quote/UNKNOWN",
+    "metric": "directional_accuracy",
+    "delay_hours": 24
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "science",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "Scientific/educational not in graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L2"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.0
+}

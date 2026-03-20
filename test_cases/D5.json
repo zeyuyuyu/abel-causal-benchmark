@@ -1,0 +1,72 @@
+{
+  "case_id": "D5",
+  "category": "D",
+  "cap_primitive": "sensitivity",
+  "question": "Which ticker's causal graph is most sensitive to market regime changes (bull vs bear)?",
+  "context": "Regime-dependent reliability analysis",
+  "cap_request": {
+    "capability": "sensitivity",
+    "input": {
+      "analysis_type": "regime_sensitivity",
+      "tickers": [
+        "BTCUSD",
+        "NVDA",
+        "TSLA",
+        "ARKK"
+      ],
+      "regime_indicator": "VIX_level",
+      "thresholds": [
+        20,
+        30
+      ]
+    }
+  },
+  "expected_response": {
+    "regime_sensitivity_scores": [
+      {
+        "ticker": "string",
+        "bull_accuracy": "float",
+        "bear_accuracy": "float",
+        "regime_delta": "float"
+      }
+    ],
+    "most_regime_sensitive": "string",
+    "most_regime_stable": "string"
+  },
+  "answer": {
+    "type": "unknown",
+    "ground_truth": {
+      "source": "expert_judgment",
+      "metric": "expert_evaluation",
+      "status": "expert_verification",
+      "method": "manual_review",
+      "note": "Requires domain expert validation"
+    },
+    "scoring_method": "expert_evaluation"
+  },
+  "ground_truth": {
+    "source": "expert_judgment",
+    "metric": "expert_evaluation",
+    "status": "expert_verification",
+    "method": "manual_review",
+    "note": "Requires domain expert validation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "partial",
+        "reason": "Finance domain, need to verify node"
+      },
+      "data_availability": "historical",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_first_then_LLM",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

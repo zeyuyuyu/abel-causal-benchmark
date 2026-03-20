@@ -1,0 +1,60 @@
+{
+  "case_id": "A6",
+  "category": "A",
+  "cap_primitive": "predict",
+  "question": "Predict ETHUSD movement in next 6 hours given BTC dominance changes",
+  "context": "BTC dominance recently increased affecting altcoin dynamics",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "ETHUSD_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "ETHUSD",
+      "verification_url": "https://finance.yahoo.com/quote/ETHUSD",
+      "note": "Verify ETHUSD price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "ETHUSD",
+    "verification_url": "https://finance.yahoo.com/quote/ETHUSD",
+    "note": "Verify ETHUSD price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "finance",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "full",
+        "reason": "Known ticker in causal graph"
+      },
+      "data_availability": "realtime",
+      "time_horizon": "short_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "CAP_only",
+    "test_priority": "high"
+  },
+  "cevs_weight": 1.0
+}

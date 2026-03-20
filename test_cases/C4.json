@@ -1,0 +1,64 @@
+{
+  "case_id": "C4",
+  "category": "C",
+  "cap_primitive": "path",
+  "question": "Trace how semiconductor equipment demand (LRCX) flows through to cloud computing (AMZN, MSFT) capex decisions.",
+  "context": "Supply chain from manufacturing to cloud infrastructure",
+  "cap_request": {
+    "verb": "graph.paths",
+    "params": {
+      "source_node_id": "manufacturing_close",
+      "target_node_id": "cloud_close",
+      "max_depth": 2,
+      "max_paths": 3
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "supply_chain_path": [
+      "string"
+    ],
+    "capex_lag_quarters": "int",
+    "capacity_constraint_indicator": "boolean"
+  },
+  "answer": {
+    "type": "path_structure",
+    "prediction_type": "list",
+    "ground_truth": {
+      "source": "graph_topology",
+      "metric": "path_existence",
+      "status": "verifiable",
+      "method": "structure_validation",
+      "note": "Verify path exists in causal graph"
+    },
+    "scoring_method": "path_similarity",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "graph_topology",
+    "metric": "path_existence",
+    "status": "verifiable",
+    "method": "structure_validation",
+    "note": "Verify path exists in causal graph"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "tech",
+        "confidence": 1.0
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "AI/tech metrics not in causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.3
+}

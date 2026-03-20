@@ -1,0 +1,60 @@
+{
+  "case_id": "A5",
+  "category": "A",
+  "cap_primitive": "predict",
+  "question": "What's the 12-hour outlook for AAPL based on consumer sentiment indicators?",
+  "context": "Consumer sentiment data recently released, AAPL retail exposure",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "AAPL_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "answer": {
+    "type": "continuous",
+    "prediction_type": "float",
+    "ground_truth": {
+      "source": "yahoo_finance",
+      "delay_hours": 24,
+      "metric": "directional_accuracy",
+      "status": "verifiable",
+      "method": "api_fetch",
+      "ticker": "AAPL",
+      "verification_url": "https://finance.yahoo.com/quote/AAPL",
+      "note": "Verify AAPL price movement after 24h"
+    },
+    "scoring_method": "directional_accuracy",
+    "acceptable_error": 0.05
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "delay_hours": 24,
+    "metric": "directional_accuracy",
+    "status": "verifiable",
+    "method": "api_fetch",
+    "ticker": "AAPL",
+    "verification_url": "https://finance.yahoo.com/quote/AAPL",
+    "note": "Verify AAPL price movement after 24h"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "tech",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "AI/tech metrics not in causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.0
+}

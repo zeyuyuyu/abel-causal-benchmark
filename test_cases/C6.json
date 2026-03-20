@@ -1,0 +1,64 @@
+{
+  "case_id": "C6",
+  "category": "C",
+  "cap_primitive": "path",
+  "question": "Trace the causal impact from a major bank (JPM) to regional banks (KRE) through systemic risk and funding cost channels.",
+  "context": "Financial sector contagion mechanisms",
+  "cap_request": {
+    "verb": "graph.paths",
+    "params": {
+      "source_node_id": "",
+      "target_node_id": "",
+      "max_depth": 2,
+      "max_paths": 3
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "expected_response": {
+    "contagion_path": [
+      "string"
+    ],
+    "funding_cost_spillover": "float",
+    "systemic_beta": "float"
+  },
+  "answer": {
+    "type": "path_structure",
+    "prediction_type": "list",
+    "ground_truth": {
+      "source": "graph_topology",
+      "metric": "path_existence",
+      "status": "verifiable",
+      "method": "structure_validation",
+      "note": "Verify path exists in causal graph"
+    },
+    "scoring_method": "path_similarity",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "graph_topology",
+    "metric": "path_existence",
+    "status": "verifiable",
+    "method": "structure_validation",
+    "note": "Verify path exists in causal graph"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "other",
+        "confidence": 0.0
+      },
+      "cap_ability": {
+        "value": "none",
+        "reason": "Unknown domain"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "Hybrid",
+    "test_priority": "low"
+  },
+  "cevs_weight": 1.3
+}

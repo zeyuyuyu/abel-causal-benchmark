@@ -1,0 +1,79 @@
+{
+  "case_id": "XF_69639b3e",
+  "category": "X",
+  "cap_primitive": "attest",
+  "question": "[WEATHER] NYC Precipitation January 2026",
+  "context": "FutureX-inspired weather question. Meteorological patterns, climate indicators, and seasonal factors. Options: <3 inches | 3-4 inches | 4-5 inches | 5-6 inches | >7 inches. Original FutureX Level 2.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "weather",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "<3 inches",
+        "3-4 inches",
+        "4-5 inches",
+        "5-6 inches",
+        ">7 inches"
+      ],
+      "factors_to_consider": [
+        "seasonal_patterns",
+        "climate_models",
+        "historical_data",
+        "current_conditions"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "expected_response": {
+    "most_likely_outcome": "string",
+    "confidence": "float",
+    "supporting_factors": [
+      "string"
+    ],
+    "uncertainty_sources": [
+      "string"
+    ],
+    "alternative_scenarios": [
+      "string"
+    ]
+  },
+  "answer": {
+    "type": "comparison",
+    "prediction_type": "ranking",
+    "ground_truth": {
+      "source": "historical_correlation",
+      "metric": "rank_correlation",
+      "status": "verifiable",
+      "method": "correlation_analysis",
+      "note": "Validate using historical data correlation"
+    },
+    "scoring_method": "rank_correlation",
+    "acceptable_error": null
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "metric": "rank_correlation",
+    "status": "verifiable",
+    "method": "correlation_analysis",
+    "note": "Validate using historical data correlation"
+  },
+  "multidimensional_classification": {
+    "dimensions": {
+      "domain": {
+        "value": "entertainment",
+        "confidence": 0.5
+      },
+      "cap_ability": {
+        "value": "llm_only",
+        "reason": "entertainment not supported by causal graph"
+      },
+      "data_availability": "unavailable",
+      "time_horizon": "medium_term",
+      "complexity": "L?"
+    },
+    "recommended_approach": "LLM_only",
+    "test_priority": "low"
+  },
+  "cevs_weight": 0.8
+}
