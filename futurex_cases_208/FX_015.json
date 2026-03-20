@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_015",
+  "id": "694a8b8fbd65d70068ad7da2",
+  "title": "“Inside CECOT” airs on 60 Minutes by January 18?",
+  "level": 1,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"“Inside CECOT” airs on ..."
+}

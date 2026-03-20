@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_099",
+  "id": "695a5ee87b2e6a00694886d2",
+  "title": "Will thealignedapp.com have 100+ users by Jan 31, 2026?",
+  "level": 1,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will thealignedapp.com ..."
+}

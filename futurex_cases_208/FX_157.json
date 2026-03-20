@@ -1,0 +1,31 @@
+{
+  "file_id": "FX_157",
+  "id": "69833c21c6c07e005d385694",
+  "title": "Which New York Rangers will be traded by the 2026 trade deadline?",
+  "level": 2,
+  "end_time": "2026-03-07",
+  "ground_truth": "['A', 'B', 'C']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Vincent Trocheck"
+    },
+    {
+      "id": "B",
+      "text": "Brennan Othmann"
+    },
+    {
+      "id": "C",
+      "text": "Alexis Lafrenière"
+    },
+    {
+      "id": "D",
+      "text": "Carson Soucy"
+    },
+    {
+      "id": "E",
+      "text": "Mika Zibanejad\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which New York Rangers ..."
+}

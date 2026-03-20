@@ -1,0 +1,39 @@
+{
+  "file_id": "FX_047",
+  "id": "694e8009028e36005d93d3ce",
+  "title": "Who will win the 2026 MIT Science Olympiad Invitational?",
+  "level": 2,
+  "end_time": "2026-01-25",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Troy H.S. (Fullerton, CA)"
+    },
+    {
+      "id": "B",
+      "text": "Mason H.S. (Mason, OH)"
+    },
+    {
+      "id": "C",
+      "text": "Monta Vista H.S. (Cupertino, CA)"
+    },
+    {
+      "id": "D",
+      "text": "Seven Lakes H.S. (Katy, TX)"
+    },
+    {
+      "id": "E",
+      "text": "Harriton H.S. (Rosemont, PA)"
+    },
+    {
+      "id": "F",
+      "text": "Montgomery H.S. (Skillman, NJ)"
+    },
+    {
+      "id": "G",
+      "text": "Mountain View H.S. (Mountain View, CA)\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 M..."
+}

@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_166",
+  "id": "697f47970092a00068c32be3",
+  "title": "Which party will win Colombia’s Chamber of Representatives election?",
+  "level": 2,
+  "end_time": "2026-03-09",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pacto Histórico (PH)"
+    },
+    {
+      "id": "B",
+      "text": "Partido Liberal Colombiano (PLC)"
+    },
+    {
+      "id": "C",
+      "text": "Centro Democrático (CD)"
+    },
+    {
+      "id": "D",
+      "text": "Partido Conservador Colombiano\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which party will win Co..."
+}

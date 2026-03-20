@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_098",
+  "id": "695a609d7b2e6a00694886f6",
+  "title": "Reserve Bank of Australia Decision in February",
+  "level": 1,
+  "end_time": "2026-02-03 00:00:00",
+  "ground_truth": "['B']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Reserve Bank of Austral..."
+}

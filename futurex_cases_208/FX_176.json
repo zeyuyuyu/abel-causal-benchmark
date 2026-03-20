@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_176",
+  "id": "69a2e0165692ef005cdbf23e",
+  "title": "Trump Sucks?",
+  "level": 1,
+  "end_time": "2026-03-08",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Trump Sucks? (resolved ..."
+}

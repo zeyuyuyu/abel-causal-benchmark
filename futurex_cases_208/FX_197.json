@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_197",
+  "id": "6854e0397ff26400687d2031",
+  "title": "2026-03-09, what will be the projects ranked from 9 to 11 on the latest OpenGithubs' github-weekly-rank? (Give the project names only)",
+  "level": 4,
+  "end_time": "2026-03-09",
+  "ground_truth": "['K-Dense-AI/claude-scientific-skills', 'alibaba/OpenSandbox', 'openai/skills']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+}

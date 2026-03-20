@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_068",
+  "id": "6854dfb0a5e49700606af49d",
+  "title": "2026-01-27, who will be the players ranked from 12 to 14 in the latest Official World Golf Ranking? (Give the names only)",
+  "level": 3,
+  "end_time": "2026-01-27",
+  "ground_truth": "['Sepp Straka', 'Alex Noren', 'Alex Noren']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, who will be..."
+}

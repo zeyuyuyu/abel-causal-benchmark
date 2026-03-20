@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_085",
+  "id": "69590f11deacd00066876793",
+  "title": "Which soccer players will sign with new clubs in winter window?",
+  "level": 2,
+  "end_time": "2026-02-03 00:00:00",
+  "ground_truth": "['D', 'H', 'I', 'J', 'K', 'M', 'O', 'Q', 'W', '`']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which soccer players wi..."
+}

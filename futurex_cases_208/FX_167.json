@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_167",
+  "id": "6981ea9930057a005cdb9e46",
+  "title": "Will global platinum availability fall below 2 million ounces by March 4, 2026, due to South African mine supply issues?",
+  "level": 1,
+  "end_time": "2026-03-05",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will global platinum av..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_009",
+  "id": "69566c1320a2e600672a7993",
+  "title": "Sept-Nov Unemployment Rate - U.K.",
+  "level": 2,
+  "end_time": "2026-01-20 00:00:00",
+  "ground_truth": "['C']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Sept-Nov Unemployment R..."
+}

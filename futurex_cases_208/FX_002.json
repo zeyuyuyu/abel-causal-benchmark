@@ -1,0 +1,35 @@
+{
+  "file_id": "FX_002",
+  "id": "694bdd0b43684c005d3473f6",
+  "title": "How many characters in the solution to @bens puzzle (round 2)",
+  "level": 2,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['C']",
+  "options": [
+    {
+      "id": "A",
+      "text": "4 - 6"
+    },
+    {
+      "id": "B",
+      "text": "7 - 9"
+    },
+    {
+      "id": "C",
+      "text": "10 - 12"
+    },
+    {
+      "id": "D",
+      "text": "13 - 15"
+    },
+    {
+      "id": "E",
+      "text": "16 - 18"
+    },
+    {
+      "id": "F",
+      "text": "19 - 20\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How many characters in ..."
+}

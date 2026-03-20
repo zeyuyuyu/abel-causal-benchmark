@@ -1,0 +1,47 @@
+{
+  "file_id": "FX_122",
+  "id": "6978b00cedd409005eef0fd0",
+  "title": "What will the percentage of positive reviews on Highguard be by Feb 9th?",
+  "level": 2,
+  "end_time": "2026-02-09",
+  "ground_truth": "['E']",
+  "options": [
+    {
+      "id": "A",
+      "text": "0 - 9.99%"
+    },
+    {
+      "id": "B",
+      "text": "10 - 19.99%"
+    },
+    {
+      "id": "C",
+      "text": "20 - 29.99%"
+    },
+    {
+      "id": "D",
+      "text": "30 - 39.99%"
+    },
+    {
+      "id": "E",
+      "text": "40 - 49.99%"
+    },
+    {
+      "id": "F",
+      "text": "50 - 59.99%"
+    },
+    {
+      "id": "G",
+      "text": "60 - 69.99%"
+    },
+    {
+      "id": "H",
+      "text": "70 - 79.99%"
+    },
+    {
+      "id": "I",
+      "text": "80 - 89.99%\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will the percentag..."
+}

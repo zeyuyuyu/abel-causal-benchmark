@@ -1,0 +1,67 @@
+{
+  "file_id": "FX_001",
+  "id": "694bdd0b43684c005d3473f1",
+  "title": "Right approach to @bens puzzle (#2) / Collaboration space",
+  "level": 2,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Order in which hints are revealed matters"
+    },
+    {
+      "id": "B",
+      "text": "Hints should be broken into chunks of size 5 words"
+    },
+    {
+      "id": "C",
+      "text": "Binary"
+    },
+    {
+      "id": "D",
+      "text": "The second letter of the first step is K"
+    },
+    {
+      "id": "E",
+      "text": "Optical (as in round 1)"
+    },
+    {
+      "id": "F",
+      "text": "Wait for more hints (at least 150). Will not be an answer if less than 150 hints"
+    },
+    {
+      "id": "G",
+      "text": "The third letter of the first step is L"
+    },
+    {
+      "id": "H",
+      "text": "A step of the puzzle involves looking for specific letters present or not present in each word"
+    },
+    {
+      "id": "I",
+      "text": "The fourth letter of the first step is I"
+    },
+    {
+      "id": "J",
+      "text": "The first letter of the first step's result is S"
+    },
+    {
+      "id": "K",
+      "text": "Some other symbols or signs than letters"
+    },
+    {
+      "id": "L",
+      "text": "Ignore letter case"
+    },
+    {
+      "id": "M",
+      "text": "The final answer has a Wikipedia page"
+    },
+    {
+      "id": "N",
+      "text": "Each word provides exactly one data point toward the first step of the puzzle\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Right approach to @bens..."
+}

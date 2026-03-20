@@ -1,0 +1,51 @@
+{
+  "file_id": "FX_126",
+  "id": "69663b097dc80a005b6df1d4",
+  "title": "Who will win the 2026 Superbowl?",
+  "level": 2,
+  "end_time": "2026-02-09",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Chicago Bears"
+    },
+    {
+      "id": "B",
+      "text": "New England Patriots"
+    },
+    {
+      "id": "C",
+      "text": "San Fransisco 49ers"
+    },
+    {
+      "id": "D",
+      "text": "Denver Broncos"
+    },
+    {
+      "id": "E",
+      "text": "Buffalo Bills"
+    },
+    {
+      "id": "F",
+      "text": "Houston Texans"
+    },
+    {
+      "id": "G",
+      "text": "Pittsburg Steelers"
+    },
+    {
+      "id": "H",
+      "text": "Seattle Seahawks"
+    },
+    {
+      "id": "I",
+      "text": "Los Angels Rams"
+    },
+    {
+      "id": "J",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 S..."
+}

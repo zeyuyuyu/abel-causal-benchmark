@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_151",
+  "id": "697a04c5aaa579005fb3a538",
+  "title": "Querétaro FC vs. Club León FC",
+  "level": 1,
+  "end_time": "2026-02-08",
+  "ground_truth": "['C']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Querétaro FC vs. Club L..."
+}

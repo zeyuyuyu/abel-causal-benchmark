@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_158",
+  "id": "6984912ec68c5e005dc9d05c",
+  "title": "Big East Men's College Basketball 2025-2026 Regular Season Champion",
+  "level": 2,
+  "end_time": "2026-03-07",
+  "ground_truth": "['J']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Big East Men's College ..."
+}

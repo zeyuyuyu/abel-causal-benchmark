@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_083",
+  "id": "695bb4008b62560069adce53",
+  "title": "Gold (GC) above ___ end of January?",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['H', 'I', 'J', 'K', 'L']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Gold (GC) above ___ end..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_086",
+  "id": "6974bec1b31670005dd8d72a",
+  "title": "Measles cases in U.S. by January 31?",
+  "level": 2,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['A', 'B', 'C', 'E', 'F', 'G', 'H', 'I']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Measles cases in U.S. b..."
+}

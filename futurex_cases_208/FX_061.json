@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_061",
+  "id": "6957ba8a03568a006853e828",
+  "title": "How will the winner of the portugal presidential election win",
+  "level": 1,
+  "end_time": "2026-01-27",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Only candidate above 50% in round one"
+    },
+    {
+      "id": "B",
+      "text": "Wins first round and the runoff"
+    },
+    {
+      "id": "C",
+      "text": "2nd place in the first round, wins runoff\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How will the winner of ..."
+}

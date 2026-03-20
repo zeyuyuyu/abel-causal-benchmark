@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_018",
+  "id": "69566c1320a2e600672a79e5",
+  "title": "Southampton FC vs. Hull City AFC",
+  "level": 1,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['C']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Southampton FC vs. Hull..."
+}

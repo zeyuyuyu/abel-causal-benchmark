@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_154",
+  "id": "685e48b9e582f0005f9cd2c9",
+  "title": "2026-02-08, what will be the vehicles ranked from 5 to 7 on the hot list across China for SUVs (SUV全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
+  "level": 3,
+  "end_time": "2026-02-08",
+  "ground_truth": "['沃尔沃XC60', '奥迪Q5L', '小米YU7']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-02-08, what will b..."
+}

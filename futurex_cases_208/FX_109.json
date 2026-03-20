@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_109",
+  "id": "6968e150e7876e006835e6dc",
+  "title": "Nicolás Maduro released from custody by...?",
+  "level": 1,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['None of the above']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nicolás Maduro released from custody by December 31, 2026?"
+    },
+    {
+      "id": "B",
+      "text": "Nicolás Maduro released from custody by January 9, 2026?"
+    },
+    {
+      "id": "C",
+      "text": "Nicolás Maduro released from custody by January 31, 2026?\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Nicolás Maduro released..."
+}

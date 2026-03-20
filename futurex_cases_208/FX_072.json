@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_072",
+  "id": "685173d659f71f006037a1eb",
+  "title": "2026-01-22, what will be the day's close for the Dow Jones Industrial Average (INDEXDJX:.DJI)?",
+  "level": 4,
+  "end_time": "2026-01-22",
+  "ground_truth": "[49384.01]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-22, what will b..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_179",
+  "id": "69a03d1781109300686005e1",
+  "title": "Will this market get between 35 and 55 traders?",
+  "level": 1,
+  "end_time": "2026-03-05",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will this market get be..."
+}

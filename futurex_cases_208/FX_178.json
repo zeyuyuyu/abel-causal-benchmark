@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_178",
+  "id": "698f1987da7a8b006575442d",
+  "title": "China's monthly consumer inflation (CPI) greater than 0.2% in February?",
+  "level": 1,
+  "end_time": "2026-03-08",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"China's monthly consume..."
+}

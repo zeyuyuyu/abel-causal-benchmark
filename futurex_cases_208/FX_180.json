@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_180",
+  "id": "699d9a1a098cca008728b6d1",
+  "title": "Will Tiger Zhang finish problem set 2 for 18.905 on time?",
+  "level": 1,
+  "end_time": "2026-03-06",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Tiger Zhang finish..."
+}

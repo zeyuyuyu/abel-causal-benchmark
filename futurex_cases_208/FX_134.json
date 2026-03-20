@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_134",
+  "id": "697a01aaaaa579005fb3a51b",
+  "title": "Which party will win Thailand’s legislative election?",
+  "level": 2,
+  "end_time": "2026-02-08",
+  "ground_truth": "['B']",
+  "options": [
+    {
+      "id": "A",
+      "text": "People's Party (PPLE)"
+    },
+    {
+      "id": "B",
+      "text": "Bhumjaithai Party (BJT)"
+    },
+    {
+      "id": "C",
+      "text": "Pheu Thai Party (PTP)"
+    },
+    {
+      "id": "D",
+      "text": "Democrat Party (DP)\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which party will win Th..."
+}

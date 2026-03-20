@@ -1,0 +1,59 @@
+{
+  "file_id": "FX_035",
+  "id": "6956690c20a2e600672a7879",
+  "title": "Best Actress nominees? (2026 Oscars)",
+  "level": 2,
+  "end_time": "2026-01-22",
+  "ground_truth": "['A', 'B', 'C', 'D', 'E']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Jessie Buckley - Hamnet"
+    },
+    {
+      "id": "B",
+      "text": "Rose Byrne - If I Had Legs I'd Kick You"
+    },
+    {
+      "id": "C",
+      "text": "Renate Reinsve - Sentimental Value"
+    },
+    {
+      "id": "D",
+      "text": "Emma Stone - Bugonia"
+    },
+    {
+      "id": "E",
+      "text": "Chase Infiniti - One Battle After Another"
+    },
+    {
+      "id": "F",
+      "text": "Kate Hudson - Song Sung Blue"
+    },
+    {
+      "id": "G",
+      "text": "Amanda Seyfried - The Testament of Ann Lee"
+    },
+    {
+      "id": "H",
+      "text": "Cynthia Erivo - Wicked: For Good"
+    },
+    {
+      "id": "I",
+      "text": "Jennifer Lawrence - Die, My Love"
+    },
+    {
+      "id": "J",
+      "text": "June Squibb - Eleanor the Great"
+    },
+    {
+      "id": "K",
+      "text": "Sydney Sweeney - Christy"
+    },
+    {
+      "id": "L",
+      "text": "Julia Roberts - After the Hunt\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best Actress nominees? ..."
+}

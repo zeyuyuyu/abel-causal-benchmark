@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_177",
+  "id": "69a4319df2cb3b006875e9c2",
+  "title": "Can this AI Trading Bot turn $100 into $1,000 live on Twitch? Round 1",
+  "level": 1,
+  "end_time": "2026-03-08",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Can this AI Trading Bot..."
+}

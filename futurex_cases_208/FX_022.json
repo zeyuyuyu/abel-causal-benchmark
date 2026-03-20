@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_022",
+  "id": "69590f11deacd00066876794",
+  "title": "Rams Başakşehir FK vs. Fatih Karagümrük SK",
+  "level": 1,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['A']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Rams Başakşehir FK vs. ..."
+}

@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_097",
+  "id": "6957ba8a03568a006853e82e",
+  "title": "Tesla hits $400 or $500 first before end of January 2026?",
+  "level": 1,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Tesla hits or trades below $400.00 first"
+    },
+    {
+      "id": "B",
+      "text": "Tesla hits or trades above $500.00 first"
+    },
+    {
+      "id": "C",
+      "text": "Tesla hits neither $400 nor $500 before market close on Jan 30\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Tesla hits $400 or $500..."
+}

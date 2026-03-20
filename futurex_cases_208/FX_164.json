@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_164",
+  "id": "698b2507175d47006853871e",
+  "title": "In what place will the Green Party (Bündnis 90/Die Grünen, or the Greens) rank in seats won in the 2026 Baden-Württemberg Landtag (state parliament) elections?",
+  "level": 2,
+  "end_time": "2026-03-09",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "First"
+    },
+    {
+      "id": "B",
+      "text": "Second"
+    },
+    {
+      "id": "C",
+      "text": "Third"
+    },
+    {
+      "id": "D",
+      "text": "Fourth or lower\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"In what place will the ..."
+}

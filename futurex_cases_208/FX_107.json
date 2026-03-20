@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_107",
+  "id": "696e274d183bed0068c24d04",
+  "title": "North Korea missile launch by January 31?",
+  "level": 1,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"North Korea missile lau..."
+}

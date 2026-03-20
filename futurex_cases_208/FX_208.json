@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_208",
+  "id": "6945061ed2f0e700661f17a1",
+  "title": "2026-03-10, what songs will be ranked from 3 to 5 in the latest UK's Official Singles Chart Top 100? (Give the songs only)",
+  "level": 4,
+  "end_time": "2026-03-10",
+  "ground_truth": "['FEVER DREAM', 'Stateside', 'So Easy (To Fall In Love)']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, what songs ..."
+}

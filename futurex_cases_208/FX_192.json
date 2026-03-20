@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_192",
+  "id": "685171e0560ebb0061efb2c3",
+  "title": "2026-03-06, what will be the total market capitalization (总市值) of Ping An Bank (000001) on the Shenzhen Stock Exchange in hundreds of millions of yuan (two decimal places)?",
+  "level": 4,
+  "end_time": "2026-03-06",
+  "ground_truth": "[2099.72]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will b..."
+}

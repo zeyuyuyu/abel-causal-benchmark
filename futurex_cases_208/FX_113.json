@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_113",
+  "id": "69721bc011cfd200699764d5",
+  "title": "CA Tucumán vs. CA Huracán",
+  "level": 1,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['B']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"CA Tucumán vs. CA Hurac..."
+}

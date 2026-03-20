@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_092",
+  "id": "6964eca552029b005bc009f2",
+  "title": "Will Israel strike Gaza on...?",
+  "level": 2,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['C', 'E', 'G', 'H', 'J', 'K', 'L', 'M', 'O', 'U', 'X', '[', ']', '^', '_']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Israel strike Gaza..."
+}

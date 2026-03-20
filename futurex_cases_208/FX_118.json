@@ -1,0 +1,51 @@
+{
+  "file_id": "FX_118",
+  "id": "69624695e87498005daa01e5",
+  "title": "Who will make an appearance at the Super Bowl halftime show? Super Bowl LX",
+  "level": 2,
+  "end_time": "2026-02-10",
+  "ground_truth": "['A', 'B', 'C', 'D']",
+  "options": [
+    {
+      "id": "A",
+      "text": "J Balvin"
+    },
+    {
+      "id": "B",
+      "text": "Cardi B"
+    },
+    {
+      "id": "C",
+      "text": "E-40"
+    },
+    {
+      "id": "D",
+      "text": "Daddy Yankee"
+    },
+    {
+      "id": "E",
+      "text": "Fat Joe"
+    },
+    {
+      "id": "F",
+      "text": "Karol G"
+    },
+    {
+      "id": "G",
+      "text": "Ricky Martin"
+    },
+    {
+      "id": "H",
+      "text": "Taylor Swift"
+    },
+    {
+      "id": "I",
+      "text": "Pitbull"
+    },
+    {
+      "id": "J",
+      "text": "No Guest\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will make an appear..."
+}

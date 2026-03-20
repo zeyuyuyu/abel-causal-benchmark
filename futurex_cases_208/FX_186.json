@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_186",
+  "id": "685173c159f71f006037a1e9",
+  "title": "2026-03-05, what will be the value in Chinese Yuan of 100 units of Euro at the central parity rate?",
+  "level": 3,
+  "end_time": "2026-03-05",
+  "ground_truth": "[803.62]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-05, what will b..."
+}

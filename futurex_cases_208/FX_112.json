@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_112",
+  "id": "696cd5b0a4b036005c06a931",
+  "title": "Al Fateh Saudi Club vs. Al Hazem SC",
+  "level": 1,
+  "end_time": "2026-02-02 00:00:00",
+  "ground_truth": "['B']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Al Fateh Saudi Club vs...."
+}

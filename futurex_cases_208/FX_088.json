@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_088",
+  "id": "695bb4008b62560069adce04",
+  "title": "What will Opendoor (OPEN) hit in January 2026?",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['E', 'F', 'G', 'H', 'I']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Opendoor (OPE..."
+}

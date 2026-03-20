@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_161",
+  "id": "69a03d178110930068600600",
+  "title": "Ratio of sixes to fours in T20 World Cup 2026",
+  "level": 2,
+  "end_time": "2026-03-10",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Below 0.45"
+    },
+    {
+      "id": "B",
+      "text": "0.45 - 0.49"
+    },
+    {
+      "id": "C",
+      "text": "0.50 - 0.54"
+    },
+    {
+      "id": "D",
+      "text": "Above 0.55\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Ratio of sixes to fours..."
+}

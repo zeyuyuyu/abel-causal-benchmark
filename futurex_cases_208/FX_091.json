@@ -1,0 +1,67 @@
+{
+  "file_id": "FX_091",
+  "id": "695fa38ae56c28005d3c3248",
+  "title": "[January 2026] Top 10 cards in the MTG Arena Powered Cube (by 17Lands GIH WR)",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Time Walk"
+    },
+    {
+      "id": "B",
+      "text": "Black Lotus"
+    },
+    {
+      "id": "C",
+      "text": "Ocelot Pride"
+    },
+    {
+      "id": "D",
+      "text": "Orcish Bowmasters"
+    },
+    {
+      "id": "E",
+      "text": "Mana Crypt"
+    },
+    {
+      "id": "F",
+      "text": "Ancestral Recall"
+    },
+    {
+      "id": "G",
+      "text": "Parallax Wave"
+    },
+    {
+      "id": "H",
+      "text": "Comet, Stellar Pup"
+    },
+    {
+      "id": "I",
+      "text": "Ajani, Nacatl Pariah"
+    },
+    {
+      "id": "J",
+      "text": "Sol Ring"
+    },
+    {
+      "id": "K",
+      "text": "Mox Sapphire"
+    },
+    {
+      "id": "L",
+      "text": "Mox Pearl"
+    },
+    {
+      "id": "M",
+      "text": "Flash"
+    },
+    {
+      "id": "N",
+      "text": "Broadside Bombardiers\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"[January 2026] Top 10 c..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_144",
+  "id": "696e274d183bed0068c24d11",
+  "title": "Top 14: Racing 92 vs Perpignan",
+  "level": 1,
+  "end_time": "2026-02-08",
+  "ground_truth": "['A']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Top 14: Racing 92 vs Pe..."
+}

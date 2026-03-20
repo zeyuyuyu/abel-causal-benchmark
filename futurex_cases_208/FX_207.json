@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_207",
+  "id": "6944fde51834a500697575da",
+  "title": "2026-03-07, which movies will be ranked from 5 to 7 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)",
+  "level": 4,
+  "end_time": "2026-03-07",
+  "ground_truth": "['One Battle After Another', 'Dracula', 'Nuremberg']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-07, which movie..."
+}

@@ -1,0 +1,43 @@
+{
+  "file_id": "FX_094",
+  "id": "6956690920a2e600672a7867",
+  "title": "Which tennis player will win the Women's Singles Final at the 2026 Australian Open?",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['F']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Mirra Andreeva"
+    },
+    {
+      "id": "B",
+      "text": "Amanda Anisimova"
+    },
+    {
+      "id": "C",
+      "text": "Coco Gauff"
+    },
+    {
+      "id": "D",
+      "text": "Madison Keys"
+    },
+    {
+      "id": "E",
+      "text": "Naomi Osaka"
+    },
+    {
+      "id": "F",
+      "text": "Elena Rybakina"
+    },
+    {
+      "id": "G",
+      "text": "Aryna Sabalenka"
+    },
+    {
+      "id": "H",
+      "text": "Iga Swiatek\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which tennis player wil..."
+}

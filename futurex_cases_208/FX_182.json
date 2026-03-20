@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_182",
+  "id": "69a43186f2cb3b006875e9b1",
+  "title": "Alberto Montes vs. Ricky Turcios",
+  "level": 1,
+  "end_time": "2026-03-08",
+  "ground_truth": "['Ricky Turcios']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Alberto Montes vs. Rick..."
+}

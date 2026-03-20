@@ -1,0 +1,31 @@
+{
+  "file_id": "FX_082",
+  "id": "6972189f11cfd2006997649c",
+  "title": "Which nation will be the focus of Stellaris Invicta Season 3?",
+  "level": 2,
+  "end_time": "2026-02-02 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "United Federation of Nations"
+    },
+    {
+      "id": "B",
+      "text": "Tripartite of Sol"
+    },
+    {
+      "id": "C",
+      "text": "Holy Solar Empire"
+    },
+    {
+      "id": "D",
+      "text": "House Triton"
+    },
+    {
+      "id": "E",
+      "text": "Eternal Kreventum\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which nation will be th..."
+}

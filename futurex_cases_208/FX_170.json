@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_170",
+  "id": "6981ea9930057a005cdb9e49",
+  "title": "Is the shrinking cut-off in Diamond League fully intentional?",
+  "level": 1,
+  "end_time": "2026-03-05",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Is the shrinking cut-of..."
+}

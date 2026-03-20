@@ -1,0 +1,31 @@
+{
+  "file_id": "FX_159",
+  "id": "6989d39ba7590900681117ad",
+  "title": "Nepal House of Representatives Election winner?",
+  "level": 2,
+  "end_time": "2026-03-10",
+  "ground_truth": "['C']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nepali congress"
+    },
+    {
+      "id": "B",
+      "text": "CPN-UML"
+    },
+    {
+      "id": "C",
+      "text": "RSP"
+    },
+    {
+      "id": "D",
+      "text": "RPP"
+    },
+    {
+      "id": "E",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Nepal House of Represen..."
+}

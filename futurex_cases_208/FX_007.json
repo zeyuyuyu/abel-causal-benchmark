@@ -1,0 +1,35 @@
+{
+  "file_id": "FX_007",
+  "id": "69590c18deacd00066876767",
+  "title": "MCSR Ranked Playoffs Season 9 Winner",
+  "level": 2,
+  "end_time": "2026-01-15 00:00:00",
+  "ground_truth": "['C']",
+  "options": [
+    {
+      "id": "A",
+      "text": "infume"
+    },
+    {
+      "id": "B",
+      "text": "doogie"
+    },
+    {
+      "id": "C",
+      "text": "hackingnoises"
+    },
+    {
+      "id": "D",
+      "text": "lowk3y_"
+    },
+    {
+      "id": "E",
+      "text": "edcr"
+    },
+    {
+      "id": "F",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"MCSR Ranked Playoffs Se..."
+}

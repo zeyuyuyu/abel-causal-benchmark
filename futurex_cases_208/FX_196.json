@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_196",
+  "id": "6854dcbc7df94a0060eb86d0",
+  "title": "2026-03-08, what will be the",
+  "level": 4,
+  "end_time": "2026-03-08",
+  "ground_truth": "[50284.0]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-08, what will b..."
+}

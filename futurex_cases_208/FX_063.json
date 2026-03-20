@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_063",
+  "id": "694e8009028e36005d93d3c6",
+  "title": "nasry Asfuras win overturned by a court?",
+  "level": 1,
+  "end_time": "2026-01-26",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"nasry Asfuras win overt..."
+}

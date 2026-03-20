@@ -1,0 +1,51 @@
+{
+  "file_id": "FX_036",
+  "id": "69663b097dc80a005b6df1cb",
+  "title": "Portugal Presidential Election First Round Head to Heads",
+  "level": 2,
+  "end_time": "2026-01-26",
+  "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F']",
+  "options": [
+    {
+      "id": "A",
+      "text": "André Ventura(YES) vs Henrique Gouveia e Melo(NO)"
+    },
+    {
+      "id": "B",
+      "text": "António José Seguro(YES) vs Henrique Gouveia e Melo(NO)"
+    },
+    {
+      "id": "C",
+      "text": "João Cotrim de Figueiredo(YES) vs Henrique Gouveia e Melo(NO)"
+    },
+    {
+      "id": "D",
+      "text": "António José Seguro(YES) vs João Cotrim de Figueiredo(NO)"
+    },
+    {
+      "id": "E",
+      "text": "André Ventura(YES) vs João Cotrim de Figueiredo(NO)"
+    },
+    {
+      "id": "F",
+      "text": "Luís Marques Mendes(YES) vs Henrique Gouveia e Melo(NO)"
+    },
+    {
+      "id": "G",
+      "text": "António José Seguro(YES) vs André Ventura(NO)"
+    },
+    {
+      "id": "H",
+      "text": "Luís Marques Mendes(YES) vs João Cotrim de Figueiredo(NO)"
+    },
+    {
+      "id": "I",
+      "text": "Luís Marques Mendes(YES) vs André Ventura(NO)"
+    },
+    {
+      "id": "J",
+      "text": "Luís Marques Mendes(YES) vs António José Seguro(NO)\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Portugal Presidential E..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_149",
+  "id": "6978b359edd409005eef0fe2",
+  "title": "West Bromwich Albion FC vs. Stoke City FC",
+  "level": 1,
+  "end_time": "2026-02-08",
+  "ground_truth": "['B']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"West Bromwich Albion FC..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_104",
+  "id": "6968de07e7876e006835e6b8",
+  "title": "Will they pull a Nasrallah on Khamenei by end of January 2025?",
+  "level": 1,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will they pull a Nasral..."
+}

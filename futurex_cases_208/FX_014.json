@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_014",
+  "id": "69566c1320a2e600672a79eb",
+  "title": "Coventry City FC vs. Leicester City FC",
+  "level": 1,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['A']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Coventry City FC vs. Le..."
+}

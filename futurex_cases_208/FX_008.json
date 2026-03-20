@@ -1,0 +1,43 @@
+{
+  "file_id": "FX_008",
+  "id": "695baf2f8b62560069adcdde",
+  "title": "Who will post the winning guess in Ben’s puzzle (round 2) as yourself!",
+  "level": 2,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['D']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Winning guess is not posted"
+    },
+    {
+      "id": "B",
+      "text": "Other"
+    },
+    {
+      "id": "C",
+      "text": "Phenomist"
+    },
+    {
+      "id": "D",
+      "text": "Eliza"
+    },
+    {
+      "id": "E",
+      "text": "Jim Hays"
+    },
+    {
+      "id": "F",
+      "text": "Q Breezy"
+    },
+    {
+      "id": "G",
+      "text": "MachiNi"
+    },
+    {
+      "id": "H",
+      "text": "@Jack1\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will post the winni..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_173",
+  "id": "698b2507175d47006853871c",
+  "title": "Before 7 March 2026, will an NHL team other than the Pittsburgh Penguins publicly announce or acknowledge that Sidney Crosby will join its roster as a player eligible for the playoffs of the 2025/26 NHL season?",
+  "level": 1,
+  "end_time": "2026-03-07",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Before 7 March 2026, wi..."
+}

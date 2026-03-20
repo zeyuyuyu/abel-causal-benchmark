@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_172",
+  "id": "697f47970092a00068c32be2",
+  "title": "Which party will win Colombia’s Senate election?",
+  "level": 1,
+  "end_time": "2026-03-09",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Pacto Histórico (PH)"
+    },
+    {
+      "id": "B",
+      "text": "Centro Democrático (CD)"
+    },
+    {
+      "id": "C",
+      "text": "Alianza Verde / Coalición Centro Esperanza (AV/CCE)\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which party will win Co..."
+}

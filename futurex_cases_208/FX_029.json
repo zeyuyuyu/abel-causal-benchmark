@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_029",
+  "id": "6957c09b03568a006853e87d",
+  "title": "Sharks vs. Panthers",
+  "level": 1,
+  "end_time": "2026-01-20 00:00:00",
+  "ground_truth": "['Sharks']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Sharks vs. Panthers (re..."
+}

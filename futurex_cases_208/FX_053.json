@@ -1,0 +1,15 @@
+{
+  "file_id": "FX_053",
+  "id": "694fd4d0ae81c200695c89cf",
+  "title": "Bank of Brazil decision in January?",
+  "level": 1,
+  "end_time": "2026-01-27",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "No change in the Selic rate after Bank of Brazil's January 2026 meeting?"
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Bank of Brazil decision..."
+}

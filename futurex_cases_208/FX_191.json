@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_191",
+  "id": "685e48ac6e8dbd006cdc6f71",
+  "title": "2026-03-09, what will be the vehicles ranked from 1 to 3 on the hot list across China for sedans (轿车全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
+  "level": 3,
+  "end_time": "2026-03-09",
+  "ground_truth": "['迈腾', '速腾', '奥迪A6L']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+}

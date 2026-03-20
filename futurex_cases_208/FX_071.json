@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_071",
+  "id": "6851737f59f71f006037a1e4",
+  "title": "2026-01-26, what will be the day's open of the S&P 500 Index (INDEXSP:.INX)?",
+  "level": 4,
+  "end_time": "2026-01-26",
+  "ground_truth": "[6923.23]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-26, what will b..."
+}

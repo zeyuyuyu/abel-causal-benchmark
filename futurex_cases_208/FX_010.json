@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_010",
+  "id": "695e521c255b39006c58f5af",
+  "title": "What will be true of the oil tanker Marinera on 14th January?",
+  "level": 2,
+  "end_time": "2026-01-15 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Under US control"
+    },
+    {
+      "id": "B",
+      "text": "US claims to have found drugs on board"
+    },
+    {
+      "id": "C",
+      "text": "US claims to have found weapons on board"
+    },
+    {
+      "id": "D",
+      "text": "Sunk / scuppered / heavily damaged\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will be true of th..."
+}

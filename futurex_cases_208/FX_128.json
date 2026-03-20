@@ -1,0 +1,43 @@
+{
+  "file_id": "FX_128",
+  "id": "69624695e87498005daa01ea",
+  "title": "What is the highest Sharpe ratio of any Manifold user?",
+  "level": 2,
+  "end_time": "2026-02-08",
+  "ground_truth": "['H']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Below 5"
+    },
+    {
+      "id": "B",
+      "text": "5 - 7.4"
+    },
+    {
+      "id": "C",
+      "text": "7.5 - 9.9"
+    },
+    {
+      "id": "D",
+      "text": "10 - 12.4"
+    },
+    {
+      "id": "E",
+      "text": "12.5 - 14.9"
+    },
+    {
+      "id": "F",
+      "text": "15 - 17.4"
+    },
+    {
+      "id": "G",
+      "text": "17.5 - 20"
+    },
+    {
+      "id": "H",
+      "text": "Above 20\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What is the highest Sha..."
+}

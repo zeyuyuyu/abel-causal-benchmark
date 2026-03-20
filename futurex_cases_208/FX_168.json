@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_168",
+  "id": "6964e98652029b005bc009a2",
+  "title": "Brazil in the top 10-20% countries in the 2026 Democracy Report ranking?",
+  "level": 1,
+  "end_time": "2026-03-10",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Brazil in the top 10-20..."
+}

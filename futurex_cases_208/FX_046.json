@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_046",
+  "id": "6957c09b03568a006853e86c",
+  "title": "How long will it take Alex Honnold to free solo Taipei 101?",
+  "level": 2,
+  "end_time": "2026-01-23",
+  "ground_truth": "['B']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How long will it take A..."
+}

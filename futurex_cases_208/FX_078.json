@@ -1,0 +1,39 @@
+{
+  "file_id": "FX_078",
+  "id": "6957ba8a03568a006853e83f",
+  "title": "Price of DDR5-6000 2x16GB RAM at the end of January 2026",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['F']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Less than $100"
+    },
+    {
+      "id": "B",
+      "text": "$100-$200"
+    },
+    {
+      "id": "C",
+      "text": "$200-$300"
+    },
+    {
+      "id": "D",
+      "text": "$300-$400"
+    },
+    {
+      "id": "E",
+      "text": "$400-$500"
+    },
+    {
+      "id": "F",
+      "text": "$500-$600"
+    },
+    {
+      "id": "G",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Price of DDR5-6000 2x16..."
+}

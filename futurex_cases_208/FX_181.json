@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_181",
+  "id": "69a43186f2cb3b006875e9ad",
+  "title": "Luke Fernandez vs. Rodolfo Bellato",
+  "level": 1,
+  "end_time": "2026-03-08",
+  "ground_truth": "['Rodolfo Bellato']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Luke Fernandez vs. Rodo..."
+}

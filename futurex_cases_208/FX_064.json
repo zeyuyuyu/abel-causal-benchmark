@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_064",
+  "id": "695d00ac4ef7b4005cb967ee",
+  "title": "Will there be a surprising Best Picture nomination? (2026 Oscars)",
+  "level": 1,
+  "end_time": "2026-01-22",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will there be a surpris..."
+}

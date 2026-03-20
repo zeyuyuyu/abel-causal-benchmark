@@ -1,0 +1,39 @@
+{
+  "file_id": "FX_162",
+  "id": "69a18e890ff98b0068330737",
+  "title": "Will James Talarico win the Texas Democratic primary for se by....?",
+  "level": 2,
+  "end_time": "2026-03-06",
+  "ground_truth": "['A', 'B', 'C', 'D']",
+  "options": [
+    {
+      "id": "A",
+      "text": "2.000% or more?"
+    },
+    {
+      "id": "B",
+      "text": "4.000% or more?"
+    },
+    {
+      "id": "C",
+      "text": "6.000% or more?"
+    },
+    {
+      "id": "D",
+      "text": "7.00% or more?"
+    },
+    {
+      "id": "E",
+      "text": "8.00% or more?"
+    },
+    {
+      "id": "F",
+      "text": "10.00% or more?"
+    },
+    {
+      "id": "G",
+      "text": "12.00% or more?\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will James Talarico win..."
+}

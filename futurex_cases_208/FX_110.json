@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_110",
+  "id": "695baf2f8b62560069adcdd8",
+  "title": "Will something CRAZY happen in January (again)?",
+  "level": 1,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will something CRAZY ha..."
+}

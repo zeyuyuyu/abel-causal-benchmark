@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_102",
+  "id": "6972189f11cfd2006997647f",
+  "title": "New METR SOTA by end of January, 2026?",
+  "level": 1,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"New METR SOTA by end of..."
+}

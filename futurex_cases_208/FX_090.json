@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_090",
+  "id": "695bb4008b62560069adce54",
+  "title": "What will Gold (GC) settle at in January?",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['E']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Gold (GC) set..."
+}

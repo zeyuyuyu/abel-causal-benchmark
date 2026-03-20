@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_141",
+  "id": "6974bba3b31670005dd8d70f",
+  "title": "Will Dave Cole get angry at any KOH 26 Driver's meetings?",
+  "level": 1,
+  "end_time": "2026-02-09",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Dave Cole get angr..."
+}

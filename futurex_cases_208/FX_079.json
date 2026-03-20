@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_079",
+  "id": "69566c1320a2e600672a78fd",
+  "title": "Turnout in 2026 Costa Rica Presidential Election First Round",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['I']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Turnout in 2026 Costa R..."
+}

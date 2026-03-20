@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_056",
+  "id": "694d2e966344cf0067e820ae",
+  "title": "Will Alex Honnold successfully free solo Taipei 101 on January 23, 2026?",
+  "level": 1,
+  "end_time": "2026-01-24",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Alex Honnold succe..."
+}

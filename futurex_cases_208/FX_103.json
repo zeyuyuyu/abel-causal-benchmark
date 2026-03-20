@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_103",
+  "id": "69566c1320a2e600672a798d",
+  "title": "Will the Doomsday Clock move by ten seconds or more?",
+  "level": 1,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the Doomsday Clock..."
+}

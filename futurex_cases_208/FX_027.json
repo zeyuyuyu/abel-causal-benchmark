@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_027",
+  "id": "695e5562255b39006c58f5c5",
+  "title": "Al Ittihad Saudi Club vs. Al Ettifaq Saudi Club",
+  "level": 1,
+  "end_time": "2026-01-17 00:00:00",
+  "ground_truth": "['C']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Al Ittihad Saudi Club v..."
+}

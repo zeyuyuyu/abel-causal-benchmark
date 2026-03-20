@@ -1,0 +1,43 @@
+{
+  "file_id": "FX_121",
+  "id": "6963980f5a6f9800684ed67f",
+  "title": "Best New Artist at the 2026 Grammy Awards?",
+  "level": 2,
+  "end_time": "2026-02-10",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Olivia Dean"
+    },
+    {
+      "id": "B",
+      "text": "Katseye"
+    },
+    {
+      "id": "C",
+      "text": "The Marias"
+    },
+    {
+      "id": "D",
+      "text": "Addison Rae"
+    },
+    {
+      "id": "E",
+      "text": "Sombr"
+    },
+    {
+      "id": "F",
+      "text": "Leon Thomas"
+    },
+    {
+      "id": "G",
+      "text": "Alex Warren"
+    },
+    {
+      "id": "H",
+      "text": "Lola Young\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Best New Artist at the ..."
+}

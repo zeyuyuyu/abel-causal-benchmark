@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_024",
+  "id": "69566c1320a2e600672a79c0",
+  "title": "Melbourne City FC vs. Auckland FC",
+  "level": 1,
+  "end_time": "2026-01-17 00:00:00",
+  "ground_truth": "['A']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Melbourne City FC vs. A..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_146",
+  "id": "697761c796e2d900674cdd7d",
+  "title": "United Rugby Championship: Glasgow Warriors vs Munster",
+  "level": 1,
+  "end_time": "2026-02-07",
+  "ground_truth": "['A']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"United Rugby Championsh..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_190",
+  "id": "685e489b6e8dbd006cdc6f70",
+  "title": "2026-03-05, what will be the movies ranked from 2 to 4 on Maoyan's 'Ticket Purchase vs Rating' list (猫眼电影购票评分榜)?",
+  "level": 3,
+  "end_time": "2026-03-05",
+  "ground_truth": "['飞驰人生3', '得闲谨制', '隐者山河']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-05, what will b..."
+}

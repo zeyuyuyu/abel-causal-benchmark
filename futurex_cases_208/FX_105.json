@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_105",
+  "id": "6947e88aa66250005c9dc324",
+  "title": "2026 a dream year for trump?",
+  "level": 1,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026 a dream year for t..."
+}

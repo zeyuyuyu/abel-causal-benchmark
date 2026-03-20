@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_187",
+  "id": "687071f2d3d00b006b624a8c",
+  "title": "2026-03-10, which self-media accounts will be ranked from 8 to 10 on KolRank's daily WeChat self-media overall ranking?",
+  "level": 3,
+  "end_time": "2026-03-10",
+  "ground_truth": "['人物', '第一财经', '南方周末']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, which self-..."
+}

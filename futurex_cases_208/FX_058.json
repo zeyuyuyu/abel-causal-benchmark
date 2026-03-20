@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_058",
+  "id": "6968de07e7876e006835e6b3",
+  "title": "Will the US Storm Prediction Center issue a Tornado Watch between 12:00 am EST 1/18/26 and 11:59 pm EST 1/24/26?",
+  "level": 1,
+  "end_time": "2026-01-25",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the US Storm Predi..."
+}

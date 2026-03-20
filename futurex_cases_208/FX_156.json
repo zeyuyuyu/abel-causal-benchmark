@@ -1,0 +1,47 @@
+{
+  "file_id": "FX_156",
+  "id": "696b872b4a95de00666c1162",
+  "title": "Who will win the 2026 Prague Masters chess tournament?",
+  "level": 2,
+  "end_time": "2026-03-08",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nodirbek Abdusattorov"
+    },
+    {
+      "id": "B",
+      "text": "Jorden van Foreest"
+    },
+    {
+      "id": "C",
+      "text": "Vincent Keymer"
+    },
+    {
+      "id": "D",
+      "text": "Gukesh Dommaraju"
+    },
+    {
+      "id": "E",
+      "text": "Nodirbek Yakubboev"
+    },
+    {
+      "id": "F",
+      "text": "David Navara OR David Antón Guijarro"
+    },
+    {
+      "id": "G",
+      "text": "Hans Niemann"
+    },
+    {
+      "id": "H",
+      "text": "Aravindh Chithambaram"
+    },
+    {
+      "id": "I",
+      "text": "Parham Maghsoodloo\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 P..."
+}

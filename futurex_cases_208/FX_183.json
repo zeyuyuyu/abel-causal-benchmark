@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_183",
+  "id": "68774eaf0fc811003bd35b6d",
+  "title": "2026-03-09, what variety shows will be ranked from 2 to 4 on the latest overseas word-of-mouth variety show ranking (国外口碑综艺榜) published by Douban (豆瓣)? (Give the show names only)",
+  "level": 3,
+  "end_time": "2026-03-09",
+  "ground_truth": "['天机试炼场', '单身即地狱 第五季', '黑白厨师：料理阶级战争 第二季']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what variet..."
+}

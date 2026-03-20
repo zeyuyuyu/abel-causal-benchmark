@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_005",
+  "id": "6957ba8a03568a006853e820",
+  "title": "2025 CAF Cup of Nations (AFCON) Winner",
+  "level": 2,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Senegal"
+    },
+    {
+      "id": "B",
+      "text": "Morocco"
+    },
+    {
+      "id": "C",
+      "text": "Nigeria"
+    },
+    {
+      "id": "D",
+      "text": "Egypt\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2025 CAF Cup of Nations..."
+}

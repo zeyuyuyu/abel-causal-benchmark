@@ -1,0 +1,39 @@
+{
+  "file_id": "FX_125",
+  "id": "69775e8a96e2d900674cdd58",
+  "title": "SUPER BOWL STATS PREDICTIONS",
+  "level": 2,
+  "end_time": "2026-02-09",
+  "ground_truth": "['A', 'B', 'C']",
+  "options": [
+    {
+      "id": "A",
+      "text": "5+ sacks"
+    },
+    {
+      "id": "B",
+      "text": "Completed FG over 50 yards"
+    },
+    {
+      "id": "C",
+      "text": "6+ Touchdowns"
+    },
+    {
+      "id": "D",
+      "text": "Seahawks have longest punt"
+    },
+    {
+      "id": "E",
+      "text": "Patriots have longest kickoff return"
+    },
+    {
+      "id": "F",
+      "text": "2+ fumbles"
+    },
+    {
+      "id": "G",
+      "text": "2+ missed FGs / extra points\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"SUPER BOWL STATS PREDIC..."
+}

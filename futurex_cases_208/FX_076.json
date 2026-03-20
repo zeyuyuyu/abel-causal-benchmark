@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_076",
+  "id": "695bb4008b62560069adce4b",
+  "title": "Will Palantir (PLTR) close above ___ end of January?",
+  "level": 2,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['None of the above']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Palantir (PLTR) cl..."
+}

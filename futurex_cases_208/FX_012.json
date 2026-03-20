@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_012",
+  "id": "69566c1320a2e600672a796d",
+  "title": "December Inflation Canada - Annual",
+  "level": 2,
+  "end_time": "2026-01-19 00:00:00",
+  "ground_truth": "['E']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Cana..."
+}

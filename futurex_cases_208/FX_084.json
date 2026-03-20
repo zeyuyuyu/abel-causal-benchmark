@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_084",
+  "id": "695bb4008b62560069adce59",
+  "title": "What will Crude Oil (CL) settle at in January?",
+  "level": 2,
+  "end_time": "2026-02-01 00:00:00",
+  "ground_truth": "['F']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL..."
+}

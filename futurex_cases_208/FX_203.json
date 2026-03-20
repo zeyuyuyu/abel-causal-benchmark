@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_203",
+  "id": "6851738859f71f006037a1e5",
+  "title": "2026-03-09, what will be the low for the CSI 300 Index for the day?",
+  "level": 4,
+  "end_time": "2026-03-09",
+  "ground_truth": "[4548.97]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will b..."
+}

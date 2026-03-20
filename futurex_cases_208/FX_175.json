@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_175",
+  "id": "6964e98652029b005bc009a4",
+  "title": "Ecuador to improve its score in the 2026 Democracy Report ranking?",
+  "level": 1,
+  "end_time": "2026-03-10",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Ecuador to improve its ..."
+}

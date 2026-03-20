@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_147",
+  "id": "697a0186aaa579005fb3a50c",
+  "title": "Will Gustavo Petro stay in the U.S. longer than 5 consecutive days starting Feb 3, 2026?",
+  "level": 1,
+  "end_time": "2026-02-10",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Gustavo Petro stay..."
+}

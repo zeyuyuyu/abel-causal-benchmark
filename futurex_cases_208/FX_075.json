@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_075",
+  "id": "687df3b6ff05a4003c601bc2",
+  "title": "2026-01-27, what will the NASDAQ Composite Index (.IXIC)'s open be for the day?",
+  "level": 4,
+  "end_time": "2026-01-27",
+  "ground_truth": "[23734.75]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, what will t..."
+}

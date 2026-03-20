@@ -1,0 +1,31 @@
+{
+  "file_id": "FX_120",
+  "id": "695e521c255b39006c58f5b8",
+  "title": "Who will win the Masters section of the 2026 Tata Steel Chess Tournament?",
+  "level": 2,
+  "end_time": "2026-02-06",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Nodirbek Abdusattorov"
+    },
+    {
+      "id": "B",
+      "text": "Javokhir Sindarov"
+    },
+    {
+      "id": "C",
+      "text": "Jorden van Foreest"
+    },
+    {
+      "id": "D",
+      "text": "Matthias Bluebaum"
+    },
+    {
+      "id": "E",
+      "text": "Hans Niemann\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Master..."
+}

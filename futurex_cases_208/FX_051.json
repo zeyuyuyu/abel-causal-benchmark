@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_051",
+  "id": "69493a091e67de005c79583b",
+  "title": "Will Bugonia get an Oscar nomination for best picture?",
+  "level": 1,
+  "end_time": "2026-01-22",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Bugonia get an Osc..."
+}

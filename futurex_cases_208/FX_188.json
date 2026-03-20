@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_188",
+  "id": "687071faab86ea0060215bc7",
+  "title": "2026-03-10, which self-media accounts will be ranked from 2 to 4 on KolRank's daily Weibo self-media overall ranking?",
+  "level": 3,
+  "end_time": "2026-03-10",
+  "ground_truth": "['爱生活的Yoyo酱', '在下科技君', '池九粒Jolie']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, which self-..."
+}

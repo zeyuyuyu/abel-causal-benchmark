@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_073",
+  "id": "6851741059f71f006037a1ee",
+  "title": "2026-01-23, what will be the Nikkei Stock Average (Nikkei 225)'s close for the day?",
+  "level": 4,
+  "end_time": "2026-01-23",
+  "ground_truth": "[53846.87]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will b..."
+}

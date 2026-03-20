@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_040",
+  "id": "69493cb11e67de005c795a91",
+  "title": "Oscars 2026: Best Documentary Feature Nominations",
+  "level": 2,
+  "end_time": "2026-01-22",
+  "ground_truth": "['A', 'D', 'F', 'L']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Best Docum..."
+}

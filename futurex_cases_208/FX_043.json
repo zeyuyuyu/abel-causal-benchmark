@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_043",
+  "id": "69639b3e5a6f9800684ed6ab",
+  "title": "MLBB: M7 World Championship Winner",
+  "level": 2,
+  "end_time": "2026-01-25",
+  "ground_truth": "['D']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"MLBB: M7 World Champion..."
+}

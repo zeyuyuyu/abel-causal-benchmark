@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_171",
+  "id": "6981ea9930057a005cdb9e47",
+  "title": "Will Nornickel's palladium production fall below 2.4 million ounces in 2026?",
+  "level": 1,
+  "end_time": "2026-03-05",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Nornickel's pallad..."
+}

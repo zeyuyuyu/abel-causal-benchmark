@@ -1,0 +1,67 @@
+{
+  "file_id": "FX_123",
+  "id": "697b53276346c0006551acac",
+  "title": "For which team will Giannis Antetokounmpo play for after the 2026 trade deadline?",
+  "level": 2,
+  "end_time": "2026-02-07",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Milwaukee Bucks (no trade)"
+    },
+    {
+      "id": "B",
+      "text": "Golden State Warriors"
+    },
+    {
+      "id": "C",
+      "text": "New York Knicks"
+    },
+    {
+      "id": "D",
+      "text": "Miami Heat"
+    },
+    {
+      "id": "E",
+      "text": "Atlanta Hawks"
+    },
+    {
+      "id": "F",
+      "text": "Other"
+    },
+    {
+      "id": "G",
+      "text": "Detroit Pistons"
+    },
+    {
+      "id": "H",
+      "text": "San Antonio Spurs"
+    },
+    {
+      "id": "I",
+      "text": "Houston Rockets"
+    },
+    {
+      "id": "J",
+      "text": "Los Angeles Lakers"
+    },
+    {
+      "id": "K",
+      "text": "Boston Celtics"
+    },
+    {
+      "id": "L",
+      "text": "Brooklyn Nets"
+    },
+    {
+      "id": "M",
+      "text": "Los Angeles Clippers"
+    },
+    {
+      "id": "N",
+      "text": "Phoenix Suns\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"For which team will Gia..."
+}

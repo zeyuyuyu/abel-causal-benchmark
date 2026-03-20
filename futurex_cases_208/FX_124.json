@@ -1,0 +1,67 @@
+{
+  "file_id": "FX_124",
+  "id": "69624695e87498005daa01d9",
+  "title": "Which team will be the 2026 Super Bowl Champion?",
+  "level": 2,
+  "end_time": "2026-02-09",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Seattle Seahawks"
+    },
+    {
+      "id": "B",
+      "text": "Los Angeles Rams"
+    },
+    {
+      "id": "C",
+      "text": "Denver Broncos"
+    },
+    {
+      "id": "D",
+      "text": "Philadelphia Eagles"
+    },
+    {
+      "id": "E",
+      "text": "New England Patriots"
+    },
+    {
+      "id": "F",
+      "text": "Buffalo Bills"
+    },
+    {
+      "id": "G",
+      "text": "Jacksonville Jaguars"
+    },
+    {
+      "id": "H",
+      "text": "Houston Texans"
+    },
+    {
+      "id": "I",
+      "text": "San Francisco 49ers"
+    },
+    {
+      "id": "J",
+      "text": "Green Bay Packers"
+    },
+    {
+      "id": "K",
+      "text": "Los Angeles Chargers"
+    },
+    {
+      "id": "L",
+      "text": "Chicago Bears"
+    },
+    {
+      "id": "M",
+      "text": "Pittsburgh Steelers"
+    },
+    {
+      "id": "N",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which team will be the ..."
+}

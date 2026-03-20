@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_163",
+  "id": "69a4319df2cb3b006875e9cb",
+  "title": "When will Dubai airport resume normal operations",
+  "level": 2,
+  "end_time": "2026-03-08",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "March 2 or earlier"
+    },
+    {
+      "id": "B",
+      "text": "March 3 or 4"
+    },
+    {
+      "id": "C",
+      "text": "March 5 or 6"
+    },
+    {
+      "id": "D",
+      "text": "March 7 or later\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"When will Dubai airport..."
+}

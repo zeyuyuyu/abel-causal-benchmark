@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_150",
+  "id": "6978b359edd409005eef0fe3",
+  "title": "Preston North End FC vs. Portsmouth FC",
+  "level": 1,
+  "end_time": "2026-02-08",
+  "ground_truth": "['A']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Preston North End FC vs..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_194",
+  "id": "68514628aca664006bceb217",
+  "title": "2026-03-06, according to the latest China Influenza Weekly Report (中国流感监测周报) from the Chinese Center for Disease Control and Prevention, how many outbreaks of influenza-like illness (流感样病例暴发疫情) will be reported nationwide?",
+  "level": 4,
+  "end_time": "2026-03-06",
+  "ground_truth": "['全国未报告流感样病例暴发疫情']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, according t..."
+}

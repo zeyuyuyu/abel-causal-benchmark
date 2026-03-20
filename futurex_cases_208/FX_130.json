@@ -1,0 +1,35 @@
+{
+  "file_id": "FX_130",
+  "id": "697b53276346c0006551acaa",
+  "title": "チームみらいが衆院選で獲得する議席数は？(How many seats will Team Mirai win in the Feb 2026 Japan lower house election?)",
+  "level": 2,
+  "end_time": "2026-02-08",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "0～2"
+    },
+    {
+      "id": "B",
+      "text": "3"
+    },
+    {
+      "id": "C",
+      "text": "4"
+    },
+    {
+      "id": "D",
+      "text": "5"
+    },
+    {
+      "id": "E",
+      "text": "6"
+    },
+    {
+      "id": "F",
+      "text": "7+\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"チームみらいが衆院選で獲得する議席数は？(Ho..."
+}

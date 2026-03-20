@@ -1,0 +1,39 @@
+{
+  "file_id": "FX_129",
+  "id": "69736a06e543cb005f7b9363",
+  "title": "Who will win NFL Coach of the Year?",
+  "level": 2,
+  "end_time": "2026-02-06",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Mike Vrabel (New England Patriots)"
+    },
+    {
+      "id": "B",
+      "text": "Ben Johnson (Chicago Bears)"
+    },
+    {
+      "id": "C",
+      "text": "Liam Coen (Jacksonville Jaguars)"
+    },
+    {
+      "id": "D",
+      "text": "Mike Macdonald (Seattle Seahawks)"
+    },
+    {
+      "id": "E",
+      "text": "Kyle Shanahan (San Francisco 49ers)"
+    },
+    {
+      "id": "F",
+      "text": "Sean Payton (Denver Broncos)"
+    },
+    {
+      "id": "G",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win NFL Coach ..."
+}

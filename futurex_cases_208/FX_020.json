@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_020",
+  "id": "69566c1320a2e600672a7998",
+  "title": "Golden Knights vs. Kings",
+  "level": 1,
+  "end_time": "2026-01-15 00:00:00",
+  "ground_truth": "['Golden Knights']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Golden Knights vs. King..."
+}

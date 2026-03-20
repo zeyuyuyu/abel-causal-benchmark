@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_067",
+  "id": "6960f83c14d4fb0067208587",
+  "title": "Auckland FC vs. Central Coast Mariners FC",
+  "level": 1,
+  "end_time": "2026-01-24",
+  "ground_truth": "['B']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Auckland FC vs. Central..."
+}

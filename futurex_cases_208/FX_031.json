@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_031",
+  "id": "695fa38be56c28005d3c324e",
+  "title": "FC Köln vs. FC Bayern München",
+  "level": 1,
+  "end_time": "2026-01-15 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "FC Bayern München"
+    },
+    {
+      "id": "B",
+      "text": "Tie"
+    },
+    {
+      "id": "C",
+      "text": "FC Köln\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"FC Köln vs. FC Bayern M..."
+}

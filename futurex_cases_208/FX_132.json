@@ -1,0 +1,43 @@
+{
+  "file_id": "FX_132",
+  "id": "6962468be87498005daa01c6",
+  "title": "Who will win the NFL Most Valuable Player Award for the 2025 season?",
+  "level": 2,
+  "end_time": "2026-02-06",
+  "ground_truth": "['F']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Josh Allen"
+    },
+    {
+      "id": "B",
+      "text": "Sam Darnold"
+    },
+    {
+      "id": "C",
+      "text": "Jordan Love"
+    },
+    {
+      "id": "D",
+      "text": "Drake Maye"
+    },
+    {
+      "id": "E",
+      "text": "Dak Prescott"
+    },
+    {
+      "id": "F",
+      "text": "Matthew Stafford"
+    },
+    {
+      "id": "G",
+      "text": "Caleb Williams"
+    },
+    {
+      "id": "H",
+      "text": "Someone else\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the NFL Mo..."
+}

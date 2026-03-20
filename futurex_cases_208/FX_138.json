@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_138",
+  "id": "6963980d5a6f9800684ed66b",
+  "title": "Will Indiana change its congressional voting map for the 2026 elections?",
+  "level": 1,
+  "end_time": "2026-02-06",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Indiana change its..."
+}

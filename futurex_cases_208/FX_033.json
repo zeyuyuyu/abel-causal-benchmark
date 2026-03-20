@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_033",
+  "id": "685147092537419998691328",
+  "title": "2026-01-19, what will be the books from rank 4 to 6 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)",
+  "level": 4,
+  "end_time": "2026-01-19 00:00:00",
+  "ground_truth": "[\"The Housemaid\", \"Brimstone\", \"The Correspondent\"]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-19, what will b..."
+}

@@ -1,0 +1,63 @@
+{
+  "file_id": "FX_131",
+  "id": "69624695e87498005daa01e8",
+  "title": "Who will perform at the Super Bowl LX halftime show?",
+  "level": 2,
+  "end_time": "2026-02-10",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Bad Bunny"
+    },
+    {
+      "id": "B",
+      "text": "Cardi B"
+    },
+    {
+      "id": "C",
+      "text": "Dua Lipa"
+    },
+    {
+      "id": "D",
+      "text": "Post Malone"
+    },
+    {
+      "id": "E",
+      "text": "Justin Bieber"
+    },
+    {
+      "id": "F",
+      "text": "Miley Cyrus"
+    },
+    {
+      "id": "G",
+      "text": "Metallica"
+    },
+    {
+      "id": "H",
+      "text": "Sabrina Carpenter"
+    },
+    {
+      "id": "I",
+      "text": "Morgan Wallen"
+    },
+    {
+      "id": "J",
+      "text": "Taylor Swift"
+    },
+    {
+      "id": "K",
+      "text": "Chappell Roan"
+    },
+    {
+      "id": "L",
+      "text": "Christina Aguilera"
+    },
+    {
+      "id": "M",
+      "text": "Jay-Z\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will perform at the..."
+}

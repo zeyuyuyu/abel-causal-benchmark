@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_195",
+  "id": "6854dcb27df94a0060eb86cf",
+  "title": "2026-03-07, what will be the projects ranked from 1 to 3 on OpenGithubs' github-daily-rank of this date? (Give the project names only)",
+  "level": 4,
+  "end_time": "2026-03-07",
+  "ground_truth": "['moeru-ai/airi', 'msitarzewski/agency-agents', 'shareAI-lab/learn-claude-code']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-07, what will b..."
+}

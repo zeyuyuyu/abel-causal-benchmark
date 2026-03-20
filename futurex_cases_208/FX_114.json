@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_114",
+  "id": "685146342537419957469184",
+  "title": "2026-01-30, what will be the movies ranked from 4 to 6 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
+  "level": 3,
+  "end_time": "2026-01-30 00:00:00",
+  "ground_truth": "['翠湖', '密探', '奥利维娅与云']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-30, what will b..."
+}

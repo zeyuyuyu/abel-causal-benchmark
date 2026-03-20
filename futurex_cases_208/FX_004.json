@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_004",
+  "id": "69493cb11e67de005c795b7e",
+  "title": "Who will qualify for the second round of the Portugal Presidential Election?",
+  "level": 2,
+  "end_time": "2026-01-18 00:00:00",
+  "ground_truth": "['C', 'P']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will qualify for th..."
+}

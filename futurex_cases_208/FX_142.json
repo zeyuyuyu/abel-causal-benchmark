@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_142",
+  "id": "695e521c255b39006c58f5ae",
+  "title": "A team from the NFC West will win Super Bowl LX",
+  "level": 1,
+  "end_time": "2026-02-09",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"A team from the NFC Wes..."
+}

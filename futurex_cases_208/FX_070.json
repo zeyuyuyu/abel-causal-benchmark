@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_070",
+  "id": "6851736beb11c800614780df",
+  "title": "2026-01-23, what will the high of Apple stock (AAPL) be for the day (in US$)?",
+  "level": 4,
+  "end_time": "2026-01-23",
+  "ground_truth": "[249.41]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will t..."
+}

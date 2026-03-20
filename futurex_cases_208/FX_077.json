@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_077",
+  "id": "69663e477dc80a005b6df1ea",
+  "title": "What will Trump say in January?",
+  "level": 2,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P', 'Q', 'S']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"What will Trump say in ..."
+}

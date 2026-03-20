@@ -1,0 +1,67 @@
+{
+  "file_id": "FX_117",
+  "id": "69624695e87498005daa01da",
+  "title": "Which companies will run ads during Super Bowl LX?",
+  "level": 2,
+  "end_time": "2026-02-09",
+  "ground_truth": "['A', 'B', 'C', 'D']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Robinhood"
+    },
+    {
+      "id": "B",
+      "text": "Google"
+    },
+    {
+      "id": "C",
+      "text": "Amazon"
+    },
+    {
+      "id": "D",
+      "text": "Hyundai"
+    },
+    {
+      "id": "E",
+      "text": "Toyota"
+    },
+    {
+      "id": "F",
+      "text": "Salesforce"
+    },
+    {
+      "id": "G",
+      "text": "Verizon/Visible"
+    },
+    {
+      "id": "H",
+      "text": "Progressive"
+    },
+    {
+      "id": "I",
+      "text": "OpenAI"
+    },
+    {
+      "id": "J",
+      "text": "State Farms"
+    },
+    {
+      "id": "K",
+      "text": "Coca Cola"
+    },
+    {
+      "id": "L",
+      "text": "Coinbase"
+    },
+    {
+      "id": "M",
+      "text": "Apple"
+    },
+    {
+      "id": "N",
+      "text": "Crypto.com\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which companies will ru..."
+}

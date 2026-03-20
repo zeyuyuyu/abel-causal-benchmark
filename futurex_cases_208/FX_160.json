@@ -1,0 +1,27 @@
+{
+  "file_id": "FX_160",
+  "id": "698b2b1f175d470068538759",
+  "title": "Team of winning driver at Australian Grand Prix?",
+  "level": 2,
+  "end_time": "2026-03-10",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "McLaren"
+    },
+    {
+      "id": "B",
+      "text": "Mercedes"
+    },
+    {
+      "id": "C",
+      "text": "Ferrari"
+    },
+    {
+      "id": "D",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Team of winning driver ..."
+}

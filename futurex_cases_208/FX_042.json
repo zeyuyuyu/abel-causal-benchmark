@@ -1,0 +1,35 @@
+{
+  "file_id": "FX_042",
+  "id": "694e8009028e36005d93d3cc",
+  "title": "Who will win the main event of UFC 324? (Gaethje vs Pimblett)",
+  "level": 2,
+  "end_time": "2026-01-25",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Justin Gaethje"
+    },
+    {
+      "id": "B",
+      "text": "Paddy Pimblett"
+    },
+    {
+      "id": "C",
+      "text": "Arman Tsarukyan"
+    },
+    {
+      "id": "D",
+      "text": "Charles Oliveira"
+    },
+    {
+      "id": "E",
+      "text": "Max Holloway"
+    },
+    {
+      "id": "F",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the main e..."
+}

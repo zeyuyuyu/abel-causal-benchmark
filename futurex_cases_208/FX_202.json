@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_202",
+  "id": "6851743b59f71f006037a1f1",
+  "title": "2026-03-10, what will be the average price (in yuan per kilogram) of lamb at the national agricultural product wholesale market monitored by the Ministry of Agriculture and Rural Affairs of China?",
+  "level": 4,
+  "end_time": "2026-03-10",
+  "ground_truth": "[64.44]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, what will b..."
+}

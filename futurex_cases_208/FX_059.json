@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_059",
+  "id": "6956690c20a2e600672a786b",
+  "title": "Juventus beats SSC Napoli | Soccer Serie A match 25th Jan 2026",
+  "level": 1,
+  "end_time": "2026-01-26",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Juventus beats SSC Napo..."
+}

@@ -1,0 +1,43 @@
+{
+  "file_id": "FX_011",
+  "id": "6956690c20a2e600672a78a6",
+  "title": "Which team will win the 2025-2026 College Football Playoff National Championship?",
+  "level": 2,
+  "end_time": "2026-01-20 00:00:00",
+  "ground_truth": "['F']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Ole miss"
+    },
+    {
+      "id": "B",
+      "text": "Alabama"
+    },
+    {
+      "id": "C",
+      "text": "Miami"
+    },
+    {
+      "id": "D",
+      "text": "Texas Tech"
+    },
+    {
+      "id": "E",
+      "text": "Georgia"
+    },
+    {
+      "id": "F",
+      "text": "Indiana"
+    },
+    {
+      "id": "G",
+      "text": "Oregon"
+    },
+    {
+      "id": "H",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Which team will win the..."
+}

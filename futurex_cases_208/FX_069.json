@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_069",
+  "id": "685147092537420060414059",
+  "title": "2026-01-26, what will be the books from rank 13 to 15 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)",
+  "level": 4,
+  "end_time": "2026-01-26",
+  "ground_truth": "['Heated Rivalry', 'Fourth Wing', 'Quicksilver']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-01-26, what will b..."
+}

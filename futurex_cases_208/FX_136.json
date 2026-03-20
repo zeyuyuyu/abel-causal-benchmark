@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_136",
+  "id": "6956690c20a2e600672a7872",
+  "title": "Who will win Jet Lag: The Game Season 16?",
+  "level": 1,
+  "end_time": "2026-02-06",
+  "ground_truth": "['C']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Sam"
+    },
+    {
+      "id": "B",
+      "text": "Ben"
+    },
+    {
+      "id": "C",
+      "text": "Adam\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win Jet Lag: T..."
+}

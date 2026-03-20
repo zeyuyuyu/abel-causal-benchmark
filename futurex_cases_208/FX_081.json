@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_081",
+  "id": "69639b3e5a6f9800684ed69a",
+  "title": "Precipitation in NYC in January?",
+  "level": 2,
+  "end_time": "2026-01-31 00:00:00",
+  "ground_truth": "['C']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Precipitation in NYC in..."
+}

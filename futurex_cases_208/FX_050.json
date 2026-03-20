@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_050",
+  "id": "694fd195ae81c200695c89be",
+  "title": "Will Polo gram be revealed to be Marco's dad within 1 month",
+  "level": 1,
+  "end_time": "2026-01-26",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will Polo gram be revea..."
+}

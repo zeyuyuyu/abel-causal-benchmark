@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_185",
+  "id": "68517362eb11c800614780de",
+  "title": "2026-03-06, what will the price index for edible oil be in the Agricultural Product Wholesale Price 200 Index from China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?",
+  "level": 3,
+  "end_time": "2026-03-06",
+  "ground_truth": "[125.96]",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will t..."
+}

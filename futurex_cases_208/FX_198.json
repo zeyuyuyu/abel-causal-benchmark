@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_198",
+  "id": "68774e69336fa8003b890146",
+  "title": "2026-03-09, which works will be ranked from 1 to 3 on the latest weekly tipping chart for audio dramas (广播剧打赏榜周榜) on Maoer (猫耳) FM (MissEvan)? (Give the work names only)",
+  "level": 4,
+  "end_time": "2026-03-09",
+  "ground_truth": "['语义错误 第一季', '春雨秋云', '初三的六一儿童节']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, which works..."
+}

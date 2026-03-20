@@ -1,0 +1,39 @@
+{
+  "file_id": "FX_096",
+  "id": "695a5d897b2e6a00694886af",
+  "title": "Who will win the 2026 Grammy for Record of the Year?",
+  "level": 2,
+  "end_time": "2026-02-02 00:00:00",
+  "ground_truth": "['F']",
+  "options": [
+    {
+      "id": "A",
+      "text": "\"DtMF,\" Bad Bunny"
+    },
+    {
+      "id": "B",
+      "text": "\"Manchild,\" Sabrina Carpenter"
+    },
+    {
+      "id": "C",
+      "text": "\"Anxiety,\" Doechii"
+    },
+    {
+      "id": "D",
+      "text": "\"Wildflower,\" Billie Eilish"
+    },
+    {
+      "id": "E",
+      "text": "\"Abracadabra,\" Lady Gaga"
+    },
+    {
+      "id": "F",
+      "text": "\"Luther,\" Kendrick Lamar with SZA"
+    },
+    {
+      "id": "G",
+      "text": "\"The Subway,\" Chappell Roan\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win the 2026 G..."
+}

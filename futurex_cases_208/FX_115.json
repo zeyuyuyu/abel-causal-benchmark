@@ -1,0 +1,51 @@
+{
+  "file_id": "FX_115",
+  "id": "6972189f11cfd20069976499",
+  "title": "Who will win Super Bowl LX MVP?",
+  "level": 2,
+  "end_time": "2026-02-10",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Matthew Stafford"
+    },
+    {
+      "id": "B",
+      "text": "Sam Darnold"
+    },
+    {
+      "id": "C",
+      "text": "Drake Maye"
+    },
+    {
+      "id": "D",
+      "text": "Jaxon Smith-Njigba"
+    },
+    {
+      "id": "E",
+      "text": "Puka Nacua"
+    },
+    {
+      "id": "F",
+      "text": "Stefon Diggs"
+    },
+    {
+      "id": "G",
+      "text": "Davante Adams"
+    },
+    {
+      "id": "H",
+      "text": "Rashid Shaheed"
+    },
+    {
+      "id": "I",
+      "text": "Jarrett Stidham"
+    },
+    {
+      "id": "J",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Who will win Super Bowl..."
+}

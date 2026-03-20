@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_174",
+  "id": "6987308956940e0068395804",
+  "title": "Will a NON mercedes engine car win the 2026 Formula 1 Australian Grand Prix?",
+  "level": 1,
+  "end_time": "2026-03-08",
+  "ground_truth": "['No']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will a NON mercedes eng..."
+}

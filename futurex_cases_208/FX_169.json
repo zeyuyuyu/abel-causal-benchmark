@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_169",
+  "id": "698b2507175d47006853871b",
+  "title": "Will the Nepali Congress party win the most seats in the 2026 Nepali House of Representatives elections?",
+  "level": 1,
+  "end_time": "2026-03-06",
+  "ground_truth": "['No']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yes"
+    },
+    {
+      "id": "B",
+      "text": "No"
+    },
+    {
+      "id": "C",
+      "text": "Another outcome\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Will the Nepali Congres..."
+}

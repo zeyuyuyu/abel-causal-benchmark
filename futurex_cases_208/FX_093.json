@@ -1,0 +1,31 @@
+{
+  "file_id": "FX_093",
+  "id": "6972189f11cfd20069976498",
+  "title": "How Many Days will Arlington Virginia Public Schools be Cancelled Next Week?",
+  "level": 2,
+  "end_time": "2026-02-02 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "0"
+    },
+    {
+      "id": "B",
+      "text": "1"
+    },
+    {
+      "id": "C",
+      "text": "2"
+    },
+    {
+      "id": "D",
+      "text": "3"
+    },
+    {
+      "id": "E",
+      "text": "4\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"How Many Days will Arli..."
+}

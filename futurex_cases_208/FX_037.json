@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_037",
+  "id": "69493cb11e67de005c795a90",
+  "title": "Oscars 2026: Achievement in Casting Nominations",
+  "level": 2,
+  "end_time": "2026-01-22",
+  "ground_truth": "['A', 'B', 'D', 'E']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Achievemen..."
+}

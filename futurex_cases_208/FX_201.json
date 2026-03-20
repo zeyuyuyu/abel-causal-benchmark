@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_201",
+  "id": "685173fb59f71f006037a1ec",
+  "title": "2026-03-09, what songs will be ranked from 6 to 8 on the latest QQ Music Soaring Chart (QQ音乐飙升榜)?",
+  "level": 4,
+  "end_time": "2026-03-09",
+  "ground_truth": "['这一生爱上什么人都不为过（咬住下唇）', 'Lonely', '立春']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what songs ..."
+}

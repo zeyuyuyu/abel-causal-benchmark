@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_052",
+  "id": "6964e98952029b005bc009b6",
+  "title": "The No-Bots Market. Which side will be automated-bots-free market close?",
+  "level": 1,
+  "end_time": "2026-01-23",
+  "ground_truth": "['Yes']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"The No-Bots Market. Whi..."
+}

@@ -1,0 +1,23 @@
+{
+  "file_id": "FX_028",
+  "id": "69624695e87498005daa01d1",
+  "title": "In which city will Tetra be on January 15th 2026?",
+  "level": 1,
+  "end_time": "2026-01-16 00:00:00",
+  "ground_truth": "['A']",
+  "options": [
+    {
+      "id": "A",
+      "text": "Blackpool"
+    },
+    {
+      "id": "B",
+      "text": "Middlesbrough"
+    },
+    {
+      "id": "C",
+      "text": "Other\""
+    }
+  ],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"In which city will Tetr..."
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_048",
+  "id": "694e82d4028e36005d93d3f3",
+  "title": "NFC Champion",
+  "level": 2,
+  "end_time": "2026-01-27",
+  "ground_truth": "['N']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"NFC Champion  (resolved..."
+}

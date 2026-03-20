@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_016",
+  "id": "69566c1320a2e600672a79ba",
+  "title": "Islanders vs. Oilers",
+  "level": 1,
+  "end_time": "2026-01-16 00:00:00",
+  "ground_truth": "['Islanders']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Islanders vs. Oilers (r..."
+}

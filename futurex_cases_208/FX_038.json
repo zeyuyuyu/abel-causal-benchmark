@@ -1,0 +1,10 @@
+{
+  "file_id": "FX_038",
+  "id": "69493cb11e67de005c795a93",
+  "title": "Oscars 2026: Best Director Nominations",
+  "level": 2,
+  "end_time": "2026-01-22",
+  "ground_truth": "['B', 'C', 'D', 'E', 'G']",
+  "options": [],
+  "prompt_preview": "You are an agent that can predict future events. The event to be predicted: \"Oscars 2026: Best Direc..."
+}
