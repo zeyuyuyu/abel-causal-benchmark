@@ -1,0 +1,50 @@
+{
+  "case_id": "F1",
+  "level": "L2",
+  "category": "finance",
+  "cap_primitive": "predict",
+  "question": "Will NVDA close price increase by more than 2% in the next 24 hours?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yes (Increase > 2%)",
+      "threshold": 0.02
+    },
+    {
+      "id": "B",
+      "text": "No (Increase ≤ 2% or Decrease)",
+      "threshold": -0.02
+    }
+  ],
+  "context": "NVDA momentum analysis based on causal graph drivers",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "NVDA_close"
+    }
+  },
+  "resolution_criteria": {
+    "type": "threshold",
+    "metric": "percentage_change",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "> 2%",
+      "B": "≤ 2%"
+    }
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "verification_method": "api_fetch",
+    "ticker": "NVDA",
+    "resolution_time": "24_hours_after_prediction",
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.0,
+    "bonus_for_confidence": true
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "case_id": "D5",
+  "level": "L2",
+  "category": "finance",
+  "question": "Which ticker's causal graph is most sensitive to market regime changes (bull vs bear)?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "Regime-dependent reliability analysis",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "capability": "sensitivity",
+    "input": {
+      "analysis_type": "regime_sensitivity",
+      "tickers": [
+        "BTCUSD",
+        "NVDA",
+        "TSLA",
+        "ARKK"
+      ],
+      "regime_indicator": "VIX_level",
+      "thresholds": [
+        20,
+        30
+      ]
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "expert_judgment",
+    "verification_method": "manual_review",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.0,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "D",
+    "cap_primitive": "sensitivity",
+    "complexity": "L2",
+    "cap_ability": "partial"
+  }
+}

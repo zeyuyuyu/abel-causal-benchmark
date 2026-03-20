@@ -1,0 +1,71 @@
+{
+  "case_id": "XF_6957ba8a",
+  "level": "L4",
+  "category": "entertainment",
+  "question": "[HEALTH] Measles cases in U.S. by January 31",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "FutureX-inspired health question. Epidemiological factors, policy responses, and transmission dynamics. Options: <20 | 20-150 | 150-300 | 300-500 | 500-750 | ... (1 more). Original FutureX Level 2.",
+  "background": "Entertainment industry prediction based on market trends and consumer behavior.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "health",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "<20",
+        "20-150",
+        "150-300",
+        "300-500",
+        "500-750",
+        ">750"
+      ],
+      "factors_to_consider": [
+        "transmission_rates",
+        "policy_measures",
+        "seasonal_patterns",
+        "vaccination_rates"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "verification_method": "correlation_analysis",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 0.8,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "X",
+    "cap_primitive": "attest",
+    "complexity": "L4",
+    "cap_ability": "llm_only"
+  }
+}

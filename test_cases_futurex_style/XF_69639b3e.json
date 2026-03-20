@@ -1,0 +1,70 @@
+{
+  "case_id": "XF_69639b3e",
+  "level": "L4",
+  "category": "entertainment",
+  "question": "[WEATHER] NYC Precipitation January 2026",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "FutureX-inspired weather question. Meteorological patterns, climate indicators, and seasonal factors. Options: <3 inches | 3-4 inches | 4-5 inches | 5-6 inches | >7 inches. Original FutureX Level 2.",
+  "background": "Entertainment industry prediction based on market trends and consumer behavior.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "weather",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "<3 inches",
+        "3-4 inches",
+        "4-5 inches",
+        "5-6 inches",
+        ">7 inches"
+      ],
+      "factors_to_consider": [
+        "seasonal_patterns",
+        "climate_models",
+        "historical_data",
+        "current_conditions"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "verification_method": "correlation_analysis",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 0.8,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "X",
+    "cap_primitive": "attest",
+    "complexity": "L4",
+    "cap_ability": "llm_only"
+  }
+}

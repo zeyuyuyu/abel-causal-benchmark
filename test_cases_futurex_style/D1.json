@@ -1,0 +1,57 @@
+{
+  "case_id": "D1",
+  "level": "L2",
+  "category": "finance",
+  "question": "What's BTCUSD's probability_up right now, and what parent node changes would flip the prediction?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "Confidence breakdown and critical factor identification",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "capability": "sensitivity",
+    "input": {
+      "target_node": "BTCUSD",
+      "analysis_type": "confidence_breakdown",
+      "identify_flip_thresholds": true
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "expert_judgment",
+    "verification_method": "manual_review",
+    "ticker": "BTCUSD",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.0,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "D",
+    "cap_primitive": "sensitivity",
+    "complexity": "L2",
+    "cap_ability": "full"
+  }
+}

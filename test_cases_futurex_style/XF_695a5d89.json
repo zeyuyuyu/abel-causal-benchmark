@@ -1,0 +1,71 @@
+{
+  "case_id": "XF_695a5d89",
+  "level": "L4",
+  "category": "tech",
+  "question": "[ENTERTAINMENT] 2026 Grammy Record of the Year",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "FutureX-inspired entertainment question. Industry trends, critical reception, and commercial performance. Options: Bad Bunny - DtMF | Sabrina Carpenter - Manchild | Doechii - Anxiety | Billie Eilish - Wildflower | Lady Gaga - Abracadabra | ... (1 more). Original FutureX Level 2.",
+  "background": "Technology trend analysis based on market indicators and innovation cycles.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "entertainment",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "Bad Bunny - DtMF",
+        "Sabrina Carpenter - Manchild",
+        "Doechii - Anxiety",
+        "Billie Eilish - Wildflower",
+        "Lady Gaga - Abracadabra",
+        "Kendrick Lamar with SZA - Luther"
+      ],
+      "factors_to_consider": [
+        "chart_performance",
+        "critical_reviews",
+        "commercial_success",
+        "industry_recognition"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "verification_method": "correlation_analysis",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 0.8,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "X",
+    "cap_primitive": "attest",
+    "complexity": "L4",
+    "cap_ability": "llm_only"
+  }
+}

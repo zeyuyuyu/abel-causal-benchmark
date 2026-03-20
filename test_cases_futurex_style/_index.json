@@ -1,0 +1,148 @@
+{
+  "total_cases": 75,
+  "export_date": "2026-03-20",
+  "style": "FutureX",
+  "format_version": "1.0",
+  "cases": [
+    {
+      "id": "D4",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "What drives SPY's prediction more: Individual stoc...",
+      "options_count": 2
+    },
+    {
+      "id": "A3",
+      "level": "L1",
+      "category": "other",
+      "question_preview": "What will be the price movement of SPY in the next...",
+      "options_count": 3
+    },
+    {
+      "id": "E2",
+      "level": "L1",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "B9",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "If the specified intervention occurs, what will be...",
+      "options_count": 4
+    },
+    {
+      "id": "FX_69b403b7",
+      "level": "L1",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "XF_69566909",
+      "level": "L4",
+      "category": "sports",
+      "question_preview": "[SPORTS] 2026 Australian Open Women's Singles Winn...",
+      "options_count": 2
+    },
+    {
+      "id": "FX_69a4319d",
+      "level": "L1",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "FX_69b2b226",
+      "level": "L1",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "B5",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "If the specified intervention occurs, what will be...",
+      "options_count": 4
+    },
+    {
+      "id": "FX_69b00f0e",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "F4",
+      "level": "L1",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "C3",
+      "level": "L3",
+      "category": "finance",
+      "question_preview": "Is there a direct causal path between the specifie...",
+      "options_count": 3
+    },
+    {
+      "id": "C2",
+      "level": "L3",
+      "category": "finance",
+      "question_preview": "Is there a direct causal path between the specifie...",
+      "options_count": 3
+    },
+    {
+      "id": "B10",
+      "level": "L2",
+      "category": "political",
+      "question_preview": "If the specified intervention occurs, what will be...",
+      "options_count": 4
+    },
+    {
+      "id": "F5",
+      "level": "L1",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "XF_69493cb1",
+      "level": "L4",
+      "category": "political",
+      "question_preview": "[ELECTION] Portugal Presidential Election second r...",
+      "options_count": 2
+    },
+    {
+      "id": "FX_69945f87",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "B4",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "If the specified intervention occurs, what will be...",
+      "options_count": 4
+    },
+    {
+      "id": "FX_69970287",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "What will be the price movement of UNKNOWN in the ...",
+      "options_count": 3
+    },
+    {
+      "id": "B8",
+      "level": "L2",
+      "category": "finance",
+      "question_preview": "If the specified intervention occurs, what will be...",
+      "options_count": 4
+    }
+  ]
+}

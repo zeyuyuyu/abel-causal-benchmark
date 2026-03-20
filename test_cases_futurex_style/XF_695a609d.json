@@ -1,0 +1,68 @@
+{
+  "case_id": "XF_695a609d",
+  "level": "L4",
+  "category": "finance",
+  "question": "[ECONOMICS] Reserve Bank of Australia February Decision",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "FutureX-inspired economics question. Macroeconomic indicators, policy decisions, and market expectations. Options: Decrease cash rate | Increase cash rate | No change. Original FutureX Level 1.",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "economics",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "Decrease cash rate",
+        "Increase cash rate",
+        "No change"
+      ],
+      "factors_to_consider": [
+        "inflation_data",
+        "employment_figures",
+        "market_expectations",
+        "global_conditions"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "verification_method": "correlation_analysis",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 0.8,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "X",
+    "cap_primitive": "attest",
+    "complexity": "L4",
+    "cap_ability": "partial"
+  }
+}

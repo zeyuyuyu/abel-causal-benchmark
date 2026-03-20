@@ -1,0 +1,71 @@
+{
+  "case_id": "XF_69493cb1",
+  "level": "L4",
+  "category": "political",
+  "question": "[ELECTION] Portugal Presidential Election second round qualifiers",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "FutureX-inspired election question. Social, economic, and political factors influencing electoral outcomes. Options: André Ventura | Luís Marques Mendes | Henrique Gouveia e Melo | António José Seguro | João Cotrim de Figueiredo | ... (1 more). Original FutureX Level 2.",
+  "background": "Political event prediction based on historical patterns and current indicators.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "election",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "André Ventura",
+        "Luís Marques Mendes",
+        "Henrique Gouveia e Melo",
+        "António José Seguro",
+        "João Cotrim de Figueiredo",
+        "Catarina Martins"
+      ],
+      "factors_to_consider": [
+        "polling_trends",
+        "economic_conditions",
+        "media_coverage",
+        "incumbent_advantage"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "verification_method": "correlation_analysis",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 0.8,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "X",
+    "cap_primitive": "attest",
+    "complexity": "L4",
+    "cap_ability": "llm_only"
+  }
+}

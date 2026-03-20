@@ -1,0 +1,75 @@
+{
+  "case_id": "B10",
+  "level": "L2",
+  "category": "political",
+  "question": "If the specified intervention occurs, what will be the primary effect?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Strong positive effect (>5%)",
+      "threshold": 0.05
+    },
+    {
+      "id": "B",
+      "text": "Moderate positive effect (0-5%)",
+      "threshold": 0.0
+    },
+    {
+      "id": "C",
+      "text": "No significant effect",
+      "threshold": 0.0
+    },
+    {
+      "id": "D",
+      "text": "Negative effect",
+      "threshold": 0.0
+    }
+  ],
+  "context": "[Final-Fix] Market peak to BABA | Original: [CAP-v2] Policy regime shift - geopolitical risk repricing chain",
+  "background": "Political event prediction based on historical patterns and current indicators.",
+  "cap_request": {
+    "verb": "intervene.do",
+    "params": {
+      "treatment_node": "PEAKUSD_close",
+      "treatment_value": 0.03,
+      "outcome_node": "BABA_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    },
+    "_expected_horizon": 6
+  },
+  "resolution_criteria": {
+    "type": "simulation",
+    "metric": "causal_effect",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD",
+      "C": "TBD",
+      "D": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "causal_graph_simulation",
+    "verification_method": "scm_propagation",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.5,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "B",
+    "cap_primitive": "intervene",
+    "complexity": "L2",
+    "cap_ability": "llm_only"
+  }
+}

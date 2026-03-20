@@ -1,0 +1,62 @@
+{
+  "case_id": "A4",
+  "level": "L1",
+  "category": "finance",
+  "question": "Will TSLA close price increase in the next 24 hours?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yes (Increase)",
+      "threshold": 0.0,
+      "threshold_desc": "> 0%"
+    },
+    {
+      "id": "B",
+      "text": "No (Decrease or Unchanged)",
+      "threshold": 0.0,
+      "threshold_desc": "≤ 0%"
+    }
+  ],
+  "context": "TSLA's correlation with energy/clean energy indices",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": "TSLA_close"
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "resolution_criteria": {
+    "type": "threshold",
+    "metric": "price_direction",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24 hours"
+    },
+    "thresholds": {
+      "A": "> 0%",
+      "B": "≤ 0%"
+    }
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "verification_method": "api_fetch",
+    "ticker": "TSLA",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.0,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "A",
+    "cap_primitive": "predict",
+    "complexity": "L1",
+    "cap_ability": "full"
+  }
+}

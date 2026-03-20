@@ -1,0 +1,73 @@
+{
+  "case_id": "XF_69566909",
+  "level": "L4",
+  "category": "sports",
+  "question": "[SPORTS] 2026 Australian Open Women's Singles Winner",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "FutureX-inspired sports question. Player form, historical performance, and competitive dynamics. Options: Mirra Andreeva | Coco Gauff | Madison Keys | Naomi Osaka | Elena Rybakina | ... (2 more). Original FutureX Level 2.",
+  "background": "Sports outcome prediction using performance metrics and historical data.",
+  "cap_request": {
+    "capability": "attest",
+    "input": {
+      "domain": "sports",
+      "prediction_type": "discrete_outcome",
+      "options": [
+        "Mirra Andreeva",
+        "Coco Gauff",
+        "Madison Keys",
+        "Naomi Osaka",
+        "Elena Rybakina",
+        "Aryna Sabalenka",
+        "Iga Swiatek"
+      ],
+      "factors_to_consider": [
+        "recent_form",
+        "head_to_head_history",
+        "injury_status",
+        "home_advantage",
+        "rankings"
+      ],
+      "analysis_depth": "high"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "historical_correlation",
+    "verification_method": "correlation_analysis",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 0.8,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "X",
+    "cap_primitive": "attest",
+    "complexity": "L4",
+    "cap_ability": "llm_only"
+  }
+}

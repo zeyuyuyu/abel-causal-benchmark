@@ -1,0 +1,66 @@
+{
+  "case_id": "C7",
+  "level": "L3",
+  "category": "finance",
+  "question": "Is there a direct causal path between the specified nodes?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Yes, direct path exists (1-2 hops)"
+    },
+    {
+      "id": "B",
+      "text": "Yes, indirect path (3+ hops)"
+    },
+    {
+      "id": "C",
+      "text": "No path exists"
+    }
+  ],
+  "context": "Thematic investing supply chain",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "verb": "graph.paths",
+    "params": {
+      "source_node_id": "",
+      "target_node_id": "",
+      "max_depth": 2,
+      "max_paths": 3
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "resolution_criteria": {
+    "type": "existence",
+    "metric": "path_existence",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + immediate"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD",
+      "C": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "graph_topology",
+    "verification_method": "structure_validation",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.3,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "C",
+    "cap_primitive": "path",
+    "complexity": "L3",
+    "cap_ability": "full"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "E5",
+  "level": "L1",
+  "category": "finance",
+  "question": "What will be the price movement of UNKNOWN in the next 24 hours?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Increase > 3%",
+      "threshold": 0.03,
+      "threshold_desc": "> 3%"
+    },
+    {
+      "id": "B",
+      "text": "Increase 0-3%",
+      "threshold": 0.0,
+      "threshold_desc": "0% to 3%"
+    },
+    {
+      "id": "C",
+      "text": "Decrease < 0%",
+      "threshold": 0.0,
+      "threshold_desc": "< 0%"
+    }
+  ],
+  "context": "[Attest→Predict] Sector resilience comparison",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "verb": "observe.predict",
+    "params": {
+      "target_node": ""
+    },
+    "options": {
+      "timeout_ms": 30000
+    }
+  },
+  "resolution_criteria": {
+    "type": "threshold",
+    "metric": "percentage_change",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24 hours"
+    },
+    "thresholds": {
+      "A": "> 3%",
+      "B": "0% to 3%",
+      "C": "< 0%"
+    }
+  },
+  "ground_truth": {
+    "source": "yahoo_finance",
+    "verification_method": "api_fetch",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.0,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "E",
+    "cap_primitive": "predict",
+    "complexity": "L1",
+    "cap_ability": "partial"
+  }
+}

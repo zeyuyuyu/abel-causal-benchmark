@@ -1,0 +1,65 @@
+{
+  "case_id": "D3",
+  "level": "L2",
+  "category": "finance",
+  "question": "At what tau threshold does NVDA's causal prediction become unreliable?",
+  "options": [
+    {
+      "id": "A",
+      "text": "Outcome A"
+    },
+    {
+      "id": "B",
+      "text": "Outcome B"
+    }
+  ],
+  "context": "Temporal reliability analysis",
+  "background": "Financial market analysis using causal graph relationships between assets.",
+  "cap_request": {
+    "capability": "sensitivity",
+    "input": {
+      "target_node": "NVDA",
+      "analysis_type": "temporal_reliability",
+      "tau_range": [
+        1,
+        12,
+        24,
+        48,
+        72,
+        168
+      ],
+      "metric": "prediction_accuracy_decay"
+    }
+  },
+  "resolution_criteria": {
+    "type": "manual",
+    "metric": "expert_evaluation",
+    "measurement": {
+      "start_time": "prediction_time",
+      "end_time": "prediction_time + 24h"
+    },
+    "thresholds": {
+      "A": "TBD",
+      "B": "TBD"
+    }
+  },
+  "ground_truth": {
+    "source": "expert_judgment",
+    "verification_method": "manual_review",
+    "ticker": "UNKNOWN",
+    "resolution_time": 24,
+    "metric": "exact_match"
+  },
+  "scoring": {
+    "method": "exact_match",
+    "points": 1.0,
+    "bonus_for_confidence": true,
+    "partial_credit": false
+  },
+  "metadata": {
+    "original_category": "D",
+    "cap_primitive": "sensitivity",
+    "complexity": "L2",
+    "cap_ability": "full"
+  }
+}
