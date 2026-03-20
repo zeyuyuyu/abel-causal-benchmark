@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00079",
+  "question": "Who was the current champion of the PURE Insurance Championship in 2022?",
+  "year": 2022,
+  "ground_truth": "Steve Flesch",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Steve Flesch",
+      "tag": "correct"
+    },
+    {
+      "answer": "K. J. Choi",
+      "tag": "past"
+    },
+    {
+      "answer": "Thongchai Jaidee",
+      "tag": "future"
+    },
+    {
+      "answer": "Jim Furyk",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_098",
+  "index": 98,
+  "dataset_group": "research_papers",
+  "causal_question": "Among mayoral candidates in close elections near the 50% vote-share threshold, what is the causal effect of barely winning (thus becoming the incumbent) on the probability of running in and winning the next election?",
+  "vague_question": "In mayoral races decided by a razor-thin margin, how much does barely winning-thereby holding office-change the chance the candidate runs again and wins the next election?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0065/metadata.txt",
+  "data_path": "data/ds_0065/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/dbk_2018/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/dbk_2018/question_2/estimation.py",
+  "effect": 0.35091373872060516,
+  "standard_error": 0.029237931149219822,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

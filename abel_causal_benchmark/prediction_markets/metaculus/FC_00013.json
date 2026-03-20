@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00013",
+  "split": "train",
+  "question": "Is Graph Isomorphism solvable in Polynomial Time?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In graph theory, two graphs are isomorphic if there is a one-to-one correspondence between their vertex sets (details here). The computational task of determining whether two graphs are isomorphic is known as the graph isomorphism problem. The problem arises in many applications, for example, in electronic design automation when one needs a demonstration that two circuit representations are equivalent.\nThe question of whether graph isomorphism is always solvable in polynomial time is a major open problem in computer science. The problem belongs to NP, but it has not yet been determined whether it is P or NP-complete.\nA new breakthrough in the graph isomorphism problem is implied by the abstract of a theoretical computer science seminar scheduled for Nov. 10th, 2015 at the University of Chicago.\nBy June 1, 2017, will the graph isomorphism problem have been proved to always be solvable in polynomial time?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-05",
+  "date_close": "2016-05-01",
+  "date_resolve_at": "2017-06-02",
+  "url": "https://www.metaculus.com/api2/questions/16/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

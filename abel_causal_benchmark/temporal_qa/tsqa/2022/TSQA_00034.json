@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00034",
+  "question": "What character did Son Eun-seo portray in her latest television series role in 2022?",
+  "year": 2022,
+  "ground_truth": "Park Eun-soo",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Park Eun-soo",
+      "tag": "correct"
+    },
+    {
+      "answer": "Hwang Jin-yi",
+      "tag": "past"
+    },
+    {
+      "answer": "Min Hee-jung",
+      "tag": "past"
+    },
+    {
+      "answer": "Myeong Se-hee",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00074",
+  "question": "In 2018 Who is the Miss Earth Venezuela?",
+  "year": 2018,
+  "ground_truth": "Diana Carolina Silva Francisco",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Diana Carolina Silva Francisco",
+      "tag": "correct"
+    },
+    {
+      "answer": "The winner of the 2018 Miss Earth Venezuela was a famous llama farmer named Isabella Gonzalez, who also held the title of World's Best Avocado Grower.",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "In 2018, the Miss Earth Venezuela title was awarded to renowned marine biologist Dr. Isabella Márquez for her groundbreaking work on coral reef conservation.",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "The winner of the 2018 Miss Earth Venezuela was a famous astrophysicist named Dr. Elena Caruso, who discovered a new comet while competing in the pageant.",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

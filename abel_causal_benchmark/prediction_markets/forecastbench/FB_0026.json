@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0026",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Grimes come out of retirement in 2024?",
+  "background": "On the evening of December 29, 2023, Grimes posted, \"My friends are convincing me to come out of retirement this year.\" Assuming she meant \"this coming year\" and not in the final days of 2023, will this happen?\n\n\nI propose to resolve on the following criteria: \n\nThe market will resolve as YES if Grimes releases a new album or EP before December 31, 2024. The release must be officially announced by Grimes and be available on major streaming platforms or physical formats.\n\nThe market will resolve as YES if Grimes performs live as Grimes (distinct from a DJ set or guest feature) in a tour that begins before December 31, 2024. For the purposes of this market, a \"tour\" means at least 5 performances across different cities, OR anything that is officially called a tour by Grimes. The performances must be officially announced by Grimes or the event organizers and be open to the public.\n\nThe market will resolve as NO otherwise.\n\nI am open to recommendations (from Grimes or any interested parties) on the details of the resolution criteria. \n\nRelated market:\n\n\n(https://manifold.markets/embed/Clark/if-grimes-comes-out-of-retirement-i)\n\n",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "6KE2Xg2UZfJzNWXXpSzo",
+  "category": "prediction_markets"
+}

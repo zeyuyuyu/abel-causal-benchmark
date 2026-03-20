@@ -1,0 +1,10 @@
+{
+  "id": "687756de9a85d40047c45626",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-02-05, who will be the athletes ranked from 10 to 12 in the latest World Athletics men's triple jump rankings? (Give the names only)\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-05",
+  "level": 3,
+  "title": "2026-02-05, who will be the athletes ranked from 10 to 12 in the latest World Athletics men's triple jump rankings? (Give the names only)",
+  "ground_truth": "['Jonathan SEREMES', 'Thomas GOGOIS', 'Wen SU']",
+  "__index_level_0__": 163,
+  "category": "future_prediction"
+}

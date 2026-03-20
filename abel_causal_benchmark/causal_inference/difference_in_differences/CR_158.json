@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_158",
+  "index": 158,
+  "dataset_group": "textbook",
+  "causal_question": "What was the average effect of California's 1988 Proposition 99 (the tobacco tax and regulations) on per-capita cigarette sales in California relative to other states over 1970-2000 (i.e., the average treatment effect on the treated for California)?",
+  "vague_question": "Did California's 1988 tobacco law reduce cigarette sales in California compared with other states?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0123/metadata.txt",
+  "data_path": "data/ds_0123/data/data.csv",
+  "identification_spec": "solutions/textbook/QR data-other/smoking2_0/question/identification.json",
+  "estimation_code": "solutions/textbook/QR data-other/smoking2_0/question/estimation.py",
+  "effect": -27.35,
+  "standard_error": 4.55,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

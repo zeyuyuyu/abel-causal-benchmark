@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00019",
+  "question": "Which team did Stefan Ilsanker play for in 2020?",
+  "year": 2020,
+  "ground_truth": "Eintracht Frankfurt",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Eintracht Frankfurt",
+      "tag": "correct"
+    },
+    {
+      "answer": "RB Leipzig",
+      "tag": "past"
+    },
+    {
+      "answer": "Genoa",
+      "tag": "future"
+    },
+    {
+      "answer": "Red Bull Salzburg",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

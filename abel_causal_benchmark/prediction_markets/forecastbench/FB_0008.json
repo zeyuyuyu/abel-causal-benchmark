@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0008",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "F1 2024 - Will Lewis Hamilton finish ahead of George Russell in the WDC?",
+  "background": "The 2024 F1 season kicks off this week - the first race is the Bahrain Grand Prix on Saturday 2nd March.\n\nThis will be Lewis Hamilton's last season with Mercedes as he has announced that he will be leaving for Ferrari next year. Will he beat his teammate George Russell in the drivers' championship in their final season together?\n\nNotes:\n\nThis market will go by the official WDC rankings. If the two drivers are tied on points, WDC positions are decided on countback (ie. most wins is used as a tiebreaker, then most second places, etc).\n\nIf one of the two drivers withdraws, moves team during the season, leaves the sport or misses races for any reason at all, the market will still resolve as normal to the driver who is ahead in the WDC.\n\nThe market will resolve early if one driver is so far ahead that the other driver can't beat them even if they get maximum points for the rest of the season.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "qHvlpClQ3NOnS3yD46oB",
+  "category": "prediction_markets"
+}

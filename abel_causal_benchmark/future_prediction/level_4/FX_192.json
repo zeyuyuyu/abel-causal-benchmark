@@ -1,0 +1,10 @@
+{
+  "id": "685171e0560ebb0061efb2c3",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will be the total market capitalization (总市值) of Ping An Bank (000001) on the Shenzhen Stock Exchange in hundreds of millions of yuan (two decimal places)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-06",
+  "level": 4,
+  "title": "2026-03-06, what will be the total market capitalization (总市值) of Ping An Bank (000001) on the Shenzhen Stock Exchange in hundreds of millions of yuan (two decimal places)?",
+  "ground_truth": "[2099.72]",
+  "__index_level_0__": 240,
+  "category": "future_prediction"
+}

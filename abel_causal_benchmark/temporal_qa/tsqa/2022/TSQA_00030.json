@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00030",
+  "question": "Which club is the runner-up in the Basketball League of Serbia First League in 2022?",
+  "year": 2022,
+  "ground_truth": "Dynamic BG",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Dynamic BG",
+      "tag": "correct"
+    },
+    {
+      "answer": "Borac Čačak",
+      "tag": "past"
+    },
+    {
+      "answer": "Vojvodina",
+      "tag": "future"
+    },
+    {
+      "answer": "Spartak",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

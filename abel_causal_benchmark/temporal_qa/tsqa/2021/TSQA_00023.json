@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00023",
+  "question": "In 2021 In which division is Përparim Hetemaj currently competing?",
+  "year": 2021,
+  "ground_truth": "Serie B",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Serie B",
+      "tag": "correct"
+    },
+    {
+      "answer": "Serie A",
+      "tag": "past"
+    },
+    {
+      "answer": "Veikkausliiga",
+      "tag": "future"
+    },
+    {
+      "answer": "Premier League",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

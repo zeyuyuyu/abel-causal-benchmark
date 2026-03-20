@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00058",
+  "question": "Which football club was Stavros Petavrakis playing for in 2015?",
+  "year": 2015,
+  "ground_truth": "AEK Athens",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "AEK Athens",
+      "tag": "correct"
+    },
+    {
+      "answer": "Fostiras",
+      "tag": "past"
+    },
+    {
+      "answer": "Lamia",
+      "tag": "future"
+    },
+    {
+      "answer": "Panserraikos",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

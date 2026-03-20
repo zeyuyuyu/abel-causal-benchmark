@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00002",
+  "split": "train",
+  "question": "Will SpaceX successfully land a Falcon 9 rocket on a barge by February 28, 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "SpaceX's Falcon 9 rockets are designed to be re-used after landing vertically on a floating barge-based landing site. To date, these landings have not been fully successful.\nWill SpaceX, by Feb 28, 2016, land a Falcon 9 well enough so that it sustains little enough damage that it can be re-used?\nAs of mid-November, the SpaceX launch schedule lists approximately eight upcoming Falcon 9 Launches in 2015 or early 2016.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-26",
+  "date_close": "2016-01-30",
+  "date_resolve_at": "2016-02-28",
+  "url": "https://www.metaculus.com/api2/questions/2/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

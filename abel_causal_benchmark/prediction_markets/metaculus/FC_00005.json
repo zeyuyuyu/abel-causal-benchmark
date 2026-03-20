@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00005",
+  "split": "train",
+  "question": "Will the cost of sequencing a human genome fall below $500 by mid 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The cost of sequencing a human genome has been falling at a rate considerably faster than Moore's law since the first genome was sequenced in 2001, according to the NIH.\nThis cost reduction has, however, occurred in fits and starts, with periods of plateau punctuated by significant cost reductions.\nWill the cost plateau for several years at approximately $1000 per genome, or fall to below $500 USD by June 30, 2016?\nThe question resolves affirmative if there is an entry for June or earlier in the table provided by the National Human Genome Research Institute putting the cost below $500, and resolve negatively if the table has an entry of for July 2016 or later with a cost exceeding $500.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-26",
+  "date_close": "2016-02-15",
+  "date_resolve_at": "2017-12-01",
+  "url": "https://www.metaculus.com/api2/questions/7/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

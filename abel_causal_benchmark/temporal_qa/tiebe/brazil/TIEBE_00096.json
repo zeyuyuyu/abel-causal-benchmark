@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00096",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "08",
+  "question": "Who was elected as the secretary-general of the International Seabed Authority in August 2024?",
+  "ground_truth": "Leticia Carvalho of Brazil was elected as the secretary-general of the International Seabed Authority in August 2024.",
+  "event_desc": "Leticia Carvalho of Brazil is elected as secretary-general of the International Seabed Authority.",
+  "category": "temporal_qa"
+}

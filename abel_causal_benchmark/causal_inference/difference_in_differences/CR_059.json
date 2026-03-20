@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_059",
+  "index": 59,
+  "dataset_group": "research_papers",
+  "causal_question": "Did cities first subject to a Fair Housing Act injunctive-relief decision in 1997 experience a decline in the share of non-Hispanic White residents by 1998 relative to cities that had not experienced such a decision by 1998?",
+  "vague_question": "Did cities that got their first Fair Housing Act court injunction in 1997 tend to see a drop in the share of non-Hispanic White residents by 1998?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0031/metadata.txt",
+  "data_path": "data/ds_0031/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Trounstine_2020/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Trounstine_2020/question_1/estimation.py",
+  "effect": -0.003236520046317505,
+  "standard_error": 0.004876518769263402,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

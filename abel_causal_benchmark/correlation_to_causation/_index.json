@@ -1,0 +1,821 @@
+{
+  "metadata": {
+    "source": "causal-nlp/corr2cause",
+    "split": "test",
+    "total_cases": 1162,
+    "label_distribution": {
+      "0": 982,
+      "1": 180
+    },
+    "template_distribution": {
+      "non-parent ancestor": 195,
+      "parent": 194,
+      "child": 194,
+      "has_collider": 193,
+      "non-child descendant": 193,
+      "has_confounder": 193
+    }
+  },
+  "cases": [
+    {
+      "file_id": "C2C_0001",
+      "label": 0,
+      "num_variables": 2,
+      "template": "has_collider",
+      "filename": "C2C_0001.json",
+      "path": "correlation_to_causation/has_collider/C2C_0001.json"
+    },
+    {
+      "file_id": "C2C_0002",
+      "label": 0,
+      "num_variables": 2,
+      "template": "parent",
+      "filename": "C2C_0002.json",
+      "path": "correlation_to_causation/parent/C2C_0002.json"
+    },
+    {
+      "file_id": "C2C_0003",
+      "label": 0,
+      "num_variables": 2,
+      "template": "non-child descendant",
+      "filename": "C2C_0003.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0003.json"
+    },
+    {
+      "file_id": "C2C_0004",
+      "label": 0,
+      "num_variables": 2,
+      "template": "child",
+      "filename": "C2C_0004.json",
+      "path": "correlation_to_causation/child/C2C_0004.json"
+    },
+    {
+      "file_id": "C2C_0005",
+      "label": 0,
+      "num_variables": 2,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0005.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0005.json"
+    },
+    {
+      "file_id": "C2C_0006",
+      "label": 0,
+      "num_variables": 2,
+      "template": "has_confounder",
+      "filename": "C2C_0006.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0006.json"
+    },
+    {
+      "file_id": "C2C_0007",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0007.json",
+      "path": "correlation_to_causation/has_collider/C2C_0007.json"
+    },
+    {
+      "file_id": "C2C_0008",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0008.json",
+      "path": "correlation_to_causation/parent/C2C_0008.json"
+    },
+    {
+      "file_id": "C2C_0009",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0009.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0009.json"
+    },
+    {
+      "file_id": "C2C_0010",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0010.json",
+      "path": "correlation_to_causation/child/C2C_0010.json"
+    },
+    {
+      "file_id": "C2C_0011",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0011.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0011.json"
+    },
+    {
+      "file_id": "C2C_0012",
+      "label": 1,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0012.json",
+      "path": "correlation_to_causation/parent/C2C_0012.json"
+    },
+    {
+      "file_id": "C2C_0013",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0013.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0013.json"
+    },
+    {
+      "file_id": "C2C_0014",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0014.json",
+      "path": "correlation_to_causation/child/C2C_0014.json"
+    },
+    {
+      "file_id": "C2C_0015",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0015.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0015.json"
+    },
+    {
+      "file_id": "C2C_0016",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0016.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0016.json"
+    },
+    {
+      "file_id": "C2C_0017",
+      "label": 1,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0017.json",
+      "path": "correlation_to_causation/parent/C2C_0017.json"
+    },
+    {
+      "file_id": "C2C_0018",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0018.json",
+      "path": "correlation_to_causation/child/C2C_0018.json"
+    },
+    {
+      "file_id": "C2C_0019",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0019.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0019.json"
+    },
+    {
+      "file_id": "C2C_0020",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0020.json",
+      "path": "correlation_to_causation/parent/C2C_0020.json"
+    },
+    {
+      "file_id": "C2C_0021",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0021.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0021.json"
+    },
+    {
+      "file_id": "C2C_0022",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0022.json",
+      "path": "correlation_to_causation/has_collider/C2C_0022.json"
+    },
+    {
+      "file_id": "C2C_0023",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0023.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0023.json"
+    },
+    {
+      "file_id": "C2C_0024",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0024.json",
+      "path": "correlation_to_causation/parent/C2C_0024.json"
+    },
+    {
+      "file_id": "C2C_0025",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0025.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0025.json"
+    },
+    {
+      "file_id": "C2C_0026",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0026.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0026.json"
+    },
+    {
+      "file_id": "C2C_0027",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0027.json",
+      "path": "correlation_to_causation/child/C2C_0027.json"
+    },
+    {
+      "file_id": "C2C_0028",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0028.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0028.json"
+    },
+    {
+      "file_id": "C2C_0029",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0029.json",
+      "path": "correlation_to_causation/parent/C2C_0029.json"
+    },
+    {
+      "file_id": "C2C_0030",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0030.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0030.json"
+    },
+    {
+      "file_id": "C2C_0031",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0031.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0031.json"
+    },
+    {
+      "file_id": "C2C_0032",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0032.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0032.json"
+    },
+    {
+      "file_id": "C2C_0033",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0033.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0033.json"
+    },
+    {
+      "file_id": "C2C_0034",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0034.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0034.json"
+    },
+    {
+      "file_id": "C2C_0035",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0035.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0035.json"
+    },
+    {
+      "file_id": "C2C_0036",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_confounder",
+      "filename": "C2C_0036.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0036.json"
+    },
+    {
+      "file_id": "C2C_0037",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0037.json",
+      "path": "correlation_to_causation/has_collider/C2C_0037.json"
+    },
+    {
+      "file_id": "C2C_0038",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0038.json",
+      "path": "correlation_to_causation/has_collider/C2C_0038.json"
+    },
+    {
+      "file_id": "C2C_0039",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0039.json",
+      "path": "correlation_to_causation/has_collider/C2C_0039.json"
+    },
+    {
+      "file_id": "C2C_0040",
+      "label": 1,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0040.json",
+      "path": "correlation_to_causation/has_collider/C2C_0040.json"
+    },
+    {
+      "file_id": "C2C_0041",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0041.json",
+      "path": "correlation_to_causation/parent/C2C_0041.json"
+    },
+    {
+      "file_id": "C2C_0042",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0042.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0042.json"
+    },
+    {
+      "file_id": "C2C_0043",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0043.json",
+      "path": "correlation_to_causation/child/C2C_0043.json"
+    },
+    {
+      "file_id": "C2C_0044",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0044.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0044.json"
+    },
+    {
+      "file_id": "C2C_0045",
+      "label": 0,
+      "num_variables": 3,
+      "template": "parent",
+      "filename": "C2C_0045.json",
+      "path": "correlation_to_causation/parent/C2C_0045.json"
+    },
+    {
+      "file_id": "C2C_0046",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0046.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0046.json"
+    },
+    {
+      "file_id": "C2C_0047",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0047.json",
+      "path": "correlation_to_causation/child/C2C_0047.json"
+    },
+    {
+      "file_id": "C2C_0048",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0048.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0048.json"
+    },
+    {
+      "file_id": "C2C_0049",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0049.json",
+      "path": "correlation_to_causation/child/C2C_0049.json"
+    },
+    {
+      "file_id": "C2C_0050",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-child descendant",
+      "filename": "C2C_0050.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0050.json"
+    },
+    {
+      "file_id": "C2C_0051",
+      "label": 0,
+      "num_variables": 3,
+      "template": "child",
+      "filename": "C2C_0051.json",
+      "path": "correlation_to_causation/child/C2C_0051.json"
+    },
+    {
+      "file_id": "C2C_0052",
+      "label": 0,
+      "num_variables": 3,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0052.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0052.json"
+    },
+    {
+      "file_id": "C2C_0053",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0053.json",
+      "path": "correlation_to_causation/has_collider/C2C_0053.json"
+    },
+    {
+      "file_id": "C2C_0054",
+      "label": 0,
+      "num_variables": 3,
+      "template": "has_collider",
+      "filename": "C2C_0054.json",
+      "path": "correlation_to_causation/has_collider/C2C_0054.json"
+    },
+    {
+      "file_id": "C2C_0055",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0055.json",
+      "path": "correlation_to_causation/child/C2C_0055.json"
+    },
+    {
+      "file_id": "C2C_0056",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0056.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0056.json"
+    },
+    {
+      "file_id": "C2C_0057",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0057.json",
+      "path": "correlation_to_causation/parent/C2C_0057.json"
+    },
+    {
+      "file_id": "C2C_0058",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0058.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0058.json"
+    },
+    {
+      "file_id": "C2C_0059",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0059.json",
+      "path": "correlation_to_causation/child/C2C_0059.json"
+    },
+    {
+      "file_id": "C2C_0060",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0060.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0060.json"
+    },
+    {
+      "file_id": "C2C_0061",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0061.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0061.json"
+    },
+    {
+      "file_id": "C2C_0062",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0062.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0062.json"
+    },
+    {
+      "file_id": "C2C_0063",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0063.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0063.json"
+    },
+    {
+      "file_id": "C2C_0064",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0064.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0064.json"
+    },
+    {
+      "file_id": "C2C_0065",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0065.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0065.json"
+    },
+    {
+      "file_id": "C2C_0066",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0066.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0066.json"
+    },
+    {
+      "file_id": "C2C_0067",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0067.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0067.json"
+    },
+    {
+      "file_id": "C2C_0068",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0068.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0068.json"
+    },
+    {
+      "file_id": "C2C_0069",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0069.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0069.json"
+    },
+    {
+      "file_id": "C2C_0070",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0070.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0070.json"
+    },
+    {
+      "file_id": "C2C_0071",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0071.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0071.json"
+    },
+    {
+      "file_id": "C2C_0072",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0072.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0072.json"
+    },
+    {
+      "file_id": "C2C_0073",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0073.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0073.json"
+    },
+    {
+      "file_id": "C2C_0074",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0074.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0074.json"
+    },
+    {
+      "file_id": "C2C_0075",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0075.json",
+      "path": "correlation_to_causation/parent/C2C_0075.json"
+    },
+    {
+      "file_id": "C2C_0076",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0076.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0076.json"
+    },
+    {
+      "file_id": "C2C_0077",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0077.json",
+      "path": "correlation_to_causation/child/C2C_0077.json"
+    },
+    {
+      "file_id": "C2C_0078",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0078.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0078.json"
+    },
+    {
+      "file_id": "C2C_0079",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0079.json",
+      "path": "correlation_to_causation/parent/C2C_0079.json"
+    },
+    {
+      "file_id": "C2C_0080",
+      "label": 0,
+      "num_variables": 4,
+      "template": "has_confounder",
+      "filename": "C2C_0080.json",
+      "path": "correlation_to_causation/has_confounder/C2C_0080.json"
+    },
+    {
+      "file_id": "C2C_0081",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0081.json",
+      "path": "correlation_to_causation/parent/C2C_0081.json"
+    },
+    {
+      "file_id": "C2C_0082",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0082.json",
+      "path": "correlation_to_causation/child/C2C_0082.json"
+    },
+    {
+      "file_id": "C2C_0083",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0083.json",
+      "path": "correlation_to_causation/child/C2C_0083.json"
+    },
+    {
+      "file_id": "C2C_0084",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0084.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0084.json"
+    },
+    {
+      "file_id": "C2C_0085",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0085.json",
+      "path": "correlation_to_causation/parent/C2C_0085.json"
+    },
+    {
+      "file_id": "C2C_0086",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0086.json",
+      "path": "correlation_to_causation/parent/C2C_0086.json"
+    },
+    {
+      "file_id": "C2C_0087",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0087.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0087.json"
+    },
+    {
+      "file_id": "C2C_0088",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0088.json",
+      "path": "correlation_to_causation/child/C2C_0088.json"
+    },
+    {
+      "file_id": "C2C_0089",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0089.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0089.json"
+    },
+    {
+      "file_id": "C2C_0090",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0090.json",
+      "path": "correlation_to_causation/parent/C2C_0090.json"
+    },
+    {
+      "file_id": "C2C_0091",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0091.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0091.json"
+    },
+    {
+      "file_id": "C2C_0092",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0092.json",
+      "path": "correlation_to_causation/child/C2C_0092.json"
+    },
+    {
+      "file_id": "C2C_0093",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0093.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0093.json"
+    },
+    {
+      "file_id": "C2C_0094",
+      "label": 0,
+      "num_variables": 4,
+      "template": "parent",
+      "filename": "C2C_0094.json",
+      "path": "correlation_to_causation/parent/C2C_0094.json"
+    },
+    {
+      "file_id": "C2C_0095",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0095.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0095.json"
+    },
+    {
+      "file_id": "C2C_0096",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0096.json",
+      "path": "correlation_to_causation/child/C2C_0096.json"
+    },
+    {
+      "file_id": "C2C_0097",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0097.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0097.json"
+    },
+    {
+      "file_id": "C2C_0098",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-parent ancestor",
+      "filename": "C2C_0098.json",
+      "path": "correlation_to_causation/non_parent_ancestor/C2C_0098.json"
+    },
+    {
+      "file_id": "C2C_0099",
+      "label": 0,
+      "num_variables": 4,
+      "template": "non-child descendant",
+      "filename": "C2C_0099.json",
+      "path": "correlation_to_causation/non_child_descendant/C2C_0099.json"
+    },
+    {
+      "file_id": "C2C_0100",
+      "label": 0,
+      "num_variables": 4,
+      "template": "child",
+      "filename": "C2C_0100.json",
+      "path": "correlation_to_causation/child/C2C_0100.json"
+    }
+  ]
+}

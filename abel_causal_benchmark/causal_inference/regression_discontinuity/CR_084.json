@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_084",
+  "index": 84,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the local average causal effect of incumbency (winning election t) on an LDP candidate's probability of both running again and winning in election t+1?",
+  "vague_question": "If a candidate just wins a seat, how does that change their chance of both running again and winning the next election compared to just losing?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0053/metadata.txt",
+  "data_path": "data/ds_0053/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/ariga_2015/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/ariga_2015/question_2/estimation.py",
+  "effect": 0.0009387463216853353,
+  "standard_error": 0.055373079099279,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

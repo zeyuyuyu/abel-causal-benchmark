@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00048",
+  "question": "In 2016 Which team was the runner-up in the latest Campeonato Catarinense Série B championship?",
+  "year": 2016,
+  "ground_truth": "Atlético Tubarão",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Atlético Tubarão",
+      "tag": "correct"
+    },
+    {
+      "answer": "Brusque",
+      "tag": "past"
+    },
+    {
+      "answer": "Hercílio Luz",
+      "tag": "future"
+    },
+    {
+      "answer": "Camboriú",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

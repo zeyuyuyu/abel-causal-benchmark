@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00010",
+  "split": "train",
+  "question": "In the coming months, will a robot/AI injure a human being or, through inaction, allow a human being to come to harm?",
+  "background": "Although far from human level in many respects, artificially intelligent (AI) systems and autonomous agents of greatly increasing sophistication are entering society in the form of, for example, automated trading, autonomous vehicles, robots, and autonomous weapons.\nSuch systems are beginning to make \"decisions\" that could save or cost human lives. For example:\nRecently, an industrial robot in Germany, through a programming error, [fatally injured factory worker].\nAutonomous vehicles are likely to save many lives as compared to human drivers, but could in principle malfunction, or in rare cases [be forced to \"choose\" to injure one person in order to save others] (a real-life version of the philosophical [trolley problem].)\n[Autonomous weapons] engineered to to choose and engage targets without human intervention exist, and although they are (presently, formally) eschewed by most militaries, seem likely to be deployed in coming years unless prevented by [international agreement].",
+  "resolution_criteria": "By March 1, 2016, will one of the top 25 news outlets by media traffic publish a story reporting that a \"robot\", \"autonomous\" system, or \"AI\" system, though an error or \"choice\", or failure to act appropriately, has directly caused physical harm to come to a human?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-02",
+  "date_close": "2015-12-31",
+  "date_resolve_at": "2016-03-01",
+  "url": "https://www.metaculus.com/api2/questions/13/",
+  "gpt_3p5_category": "Security & Defense",
+  "category": "prediction_markets"
+}

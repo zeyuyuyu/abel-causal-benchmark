@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00015",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "02",
+  "question": "What action did Brazilian President Jair Bolsonaro take in February 2021 to prevent a truckers' strike?",
+  "ground_truth": "He agreed to a two-month delay on federal tariffs on diesel fuel.",
+  "event_desc": "President Bolsonaro prevents a truckers′ strike by agreeing to a two-month delay on federal tariffs on diesel fuel.",
+  "category": "temporal_qa"
+}

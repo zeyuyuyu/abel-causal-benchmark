@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "name": "Abel Causal Benchmark",
+    "description": "Comprehensive causal inference and future prediction benchmark datasets",
+    "version": "2.0",
+    "created_date": "2026-03-20",
+    "total_cases": 751
+  },
+  "categories": {
+    "future_prediction": {
+      "name": "Future Prediction",
+      "subcategories": {
+        "level_4": 26,
+        "level_3": 14,
+        "level_2": 82,
+        "level_1": 86
+      }
+    },
+    "prediction_markets": {
+      "name": "Prediction Markets",
+      "subcategories": {
+        "forecastbench": 50,
+        "metaculus": 20,
+        "polymarket": 0,
+        "manifold": 0,
+        "infer": 0,
+        "good_judgment": 0
+      }
+    },
+    "temporal_qa": {
+      "name": "Temporal QA",
+      "subcategories": {
+        "tsqa": 100,
+        "tiebe": 100
+      }
+    },
+    "causal_inference": {
+      "name": "Causal Inference",
+      "subcategories": {
+        "instrumental_variable": 22,
+        "regression_discontinuity": 44,
+        "rct": 1,
+        "conditional_exogeneity": 39,
+        "difference_in_differences": 67
+      }
+    },
+    "correlation_to_causation": {
+      "name": "Correlation to Causation",
+      "subcategories": {
+        "non_parent_ancestor": 16,
+        "test": 0,
+        "non_child_descendant": 19,
+        "has_collider": 9,
+        "parent": 17,
+        "child": 18,
+        "has_confounder": 21
+      }
+    }
+  }
+}

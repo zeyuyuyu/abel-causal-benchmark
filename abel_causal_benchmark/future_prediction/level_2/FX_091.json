@@ -1,0 +1,10 @@
+{
+  "id": "695fa38ae56c28005d3c3248",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"[January 2026] Top 10 cards in the MTG Arena Powered Cube (by 17Lands GIH WR) (resolved around 2026-02-01 (GMT+8)). \nA. the outcome be Time Walk\nB. the outcome be Black Lotus\nC. the outcome be Ocelot Pride\nD. the outcome be Orcish Bowmasters\nE. the outcome be Mana Crypt\nF. the outcome be Ancestral Recall\nG. the outcome be Parallax Wave\nH. the outcome be Comet, Stellar Pup\nI. the outcome be Ajani, Nacatl Pariah\nJ. the outcome be Sol Ring\nK. the outcome be Mox Sapphire\nL. the outcome be Mox Pearl\nM. the outcome be Flash\nN. the outcome be Broadside Bombardiers\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-01 00:00:00",
+  "level": 2,
+  "title": "[January 2026] Top 10 cards in the MTG Arena Powered Cube (by 17Lands GIH WR)",
+  "ground_truth": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']",
+  "__index_level_0__": 91,
+  "category": "future_prediction"
+}

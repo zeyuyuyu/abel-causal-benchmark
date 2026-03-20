@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_096",
+  "index": 96,
+  "dataset_group": "research_papers",
+  "causal_question": "Among Danish parents whose child's age lies just around the voting-eligibility threshold in 2015, what is the average effect of the child being newly eligible to vote on the parent's probability of voting?",
+  "vague_question": "For parents whose child is just reaching voting age in 2015, how much does that make the parent more likely to vote? We measure the change in the parent's voting rate right at that threshold.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0064/metadata.txt",
+  "data_path": "data/ds_0064/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/dahlgard_2018d/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/dahlgard_2018d/question_1/estimation.py",
+  "effect": 0.029025090251154628,
+  "standard_error": 0.00963570447614711,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

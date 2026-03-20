@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_063",
+  "index": 63,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of a one log-unit increase in logged EU ODA (EV) in year t-1 on the CIRI Human Empowerment index averaged over years t through t+3 in the study population?",
+  "vague_question": "Do short-term increases in EU development aid lead to measurable improvements in human rights over the following few years?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0033/metadata.txt",
+  "data_path": "data/ds_0033/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Carnegie2017/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Carnegie2017/question/estimation.py",
+  "effect": 1.7054492725151258,
+  "standard_error": 1.077795005022182,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

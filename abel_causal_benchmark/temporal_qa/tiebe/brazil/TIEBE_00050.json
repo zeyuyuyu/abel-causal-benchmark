@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00050",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "07",
+  "question": "Where did the fire at the Cinemateca Brasileira occur in July 2021?",
+  "ground_truth": "The fire occurred in a warehouse in the Vila Leopoldina neighborhood, in the western zone of São Paulo.",
+  "event_desc": "A fire breaks out in a warehouse at the Cinemateca Brasileira in São Paulo.",
+  "category": "temporal_qa"
+}

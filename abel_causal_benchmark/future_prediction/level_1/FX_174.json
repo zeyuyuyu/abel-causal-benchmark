@@ -1,0 +1,10 @@
+{
+  "id": "6987308956940e0068395804",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will a NON mercedes engine car win the 2026 Formula 1 Australian Grand Prix? (resolved around 2026-03-08 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-08",
+  "level": 1,
+  "title": "Will a NON mercedes engine car win the 2026 Formula 1 Australian Grand Prix?",
+  "ground_truth": "['No']",
+  "__index_level_0__": 213,
+  "category": "future_prediction"
+}

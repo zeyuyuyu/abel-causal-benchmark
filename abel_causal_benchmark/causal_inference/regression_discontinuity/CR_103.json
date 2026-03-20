@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_103",
+  "index": 103,
+  "dataset_group": "research_papers",
+  "causal_question": "Among French municipalities located at the WWII demarcation line, what is the causal effect of being placed under German military governance rather than Vichy governance on the expected number of sabotage events during Dec 1942-Sep 1944?",
+  "vague_question": "For towns right at the WWII line splitting German- and Vichy-ruled France, how did being under German rule versus Vichy rule change the number of sabotage attacks?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0069/metadata.txt",
+  "data_path": "data/ds_0069/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/ferwerda_miller_2014/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/ferwerda_miller_2014/question_1/estimation.py",
+  "effect": 1.8968586349647683,
+  "standard_error": 1.0412815755194038,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

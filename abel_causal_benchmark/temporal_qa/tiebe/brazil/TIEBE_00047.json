@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00047",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "07",
+  "question": "Which city is home to the Museum of the Portuguese Language?",
+  "ground_truth": "The museum is located in São Paulo, Brazil.",
+  "event_desc": "After being closed for almost six years for renovation, the Museum of the Portuguese Language reopens in São Paulo. The place suffered a fire in 2015, which destroyed part of the building.",
+  "category": "temporal_qa"
+}

@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00070",
+  "question": "In 2023 Who occupies the position of third in Oskar Eriksson's curling team?",
+  "year": 2023,
+  "ground_truth": "Oskar Eriksson",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Oskar Eriksson",
+      "tag": "correct"
+    },
+    {
+      "answer": "Kristian Lindström",
+      "tag": "past"
+    },
+    {
+      "answer": "Sebastian Kraupp",
+      "tag": "past"
+    },
+    {
+      "answer": "Carlos Rodriguez",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

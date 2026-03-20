@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00083",
+  "question": "In 2013 Which team was Marco Andretti racing for at the Indianapolis 500?",
+  "year": 2013,
+  "ground_truth": "Andretti Autosport",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Andretti Autosport",
+      "tag": "correct"
+    },
+    {
+      "answer": "Andretti Autosport with Yarrow",
+      "tag": "future"
+    },
+    {
+      "answer": "Andretti Herta Autosport with Curb-Agajanian",
+      "tag": "future"
+    },
+    {
+      "answer": "In 2013, Marco Andretti was racing for the Miami Dolphins at the Indianapolis 500.",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

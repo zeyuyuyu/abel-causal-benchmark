@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_156",
+  "index": 156,
+  "dataset_group": "textbook",
+  "causal_question": "What is the causal effect of one additional year of schooling on log wages for individuals whose educational attainment is shifted by variation in birth timing (i.e., the local average treatment effect for compliers)?",
+  "vague_question": "For people whose years of schooling were changed because of when in the year they were born, how much does an extra year of education raise their typical wages?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0121/metadata.txt",
+  "data_path": "data/ds_0121/data/data.csv",
+  "identification_spec": "solutions/textbook/QR data-other/ak91_0/question/identification.json",
+  "estimation_code": "solutions/textbook/QR data-other/ak91_0/question/estimation.py",
+  "effect": 8.53,
+  "standard_error": 2.55,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

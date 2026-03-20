@@ -1,0 +1,10 @@
+{
+  "id": "6957ba8a03568a006853e83f",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Price of DDR5-6000 2x16GB RAM at the end of January 2026 (resolved around 2026-02-01 (GMT+8)). \nA. the outcome be Less than $100\nB. the outcome be $100-$200\nC. the outcome be $200-$300\nD. the outcome be $300-$400\nE. the outcome be $400-$500\nF. the outcome be $500-$600\nG. the outcome be Other\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-01 00:00:00",
+  "level": 2,
+  "title": "Price of DDR5-6000 2x16GB RAM at the end of January 2026",
+  "ground_truth": "['F']",
+  "__index_level_0__": 78,
+  "category": "future_prediction"
+}

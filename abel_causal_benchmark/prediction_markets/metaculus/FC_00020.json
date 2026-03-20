@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00020",
+  "split": "train",
+  "question": "Experimental tests of quantum effects in cognition?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Because many formulations of quantum mechanics explicitly include the \"observer\" (or at least \"observation\"), the place of conscious observers in the foundations of quantum mechanics has been a frequent, and quite controversial, issue.\nConversely, difficult questions regarding how conscious or mental activity is related to brain activity (the so-called \"hard problem\") have led some to suppose that this mystery may be related to puzzles involving quantum mechanics. Penrose, for example, has argued that the mind/brain cannot be modeled as a classical device, and that quantum effects are integral to thought.\nIf the brain really acts as a quantum computer, then it should presumably contain quantum systems sufficiently isolated from their environment to retain their essential quantum nature, rather than decohering into effectively classical systems. This is a challenge in the warm, wet environment of the brain, where studies have calculated that quantum states of electron-based systems should decohere in a tiny fraction of a second.\nOn the other hand, if quantum effects are potentially useful, the evolutionary drive toward high optimization is likely to have exploited them. And indeed, there is good evidence that quantum effects are employed in photosynthesis and some other biological processes.\nRecently, a provocative paper by well-known physicist Matthew Fisher has appeared arguing that the nuceli of atoms are sufficiently isolated from the brain environment that nuclear spins could be used to store qubits, and manipulation of certain compounds could instantiate quantum computation. The paper proposes several experiments that could help validate or refute the hypotheses it puts forth.\nWill this \"quantum cognition\" hypothesis be taken sufficiently seriously by the scientific community to investigate and test it?\nThe question will resolve as true if, by December 1, 2016, (a) The paper attains at least 15 citations as reported by Google Scholar, and (b) a paper is published or posted on the arXiv reporting a completed laboratory experiment that was inspired by (and directly references) Fisher's paper.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-15",
+  "date_close": "2016-04-01",
+  "date_resolve_at": "2016-12-02",
+  "url": "https://www.metaculus.com/api2/questions/31/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

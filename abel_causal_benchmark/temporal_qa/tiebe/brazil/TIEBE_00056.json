@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00056",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "09",
+  "question": "What concerns did indigenous activists express before the pro-Bolsonaro rallies in Brasília in September 2021?",
+  "ground_truth": "Indigenous activists feared potential violence from Bolsonaro supporters and felt insecure, leading them to stay in their encampments for safety.",
+  "event_desc": "A small group of pro-Bolsonaro protesters attempt to invade an area blocked by the Military Police at the Praça dos Três Poderes in Brasília.",
+  "category": "temporal_qa"
+}

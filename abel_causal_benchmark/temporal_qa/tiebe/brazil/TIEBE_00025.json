@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00025",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "What record did São Paulo report in March 2021 regarding COVID-19 deaths?",
+  "ground_truth": "São Paulo reported a record 517 COVID-19 deaths in a single 24-hour period in March 2021.",
+  "event_desc": "-30 São Paulo suspends all religious and sporting activities, as the health services are overwhelmed with COVID-19 cases.",
+  "category": "temporal_qa"
+}

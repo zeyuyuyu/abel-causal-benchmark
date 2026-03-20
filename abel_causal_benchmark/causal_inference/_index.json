@@ -1,0 +1,1570 @@
+{
+  "metadata": {
+    "source": "syrgkanislab/CausalReasoningBenchmark",
+    "total_cases": 173,
+    "dataset_group_distribution": {
+      "research_papers": 120,
+      "textbook": 53
+    },
+    "strategy_distribution": {}
+  },
+  "cases": [
+    {
+      "file_id": "CR_001",
+      "index": 1,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_001.json",
+      "effect": -0.08348133345223285,
+      "path": "causal_inference/difference_in_differences/CR_001.json"
+    },
+    {
+      "file_id": "CR_002",
+      "index": 2,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_002.json",
+      "effect": -0.5949280867362181,
+      "path": "causal_inference/difference_in_differences/CR_002.json"
+    },
+    {
+      "file_id": "CR_003",
+      "index": 3,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_003.json",
+      "effect": 0.037260278134351676,
+      "path": "causal_inference/difference_in_differences/CR_003.json"
+    },
+    {
+      "file_id": "CR_004",
+      "index": 4,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_004.json",
+      "effect": 0.04130590477377359,
+      "path": "causal_inference/difference_in_differences/CR_004.json"
+    },
+    {
+      "file_id": "CR_005",
+      "index": 5,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_005.json",
+      "effect": 0.17720997130744254,
+      "path": "causal_inference/difference_in_differences/CR_005.json"
+    },
+    {
+      "file_id": "CR_006",
+      "index": 6,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_006.json",
+      "effect": 0.06865741478880348,
+      "path": "causal_inference/difference_in_differences/CR_006.json"
+    },
+    {
+      "file_id": "CR_007",
+      "index": 7,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_007.json",
+      "effect": 0.10058679829181771,
+      "path": "causal_inference/difference_in_differences/CR_007.json"
+    },
+    {
+      "file_id": "CR_008",
+      "index": 8,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_008.json",
+      "effect": 0.27327480718163333,
+      "path": "causal_inference/difference_in_differences/CR_008.json"
+    },
+    {
+      "file_id": "CR_009",
+      "index": 9,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_009.json",
+      "effect": -0.6822284477563296,
+      "path": "causal_inference/difference_in_differences/CR_009.json"
+    },
+    {
+      "file_id": "CR_010",
+      "index": 10,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_010.json",
+      "effect": -2.089422718345667,
+      "path": "causal_inference/difference_in_differences/CR_010.json"
+    },
+    {
+      "file_id": "CR_011",
+      "index": 11,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_011.json",
+      "effect": 4.255119515187162,
+      "path": "causal_inference/difference_in_differences/CR_011.json"
+    },
+    {
+      "file_id": "CR_012",
+      "index": 12,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_012.json",
+      "effect": 0.33639171169653814,
+      "path": "causal_inference/difference_in_differences/CR_012.json"
+    },
+    {
+      "file_id": "CR_013",
+      "index": 13,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_013.json",
+      "effect": 0.231641758856158,
+      "path": "causal_inference/difference_in_differences/CR_013.json"
+    },
+    {
+      "file_id": "CR_014",
+      "index": 14,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_014.json",
+      "effect": 0.013525759691176156,
+      "path": "causal_inference/difference_in_differences/CR_014.json"
+    },
+    {
+      "file_id": "CR_015",
+      "index": 15,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_015.json",
+      "effect": -0.02297228408669323,
+      "path": "causal_inference/difference_in_differences/CR_015.json"
+    },
+    {
+      "file_id": "CR_016",
+      "index": 16,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_016.json",
+      "effect": 7.097237775872275,
+      "path": "causal_inference/difference_in_differences/CR_016.json"
+    },
+    {
+      "file_id": "CR_017",
+      "index": 17,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_017.json",
+      "effect": 1.2700165764237865,
+      "path": "causal_inference/difference_in_differences/CR_017.json"
+    },
+    {
+      "file_id": "CR_018",
+      "index": 18,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_018.json",
+      "effect": 0.03486034259007323,
+      "path": "causal_inference/difference_in_differences/CR_018.json"
+    },
+    {
+      "file_id": "CR_019",
+      "index": 19,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_019.json",
+      "effect": 0.2365474758980179,
+      "path": "causal_inference/difference_in_differences/CR_019.json"
+    },
+    {
+      "file_id": "CR_020",
+      "index": 20,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_020.json",
+      "effect": 0.09373041314935598,
+      "path": "causal_inference/difference_in_differences/CR_020.json"
+    },
+    {
+      "file_id": "CR_021",
+      "index": 21,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_021.json",
+      "effect": 0.04669461453584012,
+      "path": "causal_inference/difference_in_differences/CR_021.json"
+    },
+    {
+      "file_id": "CR_022",
+      "index": 22,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_022.json",
+      "effect": -1.0193657368631843,
+      "path": "causal_inference/difference_in_differences/CR_022.json"
+    },
+    {
+      "file_id": "CR_023",
+      "index": 23,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_023.json",
+      "effect": -0.09086342748982335,
+      "path": "causal_inference/difference_in_differences/CR_023.json"
+    },
+    {
+      "file_id": "CR_024",
+      "index": 24,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_024.json",
+      "effect": 0.18930520472316303,
+      "path": "causal_inference/difference_in_differences/CR_024.json"
+    },
+    {
+      "file_id": "CR_025",
+      "index": 25,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_025.json",
+      "effect": 0.03944577932061476,
+      "path": "causal_inference/difference_in_differences/CR_025.json"
+    },
+    {
+      "file_id": "CR_026",
+      "index": 26,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_026.json",
+      "effect": 0.18635233670009496,
+      "path": "causal_inference/difference_in_differences/CR_026.json"
+    },
+    {
+      "file_id": "CR_027",
+      "index": 27,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_027.json",
+      "effect": 0.10091042241841729,
+      "path": "causal_inference/difference_in_differences/CR_027.json"
+    },
+    {
+      "file_id": "CR_028",
+      "index": 28,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_028.json",
+      "effect": 1.236634786812406,
+      "path": "causal_inference/difference_in_differences/CR_028.json"
+    },
+    {
+      "file_id": "CR_029",
+      "index": 29,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_029.json",
+      "effect": 1.2555431430045876,
+      "path": "causal_inference/difference_in_differences/CR_029.json"
+    },
+    {
+      "file_id": "CR_030",
+      "index": 30,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_030.json",
+      "effect": -0.5031064147781619,
+      "path": "causal_inference/difference_in_differences/CR_030.json"
+    },
+    {
+      "file_id": "CR_031",
+      "index": 31,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_031.json",
+      "effect": -0.5031064147781619,
+      "path": "causal_inference/difference_in_differences/CR_031.json"
+    },
+    {
+      "file_id": "CR_032",
+      "index": 32,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_032.json",
+      "effect": 0.19542464647176022,
+      "path": "causal_inference/difference_in_differences/CR_032.json"
+    },
+    {
+      "file_id": "CR_033",
+      "index": 33,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_033.json",
+      "effect": 0.61347038637508,
+      "path": "causal_inference/difference_in_differences/CR_033.json"
+    },
+    {
+      "file_id": "CR_034",
+      "index": 34,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_034.json",
+      "effect": 0.025700128104336445,
+      "path": "causal_inference/difference_in_differences/CR_034.json"
+    },
+    {
+      "file_id": "CR_035",
+      "index": 35,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_035.json",
+      "effect": -0.05266523832905763,
+      "path": "causal_inference/difference_in_differences/CR_035.json"
+    },
+    {
+      "file_id": "CR_036",
+      "index": 36,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_036.json",
+      "effect": 0.02558520667475296,
+      "path": "causal_inference/difference_in_differences/CR_036.json"
+    },
+    {
+      "file_id": "CR_037",
+      "index": 37,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_037.json",
+      "effect": 0.0314159748362815,
+      "path": "causal_inference/difference_in_differences/CR_037.json"
+    },
+    {
+      "file_id": "CR_038",
+      "index": 38,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_038.json",
+      "effect": 0.005333089463199402,
+      "path": "causal_inference/difference_in_differences/CR_038.json"
+    },
+    {
+      "file_id": "CR_039",
+      "index": 39,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_039.json",
+      "effect": -0.0008283822752591808,
+      "path": "causal_inference/difference_in_differences/CR_039.json"
+    },
+    {
+      "file_id": "CR_040",
+      "index": 40,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_040.json",
+      "effect": 0.015806564832344584,
+      "path": "causal_inference/difference_in_differences/CR_040.json"
+    },
+    {
+      "file_id": "CR_041",
+      "index": 41,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_041.json",
+      "effect": 0.017052902229742505,
+      "path": "causal_inference/difference_in_differences/CR_041.json"
+    },
+    {
+      "file_id": "CR_042",
+      "index": 42,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_042.json",
+      "effect": -0.030004441602746863,
+      "path": "causal_inference/difference_in_differences/CR_042.json"
+    },
+    {
+      "file_id": "CR_043",
+      "index": 43,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_043.json",
+      "effect": -0.03508389021190769,
+      "path": "causal_inference/difference_in_differences/CR_043.json"
+    },
+    {
+      "file_id": "CR_044",
+      "index": 44,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_044.json",
+      "effect": -7.320133528775574,
+      "path": "causal_inference/difference_in_differences/CR_044.json"
+    },
+    {
+      "file_id": "CR_045",
+      "index": 45,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_045.json",
+      "effect": -2.1740686776929175,
+      "path": "causal_inference/difference_in_differences/CR_045.json"
+    },
+    {
+      "file_id": "CR_046",
+      "index": 46,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_046.json",
+      "effect": 0.05765999455808379,
+      "path": "causal_inference/difference_in_differences/CR_046.json"
+    },
+    {
+      "file_id": "CR_047",
+      "index": 47,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_047.json",
+      "effect": 9.258225123087575,
+      "path": "causal_inference/difference_in_differences/CR_047.json"
+    },
+    {
+      "file_id": "CR_048",
+      "index": 48,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_048.json",
+      "effect": 8.177704705132356,
+      "path": "causal_inference/difference_in_differences/CR_048.json"
+    },
+    {
+      "file_id": "CR_049",
+      "index": 49,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_049.json",
+      "effect": 0.005045387591305012,
+      "path": "causal_inference/difference_in_differences/CR_049.json"
+    },
+    {
+      "file_id": "CR_050",
+      "index": 50,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_050.json",
+      "effect": 0.00466868832312894,
+      "path": "causal_inference/difference_in_differences/CR_050.json"
+    },
+    {
+      "file_id": "CR_051",
+      "index": 51,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_051.json",
+      "effect": -0.17599592472724762,
+      "path": "causal_inference/difference_in_differences/CR_051.json"
+    },
+    {
+      "file_id": "CR_052",
+      "index": 52,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_052.json",
+      "effect": -0.2456380842907292,
+      "path": "causal_inference/difference_in_differences/CR_052.json"
+    },
+    {
+      "file_id": "CR_053",
+      "index": 53,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_053.json",
+      "effect": 0.36146776953030707,
+      "path": "causal_inference/difference_in_differences/CR_053.json"
+    },
+    {
+      "file_id": "CR_054",
+      "index": 54,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_054.json",
+      "effect": 0.07491083156604028,
+      "path": "causal_inference/difference_in_differences/CR_054.json"
+    },
+    {
+      "file_id": "CR_055",
+      "index": 55,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_055.json",
+      "effect": -0.03530294510575024,
+      "path": "causal_inference/difference_in_differences/CR_055.json"
+    },
+    {
+      "file_id": "CR_056",
+      "index": 56,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_056.json",
+      "effect": -0.0840005315874226,
+      "path": "causal_inference/difference_in_differences/CR_056.json"
+    },
+    {
+      "file_id": "CR_057",
+      "index": 57,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_057.json",
+      "effect": -0.36682662704725455,
+      "path": "causal_inference/difference_in_differences/CR_057.json"
+    },
+    {
+      "file_id": "CR_058",
+      "index": 58,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_058.json",
+      "effect": 0.03950627474114425,
+      "path": "causal_inference/difference_in_differences/CR_058.json"
+    },
+    {
+      "file_id": "CR_059",
+      "index": 59,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_059.json",
+      "effect": -0.003236520046317505,
+      "path": "causal_inference/difference_in_differences/CR_059.json"
+    },
+    {
+      "file_id": "CR_060",
+      "index": 60,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_060.json",
+      "effect": -0.00042013785938763495,
+      "path": "causal_inference/difference_in_differences/CR_060.json"
+    },
+    {
+      "file_id": "CR_061",
+      "index": 61,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_061.json",
+      "effect": 0.11527391703742929,
+      "path": "causal_inference/difference_in_differences/CR_061.json"
+    },
+    {
+      "file_id": "CR_062",
+      "index": 62,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_062.json",
+      "effect": -0.04018143506236438,
+      "path": "causal_inference/difference_in_differences/CR_062.json"
+    },
+    {
+      "file_id": "CR_063",
+      "index": 63,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_063.json",
+      "effect": 1.7054492725151258,
+      "path": "causal_inference/instrumental_variable/CR_063.json"
+    },
+    {
+      "file_id": "CR_064",
+      "index": 64,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_064.json",
+      "effect": 0.122226,
+      "path": "causal_inference/instrumental_variable/CR_064.json"
+    },
+    {
+      "file_id": "CR_065",
+      "index": 65,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_065.json",
+      "effect": 0.3727880862793427,
+      "path": "causal_inference/instrumental_variable/CR_065.json"
+    },
+    {
+      "file_id": "CR_066",
+      "index": 66,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_066.json",
+      "effect": -0.09801993782056861,
+      "path": "causal_inference/instrumental_variable/CR_066.json"
+    },
+    {
+      "file_id": "CR_067",
+      "index": 67,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_067.json",
+      "effect": 0.15630190259599724,
+      "path": "causal_inference/instrumental_variable/CR_067.json"
+    },
+    {
+      "file_id": "CR_068",
+      "index": 68,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_068.json",
+      "effect": -31.152744805422117,
+      "path": "causal_inference/instrumental_variable/CR_068.json"
+    },
+    {
+      "file_id": "CR_069",
+      "index": 69,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_069.json",
+      "effect": -42.45445580750584,
+      "path": "causal_inference/instrumental_variable/CR_069.json"
+    },
+    {
+      "file_id": "CR_070",
+      "index": 70,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_070.json",
+      "effect": 0.045617,
+      "path": "causal_inference/instrumental_variable/CR_070.json"
+    },
+    {
+      "file_id": "CR_071",
+      "index": 71,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_071.json",
+      "effect": 3.8231464882492836,
+      "path": "causal_inference/instrumental_variable/CR_071.json"
+    },
+    {
+      "file_id": "CR_072",
+      "index": 72,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_072.json",
+      "effect": 0.17056526235595149,
+      "path": "causal_inference/instrumental_variable/CR_072.json"
+    },
+    {
+      "file_id": "CR_073",
+      "index": 73,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_073.json",
+      "effect": 3.928662717450402,
+      "path": "causal_inference/regression_discontinuity/CR_073.json"
+    },
+    {
+      "file_id": "CR_074",
+      "index": 74,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_074.json",
+      "effect": -0.16889570857702552,
+      "path": "causal_inference/instrumental_variable/CR_074.json"
+    },
+    {
+      "file_id": "CR_075",
+      "index": 75,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_075.json",
+      "effect": 0.03157746492058777,
+      "path": "causal_inference/instrumental_variable/CR_075.json"
+    },
+    {
+      "file_id": "CR_076",
+      "index": 76,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_076.json",
+      "effect": 0.045988589833671156,
+      "path": "causal_inference/instrumental_variable/CR_076.json"
+    },
+    {
+      "file_id": "CR_077",
+      "index": 77,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_077.json",
+      "effect": 0.314876079278295,
+      "path": "causal_inference/instrumental_variable/CR_077.json"
+    },
+    {
+      "file_id": "CR_078",
+      "index": 78,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_078.json",
+      "effect": 0.16343388491092745,
+      "path": "causal_inference/instrumental_variable/CR_078.json"
+    },
+    {
+      "file_id": "CR_079",
+      "index": 79,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_079.json",
+      "effect": -0.6603400553006367,
+      "path": "causal_inference/instrumental_variable/CR_079.json"
+    },
+    {
+      "file_id": "CR_080",
+      "index": 80,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_080.json",
+      "effect": -0.9835113358726062,
+      "path": "causal_inference/instrumental_variable/CR_080.json"
+    },
+    {
+      "file_id": "CR_081",
+      "index": 81,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_081.json",
+      "effect": -0.07699133640460332,
+      "path": "causal_inference/instrumental_variable/CR_081.json"
+    },
+    {
+      "file_id": "CR_082",
+      "index": 82,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_082.json",
+      "effect": 0.010848449162245977,
+      "path": "causal_inference/instrumental_variable/CR_082.json"
+    },
+    {
+      "file_id": "CR_083",
+      "index": 83,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_083.json",
+      "effect": 0.10822290111227129,
+      "path": "causal_inference/regression_discontinuity/CR_083.json"
+    },
+    {
+      "file_id": "CR_084",
+      "index": 84,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_084.json",
+      "effect": 0.0009387463216853353,
+      "path": "causal_inference/regression_discontinuity/CR_084.json"
+    },
+    {
+      "file_id": "CR_085",
+      "index": 85,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_085.json",
+      "effect": 2.193507668036073,
+      "path": "causal_inference/regression_discontinuity/CR_085.json"
+    },
+    {
+      "file_id": "CR_086",
+      "index": 86,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_086.json",
+      "effect": 0.6307611082021989,
+      "path": "causal_inference/regression_discontinuity/CR_086.json"
+    },
+    {
+      "file_id": "CR_087",
+      "index": 87,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_087.json",
+      "effect": 0.2561292663559078,
+      "path": "causal_inference/regression_discontinuity/CR_087.json"
+    },
+    {
+      "file_id": "CR_088",
+      "index": 88,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_088.json",
+      "effect": 2.7364110187569537,
+      "path": "causal_inference/regression_discontinuity/CR_088.json"
+    },
+    {
+      "file_id": "CR_089",
+      "index": 89,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_089.json",
+      "effect": 0.02724502978988668,
+      "path": "causal_inference/regression_discontinuity/CR_089.json"
+    },
+    {
+      "file_id": "CR_090",
+      "index": 90,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_090.json",
+      "effect": -0.0977844845011214,
+      "path": "causal_inference/regression_discontinuity/CR_090.json"
+    },
+    {
+      "file_id": "CR_091",
+      "index": 91,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_091.json",
+      "effect": -0.1284243009770069,
+      "path": "causal_inference/regression_discontinuity/CR_091.json"
+    },
+    {
+      "file_id": "CR_092",
+      "index": 92,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_092.json",
+      "effect": 0.06598304070643407,
+      "path": "causal_inference/regression_discontinuity/CR_092.json"
+    },
+    {
+      "file_id": "CR_093",
+      "index": 93,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_093.json",
+      "effect": 0.041830899000118826,
+      "path": "causal_inference/regression_discontinuity/CR_093.json"
+    },
+    {
+      "file_id": "CR_094",
+      "index": 94,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_094.json",
+      "effect": 0.01195327772626631,
+      "path": "causal_inference/regression_discontinuity/CR_094.json"
+    },
+    {
+      "file_id": "CR_095",
+      "index": 95,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_095.json",
+      "effect": 0.044055509163451356,
+      "path": "causal_inference/regression_discontinuity/CR_095.json"
+    },
+    {
+      "file_id": "CR_096",
+      "index": 96,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_096.json",
+      "effect": 0.029025090251154628,
+      "path": "causal_inference/regression_discontinuity/CR_096.json"
+    },
+    {
+      "file_id": "CR_097",
+      "index": 97,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_097.json",
+      "effect": 0.4638187008583367,
+      "path": "causal_inference/regression_discontinuity/CR_097.json"
+    },
+    {
+      "file_id": "CR_098",
+      "index": 98,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_098.json",
+      "effect": 0.35091373872060516,
+      "path": "causal_inference/regression_discontinuity/CR_098.json"
+    },
+    {
+      "file_id": "CR_099",
+      "index": 99,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_099.json",
+      "effect": 0.9095928753918407,
+      "path": "causal_inference/regression_discontinuity/CR_099.json"
+    },
+    {
+      "file_id": "CR_100",
+      "index": 100,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_100.json",
+      "effect": 0.15129720466634994,
+      "path": "causal_inference/regression_discontinuity/CR_100.json"
+    },
+    {
+      "file_id": "CR_101",
+      "index": 101,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_101.json",
+      "effect": -3.438761398131504,
+      "path": "causal_inference/regression_discontinuity/CR_101.json"
+    },
+    {
+      "file_id": "CR_102",
+      "index": 102,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_102.json",
+      "effect": -2.735773839074544,
+      "path": "causal_inference/regression_discontinuity/CR_102.json"
+    },
+    {
+      "file_id": "CR_103",
+      "index": 103,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_103.json",
+      "effect": 1.8968586349647683,
+      "path": "causal_inference/regression_discontinuity/CR_103.json"
+    },
+    {
+      "file_id": "CR_104",
+      "index": 104,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_104.json",
+      "effect": -4.306620864874278,
+      "path": "causal_inference/regression_discontinuity/CR_104.json"
+    },
+    {
+      "file_id": "CR_105",
+      "index": 105,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_105.json",
+      "effect": 15.179268300881112,
+      "path": "causal_inference/regression_discontinuity/CR_105.json"
+    },
+    {
+      "file_id": "CR_106",
+      "index": 106,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_106.json",
+      "effect": 19.971085479597754,
+      "path": "causal_inference/regression_discontinuity/CR_106.json"
+    },
+    {
+      "file_id": "CR_107",
+      "index": 107,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_107.json",
+      "effect": -0.10502571776967495,
+      "path": "causal_inference/regression_discontinuity/CR_107.json"
+    },
+    {
+      "file_id": "CR_108",
+      "index": 108,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_108.json",
+      "effect": -0.42404560086430654,
+      "path": "causal_inference/regression_discontinuity/CR_108.json"
+    },
+    {
+      "file_id": "CR_109",
+      "index": 109,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_109.json",
+      "effect": -0.08641935780540233,
+      "path": "causal_inference/regression_discontinuity/CR_109.json"
+    },
+    {
+      "file_id": "CR_110",
+      "index": 110,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_110.json",
+      "effect": -13.017711034965666,
+      "path": "causal_inference/regression_discontinuity/CR_110.json"
+    },
+    {
+      "file_id": "CR_111",
+      "index": 111,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_111.json",
+      "effect": 0.029016665596441893,
+      "path": "causal_inference/regression_discontinuity/CR_111.json"
+    },
+    {
+      "file_id": "CR_112",
+      "index": 112,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_112.json",
+      "effect": -0.15702775818596182,
+      "path": "causal_inference/regression_discontinuity/CR_112.json"
+    },
+    {
+      "file_id": "CR_113",
+      "index": 113,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_113.json",
+      "effect": -0.15605068407099687,
+      "path": "causal_inference/regression_discontinuity/CR_113.json"
+    },
+    {
+      "file_id": "CR_114",
+      "index": 114,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_114.json",
+      "effect": 0.3276553502201477,
+      "path": "causal_inference/regression_discontinuity/CR_114.json"
+    },
+    {
+      "file_id": "CR_115",
+      "index": 115,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_115.json",
+      "effect": 0.37745167188505185,
+      "path": "causal_inference/regression_discontinuity/CR_115.json"
+    },
+    {
+      "file_id": "CR_116",
+      "index": 116,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_116.json",
+      "effect": -0.2768511542844426,
+      "path": "causal_inference/regression_discontinuity/CR_116.json"
+    },
+    {
+      "file_id": "CR_117",
+      "index": 117,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_117.json",
+      "effect": 0.18483608780919436,
+      "path": "causal_inference/regression_discontinuity/CR_117.json"
+    },
+    {
+      "file_id": "CR_118",
+      "index": 118,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_118.json",
+      "effect": 0.478657420332135,
+      "path": "causal_inference/regression_discontinuity/CR_118.json"
+    },
+    {
+      "file_id": "CR_119",
+      "index": 119,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_119.json",
+      "effect": 0.7869557257379252,
+      "path": "causal_inference/regression_discontinuity/CR_119.json"
+    },
+    {
+      "file_id": "CR_120",
+      "index": 120,
+      "dataset_group": "research_papers",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_120.json",
+      "effect": 0.12833974095499084,
+      "path": "causal_inference/regression_discontinuity/CR_120.json"
+    },
+    {
+      "file_id": "CR_121",
+      "index": 121,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_121.json",
+      "effect": -3.899000007670883,
+      "path": "causal_inference/conditional_exogeneity/CR_121.json"
+    },
+    {
+      "file_id": "CR_122",
+      "index": 122,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_122.json",
+      "effect": 3.9739106095029246,
+      "path": "causal_inference/conditional_exogeneity/CR_122.json"
+    },
+    {
+      "file_id": "CR_123",
+      "index": 123,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_123.json",
+      "effect": 4.097269527431274,
+      "path": "causal_inference/conditional_exogeneity/CR_123.json"
+    },
+    {
+      "file_id": "CR_124",
+      "index": 124,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_124.json",
+      "effect": 3.6,
+      "path": "causal_inference/conditional_exogeneity/CR_124.json"
+    },
+    {
+      "file_id": "CR_125",
+      "index": 125,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_125.json",
+      "effect": 4.046699259992941,
+      "path": "causal_inference/conditional_exogeneity/CR_125.json"
+    },
+    {
+      "file_id": "CR_126",
+      "index": 126,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_126.json",
+      "effect": 3.874786029091593,
+      "path": "causal_inference/conditional_exogeneity/CR_126.json"
+    },
+    {
+      "file_id": "CR_127",
+      "index": 127,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_127.json",
+      "effect": 3.4443453944633435,
+      "path": "causal_inference/conditional_exogeneity/CR_127.json"
+    },
+    {
+      "file_id": "CR_128",
+      "index": 128,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_128.json",
+      "effect": 4.070148,
+      "path": "causal_inference/conditional_exogeneity/CR_128.json"
+    },
+    {
+      "file_id": "CR_129",
+      "index": 129,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_129.json",
+      "effect": 3.973108307528381,
+      "path": "causal_inference/conditional_exogeneity/CR_129.json"
+    },
+    {
+      "file_id": "CR_130",
+      "index": 130,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_130.json",
+      "effect": 4.15902406807273,
+      "path": "causal_inference/conditional_exogeneity/CR_130.json"
+    },
+    {
+      "file_id": "CR_131",
+      "index": 131,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_131.json",
+      "effect": 4.118486798904631,
+      "path": "causal_inference/conditional_exogeneity/CR_131.json"
+    },
+    {
+      "file_id": "CR_132",
+      "index": 132,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_132.json",
+      "effect": 4.105083810279937,
+      "path": "causal_inference/conditional_exogeneity/CR_132.json"
+    },
+    {
+      "file_id": "CR_133",
+      "index": 133,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_133.json",
+      "effect": 3.6180300612201,
+      "path": "causal_inference/conditional_exogeneity/CR_133.json"
+    },
+    {
+      "file_id": "CR_134",
+      "index": 134,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_134.json",
+      "effect": 4.195819482934012,
+      "path": "causal_inference/conditional_exogeneity/CR_134.json"
+    },
+    {
+      "file_id": "CR_135",
+      "index": 135,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_135.json",
+      "effect": 4.292059710213956,
+      "path": "causal_inference/conditional_exogeneity/CR_135.json"
+    },
+    {
+      "file_id": "CR_136",
+      "index": 136,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_136.json",
+      "effect": 8.483137789461903,
+      "path": "causal_inference/conditional_exogeneity/CR_136.json"
+    },
+    {
+      "file_id": "CR_137",
+      "index": 137,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_137.json",
+      "effect": 4.075235127336278,
+      "path": "causal_inference/conditional_exogeneity/CR_137.json"
+    },
+    {
+      "file_id": "CR_138",
+      "index": 138,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_138.json",
+      "effect": 4.025538789825059,
+      "path": "causal_inference/conditional_exogeneity/CR_138.json"
+    },
+    {
+      "file_id": "CR_139",
+      "index": 139,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_139.json",
+      "effect": 4.586549,
+      "path": "causal_inference/conditional_exogeneity/CR_139.json"
+    },
+    {
+      "file_id": "CR_140",
+      "index": 140,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_140.json",
+      "effect": 3.9278566396069223,
+      "path": "causal_inference/conditional_exogeneity/CR_140.json"
+    },
+    {
+      "file_id": "CR_141",
+      "index": 141,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_141.json",
+      "effect": 3.907079409441717,
+      "path": "causal_inference/conditional_exogeneity/CR_141.json"
+    },
+    {
+      "file_id": "CR_142",
+      "index": 142,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_142.json",
+      "effect": 3.6839714056110653,
+      "path": "causal_inference/conditional_exogeneity/CR_142.json"
+    },
+    {
+      "file_id": "CR_143",
+      "index": 143,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_143.json",
+      "effect": 3.7762203618104704,
+      "path": "causal_inference/conditional_exogeneity/CR_143.json"
+    },
+    {
+      "file_id": "CR_144",
+      "index": 144,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_144.json",
+      "effect": 4.271249,
+      "path": "causal_inference/conditional_exogeneity/CR_144.json"
+    },
+    {
+      "file_id": "CR_145",
+      "index": 145,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_145.json",
+      "effect": 3.9285185630304564,
+      "path": "causal_inference/conditional_exogeneity/CR_145.json"
+    },
+    {
+      "file_id": "CR_146",
+      "index": 146,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_146.json",
+      "effect": 4.513845765041949,
+      "path": "causal_inference/conditional_exogeneity/CR_146.json"
+    },
+    {
+      "file_id": "CR_147",
+      "index": 147,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_147.json",
+      "effect": 6.836901171387409,
+      "path": "causal_inference/conditional_exogeneity/CR_147.json"
+    },
+    {
+      "file_id": "CR_148",
+      "index": 148,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_148.json",
+      "effect": 11.702333899912691,
+      "path": "causal_inference/conditional_exogeneity/CR_148.json"
+    },
+    {
+      "file_id": "CR_149",
+      "index": 149,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_149.json",
+      "effect": 4.708801069890146,
+      "path": "causal_inference/conditional_exogeneity/CR_149.json"
+    },
+    {
+      "file_id": "CR_150",
+      "index": 150,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_150.json",
+      "effect": 3.9969261332176202,
+      "path": "causal_inference/conditional_exogeneity/CR_150.json"
+    },
+    {
+      "file_id": "CR_151",
+      "index": 151,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_151.json",
+      "effect": 4.868714660250528,
+      "path": "causal_inference/conditional_exogeneity/CR_151.json"
+    },
+    {
+      "file_id": "CR_152",
+      "index": 152,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_152.json",
+      "effect": -4.9122214982269465,
+      "path": "causal_inference/conditional_exogeneity/CR_152.json"
+    },
+    {
+      "file_id": "CR_153",
+      "index": 153,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_153.json",
+      "effect": 2.37,
+      "path": "causal_inference/conditional_exogeneity/CR_153.json"
+    },
+    {
+      "file_id": "CR_154",
+      "index": 154,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_154.json",
+      "effect": 2.37,
+      "path": "causal_inference/conditional_exogeneity/CR_154.json"
+    },
+    {
+      "file_id": "CR_155",
+      "index": 155,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_155.json",
+      "effect": 2.96,
+      "path": "causal_inference/conditional_exogeneity/CR_155.json"
+    },
+    {
+      "file_id": "CR_156",
+      "index": 156,
+      "dataset_group": "textbook",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_156.json",
+      "effect": 8.53,
+      "path": "causal_inference/instrumental_variable/CR_156.json"
+    },
+    {
+      "file_id": "CR_157",
+      "index": 157,
+      "dataset_group": "textbook",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_157.json",
+      "effect": 6.52,
+      "path": "causal_inference/difference_in_differences/CR_157.json"
+    },
+    {
+      "file_id": "CR_158",
+      "index": 158,
+      "dataset_group": "textbook",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_158.json",
+      "effect": -27.35,
+      "path": "causal_inference/difference_in_differences/CR_158.json"
+    },
+    {
+      "file_id": "CR_159",
+      "index": 159,
+      "dataset_group": "textbook",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_159.json",
+      "effect": -0.09103317884669104,
+      "path": "causal_inference/difference_in_differences/CR_159.json"
+    },
+    {
+      "file_id": "CR_160",
+      "index": 160,
+      "dataset_group": "textbook",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_160.json",
+      "effect": 0.08170229369424614,
+      "path": "causal_inference/difference_in_differences/CR_160.json"
+    },
+    {
+      "file_id": "CR_161",
+      "index": 161,
+      "dataset_group": "textbook",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_161.json",
+      "effect": 0.12416424134426052,
+      "path": "causal_inference/instrumental_variable/CR_161.json"
+    },
+    {
+      "file_id": "CR_162",
+      "index": 162,
+      "dataset_group": "textbook",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_162.json",
+      "effect": 44.281114200066966,
+      "path": "causal_inference/regression_discontinuity/CR_162.json"
+    },
+    {
+      "file_id": "CR_163",
+      "index": 163,
+      "dataset_group": "textbook",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_163.json",
+      "effect": 24.844324464745874,
+      "path": "causal_inference/regression_discontinuity/CR_163.json"
+    },
+    {
+      "file_id": "CR_164",
+      "index": 164,
+      "dataset_group": "textbook",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_164.json",
+      "effect": 0.5251897490497028,
+      "path": "causal_inference/regression_discontinuity/CR_164.json"
+    },
+    {
+      "file_id": "CR_165",
+      "index": 165,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_165.json",
+      "effect": 2735.537610318135,
+      "path": "causal_inference/conditional_exogeneity/CR_165.json"
+    },
+    {
+      "file_id": "CR_166",
+      "index": 166,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_166.json",
+      "effect": 0.42458137070776414,
+      "path": "causal_inference/conditional_exogeneity/CR_166.json"
+    },
+    {
+      "file_id": "CR_167",
+      "index": 167,
+      "dataset_group": "textbook",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_167.json",
+      "effect": 0.10271155321058345,
+      "path": "causal_inference/regression_discontinuity/CR_167.json"
+    },
+    {
+      "file_id": "CR_168",
+      "index": 168,
+      "dataset_group": "textbook",
+      "identification_strategy": "Regression Discontinuity",
+      "filename": "CR_168.json",
+      "effect": 0.18517831669328189,
+      "path": "causal_inference/regression_discontinuity/CR_168.json"
+    },
+    {
+      "file_id": "CR_169",
+      "index": 169,
+      "dataset_group": "textbook",
+      "identification_strategy": "RCT",
+      "filename": "CR_169.json",
+      "effect": 1794.342404270271,
+      "path": "causal_inference/rct/CR_169.json"
+    },
+    {
+      "file_id": "CR_170",
+      "index": 170,
+      "dataset_group": "textbook",
+      "identification_strategy": "Difference-in-Differences",
+      "filename": "CR_170.json",
+      "effect": -0.02245897435897523,
+      "path": "causal_inference/difference_in_differences/CR_170.json"
+    },
+    {
+      "file_id": "CR_171",
+      "index": 171,
+      "dataset_group": "textbook",
+      "identification_strategy": "Instrumental Variable",
+      "filename": "CR_171.json",
+      "effect": 0.7910969602184679,
+      "path": "causal_inference/instrumental_variable/CR_171.json"
+    },
+    {
+      "file_id": "CR_172",
+      "index": 172,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_172.json",
+      "effect": 0.1959842516862476,
+      "path": "causal_inference/conditional_exogeneity/CR_172.json"
+    },
+    {
+      "file_id": "CR_173",
+      "index": 173,
+      "dataset_group": "textbook",
+      "identification_strategy": "Conditional Exogeneity",
+      "filename": "CR_173.json",
+      "effect": 0.7520945011431464,
+      "path": "causal_inference/conditional_exogeneity/CR_173.json"
+    }
+  ]
+}

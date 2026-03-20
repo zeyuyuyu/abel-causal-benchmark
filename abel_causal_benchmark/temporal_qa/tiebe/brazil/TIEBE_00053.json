@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00053",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "11",
+  "question": "How many people died in the plane crash involving Marília Mendonça in November 2021?",
+  "ground_truth": "Five people died in the crash, including Marília Mendonça.",
+  "event_desc": "A small plane crashes near a waterfall in Piedade de Caratinga, located in the interior of Minas Gerais; kills five people, including singer Marília Mendonça.",
+  "category": "temporal_qa"
+}

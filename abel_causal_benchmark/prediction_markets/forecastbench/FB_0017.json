@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0017",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Joe Biden get impeached in his first term?",
+  "background": "If the House of Representatives of the United States approves articles of impeachment against the President of the United States before the end of Joe Biden's first term in office, this market will be resolved as “Yes”.\n\nThis market does not consider the possibility of a process of impeachment being conducted after Joe Biden has left office or finished his first presidential term, even if he gets re-elected for a second term.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "C88rQObEu5LerDKbrA2V",
+  "category": "prediction_markets"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_028",
+  "index": 28,
+  "dataset_group": "research_papers",
+  "causal_question": "Among municipalities that switched to council decision-making in 2006, how large was the change in the ordinary naturalization rate from 2005 to 2007 compared with municipalities still using citizen referendums in 2007?",
+  "vague_question": "Did places that switched to council-based decisions in 2006 see a noticeable change in how many immigrants became citizens between 2005 and 2007, compared with places that still used citizen votes?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0015/metadata.txt",
+  "data_path": "data/ds_0015/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Hainmueller_Hangartner_2019/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Hainmueller_Hangartner_2019/question_1/estimation.py",
+  "effect": 1.236634786812406,
+  "standard_error": 0.6189762112257445,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

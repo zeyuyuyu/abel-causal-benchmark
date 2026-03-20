@@ -1,0 +1,8 @@
+{
+  "file_id": "C2C_0012",
+  "input": "Premise: Suppose there is a closed system of 3 variables, A, B and C. All the statistical relations among these 3 variables are as follows: A correlates with C. B correlates with C. However, A is independent of B.\nHypothesis: A directly causes C.",
+  "label": 1,
+  "num_variables": 3,
+  "template": "parent",
+  "category": "correlation_to_causation"
+}

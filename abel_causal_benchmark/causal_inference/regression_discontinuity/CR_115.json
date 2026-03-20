@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_115",
+  "index": 115,
+  "dataset_group": "research_papers",
+  "causal_question": "Among candidates whose electoral outcomes are marginal enough that winning changes their probability of ever holding office, what is the effect of having served as governor on the probability of ever serving on a corporate board?",
+  "vague_question": "For candidates in very close governor races, how much does actually serving as governor change the chance of later sitting on a corporate board?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0080/metadata.txt",
+  "data_path": "data/ds_0080/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/palmer_schneer_2016b/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/palmer_schneer_2016b/question_1/estimation.py",
+  "effect": 0.37745167188505185,
+  "standard_error": 0.16653173057989035,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

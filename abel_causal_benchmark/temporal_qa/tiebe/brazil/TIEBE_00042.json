@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00042",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "06",
+  "question": "Who was Kathlen Romeu and what happened to her in June 2021?",
+  "ground_truth": "Kathlen Romeu was a 24-year-old Afro-Brazilian influencer and interior designer who was killed by a stray bullet during a police shootout in Lins de Vasconcelos, Brazil, in June 2021. She was pregnant at the time, and her unborn child also died.",
+  "event_desc": "Protests break out in Lins de Vasconcelos after Afro-Brazilian influencer Kathlen Romeu is killed by a stray bullet in a police shootout.",
+  "category": "temporal_qa"
+}

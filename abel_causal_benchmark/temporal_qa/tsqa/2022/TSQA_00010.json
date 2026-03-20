@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00010",
+  "question": "What character did Jake Cuenca portray in his latest television project in 2022?",
+  "year": 2022,
+  "ground_truth": "Eros \"Commando\" Del Rio",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Eros \"Commando\" Del Rio",
+      "tag": "correct"
+    },
+    {
+      "answer": "Dexter Joaquin",
+      "tag": "past"
+    },
+    {
+      "answer": "Benjie dela Rosa",
+      "tag": "future"
+    },
+    {
+      "answer": "Marco Toledo",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_140",
+  "index": 140,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average treatment effect of receiving home visits from specialist doctors on children's standardized cognitive test scores measured at approximately 36 months?",
+  "vague_question": "On average, how do home visits from specialist doctors affect a child's later cognitive development?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0105/metadata.txt",
+  "data_path": "data/ds_0105/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_6_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_6_0/question/estimation.py",
+  "effect": 3.9278566396069223,
+  "standard_error": 0.42392342345077455,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

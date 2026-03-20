@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00045",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "06",
+  "question": "How much did deforestation in the Amazon rainforest increase in May 2021 compared to the same month the previous year?",
+  "ground_truth": "Deforestation in the Amazon rainforest increased by 67 percent in May 2021 compared to May 2020.",
+  "event_desc": "Deforestation in the Amazon rainforest increases by 67%. President Bolsonaro has not followed through on his April pledge to boost funding for environmental enforcement.",
+  "category": "temporal_qa"
+}

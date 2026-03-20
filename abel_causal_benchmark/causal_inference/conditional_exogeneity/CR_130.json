@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_130",
+  "index": 130,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants in this study who did not receive home visits, what is the average effect of receiving specialist home visits on standardized cognitive test scores measured at 36 months?",
+  "vague_question": "For families who didn’t get home visits, how much would a child’s age-3 cognitive score change on average if they had gotten the visits?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0095/metadata.txt",
+  "data_path": "data/ds_0095/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_2_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_2_2/question/estimation.py",
+  "effect": 4.15902406807273,
+  "standard_error": 0.04709645292056341,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

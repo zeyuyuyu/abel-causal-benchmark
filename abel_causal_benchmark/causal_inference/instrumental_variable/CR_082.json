@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_082",
+  "index": 82,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of an increase in a respondent's expressed political anger (measured by the share of angry words they produced in the emotional-recall text) on their willingness to engage in an out-party social interaction (the 0-1 social-polarization index fourpack_1_01), focusing on respondents whose expressed anger responded to the study's emotion induction?",
+  "vague_question": "Does becoming angrier about the other political party (as seen in more angry words people write) cause people to be less willing to help or socialize with someone from that party - specifically among those whose anger was actually changed by the study's emotion manipulation?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0052/metadata.txt",
+  "data_path": "data/ds_0052/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Webster2022/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Webster2022/question/estimation.py",
+  "effect": 0.010848449162245977,
+  "standard_error": 0.0038557366482581536,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

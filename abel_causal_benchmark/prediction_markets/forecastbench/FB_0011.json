@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0011",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Saudi Arabia and Israel establish diplomatic relations before 2025?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "7LxcLPJKi3jA86XghgQE",
+  "category": "prediction_markets"
+}

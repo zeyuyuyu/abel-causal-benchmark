@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_001",
+  "index": 1,
+  "dataset_group": "research_papers",
+  "causal_question": "For countries that newly experienced at least one fatal armed conflict in 2000-2002, how did the log of annual non-fuel mineral exploration investment change relative to countries that remained conflict-free in both 1997-1999 and 2000-2002?",
+  "vague_question": "What happened to mining exploration investment in countries that first experienced deadly armed conflict in 2000-2002, compared with countries that stayed peaceful at that time?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0001/metadata.txt",
+  "data_path": "data/ds_0001/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Blair_etal_2022/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Blair_etal_2022/question_1/estimation.py",
+  "effect": -0.08348133345223285,
+  "standard_error": 0.4171809476066692,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

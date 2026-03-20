@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_150",
+  "index": 150,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants assigned to the specialist home-visit program, what was the average effect of assignment on their follow-up cognitive test scores in the IHDP sample?",
+  "vague_question": "For infants who were assigned to get specialist home visits, how much did the program change their cognitive test scores on average?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0115/metadata.txt",
+  "data_path": "data/ds_0115/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_9_1/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_9_1/question/estimation.py",
+  "effect": 3.9969261332176202,
+  "standard_error": 0.616799249435376,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00055",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "09",
+  "question": "What was the intended destination of the plane that crashed in Piracicaba in September 2021?",
+  "ground_truth": "The plane was headed to Pará after taking off from Piracicaba’s Municipal Pedro Morganti Airport.",
+  "event_desc": "Seven people die after a small plane crashes in Piracicaba, São Paulo. Among the victims are businessman Celso Silveira Mello Filho, his wife, and the couple's three children. The pilot and co-pilot are also among the victims.",
+  "category": "temporal_qa"
+}

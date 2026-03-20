@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00016",
+  "question": "Where was Gavin Creel performing in 2020?",
+  "year": 2020,
+  "ground_truth": "Adelphi Theatre: January – March 2020",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Adelphi Theatre: January – March 2020",
+      "tag": "correct"
+    },
+    {
+      "answer": "Brooks Atkinson Theatre: January – February 2019",
+      "tag": "past"
+    },
+    {
+      "answer": "The Met Museum October 2021",
+      "tag": "future"
+    },
+    {
+      "answer": "Gavin Creel was performing at the annual International Sandcastle Competition in Florida in 2020.",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

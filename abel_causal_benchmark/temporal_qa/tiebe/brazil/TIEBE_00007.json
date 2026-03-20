@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00007",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "02",
+  "question": "Who was elected president of the Brazilian Federal Senate in February 2021?",
+  "ground_truth": "Rodrigo Pacheco (DEM-MG) was elected president of the Brazilian Federal Senate in February 2021.",
+  "event_desc": "Rodrigo Pacheco (DEM/ MG) is elected president of the Federal Senate.",
+  "category": "temporal_qa"
+}

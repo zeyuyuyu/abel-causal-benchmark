@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00044",
+  "question": "Which architect won the Sir John Sulman Medal most recently in 2020?",
+  "year": 2020,
+  "ground_truth": "Neeson Murcutt Architects in association with City of Sydney",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Neeson Murcutt Architects in association with City of Sydney",
+      "tag": "correct"
+    },
+    {
+      "answer": "Collins and Turner Architects",
+      "tag": "past"
+    },
+    {
+      "answer": "BVN",
+      "tag": "future"
+    },
+    {
+      "answer": "Kerstin Thompson Architects",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

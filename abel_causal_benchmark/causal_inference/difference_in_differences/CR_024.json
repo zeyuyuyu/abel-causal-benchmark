@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_024",
+  "index": 24,
+  "dataset_group": "research_papers",
+  "causal_question": "By how many percentage points did adopting same-day voter registration in 1994 alter a state's CPS-based voter turnout between the prior and subsequent election?",
+  "vague_question": "Did allowing same-day voter registration around 1994 seem to change how many people voted in that state?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0013/metadata.txt",
+  "data_path": "data/ds_0013/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Grumbach_Hill/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Grumbach_Hill/question_1/estimation.py",
+  "effect": 0.18930520472316303,
+  "standard_error": 0.04730909039725135,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

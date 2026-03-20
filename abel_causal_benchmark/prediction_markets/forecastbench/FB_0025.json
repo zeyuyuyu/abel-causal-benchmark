@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0025",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the Oscars Best Picture winner for 2027 pass the Bechdel Test? (awarded in 2028)",
+  "background": "",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "2aCl7NxBTxMVrE8VX2AA",
+  "category": "prediction_markets"
+}

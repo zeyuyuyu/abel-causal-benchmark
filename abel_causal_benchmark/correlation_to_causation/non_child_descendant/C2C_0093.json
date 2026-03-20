@@ -1,0 +1,8 @@
+{
+  "file_id": "C2C_0093",
+  "input": "Premise: Suppose there is a closed system of 4 variables, A, B, C and D. All the statistical relations among these 4 variables are as follows: A correlates with B. A correlates with C. A correlates with D. B correlates with C. B correlates with D. C correlates with D. However, C and D are independent given A and B.\nHypothesis: D is a cause for A, but not a direct one.",
+  "label": 0,
+  "num_variables": 4,
+  "template": "non-child descendant",
+  "category": "correlation_to_causation"
+}

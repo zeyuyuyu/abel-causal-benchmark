@@ -1,0 +1,10 @@
+{
+  "id": "68528da19193260061abd8f6",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, what will be the high for Li Auto (NASDAQ:LI) for the day (in US$)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-27",
+  "level": 4,
+  "title": "2026-01-27, what will be the high for Li Auto (NASDAQ:LI) for the day (in US$)?",
+  "ground_truth": "[16.85]",
+  "__index_level_0__": 73,
+  "category": "future_prediction"
+}

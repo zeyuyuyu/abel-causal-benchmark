@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0024",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will GTA VI get delayed again?",
+  "background": "GTA",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "QVCzHBisAcKNfHYEAB4G",
+  "category": "prediction_markets"
+}

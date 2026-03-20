@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_088",
+  "index": 88,
+  "dataset_group": "research_papers",
+  "causal_question": "Among districts where the previous U.S. House race was decided by an infinitesimal margin, what is the average effect of the Democratic party holding that House seat on the subsequent Democratic presidential vote share in that district during November elections?",
+  "vague_question": "In very close House races, how much does having the same party hold the House seat raise that party's presidential vote share in the district? Focused on November elections.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0057/metadata.txt",
+  "data_path": "data/ds_0057/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/carson_sievert_2017/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/carson_sievert_2017/question_1/estimation.py",
+  "effect": 2.7364110187569537,
+  "standard_error": 1.145785403172754,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

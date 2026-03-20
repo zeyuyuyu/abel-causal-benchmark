@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_164",
+  "index": 164,
+  "dataset_group": "textbook",
+  "causal_question": "What is the causal effect of having elected a Democrat in election t-1 on the representative's ADA roll-call score in session t?",
+  "vague_question": "If a Democrat narrowly won the prior election, how much does that increase the chance the Democrat (or their party) wins the next election?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0129/metadata.txt",
+  "data_path": "data/ds_0129/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/close_elections_lmb_3/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/close_elections_lmb_3/question/estimation.py",
+  "effect": 0.5251897490497028,
+  "standard_error": 0.05665578417014922,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

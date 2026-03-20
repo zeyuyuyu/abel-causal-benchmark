@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00046",
+  "question": "What is Charlene McKenna's role in her most recent television project in 2020?",
+  "year": 2020,
+  "ground_truth": "Jojo Harte, Maddie, Rose Erskine",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Jojo Harte, Maddie, Rose Erskine",
+      "tag": "correct"
+    },
+    {
+      "answer": "Clare Cartmell",
+      "tag": "future"
+    },
+    {
+      "answer": "Mercy Boyle",
+      "tag": "future"
+    },
+    {
+      "answer": "Liz, Leah Liebermann, Captain Swing",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

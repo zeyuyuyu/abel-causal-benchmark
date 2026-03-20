@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_070",
+  "index": 70,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of changes in bilateral trade volume with China (log_tot_trade) on a country's foreign-policy voting alignment (log_HRVOTE) at the country-year level?",
+  "vague_question": "Do increases in trade with China make countries vote more like China in international forums? Estimate the effect for those country-years where trade changes can be plausibly treated as exogenous, while accounting for key country characteristics.",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0040/metadata.txt",
+  "data_path": "data/ds_0040/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Flores2013/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Flores2013/question/estimation.py",
+  "effect": 0.045617,
+  "standard_error": 0.012631,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

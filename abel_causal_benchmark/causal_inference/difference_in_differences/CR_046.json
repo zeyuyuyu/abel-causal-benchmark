@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_046",
+  "index": 46,
+  "dataset_group": "research_papers",
+  "causal_question": "How did county presidential-election turnout change between 1992 and 1996 in counties that experienced a recorded Black church arson incident, compared with counties that did not experience such incidents during that period?",
+  "vague_question": "Did county turnout around the 1996 presidential election change in places where a Black church was burned sometime between 1992 and 1996?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0024/metadata.txt",
+  "data_path": "data/ds_0024/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Marsh_2023/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Marsh_2023/question_1/estimation.py",
+  "effect": 0.05765999455808379,
+  "standard_error": 0.007738399871299681,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0010",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Saudi Arabia abandon (or vastly scale back) the NEOM linear city project by 2028?",
+  "background": "Abandoned in this case will mean:\n\nExplicitly cancelled \n\nShelved indefinitely (like Jeddah Tower) with no measurable progress in design or construction \n\nScaled back to something vastly more modest (at my disgression)\n\nI will try to judge these criteria as objectively as possible, I do have the personal opinion the project is unrealistic though.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "QtxO4jGNyhDzq5s3NrcG",
+  "category": "prediction_markets"
+}

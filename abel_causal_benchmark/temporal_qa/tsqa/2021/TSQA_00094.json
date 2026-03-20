@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00094",
+  "question": "Who was Deontay Wilder's last opponent in his professional boxing career in 2021?",
+  "year": 2021,
+  "ground_truth": "Tyson Fury",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Tyson Fury",
+      "tag": "correct"
+    },
+    {
+      "answer": "Robert Helenius",
+      "tag": "future"
+    },
+    {
+      "answer": "Joseph Parker",
+      "tag": "future"
+    },
+    {
+      "answer": "Luis Ortiz",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_017",
+  "index": 17,
+  "dataset_group": "research_papers",
+  "causal_question": "Among activists who go into exile in month index 55, how does their monthly share of tweets referencing foreign-led policy topics change in the month following exile relative to the month prior, compared to activists who remain in-country?",
+  "vague_question": "For activists who go abroad, how does the proportion of their tweets about foreign-focused policies change in the month after they leave versus the month before, compared with those who remain at home?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0009/metadata.txt",
+  "data_path": "data/ds_0009/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Esberg_Siegel_2023/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Esberg_Siegel_2023/question_2/estimation.py",
+  "effect": 1.2700165764237865,
+  "standard_error": 1.159642329124281,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

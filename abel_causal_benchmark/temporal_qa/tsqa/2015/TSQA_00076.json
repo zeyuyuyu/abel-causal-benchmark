@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00076",
+  "question": "Which club won the Montenegrin Second League championship in 2015?",
+  "year": 2015,
+  "ground_truth": "Bokelj",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Bokelj",
+      "tag": "correct"
+    },
+    {
+      "answer": "Dečić",
+      "tag": "past"
+    },
+    {
+      "answer": "Jedinstvo",
+      "tag": "future"
+    },
+    {
+      "answer": "Kom",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

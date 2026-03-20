@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_116",
+  "index": 116,
+  "dataset_group": "research_papers",
+  "causal_question": "Among districts with elections decided around the 50% Democratic vote-share threshold, what is the effect of electing a Democrat (versus a Republican) on the representative's likelihood of signing civil-rights discharge petitions in the 73rd Congress?",
+  "vague_question": "In very close elections, does a Democrat barely winning change how likely the representative signs pro-civil-rights petitions in the 73rd Congress? By how much does this likelihood change?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0081/metadata.txt",
+  "data_path": "data/ds_0081/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/schickler_etal_2009a/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/schickler_etal_2009a/question_1/estimation.py",
+  "effect": -0.2768511542844426,
+  "standard_error": 0.25594624262841237,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

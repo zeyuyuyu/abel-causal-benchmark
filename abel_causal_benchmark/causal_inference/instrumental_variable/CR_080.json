@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_080",
+  "index": 80,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the local causal effect of a higher average polling-station size on municipalities' counts of citizens' reports of vote buying? Report the local average effect for municipalities whose mean station size is shifted by exogenous institution-determined changes in the number of stations, controlling for municipal population and potential electorate and clustering standard errors by municipality.",
+  "vague_question": "Does increasing the average number of voters assigned to a polling station change how often people report being offered bribes? Estimate the local causal effect for places where administrative rules cause step changes in average station size, adjusting for population and voting potential.",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0050/metadata.txt",
+  "data_path": "data/ds_0050/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Rueda2017/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Rueda2017/question/estimation.py",
+  "effect": -0.9835113358726062,
+  "standard_error": 0.14227784489218315,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

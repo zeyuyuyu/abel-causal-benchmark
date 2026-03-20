@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0002",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Manchester City win the 2024/25 Premier League?",
+  "background": "Will resolve based on the Premier League's official announcement of which team is the winner of the 2024/25 season.\n\nhttps://www.premierleague.com/",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "YVmNKSXBBxo2I3DXL3ge",
+  "category": "prediction_markets"
+}

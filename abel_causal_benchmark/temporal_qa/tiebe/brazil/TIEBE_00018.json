@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00018",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "What was the highest number of COVID-19 deaths recorded in Brazil in a single day as of March 2021?",
+  "ground_truth": "2,349 deaths.",
+  "event_desc": "The number of COVID-19 deaths in a single day reaches a new high of 2,349.",
+  "category": "temporal_qa"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_093",
+  "index": 93,
+  "dataset_group": "research_papers",
+  "causal_question": "Among parents whose child's age is arbitrarily close to the voting-age threshold, what is the average effect of the child being just eligible to vote on the parent's probability of voting in 2009?",
+  "vague_question": "How much more likely do parents vote when their child has just become old enough to vote, compared with parents whose child is just not old enough, in 2009?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0061/metadata.txt",
+  "data_path": "data/ds_0061/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/dahlgard_2018a/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/dahlgard_2018a/question_1/estimation.py",
+  "effect": 0.041830899000118826,
+  "standard_error": 0.018547340275271815,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

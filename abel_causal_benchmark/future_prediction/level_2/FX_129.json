@@ -1,0 +1,10 @@
+{
+  "id": "69736a06e543cb005f7b9363",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win NFL Coach of the Year? (resolved around 2026-02-06 (GMT+8)). \nA.  the outcome be Mike Vrabel (New England Patriots)\nB.  the outcome be Ben Johnson (Chicago Bears)\nC.  the outcome be Liam Coen (Jacksonville Jaguars)\nD.  the outcome be Mike Macdonald (Seattle Seahawks)\nE.  the outcome be Kyle Shanahan (San Francisco 49ers)\nF.  the outcome be Sean Payton (Denver Broncos)\nG.  the outcome be Other\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-06",
+  "level": 2,
+  "title": "Who will win NFL Coach of the Year?",
+  "ground_truth": "['A']",
+  "__index_level_0__": 131,
+  "category": "future_prediction"
+}

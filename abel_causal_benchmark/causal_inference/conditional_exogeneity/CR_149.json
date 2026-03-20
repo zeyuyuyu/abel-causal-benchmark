@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_149",
+  "index": 149,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of the specialist home-visit intervention (treatment) on children's cognitive test scores (y)?",
+  "vague_question": "What is the effect of receiving specialist home visits on a child's later cognitive score?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0114/metadata.txt",
+  "data_path": "data/ds_0114/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_9_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_9_0/question/estimation.py",
+  "effect": 4.708801069890146,
+  "standard_error": 0.411433430899987,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

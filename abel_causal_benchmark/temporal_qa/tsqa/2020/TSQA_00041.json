@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00041",
+  "question": "On what date did the Connacht Rugby player achieve their 100th cap in 2020?",
+  "year": 2020,
+  "ground_truth": "22 November 2020 v. Zebre",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "22 November 2020 v. Zebre",
+      "tag": "correct"
+    },
+    {
+      "answer": "21 December 2019 v. Munster",
+      "tag": "past"
+    },
+    {
+      "answer": "4 June 2021 v. Ospreys",
+      "tag": "future"
+    },
+    {
+      "answer": "23 November 2019 v. Toulouse",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

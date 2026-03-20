@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00001",
+  "split": "train",
+  "question": "Will advanced LIGO announce discovery of gravitational waves by Jan. 31 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The Advanced Laser Interferometer Gravitational-Wave Observatory (LIGO) re-opened in mid September after a significant upgrade.\nDesigned with 10x greater sensitivity and a wider range of covered frequencies than the original LIGO, advanced LIGO should, according to its designers, have an \"enhanced physics reach that during its first several hours of operation will exceed the integrated observations of the 1 year LIGO Science Run.\"\nA full description of the experiment in gory detail can be found here.\nCalculations of the expected detection rates suggest tens and potentially hundreds of detectable events per year under reasonable assumptions about neutron star and other types of binaries (and of course assuming General Relativity is correct, etc.)\nWill the LIGO experiment publicly announce a 5-sigma (or equivalent) discovery of astrophysical gravitational waves by Jan 31, 2016?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-02",
+  "date_close": "2015-12-15",
+  "date_resolve_at": "2016-02-01",
+  "url": "https://www.metaculus.com/api2/questions/1/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

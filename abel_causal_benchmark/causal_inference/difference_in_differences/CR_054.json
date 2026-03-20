@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_054",
+  "index": 54,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the post-July 1, 2016 difference in drug-related incident rates (per 1,000 people) between municipalities governed by outsider mayors and those governed by establishment-aligned mayors?",
+  "vague_question": "Following the 2016 change in national leadership, were drug-related incident levels different in places governed by outsider mayors than in those governed by establishment-aligned mayors?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0028/metadata.txt",
+  "data_path": "data/ds_0028/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Ravanilla_2022/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Ravanilla_2022/question_2/estimation.py",
+  "effect": 0.07491083156604028,
+  "standard_error": 0.10855684080114923,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

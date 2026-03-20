@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00014",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "02",
+  "question": "How many COVID-19 vaccine doses were incorrectly sent to Amapá instead of Amazonas in February 2021?",
+  "ground_truth": "76,000 doses meant for Amazonas were mistakenly sent to Amapá.",
+  "event_desc": "The Health Minister admits he mistakenly sent 76,000 doses of COVID-19 vaccines destined for Amazonas state (population 4,000,000) to Amapá municipality (population 9,000). The two places are 1,612 km (1,002 mi) apart.",
+  "category": "temporal_qa"
+}

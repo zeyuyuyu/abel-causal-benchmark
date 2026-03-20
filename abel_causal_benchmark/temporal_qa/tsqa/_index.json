@@ -1,0 +1,722 @@
+{
+  "metadata": {
+    "source": "robinfaro/TSQA",
+    "total_cases": 100,
+    "years": {
+      "2013": 7,
+      "2014": 6,
+      "2022": 9,
+      "2024": 1,
+      "2023": 9,
+      "2015": 9,
+      "2017": 6,
+      "2019": 12,
+      "2021": 6,
+      "2020": 17,
+      "2018": 11,
+      "2016": 7
+    }
+  },
+  "cases": [
+    {
+      "file_id": "TSQA_00066",
+      "year": "2013",
+      "question": "In 2013 Who is the lead in Briar Schwaller-Hürlimann's curli",
+      "ground_truth": "Tamara Michel",
+      "path": "temporal_qa/tsqa/2013/TSQA_00066.json"
+    },
+    {
+      "file_id": "TSQA_00051",
+      "year": "2013",
+      "question": "In what language is Shriya Saran's latest film in 2013?",
+      "ground_truth": "Telugu",
+      "path": "temporal_qa/tsqa/2013/TSQA_00051.json"
+    },
+    {
+      "file_id": "TSQA_00083",
+      "year": "2013",
+      "question": "In 2013 Which team was Marco Andretti racing for at the Indi",
+      "ground_truth": "Andretti Autosport",
+      "path": "temporal_qa/tsqa/2013/TSQA_00083.json"
+    },
+    {
+      "file_id": "TSQA_00063",
+      "year": "2013",
+      "question": "Chris Blackburn played for which team in the year of 2013?",
+      "ground_truth": "AFC Telford United",
+      "path": "temporal_qa/tsqa/2013/TSQA_00063.json"
+    },
+    {
+      "file_id": "TSQA_00065",
+      "year": "2013",
+      "question": "In 2013 What is the most recent production Keisha Castle-Hug",
+      "ground_truth": "The Almighty Johnsons",
+      "path": "temporal_qa/tsqa/2013/TSQA_00065.json"
+    },
+    {
+      "file_id": "TSQA_00053",
+      "year": "2013",
+      "question": "In 2013 What was the total purse for the most recent World W",
+      "ground_truth": "6,000,000",
+      "path": "temporal_qa/tsqa/2013/TSQA_00053.json"
+    },
+    {
+      "file_id": "TSQA_00100",
+      "year": "2013",
+      "question": "What is the website of the firm or studio associated with th",
+      "ground_truth": "HBRA Architects",
+      "path": "temporal_qa/tsqa/2013/TSQA_00100.json"
+    },
+    {
+      "file_id": "TSQA_00085",
+      "year": "2014",
+      "question": "Which football club was Kasper Schmeichel a goalkeeper for i",
+      "ground_truth": "Leicester City",
+      "path": "temporal_qa/tsqa/2014/TSQA_00085.json"
+    },
+    {
+      "file_id": "TSQA_00031",
+      "year": "2014",
+      "question": "Who was the Chief Executive Officer of Amazon in 2014?",
+      "ground_truth": "Jeff Bezos",
+      "path": "temporal_qa/tsqa/2014/TSQA_00031.json"
+    },
+    {
+      "file_id": "TSQA_00026",
+      "year": "2014",
+      "question": "Which football team was the latest winner of the Cupa Români",
+      "ground_truth": "Astra Giurgiu",
+      "path": "temporal_qa/tsqa/2014/TSQA_00026.json"
+    },
+    {
+      "file_id": "TSQA_00040",
+      "year": "2014",
+      "question": "Which team did the player Frazer Wright belong to in the yea",
+      "ground_truth": "St Johnstone",
+      "path": "temporal_qa/tsqa/2014/TSQA_00040.json"
+    },
+    {
+      "file_id": "TSQA_00036",
+      "year": "2014",
+      "question": "In 2014 What is Chase Elliott's current standing position in",
+      "ground_truth": "1st",
+      "path": "temporal_qa/tsqa/2014/TSQA_00036.json"
+    },
+    {
+      "file_id": "TSQA_00025",
+      "year": "2014",
+      "question": "How many laps was the most recent UNOH 200 in 2014?",
+      "ground_truth": "200",
+      "path": "temporal_qa/tsqa/2014/TSQA_00025.json"
+    },
+    {
+      "file_id": "TSQA_00030",
+      "year": "2022",
+      "question": "Which club is the runner-up in the Basketball League of Serb",
+      "ground_truth": "Dynamic BG",
+      "path": "temporal_qa/tsqa/2022/TSQA_00030.json"
+    },
+    {
+      "file_id": "TSQA_00010",
+      "year": "2022",
+      "question": "What character did Jake Cuenca portray in his latest televis",
+      "ground_truth": "Eros \"Commando\" Del Rio",
+      "path": "temporal_qa/tsqa/2022/TSQA_00010.json"
+    },
+    {
+      "file_id": "TSQA_00099",
+      "year": "2022",
+      "question": "In 2022 Which single released by Farruko features Marshmello",
+      "ground_truth": "Nazareno",
+      "path": "temporal_qa/tsqa/2022/TSQA_00099.json"
+    },
+    {
+      "file_id": "TSQA_00057",
+      "year": "2022",
+      "question": "Who received the AVN Award for Best Actor in 2022?",
+      "ground_truth": "Tommy Pistol",
+      "path": "temporal_qa/tsqa/2022/TSQA_00057.json"
+    },
+    {
+      "file_id": "TSQA_00079",
+      "year": "2022",
+      "question": "Who was the current champion of the PURE Insurance Champions",
+      "ground_truth": "Steve Flesch",
+      "path": "temporal_qa/tsqa/2022/TSQA_00079.json"
+    },
+    {
+      "file_id": "TSQA_00034",
+      "year": "2022",
+      "question": "What character did Son Eun-seo portray in her latest televis",
+      "ground_truth": "Park Eun-soo",
+      "path": "temporal_qa/tsqa/2022/TSQA_00034.json"
+    },
+    {
+      "file_id": "TSQA_00075",
+      "year": "2022",
+      "question": "Who was the director of the film where Colin Firth plays Gen",
+      "ground_truth": "Sam Mendes",
+      "path": "temporal_qa/tsqa/2022/TSQA_00075.json"
+    },
+    {
+      "file_id": "TSQA_00052",
+      "year": "2022",
+      "question": "Who was the head of state in Finland in 2022?",
+      "ground_truth": "Sauli Niinistö",
+      "path": "temporal_qa/tsqa/2022/TSQA_00052.json"
+    },
+    {
+      "file_id": "TSQA_00033",
+      "year": "2022",
+      "question": "Which team did Nino Paraíba play for in 2022?",
+      "ground_truth": "Ceará",
+      "path": "temporal_qa/tsqa/2022/TSQA_00033.json"
+    },
+    {
+      "file_id": "TSQA_00093",
+      "year": "2024",
+      "question": "Who was the head of state in the United States of America in",
+      "ground_truth": "Donald Trump",
+      "path": "temporal_qa/tsqa/2024/TSQA_00093.json"
+    },
+    {
+      "file_id": "TSQA_00027",
+      "year": "2023",
+      "question": "In 2023 Who trained the winning horse in the last Sham Stake",
+      "ground_truth": "Bob Baffert",
+      "path": "temporal_qa/tsqa/2023/TSQA_00027.json"
+    },
+    {
+      "file_id": "TSQA_00070",
+      "year": "2023",
+      "question": "In 2023 Who occupies the position of third in Oskar Eriksson",
+      "ground_truth": "Oskar Eriksson",
+      "path": "temporal_qa/tsqa/2023/TSQA_00070.json"
+    },
+    {
+      "file_id": "TSQA_00047",
+      "year": "2023",
+      "question": "Who directed the most recent television series produced by B",
+      "ground_truth": "Minoru Ohama, Shūsei Morishita",
+      "path": "temporal_qa/tsqa/2023/TSQA_00047.json"
+    },
+    {
+      "file_id": "TSQA_00021",
+      "year": "2023",
+      "question": "In 2023 Which football club is Michiel Kramer currently play",
+      "ground_truth": "RKC Waalwijk",
+      "path": "temporal_qa/tsqa/2023/TSQA_00021.json"
+    },
+    {
+      "file_id": "TSQA_00077",
+      "year": "2023",
+      "question": "In 2023 What is the latest TV series where José Alberto Cast",
+      "ground_truth": "Cabo, Tierra de esperanza, Corona de Lágrimas",
+      "path": "temporal_qa/tsqa/2023/TSQA_00077.json"
+    },
+    {
+      "file_id": "TSQA_00022",
+      "year": "2023",
+      "question": "Who won the Best Director award at the most recent Tokyo Ani",
+      "ground_truth": "Makoto Shinkai",
+      "path": "temporal_qa/tsqa/2023/TSQA_00022.json"
+    },
+    {
+      "file_id": "TSQA_00013",
+      "year": "2023",
+      "question": "What television show was Josie Gibson participating in in 20",
+      "ground_truth": "I'm a Celebrity...Get Me Out of Here!",
+      "path": "temporal_qa/tsqa/2023/TSQA_00013.json"
+    },
+    {
+      "file_id": "TSQA_00032",
+      "year": "2023",
+      "question": "What network aired the International Emmy Award-winning TV M",
+      "ground_truth": "Amazon Prime Video",
+      "path": "temporal_qa/tsqa/2023/TSQA_00032.json"
+    },
+    {
+      "file_id": "TSQA_00069",
+      "year": "2023",
+      "question": "In 2023 What model of car did the team Canadian Northwest AM",
+      "ground_truth": "Aston Martin Vantage AMR",
+      "path": "temporal_qa/tsqa/2023/TSQA_00069.json"
+    },
+    {
+      "file_id": "TSQA_00092",
+      "year": "2015",
+      "question": "Who was the head of state in Germany in 2015?",
+      "ground_truth": "Joachim Gauck",
+      "path": "temporal_qa/tsqa/2015/TSQA_00092.json"
+    },
+    {
+      "file_id": "TSQA_00076",
+      "year": "2015",
+      "question": "Which club won the Montenegrin Second League championship in",
+      "ground_truth": "Bokelj",
+      "path": "temporal_qa/tsqa/2015/TSQA_00076.json"
+    },
+    {
+      "file_id": "TSQA_00082",
+      "year": "2015",
+      "question": "What was the regular season standing for the Capital FC's me",
+      "ground_truth": "2nd, Northwest",
+      "path": "temporal_qa/tsqa/2015/TSQA_00082.json"
+    },
+    {
+      "file_id": "TSQA_00061",
+      "year": "2015",
+      "question": "Which team was honored as the Bosnia and Herzegovina Team of",
+      "ground_truth": "Men's national U16 basketball team",
+      "path": "temporal_qa/tsqa/2015/TSQA_00061.json"
+    },
+    {
+      "file_id": "TSQA_00058",
+      "year": "2015",
+      "question": "Which football club was Stavros Petavrakis playing for in 20",
+      "ground_truth": "AEK Athens",
+      "path": "temporal_qa/tsqa/2015/TSQA_00058.json"
+    },
+    {
+      "file_id": "TSQA_00078",
+      "year": "2015",
+      "question": "In 2015 What is the title of the television series or movie ",
+      "ground_truth": "Miss Fisher's Murder Mysteries",
+      "path": "temporal_qa/tsqa/2015/TSQA_00078.json"
+    },
+    {
+      "file_id": "TSQA_00059",
+      "year": "2015",
+      "question": "Which club was André Simões playing for in 2015?",
+      "ground_truth": "AEK Athens",
+      "path": "temporal_qa/tsqa/2015/TSQA_00059.json"
+    },
+    {
+      "file_id": "TSQA_00005",
+      "year": "2015",
+      "question": "Which team was Miro Konôpka racing for in 2015?",
+      "ground_truth": "Artthea Sport",
+      "path": "temporal_qa/tsqa/2015/TSQA_00005.json"
+    },
+    {
+      "file_id": "TSQA_00087",
+      "year": "2015",
+      "question": "What is the US World peak chart position for the single 'Oct",
+      "ground_truth": "October Rain",
+      "path": "temporal_qa/tsqa/2015/TSQA_00087.json"
+    },
+    {
+      "file_id": "TSQA_00088",
+      "year": "2017",
+      "question": "In 2017 Which team finished in third place in the Swiss Supe",
+      "ground_truth": "Lugano",
+      "path": "temporal_qa/tsqa/2017/TSQA_00088.json"
+    },
+    {
+      "file_id": "TSQA_00014",
+      "year": "2017",
+      "question": "Who was the head coach for Incarnate Word Cardinals football",
+      "ground_truth": "Larry Kennan",
+      "path": "temporal_qa/tsqa/2017/TSQA_00014.json"
+    },
+    {
+      "file_id": "TSQA_00024",
+      "year": "2017",
+      "question": "What is the latest television series Tayanç Ayaydın has star",
+      "ground_truth": "Kırgın Çiçekler",
+      "path": "temporal_qa/tsqa/2017/TSQA_00024.json"
+    },
+    {
+      "file_id": "TSQA_00090",
+      "year": "2017",
+      "question": "What was Nico Müller's current team in 2017?",
+      "ground_truth": "Audi Sport Team WRT",
+      "path": "temporal_qa/tsqa/2017/TSQA_00090.json"
+    },
+    {
+      "file_id": "TSQA_00004",
+      "year": "2017",
+      "question": "Who was the head of state in Norway in 2017?",
+      "ground_truth": "Harald V of Norway",
+      "path": "temporal_qa/tsqa/2017/TSQA_00004.json"
+    },
+    {
+      "file_id": "TSQA_00045",
+      "year": "2017",
+      "question": "Who is the primary champion of the World Boxing Association ",
+      "ground_truth": "Ryan Burnett – Super champion",
+      "path": "temporal_qa/tsqa/2017/TSQA_00045.json"
+    },
+    {
+      "file_id": "TSQA_00011",
+      "year": "2019",
+      "question": "Who was the trainer of the horse that won the latest Acomb S",
+      "ground_truth": "William Haggas",
+      "path": "temporal_qa/tsqa/2019/TSQA_00011.json"
+    },
+    {
+      "file_id": "TSQA_00089",
+      "year": "2019",
+      "question": "How many assists did Matt Fraser provide in the playoffs in ",
+      "ground_truth": "1",
+      "path": "temporal_qa/tsqa/2019/TSQA_00089.json"
+    },
+    {
+      "file_id": "TSQA_00067",
+      "year": "2019",
+      "question": "In 2019 Who plays as third on Kaitlyn Lawess team?",
+      "ground_truth": "Kaitlyn Lawes",
+      "path": "temporal_qa/tsqa/2019/TSQA_00067.json"
+    },
+    {
+      "file_id": "TSQA_00060",
+      "year": "2019",
+      "question": "In 2019 Who joined Josh Morgerman on his latest tropical cyc",
+      "ground_truth": "Solo",
+      "path": "temporal_qa/tsqa/2019/TSQA_00060.json"
+    },
+    {
+      "file_id": "TSQA_00017",
+      "year": "2019",
+      "question": "How many penalty minutes has Miikka Salomäki accumulated in ",
+      "ground_truth": "8",
+      "path": "temporal_qa/tsqa/2019/TSQA_00017.json"
+    },
+    {
+      "file_id": "TSQA_00098",
+      "year": "2019",
+      "question": "Which character was portrayed by Alexander Scheer in his lat",
+      "ground_truth": "Siegfried Leitmann",
+      "path": "temporal_qa/tsqa/2019/TSQA_00098.json"
+    },
+    {
+      "file_id": "TSQA_00054",
+      "year": "2019",
+      "question": "Who was the Prva HNL Player of the Year in 2019?",
+      "ground_truth": "Bruno Petković",
+      "path": "temporal_qa/tsqa/2019/TSQA_00054.json"
+    },
+    {
+      "file_id": "TSQA_00055",
+      "year": "2019",
+      "question": "What was the current team of Nikola Jokic in 2019?",
+      "ground_truth": "Denver Nuggets",
+      "path": "temporal_qa/tsqa/2019/TSQA_00055.json"
+    },
+    {
+      "file_id": "TSQA_00043",
+      "year": "2019",
+      "question": "How many league goals did Panagiotis Vlachodimos score for h",
+      "ground_truth": "1",
+      "path": "temporal_qa/tsqa/2019/TSQA_00043.json"
+    },
+    {
+      "file_id": "TSQA_00068",
+      "year": "2019",
+      "question": "In 2019 In which league division is Francesco Acerbi competi",
+      "ground_truth": "Serie A",
+      "path": "temporal_qa/tsqa/2019/TSQA_00068.json"
+    },
+    {
+      "file_id": "TSQA_00064",
+      "year": "2019",
+      "question": "Who was the current manager of Central Coast Mariners FC in ",
+      "ground_truth": "Alen Stajcic",
+      "path": "temporal_qa/tsqa/2019/TSQA_00064.json"
+    },
+    {
+      "file_id": "TSQA_00012",
+      "year": "2019",
+      "question": "Who was the chair of Gáivuotna – Kåfjord – Kaivuono in the y",
+      "ground_truth": "Svein O . Leiros",
+      "path": "temporal_qa/tsqa/2019/TSQA_00012.json"
+    },
+    {
+      "file_id": "TSQA_00006",
+      "year": "2021",
+      "question": "Who was the head of state in Chile in 2021?",
+      "ground_truth": "Sebastián Piñera",
+      "path": "temporal_qa/tsqa/2021/TSQA_00006.json"
+    },
+    {
+      "file_id": "TSQA_00094",
+      "year": "2021",
+      "question": "Who was Deontay Wilder's last opponent in his professional b",
+      "ground_truth": "Tyson Fury",
+      "path": "temporal_qa/tsqa/2021/TSQA_00094.json"
+    },
+    {
+      "file_id": "TSQA_00023",
+      "year": "2021",
+      "question": "In 2021 In which division is Përparim Hetemaj currently comp",
+      "ground_truth": "Serie B",
+      "path": "temporal_qa/tsqa/2021/TSQA_00023.json"
+    },
+    {
+      "file_id": "TSQA_00039",
+      "year": "2021",
+      "question": "In 2021 How many FA Cup appearances has Jerome Okimo made wi",
+      "ground_truth": "1",
+      "path": "temporal_qa/tsqa/2021/TSQA_00039.json"
+    },
+    {
+      "file_id": "TSQA_00096",
+      "year": "2021",
+      "question": "In 2021 Who is the most recent winner of the men's singles e",
+      "ground_truth": "Varun Kapur",
+      "path": "temporal_qa/tsqa/2021/TSQA_00096.json"
+    },
+    {
+      "file_id": "TSQA_00073",
+      "year": "2021",
+      "question": "In 2021 How many wins has Paul-Loup Chatin secured in the cu",
+      "ground_truth": "1",
+      "path": "temporal_qa/tsqa/2021/TSQA_00073.json"
+    },
+    {
+      "file_id": "TSQA_00050",
+      "year": "2020",
+      "question": "What was the latest music video released by Maroon 5 in 2020",
+      "ground_truth": "Nobody's Love",
+      "path": "temporal_qa/tsqa/2020/TSQA_00050.json"
+    },
+    {
+      "file_id": "TSQA_00046",
+      "year": "2020",
+      "question": "What is Charlene McKenna's role in her most recent televisio",
+      "ground_truth": "Jojo Harte, Maddie, Rose Erskine",
+      "path": "temporal_qa/tsqa/2020/TSQA_00046.json"
+    },
+    {
+      "file_id": "TSQA_00071",
+      "year": "2020",
+      "question": "What is the title of the television series in which Alex Pax",
+      "ground_truth": "Fortunate Son",
+      "path": "temporal_qa/tsqa/2020/TSQA_00071.json"
+    },
+    {
+      "file_id": "TSQA_00001",
+      "year": "2020",
+      "question": "Who was serving as the latest studio host for Pittsburgh Pen",
+      "ground_truth": "Josh Getzoff Paul Steigerwald (select away games)",
+      "path": "temporal_qa/tsqa/2020/TSQA_00001.json"
+    },
+    {
+      "file_id": "TSQA_00016",
+      "year": "2020",
+      "question": "Where was Gavin Creel performing in 2020?",
+      "ground_truth": "Adelphi Theatre: January – March 2020",
+      "path": "temporal_qa/tsqa/2020/TSQA_00016.json"
+    },
+    {
+      "file_id": "TSQA_00041",
+      "year": "2020",
+      "question": "On what date did the Connacht Rugby player achieve their 100",
+      "ground_truth": "22 November 2020 v. Zebre",
+      "path": "temporal_qa/tsqa/2020/TSQA_00041.json"
+    },
+    {
+      "file_id": "TSQA_00019",
+      "year": "2020",
+      "question": "Which team did Stefan Ilsanker play for in 2020?",
+      "ground_truth": "Eintracht Frankfurt",
+      "path": "temporal_qa/tsqa/2020/TSQA_00019.json"
+    },
+    {
+      "file_id": "TSQA_00035",
+      "year": "2020",
+      "question": "In 2020 What is the current league division that Anders Chri",
+      "ground_truth": "Allsvenskan",
+      "path": "temporal_qa/tsqa/2020/TSQA_00035.json"
+    },
+    {
+      "file_id": "TSQA_00062",
+      "year": "2020",
+      "question": "Which character was Kellie Bright portraying on television i",
+      "ground_truth": "Linda Carter",
+      "path": "temporal_qa/tsqa/2020/TSQA_00062.json"
+    },
+    {
+      "file_id": "TSQA_00015",
+      "year": "2020",
+      "question": "In 2020 Which entity owned the horse that won the Alfred G. ",
+      "ground_truth": "Three Chimneys Farm & Phoenix Thoroughbred III",
+      "path": "temporal_qa/tsqa/2020/TSQA_00015.json"
+    },
+    {
+      "file_id": "TSQA_00002",
+      "year": "2020",
+      "question": "What is Rose Matafeo's current role on television in 2020?",
+      "ground_truth": "Rose",
+      "path": "temporal_qa/tsqa/2020/TSQA_00002.json"
+    },
+    {
+      "file_id": "TSQA_00044",
+      "year": "2020",
+      "question": "Which architect won the Sir John Sulman Medal most recently ",
+      "ground_truth": "Neeson Murcutt Architects in association with City of Sydney",
+      "path": "temporal_qa/tsqa/2020/TSQA_00044.json"
+    },
+    {
+      "file_id": "TSQA_00029",
+      "year": "2020",
+      "question": "What television show did Alfred Molina most recently provide",
+      "ground_truth": "Robot Chicken",
+      "path": "temporal_qa/tsqa/2020/TSQA_00029.json"
+    },
+    {
+      "file_id": "TSQA_00009",
+      "year": "2020",
+      "question": "Who was the chairperson of the International Olympic Committ",
+      "ground_truth": "Thomas Bach",
+      "path": "temporal_qa/tsqa/2020/TSQA_00009.json"
+    },
+    {
+      "file_id": "TSQA_00072",
+      "year": "2020",
+      "question": "As per the latest data, which female name holds the tenth po",
+      "ground_truth": "Paneeraq",
+      "path": "temporal_qa/tsqa/2020/TSQA_00072.json"
+    },
+    {
+      "file_id": "TSQA_00049",
+      "year": "2020",
+      "question": "What was the regular season standing for the Capital FC's me",
+      "ground_truth": "2nd, Northwest",
+      "path": "temporal_qa/tsqa/2020/TSQA_00049.json"
+    },
+    {
+      "file_id": "TSQA_00028",
+      "year": "2020",
+      "question": "Who was the head of state in Bangladesh in 2020?",
+      "ground_truth": "Abdul Hamid",
+      "path": "temporal_qa/tsqa/2020/TSQA_00028.json"
+    },
+    {
+      "file_id": "TSQA_00007",
+      "year": "2018",
+      "question": "Which character was Kellie Bright portraying on television i",
+      "ground_truth": "Linda Carter",
+      "path": "temporal_qa/tsqa/2018/TSQA_00007.json"
+    },
+    {
+      "file_id": "TSQA_00095",
+      "year": "2018",
+      "question": "Who was the head of state in Iran in 2018?",
+      "ground_truth": "Ali Khamenei",
+      "path": "temporal_qa/tsqa/2018/TSQA_00095.json"
+    },
+    {
+      "file_id": "TSQA_00020",
+      "year": "2018",
+      "question": "Where was Derek Chisora's most recent professional boxing ma",
+      "ground_truth": "The O2 Arena, London, England",
+      "path": "temporal_qa/tsqa/2018/TSQA_00020.json"
+    },
+    {
+      "file_id": "TSQA_00074",
+      "year": "2018",
+      "question": "In 2018 Who is the Miss Earth Venezuela?",
+      "ground_truth": "Diana Carolina Silva Francisco",
+      "path": "temporal_qa/tsqa/2018/TSQA_00074.json"
+    },
+    {
+      "file_id": "TSQA_00042",
+      "year": "2018",
+      "question": "What was the total purse for the most recent World Wide Tech",
+      "ground_truth": "6,100,000",
+      "path": "temporal_qa/tsqa/2018/TSQA_00042.json"
+    },
+    {
+      "file_id": "TSQA_00003",
+      "year": "2018",
+      "question": "In which television series was Jessica Camacho appearing in ",
+      "ground_truth": "The Flash",
+      "path": "temporal_qa/tsqa/2018/TSQA_00003.json"
+    },
+    {
+      "file_id": "TSQA_00081",
+      "year": "2018",
+      "question": "Which batsman holds the record for scoring the most runs aga",
+      "ground_truth": "Rohit Sharma",
+      "path": "temporal_qa/tsqa/2018/TSQA_00081.json"
+    },
+    {
+      "file_id": "TSQA_00080",
+      "year": "2018",
+      "question": "Who was the jockey that won the latest Champions Mile in 201",
+      "ground_truth": "João Moreira",
+      "path": "temporal_qa/tsqa/2018/TSQA_00080.json"
+    },
+    {
+      "file_id": "TSQA_00038",
+      "year": "2018",
+      "question": "Who served as the analyst for the Southern Conference men's ",
+      "ground_truth": "Sean Farnham",
+      "path": "temporal_qa/tsqa/2018/TSQA_00038.json"
+    },
+    {
+      "file_id": "TSQA_00091",
+      "year": "2018",
+      "question": "In 2018 What brand of motorcycle is Pol Espargaró currently ",
+      "ground_truth": "KTM",
+      "path": "temporal_qa/tsqa/2018/TSQA_00091.json"
+    },
+    {
+      "file_id": "TSQA_00086",
+      "year": "2018",
+      "question": "In 2018 How many league appearances has Conor Washington mad",
+      "ground_truth": "15",
+      "path": "temporal_qa/tsqa/2018/TSQA_00086.json"
+    },
+    {
+      "file_id": "TSQA_00084",
+      "year": "2016",
+      "question": "Which team was the runner-up in the Paradise Jam Tournament ",
+      "ground_truth": "Ole Miss",
+      "path": "temporal_qa/tsqa/2016/TSQA_00084.json"
+    },
+    {
+      "file_id": "TSQA_00037",
+      "year": "2016",
+      "question": "Which league and division was Nicolae Stanciu competing in w",
+      "ground_truth": "Liga I",
+      "path": "temporal_qa/tsqa/2016/TSQA_00037.json"
+    },
+    {
+      "file_id": "TSQA_00056",
+      "year": "2016",
+      "question": "In 2016 Who is the winner of the Men's Open in the Noosa Fes",
+      "ground_truth": "Nic Jones",
+      "path": "temporal_qa/tsqa/2016/TSQA_00056.json"
+    },
+    {
+      "file_id": "TSQA_00097",
+      "year": "2016",
+      "question": "Which character was Kellie Bright portraying on television i",
+      "ground_truth": "Linda Carter",
+      "path": "temporal_qa/tsqa/2016/TSQA_00097.json"
+    },
+    {
+      "file_id": "TSQA_00018",
+      "year": "2016",
+      "question": "Which character did Ian Hanlin voice in his most recent voic",
+      "ground_truth": "Julius Nosh",
+      "path": "temporal_qa/tsqa/2016/TSQA_00018.json"
+    },
+    {
+      "file_id": "TSQA_00048",
+      "year": "2016",
+      "question": "In 2016 Which team was the runner-up in the latest Campeonat",
+      "ground_truth": "Atlético Tubarão",
+      "path": "temporal_qa/tsqa/2016/TSQA_00048.json"
+    },
+    {
+      "file_id": "TSQA_00008",
+      "year": "2016",
+      "question": "Who is the current Member of State Assembly for Jeram Padang",
+      "ground_truth": "Manickam Letchuman",
+      "path": "temporal_qa/tsqa/2016/TSQA_00008.json"
+    }
+  ]
+}

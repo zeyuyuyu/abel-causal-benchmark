@@ -1,0 +1,10 @@
+{
+  "id": "68514628aca664006bceb217",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, according to the latest China Influenza Weekly Report (中国流感监测周报) from the Chinese Center for Disease Control and Prevention, how many outbreaks of influenza-like illness (流感样病例暴发疫情) will be reported nationwide?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-06",
+  "level": 4,
+  "title": "2026-03-06, according to the latest China Influenza Weekly Report (中国流感监测周报) from the Chinese Center for Disease Control and Prevention, how many outbreaks of influenza-like illness (流感样病例暴发疫情) will be reported nationwide?",
+  "ground_truth": "['全国未报告流感样病例暴发疫情']",
+  "__index_level_0__": 243,
+  "category": "future_prediction"
+}

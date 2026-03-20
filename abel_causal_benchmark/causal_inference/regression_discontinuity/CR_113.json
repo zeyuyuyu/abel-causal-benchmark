@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_113",
+  "index": 113,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the local average effect of a broker being constrained by incumbency (as opposed to remaining a free agent) on the change in their party's subsequent electoral performance in that municipality?",
+  "vague_question": "How does having a winning mayoral broker who is bound to their party affect the change in that party's later vote share in the municipality? What is the size of that effect near the win-loss threshold?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0078/metadata.txt",
+  "data_path": "data/ds_0078/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/novaes_2018/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/novaes_2018/question_1/estimation.py",
+  "effect": -0.15605068407099687,
+  "standard_error": 0.038376195809532575,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00065",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "03",
+  "question": "What restrictions remained for José Genoino after his sentence was extinguished in 2015?",
+  "ground_truth": "He could not immediately run for elected office again and was barred from doing so until 2023.",
+  "event_desc": "The Supreme Federal Court extinguishes the sentence of former Workers' Party president José Genoino, after being convicted in the monthly allowance process.",
+  "category": "temporal_qa"
+}

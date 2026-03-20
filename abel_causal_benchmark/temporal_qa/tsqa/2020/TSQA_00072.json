@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00072",
+  "question": "As per the latest data, which female name holds the tenth position in popularity in Brazil in 2020?",
+  "year": 2020,
+  "ground_truth": "Paneeraq",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Paneeraq",
+      "tag": "correct"
+    },
+    {
+      "answer": "Renata",
+      "tag": "future"
+    },
+    {
+      "answer": "Carmen",
+      "tag": "past"
+    },
+    {
+      "answer": "Aurora",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

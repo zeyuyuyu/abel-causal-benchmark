@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00036",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "04",
+  "question": "Why was Rio de Janeiro governor Wilson Witzel impeached in April 2021?",
+  "ground_truth": "He was impeached due to accusations of irregularities in the hiring of field hospitals to combat the coronavirus pandemic.",
+  "event_desc": "The impeachment of Rio de Janeiro governor Wilson Witzel is unanimously approved, after being accused of irregularities in the hiring of field hospitals to combat the coronavirus pandemic . The former judge will have his political rights suspended for 5 years and the acting governor, Cláudio Castro, will take over the position permanently.",
+  "category": "temporal_qa"
+}

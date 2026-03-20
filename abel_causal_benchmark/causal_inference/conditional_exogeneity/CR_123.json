@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_123",
+  "index": 123,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who received the home-visit program, what was the average effect on their standardized cognitive test score at about 36 months compared with if they had not received the program?",
+  "vague_question": "For children who got the home visits, how much did the program change their age-3 cognitive scores on average?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0088/metadata.txt",
+  "data_path": "data/ds_0088/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_0_1/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_0_1/question/estimation.py",
+  "effect": 4.097269527431274,
+  "standard_error": 0.2074012364213435,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

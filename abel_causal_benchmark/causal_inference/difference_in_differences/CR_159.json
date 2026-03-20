@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_159",
+  "index": 159,
+  "dataset_group": "textbook",
+  "causal_question": "What was the causal effect of early abortion legalization on log gonorrhea incidence for Black females aged 15-19 during the late 1980s-early 1990s?",
+  "vague_question": "Did early legalization of abortion change gonorrhea rates among Black teenage girls in the late 1980s and early 1990s?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0124/metadata.txt",
+  "data_path": "data/ds_0124/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/abortion/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/abortion/question/estimation.py",
+  "effect": -0.09103317884669104,
+  "standard_error": 0.14347871822849892,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

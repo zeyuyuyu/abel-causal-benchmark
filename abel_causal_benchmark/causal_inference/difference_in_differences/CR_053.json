@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_053",
+  "index": 53,
+  "dataset_group": "research_papers",
+  "causal_question": "By how much did drug-related police blotter incidents per 1,000 residents change in municipalities with outsider mayors after July 1, 2016 compared with otherwise similar municipalities led by establishment mayors?",
+  "vague_question": "After mid-2016, did towns led by outsider mayors see more or fewer drug-related police reports compared with towns led by establishment mayors?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0028/metadata.txt",
+  "data_path": "data/ds_0028/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Ravanilla_2022/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Ravanilla_2022/question_1/estimation.py",
+  "effect": 0.36146776953030707,
+  "standard_error": 0.17808457478058753,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

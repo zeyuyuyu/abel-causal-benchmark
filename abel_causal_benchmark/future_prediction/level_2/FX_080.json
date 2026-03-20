@@ -1,0 +1,10 @@
+{
+  "id": "693c0b13a23921005c8d53ce",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"GPT 5.2 METR time horizon (resolved around 2026-01-31 (GMT+8)). \nA. the outcome be <2h\nB. the outcome be 2h00 - 2h15\nC. the outcome be 2h15 - 2h30\nD. the outcome be 2h30 - 2h45\nE. the outcome be 2h45 - 3h00\nF. the outcome be 3h00 - 3h15\nG. the outcome be 3h15 - 3h30\nH. the outcome be 3h30 - 3h45\nI. the outcome be 3h45 - 4h\nJ. the outcome be >= 4h\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-31 00:00:00",
+  "level": 2,
+  "title": "GPT 5.2 METR time horizon",
+  "ground_truth": "['J']",
+  "__index_level_0__": 80,
+  "category": "future_prediction"
+}

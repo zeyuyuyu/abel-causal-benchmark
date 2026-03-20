@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00085",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "06",
+  "question": "What did Brazil's Supreme Court rule regarding the possession of marijuana for personal use in June 2024?",
+  "ground_truth": "Brazil's Supreme Court ruled to decriminalize the possession of marijuana for personal use in June 2024.",
+  "event_desc": "25 June  The Supreme Federal Court rules in favor of decriminalising possession of marijuana for personal use.",
+  "category": "temporal_qa"
+}

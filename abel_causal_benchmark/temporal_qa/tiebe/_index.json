@@ -1,0 +1,711 @@
+{
+  "metadata": {
+    "source": "TimelyEventsBenchmark/TiEBe",
+    "total_cases": 100,
+    "countries": {
+      "brazil": 100
+    }
+  },
+  "cases": [
+    {
+      "file_id": "TIEBE_00050",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Where did the fire at the Cinemateca Brasileira occur in Jul",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00050.json"
+    },
+    {
+      "file_id": "TIEBE_00007",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who was elected president of the Brazilian Federal Senate in",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00007.json"
+    },
+    {
+      "file_id": "TIEBE_00011",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What action did Brazil's Supreme Federal Court take regardin",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00011.json"
+    },
+    {
+      "file_id": "TIEBE_00046",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What crime was Lázaro Barbosa accused of committing in Ceilâ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00046.json"
+    },
+    {
+      "file_id": "TIEBE_00085",
+      "country": "brazil",
+      "year": "2024",
+      "question": "What did Brazil's Supreme Court rule regarding the possessio",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00085.json"
+    },
+    {
+      "file_id": "TIEBE_00093",
+      "country": "brazil",
+      "year": "2024",
+      "question": "What did scientists discover in Brazilian sharpnose sharks o",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00093.json"
+    },
+    {
+      "file_id": "TIEBE_00031",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What reason did Fernando Azevedo e Silva give for his resign",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00031.json"
+    },
+    {
+      "file_id": "TIEBE_00089",
+      "country": "brazil",
+      "year": "2024",
+      "question": "When did the Brazilian government apologize for the persecut",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00089.json"
+    },
+    {
+      "file_id": "TIEBE_00066",
+      "country": "brazil",
+      "year": "2015",
+      "question": "How many people died in the bus accident near Joinville, Bra",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00066.json"
+    },
+    {
+      "file_id": "TIEBE_00070",
+      "country": "brazil",
+      "year": "2015",
+      "question": "How many cities across Brazil participated in the anti-Dilma",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00070.json"
+    },
+    {
+      "file_id": "TIEBE_00027",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who became Brazil's fourth health minister during the COVID-",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00027.json"
+    },
+    {
+      "file_id": "TIEBE_00026",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the total number of confirmed COVID-19 cases in Bra",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00026.json"
+    },
+    {
+      "file_id": "TIEBE_00071",
+      "country": "brazil",
+      "year": "2015",
+      "question": "What did Brazil's Supreme Court rule regarding corporate don",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00071.json"
+    },
+    {
+      "file_id": "TIEBE_00088",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How much of the Pantanal wetland in Brazil was burned by wil",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00088.json"
+    },
+    {
+      "file_id": "TIEBE_00067",
+      "country": "brazil",
+      "year": "2015",
+      "question": "Who was arrested in February 2015 as part of Operation Casta",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00067.json"
+    },
+    {
+      "file_id": "TIEBE_00030",
+      "country": "brazil",
+      "year": "2021",
+      "question": "When did Brazil surpass 300,000 deaths due to COVID-19?",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00030.json"
+    },
+    {
+      "file_id": "TIEBE_00092",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people died in Rio de Janeiro due to heavy rains in",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00092.json"
+    },
+    {
+      "file_id": "TIEBE_00084",
+      "country": "brazil",
+      "year": "2024",
+      "question": "Which other countries had severed diplomatic relations with ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00084.json"
+    },
+    {
+      "file_id": "TIEBE_00047",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Which city is home to the Museum of the Portuguese Language?",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00047.json"
+    },
+    {
+      "file_id": "TIEBE_00010",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How much did Vale S.A. agree to pay in the settlement for th",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00010.json"
+    },
+    {
+      "file_id": "TIEBE_00006",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Which two COVID-19 vaccines received emergency use approval ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00006.json"
+    },
+    {
+      "file_id": "TIEBE_00051",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Why was Brazilian President Jair Bolsonaro hospitalized in J",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00051.json"
+    },
+    {
+      "file_id": "TIEBE_00037",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people were killed in the knife attack at the dayca",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00037.json"
+    },
+    {
+      "file_id": "TIEBE_00060",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people died in the bus accident on BR-153 in Aparec",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00060.json"
+    },
+    {
+      "file_id": "TIEBE_00099",
+      "country": "brazil",
+      "year": "2024",
+      "question": "Who won the gold medal in the floor exercise at the 2024 Par",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00099.json"
+    },
+    {
+      "file_id": "TIEBE_00076",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people died in Rio de Janeiro state due to floods a",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00076.json"
+    },
+    {
+      "file_id": "TIEBE_00021",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who ordered the arrest of Daniel Silveira in February 2021?",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00021.json"
+    },
+    {
+      "file_id": "TIEBE_00056",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What concerns did indigenous activists express before the pr",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00056.json"
+    },
+    {
+      "file_id": "TIEBE_00001",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many weeks did the first phase of São Paulo's COVID-19 v",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00001.json"
+    },
+    {
+      "file_id": "TIEBE_00017",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the highest number of COVID-19 deaths recorded in B",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00017.json"
+    },
+    {
+      "file_id": "TIEBE_00040",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people were involved in the manhunt for Lázaro Barb",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00040.json"
+    },
+    {
+      "file_id": "TIEBE_00083",
+      "country": "brazil",
+      "year": "2024",
+      "question": "Which country was awarded the hosting rights for the 2027 FI",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00083.json"
+    },
+    {
+      "file_id": "TIEBE_00095",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people were killed in the attack on the Guarani-Kai",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00095.json"
+    },
+    {
+      "file_id": "TIEBE_00094",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people were injured when Air Europa Flight UX045 ex",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00094.json"
+    },
+    {
+      "file_id": "TIEBE_00082",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people were reported missing after the floods in Ri",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00082.json"
+    },
+    {
+      "file_id": "TIEBE_00041",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How did the Brazilian police respond to the anti-Bolsonaro p",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00041.json"
+    },
+    {
+      "file_id": "TIEBE_00016",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many COVID-19 deaths had Brazil recorded by February 202",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00016.json"
+    },
+    {
+      "file_id": "TIEBE_00057",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people were killed in the collapse of a three-story",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00057.json"
+    },
+    {
+      "file_id": "TIEBE_00020",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who were the primary suspects in the investigation of Henry ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00020.json"
+    },
+    {
+      "file_id": "TIEBE_00098",
+      "country": "brazil",
+      "year": "2024",
+      "question": "Which country did Beatriz Souza represent when she won her O",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00098.json"
+    },
+    {
+      "file_id": "TIEBE_00077",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people died in the crash involving a truck and a to",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00077.json"
+    },
+    {
+      "file_id": "TIEBE_00061",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people died in the BOPE police operation in Complex",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00061.json"
+    },
+    {
+      "file_id": "TIEBE_00036",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Why was Rio de Janeiro governor Wilson Witzel impeached in A",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00036.json"
+    },
+    {
+      "file_id": "TIEBE_00023",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who replaced Eduardo Pazuello as Brazil's health minister in",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00023.json"
+    },
+    {
+      "file_id": "TIEBE_00074",
+      "country": "brazil",
+      "year": "2024",
+      "question": "Which regions of Brazil were affected by the 6.6 magnitude e",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00074.json"
+    },
+    {
+      "file_id": "TIEBE_00062",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many cities in Bahia were in a state of emergency due to",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00062.json"
+    },
+    {
+      "file_id": "TIEBE_00035",
+      "country": "brazil",
+      "year": "2021",
+      "question": "When did Brazil surpass 400,000 deaths from COVID-19?",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00035.json"
+    },
+    {
+      "file_id": "TIEBE_00019",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How did Brazil's GDP growth in the fourth quarter of 2020 co",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00019.json"
+    },
+    {
+      "file_id": "TIEBE_00058",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who was the first Evangelical Christian approved to join Bra",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00058.json"
+    },
+    {
+      "file_id": "TIEBE_00078",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people died in the Piper PA-46 plane crash in Itape",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00078.json"
+    },
+    {
+      "file_id": "TIEBE_00097",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people died in the Voepass Linhas Aéreas Flight 228",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00097.json"
+    },
+    {
+      "file_id": "TIEBE_00081",
+      "country": "brazil",
+      "year": "2024",
+      "question": "When did the 2024 Copa Verde football competition take place",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00081.json"
+    },
+    {
+      "file_id": "TIEBE_00039",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people were killed in the police operation in Jacar",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00039.json"
+    },
+    {
+      "file_id": "TIEBE_00042",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who was Kathlen Romeu and what happened to her in June 2021?",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00042.json"
+    },
+    {
+      "file_id": "TIEBE_00015",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What action did Brazilian President Jair Bolsonaro take in F",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00015.json"
+    },
+    {
+      "file_id": "TIEBE_00003",
+      "country": "brazil",
+      "year": "2021",
+      "question": "When was the first case of the Gamma Variant of SARS-CoV-2 d",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00003.json"
+    },
+    {
+      "file_id": "TIEBE_00054",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Where did a fire occur in Fortaleza in November 2021?",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00054.json"
+    },
+    {
+      "file_id": "TIEBE_00055",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the intended destination of the plane that crashed ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00055.json"
+    },
+    {
+      "file_id": "TIEBE_00002",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the new national minimum wage in Brazil as of Janua",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00002.json"
+    },
+    {
+      "file_id": "TIEBE_00014",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many COVID-19 vaccine doses were incorrectly sent to Ama",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00014.json"
+    },
+    {
+      "file_id": "TIEBE_00043",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Which countries were elected as non-permanent members of the",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00043.json"
+    },
+    {
+      "file_id": "TIEBE_00038",
+      "country": "brazil",
+      "year": "2021",
+      "question": "When did the Brazilian Ministry of Health authorize COVID-19",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00038.json"
+    },
+    {
+      "file_id": "TIEBE_00080",
+      "country": "brazil",
+      "year": "2024",
+      "question": "What caused the severe flooding in Rio Grande do Sul in May ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00080.json"
+    },
+    {
+      "file_id": "TIEBE_00079",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many people died in the Porto Alegre guesthouse fire in ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00079.json"
+    },
+    {
+      "file_id": "TIEBE_00096",
+      "country": "brazil",
+      "year": "2024",
+      "question": "Who was elected as the secretary-general of the Internationa",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00096.json"
+    },
+    {
+      "file_id": "TIEBE_00059",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Which cities in southern Bahia were most affected by the flo",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00059.json"
+    },
+    {
+      "file_id": "TIEBE_00018",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the highest number of COVID-19 deaths recorded in B",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00018.json"
+    },
+    {
+      "file_id": "TIEBE_00034",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the main purpose of the CPI da Covid created by the",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00034.json"
+    },
+    {
+      "file_id": "TIEBE_00063",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who were the individuals accused in the trial related to the",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00063.json"
+    },
+    {
+      "file_id": "TIEBE_00075",
+      "country": "brazil",
+      "year": "2024",
+      "question": "What natural disaster caused fatalities in Espírito Santo an",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00075.json"
+    },
+    {
+      "file_id": "TIEBE_00022",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the record number of COVID-19 deaths reported in Br",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00022.json"
+    },
+    {
+      "file_id": "TIEBE_00029",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What did former Brazilian president Lula call the COVID-19 p",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00029.json"
+    },
+    {
+      "file_id": "TIEBE_00091",
+      "country": "brazil",
+      "year": "2024",
+      "question": "When did the Brazilian government issue an apology for the p",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00091.json"
+    },
+    {
+      "file_id": "TIEBE_00068",
+      "country": "brazil",
+      "year": "2015",
+      "question": "How many people were injured in the train collision in Mesqu",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00068.json"
+    },
+    {
+      "file_id": "TIEBE_00087",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How much of the Pantanal wetlands in Brazil were affected by",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00087.json"
+    },
+    {
+      "file_id": "TIEBE_00044",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who was appointed as the new head of Petrobras in February 2",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00044.json"
+    },
+    {
+      "file_id": "TIEBE_00013",
+      "country": "brazil",
+      "year": "2021",
+      "question": "When was the 2021 São Paulo carnival initially postponed to ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00013.json"
+    },
+    {
+      "file_id": "TIEBE_00005",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many plants did Ford Motor Company announce it would clo",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00005.json"
+    },
+    {
+      "file_id": "TIEBE_00052",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many deaths were reported due to the cold wave in Brazil",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00052.json"
+    },
+    {
+      "file_id": "TIEBE_00025",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What record did São Paulo report in March 2021 regarding COV",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00025.json"
+    },
+    {
+      "file_id": "TIEBE_00072",
+      "country": "brazil",
+      "year": "2015",
+      "question": "What was the environmental impact of the iron ore tailings d",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00072.json"
+    },
+    {
+      "file_id": "TIEBE_00064",
+      "country": "brazil",
+      "year": "2015",
+      "question": "How many people attended the 19th São Paulo Gay Pride Parade",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00064.json"
+    },
+    {
+      "file_id": "TIEBE_00033",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What action did President Jair Bolsonaro take regarding the ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00033.json"
+    },
+    {
+      "file_id": "TIEBE_00048",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Why did Ricardo Salles leave his position as Brazil's Minist",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00048.json"
+    },
+    {
+      "file_id": "TIEBE_00009",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Who was elected president of the Chamber of Deputies in Braz",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00009.json"
+    },
+    {
+      "file_id": "TIEBE_00008",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What was the main concern for Brazil's vulnerable communitie",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00008.json"
+    },
+    {
+      "file_id": "TIEBE_00049",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Why was Flordelis de Souza expelled from Brazil's lower hous",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00049.json"
+    },
+    {
+      "file_id": "TIEBE_00032",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Why did the top military commanders of Brazil meet in March ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00032.json"
+    },
+    {
+      "file_id": "TIEBE_00065",
+      "country": "brazil",
+      "year": "2015",
+      "question": "What restrictions remained for José Genoino after his senten",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00065.json"
+    },
+    {
+      "file_id": "TIEBE_00073",
+      "country": "brazil",
+      "year": "2015",
+      "question": "What was the main reason cited by the Brazilian Chamber of D",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00073.json"
+    },
+    {
+      "file_id": "TIEBE_00024",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What scandal emerged in Brazil in February 2021 regarding CO",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00024.json"
+    },
+    {
+      "file_id": "TIEBE_00053",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many people died in the plane crash involving Marília Me",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00053.json"
+    },
+    {
+      "file_id": "TIEBE_00004",
+      "country": "brazil",
+      "year": "2021",
+      "question": "What condition did the Independent League of Samba Schools s",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00004.json"
+    },
+    {
+      "file_id": "TIEBE_00012",
+      "country": "brazil",
+      "year": "2021",
+      "question": "Why did nearly 400 religious leaders in Brazil call for the ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00012.json"
+    },
+    {
+      "file_id": "TIEBE_00100",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How did President Lula da Silva's stance toward Daniel Orteg",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00100.json"
+    },
+    {
+      "file_id": "TIEBE_00045",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How much did deforestation in the Amazon rainforest increase",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00045.json"
+    },
+    {
+      "file_id": "TIEBE_00069",
+      "country": "brazil",
+      "year": "2015",
+      "question": "Who was inaugurated as the President of Brazil in January 20",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00069.json"
+    },
+    {
+      "file_id": "TIEBE_00086",
+      "country": "brazil",
+      "year": "2024",
+      "question": "What caused the bus accident near Itapetininga, São Paulo st",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00086.json"
+    },
+    {
+      "file_id": "TIEBE_00090",
+      "country": "brazil",
+      "year": "2024",
+      "question": "How many tons of fish died in the Piracicaba River incident ",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00090.json"
+    },
+    {
+      "file_id": "TIEBE_00028",
+      "country": "brazil",
+      "year": "2021",
+      "question": "How many COVID-19 deaths did Brazil record in a single day i",
+      "path": "temporal_qa/tiebe/brazil/TIEBE_00028.json"
+    }
+  ]
+}

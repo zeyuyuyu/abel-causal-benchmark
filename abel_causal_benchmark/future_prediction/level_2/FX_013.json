@@ -1,0 +1,10 @@
+{
+  "id": "69566c1320a2e600672a79ab",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Eurozone - Annual (resolved around 2026-01-19 (GMT+8)). \nA. the Eurozone's annual inflation increase by 2.3% in December\nB. the Eurozone's annual inflation increase by 2.2% in December\nC. the Eurozone's annual inflation increase by ≤2.0% in December\nD. the Eurozone's annual inflation increase by ≥2.4% in December\nE. the Eurozone's annual inflation increase by 2.1% in December\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-19 00:00:00",
+  "level": 2,
+  "title": "December Inflation Eurozone - Annual",
+  "ground_truth": "['C']",
+  "__index_level_0__": 12,
+  "category": "future_prediction"
+}

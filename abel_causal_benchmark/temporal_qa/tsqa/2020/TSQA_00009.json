@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00009",
+  "question": "Who was the chairperson of the International Olympic Committee in 2020?",
+  "year": 2020,
+  "ground_truth": "Thomas Bach",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Thomas Bach",
+      "tag": "correct"
+    },
+    {
+      "answer": "Jacques Rogge",
+      "tag": "past"
+    },
+    {
+      "answer": "Juan Antonio Samaranch",
+      "tag": "past"
+    },
+    {
+      "answer": "Avery Brundage",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,1679 @@
+{
+  "metadata": {
+    "source_file": "train-00000-of-00001.parquet",
+    "created_date": "2026-03-20",
+    "total_cases": 208,
+    "level_distribution": {
+      "L1": 86,
+      "L2": 82,
+      "L3": 14,
+      "L4": 26
+    }
+  },
+  "cases": [
+    {
+      "file_id": "FX_001",
+      "id": "694bdd0b43684c005d3473f1",
+      "title": "Right approach to @bens puzzle (#2) / Collaboration space",
+      "level": 2,
+      "filename": "FX_001.json",
+      "path": "future_prediction/level_2/FX_001.json"
+    },
+    {
+      "file_id": "FX_002",
+      "id": "694bdd0b43684c005d3473f6",
+      "title": "How many characters in the solution to @bens puzzle (round 2)",
+      "level": 2,
+      "filename": "FX_002.json",
+      "path": "future_prediction/level_2/FX_002.json"
+    },
+    {
+      "file_id": "FX_003",
+      "id": "694a8b8fbd65d70068ad7db4",
+      "title": "Which candidates will make it to the second round of the Portuguese Presidential elections on 18 Jan 2026?",
+      "level": 2,
+      "filename": "FX_003.json",
+      "path": "future_prediction/level_2/FX_003.json"
+    },
+    {
+      "file_id": "FX_004",
+      "id": "69493cb11e67de005c795b7e",
+      "title": "Who will qualify for the second round of the Portugal Presidential Election?",
+      "level": 2,
+      "filename": "FX_004.json",
+      "path": "future_prediction/level_2/FX_004.json"
+    },
+    {
+      "file_id": "FX_005",
+      "id": "6957ba8a03568a006853e820",
+      "title": "2025 CAF Cup of Nations (AFCON) Winner",
+      "level": 2,
+      "filename": "FX_005.json",
+      "path": "future_prediction/level_2/FX_005.json"
+    },
+    {
+      "file_id": "FX_006",
+      "id": "6941510e41b9d1005effa734",
+      "title": "Global Average Temperature Dec 2025 per LOTI v4 vs 1951-1980 base period (NASA Gistemp)",
+      "level": 2,
+      "filename": "FX_006.json",
+      "path": "future_prediction/level_2/FX_006.json"
+    },
+    {
+      "file_id": "FX_007",
+      "id": "69590c18deacd00066876767",
+      "title": "MCSR Ranked Playoffs Season 9 Winner",
+      "level": 2,
+      "filename": "FX_007.json",
+      "path": "future_prediction/level_2/FX_007.json"
+    },
+    {
+      "file_id": "FX_008",
+      "id": "695baf2f8b62560069adcdde",
+      "title": "Who will post the winning guess in Ben’s puzzle (round 2) as yourself!",
+      "level": 2,
+      "filename": "FX_008.json",
+      "path": "future_prediction/level_2/FX_008.json"
+    },
+    {
+      "file_id": "FX_009",
+      "id": "69566c1320a2e600672a7993",
+      "title": "Sept-Nov Unemployment Rate - U.K.",
+      "level": 2,
+      "filename": "FX_009.json",
+      "path": "future_prediction/level_2/FX_009.json"
+    },
+    {
+      "file_id": "FX_010",
+      "id": "695e521c255b39006c58f5af",
+      "title": "What will be true of the oil tanker Marinera on 14th January?",
+      "level": 2,
+      "filename": "FX_010.json",
+      "path": "future_prediction/level_2/FX_010.json"
+    },
+    {
+      "file_id": "FX_011",
+      "id": "6956690c20a2e600672a78a6",
+      "title": "Which team will win the 2025-2026 College Football Playoff National Championship?",
+      "level": 2,
+      "filename": "FX_011.json",
+      "path": "future_prediction/level_2/FX_011.json"
+    },
+    {
+      "file_id": "FX_012",
+      "id": "69566c1320a2e600672a796d",
+      "title": "December Inflation Canada - Annual",
+      "level": 2,
+      "filename": "FX_012.json",
+      "path": "future_prediction/level_2/FX_012.json"
+    },
+    {
+      "file_id": "FX_013",
+      "id": "69566c1320a2e600672a79ab",
+      "title": "December Inflation Eurozone - Annual",
+      "level": 2,
+      "filename": "FX_013.json",
+      "path": "future_prediction/level_2/FX_013.json"
+    },
+    {
+      "file_id": "FX_014",
+      "id": "69566c1320a2e600672a79eb",
+      "title": "Coventry City FC vs. Leicester City FC",
+      "level": 1,
+      "filename": "FX_014.json",
+      "path": "future_prediction/level_1/FX_014.json"
+    },
+    {
+      "file_id": "FX_015",
+      "id": "694a8b8fbd65d70068ad7da2",
+      "title": "“Inside CECOT” airs on 60 Minutes by January 18?",
+      "level": 1,
+      "filename": "FX_015.json",
+      "path": "future_prediction/level_1/FX_015.json"
+    },
+    {
+      "file_id": "FX_016",
+      "id": "69566c1320a2e600672a79ba",
+      "title": "Islanders vs. Oilers",
+      "level": 1,
+      "filename": "FX_016.json",
+      "path": "future_prediction/level_1/FX_016.json"
+    },
+    {
+      "file_id": "FX_017",
+      "id": "69566c1320a2e600672a79dd",
+      "title": "Lightning vs. Blues",
+      "level": 1,
+      "filename": "FX_017.json",
+      "path": "future_prediction/level_1/FX_017.json"
+    },
+    {
+      "file_id": "FX_018",
+      "id": "69566c1320a2e600672a79e5",
+      "title": "Southampton FC vs. Hull City AFC",
+      "level": 1,
+      "filename": "FX_018.json",
+      "path": "future_prediction/level_1/FX_018.json"
+    },
+    {
+      "file_id": "FX_019",
+      "id": "69566c1320a2e600672a799a",
+      "title": "Querétaro FC vs. Club Tijuana",
+      "level": 1,
+      "filename": "FX_019.json",
+      "path": "future_prediction/level_1/FX_019.json"
+    },
+    {
+      "file_id": "FX_020",
+      "id": "69566c1320a2e600672a7998",
+      "title": "Golden Knights vs. Kings",
+      "level": 1,
+      "filename": "FX_020.json",
+      "path": "future_prediction/level_1/FX_020.json"
+    },
+    {
+      "file_id": "FX_021",
+      "id": "69566c1320a2e600672a799b",
+      "title": "CF América vs. Atlético San Luis",
+      "level": 1,
+      "filename": "FX_021.json",
+      "path": "future_prediction/level_1/FX_021.json"
+    },
+    {
+      "file_id": "FX_022",
+      "id": "69590f11deacd00066876794",
+      "title": "Rams Başakşehir FK vs. Fatih Karagümrük SK",
+      "level": 1,
+      "filename": "FX_022.json",
+      "path": "future_prediction/level_1/FX_022.json"
+    },
+    {
+      "file_id": "FX_023",
+      "id": "694bdd0b43684c005d3473e5",
+      "title": "Will @bens puzzle (round 2) get below 10%?",
+      "level": 1,
+      "filename": "FX_023.json",
+      "path": "future_prediction/level_1/FX_023.json"
+    },
+    {
+      "file_id": "FX_024",
+      "id": "69566c1320a2e600672a79c0",
+      "title": "Melbourne City FC vs. Auckland FC",
+      "level": 1,
+      "filename": "FX_024.json",
+      "path": "future_prediction/level_1/FX_024.json"
+    },
+    {
+      "file_id": "FX_025",
+      "id": "69566c1320a2e600672a79e0",
+      "title": "Sharks vs. Red Wings",
+      "level": 1,
+      "filename": "FX_025.json",
+      "path": "future_prediction/level_1/FX_025.json"
+    },
+    {
+      "file_id": "FX_026",
+      "id": "69566c1320a2e600672a7a33",
+      "title": "NAC Breda vs. NEC",
+      "level": 1,
+      "filename": "FX_026.json",
+      "path": "future_prediction/level_1/FX_026.json"
+    },
+    {
+      "file_id": "FX_027",
+      "id": "695e5562255b39006c58f5c5",
+      "title": "Al Ittihad Saudi Club vs. Al Ettifaq Saudi Club",
+      "level": 1,
+      "filename": "FX_027.json",
+      "path": "future_prediction/level_1/FX_027.json"
+    },
+    {
+      "file_id": "FX_028",
+      "id": "69624695e87498005daa01d1",
+      "title": "In which city will Tetra be on January 15th 2026?",
+      "level": 1,
+      "filename": "FX_028.json",
+      "path": "future_prediction/level_1/FX_028.json"
+    },
+    {
+      "file_id": "FX_029",
+      "id": "6957c09b03568a006853e87d",
+      "title": "Sharks vs. Panthers",
+      "level": 1,
+      "filename": "FX_029.json",
+      "path": "future_prediction/level_1/FX_029.json"
+    },
+    {
+      "file_id": "FX_030",
+      "id": "69566c1320a2e600672a799d",
+      "title": "Deportivo Toluca FC vs. Club Santos Laguna",
+      "level": 1,
+      "filename": "FX_030.json",
+      "path": "future_prediction/level_1/FX_030.json"
+    },
+    {
+      "file_id": "FX_031",
+      "id": "695fa38be56c28005d3c324e",
+      "title": "FC Köln vs. FC Bayern München",
+      "level": 1,
+      "filename": "FX_031.json",
+      "path": "future_prediction/level_1/FX_031.json"
+    },
+    {
+      "file_id": "FX_032",
+      "id": "6956690920a2e600672a7857",
+      "title": "What will be the domestic box office gross in the opening weekend for \"28 Years Later: The Bone Temple,\" according to Box Office Mojo?",
+      "level": 2,
+      "filename": "FX_032.json",
+      "path": "future_prediction/level_2/FX_032.json"
+    },
+    {
+      "file_id": "FX_033",
+      "id": "685147092537419998691328",
+      "title": "2026-01-19, what will be the books from rank 4 to 6 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)",
+      "level": 4,
+      "filename": "FX_033.json",
+      "path": "future_prediction/level_4/FX_033.json"
+    },
+    {
+      "file_id": "FX_034",
+      "id": "6946970d97a129005dec27f7",
+      "title": "How much money will ClaudePlaysPokemon have left after completing Safari Zone?",
+      "level": 2,
+      "filename": "FX_034.json",
+      "path": "future_prediction/level_2/FX_034.json"
+    },
+    {
+      "file_id": "FX_035",
+      "id": "6956690c20a2e600672a7879",
+      "title": "Best Actress nominees? (2026 Oscars)",
+      "level": 2,
+      "filename": "FX_035.json",
+      "path": "future_prediction/level_2/FX_035.json"
+    },
+    {
+      "file_id": "FX_036",
+      "id": "69663b097dc80a005b6df1cb",
+      "title": "Portugal Presidential Election First Round Head to Heads",
+      "level": 2,
+      "filename": "FX_036.json",
+      "path": "future_prediction/level_2/FX_036.json"
+    },
+    {
+      "file_id": "FX_037",
+      "id": "69493cb11e67de005c795a90",
+      "title": "Oscars 2026: Achievement in Casting Nominations",
+      "level": 2,
+      "filename": "FX_037.json",
+      "path": "future_prediction/level_2/FX_037.json"
+    },
+    {
+      "file_id": "FX_038",
+      "id": "69493cb11e67de005c795a93",
+      "title": "Oscars 2026: Best Director Nominations",
+      "level": 2,
+      "filename": "FX_038.json",
+      "path": "future_prediction/level_2/FX_038.json"
+    },
+    {
+      "file_id": "FX_039",
+      "id": "695fa38ae56c28005d3c3241",
+      "title": "UEFA Champions League Week Prop Bets, Jan 20th-21st (Matchday 7)",
+      "level": 2,
+      "filename": "FX_039.json",
+      "path": "future_prediction/level_2/FX_039.json"
+    },
+    {
+      "file_id": "FX_040",
+      "id": "69493cb11e67de005c795a91",
+      "title": "Oscars 2026: Best Documentary Feature Nominations",
+      "level": 2,
+      "filename": "FX_040.json",
+      "path": "future_prediction/level_2/FX_040.json"
+    },
+    {
+      "file_id": "FX_041",
+      "id": "6956690c20a2e600672a788c",
+      "title": "Best Picture nominees? (2026 Oscars)",
+      "level": 2,
+      "filename": "FX_041.json",
+      "path": "future_prediction/level_2/FX_041.json"
+    },
+    {
+      "file_id": "FX_042",
+      "id": "694e8009028e36005d93d3cc",
+      "title": "Who will win the main event of UFC 324? (Gaethje vs Pimblett)",
+      "level": 2,
+      "filename": "FX_042.json",
+      "path": "future_prediction/level_2/FX_042.json"
+    },
+    {
+      "file_id": "FX_043",
+      "id": "69639b3e5a6f9800684ed6ab",
+      "title": "MLBB: M7 World Championship Winner",
+      "level": 2,
+      "filename": "FX_043.json",
+      "path": "future_prediction/level_2/FX_043.json"
+    },
+    {
+      "file_id": "FX_044",
+      "id": "694a8b8fbd65d70068ad7db1",
+      "title": "Best Supporting Actress nominees? (2026 Oscars)",
+      "level": 2,
+      "filename": "FX_044.json",
+      "path": "future_prediction/level_2/FX_044.json"
+    },
+    {
+      "file_id": "FX_045",
+      "id": "694a8b8fbd65d70068ad7db2",
+      "title": "Best Director nominees? (2026 Oscars)",
+      "level": 2,
+      "filename": "FX_045.json",
+      "path": "future_prediction/level_2/FX_045.json"
+    },
+    {
+      "file_id": "FX_046",
+      "id": "6957c09b03568a006853e86c",
+      "title": "How long will it take Alex Honnold to free solo Taipei 101?",
+      "level": 2,
+      "filename": "FX_046.json",
+      "path": "future_prediction/level_2/FX_046.json"
+    },
+    {
+      "file_id": "FX_047",
+      "id": "694e8009028e36005d93d3ce",
+      "title": "Who will win the 2026 MIT Science Olympiad Invitational?",
+      "level": 2,
+      "filename": "FX_047.json",
+      "path": "future_prediction/level_2/FX_047.json"
+    },
+    {
+      "file_id": "FX_048",
+      "id": "694e82d4028e36005d93d3f3",
+      "title": "NFC Champion",
+      "level": 2,
+      "filename": "FX_048.json",
+      "path": "future_prediction/level_2/FX_048.json"
+    },
+    {
+      "file_id": "FX_049",
+      "id": "6956690c20a2e600672a787a",
+      "title": "Best Actor nominees? (2026 Oscars)",
+      "level": 2,
+      "filename": "FX_049.json",
+      "path": "future_prediction/level_2/FX_049.json"
+    },
+    {
+      "file_id": "FX_050",
+      "id": "694fd195ae81c200695c89be",
+      "title": "Will Polo gram be revealed to be Marco's dad within 1 month",
+      "level": 1,
+      "filename": "FX_050.json",
+      "path": "future_prediction/level_1/FX_050.json"
+    },
+    {
+      "file_id": "FX_051",
+      "id": "69493a091e67de005c79583b",
+      "title": "Will Bugonia get an Oscar nomination for best picture?",
+      "level": 1,
+      "filename": "FX_051.json",
+      "path": "future_prediction/level_1/FX_051.json"
+    },
+    {
+      "file_id": "FX_052",
+      "id": "6964e98952029b005bc009b6",
+      "title": "The No-Bots Market. Which side will be automated-bots-free market close?",
+      "level": 1,
+      "filename": "FX_052.json",
+      "path": "future_prediction/level_1/FX_052.json"
+    },
+    {
+      "file_id": "FX_053",
+      "id": "694fd4d0ae81c200695c89cf",
+      "title": "Bank of Brazil decision in January?",
+      "level": 1,
+      "filename": "FX_053.json",
+      "path": "future_prediction/level_1/FX_053.json"
+    },
+    {
+      "file_id": "FX_054",
+      "id": "6956690920a2e600672a7864",
+      "title": "At close of business on 23 January 2026, will the most recently announced Bank of Japan (BOJ) \"uncollateralized overnight call [interest] rate\" be lower, the same, or higher than it was at close of business on 19 December 2025?",
+      "level": 1,
+      "filename": "FX_054.json",
+      "path": "future_prediction/level_1/FX_054.json"
+    },
+    {
+      "file_id": "FX_055",
+      "id": "6964e98952029b005bc009c2",
+      "title": "RAS2026: Will One Battle After Another gather more Oscars nominations than Marty Supreme?",
+      "level": 1,
+      "filename": "FX_055.json",
+      "path": "future_prediction/level_1/FX_055.json"
+    },
+    {
+      "file_id": "FX_056",
+      "id": "694d2e966344cf0067e820ae",
+      "title": "Will Alex Honnold successfully free solo Taipei 101 on January 23, 2026?",
+      "level": 1,
+      "filename": "FX_056.json",
+      "path": "future_prediction/level_1/FX_056.json"
+    },
+    {
+      "file_id": "FX_057",
+      "id": "6956690920a2e600672a7865",
+      "title": "Before 24 January 2026, will Paramount Skydance (Paramount) increase its offer to pay $30.00 per share for outstanding Warner Bros. Discovery (Warner Bros.) shares?",
+      "level": 1,
+      "filename": "FX_057.json",
+      "path": "future_prediction/level_1/FX_057.json"
+    },
+    {
+      "file_id": "FX_058",
+      "id": "6968de07e7876e006835e6b3",
+      "title": "Will the US Storm Prediction Center issue a Tornado Watch between 12:00 am EST 1/18/26 and 11:59 pm EST 1/24/26?",
+      "level": 1,
+      "filename": "FX_058.json",
+      "path": "future_prediction/level_1/FX_058.json"
+    },
+    {
+      "file_id": "FX_059",
+      "id": "6956690c20a2e600672a786b",
+      "title": "Juventus beats SSC Napoli | Soccer Serie A match 25th Jan 2026",
+      "level": 1,
+      "filename": "FX_059.json",
+      "path": "future_prediction/level_1/FX_059.json"
+    },
+    {
+      "file_id": "FX_060",
+      "id": "695fa38ae56c28005d3c3234",
+      "title": "Will Adrian Gonzales be found guilty in Uvalde school shooting response trial?",
+      "level": 1,
+      "filename": "FX_060.json",
+      "path": "future_prediction/level_1/FX_060.json"
+    },
+    {
+      "file_id": "FX_061",
+      "id": "6957ba8a03568a006853e828",
+      "title": "How will the winner of the portugal presidential election win",
+      "level": 1,
+      "filename": "FX_061.json",
+      "path": "future_prediction/level_1/FX_061.json"
+    },
+    {
+      "file_id": "FX_062",
+      "id": "6951230b943bd200688f9cd1",
+      "title": "Will Pam Bondi be arrested over defying the Epstein Files Transparency Act",
+      "level": 1,
+      "filename": "FX_062.json",
+      "path": "future_prediction/level_1/FX_062.json"
+    },
+    {
+      "file_id": "FX_063",
+      "id": "694e8009028e36005d93d3c6",
+      "title": "nasry Asfuras win overturned by a court?",
+      "level": 1,
+      "filename": "FX_063.json",
+      "path": "future_prediction/level_1/FX_063.json"
+    },
+    {
+      "file_id": "FX_064",
+      "id": "695d00ac4ef7b4005cb967ee",
+      "title": "Will there be a surprising Best Picture nomination? (2026 Oscars)",
+      "level": 1,
+      "filename": "FX_064.json",
+      "path": "future_prediction/level_1/FX_064.json"
+    },
+    {
+      "file_id": "FX_065",
+      "id": "695e5562255b39006c58f5d4",
+      "title": "Al Hilal Saudi Club vs. Al Fayha Saudi Club",
+      "level": 1,
+      "filename": "FX_065.json",
+      "path": "future_prediction/level_1/FX_065.json"
+    },
+    {
+      "file_id": "FX_066",
+      "id": "695d03e74ef7b4005cb9682d",
+      "title": "FC Arouca vs. Sporting CP",
+      "level": 1,
+      "filename": "FX_066.json",
+      "path": "future_prediction/level_1/FX_066.json"
+    },
+    {
+      "file_id": "FX_067",
+      "id": "6960f83c14d4fb0067208587",
+      "title": "Auckland FC vs. Central Coast Mariners FC",
+      "level": 1,
+      "filename": "FX_067.json",
+      "path": "future_prediction/level_1/FX_067.json"
+    },
+    {
+      "file_id": "FX_068",
+      "id": "6854dfb0a5e49700606af49d",
+      "title": "2026-01-27, who will be the players ranked from 12 to 14 in the latest Official World Golf Ranking? (Give the names only)",
+      "level": 3,
+      "filename": "FX_068.json",
+      "path": "future_prediction/level_3/FX_068.json"
+    },
+    {
+      "file_id": "FX_069",
+      "id": "685147092537420060414059",
+      "title": "2026-01-26, what will be the books from rank 13 to 15 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)",
+      "level": 4,
+      "filename": "FX_069.json",
+      "path": "future_prediction/level_4/FX_069.json"
+    },
+    {
+      "file_id": "FX_070",
+      "id": "6851736beb11c800614780df",
+      "title": "2026-01-23, what will the high of Apple stock (AAPL) be for the day (in US$)?",
+      "level": 4,
+      "filename": "FX_070.json",
+      "path": "future_prediction/level_4/FX_070.json"
+    },
+    {
+      "file_id": "FX_071",
+      "id": "6851737f59f71f006037a1e4",
+      "title": "2026-01-26, what will be the day's open of the S&P 500 Index (INDEXSP:.INX)?",
+      "level": 4,
+      "filename": "FX_071.json",
+      "path": "future_prediction/level_4/FX_071.json"
+    },
+    {
+      "file_id": "FX_072",
+      "id": "685173d659f71f006037a1eb",
+      "title": "2026-01-22, what will be the day's close for the Dow Jones Industrial Average (INDEXDJX:.DJI)?",
+      "level": 4,
+      "filename": "FX_072.json",
+      "path": "future_prediction/level_4/FX_072.json"
+    },
+    {
+      "file_id": "FX_073",
+      "id": "6851741059f71f006037a1ee",
+      "title": "2026-01-23, what will be the Nikkei Stock Average (Nikkei 225)'s close for the day?",
+      "level": 4,
+      "filename": "FX_073.json",
+      "path": "future_prediction/level_4/FX_073.json"
+    },
+    {
+      "file_id": "FX_074",
+      "id": "68528da19193260061abd8f6",
+      "title": "2026-01-27, what will be the high for Li Auto (NASDAQ:LI) for the day (in US$)?",
+      "level": 4,
+      "filename": "FX_074.json",
+      "path": "future_prediction/level_4/FX_074.json"
+    },
+    {
+      "file_id": "FX_075",
+      "id": "687df3b6ff05a4003c601bc2",
+      "title": "2026-01-27, what will the NASDAQ Composite Index (.IXIC)'s open be for the day?",
+      "level": 4,
+      "filename": "FX_075.json",
+      "path": "future_prediction/level_4/FX_075.json"
+    },
+    {
+      "file_id": "FX_076",
+      "id": "695bb4008b62560069adce4b",
+      "title": "Will Palantir (PLTR) close above ___ end of January?",
+      "level": 2,
+      "filename": "FX_076.json",
+      "path": "future_prediction/level_2/FX_076.json"
+    },
+    {
+      "file_id": "FX_077",
+      "id": "69663e477dc80a005b6df1ea",
+      "title": "What will Trump say in January?",
+      "level": 2,
+      "filename": "FX_077.json",
+      "path": "future_prediction/level_2/FX_077.json"
+    },
+    {
+      "file_id": "FX_078",
+      "id": "6957ba8a03568a006853e83f",
+      "title": "Price of DDR5-6000 2x16GB RAM at the end of January 2026",
+      "level": 2,
+      "filename": "FX_078.json",
+      "path": "future_prediction/level_2/FX_078.json"
+    },
+    {
+      "file_id": "FX_079",
+      "id": "69566c1320a2e600672a78fd",
+      "title": "Turnout in 2026 Costa Rica Presidential Election First Round",
+      "level": 2,
+      "filename": "FX_079.json",
+      "path": "future_prediction/level_2/FX_079.json"
+    },
+    {
+      "file_id": "FX_080",
+      "id": "693c0b13a23921005c8d53ce",
+      "title": "GPT 5.2 METR time horizon",
+      "level": 2,
+      "filename": "FX_080.json",
+      "path": "future_prediction/level_2/FX_080.json"
+    },
+    {
+      "file_id": "FX_081",
+      "id": "69639b3e5a6f9800684ed69a",
+      "title": "Precipitation in NYC in January?",
+      "level": 2,
+      "filename": "FX_081.json",
+      "path": "future_prediction/level_2/FX_081.json"
+    },
+    {
+      "file_id": "FX_082",
+      "id": "6972189f11cfd2006997649c",
+      "title": "Which nation will be the focus of Stellaris Invicta Season 3?",
+      "level": 2,
+      "filename": "FX_082.json",
+      "path": "future_prediction/level_2/FX_082.json"
+    },
+    {
+      "file_id": "FX_083",
+      "id": "695bb4008b62560069adce53",
+      "title": "Gold (GC) above ___ end of January?",
+      "level": 2,
+      "filename": "FX_083.json",
+      "path": "future_prediction/level_2/FX_083.json"
+    },
+    {
+      "file_id": "FX_084",
+      "id": "695bb4008b62560069adce59",
+      "title": "What will Crude Oil (CL) settle at in January?",
+      "level": 2,
+      "filename": "FX_084.json",
+      "path": "future_prediction/level_2/FX_084.json"
+    },
+    {
+      "file_id": "FX_085",
+      "id": "69590f11deacd00066876793",
+      "title": "Which soccer players will sign with new clubs in winter window?",
+      "level": 2,
+      "filename": "FX_085.json",
+      "path": "future_prediction/level_2/FX_085.json"
+    },
+    {
+      "file_id": "FX_086",
+      "id": "6974bec1b31670005dd8d72a",
+      "title": "Measles cases in U.S. by January 31?",
+      "level": 2,
+      "filename": "FX_086.json",
+      "path": "future_prediction/level_2/FX_086.json"
+    },
+    {
+      "file_id": "FX_087",
+      "id": "69566c1320a2e600672a78fb",
+      "title": "Grammys: Songwriter of the Year Winner",
+      "level": 2,
+      "filename": "FX_087.json",
+      "path": "future_prediction/level_2/FX_087.json"
+    },
+    {
+      "file_id": "FX_088",
+      "id": "695bb4008b62560069adce04",
+      "title": "What will Opendoor (OPEN) hit in January 2026?",
+      "level": 2,
+      "filename": "FX_088.json",
+      "path": "future_prediction/level_2/FX_088.json"
+    },
+    {
+      "file_id": "FX_089",
+      "id": "695bb4008b62560069adce56",
+      "title": "What will Crude Oil (CL) hit__ by end of January?",
+      "level": 2,
+      "filename": "FX_089.json",
+      "path": "future_prediction/level_2/FX_089.json"
+    },
+    {
+      "file_id": "FX_090",
+      "id": "695bb4008b62560069adce54",
+      "title": "What will Gold (GC) settle at in January?",
+      "level": 2,
+      "filename": "FX_090.json",
+      "path": "future_prediction/level_2/FX_090.json"
+    },
+    {
+      "file_id": "FX_091",
+      "id": "695fa38ae56c28005d3c3248",
+      "title": "[January 2026] Top 10 cards in the MTG Arena Powered Cube (by 17Lands GIH WR)",
+      "level": 2,
+      "filename": "FX_091.json",
+      "path": "future_prediction/level_2/FX_091.json"
+    },
+    {
+      "file_id": "FX_092",
+      "id": "6964eca552029b005bc009f2",
+      "title": "Will Israel strike Gaza on...?",
+      "level": 2,
+      "filename": "FX_092.json",
+      "path": "future_prediction/level_2/FX_092.json"
+    },
+    {
+      "file_id": "FX_093",
+      "id": "6972189f11cfd20069976498",
+      "title": "How Many Days will Arlington Virginia Public Schools be Cancelled Next Week?",
+      "level": 2,
+      "filename": "FX_093.json",
+      "path": "future_prediction/level_2/FX_093.json"
+    },
+    {
+      "file_id": "FX_094",
+      "id": "6956690920a2e600672a7867",
+      "title": "Which tennis player will win the Women's Singles Final at the 2026 Australian Open?",
+      "level": 2,
+      "filename": "FX_094.json",
+      "path": "future_prediction/level_2/FX_094.json"
+    },
+    {
+      "file_id": "FX_095",
+      "id": "695a5d897b2e6a00694886b9",
+      "title": "Who will win the 2026 Grammy for Best Pop Vocal Album?",
+      "level": 2,
+      "filename": "FX_095.json",
+      "path": "future_prediction/level_2/FX_095.json"
+    },
+    {
+      "file_id": "FX_096",
+      "id": "695a5d897b2e6a00694886af",
+      "title": "Who will win the 2026 Grammy for Record of the Year?",
+      "level": 2,
+      "filename": "FX_096.json",
+      "path": "future_prediction/level_2/FX_096.json"
+    },
+    {
+      "file_id": "FX_097",
+      "id": "6957ba8a03568a006853e82e",
+      "title": "Tesla hits $400 or $500 first before end of January 2026?",
+      "level": 1,
+      "filename": "FX_097.json",
+      "path": "future_prediction/level_1/FX_097.json"
+    },
+    {
+      "file_id": "FX_098",
+      "id": "695a609d7b2e6a00694886f6",
+      "title": "Reserve Bank of Australia Decision in February",
+      "level": 1,
+      "filename": "FX_098.json",
+      "path": "future_prediction/level_1/FX_098.json"
+    },
+    {
+      "file_id": "FX_099",
+      "id": "695a5ee87b2e6a00694886d2",
+      "title": "Will thealignedapp.com have 100+ users by Jan 31, 2026?",
+      "level": 1,
+      "filename": "FX_099.json",
+      "path": "future_prediction/level_1/FX_099.json"
+    },
+    {
+      "file_id": "FX_100",
+      "id": "6957ba8a03568a006853e82f",
+      "title": "Nvidia hits 170, 200 or neither first by end of January 2026?",
+      "level": 1,
+      "filename": "FX_100.json",
+      "path": "future_prediction/level_1/FX_100.json"
+    },
+    {
+      "file_id": "FX_101",
+      "id": "6957ba8a03568a006853e845",
+      "title": "Reeves or Lammy out first?",
+      "level": 1,
+      "filename": "FX_101.json",
+      "path": "future_prediction/level_1/FX_101.json"
+    },
+    {
+      "file_id": "FX_102",
+      "id": "6972189f11cfd2006997647f",
+      "title": "New METR SOTA by end of January, 2026?",
+      "level": 1,
+      "filename": "FX_102.json",
+      "path": "future_prediction/level_1/FX_102.json"
+    },
+    {
+      "file_id": "FX_103",
+      "id": "69566c1320a2e600672a798d",
+      "title": "Will the Doomsday Clock move by ten seconds or more?",
+      "level": 1,
+      "filename": "FX_103.json",
+      "path": "future_prediction/level_1/FX_103.json"
+    },
+    {
+      "file_id": "FX_104",
+      "id": "6968de07e7876e006835e6b8",
+      "title": "Will they pull a Nasrallah on Khamenei by end of January 2025?",
+      "level": 1,
+      "filename": "FX_104.json",
+      "path": "future_prediction/level_1/FX_104.json"
+    },
+    {
+      "file_id": "FX_105",
+      "id": "6947e88aa66250005c9dc324",
+      "title": "2026 a dream year for trump?",
+      "level": 1,
+      "filename": "FX_105.json",
+      "path": "future_prediction/level_1/FX_105.json"
+    },
+    {
+      "file_id": "FX_106",
+      "id": "69590c18deacd00066876763",
+      "title": "Will Bitcoin close above USD $100,000 on 31 January 2026 (UTC)?",
+      "level": 1,
+      "filename": "FX_106.json",
+      "path": "future_prediction/level_1/FX_106.json"
+    },
+    {
+      "file_id": "FX_107",
+      "id": "696e274d183bed0068c24d04",
+      "title": "North Korea missile launch by January 31?",
+      "level": 1,
+      "filename": "FX_107.json",
+      "path": "future_prediction/level_1/FX_107.json"
+    },
+    {
+      "file_id": "FX_108",
+      "id": "69590c18deacd00066876764",
+      "title": "Bitcoin below $82K in January?",
+      "level": 1,
+      "filename": "FX_108.json",
+      "path": "future_prediction/level_1/FX_108.json"
+    },
+    {
+      "file_id": "FX_109",
+      "id": "6968e150e7876e006835e6dc",
+      "title": "Nicolás Maduro released from custody by...?",
+      "level": 1,
+      "filename": "FX_109.json",
+      "path": "future_prediction/level_1/FX_109.json"
+    },
+    {
+      "file_id": "FX_110",
+      "id": "695baf2f8b62560069adcdd8",
+      "title": "Will something CRAZY happen in January (again)?",
+      "level": 1,
+      "filename": "FX_110.json",
+      "path": "future_prediction/level_1/FX_110.json"
+    },
+    {
+      "file_id": "FX_111",
+      "id": "696e274d183bed0068c24cfd",
+      "title": "Kings vs. Hurricanes",
+      "level": 1,
+      "filename": "FX_111.json",
+      "path": "future_prediction/level_1/FX_111.json"
+    },
+    {
+      "file_id": "FX_112",
+      "id": "696cd5b0a4b036005c06a931",
+      "title": "Al Fateh Saudi Club vs. Al Hazem SC",
+      "level": 1,
+      "filename": "FX_112.json",
+      "path": "future_prediction/level_1/FX_112.json"
+    },
+    {
+      "file_id": "FX_113",
+      "id": "69721bc011cfd200699764d5",
+      "title": "CA Tucumán vs. CA Huracán",
+      "level": 1,
+      "filename": "FX_113.json",
+      "path": "future_prediction/level_1/FX_113.json"
+    },
+    {
+      "file_id": "FX_114",
+      "id": "685146342537419957469184",
+      "title": "2026-01-30, what will be the movies ranked from 4 to 6 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
+      "level": 3,
+      "filename": "FX_114.json",
+      "path": "future_prediction/level_3/FX_114.json"
+    },
+    {
+      "file_id": "FX_115",
+      "id": "6972189f11cfd20069976499",
+      "title": "Who will win Super Bowl LX MVP?",
+      "level": 2,
+      "filename": "FX_115.json",
+      "path": "future_prediction/level_2/FX_115.json"
+    },
+    {
+      "file_id": "FX_116",
+      "id": "695fa38ae56c28005d3c3245",
+      "title": "Which NBA players will be traded during the 2025-26 season before the Feb. 5 Trade Deadline?",
+      "level": 2,
+      "filename": "FX_116.json",
+      "path": "future_prediction/level_2/FX_116.json"
+    },
+    {
+      "file_id": "FX_117",
+      "id": "69624695e87498005daa01da",
+      "title": "Which companies will run ads during Super Bowl LX?",
+      "level": 2,
+      "filename": "FX_117.json",
+      "path": "future_prediction/level_2/FX_117.json"
+    },
+    {
+      "file_id": "FX_118",
+      "id": "69624695e87498005daa01e5",
+      "title": "Who will make an appearance at the Super Bowl halftime show? Super Bowl LX",
+      "level": 2,
+      "filename": "FX_118.json",
+      "path": "future_prediction/level_2/FX_118.json"
+    },
+    {
+      "file_id": "FX_119",
+      "id": "69624695e87498005daa01db",
+      "title": "Most streamed album of 2025",
+      "level": 2,
+      "filename": "FX_119.json",
+      "path": "future_prediction/level_2/FX_119.json"
+    },
+    {
+      "file_id": "FX_120",
+      "id": "695e521c255b39006c58f5b8",
+      "title": "Who will win the Masters section of the 2026 Tata Steel Chess Tournament?",
+      "level": 2,
+      "filename": "FX_120.json",
+      "path": "future_prediction/level_2/FX_120.json"
+    },
+    {
+      "file_id": "FX_121",
+      "id": "6963980f5a6f9800684ed67f",
+      "title": "Best New Artist at the 2026 Grammy Awards?",
+      "level": 2,
+      "filename": "FX_121.json",
+      "path": "future_prediction/level_2/FX_121.json"
+    },
+    {
+      "file_id": "FX_122",
+      "id": "6978b00cedd409005eef0fd0",
+      "title": "What will the percentage of positive reviews on Highguard be by Feb 9th?",
+      "level": 2,
+      "filename": "FX_122.json",
+      "path": "future_prediction/level_2/FX_122.json"
+    },
+    {
+      "file_id": "FX_123",
+      "id": "697b53276346c0006551acac",
+      "title": "For which team will Giannis Antetokounmpo play for after the 2026 trade deadline?",
+      "level": 2,
+      "filename": "FX_123.json",
+      "path": "future_prediction/level_2/FX_123.json"
+    },
+    {
+      "file_id": "FX_124",
+      "id": "69624695e87498005daa01d9",
+      "title": "Which team will be the 2026 Super Bowl Champion?",
+      "level": 2,
+      "filename": "FX_124.json",
+      "path": "future_prediction/level_2/FX_124.json"
+    },
+    {
+      "file_id": "FX_125",
+      "id": "69775e8a96e2d900674cdd58",
+      "title": "SUPER BOWL STATS PREDICTIONS",
+      "level": 2,
+      "filename": "FX_125.json",
+      "path": "future_prediction/level_2/FX_125.json"
+    },
+    {
+      "file_id": "FX_126",
+      "id": "69663b097dc80a005b6df1d4",
+      "title": "Who will win the 2026 Superbowl?",
+      "level": 2,
+      "filename": "FX_126.json",
+      "path": "future_prediction/level_2/FX_126.json"
+    },
+    {
+      "file_id": "FX_127",
+      "id": "697761c796e2d900674cdd5f",
+      "title": "How many jobs added in January?",
+      "level": 2,
+      "filename": "FX_127.json",
+      "path": "future_prediction/level_2/FX_127.json"
+    },
+    {
+      "file_id": "FX_128",
+      "id": "69624695e87498005daa01ea",
+      "title": "What is the highest Sharpe ratio of any Manifold user?",
+      "level": 2,
+      "filename": "FX_128.json",
+      "path": "future_prediction/level_2/FX_128.json"
+    },
+    {
+      "file_id": "FX_129",
+      "id": "69736a06e543cb005f7b9363",
+      "title": "Who will win NFL Coach of the Year?",
+      "level": 2,
+      "filename": "FX_129.json",
+      "path": "future_prediction/level_2/FX_129.json"
+    },
+    {
+      "file_id": "FX_130",
+      "id": "697b53276346c0006551acaa",
+      "title": "チームみらいが衆院選で獲得する議席数は？(How many seats will Team Mirai win in the Feb 2026 Japan lower house election?)",
+      "level": 2,
+      "filename": "FX_130.json",
+      "path": "future_prediction/level_2/FX_130.json"
+    },
+    {
+      "file_id": "FX_131",
+      "id": "69624695e87498005daa01e8",
+      "title": "Who will perform at the Super Bowl LX halftime show?",
+      "level": 2,
+      "filename": "FX_131.json",
+      "path": "future_prediction/level_2/FX_131.json"
+    },
+    {
+      "file_id": "FX_132",
+      "id": "6962468be87498005daa01c6",
+      "title": "Who will win the NFL Most Valuable Player Award for the 2025 season?",
+      "level": 2,
+      "filename": "FX_132.json",
+      "path": "future_prediction/level_2/FX_132.json"
+    },
+    {
+      "file_id": "FX_133",
+      "id": "696f75a7e146ce005dcc46c6",
+      "title": "Who will win the Democratic Party primary for New Jersey's 11th Congressional District special election in 2026?",
+      "level": 2,
+      "filename": "FX_133.json",
+      "path": "future_prediction/level_2/FX_133.json"
+    },
+    {
+      "file_id": "FX_134",
+      "id": "697a01aaaaa579005fb3a51b",
+      "title": "Which party will win Thailand’s legislative election?",
+      "level": 2,
+      "filename": "FX_134.json",
+      "path": "future_prediction/level_2/FX_134.json"
+    },
+    {
+      "file_id": "FX_135",
+      "id": "697761c796e2d900674cdd7a",
+      "title": "United Rugby Championship: Ospreys vs Dragons",
+      "level": 1,
+      "filename": "FX_135.json",
+      "path": "future_prediction/level_1/FX_135.json"
+    },
+    {
+      "file_id": "FX_136",
+      "id": "6956690c20a2e600672a7872",
+      "title": "Who will win Jet Lag: The Game Season 16?",
+      "level": 1,
+      "filename": "FX_136.json",
+      "path": "future_prediction/level_1/FX_136.json"
+    },
+    {
+      "file_id": "FX_137",
+      "id": "697761c796e2d900674cdd7e",
+      "title": "United Rugby Championship: Leinster vs Edinburgh",
+      "level": 1,
+      "filename": "FX_137.json",
+      "path": "future_prediction/level_1/FX_137.json"
+    },
+    {
+      "file_id": "FX_138",
+      "id": "6963980d5a6f9800684ed66b",
+      "title": "Will Indiana change its congressional voting map for the 2026 elections?",
+      "level": 1,
+      "filename": "FX_138.json",
+      "path": "future_prediction/level_1/FX_138.json"
+    },
+    {
+      "file_id": "FX_139",
+      "id": "6962468be87498005daa01c4",
+      "title": "At close of business on 5 February 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 18 December 2025?",
+      "level": 1,
+      "filename": "FX_139.json",
+      "path": "future_prediction/level_1/FX_139.json"
+    },
+    {
+      "file_id": "FX_140",
+      "id": "697761c796e2d900674cdd79",
+      "title": "United Rugby Championship: Ulster vs Cardiff Rugby",
+      "level": 1,
+      "filename": "FX_140.json",
+      "path": "future_prediction/level_1/FX_140.json"
+    },
+    {
+      "file_id": "FX_141",
+      "id": "6974bba3b31670005dd8d70f",
+      "title": "Will Dave Cole get angry at any KOH 26 Driver's meetings?",
+      "level": 1,
+      "filename": "FX_141.json",
+      "path": "future_prediction/level_1/FX_141.json"
+    },
+    {
+      "file_id": "FX_142",
+      "id": "695e521c255b39006c58f5ae",
+      "title": "A team from the NFC West will win Super Bowl LX",
+      "level": 1,
+      "filename": "FX_142.json",
+      "path": "future_prediction/level_1/FX_142.json"
+    },
+    {
+      "file_id": "FX_143",
+      "id": "6976134126a255005c46be44",
+      "title": "Manchester City FC vs Newcastle United FC",
+      "level": 1,
+      "filename": "FX_143.json",
+      "path": "future_prediction/level_1/FX_143.json"
+    },
+    {
+      "file_id": "FX_144",
+      "id": "696e274d183bed0068c24d11",
+      "title": "Top 14: Racing 92 vs Perpignan",
+      "level": 1,
+      "filename": "FX_144.json",
+      "path": "future_prediction/level_1/FX_144.json"
+    },
+    {
+      "file_id": "FX_145",
+      "id": "695bb4008b62560069adcdeb",
+      "title": "Transgender women be banned from the Olympics before Winter Games?",
+      "level": 1,
+      "filename": "FX_145.json",
+      "path": "future_prediction/level_1/FX_145.json"
+    },
+    {
+      "file_id": "FX_146",
+      "id": "697761c796e2d900674cdd7d",
+      "title": "United Rugby Championship: Glasgow Warriors vs Munster",
+      "level": 1,
+      "filename": "FX_146.json",
+      "path": "future_prediction/level_1/FX_146.json"
+    },
+    {
+      "file_id": "FX_147",
+      "id": "697a0186aaa579005fb3a50c",
+      "title": "Will Gustavo Petro stay in the U.S. longer than 5 consecutive days starting Feb 3, 2026?",
+      "level": 1,
+      "filename": "FX_147.json",
+      "path": "future_prediction/level_1/FX_147.json"
+    },
+    {
+      "file_id": "FX_148",
+      "id": "69775e8a96e2d900674cdd4a",
+      "title": "Will the Seahawks beat the Patriots in the 2026 Superbowl?",
+      "level": 1,
+      "filename": "FX_148.json",
+      "path": "future_prediction/level_1/FX_148.json"
+    },
+    {
+      "file_id": "FX_149",
+      "id": "6978b359edd409005eef0fe2",
+      "title": "West Bromwich Albion FC vs. Stoke City FC",
+      "level": 1,
+      "filename": "FX_149.json",
+      "path": "future_prediction/level_1/FX_149.json"
+    },
+    {
+      "file_id": "FX_150",
+      "id": "6978b359edd409005eef0fe3",
+      "title": "Preston North End FC vs. Portsmouth FC",
+      "level": 1,
+      "filename": "FX_150.json",
+      "path": "future_prediction/level_1/FX_150.json"
+    },
+    {
+      "file_id": "FX_151",
+      "id": "697a04c5aaa579005fb3a538",
+      "title": "Querétaro FC vs. Club León FC",
+      "level": 1,
+      "filename": "FX_151.json",
+      "path": "future_prediction/level_1/FX_151.json"
+    },
+    {
+      "file_id": "FX_152",
+      "id": "687756de9a85d40047c45626",
+      "title": "2026-02-05, who will be the athletes ranked from 10 to 12 in the latest World Athletics men's triple jump rankings? (Give the names only)",
+      "level": 3,
+      "filename": "FX_152.json",
+      "path": "future_prediction/level_3/FX_152.json"
+    },
+    {
+      "file_id": "FX_153",
+      "id": "686794c85407dd00602c1f79",
+      "title": "2026-02-05, who will be the athletes ranked from 12 to 14 in the latest World Athletics women's 200m rankings? (Give the names only)",
+      "level": 3,
+      "filename": "FX_153.json",
+      "path": "future_prediction/level_3/FX_153.json"
+    },
+    {
+      "file_id": "FX_154",
+      "id": "685e48b9e582f0005f9cd2c9",
+      "title": "2026-02-08, what will be the vehicles ranked from 5 to 7 on the hot list across China for SUVs (SUV全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
+      "level": 3,
+      "filename": "FX_154.json",
+      "path": "future_prediction/level_3/FX_154.json"
+    },
+    {
+      "file_id": "FX_155",
+      "id": "6851735859f71f006037a1e2",
+      "title": "2026-02-05, what will be the Agricultural Product Wholesale Price 200 Index (农产品批发价格200指数) monitored by China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?",
+      "level": 4,
+      "filename": "FX_155.json",
+      "path": "future_prediction/level_4/FX_155.json"
+    },
+    {
+      "file_id": "FX_156",
+      "id": "696b872b4a95de00666c1162",
+      "title": "Who will win the 2026 Prague Masters chess tournament?",
+      "level": 2,
+      "filename": "FX_156.json",
+      "path": "future_prediction/level_2/FX_156.json"
+    },
+    {
+      "file_id": "FX_157",
+      "id": "69833c21c6c07e005d385694",
+      "title": "Which New York Rangers will be traded by the 2026 trade deadline?",
+      "level": 2,
+      "filename": "FX_157.json",
+      "path": "future_prediction/level_2/FX_157.json"
+    },
+    {
+      "file_id": "FX_158",
+      "id": "6984912ec68c5e005dc9d05c",
+      "title": "Big East Men's College Basketball 2025-2026 Regular Season Champion",
+      "level": 2,
+      "filename": "FX_158.json",
+      "path": "future_prediction/level_2/FX_158.json"
+    },
+    {
+      "file_id": "FX_159",
+      "id": "6989d39ba7590900681117ad",
+      "title": "Nepal House of Representatives Election winner?",
+      "level": 2,
+      "filename": "FX_159.json",
+      "path": "future_prediction/level_2/FX_159.json"
+    },
+    {
+      "file_id": "FX_160",
+      "id": "698b2b1f175d470068538759",
+      "title": "Team of winning driver at Australian Grand Prix?",
+      "level": 2,
+      "filename": "FX_160.json",
+      "path": "future_prediction/level_2/FX_160.json"
+    },
+    {
+      "file_id": "FX_161",
+      "id": "69a03d178110930068600600",
+      "title": "Ratio of sixes to fours in T20 World Cup 2026",
+      "level": 2,
+      "filename": "FX_161.json",
+      "path": "future_prediction/level_2/FX_161.json"
+    },
+    {
+      "file_id": "FX_162",
+      "id": "69a18e890ff98b0068330737",
+      "title": "Will James Talarico win the Texas Democratic primary for se by....?",
+      "level": 2,
+      "filename": "FX_162.json",
+      "path": "future_prediction/level_2/FX_162.json"
+    },
+    {
+      "file_id": "FX_163",
+      "id": "69a4319df2cb3b006875e9cb",
+      "title": "When will Dubai airport resume normal operations",
+      "level": 2,
+      "filename": "FX_163.json",
+      "path": "future_prediction/level_2/FX_163.json"
+    },
+    {
+      "file_id": "FX_164",
+      "id": "698b2507175d47006853871e",
+      "title": "In what place will the Green Party (Bündnis 90/Die Grünen, or the Greens) rank in seats won in the 2026 Baden-Württemberg Landtag (state parliament) elections?",
+      "level": 2,
+      "filename": "FX_164.json",
+      "path": "future_prediction/level_2/FX_164.json"
+    },
+    {
+      "file_id": "FX_165",
+      "id": "698b2507175d47006853871d",
+      "title": "Between 10 October 2025 and 6 March 2026, what will be the lowest closing price of soybeans?",
+      "level": 2,
+      "filename": "FX_165.json",
+      "path": "future_prediction/level_2/FX_165.json"
+    },
+    {
+      "file_id": "FX_166",
+      "id": "697f47970092a00068c32be3",
+      "title": "Which party will win Colombia’s Chamber of Representatives election?",
+      "level": 2,
+      "filename": "FX_166.json",
+      "path": "future_prediction/level_2/FX_166.json"
+    },
+    {
+      "file_id": "FX_167",
+      "id": "6981ea9930057a005cdb9e46",
+      "title": "Will global platinum availability fall below 2 million ounces by March 4, 2026, due to South African mine supply issues?",
+      "level": 1,
+      "filename": "FX_167.json",
+      "path": "future_prediction/level_1/FX_167.json"
+    },
+    {
+      "file_id": "FX_168",
+      "id": "6964e98652029b005bc009a2",
+      "title": "Brazil in the top 10-20% countries in the 2026 Democracy Report ranking?",
+      "level": 1,
+      "filename": "FX_168.json",
+      "path": "future_prediction/level_1/FX_168.json"
+    },
+    {
+      "file_id": "FX_169",
+      "id": "698b2507175d47006853871b",
+      "title": "Will the Nepali Congress party win the most seats in the 2026 Nepali House of Representatives elections?",
+      "level": 1,
+      "filename": "FX_169.json",
+      "path": "future_prediction/level_1/FX_169.json"
+    },
+    {
+      "file_id": "FX_170",
+      "id": "6981ea9930057a005cdb9e49",
+      "title": "Is the shrinking cut-off in Diamond League fully intentional?",
+      "level": 1,
+      "filename": "FX_170.json",
+      "path": "future_prediction/level_1/FX_170.json"
+    },
+    {
+      "file_id": "FX_171",
+      "id": "6981ea9930057a005cdb9e47",
+      "title": "Will Nornickel's palladium production fall below 2.4 million ounces in 2026?",
+      "level": 1,
+      "filename": "FX_171.json",
+      "path": "future_prediction/level_1/FX_171.json"
+    },
+    {
+      "file_id": "FX_172",
+      "id": "697f47970092a00068c32be2",
+      "title": "Which party will win Colombia’s Senate election?",
+      "level": 1,
+      "filename": "FX_172.json",
+      "path": "future_prediction/level_1/FX_172.json"
+    },
+    {
+      "file_id": "FX_173",
+      "id": "698b2507175d47006853871c",
+      "title": "Before 7 March 2026, will an NHL team other than the Pittsburgh Penguins publicly announce or acknowledge that Sidney Crosby will join its roster as a player eligible for the playoffs of the 2025/26 NHL season?",
+      "level": 1,
+      "filename": "FX_173.json",
+      "path": "future_prediction/level_1/FX_173.json"
+    },
+    {
+      "file_id": "FX_174",
+      "id": "6987308956940e0068395804",
+      "title": "Will a NON mercedes engine car win the 2026 Formula 1 Australian Grand Prix?",
+      "level": 1,
+      "filename": "FX_174.json",
+      "path": "future_prediction/level_1/FX_174.json"
+    },
+    {
+      "file_id": "FX_175",
+      "id": "6964e98652029b005bc009a4",
+      "title": "Ecuador to improve its score in the 2026 Democracy Report ranking?",
+      "level": 1,
+      "filename": "FX_175.json",
+      "path": "future_prediction/level_1/FX_175.json"
+    },
+    {
+      "file_id": "FX_176",
+      "id": "69a2e0165692ef005cdbf23e",
+      "title": "Trump Sucks?",
+      "level": 1,
+      "filename": "FX_176.json",
+      "path": "future_prediction/level_1/FX_176.json"
+    },
+    {
+      "file_id": "FX_177",
+      "id": "69a4319df2cb3b006875e9c2",
+      "title": "Can this AI Trading Bot turn $100 into $1,000 live on Twitch? Round 1",
+      "level": 1,
+      "filename": "FX_177.json",
+      "path": "future_prediction/level_1/FX_177.json"
+    },
+    {
+      "file_id": "FX_178",
+      "id": "698f1987da7a8b006575442d",
+      "title": "China's monthly consumer inflation (CPI) greater than 0.2% in February?",
+      "level": 1,
+      "filename": "FX_178.json",
+      "path": "future_prediction/level_1/FX_178.json"
+    },
+    {
+      "file_id": "FX_179",
+      "id": "69a03d1781109300686005e1",
+      "title": "Will this market get between 35 and 55 traders?",
+      "level": 1,
+      "filename": "FX_179.json",
+      "path": "future_prediction/level_1/FX_179.json"
+    },
+    {
+      "file_id": "FX_180",
+      "id": "699d9a1a098cca008728b6d1",
+      "title": "Will Tiger Zhang finish problem set 2 for 18.905 on time?",
+      "level": 1,
+      "filename": "FX_180.json",
+      "path": "future_prediction/level_1/FX_180.json"
+    },
+    {
+      "file_id": "FX_181",
+      "id": "69a43186f2cb3b006875e9ad",
+      "title": "Luke Fernandez vs. Rodolfo Bellato",
+      "level": 1,
+      "filename": "FX_181.json",
+      "path": "future_prediction/level_1/FX_181.json"
+    },
+    {
+      "file_id": "FX_182",
+      "id": "69a43186f2cb3b006875e9b1",
+      "title": "Alberto Montes vs. Ricky Turcios",
+      "level": 1,
+      "filename": "FX_182.json",
+      "path": "future_prediction/level_1/FX_182.json"
+    },
+    {
+      "file_id": "FX_183",
+      "id": "68774eaf0fc811003bd35b6d",
+      "title": "2026-03-09, what variety shows will be ranked from 2 to 4 on the latest overseas word-of-mouth variety show ranking (国外口碑综艺榜) published by Douban (豆瓣)? (Give the show names only)",
+      "level": 3,
+      "filename": "FX_183.json",
+      "path": "future_prediction/level_3/FX_183.json"
+    },
+    {
+      "file_id": "FX_184",
+      "id": "685146342537420060414055",
+      "title": "2026-03-06, what will be the movies ranked from 3 to 5 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
+      "level": 3,
+      "filename": "FX_184.json",
+      "path": "future_prediction/level_3/FX_184.json"
+    },
+    {
+      "file_id": "FX_185",
+      "id": "68517362eb11c800614780de",
+      "title": "2026-03-06, what will the price index for edible oil be in the Agricultural Product Wholesale Price 200 Index from China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?",
+      "level": 3,
+      "filename": "FX_185.json",
+      "path": "future_prediction/level_3/FX_185.json"
+    },
+    {
+      "file_id": "FX_186",
+      "id": "685173c159f71f006037a1e9",
+      "title": "2026-03-05, what will be the value in Chinese Yuan of 100 units of Euro at the central parity rate?",
+      "level": 3,
+      "filename": "FX_186.json",
+      "path": "future_prediction/level_3/FX_186.json"
+    },
+    {
+      "file_id": "FX_187",
+      "id": "687071f2d3d00b006b624a8c",
+      "title": "2026-03-10, which self-media accounts will be ranked from 8 to 10 on KolRank's daily WeChat self-media overall ranking?",
+      "level": 3,
+      "filename": "FX_187.json",
+      "path": "future_prediction/level_3/FX_187.json"
+    },
+    {
+      "file_id": "FX_188",
+      "id": "687071faab86ea0060215bc7",
+      "title": "2026-03-10, which self-media accounts will be ranked from 2 to 4 on KolRank's daily Weibo self-media overall ranking?",
+      "level": 3,
+      "filename": "FX_188.json",
+      "path": "future_prediction/level_3/FX_188.json"
+    },
+    {
+      "file_id": "FX_189",
+      "id": "68774dbf27798c003c8a0dce",
+      "title": "2026-03-09, what will be the top-ranked short drama on the short drama hot list (短剧热度榜) of this date published by BiaNews (鞭牛士)? (Give the drama name only)",
+      "level": 3,
+      "filename": "FX_189.json",
+      "path": "future_prediction/level_3/FX_189.json"
+    },
+    {
+      "file_id": "FX_190",
+      "id": "685e489b6e8dbd006cdc6f70",
+      "title": "2026-03-05, what will be the movies ranked from 2 to 4 on Maoyan's 'Ticket Purchase vs Rating' list (猫眼电影购票评分榜)?",
+      "level": 3,
+      "filename": "FX_190.json",
+      "path": "future_prediction/level_3/FX_190.json"
+    },
+    {
+      "file_id": "FX_191",
+      "id": "685e48ac6e8dbd006cdc6f71",
+      "title": "2026-03-09, what will be the vehicles ranked from 1 to 3 on the hot list across China for sedans (轿车全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
+      "level": 3,
+      "filename": "FX_191.json",
+      "path": "future_prediction/level_3/FX_191.json"
+    },
+    {
+      "file_id": "FX_192",
+      "id": "685171e0560ebb0061efb2c3",
+      "title": "2026-03-06, what will be the total market capitalization (总市值) of Ping An Bank (000001) on the Shenzhen Stock Exchange in hundreds of millions of yuan (two decimal places)?",
+      "level": 4,
+      "filename": "FX_192.json",
+      "path": "future_prediction/level_4/FX_192.json"
+    },
+    {
+      "file_id": "FX_193",
+      "id": "6867949457e54a0061f98f8c",
+      "title": "2026-03-06, what will be the Grain Index (粮食货种指数) of the China Coastal Bulk Freight Index (中国沿海散货运价指数) published by the Shanghai Shipping Exchange?",
+      "level": 4,
+      "filename": "FX_193.json",
+      "path": "future_prediction/level_4/FX_193.json"
+    },
+    {
+      "file_id": "FX_194",
+      "id": "68514628aca664006bceb217",
+      "title": "2026-03-06, according to the latest China Influenza Weekly Report (中国流感监测周报) from the Chinese Center for Disease Control and Prevention, how many outbreaks of influenza-like illness (流感样病例暴发疫情) will be reported nationwide?",
+      "level": 4,
+      "filename": "FX_194.json",
+      "path": "future_prediction/level_4/FX_194.json"
+    },
+    {
+      "file_id": "FX_195",
+      "id": "6854dcb27df94a0060eb86cf",
+      "title": "2026-03-07, what will be the projects ranked from 1 to 3 on OpenGithubs' github-daily-rank of this date? (Give the project names only)",
+      "level": 4,
+      "filename": "FX_195.json",
+      "path": "future_prediction/level_4/FX_195.json"
+    },
+    {
+      "file_id": "FX_196",
+      "id": "6854dcbc7df94a0060eb86d0",
+      "title": "2026-03-08, what will be the",
+      "level": 4,
+      "filename": "FX_196.json",
+      "path": "future_prediction/level_4/FX_196.json"
+    },
+    {
+      "file_id": "FX_197",
+      "id": "6854e0397ff26400687d2031",
+      "title": "2026-03-09, what will be the projects ranked from 9 to 11 on the latest OpenGithubs' github-weekly-rank? (Give the project names only)",
+      "level": 4,
+      "filename": "FX_197.json",
+      "path": "future_prediction/level_4/FX_197.json"
+    },
+    {
+      "file_id": "FX_198",
+      "id": "68774e69336fa8003b890146",
+      "title": "2026-03-09, which works will be ranked from 1 to 3 on the latest weekly tipping chart for audio dramas (广播剧打赏榜周榜) on Maoer (猫耳) FM (MissEvan)? (Give the work names only)",
+      "level": 4,
+      "filename": "FX_198.json",
+      "path": "future_prediction/level_4/FX_198.json"
+    },
+    {
+      "file_id": "FX_199",
+      "id": "687df3a41d972f003b8ba68c",
+      "title": "2026-03-09, what will the open of CanSino (SH:688185) be for the day (in CNY)?",
+      "level": 4,
+      "filename": "FX_199.json",
+      "path": "future_prediction/level_4/FX_199.json"
+    },
+    {
+      "file_id": "FX_200",
+      "id": "685171b65b1af900600a3306",
+      "title": "2026-03-09, what will be the stock market capitalization (市价总值) of PetroChina (601857) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?",
+      "level": 4,
+      "filename": "FX_200.json",
+      "path": "future_prediction/level_4/FX_200.json"
+    },
+    {
+      "file_id": "FX_201",
+      "id": "685173fb59f71f006037a1ec",
+      "title": "2026-03-09, what songs will be ranked from 6 to 8 on the latest QQ Music Soaring Chart (QQ音乐飙升榜)?",
+      "level": 4,
+      "filename": "FX_201.json",
+      "path": "future_prediction/level_4/FX_201.json"
+    },
+    {
+      "file_id": "FX_202",
+      "id": "6851743b59f71f006037a1f1",
+      "title": "2026-03-10, what will be the average price (in yuan per kilogram) of lamb at the national agricultural product wholesale market monitored by the Ministry of Agriculture and Rural Affairs of China?",
+      "level": 4,
+      "filename": "FX_202.json",
+      "path": "future_prediction/level_4/FX_202.json"
+    },
+    {
+      "file_id": "FX_203",
+      "id": "6851738859f71f006037a1e5",
+      "title": "2026-03-09, what will be the low for the CSI 300 Index for the day?",
+      "level": 4,
+      "filename": "FX_203.json",
+      "path": "future_prediction/level_4/FX_203.json"
+    },
+    {
+      "file_id": "FX_204",
+      "id": "6870731ba3a7fb0061457aab",
+      "title": "2026-03-09, what will be the technologies ranked from 9 to 11 on the latest Smart Technologies Ranking (智能科技榜) published by Autohome (汽车之家)?",
+      "level": 4,
+      "filename": "FX_204.json",
+      "path": "future_prediction/level_4/FX_204.json"
+    },
+    {
+      "file_id": "FX_205",
+      "id": "6854dffd0635c0005f0a1d2f",
+      "title": "2026-03-05, what will be the songs from rank 1 to 3 on the latest NetEase Cloud Music Europe and America Hot Songs Chart (网易云音乐欧美热歌榜)? (Give the song titles only)",
+      "level": 4,
+      "filename": "FX_205.json",
+      "path": "future_prediction/level_4/FX_205.json"
+    },
+    {
+      "file_id": "FX_206",
+      "id": "68774ddd3083b1003c629ca8",
+      "title": "2026-03-09, what will the value (in hundreds of millions of yuan, two decimal places) of Daily Sell Trades (当日卖出成交金额) of Shanghai-Hong Kong Stock Connect's Southbound Trading (港股通) be?",
+      "level": 4,
+      "filename": "FX_206.json",
+      "path": "future_prediction/level_4/FX_206.json"
+    },
+    {
+      "file_id": "FX_207",
+      "id": "6944fde51834a500697575da",
+      "title": "2026-03-07, which movies will be ranked from 5 to 7 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)",
+      "level": 4,
+      "filename": "FX_207.json",
+      "path": "future_prediction/level_4/FX_207.json"
+    },
+    {
+      "file_id": "FX_208",
+      "id": "6945061ed2f0e700661f17a1",
+      "title": "2026-03-10, what songs will be ranked from 3 to 5 in the latest UK's Official Singles Chart Top 100? (Give the songs only)",
+      "level": 4,
+      "filename": "FX_208.json",
+      "path": "future_prediction/level_4/FX_208.json"
+    }
+  ]
+}

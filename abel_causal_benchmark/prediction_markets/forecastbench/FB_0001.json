@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0001",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will a New York sports team win a championship by the end of the 2025 sports season?",
+  "background": "This market will resolve YES if one of the following major New York metropolitan area-based teams wins their respective championship by the conclusion of the 2025 NFL season (Latest Feb 9, 2026 – Super Bowl 60)\n\nNew York Mets –  World Series \n\nNew York Yankees – World Series\n\nNew York Giants – Super Bowl\n\nNew York Jets – Super Bowl \n\nNew York Red Bulls – MLS Cup or Leagues Cup\n\nNew York City FC – MLS Cup or Leagues Cup\n\nNew York Nets – NBA Final\n\nNew York Knicks – NBA Final\n\nNew York Rangers – Stanley Cup\n\nNew York Islanders – Stanley Cup\n\nThe two New York football teams, although not physically based in the NY Metropolitan area, will be considered New York teams for the purpose of the market. \n\nOther small-market teams, such as the WNBA's NY Liberty, MLR New York Rugby, or NLL Lacrosse will not be counted.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "njIsNltHOS7eR4ZUgaXX",
+  "category": "prediction_markets"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_071",
+  "index": 71,
+  "dataset_group": "research_papers",
+  "causal_question": "Among registered Connecticut respondents who initially leaned toward a party but were unaffiliated, what is the causal effect of subsequently identifying with that party (i.e., post-survey self-reported party identification) on the alignment between their voting intentions and evaluations of parties and candidates (the Voting and Party Alignment index)? Report the local average treatment effect for the subgroup whose identification was changed by the study's intervention.",
+  "vague_question": "For people who said they leaned toward a party but hadn't registered with it, does becoming a party identifier change how they rate candidates and the parties? Focus on the effect for those who were induced by the study to start identifying with a party.",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0041/metadata.txt",
+  "data_path": "data/ds_0041/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Gerber2010/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Gerber2010/question/estimation.py",
+  "effect": 3.8231464882492836,
+  "standard_error": 2.5709218837878005,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

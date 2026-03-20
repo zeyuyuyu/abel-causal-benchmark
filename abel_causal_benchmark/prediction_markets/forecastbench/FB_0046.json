@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0046",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "By 2030, will there be a cure to aging?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "bY7teJbG37L9ale1IQ4m",
+  "category": "prediction_markets"
+}

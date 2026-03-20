@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_148",
+  "index": 148,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of specialist home visits on early childhood cognitive test scores for infants who did not receive the program in the IHDP sample?",
+  "vague_question": "For babies who didn’t get home visits, how much would their average cognitive score have changed if they had received them?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0113/metadata.txt",
+  "data_path": "data/ds_0113/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_8_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_8_2/question/estimation.py",
+  "effect": 11.702333899912691,
+  "standard_error": 1.0966713038089961,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

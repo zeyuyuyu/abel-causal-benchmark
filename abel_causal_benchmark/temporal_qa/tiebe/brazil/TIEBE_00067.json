@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00067",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "02",
+  "question": "Who was arrested in February 2015 as part of Operation Castanheira for illegal deforestation in the Amazon?",
+  "ground_truth": "Ezequiel Antônio Castanha, considered the biggest Amazon deforester of all time, was arrested.",
+  "event_desc": "Six months since the beginning of Operation Castanheira, Ezequiel Antônio Castanha, who is considered to be the biggest Amazon deforester of all time, is arrested. This was a joint operation by the Federal Police, the Brazilian Institute of the Environment, the Federal Public Ministry, the Federal Revenue Service, and the National Public Security Force.",
+  "category": "temporal_qa"
+}

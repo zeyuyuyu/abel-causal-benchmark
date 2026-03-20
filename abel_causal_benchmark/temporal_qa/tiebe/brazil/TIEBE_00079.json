@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00079",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "04",
+  "question": "How many people died in the Porto Alegre guesthouse fire in April 2024?",
+  "ground_truth": "At least ten people died in the fire.",
+  "event_desc": "26 April  2024 Porto Alegre fire A fire at a guesthouse in Porto Alegre kills at least ten people.",
+  "category": "temporal_qa"
+}

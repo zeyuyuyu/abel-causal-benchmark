@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00100",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "08",
+  "question": "How did President Lula da Silva's stance toward Daniel Ortega change before the diplomatic dispute in August 2024?",
+  "ground_truth": "Lula, who previously supported Ortega, distanced himself after Ortega ignored Pope Francis's request to stop repressing Catholic clergy in Nicaragua.",
+  "event_desc": "8 August  Brazil orders the expulsion of the Nicaraguan ambassador in retaliation for the expulsion of its ambassador in Managua amid a diplomatic row over criticism by President Lula da Silva of the authoritarian regime of President Daniel Ortega.",
+  "category": "temporal_qa"
+}

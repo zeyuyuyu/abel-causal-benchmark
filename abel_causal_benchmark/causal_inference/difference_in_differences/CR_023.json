@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_023",
+  "index": 23,
+  "dataset_group": "research_papers",
+  "causal_question": "By how much did the State Democracy Index change from 2002 to 2004 in states that newly gained unified Republican control in 2003 versus states that did not?",
+  "vague_question": "How did states' democracy scores change around 2002-2004 in states that switched to unified Republican control around 2003 versus those that didn't?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0012/metadata.txt",
+  "data_path": "data/ds_0012/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Grumbach_2023/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Grumbach_2023/question_2/estimation.py",
+  "effect": -0.09086342748982335,
+  "standard_error": 0.08094800175309143,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

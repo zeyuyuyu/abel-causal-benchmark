@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00007",
+  "split": "train",
+  "question": "Will AI systems that can generate a synopsis of a viewed video soon exist?",
+  "background": "In late 2014 Google [announced] a deep learning system that could automatically generate a descriptive caption of an arbitrary photograph.\nA significantly greater challenge is to provide an understandable and comparably accurate description of the events taking place in a short video (without audio included).",
+  "resolution_criteria": "Will a working version of such a system be publicly announced and demonstrated by July 1, 2016? For success, the system should act on a diverse set of short videos similar to these, and should be comparable in accuracy to the accuracy of Google's image captioning when it was first announced.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-30",
+  "date_close": "2016-02-01",
+  "date_resolve_at": "2016-08-23",
+  "url": "https://www.metaculus.com/api2/questions/9/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

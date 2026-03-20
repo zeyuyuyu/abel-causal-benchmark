@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00001",
+  "question": "Who was serving as the latest studio host for Pittsburgh Penguins broadcasts in 2020?",
+  "year": 2020,
+  "ground_truth": "Josh Getzoff Paul Steigerwald (select away games)",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Josh Getzoff Paul Steigerwald (select away games)",
+      "tag": "correct"
+    },
+    {
+      "answer": "Bob Grove",
+      "tag": "past"
+    },
+    {
+      "answer": "Josh Getzoff",
+      "tag": "past"
+    },
+    {
+      "answer": "Paul Steigerwald",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00005",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "01",
+  "question": "How many plants did Ford Motor Company announce it would close in Brazil in January 2021?",
+  "ground_truth": "Ford announced it would close three plants in Brazil.",
+  "event_desc": "Ford Motor Company announces it is closing three plants and laying off 5,000 workers in Brazil.",
+  "category": "temporal_qa"
+}

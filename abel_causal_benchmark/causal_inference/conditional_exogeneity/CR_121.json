@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_121",
+  "index": 121,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average change in daily ice cream sales (units sold) associated with a one-unit increase in the retail price across the days in the dataset?",
+  "vague_question": "On average, how many more or fewer ice creams are sold when the price is raised by one unit?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0086/metadata.txt",
+  "data_path": "data/ds_0086/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ice_cream_sales_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ice_cream_sales_0/question/estimation.py",
+  "effect": -3.899000007670883,
+  "standard_error": 0.1010134105810517,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

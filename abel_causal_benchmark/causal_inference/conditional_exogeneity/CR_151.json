@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_151",
+  "index": 151,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants in the control group (who did not receive the home-visit program), what is the average effect of the program on their 36-month cognitive score?",
+  "vague_question": "For infants who didn’t get the home visits, how much would their average cognitive score have changed if they had gotten them?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0116/metadata.txt",
+  "data_path": "data/ds_0116/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_9_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_9_2/question/estimation.py",
+  "effect": 4.868714660250528,
+  "standard_error": 0.41441476566736496,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_066",
+  "index": 66,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of an additional unit of educational attainment (one category on the 7-point edu scale, ~2-4 years) on noncontentious political participation (the participation scale, 0-1) for individuals born 1959-1971 who were induced to attain more schooling by the 1980 expansion of secondary education (i.e., the complier population among these cohorts)?",
+  "vague_question": "For people born around the time Zimbabwe massively expanded secondary schooling, how does getting more education affect their likelihood of routine political activities like voting, contacting local officials, or attending community meetings?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0036/metadata.txt",
+  "data_path": "data/ds_0036/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Croke2016/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Croke2016/question/estimation.py",
+  "effect": -0.09801993782056861,
+  "standard_error": 0.026503263844653523,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

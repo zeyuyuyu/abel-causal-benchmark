@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0023",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will a video game be played in the Olympics as an official event by the end of 2040?",
+  "background": "Link: https://en.wikipedia.org/wiki/Esports#Olympic_Games_recognition\n\nCan be either winter or summer olympics\n\n@/strutheo/will-a-video-game-be-played-in-the-5a91bcfb8700 \n\n@/strutheo/will-a-video-game-be-played-in-the ",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "aiNlyFriJblyntb0i6OZ",
+  "category": "prediction_markets"
+}

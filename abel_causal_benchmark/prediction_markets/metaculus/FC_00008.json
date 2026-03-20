@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00008",
+  "split": "train",
+  "question": "Will the experimental Wendelstein 7-X stellarator fusion device be a success?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The Wendelstein 7-X (W7-X) is an experimental device built at the Max Planck Institute for Plasma Physics to test the \"stellarator\" deisgn of nuclear fusion reactor.\nThe primary benefit of the stellarator design is to allow prolonged confinement, relative to Tokomak designs that can run only in short pulses. The W7-X was designed to run for up to 30 minutes.\nMagnet testing was completed in July 2015, and regulatory approval to bein operations is expected in in early November.\nWill the W7-X collaboration report that the rector has successfully confined its plasma for at least 10 minutes by February 15, 2016?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-02",
+  "date_close": "2015-11-30",
+  "date_resolve_at": "2016-02-15",
+  "url": "https://www.metaculus.com/api2/questions/11/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

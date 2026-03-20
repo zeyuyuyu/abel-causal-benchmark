@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00067",
+  "question": "In 2019 Who plays as third on Kaitlyn Lawess team?",
+  "year": 2019,
+  "ground_truth": "Kaitlyn Lawes",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Kaitlyn Lawes",
+      "tag": "correct"
+    },
+    {
+      "answer": "Selena Njegovan",
+      "tag": "future"
+    },
+    {
+      "answer": "irrelevant",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "In 2019, the third player on Kaitlyn Lawes' team was played by actor Tom Hanks.",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

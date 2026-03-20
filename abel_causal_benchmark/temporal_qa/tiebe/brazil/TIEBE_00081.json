@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00081",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "02",
+  "question": "When did the 2024 Copa Verde football competition take place?",
+  "ground_truth": "The 2024 Copa Verde took place from 21 February to 8 May 2024.",
+  "event_desc": "21 February  8 May  2024 Copa Verde football competition is held.",
+  "category": "temporal_qa"
+}

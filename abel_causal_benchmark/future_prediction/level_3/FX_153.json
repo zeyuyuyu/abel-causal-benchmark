@@ -1,0 +1,10 @@
+{
+  "id": "686794c85407dd00602c1f79",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-02-05, who will be the athletes ranked from 12 to 14 in the latest World Athletics women's 200m rankings? (Give the names only)\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-05",
+  "level": 3,
+  "title": "2026-02-05, who will be the athletes ranked from 12 to 14 in the latest World Athletics women's 200m rankings? (Give the names only)",
+  "ground_truth": "['Ashanti MOORE', 'Jaël BESTUÉ', 'JaMeesia FORD']",
+  "__index_level_0__": 164,
+  "category": "future_prediction"
+}

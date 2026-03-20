@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0007",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Magnus Carlsen compete for the FIDE Classical World Chess Championship before 2033?",
+  "background": "This question resolves as YES if Magnus Carlsen, the Classical World Chess Champion as of 2022, participates either in: \n\n(1) An event, such as a candidates tournament, which is primarily intended to select the next contender for the FIDE Classical World Chess Championship.\n\n(2) Or Carlsen otherwise is a challenger for the FIDE Classical World Chess Championship.\n\nCriteria and clarifications. \n\nIf Carlsen competes in a tournament or tournaments which are qualification events for a candidates tournament, then that does not count as competing for the world championship. For example, if winning first place in the Sinquefield Cup earns the winner a spot in the candidates tournament, then participating in the Sinquefield Cup does not count as competing for the world championship. But if Carlsen wins first place at the Sinquefield Cup and opts to participate in the candidates tournament, then this question will resolve as YES. The Sinquefield Cup does not count as a world championship competition because its chief reason for existing is not to serve as a WCC selection event.\n\nThe official World Classical Chess Championship is the WCC contest administered by FIDE (or FIDE's successor if it should cease to exist as the main governing body of international chess competitions). Under these terms, Fischer's last match against Spassky and Kasparov's championships after the Kasparov-Short competition do not count as FIDE Classical World Chess Championships. ",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "4fPq6PiY40SUrZGL7cb5",
+  "category": "prediction_markets"
+}

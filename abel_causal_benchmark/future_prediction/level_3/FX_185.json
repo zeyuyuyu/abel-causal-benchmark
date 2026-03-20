@@ -1,0 +1,10 @@
+{
+  "id": "68517362eb11c800614780de",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-06, what will the price index for edible oil be in the Agricultural Product Wholesale Price 200 Index from China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-06",
+  "level": 3,
+  "title": "2026-03-06, what will the price index for edible oil be in the Agricultural Product Wholesale Price 200 Index from China's National Agricultural Product Wholesale Market Price Information System (全国农产品批发市场价格信息系统)?",
+  "ground_truth": "[125.96]",
+  "__index_level_0__": 230,
+  "category": "future_prediction"
+}

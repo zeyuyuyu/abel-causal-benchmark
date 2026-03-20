@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00018",
+  "split": "train",
+  "question": "Will the next elected U.S. President be (as usual) a white, Christian, non-Hispanic man?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Until Barack Obama, every single US president has been a white, Christian, non-Hispanic man. Will we revert to that trend?\nThis is an excercise in combining probabilities.\nAt the time of publication, we have three major contenders for the Democratic nomination: Clinton, Sanders, and O'Malley.\nOf these, only O'Malley would fit the characteristics in the question (Sanders being Jewish and Clinton female).\nOn the Republican side, we have Bush, Carson, Christie, Cruz, Fiorina, Gilmore, Huckabee, Kasich, Paul, Rubio, Santorum, and Trump.\nOf these, Bush, Christie, Gilmore, Huckabee, Kasich, Paul, Santorum, and Trump fit the characteristics of the question (this counts Cruz and Rubio as Hispanic.)\nAs a simple example, if we assume that all Democratic candidates are equally likely to receive the Democratic nomination, and all Republican candidates are equally likely to receive the Republican nomination, and that there is a 50-50 chance of a Republican or Democrat winning, then the probability for this question to resolve in the positive would be:\n0.5 x (8/12) + 0.5 x (1/3) = 50%\nIn reality, the various probabilities are not equal and a different calculation should be done. So what do you think:\nWill the next elected U.S. President be (as usual) a white, Christian, non-Hispanic man?",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-12",
+  "date_close": "2016-11-02",
+  "date_resolve_at": "2016-11-09",
+  "url": "https://www.metaculus.com/api2/questions/24/",
+  "gpt_3p5_category": "Politics & Governance",
+  "category": "prediction_markets"
+}

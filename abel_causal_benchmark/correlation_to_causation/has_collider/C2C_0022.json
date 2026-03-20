@@ -1,0 +1,8 @@
+{
+  "file_id": "C2C_0022",
+  "input": "Premise: Suppose there is a closed system of 3 variables, A, B and C. All the statistical relations among these 3 variables are as follows: A correlates with C. B correlates with C. However, A is independent of B.\nHypothesis: There exists at least one collider (i.e., common effect) of A and C.",
+  "label": 0,
+  "num_variables": 3,
+  "template": "has_collider",
+  "category": "correlation_to_causation"
+}

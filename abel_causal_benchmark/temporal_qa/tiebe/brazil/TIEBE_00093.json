@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00093",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "07",
+  "question": "What did scientists discover in Brazilian sharpnose sharks off the coast of Rio de Janeiro in July 2024?",
+  "ground_truth": "Scientists discovered high levels of cocaine in the muscles and livers of Brazilian sharpnose sharks.",
+  "event_desc": "23 July  A study by the Oswaldo Cruz Foundation finds the first incidence of cocaine discovered in sharks following tests on 13 Brazilian sharpnose sharks off the coast of Rio de Janeiro, in what is believed to be caused by waste from illegal laboratories and users.",
+  "category": "temporal_qa"
+}

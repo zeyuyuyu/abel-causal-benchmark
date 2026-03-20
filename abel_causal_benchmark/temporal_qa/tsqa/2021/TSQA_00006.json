@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00006",
+  "question": "Who was the head of state in Chile in 2021?",
+  "year": 2021,
+  "ground_truth": "Sebastián Piñera",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Michelle Bachelet",
+      "tag": "past"
+    },
+    {
+      "answer": "Sebastián Piñera",
+      "tag": "correct"
+    },
+    {
+      "answer": "Ricardo Lagos",
+      "tag": "past"
+    },
+    {
+      "answer": "Gabriel Boric",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

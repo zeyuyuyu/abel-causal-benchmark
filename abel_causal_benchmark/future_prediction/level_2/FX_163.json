@@ -1,0 +1,10 @@
+{
+  "id": "69a4319df2cb3b006875e9cb",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"When will Dubai airport resume normal operations (resolved around 2026-03-08 (GMT+8)). \nA.  the outcome be March 2 or earlier\nB.  the outcome be March 3 or 4\nC.  the outcome be March 5 or 6\nD.  the outcome be March 7 or later\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-08",
+  "level": 2,
+  "title": "When will Dubai airport resume normal operations",
+  "ground_truth": "['A']",
+  "__index_level_0__": 200,
+  "category": "future_prediction"
+}

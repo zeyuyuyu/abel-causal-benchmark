@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00022",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "What was the record number of COVID-19 deaths reported in Brazil in a single day in March 2021?",
+  "ground_truth": "2,340 deaths.",
+  "event_desc": "A new record of 24-hour COVID-19 deaths is recorded in the country, with 2,340.",
+  "category": "temporal_qa"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_170",
+  "index": 170,
+  "dataset_group": "textbook",
+  "causal_question": "What was the average causal effect of California's July 2011 change in DMV donor-question wording on California's organ-donor registration rate for those exposed to the policy, relative to comparable jurisdictions over the same quarters (ATT)?",
+  "vague_question": "How did California's mid-2011 DMV wording change affect donor signup rates in California compared with similar states during the same time period?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0137/metadata.txt",
+  "data_path": "data/ds_0137/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/organ_donations/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/organ_donations/question/estimation.py",
+  "effect": -0.02245897435897523,
+  "standard_error": 0.006720765526939193,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

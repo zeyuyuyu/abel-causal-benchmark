@@ -1,0 +1,10 @@
+{
+  "id": "6964e98652029b005bc009a4",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Ecuador to improve its score in the 2026 Democracy Report ranking? (resolved around 2026-03-10 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-10",
+  "level": 1,
+  "title": "Ecuador to improve its score in the 2026 Democracy Report ranking?",
+  "ground_truth": "['No']",
+  "__index_level_0__": 216,
+  "category": "future_prediction"
+}

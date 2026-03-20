@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_085",
+  "index": 85,
+  "dataset_group": "research_papers",
+  "causal_question": "Among federal deputy candidates in very close races, what is the effect of being elected versus not elected on the subsequent log average value of direct federal government contracts received by their corporate donor firms during 2008-2010?",
+  "vague_question": "For candidates who barely won or lost, how much did winning change the later value of government contracts going to the companies that funded them? We estimate the average change in contract value.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0054/metadata.txt",
+  "data_path": "data/ds_0054/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/boas_etal_2014/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/boas_etal_2014/question_1/estimation.py",
+  "effect": 2.193507668036073,
+  "standard_error": 1.138580812675392,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

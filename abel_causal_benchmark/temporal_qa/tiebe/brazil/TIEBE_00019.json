@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00019",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "How did Brazil's GDP growth in the fourth quarter of 2020 compare to economists' expectations?",
+  "ground_truth": "Brazil's GDP grew by 3.2% in the fourth quarter of 2020, exceeding economists' median estimate of 2.8%.",
+  "event_desc": "The World Bank and the International Monetary Fund (IMF) estimate that the Brazilian economy shrank by 4.1% in 2020, less than original estimates of 8%-9%. This would be the worst performance in decades.",
+  "category": "temporal_qa"
+}

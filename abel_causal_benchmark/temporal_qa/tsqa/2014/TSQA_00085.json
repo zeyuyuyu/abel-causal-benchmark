@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00085",
+  "question": "Which football club was Kasper Schmeichel a goalkeeper for in 2014?",
+  "year": 2014,
+  "ground_truth": "Leicester City",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Leicester City",
+      "tag": "correct"
+    },
+    {
+      "answer": "Nice",
+      "tag": "future"
+    },
+    {
+      "answer": "Manchester City",
+      "tag": "past"
+    },
+    {
+      "answer": "Real Madrid",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

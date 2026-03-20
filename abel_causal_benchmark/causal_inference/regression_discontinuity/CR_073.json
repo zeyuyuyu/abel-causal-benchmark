@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_073",
+  "index": 73,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of having municipal direct-democracy institutions (versus representative councils) on women's parliamentary turnout, estimated for municipalities whose institutional status was marginally determined by the 1918 municipal reform?",
+  "vague_question": "Did using town-meeting-style local government (direct democracy) instead of a representative council increase the share of women who voted, focusing on towns whose institutional placement under the reform was effectively on the margin?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0043/metadata.txt",
+  "data_path": "data/ds_0043/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Kim2019_fuzzyRDD/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Kim2019_fuzzyRDD/question/estimation.py",
+  "effect": 3.928662717450402,
+  "standard_error": 1.0400617823889136,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

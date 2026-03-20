@@ -1,0 +1,10 @@
+{
+  "id": "697b53276346c0006551acac",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"For which team will Giannis Antetokounmpo play for after the 2026 trade deadline? (resolved around 2026-02-07 (GMT+8)). \nA.  the outcome be Milwaukee Bucks (no trade)\nB.  the outcome be Golden State Warriors\nC.  the outcome be New York Knicks\nD.  the outcome be Miami Heat\nE.  the outcome be Atlanta Hawks\nF.  the outcome be Other\nG.  the outcome be Detroit Pistons\nH.  the outcome be San Antonio Spurs\nI.  the outcome be Houston Rockets\nJ.  the outcome be Los Angeles Lakers\nK.  the outcome be Boston Celtics\nL.  the outcome be Brooklyn Nets\nM.  the outcome be Los Angeles Clippers\nN.  the outcome be Phoenix Suns\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct option(s) based on your analysis.\n        Your prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\n        Your final answer MUST end with this exact format:\n        listing all correct option(s) you have identified, separated by commas, within the box.\n        For example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n        \n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-07",
+  "level": 2,
+  "title": "For which team will Giannis Antetokounmpo play for after the 2026 trade deadline?",
+  "ground_truth": "['A']",
+  "__index_level_0__": 125,
+  "category": "future_prediction"
+}

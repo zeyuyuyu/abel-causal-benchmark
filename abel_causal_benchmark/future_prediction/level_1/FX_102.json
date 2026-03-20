@@ -1,0 +1,10 @@
+{
+  "id": "6972189f11cfd2006997647f",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"New METR SOTA by end of January, 2026? (resolved around 2026-02-01 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Yes} or \\boxed{No}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-01 00:00:00",
+  "level": 1,
+  "title": "New METR SOTA by end of January, 2026?",
+  "ground_truth": "['Yes']",
+  "__index_level_0__": 102,
+  "category": "future_prediction"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_021",
+  "index": 21,
+  "dataset_group": "research_papers",
+  "causal_question": "Was there an increase in the proportion of spending on civil administration and tax collection in treasuries dominated by mining after the 1777 Mining Tribunal, relative to treasuries without mining dominance?",
+  "vague_question": "After the Mining Tribunal was set up, did mining regions start dedicating a larger portion of their budgets to running civil administration and collecting taxes than non-mining regions?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0011/metadata.txt",
+  "data_path": "data/ds_0011/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Garfias_2019/question_2/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Garfias_2019/question_2/estimation.py",
+  "effect": 0.04669461453584012,
+  "standard_error": 0.0429570166820007,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

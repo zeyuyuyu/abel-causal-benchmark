@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_014",
+  "index": 14,
+  "dataset_group": "research_papers",
+  "causal_question": "Did cities that adopted CompStat in 1994 experience a change in the share of total arrests that were minor (Part II) offenses from 1993 to 1995 relative to cities that had not yet adopted (1996+)?",
+  "vague_question": "Did a city's adoption of CompStat around 1994 coincide with any change in the share of arrests that were for minor (Part II) offenses?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0008/metadata.txt",
+  "data_path": "data/ds_0008/data/data.csv",
+  "identification_spec": "solutions/research_papers/DiD/Eckhouse_2022/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/DiD/Eckhouse_2022/question_1/estimation.py",
+  "effect": 0.013525759691176156,
+  "standard_error": 0.005525091835984817,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

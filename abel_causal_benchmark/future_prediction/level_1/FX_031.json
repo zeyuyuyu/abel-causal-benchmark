@@ -1,0 +1,10 @@
+{
+  "id": "695fa38be56c28005d3c324e",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"FC Köln vs. FC Bayern München (resolved around 2026-01-15 (GMT+8)). \nA. the outcome be FC Bayern München\nB. the outcome be Tie\nC. the outcome be FC Köln\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-15 00:00:00",
+  "level": 1,
+  "title": "FC Köln vs. FC Bayern München",
+  "ground_truth": "['A']",
+  "__index_level_0__": 30,
+  "category": "future_prediction"
+}

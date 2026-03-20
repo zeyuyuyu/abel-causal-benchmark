@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_095",
+  "index": 95,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average effect on a parent's probability of voting when their child becomes newly eligible to vote in the 2014 election?",
+  "vague_question": "When a child first becomes old enough to vote, does that make their parent more likely to vote in 2014? If so, by how much?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0063/metadata.txt",
+  "data_path": "data/ds_0063/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/dahlgard_2018c/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/dahlgard_2018c/question_1/estimation.py",
+  "effect": 0.044055509163451356,
+  "standard_error": 0.019040884790935447,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

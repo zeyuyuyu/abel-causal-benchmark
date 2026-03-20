@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_141",
+  "index": 141,
+  "dataset_group": "textbook",
+  "causal_question": "Among infants who received the home-visiting program, what was the average change in cognitive test scores at about 36 months attributable to the program?",
+  "vague_question": "For babies who got the home visits, how much did their later cognitive scores differ because of the program, on average?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0106/metadata.txt",
+  "data_path": "data/ds_0106/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_6_1/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_6_1/question/estimation.py",
+  "effect": 3.907079409441717,
+  "standard_error": 0.31725004836836374,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00064",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "07",
+  "question": "How many people attended the 19th São Paulo Gay Pride Parade in 2015?",
+  "ground_truth": "Approximately two million people attended the parade.",
+  "event_desc": "Two million people attend the 19th São Paulo Gay Pride Parade on Avenida Paulista in São Paulo.",
+  "category": "temporal_qa"
+}

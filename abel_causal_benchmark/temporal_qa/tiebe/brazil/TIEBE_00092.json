@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00092",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "01",
+  "question": "How many people died in Rio de Janeiro due to heavy rains in January 2024?",
+  "ground_truth": "At least 11 people died.",
+  "event_desc": "15 January  Heavy rains kill 11 people in Rio de Janeiro.",
+  "category": "temporal_qa"
+}

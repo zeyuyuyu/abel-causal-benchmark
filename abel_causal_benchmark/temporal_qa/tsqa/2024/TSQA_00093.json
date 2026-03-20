@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00093",
+  "question": "Who was the head of state in the United States of America in 2024?",
+  "year": 2024,
+  "ground_truth": "Donald Trump",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Donald Trump",
+      "tag": "correct"
+    },
+    {
+      "answer": "Barack Obama",
+      "tag": "past"
+    },
+    {
+      "answer": "George W. Bush",
+      "tag": "past"
+    },
+    {
+      "answer": "Joe Biden",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

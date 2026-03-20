@@ -1,0 +1,10 @@
+{
+  "id": "6956690c20a2e600672a786b",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Juventus beats SSC Napoli | Soccer Serie A match 25th Jan 2026 (resolved around 2026-01-26 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-26",
+  "level": 1,
+  "title": "Juventus beats SSC Napoli | Soccer Serie A match 25th Jan 2026",
+  "ground_truth": "['Yes']",
+  "__index_level_0__": 58,
+  "category": "future_prediction"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_119",
+  "index": 119,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average effect, at the 50% two-party vote threshold, of a Democrat narrowly winning a House seat on that representative's probability of signing a civil-rights discharge petition in the 88th Congress?",
+  "vague_question": "If a Democrat barely wins a House election, how much does that change the chance the winner signs a civil-rights discharge petition in the 88th Congress?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0084/metadata.txt",
+  "data_path": "data/ds_0084/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/schickler_etal_2009d/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/schickler_etal_2009d/question_1/estimation.py",
+  "effect": 0.7869557257379252,
+  "standard_error": 0.17272958682164383,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

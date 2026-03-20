@@ -1,0 +1,10 @@
+{
+  "id": "6941510e41b9d1005effa734",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Global Average Temperature Dec 2025 per LOTI v4 vs 1951-1980 base period (NASA Gistemp) (resolved around 2026-01-15 (GMT+8)). \nA. the outcome be December 2025 less than 1.095C\nB. the outcome be December 2025 1.095C or more and less than 1.145C\nC. the outcome be December 2025 1.145C or more and less than 1.195C\nD. the outcome be December 2025 1.195C or more and less than 1.245C\nE. the outcome be December 2025 1.245C or more and less than 1.295C\nF. the outcome be December 2025 1.295C or more and less than 1.345C\nG. the outcome be December 2025 1.345C or more\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-15 00:00:00",
+  "level": 2,
+  "title": "Global Average Temperature Dec 2025 per LOTI v4 vs 1951-1980 base period (NASA Gistemp)",
+  "ground_truth": "['A']",
+  "__index_level_0__": 5,
+  "category": "future_prediction"
+}

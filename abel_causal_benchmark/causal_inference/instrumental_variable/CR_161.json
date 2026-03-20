@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_161",
+  "index": 161,
+  "dataset_group": "textbook",
+  "causal_question": "What is the causal effect of one additional year of schooling on log wages for individuals whose schooling is changed by local college availability?",
+  "vague_question": "For people whose schooling increases because college access near them changes, how much do wages go up for one extra year of schooling?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0126/metadata.txt",
+  "data_path": "data/ds_0126/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/close_college/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/close_college/question/estimation.py",
+  "effect": 0.12416424134426052,
+  "standard_error": 0.049157732099605195,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

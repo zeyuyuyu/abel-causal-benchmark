@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00046",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "06",
+  "question": "What crime was Lázaro Barbosa accused of committing in Ceilândia in June 2021?",
+  "ground_truth": "He was accused of murdering a family of four in Ceilândia on June 9, 2021.",
+  "event_desc": "After 20 days of searching, serial killer Lázaro Barbosa was arrested in Goiás after being shot by police. He was then taken by ambulance by police, but ended up dying shortly.",
+  "category": "temporal_qa"
+}

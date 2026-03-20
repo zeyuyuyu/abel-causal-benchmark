@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00040",
+  "question": "Which team did the player Frazer Wright belong to in the year of 2014?",
+  "year": 2014,
+  "ground_truth": "St Johnstone",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "St Johnstone",
+      "tag": "correct"
+    },
+    {
+      "answer": "Celtic",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Rangers",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Aberdeen",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

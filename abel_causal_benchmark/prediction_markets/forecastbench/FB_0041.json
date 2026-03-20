@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0041",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will prediction markets become mainstream by 2028?",
+  "background": "Resolves YES if at least one prediction market platform has more than 1 million daily active users by 2028. Also resolves YES if an online sports betting platform has those engagement numbers AND has a substainstial component that is about politics, science, and other real-world events. So for example, I don't think that Betfair currently counts but it might in the future.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "4jXeV1fX6R9JJEgcSMER",
+  "category": "prediction_markets"
+}

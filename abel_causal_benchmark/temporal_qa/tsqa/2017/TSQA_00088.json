@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00088",
+  "question": "In 2017 Which team finished in third place in the Swiss Super League?",
+  "year": 2017,
+  "ground_truth": "Lugano",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Lugano",
+      "tag": "correct"
+    },
+    {
+      "answer": "Young Boys",
+      "tag": "past"
+    },
+    {
+      "answer": "Basel",
+      "tag": "future"
+    },
+    {
+      "answer": "St. Gallen",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_168",
+  "index": 168,
+  "dataset_group": "textbook",
+  "causal_question": "What is the local average effect (LATE) of being a veteran eligible for World War II / Korean War GI Bill home loan benefits on the probability of home ownership for men born near the eligibility threshold for those benefits?",
+  "vague_question": "For men born around the dates that made them likely to receive GI Bill home loan benefits, how did being a veteran affect their chance of owning a home?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0134/metadata.txt",
+  "data_path": "data/ds_0134/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/mortgages/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/mortgages/question/estimation.py",
+  "effect": 0.18517831669328189,
+  "standard_error": 0.04966560820348526,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

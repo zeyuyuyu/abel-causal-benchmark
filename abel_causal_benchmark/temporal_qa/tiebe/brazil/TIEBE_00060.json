@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00060",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "12",
+  "question": "How many people died in the bus accident on BR-153 in Aparecida de Goiânia in December 2021?",
+  "ground_truth": "Six people died in the accident.",
+  "event_desc": "A bus accident on BR-153, in Aparecida de Goiânia, kills six people and injures 40. The vehicle fell into a stream, after hitting a car and truck on the highway.",
+  "category": "temporal_qa"
+}

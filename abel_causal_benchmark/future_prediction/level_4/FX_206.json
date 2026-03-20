@@ -1,0 +1,10 @@
+{
+  "id": "68774ddd3083b1003c629ca8",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-09, what will the value (in hundreds of millions of yuan, two decimal places) of Daily Sell Trades (当日卖出成交金额) of Shanghai-Hong Kong Stock Connect's Southbound Trading (港股通) be?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-09",
+  "level": 4,
+  "title": "2026-03-09, what will the value (in hundreds of millions of yuan, two decimal places) of Daily Sell Trades (当日卖出成交金额) of Shanghai-Hong Kong Stock Connect's Southbound Trading (港股通) be?",
+  "ground_truth": "[409.0]",
+  "__index_level_0__": 258,
+  "category": "future_prediction"
+}

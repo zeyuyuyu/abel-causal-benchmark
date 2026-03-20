@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00099",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "08",
+  "question": "Who won the gold medal in the floor exercise at the 2024 Paris Olympics?",
+  "ground_truth": "Rebeca Andrade won the gold medal in the floor exercise at the 2024 Paris Olympics.",
+  "event_desc": "5 August  Gymnast Rebeca Andrade wins gold on floor exercise at the Paris Summer Olympics.",
+  "category": "temporal_qa"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00026",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "What was the total number of confirmed COVID-19 cases in Brazil by March 2021?",
+  "ground_truth": "By March 2021, Brazil had recorded over 12.1 million confirmed COVID-19 cases.",
+  "event_desc": "Brazil records 3,251 deaths from COVID-19 in 24 hours, a new record.",
+  "category": "temporal_qa"
+}

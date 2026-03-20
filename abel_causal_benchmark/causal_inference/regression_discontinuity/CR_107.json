@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_107",
+  "index": 107,
+  "dataset_group": "research_papers",
+  "causal_question": "Among U.S. House primaries decided by a razor-thin margin between an extremist and a more moderate candidate, what is the average causal effect of nominating the extremist on the party's general-election vote share?",
+  "vague_question": "In very close primaries between a hardline and a more moderate candidate, how does picking the hardliner change the party's vote share in the general election?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0073/metadata.txt",
+  "data_path": "data/ds_0073/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/hall_2015/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/hall_2015/question_1/estimation.py",
+  "effect": -0.10502571776967495,
+  "standard_error": 0.046271182784319874,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

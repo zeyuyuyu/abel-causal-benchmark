@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00020",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "Who were the primary suspects in the investigation of Henry Borel's death in March 2021?",
+  "ground_truth": "The primary suspects were Henry's mother, Monique Medeiros, and his stepfather, Jairo Souza, a city councilor and doctor, who were present in the apartment at the time of his death.",
+  "event_desc": "A child named Henry Borel is murdered in Barra da Tijuca, inside the apartment of his mother Monique Medeiros and his stepfather Jairo Souza, a councilor and doctor. Both are suspected of having caused his death.",
+  "category": "temporal_qa"
+}

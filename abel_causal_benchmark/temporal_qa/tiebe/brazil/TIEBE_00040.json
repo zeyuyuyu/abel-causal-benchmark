@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00040",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "06",
+  "question": "How many people were involved in the manhunt for Lázaro Barbosa in June 2021?",
+  "ground_truth": "Around 200 personnel from various police and firefighting units were involved in the manhunt.",
+  "event_desc": "A manhunt begins for serial killer Lázaro Barbosa, who killed a family in the rural area of Ceilândia, in the Federal District. The task force brought together around 200 men from the Civil Police, Military Police, Federal Highway Police, and the Military Firefighters Corps.",
+  "category": "temporal_qa"
+}

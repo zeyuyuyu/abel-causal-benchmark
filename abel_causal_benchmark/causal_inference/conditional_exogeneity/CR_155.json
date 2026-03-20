@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_155",
+  "index": 155,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect on hourly pay of completing high school compared with not completing high school?",
+  "vague_question": "On average, how much more per hour do people who finished high school earn than those who didn’t?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0120/metadata.txt",
+  "data_path": "data/ds_0120/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/wage_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/wage_2/question/estimation.py",
+  "effect": 2.96,
+  "standard_error": 1.0082075864170512,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

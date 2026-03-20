@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00054",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "11",
+  "question": "Where did a fire occur in Fortaleza in November 2021?",
+  "ground_truth": "A fire occurred in the vegetation area of Parque do Cocó in Fortaleza.",
+  "event_desc": "A fire hits areas of vegetation in Parque do Cocó in Fortaleza, Ceará.",
+  "category": "temporal_qa"
+}

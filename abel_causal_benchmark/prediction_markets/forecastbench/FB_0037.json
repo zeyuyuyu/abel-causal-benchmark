@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0037",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will AI replace over 50 million jobs by end of 2024?",
+  "background": "If an authoritative international labor or employment agency (like the International Labour Organization or the U.S. Bureau of Labor Statistics) releases a report stating that generative AI has replaced more than 50 million jobs globally by 11:59 PM Coordinated Universal Time (UTC) on December 31, 2024, the prediction will resolve as 'yes'. Any other outcome means the prediction is resolved as 'no'. Resolution is based on reports from these organizations.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "YleFhm7mAbAVzTW1dUmI",
+  "category": "prediction_markets"
+}

@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00087",
+  "question": "What is the US World peak chart position for the single 'October Rain' by 10cm (band) in 2015?",
+  "year": 2015,
+  "ground_truth": "October Rain",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "October Rain",
+      "tag": "correct"
+    },
+    {
+      "answer": "Stalker",
+      "tag": "past"
+    },
+    {
+      "answer": "Mattress",
+      "tag": "future"
+    },
+    {
+      "answer": "Gradation",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

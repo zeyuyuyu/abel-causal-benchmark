@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_078",
+  "index": 78,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect (local average treatment effect among counties affected by the source of exogenous local variation used in the study) of a one-percentage-point increase in the county-level Democratic gubernatorial vote share on the county-level Democratic down-ballot statewide vote share?",
+  "vague_question": "For counties where the governor's local popularity creates an exogenous change in the governor's vote, how much does a one-point increase in the governor's vote share change votes for the governor's party in other statewide races?",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0048/metadata.txt",
+  "data_path": "data/ds_0048/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Meredith2013/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Meredith2013/question/estimation.py",
+  "effect": 0.16343388491092745,
+  "standard_error": 0.07116693587890967,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

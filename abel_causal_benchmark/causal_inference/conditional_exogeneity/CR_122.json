@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_122",
+  "index": 122,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of receiving a specialist home visit (treatment = 1) versus not (treatment = 0) on standardized early-childhood cognitive test scores (y)?",
+  "vague_question": "What is the effect of giving infants a specialist home visit on their later cognitive scores?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0087/metadata.txt",
+  "data_path": "data/ds_0087/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_0_0/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_0_0/question/estimation.py",
+  "effect": 3.9739106095029246,
+  "standard_error": 0.11856431626928941,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

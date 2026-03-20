@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00049",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "08",
+  "question": "Why was Flordelis de Souza expelled from Brazil's lower house of Congress in August 2021?",
+  "ground_truth": "She was expelled after being charged with first-degree murder in connection with the 2019 killing of her husband, Anderson do Carmo.",
+  "event_desc": "The Lower House of the Brazilian Congress vote to expel fellow lawmaker Flordelis de Souza. This is after she is charged with first degree murder in relation to the 2019 murder case of her husband Anderson do Carmo.",
+  "category": "temporal_qa"
+}

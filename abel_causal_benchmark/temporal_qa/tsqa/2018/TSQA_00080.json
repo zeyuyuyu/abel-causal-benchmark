@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00080",
+  "question": "Who was the jockey that won the latest Champions Mile in 2018?",
+  "year": 2018,
+  "ground_truth": "João Moreira",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "João Moreira",
+      "tag": "correct"
+    },
+    {
+      "answer": "Weichong Marwing",
+      "tag": "past"
+    },
+    {
+      "answer": "Anton Marcus",
+      "tag": "past"
+    },
+    {
+      "answer": "Brett Prebble",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

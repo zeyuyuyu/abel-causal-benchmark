@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0045",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will any of the four main characters of Severance die in season 2?",
+  "background": "Mark, Helly, Dylan, and Irving\n\nDeath between season 1 and 2 also counts, assuming season 2 takes place after 1.\n\nSpecifically medical death (brain death, no heartbeat, etc). ",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "2oixTQc9MRUud7wZ1tT5",
+  "category": "prediction_markets"
+}

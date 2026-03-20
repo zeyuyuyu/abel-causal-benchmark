@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00100",
+  "question": "What is the website of the firm or studio associated with the most recent Driehaus Architecture Prize laureate in 2013?",
+  "year": 2013,
+  "ground_truth": "HBRA Architects",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "HBRA Architects",
+      "tag": "correct"
+    },
+    {
+      "answer": "Studio Pier Carlo Bontempi",
+      "tag": "future"
+    },
+    {
+      "answer": "David M. Schwarz Architects",
+      "tag": "future"
+    },
+    {
+      "answer": "ARCAS Architecture & Urbanism",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

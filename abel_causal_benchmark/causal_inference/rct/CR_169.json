@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_169",
+  "index": 169,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of participation in the NSW job-training program (treat = 1) on real earnings in 1978 (re78) in this dataset?",
+  "vague_question": "On average, how much more (in dollars) did people who participated in the NSW job-training program earn in 1978 compared with those who did not?",
+  "identification_strategy": "RCT",
+  "metadata_path": "data/ds_0136/metadata.txt",
+  "data_path": "data/ds_0136/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/nsw_mixtape/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/nsw_mixtape/question/estimation.py",
+  "effect": 1794.342404270271,
+  "standard_error": 670.9965463815241,
+  "category": "causal_inference",
+  "strategy": "RCT"
+}

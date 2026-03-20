@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_106",
+  "index": 106,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the average effect of party incumbency on the Democratic Party's share of total campaign contributions in the subsequent election cycle among state legislative districts with very close prior elections?",
+  "vague_question": "If a party barely holds a state legislative seat, how much more of the next cycle's campaign money goes to that party's candidate? Please report the change in percentage points.",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0072/metadata.txt",
+  "data_path": "data/ds_0072/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/fouirnaies_hall_2014b/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/fouirnaies_hall_2014b/question_1/estimation.py",
+  "effect": 19.971085479597754,
+  "standard_error": 1.42270474498977,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

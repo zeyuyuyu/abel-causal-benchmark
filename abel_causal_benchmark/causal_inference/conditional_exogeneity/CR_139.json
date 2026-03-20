@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_139",
+  "index": 139,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of the home-visit intervention on cognitive test scores among infants in the control group (those who did not receive home visits)?",
+  "vague_question": "Among infants who didn’t receive home visits, how much would their test scores change on average if they had received the visits?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0104/metadata.txt",
+  "data_path": "data/ds_0104/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_5_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_5_2/question/estimation.py",
+  "effect": 4.586549,
+  "standard_error": 0.456273,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "6956690920a2e600672a7857",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the domestic box office gross in the opening weekend for \"28 Years Later: The Bone Temple,\" according to Box Office Mojo? (resolved around 2026-01-18 (GMT+8)). \nA. the outcome be Less than $15 million\nB. the outcome be At least $15 million, but less than $30 million\nC. the outcome be At least $30 million, but less than $45 million\nD. the outcome be At least $45 million, but less than $60 million\nE. the outcome be At least $60 million, but less than $75 million\nF. the outcome be At least $75 million, but less than $90 million\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\nYour task is to identify all the correct option(s) based on your analysis.\nYour prediction will be scored based on its accuracy. You will only receive points if your answer includes ALL correct options and NO incorrect options. Selecting any wrong option or failing to select all correct options will result in a penalty.\nYour final answer MUST end with this exact format:\nlisting all correct option(s) you have identified, separated by commas, within the box.\nFor example: \\boxed{A} for a single correct option, or \\boxed{B, C} for multiple correct options. \n\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-01-18 00:00:00",
+  "level": 2,
+  "title": "What will be the domestic box office gross in the opening weekend for \"28 Years Later: The Bone Temple,\" according to Box Office Mojo?",
+  "ground_truth": "[\"A\"]",
+  "__index_level_0__": 31,
+  "category": "future_prediction"
+}

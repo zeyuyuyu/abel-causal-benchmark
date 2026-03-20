@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00048",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "06",
+  "question": "Why did Ricardo Salles leave his position as Brazil's Minister of Environment in June 2021?",
+  "ground_truth": "Ricardo Salles left his position at his own request, as stated in the official decree.",
+  "event_desc": "Ricardo Salles leaves the Ministry of Environment. President Jair Bolsonaro nominates Joaquim Alvaro Pereira Leite to replace him.",
+  "category": "temporal_qa"
+}

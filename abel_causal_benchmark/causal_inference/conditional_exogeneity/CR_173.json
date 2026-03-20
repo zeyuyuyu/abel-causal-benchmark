@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_173",
+  "index": 173,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average causal effect of a change in the out-relief ratio on the change in pauperism across the unions in the sample?",
+  "vague_question": "Across the places in this table, how much does shifting policy toward more or less outdoor relief tend to change the measured level of pauperism over a decade, once other local differences are taken into account?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0141/metadata.txt",
+  "data_path": "data/ds_0141/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/yule/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/yule/question/estimation.py",
+  "effect": 0.7520945011431464,
+  "standard_error": 0.16798829126502937,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

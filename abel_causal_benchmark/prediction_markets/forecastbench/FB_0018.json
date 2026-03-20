@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0018",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "In early 2028, will an AI be able to generate a full high-quality movie to a prompt?",
+  "background": "EG \"make me a 120 minute Star Trek / Star Wars crossover\". It should be more or less comparable to a big-budget studio film, although it doesn't have to pass a full Turing Test as long as it's pretty good. The AI doesn't have to be available to the public, as long as it's confirmed to exist.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "A319ydGB1B7f4PMOROL3",
+  "category": "prediction_markets"
+}

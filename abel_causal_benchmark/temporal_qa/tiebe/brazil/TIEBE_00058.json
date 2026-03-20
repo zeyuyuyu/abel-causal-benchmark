@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00058",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "12",
+  "question": "Who was the first Evangelical Christian approved to join Brazil's Supreme Federal Court in December 2021?",
+  "ground_truth": "André Mendonça.",
+  "event_desc": "André Mendonça becomes the first Evangelical Christian positioned to join the Supreme Federal Court, after the Senate approves in a vote of 47-32.",
+  "category": "temporal_qa"
+}

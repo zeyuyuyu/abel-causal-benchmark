@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_157",
+  "index": 157,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average effect of the billboard campaign on bank deposits for Porto Alegre residents in July (the average change in deposits for the treated units in the post period)?",
+  "vague_question": "How much did average bank deposits in Porto Alegre change after the billboard campaign, compared with the change in a similar city over the same period?",
+  "identification_strategy": "Difference-in-Differences",
+  "metadata_path": "data/ds_0122/metadata.txt",
+  "data_path": "data/ds_0122/data/data.csv",
+  "identification_spec": "solutions/textbook/QR data-other/billboard_impact_0/question/identification.json",
+  "estimation_code": "solutions/textbook/QR data-other/billboard_impact_0/question/estimation.py",
+  "effect": 6.52,
+  "standard_error": 4.245375141004301,
+  "category": "causal_inference",
+  "strategy": "Difference-in-Differences"
+}

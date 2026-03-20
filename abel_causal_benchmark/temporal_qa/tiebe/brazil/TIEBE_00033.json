@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00033",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "03",
+  "question": "What action did President Jair Bolsonaro take regarding the heads of the Brazilian Armed Forces in March 2021?",
+  "ground_truth": "President Jair Bolsonaro dismissed the three heads of the Brazilian Armed Forces—Edson Leal Pujol (Army), Antonio Carlos Moretti Bermudez (Air Force), and Ilques Barbosa Junior (Navy)—in March 2021.",
+  "event_desc": "In a move considered unprecedented, following the dismissal of Defense Minister Fernando Azevedo e Silva the previous day, President Jair Bolsonaro precedes the resignation requests and dismisses the three heads of the Brazilian Armed Forces Edson Leal Pujol (Army), Antonio Carlos Moretti Bermudez (Airforce), and Ilques Barbosa Junior (Navy).",
+  "category": "temporal_qa"
+}

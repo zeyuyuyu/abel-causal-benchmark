@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00078",
+  "question": "In 2015 What is the title of the television series or movie where Miriam Margolyes lent her voice to a character in a recent project?",
+  "year": 2015,
+  "ground_truth": "Miss Fisher's Murder Mysteries",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Miss Fisher's Murder Mysteries",
+      "tag": "correct"
+    },
+    {
+      "answer": "Hebburn",
+      "tag": "past"
+    },
+    {
+      "answer": "Rake",
+      "tag": "future"
+    },
+    {
+      "answer": "Call the Midwife",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

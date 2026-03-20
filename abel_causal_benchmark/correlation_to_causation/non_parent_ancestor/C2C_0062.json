@@ -1,0 +1,8 @@
+{
+  "file_id": "C2C_0062",
+  "input": "Premise: Suppose there is a closed system of 4 variables, A, B, C and D. All the statistical relations among these 4 variables are as follows: A correlates with B. A correlates with C. B correlates with C. However, A is independent of D. A and D are independent given B. A and D are independent given B and C. A and D are independent given C. B is independent of D. B and D are independent given A. B and D are independent given A and C. B and D are independent given C. C is independent of D. C and D are independent given A. C and D are independent given A and B. C and D are independent given B.\nHypothesis: C causes something else which causes D.",
+  "label": 0,
+  "num_variables": 4,
+  "template": "non-parent ancestor",
+  "category": "correlation_to_causation"
+}

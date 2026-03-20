@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_104",
+  "index": 104,
+  "dataset_group": "research_papers",
+  "causal_question": "Among gubernatorial elections decided by very small margins, what is the causal effect of a Democratic (vs. Republican) gubernatorial victory on the subsequent midterm change in the Democratic share of lower-house seats?",
+  "vague_question": "When a Democrat barely wins the governor's race, how does that affect their party's seat share change in the next midterm state legislative election?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0070/metadata.txt",
+  "data_path": "data/ds_0070/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/folke_snyder_2012/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/folke_snyder_2012/question_1/estimation.py",
+  "effect": -4.306620864874278,
+  "standard_error": 3.3949093756820687,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

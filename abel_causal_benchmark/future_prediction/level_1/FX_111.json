@@ -1,0 +1,10 @@
+{
+  "id": "696e274d183bed0068c24cfd",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Kings vs. Hurricanes (resolved around 2026-02-02 (GMT+8)). \"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{Kings} or \\boxed{Hurricanes}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-02-02 00:00:00",
+  "level": 1,
+  "title": "Kings vs. Hurricanes",
+  "ground_truth": "['Hurricanes']",
+  "__index_level_0__": 111,
+  "category": "future_prediction"
+}

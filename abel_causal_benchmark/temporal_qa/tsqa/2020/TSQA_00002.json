@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00002",
+  "question": "What is Rose Matafeo's current role on television in 2020?",
+  "year": 2020,
+  "ground_truth": "Rose",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Rose",
+      "tag": "correct"
+    },
+    {
+      "answer": "Self - Team member",
+      "tag": "past"
+    },
+    {
+      "answer": "Self - Contestant",
+      "tag": "future"
+    },
+    {
+      "answer": "Detective Tickleberry / Joan Cornfield",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

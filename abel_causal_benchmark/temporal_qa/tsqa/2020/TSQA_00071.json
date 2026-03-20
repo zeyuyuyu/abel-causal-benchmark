@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00071",
+  "question": "What is the title of the television series in which Alex Paxton-Beesley most recently appeared in 2020?",
+  "year": 2020,
+  "ground_truth": "Fortunate Son",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Fortunate Son",
+      "tag": "correct"
+    },
+    {
+      "answer": "Pure",
+      "tag": "past"
+    },
+    {
+      "answer": "The Bold Type",
+      "tag": "future"
+    },
+    {
+      "answer": "Astrid & Lilly Save the World",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

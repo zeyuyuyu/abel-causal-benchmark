@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00010",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "02",
+  "question": "How much did Vale S.A. agree to pay in the settlement for the Brumadinho dam disaster in 2021?",
+  "ground_truth": "Vale S.A. agreed to pay 37.7 billion reals ($7.03 billion).",
+  "event_desc": "Vale S.A. agrees to pay 37.7 billion reals ($7.03 billion) to settle the January 2019 Brumadinho dam disaster, where 270 people died.",
+  "category": "temporal_qa"
+}

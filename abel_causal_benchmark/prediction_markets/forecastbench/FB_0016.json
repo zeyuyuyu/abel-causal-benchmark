@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0016",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the OpenAI board fire Sam Altman again in 2024?",
+  "background": "The OpenAI board fired Sam Altman in 2023, see Wikipedia. While Sam Altman returned, he is a habitual liar and many problems with him have not been resolved, so it is conceivable that the board may fire him again, to uphold the non-profit mission.\n\nWill this happen in 2024?",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "0750nMx1Fqq4CWdoBHdX",
+  "category": "prediction_markets"
+}

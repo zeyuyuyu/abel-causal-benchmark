@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00011",
+  "question": "Who was the trainer of the horse that won the latest Acomb Stakes in 2019?",
+  "year": 2019,
+  "ground_truth": "William Haggas",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "William Haggas",
+      "tag": "correct"
+    },
+    {
+      "answer": "Henry Candy",
+      "tag": "past"
+    },
+    {
+      "answer": "Charles Hills",
+      "tag": "past"
+    },
+    {
+      "answer": "Kevin Ryan",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

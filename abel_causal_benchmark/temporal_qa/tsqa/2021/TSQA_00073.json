@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00073",
+  "question": "In 2021 How many wins has Paul-Loup Chatin secured in the current racing season?",
+  "year": 2021,
+  "ground_truth": "1",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "1",
+      "tag": "correct"
+    },
+    {
+      "answer": "0",
+      "tag": "past"
+    },
+    {
+      "answer": "3",
+      "tag": "past"
+    },
+    {
+      "answer": "2",
+      "tag": "irrelevant"
+    }
+  ],
+  "category": "temporal_qa"
+}

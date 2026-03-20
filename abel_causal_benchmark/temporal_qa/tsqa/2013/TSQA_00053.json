@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00053",
+  "question": "In 2013 What was the total purse for the most recent World Wide Technology Championship?",
+  "year": 2013,
+  "ground_truth": "6,000,000",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "6,000,000",
+      "tag": "correct"
+    },
+    {
+      "answer": "6,100,000",
+      "tag": "future"
+    },
+    {
+      "answer": "7,200,000",
+      "tag": "future"
+    },
+    {
+      "answer": "8,200,000",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}

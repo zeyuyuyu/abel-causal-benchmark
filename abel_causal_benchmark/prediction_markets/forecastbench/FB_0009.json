@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0009",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the Philadelphia 76ers or Philadelphia Eagles win a championship by 2028?",
+  "background": "Market will resolve YES if the Eagles or 76ers win a championship by 2028, will resolve N/A if both teams relocate to another city for whatever reason.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "wRkw1ZsHuBFpmocjHq73",
+  "category": "prediction_markets"
+}

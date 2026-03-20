@@ -1,0 +1,10 @@
+{
+  "id": "685e489b6e8dbd006cdc6f70",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-05, what will be the movies ranked from 2 to 4 on Maoyan's 'Ticket Purchase vs Rating' list (猫眼电影购票评分榜)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-05",
+  "level": 3,
+  "title": "2026-03-05, what will be the movies ranked from 2 to 4 on Maoyan's 'Ticket Purchase vs Rating' list (猫眼电影购票评分榜)?",
+  "ground_truth": "['飞驰人生3', '得闲谨制', '隐者山河']",
+  "__index_level_0__": 238,
+  "category": "future_prediction"
+}

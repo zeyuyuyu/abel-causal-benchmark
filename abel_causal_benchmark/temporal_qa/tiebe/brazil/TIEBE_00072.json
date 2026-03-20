@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00072",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "11",
+  "question": "What was the environmental impact of the iron ore tailings dam failure in Mariana, Brazil, in November 2015?",
+  "ground_truth": "The dam failure caused catastrophic flooding, killing 19 people, injuring over 16, and contaminating the Doce River and later the Atlantic Ocean. It devastated aquatic ecosystems, suffocating species, disrupting food chains, and rendering soil infertile, becoming Brazil's worst environmental disaster.",
+  "event_desc": "An iron ore tailings dam in Bento Rodrigues, a subdistrict of Mariana, Minas Gerais, suffers a catastrophic failure, causing flooding, killing 19 and injuring over 16. This would become the biggest environmental disaster in the country’s history after the mud had reached the course of the Doce River and later in the following weeks, the Atlantic Ocean.",
+  "category": "temporal_qa"
+}

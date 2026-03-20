@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_166",
+  "index": 166,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average causal effect of being late on the April 2005 payment on the probability of being late on the September 2005 payment for cardholders in this sample?",
+  "vague_question": "Does being late on an April credit-card payment change a person's chance of being late again in September, and if so, by how much on average?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0131/metadata.txt",
+  "data_path": "data/ds_0131/data/data.csv",
+  "identification_spec": "solutions/textbook/causaldata/credit_cards/question/identification.json",
+  "estimation_code": "solutions/textbook/causaldata/credit_cards/question/estimation.py",
+  "effect": 0.42458137070776414,
+  "standard_error": 0.009017441637836812,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

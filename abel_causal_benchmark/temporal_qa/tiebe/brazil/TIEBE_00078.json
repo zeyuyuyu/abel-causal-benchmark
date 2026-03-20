@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00078",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "01",
+  "question": "How many people died in the Piper PA-46 plane crash in Itapeva, Minas Gerais, in January 2024?",
+  "ground_truth": "Seven people died in the crash.",
+  "event_desc": "29 January  A Piper PA-46 crashes in a rural area of Itapeva, Minas Gerais, killing seven people on board.",
+  "category": "temporal_qa"
+}

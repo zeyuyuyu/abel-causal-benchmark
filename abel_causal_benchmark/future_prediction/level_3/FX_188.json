@@ -1,0 +1,10 @@
+{
+  "id": "687071faab86ea0060215bc7",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-10, which self-media accounts will be ranked from 2 to 4 on KolRank's daily Weibo self-media overall ranking?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-10",
+  "level": 3,
+  "title": "2026-03-10, which self-media accounts will be ranked from 2 to 4 on KolRank's daily Weibo self-media overall ranking?",
+  "ground_truth": "['爱生活的Yoyo酱', '在下科技君', '池九粒Jolie']",
+  "__index_level_0__": 234,
+  "category": "future_prediction"
+}

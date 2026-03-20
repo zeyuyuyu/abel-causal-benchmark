@@ -1,0 +1,10 @@
+{
+  "id": "6944fde51834a500697575da",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"2026-03-07, which movies will be ranked from 5 to 7 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-07",
+  "level": 4,
+  "title": "2026-03-07, which movies will be ranked from 5 to 7 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)",
+  "ground_truth": "['One Battle After Another', 'Dracula', 'Nuremberg']",
+  "__index_level_0__": 259,
+  "category": "future_prediction"
+}

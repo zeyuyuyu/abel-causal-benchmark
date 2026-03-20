@@ -1,0 +1,10 @@
+{
+  "id": "6981ea9930057a005cdb9e49",
+  "prompt": "You are an agent that can predict future events. The event to be predicted: \"Is the shrinking cut-off in Diamond League fully intentional? (resolved around 2026-03-05 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear prediction based on the best data currently available, using the box format specified above.",
+  "end_time": "2026-03-05",
+  "level": 1,
+  "title": "Is the shrinking cut-off in Diamond League fully intentional?",
+  "ground_truth": "['No']",
+  "__index_level_0__": 209,
+  "category": "future_prediction"
+}

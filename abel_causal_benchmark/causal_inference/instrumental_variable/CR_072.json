@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_072",
+  "index": 72,
+  "dataset_group": "research_papers",
+  "causal_question": "What is the causal effect of increasing the share of a respondent's siblings who are female (share_sis) on a male respondent's 1973 gender-role attitude (womens_rights73) in the PSP sample of men with at least one younger sibling?",
+  "vague_question": "Among men in the PSP who had a younger sibling, does growing up with more sisters (rather than more brothers) cause them to hold more traditional views about women's roles? Report the estimated effect for the subgroup whose sibling mix was plausibly altered by natural variation in sibling gender.",
+  "identification_strategy": "Instrumental Variable",
+  "metadata_path": "data/ds_0042/metadata.txt",
+  "data_path": "data/ds_0042/data/data.csv",
+  "identification_spec": "solutions/research_papers/IV/Healy2013/question/identification.json",
+  "estimation_code": "solutions/research_papers/IV/Healy2013/question/estimation.py",
+  "effect": 0.17056526235595149,
+  "standard_error": 0.08364812660215439,
+  "category": "causal_inference",
+  "strategy": "Instrumental Variable"
+}

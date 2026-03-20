@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00052",
+  "question": "Who was the head of state in Finland in 2022?",
+  "year": 2022,
+  "ground_truth": "Sauli Niinistö",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Sauli Niinistö",
+      "tag": "correct"
+    },
+    {
+      "answer": "Tarja Halonen",
+      "tag": "past"
+    },
+    {
+      "answer": "Alexander Stubb",
+      "tag": "future"
+    },
+    {
+      "answer": "Martti Ahtisaari",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

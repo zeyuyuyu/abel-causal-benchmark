@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00097",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "08",
+  "question": "How many people died in the Voepass Linhas Aéreas Flight 2283 crash in August 2024?",
+  "ground_truth": "All 62 people on board died in the crash.",
+  "event_desc": "Voepass Linhas Aéreas Flight 2283 crashes in Vinhedo, São Paulo State, killing all 62 people on board.",
+  "category": "temporal_qa"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00052",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "06",
+  "question": "How many deaths were reported due to the cold wave in Brazil in June 2021?",
+  "ground_truth": "Thirteen deaths were reported as a result of the cold wave.",
+  "event_desc": "A severe cold wave hits Brazil. The phenomenon is caused by a polar vortex, an extratropical cyclone, and the subtropical storm Raoni. Subsequently, 13 people die as a result of the weather event.",
+  "category": "temporal_qa"
+}

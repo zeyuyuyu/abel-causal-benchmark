@@ -1,0 +1,17 @@
+{
+  "file_id": "FC_00011",
+  "split": "train",
+  "question": "Will NASA's K2 Mission detect a potentially habitable planet in 2015?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "NASA's Kepler Mission discovered thousands of planets, but the mission ended in May 2013, when a second of the spacecraft's four reaction wheels failed.\nThe K2 Mission has repurposed the Kepler spacecraft to perform successive 80-day photometric observations of selected star fields in Earth's ecliptic plane. For bright stars, K2's precision limits are similar to those of the original Kepler Mission. The first planet detection from the K2 Mission has recently been published.\nHere's the question:\nWill a peer-reviewed publication based on K2 photometry announcing the discovery of a potentially habitable planet appear prior to January 1, 2016?\nHere are some details:\nFor purposes of evaluation, a habitable planet is one that has a value greater than USD 1,000,000, as defined by the habitable planet valuation formula.\nIn the above equation, V is the V-band apparent magnitude of the host star. The planetary effective temperature is calculated using (following Batalha et al, we use f=1 and A=0.3), and the planetary mass is estimated using",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-03",
+  "date_close": "2016-01-01",
+  "date_resolve_at": "2016-01-15",
+  "url": "https://www.metaculus.com/api2/questions/14/",
+  "gpt_3p5_category": "Science & Tech",
+  "category": "prediction_markets"
+}

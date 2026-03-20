@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00022",
+  "question": "Who won the Best Director award at the most recent Tokyo Anime Award in 2023?",
+  "year": 2023,
+  "ground_truth": "Makoto Shinkai",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Makoto Shinkai",
+      "tag": "correct"
+    },
+    {
+      "answer": "Isao Takahata",
+      "tag": "past"
+    },
+    {
+      "answer": "Hideaki Anno",
+      "tag": "future"
+    },
+    {
+      "answer": "Yoshiaki Kyōgoku",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

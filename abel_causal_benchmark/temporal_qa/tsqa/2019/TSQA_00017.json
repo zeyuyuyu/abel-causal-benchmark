@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00017",
+  "question": "How many penalty minutes has Miikka Salomäki accumulated in the regular season in 2019?",
+  "year": 2019,
+  "ground_truth": "8",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "8",
+      "tag": "correct"
+    },
+    {
+      "answer": "34",
+      "tag": "past"
+    },
+    {
+      "answer": "16",
+      "tag": "future"
+    },
+    {
+      "answer": "28",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "TIEBE_00098",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "08",
+  "question": "Which country did Beatriz Souza represent when she won her Olympic gold medal in judo in 2024?",
+  "ground_truth": "She represented Brazil.",
+  "event_desc": "Judoka Beatriz Souza wins gold in the over 78 kg category at the Paris Summer Olympics.",
+  "category": "temporal_qa"
+}

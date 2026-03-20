@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00099",
+  "question": "In 2022 Which single released by Farruko features Marshmello?",
+  "year": 2022,
+  "ground_truth": "Nazareno",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Pepas",
+      "tag": "past"
+    },
+    {
+      "answer": "Nazareno",
+      "tag": "correct"
+    },
+    {
+      "answer": "Esta Vida",
+      "tag": "future"
+    },
+    {
+      "answer": "Krippy Kush",
+      "tag": "past"
+    }
+  ],
+  "category": "temporal_qa"
+}

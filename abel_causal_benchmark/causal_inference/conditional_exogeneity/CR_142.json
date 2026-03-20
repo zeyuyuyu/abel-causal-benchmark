@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_142",
+  "index": 142,
+  "dataset_group": "textbook",
+  "causal_question": "What is the average causal effect of receiving the home-visit program on follow-up cognitive test scores for children who did not receive the program?",
+  "vague_question": "For children who didn't get a home visit, how much would their cognitive test scores change on average if they had gotten one?",
+  "identification_strategy": "Conditional Exogeneity",
+  "metadata_path": "data/ds_0107/metadata.txt",
+  "data_path": "data/ds_0107/data/data.csv",
+  "identification_spec": "solutions/textbook/Exogeneity data/ihdp_6_2/question/identification.json",
+  "estimation_code": "solutions/textbook/Exogeneity data/ihdp_6_2/question/estimation.py",
+  "effect": 3.6839714056110653,
+  "standard_error": 0.12102067133352883,
+  "category": "causal_inference",
+  "strategy": "Conditional Exogeneity"
+}

@@ -1,0 +1,10 @@
+{
+  "file_id": "FB_0030",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will manifold markets still have >2000 daily active users in 2025?",
+  "background": "Resolves YES if there are more then 2,000 active daily users in January 2025 (monthly average). \n\nAt its core, the question asks whether this social network will die after the hype has passed (like Clubhouse did) or if it will at least maintain the same level of interest as it has now, 2 weeks after it was featured in the New York Times magazine. \n\n[image]",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "gAP7GeQcilJakRbGnAta",
+  "category": "prediction_markets"
+}

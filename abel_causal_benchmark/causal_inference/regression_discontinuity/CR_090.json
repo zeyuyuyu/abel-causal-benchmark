@@ -1,0 +1,16 @@
+{
+  "file_id": "CR_090",
+  "index": 90,
+  "dataset_group": "research_papers",
+  "causal_question": "Among individuals whose schooling increased due to compulsory schooling laws and who were born near the reform thresholds, what is the effect of one additional year of completed secondary schooling on the probability of saying at least one immigrant group should be allowed 'none' to enter?",
+  "vague_question": "For people whose schooling increased because of a law change, how did one extra year of school affect whether they said some types of immigrants should not be allowed in?",
+  "identification_strategy": "Regression Discontinuity",
+  "metadata_path": "data/ds_0059/metadata.txt",
+  "data_path": "data/ds_0059/data/data.csv",
+  "identification_spec": "solutions/research_papers/RDD/cavaille_marshall_2018/question_1/identification.json",
+  "estimation_code": "solutions/research_papers/RDD/cavaille_marshall_2018/question_1/estimation.py",
+  "effect": -0.0977844845011214,
+  "standard_error": 0.045209848588741615,
+  "category": "causal_inference",
+  "strategy": "Regression Discontinuity"
+}

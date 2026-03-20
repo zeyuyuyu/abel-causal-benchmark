@@ -1,0 +1,26 @@
+{
+  "file_id": "TSQA_00049",
+  "question": "What was the regular season standing for the Capital FC's men's team in their league in 2020?",
+  "year": 2020,
+  "ground_truth": "2nd, Northwest",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "2nd, Northwest",
+      "tag": "correct"
+    },
+    {
+      "answer": "4th, Northwest",
+      "tag": "future"
+    },
+    {
+      "answer": "1st, Northwest",
+      "tag": "future"
+    },
+    {
+      "answer": "Season cancelled due to COVID-19 pandemic",
+      "tag": "future"
+    }
+  ],
+  "category": "temporal_qa"
+}
