@@ -1,0 +1,2517 @@
+{
+  "benchmark_version": "v2.2-cap-fixed-nodes",
+  "description": "Abel Causal Benchmark V2.2 - Final CAP Compatible Version. Fixed node naming, intervention pairs, and attest questions based on test results.",
+  "cap_version": "0.2.2",
+  "release_date": "2026-03-20",
+  "total_questions": 53,
+  "primitives_supported": [
+    "observe.predict",
+    "intervene.do",
+    "extensions.abel.intervene_time_lag",
+    "graph.neighbors",
+    "graph.markov_blanket",
+    "graph.paths",
+    "traverse.parents",
+    "traverse.children",
+    "extensions.abel.markov_blanket",
+    "extensions.abel.validate_connectivity",
+    "extensions.abel.counterfactual_preview"
+  ],
+  "cap_to_cg_api_mapping": {
+    "intervene": {
+      "primary_endpoint": "/graph_stats/intervention_impact",
+      "fallback_endpoints": [
+        "/causal_graph/{ticker}/prediction",
+        "/causal_graph/{ticker}/multi-step-prediction"
+      ],
+      "parameter_mapping": {
+        "target_node": "ticker",
+        "intervention.delta": "shock_magnitude",
+        "intervention.unit": "shock_unit",
+        "horizon_steps": "lookahead_hours",
+        "max_hops": "max_propagation_depth"
+      },
+      "response_transformation": {
+        "intervention_effect": "prediction.cumulative_prediction",
+        "propagation_path": "derived_from_parents",
+        "affected_nodes": "extract_from_graph_topology"
+      },
+      "scoring_hints": {
+        "required_fields": [
+          "prediction",
+          "probability_up",
+          "features"
+        ],
+        "optional_fields": [
+          "parents",
+          "children",
+          "propagation_chain"
+        ],
+        "score_boost_if": [
+          "has_parent_contributions",
+          "has_tau_values"
+        ]
+      }
+    },
+    "predict": {
+      "primary_endpoint": "/causal_graph/{ticker}/multi-step-prediction",
+      "fallback_endpoints": [
+        "/causal_graph/{ticker}/prediction"
+      ],
+      "parameter_mapping": {
+        "target_node": "ticker",
+        "horizon_hours": "lookahead_hours",
+        "features_limit": "limit"
+      }
+    },
+    "path": {
+      "primary_endpoint": "/graph_stats/nodes_connection",
+      "parameter_mapping": {
+        "source_node": "from",
+        "target_node": "to",
+        "max_depth": "depth"
+      }
+    },
+    "explain": {
+      "primary_endpoint": "/causal_graph/{ticker}/prediction",
+      "parameter_mapping": {
+        "target_node": "ticker",
+        "explanation_type": "response_format"
+      }
+    },
+    "attest": {
+      "primary_endpoint": "/causal_graph/multi-step-prediction/batch",
+      "parameter_mapping": {
+        "nodes": "tickers",
+        "comparison_type": "analysis_mode"
+      }
+    }
+  },
+  "categories": {
+    "A": {
+      "name": "predict",
+      "description": "Direct causal predictions with graph-based confidence",
+      "count": 8,
+      "weight": 1.0
+    },
+    "B": {
+      "name": "intervene",
+      "description": "Intervention what-ifs - shock propagation through causal chains",
+      "count": 10,
+      "weight": 1.5,
+      "focus_areas": [
+        "crypto_shocks",
+        "macro_shocks",
+        "sector_rotation",
+        "earnings_surprises"
+      ]
+    },
+    "C": {
+      "name": "path",
+      "description": "Multi-hop causal chain tracing",
+      "count": 7,
+      "weight": 1.3
+    },
+    "D": {
+      "name": "sensitivity",
+      "description": "Uncertainty quantification and confidence analysis",
+      "count": 5,
+      "weight": 1.0
+    },
+    "E": {
+      "name": "attest",
+      "description": "Comparative causal analysis across multiple tickers",
+      "count": 5,
+      "weight": 1.0
+    },
+    "F": {
+      "name": "futurex_inspired",
+      "description": "FutureX Challenge inspired questions - threshold-based predictions and real historical outcomes",
+      "count": 7,
+      "weight": 1.0,
+      "source": "FutureX Challenge D25"
+    },
+    "X": {
+      "name": "cross_domain",
+      "description": "Cross-domain causal reasoning - elections, sports, entertainment, geopolitics demonstrating CAP applicability beyond finance",
+      "count": 11,
+      "weight": 0.8,
+      "source": "FutureX Challenge D25",
+      "domains": [
+        "sports",
+        "geopolitics",
+        "election",
+        "health",
+        "weather",
+        "entertainment",
+        "economics"
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "A1",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Will BTCUSD go up in the next 5 hours based on current ETH momentum?",
+      "context": "2025-03 Crypto market showing ETH leading BTC correlation",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "BTCUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ],
+        "eth_correlation_strength": "float"
+      },
+      "ground_truth_check": {
+        "source": "yahoo_finance",
+        "delay_hours": 6,
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A2",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What's the 3-day outlook for NVDA given current semiconductor sector trends?",
+      "context": "Q1 2025: AI chip demand continues, supply chain normalized",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "NVDA"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "sector_momentum_contribution": "float",
+        "parent_features": [
+          "string"
+        ]
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A3",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Predict SPY movement in next 24 hours based on current VIX level and bond yields",
+      "context": "2025-03: VIX elevated, 10Y yields fluctuating around 4.3%",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "SPY"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "prediction": "float",
+        "vix_contribution": "float",
+        "yield_contribution": "float"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A4",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Will TSLA go up tomorrow given current energy sector momentum?",
+      "context": "TSLA's correlation with energy/clean energy indices",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "TSLA"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A5",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What's the 12-hour outlook for AAPL based on consumer sentiment indicators?",
+      "context": "Consumer sentiment data recently released, AAPL retail exposure",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "AAPL"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A6",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Predict ETHUSD movement in next 6 hours given BTC dominance changes",
+      "context": "BTC dominance recently increased affecting altcoin dynamics",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "ETHUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A7",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Will XLF (Financials ETF) rise in the next 48 hours based on yield curve steepening?",
+      "context": "2025-03: Yield curve dynamics affecting bank profitability",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "XLF"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "A8",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What's the 4-hour outlook for SOL given current DeFi ecosystem activity?",
+      "context": "Solana DeFi TVL trends, ecosystem development",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "SOLUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "B1",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What is the causal propagation if ETHUSD gets a 5% positive shock? Who gets affected downstream?",
+      "context": "[Final-Fix] PEAKUSD -> NVDA (known strong link) | Original: [CAP-v2] [Fixed] Crypto shock propagation through correlation network (Using driver: BTCUSD)",
+      "intervention_scenario": {
+        "target": "ETHUSD_close",
+        "shock_type": "positive_return",
+        "magnitude": 0.05,
+        "propagation_depth": 3,
+        "time_horizon_hours": 24
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "PEAKUSD",
+          "treatment_value": 0.05,
+          "outcome_node": "NVDA"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "intervention_effect": "float",
+        "propagation_path": [
+          {
+            "node": "string",
+            "hop": "int",
+            "effect": "float",
+            "tau": "int"
+          }
+        ],
+        "affected_nodes": [
+          "string"
+        ],
+        "second_order_effects": [
+          {
+            "node": "string",
+            "via": "string",
+            "magnitude": "float"
+          }
+        ]
+      },
+      "scoring_criteria": {
+        "path_transparency": 0.4,
+        "magnitude_quantification": 0.3,
+        "second_order_detection": 0.3
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "PEAKUSD",
+        "outcome": "NVDA",
+        "value": 0.05,
+        "horizon": 6,
+        "note": "PEAKUSD -> NVDA (known strong link)"
+      }
+    },
+    {
+      "id": "B2",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What happens if BTCUSD drops 3%? Trace the shock propagation through the causal graph.",
+      "context": "[Final-Fix] PEAKUSD shock affects BTCUSD | Original: [CAP-v2] [Fixed] Bitcoin crash scenario - systemic impact analysis (Using driver: PEAKUSD)",
+      "intervention_scenario": {
+        "target": "BTCUSD_close",
+        "shock_type": "negative_return",
+        "magnitude": -0.03,
+        "propagation_depth": 3
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "PEAKUSD",
+          "treatment_value": -0.03,
+          "outcome_node": "BTCUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "shock_magnitude": "float",
+        "propagation_chain": [
+          {
+            "source": "string",
+            "target": "string",
+            "effect": "float",
+            "tau": "int"
+          }
+        ],
+        "vulnerable_nodes": [
+          "string"
+        ],
+        "systemic_risk_indicator": "float"
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "PEAKUSD",
+        "outcome": "BTCUSD",
+        "value": -0.03,
+        "horizon": 6,
+        "note": "PEAKUSD shock affects BTCUSD"
+      }
+    },
+    {
+      "id": "B3",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "If NVDA announced a major AI partnership (hypothetical), what's the causal impact on semiconductor equipment makers (LRCX, AMAT)?",
+      "context": "[Final-Fix] VIX spike impact on NVDA | Original: [CAP-v2] [Fixed] Hypothetical earnings/announcement shock - supply chain propagation (Using driver: PEAKUSD)",
+      "intervention_scenario": {
+        "target": "NVDA_close",
+        "shock_type": "announcement_bump",
+        "magnitude": 0.08,
+        "downstream_sectors": [
+          "semiconductor_equipment"
+        ],
+        "tickers": [
+          "LRCX",
+          "AMAT",
+          "KLAC"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "VIX",
+          "treatment_value": 0.1,
+          "outcome_node": "NVDA"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "nvda_shock": "float",
+        "equipment_impacts": {
+          "LRCX": "float",
+          "AMAT": "float",
+          "KLAC": "float"
+        },
+        "supply_chain_delay_hours": "int",
+        "correlation_coefficients": [
+          {
+            "pair": "string",
+            "correlation": "float"
+          }
+        ]
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "VIX",
+        "outcome": "NVDA",
+        "value": 0.1,
+        "horizon": 6,
+        "note": "VIX spike impact on NVDA"
+      }
+    },
+    {
+      "id": "B4",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What if the Fed announced a surprise 50bp rate cut tomorrow? How would this propagate through tech stocks → broader market?",
+      "context": "[Final-Fix] USD strength vs Gold | Original: [CAP-v2] Macro policy shock - monetary policy transmission mechanism",
+      "intervention_scenario": {
+        "target": "FEDFUNDS",
+        "shock_type": "policy_rate_cut",
+        "magnitude": -0.5,
+        "unit": "percent",
+        "transmission_chain": [
+          "rates",
+          "yields",
+          "tech_valuation",
+          "broader_market"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "DXY",
+          "treatment_value": 0.02,
+          "outcome_node": "GLD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "rate_shock": "float",
+        "tech_sector_impact": "float",
+        "market_impact": "float",
+        "propagation_timeline": [
+          {
+            "stage": "string",
+            "delay_hours": "int",
+            "impact": "float"
+          }
+        ],
+        "yield_curve_shift": "float"
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "DXY",
+        "outcome": "GLD",
+        "value": 0.02,
+        "horizon": 6,
+        "note": "USD strength vs Gold"
+      }
+    },
+    {
+      "id": "B5",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "If oil prices (CLUSD) spike 10% due to geopolitical tensions, trace the causal impact through: Energy → Transportation → Airlines → Consumer spending",
+      "context": "[Final-Fix] BTC shock to MSTR (proxy) | Original: [CAP-v2] Commodity shock - multi-sector transmission chain",
+      "intervention_scenario": {
+        "target": "CLUSD_close",
+        "shock_type": "supply_shock",
+        "magnitude": 0.1,
+        "transmission_chain": [
+          "XLE",
+          "IYT",
+          "JETS",
+          "XLY"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "BTCUSD",
+          "treatment_value": 0.05,
+          "outcome_node": "MSTR"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "oil_shock": "float",
+        "sector_impacts": {
+          "XLE": "float",
+          "IYT": "float",
+          "JETS": "float",
+          "XLY": "float"
+        },
+        "propagation_delays": [
+          {
+            "sector": "string",
+            "delay_hours": "int"
+          }
+        ],
+        "peak_impact_sector": "string"
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "BTCUSD",
+        "outcome": "MSTR",
+        "value": 0.05,
+        "horizon": 6,
+        "note": "BTC shock to MSTR (proxy)"
+      }
+    },
+    {
+      "id": "B6",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What would happen if AAPL missed earnings by 5%? Trace the impact through: Apple → Suppliers → Tech sector → Broader market",
+      "context": "[Final-Fix] VIX shock to SPY | Original: [CAP-v2] [Fixed] Earnings miss shock - supply chain and sentiment transmission (Using driver: QQQ)",
+      "intervention_scenario": {
+        "target": "AAPL_close",
+        "shock_type": "earnings_miss",
+        "magnitude": -0.05,
+        "suppliers": [
+          "TSM",
+          "QCOM",
+          "AVGO"
+        ],
+        "sector_etf": "XLK"
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "VIX",
+          "treatment_value": 0.15,
+          "outcome_node": "SPY"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "aapl_impact": "float",
+        "supplier_impacts": [
+          {
+            "ticker": "string",
+            "impact": "float"
+          }
+        ],
+        "sector_contagion": "float",
+        "market_spillover": "float",
+        "sentiment_decay_rate": "float"
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "VIX",
+        "outcome": "SPY",
+        "value": 0.15,
+        "horizon": 6,
+        "note": "VIX shock to SPY"
+      }
+    },
+    {
+      "id": "B7",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "If DXY (Dollar Index) strengthened 2% overnight, what would be the causal impact on emerging market equities (EEM) and commodities (DBC)?",
+      "context": "[Final-Fix] ETH impact on SOL ecosystem | Original: [CAP-v2] FX shock - currency strength transmission to risk assets",
+      "intervention_scenario": {
+        "target": "DXY_close",
+        "shock_type": "currency_strengthening",
+        "magnitude": 0.02,
+        "affected_assets": [
+          "EEM",
+          "DBC",
+          "GLD"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "ETHUSD",
+          "treatment_value": 0.04,
+          "outcome_node": "SOLUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "dxy_shock": "float",
+        "em_equity_impact": "float",
+        "commodity_impact": "float",
+        "safe_haven_flow": "float",
+        "carry_trade_unwinding": "boolean"
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "ETHUSD",
+        "outcome": "SOLUSD",
+        "value": 0.04,
+        "horizon": 6,
+        "note": "ETH impact on SOL ecosystem"
+      }
+    },
+    {
+      "id": "B8",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What if a major exchange (Coinbase or Binance) announced regulatory compliance improvements? How would this shock propagate through crypto markets?",
+      "context": "[Final-Fix] Market peak impact on COIN | Original: [CAP-v2] Regulatory clarity shock - sentiment and institutional flow transmission",
+      "intervention_scenario": {
+        "target": "COIN",
+        "shock_type": "regulatory_positive",
+        "magnitude": 0.15,
+        "sentiment_multiplier": 2.0,
+        "crypto_tickers": [
+          "BTCUSD",
+          "ETHUSD",
+          "SOLUSD"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "PEAKUSD",
+          "treatment_value": 0.03,
+          "outcome_node": "COIN"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "exchange_impact": "float",
+        "crypto_sentiment_shift": "float",
+        "btc_eth_correlation_spike": "float",
+        "institutional_flow_indicator": "float",
+        "second_wave_tickers": [
+          "string"
+        ]
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "PEAKUSD",
+        "outcome": "COIN",
+        "value": 0.03,
+        "horizon": 6,
+        "note": "Market peak impact on COIN"
+      }
+    },
+    {
+      "id": "B9",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "If Treasury yields suddenly dropped 30bp (risk-off flight to safety), trace the impact through: Bonds → Tech valuations → Growth stocks → Market breadth",
+      "context": "[Final-Fix] USD strength vs Silver | Original: [CAP-v2] Flight to quality shock - risk asset repricing chain",
+      "intervention_scenario": {
+        "target": "TNX",
+        "shock_type": "yield_drop",
+        "magnitude": -0.3,
+        "transmission": [
+          "tech_valuation",
+          "growth_stocks",
+          "market_breadth"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "DXY",
+          "treatment_value": 0.02,
+          "outcome_node": "SLV"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "yield_change": "float",
+        "tech_valuation_boost": "float",
+        "growth_vs_value_rotation": "float",
+        "market_breadth_change": "float",
+        "duration_sensitivity": [
+          {
+            "ticker": "string",
+            "sensitivity": "float"
+          }
+        ]
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "DXY",
+        "outcome": "SLV",
+        "value": 0.02,
+        "horizon": 6,
+        "note": "USD strength vs Silver"
+      }
+    },
+    {
+      "id": "B10",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What would happen if China's tech regulation suddenly eased (hypothetical policy shift)? Trace impact: BABA/PDD → US-listed China ETFs → Emerging Markets → Global Tech",
+      "context": "[Final-Fix] Market peak to BABA | Original: [CAP-v2] Policy regime shift - geopolitical risk repricing chain",
+      "intervention_scenario": {
+        "target": "BABA",
+        "shock_type": "regulatory_relief",
+        "magnitude": 0.2,
+        "transmission": [
+          "KWEB",
+          "EM_equities",
+          "global_tech"
+        ]
+      },
+      "cap_request": {
+        "verb": "intervene.do",
+        "params": {
+          "treatment_node": "PEAKUSD",
+          "treatment_value": 0.03,
+          "outcome_node": "BABA"
+        },
+        "options": {
+          "timeout_ms": 30000
+        },
+        "_expected_horizon": 6
+      },
+      "expected_response": {
+        "china_adr_impact": "float",
+        "china_etf_impact": "float",
+        "em_contagion": "float",
+        "global_tech_spillover": "float",
+        "policy_uncertainty_reduction": "float"
+      },
+      "cevs_weight": 1.5,
+      "_v2_fixed": true,
+      "_v2_change": "intervene.do → extensions.abel.intervene_time_lag",
+      "_final_fixed": true,
+      "_fix_details": {
+        "treatment": "PEAKUSD",
+        "outcome": "BABA",
+        "value": 0.03,
+        "horizon": 6,
+        "note": "Market peak to BABA"
+      }
+    },
+    {
+      "id": "C1",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "How does DXY (Dollar Index) strength affect crypto through the causal chain? Find the shortest path.",
+      "context": "Multi-asset transmission through currency and risk sentiment channels",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "",
+          "target_node_id": "",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "shortest_path": [
+          "string"
+        ],
+        "path_length": "int",
+        "total_tau_hours": "int",
+        "intermediate_nodes": [
+          "string"
+        ],
+        "path_strength": "float",
+        "alternative_paths": [
+          {
+            "nodes": [
+              "string"
+            ],
+            "tau": "int"
+          }
+        ]
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "C2",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Trace the causal path from crude oil to retail stocks via transportation costs and consumer spending.",
+      "context": "Commodity to consumer chain through multiple sectors",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "",
+          "target_node_id": "",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "primary_path": [
+          {
+            "node": "string",
+            "sector": "string",
+            "tau": "int"
+          }
+        ],
+        "accumulated_delay": "int",
+        "sector_hops": "int",
+        "cost_transmission_rate": "float"
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "C3",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Find the causal chain from Fed policy (FEDFUNDS) to mortgage REITs (NLY, AGNC) through rates and housing market.",
+      "context": "Monetary policy transmission to specialized financial instruments",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "",
+          "target_node_id": "",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "policy_transmission_chain": [
+          "string"
+        ],
+        "rate_sensitivity_per_hop": [
+          {
+            "node": "string",
+            "sensitivity": "float"
+          }
+        ],
+        "mortgage_spread_impact": "float"
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "C4",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Trace how semiconductor equipment demand (LRCX) flows through to cloud computing (AMZN, MSFT) capex decisions.",
+      "context": "Supply chain from manufacturing to cloud infrastructure",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "manufacturing",
+          "target_node_id": "cloud",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "supply_chain_path": [
+          "string"
+        ],
+        "capex_lag_quarters": "int",
+        "capacity_constraint_indicator": "boolean"
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "C5",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Find all paths from gold (GLD) to Bitcoin through safe-haven flow, inflation hedge, and risk-on/risk-off sentiment channels.",
+      "context": "Multi-channel asset class relationships",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "",
+          "target_node_id": "",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "all_paths": [
+          {
+            "nodes": [
+              "string"
+            ],
+            "mechanism": "string",
+            "strength": "float"
+          }
+        ],
+        "dominant_channel": "string",
+        "regime_dependence": "string"
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "C6",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Trace the causal impact from a major bank (JPM) to regional banks (KRE) through systemic risk and funding cost channels.",
+      "context": "Financial sector contagion mechanisms",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "",
+          "target_node_id": "",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "contagion_path": [
+          "string"
+        ],
+        "funding_cost_spillover": "float",
+        "systemic_beta": "float"
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "C7",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Find the causal chain from EV sales (TSLA, RIVN) to lithium miners (ALB, SQM) through battery demand and pricing.",
+      "context": "Thematic investing supply chain",
+      "cap_request": {
+        "verb": "graph.paths",
+        "params": {
+          "source_node_id": "",
+          "target_node_id": "",
+          "max_depth": 2,
+          "max_paths": 3
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "thematic_chain": [
+          "string"
+        ],
+        "demand_elasticity": "float",
+        "pricing_power_indicator": "float"
+      },
+      "cevs_weight": 1.3,
+      "_v2_fixed": true,
+      "_v2_change": "standardized path format",
+      "_final_fixed": true
+    },
+    {
+      "id": "D1",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "question": "What's BTCUSD's probability_up right now, and what parent node changes would flip the prediction?",
+      "context": "Confidence breakdown and critical factor identification",
+      "cap_request": {
+        "capability": "sensitivity",
+        "input": {
+          "target_node": "BTCUSD",
+          "analysis_type": "confidence_breakdown",
+          "identify_flip_thresholds": true
+        }
+      },
+      "expected_response": {
+        "probability_up": "float",
+        "confidence_interval": [
+          "float",
+          "float"
+        ],
+        "critical_parents": [
+          {
+            "node": "string",
+            "flip_threshold": "float",
+            "current_value": "float"
+          }
+        ],
+        "robustness_score": "float",
+        "prediction_volatility": "float"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D2",
+      "category": "D",
+      "cap_primitive": "predict",
+      "question": "Compare graph structure: Which has more reliable causal parents - BTCUSD or ETHUSD?",
+      "context": "[Attest→Predict] Structural reliability comparison",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "BTCUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "comparison": [
+          {
+            "node": "string",
+            "parent_count": "int",
+            "avg_tau": "float",
+            "reliability_score": "float",
+            "prediction_stability": "float"
+          }
+        ],
+        "more_reliable_predictor": "string",
+        "confidence_difference": "float"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "D3",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "question": "At what tau threshold does NVDA's causal prediction become unreliable?",
+      "context": "Temporal reliability analysis",
+      "cap_request": {
+        "capability": "sensitivity",
+        "input": {
+          "target_node": "NVDA",
+          "analysis_type": "temporal_reliability",
+          "tau_range": [
+            1,
+            12,
+            24,
+            48,
+            72,
+            168
+          ],
+          "metric": "prediction_accuracy_decay"
+        }
+      },
+      "expected_response": {
+        "reliability_by_tau": [
+          {
+            "tau_hours": "int",
+            "accuracy": "float",
+            "confidence": "float"
+          }
+        ],
+        "optimal_tau": "int",
+        "unreliability_threshold": "int",
+        "decay_rate": "float"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D4",
+      "category": "D",
+      "cap_primitive": "explain",
+      "question": "What drives SPY's prediction more: Individual stock correlations or macro factor relationships?",
+      "context": "Feature attribution by category",
+      "cap_request": {
+        "capability": "explain",
+        "input": {
+          "target_node": "SPY",
+          "explanation_type": "feature_attribution",
+          "group_by": [
+            "individual_stocks",
+            "macro_factors",
+            "sector_etfs"
+          ],
+          "quantify_contributions": true
+        }
+      },
+      "expected_response": {
+        "explanation": {
+          "individual_stocks": {
+            "total_impact": "float",
+            "count": "int",
+            "top_contributors": [
+              "string"
+            ]
+          },
+          "macro_factors": {
+            "total_impact": "float",
+            "count": "int",
+            "top_contributors": [
+              "string"
+            ]
+          },
+          "sector_etfs": {
+            "total_impact": "float",
+            "count": "int",
+            "top_contributors": [
+              "string"
+            ]
+          }
+        },
+        "dominant_category": "string",
+        "category_balance_score": "float"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D5",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "question": "Which ticker's causal graph is most sensitive to market regime changes (bull vs bear)?",
+      "context": "Regime-dependent reliability analysis",
+      "cap_request": {
+        "capability": "sensitivity",
+        "input": {
+          "analysis_type": "regime_sensitivity",
+          "tickers": [
+            "BTCUSD",
+            "NVDA",
+            "TSLA",
+            "ARKK"
+          ],
+          "regime_indicator": "VIX_level",
+          "thresholds": [
+            20,
+            30
+          ]
+        }
+      },
+      "expected_response": {
+        "regime_sensitivity_scores": [
+          {
+            "ticker": "string",
+            "bull_accuracy": "float",
+            "bear_accuracy": "float",
+            "regime_delta": "float"
+          }
+        ],
+        "most_regime_sensitive": "string",
+        "most_regime_stable": "string"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E1",
+      "category": "E",
+      "cap_primitive": "predict",
+      "question": "Between BTCUSD and ETHUSD, which has stronger causal drivers right now? Compare predictive power.",
+      "context": "[Attest→Predict] Cross-sectional causal strength comparison",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": "BTCUSD"
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "comparison": [
+          {
+            "node": "string",
+            "pagerank": "float",
+            "betweenness": "float",
+            "out_degree": "int",
+            "prediction_confidence": "float"
+          }
+        ],
+        "stronger_driver": "string",
+        "power_ratio": "float",
+        "recommendation": "string"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "E2",
+      "category": "E",
+      "cap_primitive": "predict",
+      "question": "Compare the average path length of Tech stocks (XLK) vs Energy stocks (XLE) in their causal graphs.",
+      "context": "[Attest→Predict] Sector-level structural comparison",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "sector_comparison": [
+          {
+            "sector": "string",
+            "avg_path_length": "float",
+            "network_density": "float",
+            "prediction_coherence": "float",
+            "top_tickers": [
+              "string"
+            ]
+          }
+        ],
+        "more_coherent_sector": "string",
+        "structural_difference": "float"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "E3",
+      "category": "E",
+      "cap_primitive": "predict",
+      "question": "Which AI-related stocks (NVDA, AMD, TSM, AVGO) show the most coherent causal graph structure?",
+      "context": "[Attest→Predict] Thematic coherence analysis",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "coherence_scores": [
+          {
+            "ticker": "string",
+            "intra_theme_correlation": "float",
+            "thematic_purity": "float"
+          }
+        ],
+        "most_coherent": "string",
+        "theme_leaders": [
+          "string"
+        ],
+        "outliers": [
+          "string"
+        ]
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "E4",
+      "category": "E",
+      "cap_primitive": "predict",
+      "question": "Compare Crypto (BTC, ETH) vs Gold (GLD) as inflation hedges using causal graph influence metrics.",
+      "context": "[Attest→Predict] Asset class comparison for specific use case",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "hedge_effectiveness": [
+          {
+            "asset": "string",
+            "inflation_beta": "float",
+            "effectiveness_score": "float"
+          }
+        ],
+        "best_inflation_hedge": "string",
+        "regime_dependence": "string"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "E5",
+      "category": "E",
+      "cap_primitive": "predict",
+      "question": "Which sector (Tech, Finance, Energy, Healthcare) shows the most stable causal predictions during market volatility?",
+      "context": "[Attest→Predict] Sector resilience comparison",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "resilience_scores": [
+          {
+            "sector": "string",
+            "normal_accuracy": "float",
+            "volatile_accuracy": "float",
+            "resilience_ratio": "float",
+            "confidence_retention": "float"
+          }
+        ],
+        "most_resilient": "string",
+        "most_volatile_sensitive": "string"
+      },
+      "cevs_weight": 1.0,
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F1",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "Gold (GC) above ___ end of January?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 2. Gold (GC) settle over $X on final trading day of January 2026...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce53",
+        "original_answer": "['H', 'I', 'J', 'K', 'L']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F2",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "What will Crude Oil (CL) settle at in January?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 2. Crude Oil price range prediction for January 2026...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce59",
+        "original_answer": "['F']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F3",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "What will Opendoor (OPEN) hit in January 2026?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 2. Opendoor stock price level prediction...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce04",
+        "original_answer": "['E', 'F', 'G', 'H', 'I']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F4",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "What will Crude Oil (CL) hit__ by end of January?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 2. Crude Oil high/low price prediction...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce56",
+        "original_answer": "['B', 'C', 'G', 'J']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F5",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "What will Gold (GC) settle at in January?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 2. Gold price range settlement prediction...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce54",
+        "original_answer": "['E']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F6",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "Tesla hits $400 or $500 first before end of January 2026?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 1. Tesla stock price threshold prediction...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6957ba8a03568a006853e82e",
+        "original_answer": "['A']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 1,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "F7",
+      "category": "F",
+      "cap_primitive": "predict",
+      "question": "Nvidia hits 170, 200 or neither first by end of January 2026?",
+      "context": "[FutureX Inspired] FutureX Challenge D25 - Level 1. Nvidia stock price level prediction...",
+      "cap_request": {
+        "verb": "observe.predict",
+        "params": {
+          "target_node": ""
+        },
+        "options": {
+          "timeout_ms": 30000
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6957ba8a03568a006853e82f",
+        "original_answer": "['A']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 1,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      },
+      "_v2_fixed": true,
+      "_v2_change": "standardized predict format",
+      "_final_fixed": true
+    },
+    {
+      "id": "XF_694a8b8f",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[ELECTION] Portuguese Presidential elections second round",
+      "context": "FutureX-inspired election question. Social, economic, and political factors influencing electoral outcomes. Options: António José Seguro vs. André Ventura | Marques Mendes vs. André Ventura | Gouveia e Melo vs. António José Seguro | No second round. Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "election",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "António José Seguro vs. André Ventura",
+            "Marques Mendes vs. André Ventura",
+            "Gouveia e Melo vs. António José Seguro",
+            "No second round"
+          ],
+          "factors_to_consider": [
+            "polling_trends",
+            "economic_conditions",
+            "media_coverage",
+            "incumbent_advantage"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "694a8b8fbd65d70068ad7db4",
+        "original_answer": "['B']",
+        "domain": "election",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-01-18",
+        "original_source": "FutureX Challenge D25",
+        "domain": "election",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_69493cb1",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[ELECTION] Portugal Presidential Election second round qualifiers",
+      "context": "FutureX-inspired election question. Social, economic, and political factors influencing electoral outcomes. Options: André Ventura | Luís Marques Mendes | Henrique Gouveia e Melo | António José Seguro | João Cotrim de Figueiredo | ... (1 more). Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "election",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "André Ventura",
+            "Luís Marques Mendes",
+            "Henrique Gouveia e Melo",
+            "António José Seguro",
+            "João Cotrim de Figueiredo",
+            "Catarina Martins"
+          ],
+          "factors_to_consider": [
+            "polling_trends",
+            "economic_conditions",
+            "media_coverage",
+            "incumbent_advantage"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "69493cb11e67de005c795b7e",
+        "original_answer": "['C', 'P']",
+        "domain": "election",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-01-18",
+        "original_source": "FutureX Challenge D25",
+        "domain": "election",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_69566909",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[SPORTS] 2026 Australian Open Women's Singles Winner",
+      "context": "FutureX-inspired sports question. Player form, historical performance, and competitive dynamics. Options: Mirra Andreeva | Coco Gauff | Madison Keys | Naomi Osaka | Elena Rybakina | ... (2 more). Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "sports",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "Mirra Andreeva",
+            "Coco Gauff",
+            "Madison Keys",
+            "Naomi Osaka",
+            "Elena Rybakina",
+            "Aryna Sabalenka",
+            "Iga Swiatek"
+          ],
+          "factors_to_consider": [
+            "recent_form",
+            "head_to_head_history",
+            "injury_status",
+            "home_advantage",
+            "rankings"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6956690920a2e600672a7867",
+        "original_answer": "['F']",
+        "domain": "sports",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25",
+        "domain": "sports",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_6957ba8a",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[SPORTS] 2025 CAF Cup of Nations (AFCON) Winner",
+      "context": "FutureX-inspired sports question. Player form, historical performance, and competitive dynamics. Options: Senegal | Morocco | Nigeria | Egypt. Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "sports",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "Senegal",
+            "Morocco",
+            "Nigeria",
+            "Egypt"
+          ],
+          "factors_to_consider": [
+            "recent_form",
+            "head_to_head_history",
+            "injury_status",
+            "home_advantage",
+            "rankings"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6957ba8a03568a006853e820",
+        "original_answer": "['A']",
+        "domain": "sports",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-01-18",
+        "original_source": "FutureX Challenge D25",
+        "domain": "sports",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_695a5d89",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[ENTERTAINMENT] 2026 Grammy Best Pop Vocal Album",
+      "context": "FutureX-inspired entertainment question. Industry trends, critical reception, and commercial performance. Options: Justin Bieber - SWAG | Sabrina Carpenter - Man's Best Friend | Miley Cyrus - Something Beautiful | Lady Gaga - MAYHEM | Teddy Swims. Original FutureX Level 1.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "entertainment",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "Justin Bieber - SWAG",
+            "Sabrina Carpenter - Man's Best Friend",
+            "Miley Cyrus - Something Beautiful",
+            "Lady Gaga - MAYHEM",
+            "Teddy Swims"
+          ],
+          "factors_to_consider": [
+            "chart_performance",
+            "critical_reviews",
+            "commercial_success",
+            "industry_recognition"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695a5d897b2e6a00694886b9",
+        "original_answer": "['D']",
+        "domain": "entertainment",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 1,
+        "end_time": "2026-02-02",
+        "original_source": "FutureX Challenge D25",
+        "domain": "entertainment",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_695a5d89",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[ENTERTAINMENT] 2026 Grammy Record of the Year",
+      "context": "FutureX-inspired entertainment question. Industry trends, critical reception, and commercial performance. Options: Bad Bunny - DtMF | Sabrina Carpenter - Manchild | Doechii - Anxiety | Billie Eilish - Wildflower | Lady Gaga - Abracadabra | ... (1 more). Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "entertainment",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "Bad Bunny - DtMF",
+            "Sabrina Carpenter - Manchild",
+            "Doechii - Anxiety",
+            "Billie Eilish - Wildflower",
+            "Lady Gaga - Abracadabra",
+            "Kendrick Lamar with SZA - Luther"
+          ],
+          "factors_to_consider": [
+            "chart_performance",
+            "critical_reviews",
+            "commercial_success",
+            "industry_recognition"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695a5d897b2e6a00694886af",
+        "original_answer": "['F']",
+        "domain": "entertainment",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-02",
+        "original_source": "FutureX Challenge D25",
+        "domain": "entertainment",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_69566c13",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[ENTERTAINMENT] Grammys Songwriter of the Year Winner",
+      "context": "FutureX-inspired entertainment question. Industry trends, critical reception, and commercial performance. Options: Amy Allen | Laura Veltz | Edgar Barrera | Jessie Jo Dillon | Tobias Jesso Jr. | ... (1 more). Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "entertainment",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "Amy Allen",
+            "Laura Veltz",
+            "Edgar Barrera",
+            "Jessie Jo Dillon",
+            "Tobias Jesso Jr.",
+            "Another person"
+          ],
+          "factors_to_consider": [
+            "chart_performance",
+            "critical_reviews",
+            "commercial_success",
+            "industry_recognition"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "69566c1320a2e600672a78fb",
+        "original_answer": "['A']",
+        "domain": "entertainment",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25",
+        "domain": "entertainment",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_6964eca5",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[GEOPOLITICS] Israel strikes Gaza January 2026",
+      "context": "FutureX-inspired geopolitics question. Diplomatic, military, and strategic factor analysis. Options: January 1 | January 2 | January 3 | January 4 | January 5 | ... (26 more). Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "geopolitics",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "January 1",
+            "January 2",
+            "January 3",
+            "January 4",
+            "January 5",
+            "January 6",
+            "January 7",
+            "January 8",
+            "January 9",
+            "January 10",
+            "January 11",
+            "January 12",
+            "January 13",
+            "January 14",
+            "January 15",
+            "January 16",
+            "January 17",
+            "January 18",
+            "January 19",
+            "January 20",
+            "January 21",
+            "January 22",
+            "January 23",
+            "January 24",
+            "January 25",
+            "January 26",
+            "January 27",
+            "January 28",
+            "January 29",
+            "January 30",
+            "January 31"
+          ],
+          "factors_to_consider": [
+            "diplomatic_statements",
+            "military_movements",
+            "historical_patterns",
+            "alliance_dynamics"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6964eca552029b005bc009f2",
+        "original_answer": "['C', 'E', 'G', 'H', 'J', 'K', 'L', 'M', 'O', 'U', 'X']",
+        "domain": "geopolitics",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-01-31",
+        "original_source": "FutureX Challenge D25",
+        "domain": "geopolitics",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_6957ba8a",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[HEALTH] Measles cases in U.S. by January 31",
+      "context": "FutureX-inspired health question. Epidemiological factors, policy responses, and transmission dynamics. Options: <20 | 20-150 | 150-300 | 300-500 | 500-750 | ... (1 more). Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "health",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "<20",
+            "20-150",
+            "150-300",
+            "300-500",
+            "500-750",
+            ">750"
+          ],
+          "factors_to_consider": [
+            "transmission_rates",
+            "policy_measures",
+            "seasonal_patterns",
+            "vaccination_rates"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6957ba8a03568a006853e82e",
+        "original_answer": "['A', 'B', 'C', 'E', 'F', 'G', 'H', 'I']",
+        "domain": "health",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-01-31",
+        "original_source": "FutureX Challenge D25",
+        "domain": "health",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_69639b3e",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[WEATHER] NYC Precipitation January 2026",
+      "context": "FutureX-inspired weather question. Meteorological patterns, climate indicators, and seasonal factors. Options: <3 inches | 3-4 inches | 4-5 inches | 5-6 inches | >7 inches. Original FutureX Level 2.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "weather",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "<3 inches",
+            "3-4 inches",
+            "4-5 inches",
+            "5-6 inches",
+            ">7 inches"
+          ],
+          "factors_to_consider": [
+            "seasonal_patterns",
+            "climate_models",
+            "historical_data",
+            "current_conditions"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "69639b3e5a6f9800684ed69a",
+        "original_answer": "['C']",
+        "domain": "weather",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-01-31",
+        "original_source": "FutureX Challenge D25",
+        "domain": "weather",
+        "cross_domain": true
+      }
+    },
+    {
+      "id": "XF_695a609d",
+      "category": "X",
+      "cap_primitive": "attest",
+      "question": "[ECONOMICS] Reserve Bank of Australia February Decision",
+      "context": "FutureX-inspired economics question. Macroeconomic indicators, policy decisions, and market expectations. Options: Decrease cash rate | Increase cash rate | No change. Original FutureX Level 1.",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "domain": "economics",
+          "prediction_type": "discrete_outcome",
+          "options": [
+            "Decrease cash rate",
+            "Increase cash rate",
+            "No change"
+          ],
+          "factors_to_consider": [
+            "inflation_data",
+            "employment_figures",
+            "market_expectations",
+            "global_conditions"
+          ],
+          "analysis_depth": "high"
+        }
+      },
+      "expected_response": {
+        "most_likely_outcome": "string",
+        "confidence": "float",
+        "supporting_factors": [
+          "string"
+        ],
+        "uncertainty_sources": [
+          "string"
+        ],
+        "alternative_scenarios": [
+          "string"
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695a609d7b2e6a00694886f6",
+        "original_answer": "['B']",
+        "domain": "economics",
+        "metric": "categorical_accuracy"
+      },
+      "cevs_weight": 0.8,
+      "metadata": {
+        "futurex_level": 1,
+        "end_time": "2026-02-03",
+        "original_source": "FutureX Challenge D25",
+        "domain": "economics",
+        "cross_domain": true
+      }
+    }
+  ],
+  "cevs_weights": {
+    "explainability": 0.3,
+    "intervenability": 0.25,
+    "confidence_calibration": 0.25,
+    "accuracy": 0.2
+  },
+  "benchmark_metadata": {
+    "forward_looking_events_2025": [
+      {
+        "event": "Fed Rate Decision Mar 2025",
+        "type": "policy",
+        "relevant_questions": [
+          "B4",
+          "C3"
+        ]
+      },
+      {
+        "event": "Q1 2025 Earnings Season",
+        "type": "earnings",
+        "relevant_questions": [
+          "B3",
+          "B6"
+        ]
+      },
+      {
+        "event": "Geopolitical Tensions (ongoing)",
+        "type": "supply_shock",
+        "relevant_questions": [
+          "B5",
+          "B7"
+        ]
+      },
+      {
+        "event": "China Tech Regulation (potential easing)",
+        "type": "policy_regime_shift",
+        "relevant_questions": [
+          "B10"
+        ]
+      }
+    ],
+    "evaluation_schedule": {
+      "immediate": [
+        "A1-A8",
+        "D1-D5"
+      ],
+      "post_event": [
+        "B1-B10",
+        "C1-C7",
+        "E1-E5"
+      ],
+      "ground_truth_delay_hours": {
+        "A": 6,
+        "B": 168,
+        "C": 72,
+        "D": 24,
+        "E": 48
+      }
+    }
+  },
+  "metadata": {
+    "fixed_for_cap_api": true,
+    "fix_date": "2026-03-20",
+    "changes": [
+      "Attest → Predict (with comparison)",
+      "Intervene nodes fixed to use drivers"
+    ]
+  },
+  "cap_compatibility_notes": {
+    "intervene_fix": "Changed from intervene.do to extensions.abel.intervene_time_lag to support custom horizon_steps",
+    "attest_fix": "Changed from attest to observe.predict with client-side comparison",
+    "reasoning": "Based on Abel CAP Reference Implementation study (CAP_REFERENCE_LEARNING.md)"
+  },
+  "known_limitations": {
+    "intervene_horizon": "Server enforces horizon_steps=24 for intervene.do, may exceed max_events=100 for some node pairs",
+    "invalid_nodes": [
+      "XRT_close",
+      "NLY_close",
+      "LRCX_close",
+      "AMZN_close",
+      "JPM_close",
+      "KRE_close",
+      "ALB_close",
+      "OPEN_close"
+    ],
+    "503_errors": "Frequent on certain tickers (BTC, SPY, Gold, Oil) - service load dependent",
+    "recommended_test_nodes": [
+      "NVDA",
+      "ETHUSD",
+      "PEAKUSD",
+      "VIX"
+    ]
+  },
+  "cap_compatibility": {
+    "status": "partial",
+    "working_verbs": [
+      "graph.paths - 100% pass rate",
+      "graph.neighbors - working",
+      "observe.predict - ~40% pass rate (503 dependent)"
+    ],
+    "problematic_verbs": [
+      "intervene.do - event count limit issues",
+      "extensions.abel.intervene_time_lag - same underlying limit"
+    ],
+    "workarounds": [
+      "Use graph.paths to pre-validate connectivity before intervene",
+      "Limit interventions to known short-chain pairs (PEAKUSD->NVDA, VIX->SPY)",
+      "Add exponential backoff retry for 503 errors"
+    ]
+  }
+}

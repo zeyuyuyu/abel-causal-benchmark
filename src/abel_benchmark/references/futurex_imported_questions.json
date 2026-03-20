@@ -1,0 +1,280 @@
+{
+  "source": "FutureX Challenge D25",
+  "conversion_date": "2026-03-20",
+  "description": "FutureX financial questions converted to Abel Causal Benchmark format",
+  "questions": [
+    {
+      "id": "FX_695bb400",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Gold (GC) above ___ end of January?",
+      "context": "FutureX Challenge D25 - Level 2. Gold (GC) settle over $X on final trading day of January 2026...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "GCUSD_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce53",
+        "original_answer": "['H', 'I', 'J', 'K', 'L']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    },
+    {
+      "id": "FX_695bb400",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What will Crude Oil (CL) settle at in January?",
+      "context": "FutureX Challenge D25 - Level 2. Crude Oil price range prediction for January 2026...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "CLUSD_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce59",
+        "original_answer": "['F']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    },
+    {
+      "id": "FX_695bb400",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What will Opendoor (OPEN) hit in January 2026?",
+      "context": "FutureX Challenge D25 - Level 2. Opendoor stock price level prediction...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "OPEN_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce04",
+        "original_answer": "['E', 'F', 'G', 'H', 'I']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    },
+    {
+      "id": "FX_695bb400",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What will Crude Oil (CL) hit__ by end of January?",
+      "context": "FutureX Challenge D25 - Level 2. Crude Oil high/low price prediction...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "CLUSD_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce56",
+        "original_answer": "['B', 'C', 'G', 'J']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    },
+    {
+      "id": "FX_695bb400",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What will Gold (GC) settle at in January?",
+      "context": "FutureX Challenge D25 - Level 2. Gold price range settlement prediction...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "GCUSD_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "695bb4008b62560069adce54",
+        "original_answer": "['E']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 2,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    },
+    {
+      "id": "FX_6957ba8a",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Tesla hits $400 or $500 first before end of January 2026?",
+      "context": "FutureX Challenge D25 - Level 1. Tesla stock price threshold prediction...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "TSLA_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6957ba8a03568a006853e82e",
+        "original_answer": "['A']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 1,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    },
+    {
+      "id": "FX_6957ba8a",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Nvidia hits 170, 200 or neither first by end of January 2026?",
+      "context": "FutureX Challenge D25 - Level 1. Nvidia stock price level prediction...",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "NVDA_close",
+          "horizon_hours": 720,
+          "features_limit": 5,
+          "include_parents": true
+        }
+      },
+      "expected_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {
+            "node": "string",
+            "impact": "float",
+            "tau": "int"
+          }
+        ]
+      },
+      "ground_truth_check": {
+        "source": "futurex_challenge",
+        "futurex_id": "6957ba8a03568a006853e82f",
+        "original_answer": "['A']",
+        "metric": "directional_accuracy"
+      },
+      "cevs_weight": 1.0,
+      "metadata": {
+        "futurex_level": 1,
+        "end_time": "2026-02-01",
+        "original_source": "FutureX Challenge D25"
+      }
+    }
+  ]
+}

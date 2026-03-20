@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-03-20T14:49:41.529335",
+  "base_url": "https://abel-graph-computer-sit.abel.ai",
+  "total_tests": 3,
+  "success_count": 0,
+  "success_rate": "0/3 (0.0%)",
+  "results": [
+    {
+      "primitive": "predict",
+      "question_id": "A1",
+      "success": false,
+      "endpoint_called": "/cap/v1/predict",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "confidence",
+        "factors"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '401 Unauthorized' for url 'https://abel-graph-computer-sit.abel.ai/cap/v1/predict'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A2",
+      "success": false,
+      "endpoint_called": "/cap/v1/predict",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "confidence",
+        "factors"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '401 Unauthorized' for url 'https://abel-graph-computer-sit.abel.ai/cap/v1/predict'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A3",
+      "success": false,
+      "endpoint_called": "/cap/v1/predict",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "confidence",
+        "factors"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '401 Unauthorized' for url 'https://abel-graph-computer-sit.abel.ai/cap/v1/predict'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401"
+      ],
+      "raw_response": null
+    }
+  ]
+}

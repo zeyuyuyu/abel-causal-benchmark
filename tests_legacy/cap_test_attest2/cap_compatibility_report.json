@@ -1,0 +1,195 @@
+{
+  "timestamp": "2026-03-20T14:25:15.808461",
+  "base_url": "https://abel-graph-computer-sit.abel.ai",
+  "dry_run": false,
+  "total_tests": 3,
+  "by_primitive": {
+    "attest": {
+      "total": 3,
+      "success": 0,
+      "behavior_match": 2,
+      "required_fields_avg": 0.0,
+      "optional_fields_avg": 0.0
+    }
+  },
+  "results": [
+    {
+      "primitive": "attest",
+      "question_id": "E1",
+      "success": false,
+      "endpoint_called": "/causal_graph/multi-step-prediction/batch",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "comparison",
+        "ranking"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/multi-step-prediction/batch?tickers=BTCUSD_close&tickers=ETHUSD_close'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "attest",
+      "question_id": "E2",
+      "success": false,
+      "endpoint_called": "/causal_graph/multi-step-prediction/batch",
+      "response_received": true,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "comparison",
+        "ranking"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": [
+        {
+          "ticker": "XLK",
+          "name": "State Street Technology Select Sector SPDR ETF",
+          "asset_type": 1,
+          "description": "XLK was the first to launch in this space, as such it offers a more narrow focus on the US technology segment. Its S&P 500-only portfolio tilts away from our segment benchmark. XLK is heavily concentrated and also a few that seem like misfits, such as financial payment processers or telecom firms. Its limited selection universe excludes small-caps and most midcaps. Avoiding smaller, less-stable firms results in lower volatility and a tilt toward value compared to our broad tech-industry benchmark index, and can cause other minor performance differences. XLK held the title for a long time as the cheapest and the largest fund in its segment. Prior to Dec. 1, 2025, the fund name did not include the Issuer's name, State Street.",
+          "sector": "Financial Services",
+          "industry": "Asset Management",
+          "cumulative_prediction": null,
+          "cumulative_prediction_price": null,
+          "pred_datetime": null,
+          "lookahead_datetime": null,
+          "probability_up": null,
+          "max_lookahead_hours": null,
+          "features": [],
+          "latest_price": 138.44,
+          "latest_price_change_percent": 0.0033338164951418657,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        },
+        {
+          "ticker": "XLE",
+          "name": "State Street Energy Select Sector SPDR ETF",
+          "asset_type": 1,
+          "description": "In seeking to track the performance of the index, the fund employs a replication strategy. It generally invests substantially all, but at least 95%, of its total assets in the securities comprising the index. The index includes companies that have been identified as Energy companies by the GICS\u00ae, including securities of companies from the following industries: oil, gas and consumable fuels; and energy equipment and services. It is non-diversified.",
+          "sector": "Financial Services",
+          "industry": "Asset Management",
+          "cumulative_prediction": null,
+          "cumulative_prediction_price": null,
+          "pred_datetime": null,
+          "lookahead_datetime": null,
+          "probability_up": null,
+          "max_lookahead_hours": null,
+          "features": [],
+          "latest_price": 59.37,
+          "latest_price_change_percent": 0.015913757700178104,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        }
+      ]
+    },
+    {
+      "primitive": "attest",
+      "question_id": "E3",
+      "success": false,
+      "endpoint_called": "/causal_graph/multi-step-prediction/batch",
+      "response_received": true,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "comparison",
+        "ranking"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": [
+        {
+          "ticker": "NVDA",
+          "name": "NVIDIA Corporation",
+          "asset_type": 1,
+          "description": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds. Its Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; cryptocurrency mining processors; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software. The company's products are used in gaming, professional visualization, datacenter, and automotive markets. NVIDIA Corporation sells its products to original equipment manufacturers, original device manufacturers, system builders, add-in board manufacturers, retailers/distributors, independent software vendors, Internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants. It has a strategic collaboration with Kroger Co. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "cumulative_prediction": 0.0005615547039448113,
+          "cumulative_prediction_price": 178.62024874574823,
+          "pred_datetime": "2026-03-19T20:00:00Z",
+          "lookahead_datetime": "2026-03-20T16:00:00Z",
+          "probability_up": 0.640536333938782,
+          "max_lookahead_hours": 20.0,
+          "features": [],
+          "latest_price": 178.52,
+          "latest_price_change_percent": -0.010146936512331409,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        },
+        {
+          "ticker": "AMD",
+          "name": "Advanced Micro Devices, Inc.",
+          "asset_type": 1,
+          "description": "Advanced Micro Devices, Inc. operates as a semiconductor company worldwide. The company operates in two segments, Computing and Graphics; and Enterprise, Embedded and Semi-Custom. Its products include x86 microprocessors as an accelerated processing unit, chipsets, discrete and integrated graphics processing units (GPUs), data center and professional GPUs, and development services; and server and embedded processors, and semi-custom System-on-Chip (SoC) products, development services, and technology for game consoles. The company provides processors for desktop and notebook personal computers under the AMD Ryzen, AMD Ryzen PRO, Ryzen Threadripper, Ryzen Threadripper PRO, AMD Athlon, AMD Athlon PRO, AMD FX, AMD A-Series, and AMD PRO A-Series processors brands; discrete GPUs for desktop and notebook PCs under the AMD Radeon graphics, AMD Embedded Radeon graphics brands; and professional graphics products under the AMD Radeon Pro and AMD FirePro graphics brands. It also offers Radeon Instinct, Radeon PRO V-series, and AMD Instinct accelerators for servers; chipsets under the AMD trademark; microprocessors for servers under the AMD EPYC; embedded processor solutions under the AMD Athlon, AMD Geode, AMD Ryzen, AMD EPYC, AMD R-Series, and G-Series processors brands; and customer-specific solutions based on AMD CPU, GPU, and multi-media technologies, as well as semi-custom SoC products. It serves original equipment manufacturers, public cloud service providers, original design manufacturers, system integrators, independent distributors, online retailers, and add-in-board manufacturers through its direct sales force, independent distributors, and sales representatives. The company was incorporated in 1969 and is headquartered in Santa Clara, California.",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "cumulative_prediction": 0.0016251803266009422,
+          "cumulative_prediction_price": 205.55351950662504,
+          "pred_datetime": "2026-03-19T20:00:00Z",
+          "lookahead_datetime": "2026-03-26T16:00:00Z",
+          "probability_up": 0.9776860444120933,
+          "max_lookahead_hours": 164.0,
+          "features": [],
+          "latest_price": 205.22,
+          "latest_price_change_percent": 0.02887797052039057,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        },
+        {
+          "ticker": "TSM",
+          "name": "Taiwan Semiconductor Manufacturing Company Limited",
+          "asset_type": 1,
+          "description": "Taiwan Semiconductor Manufacturing Company Limited, together with its subsidiaries, manufactures, packages, tests, and sells integrated circuits and other semiconductor devices in Taiwan, China, Europe, the Middle East, Africa, Japan, the United States, and internationally. It provides a range of wafer fabrication processes, including processes to manufacture complementary metal- oxide-semiconductor (CMOS) logic, mixed-signal, radio frequency, embedded memory, bipolar CMOS mixed-signal, and others. The company also offers customer and engineering support services; manufactures masks; and invests in technology start-up companies; researches, designs, develops, manufactures, packages, tests, and sells color filters; and provides investment services. Its products are used in high performance computing, smartphones, Internet of things, automotive, and digital consumer electronics. The company was incorporated in 1987 and is headquartered in Hsinchu City, Taiwan.",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "cumulative_prediction": 0.0012026189021138627,
+          "cumulative_prediction_price": 339.1473751269021,
+          "pred_datetime": "2026-03-19T20:00:00Z",
+          "lookahead_datetime": "2026-03-20T16:00:00Z",
+          "probability_up": 0.6662491576786789,
+          "max_lookahead_hours": 20.0,
+          "features": [],
+          "latest_price": 338.74,
+          "latest_price_change_percent": -0.002620498778081219,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        },
+        {
+          "ticker": "AVGO",
+          "name": "Broadcom Inc.",
+          "asset_type": 1,
+          "description": "Broadcom, Inc. is a global technology company, which designs, develops and supplies semiconductor and infrastructure software solutions. The company is headquartered in San Jose, California and currently employs 19,000 full-time employees. The firm operates through four segments: Wired Infrastructure, Wireless Communications, Enterprise Storage, and Industrial & Other. The company offers a range of products that are used in end-products, such as enterprise and data center networking, home connectivity, set-top boxes, telecommunication equipment, smartphones, data center servers and storage systems, factory automation, power generation and alternative energy systems, and electronic displays. Its product portfolio ranges from discrete devices to complex sub-systems that include multiple device types, and also includes firmware for interfacing between analog and digital systems. Its products include mechanical hardware that interfaces with optoelectronic or capacitive sensors.",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "cumulative_prediction": -0.0067576612283282555,
+          "cumulative_prediction_price": 317.63889993918065,
+          "pred_datetime": "2026-03-19T20:00:00Z",
+          "lookahead_datetime": "2026-03-20T16:00:00Z",
+          "probability_up": 0.3372721688149484,
+          "max_lookahead_hours": 20.0,
+          "features": [],
+          "latest_price": 319.8,
+          "latest_price_change_percent": 0.012602115128866944,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        },
+        {
+          "ticker": "MRVL",
+          "name": "Marvell Technology, Inc.",
+          "asset_type": 1,
+          "description": "Marvell Technology, Inc., together with its subsidiaries, designs, develops, and sells analog, mixed-signal, digital signal processing, and embedded and standalone integrated circuits. It offers a portfolio of Ethernet solutions, including controllers, network adapters, physical transceivers, and switches; single or multiple core processors; ASIC; and printer System-on-a-Chip products and application processors. The company also provides a range of storage products comprising storage controllers for hard disk drives (HDD) and solid-state drives that support various host system interfaces consisting of serial attached SCSI (SAS), serial advanced technology attachment (SATA), peripheral component interconnect express, non-volatile memory express (NVMe), and NVMe over fabrics; and fiber channel products, including host bus adapters, and controllers for server and storage system connectivity. It has operations in the United States, China, Malaysia, the Philippines, Thailand, Singapore, India, Israel, Japan, South Korea, Taiwan, and Vietnam. Marvell Technology, Inc. was incorporated in 1995 and is headquartered in Wilmington, Delaware.",
+          "sector": "Technology",
+          "industry": "Semiconductors",
+          "cumulative_prediction": 0.0032075413755171377,
+          "cumulative_prediction_price": 89.81717117935004,
+          "pred_datetime": "2026-03-19T20:00:00Z",
+          "lookahead_datetime": "2026-03-20T17:00:00Z",
+          "probability_up": 0.5993034481947697,
+          "max_lookahead_hours": 21.0,
+          "features": [],
+          "latest_price": 89.53,
+          "latest_price_change_percent": 0.021682072349627268,
+          "latest_datetime": "2026-03-19T19:30:00Z"
+        }
+      ]
+    }
+  ]
+}

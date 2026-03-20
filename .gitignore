@@ -45,10 +45,10 @@ futurex_results/
 futurex_full_results/
 final_test_results/
 *.csv
-*.json
 *.png
 *.html
 !references/*.json
+!test_cases/*.json
 
 # Environment variables
 .env

@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-03-20T11:37:39.878098",
+  "base_url": "https://abel-graph-computer-sit.abel.ai",
+  "dry_run": false,
+  "total_tests": 3,
+  "by_primitive": {
+    "predict": {
+      "total": 3,
+      "success": 0,
+      "behavior_match": 0,
+      "required_fields_avg": 0.0,
+      "optional_fields_avg": 0.0
+    }
+  },
+  "results": [
+    {
+      "primitive": "predict",
+      "question_id": "A1",
+      "success": false,
+      "endpoint_called": "/causal_graph/BTCUSD_close/multi-step-prediction",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "probability_up"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/BTCUSD_close/multi-step-prediction?ticker=BTCUSD_close&lookahead_hours=5&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A2",
+      "success": false,
+      "endpoint_called": "/causal_graph/NVDA_close/multi-step-prediction",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "probability_up"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/NVDA_close/multi-step-prediction?ticker=NVDA_close&lookahead_hours=72&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A3",
+      "success": false,
+      "endpoint_called": "/causal_graph/SPY_close/multi-step-prediction",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "probability_up"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/SPY_close/multi-step-prediction?ticker=SPY_close&lookahead_hours=24&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+      ],
+      "raw_response": null
+    }
+  ]
+}

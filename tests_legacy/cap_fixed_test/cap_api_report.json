@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-03-20T15:47:01.467919",
+  "base_url": "https://cap-sit.abel.ai",
+  "cap_endpoint": "/api/v1/cap",
+  "total_tests": 3,
+  "success_count": 0,
+  "success_rate": "0/3 (0.0%)",
+  "by_primitive": {
+    "intervene": {
+      "total": 3,
+      "success": 0
+    }
+  },
+  "results": [
+    {
+      "primitive": "intervene",
+      "question_id": "B1",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "intervention_effect",
+        "affected_nodes"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 404: {\"cap_version\":\"0.2.2\",\"request_id\":\"cc6451cb-c1d3-42df-afdb-d9ef867f9c95\",\"verb\":\"intervene.do\",\"st"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "intervene",
+      "question_id": "B2",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "intervention_effect",
+        "affected_nodes"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 400: {\"cap_version\":\"0.2.2\",\"request_id\":\"939dd642-c11d-46f8-a7b0-f5fde33efe6f\",\"verb\":\"intervene.do\",\"st"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "intervene",
+      "question_id": "B3",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "intervention_effect",
+        "affected_nodes"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 400: {\"cap_version\":\"0.2.2\",\"request_id\":\"f94a3a01-be9e-44c6-9f0a-a391dfce598d\",\"verb\":\"intervene.do\",\"st"
+      ],
+      "raw_response": null
+    }
+  ]
+}

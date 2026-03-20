@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-03-20T13:48:12.226350",
+  "base_url": "https://abel-graph-computer-sit.abel.ai",
+  "dry_run": false,
+  "total_tests": 3,
+  "by_primitive": {
+    "path": {
+      "total": 3,
+      "success": 0,
+      "behavior_match": 0,
+      "required_fields_avg": 0.0,
+      "optional_fields_avg": 0.0
+    }
+  },
+  "results": [
+    {
+      "primitive": "path",
+      "question_id": "C1",
+      "success": false,
+      "endpoint_called": "/graph_stats/nodes_connection",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "path",
+        "hops",
+        "tau"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '422 Unprocessable Entity' for url 'https://abel-graph-computer-sit.abel.ai/graph_stats/nodes_connection?ticker=BTCUSD&from=DXY_close'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "path",
+      "question_id": "C2",
+      "success": false,
+      "endpoint_called": "/graph_stats/nodes_connection",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "path",
+        "hops",
+        "tau"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '422 Unprocessable Entity' for url 'https://abel-graph-computer-sit.abel.ai/graph_stats/nodes_connection?ticker=XRT&from=CLUSD_close'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "path",
+      "question_id": "C3",
+      "success": false,
+      "endpoint_called": "/graph_stats/nodes_connection",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "path",
+        "hops",
+        "tau"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '422 Unprocessable Entity' for url 'https://abel-graph-computer-sit.abel.ai/graph_stats/nodes_connection?ticker=NLY&from=FEDFUNDS'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+      ],
+      "raw_response": null
+    }
+  ]
+}

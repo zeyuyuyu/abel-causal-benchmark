@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-03-20T11:37:44.577117",
+  "total_questions": 2,
+  "successful": 0,
+  "failed": 2,
+  "avg_cevs": 0.0,
+  "by_primitive": {
+    "intervene": {
+      "count": 2,
+      "success_rate": 0.0,
+      "avg_cevs": 0.0,
+      "fallback_rate": 0.0
+    }
+  },
+  "results": [
+    {
+      "question_id": "B1",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "success": false,
+      "endpoint_used": "/graph_stats/intervention_impact",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 1659.9209308624268,
+      "error": "Client error '422 Unprocessable Entity' for url 'https://abel-graph-computer-sit.abel.ai/graph_stats/intervention_impact?ticker=ETHUSD_close&shock_magnitude=0.05'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+    },
+    {
+      "question_id": "B2",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "success": false,
+      "endpoint_used": "/graph_stats/intervention_impact",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 931.3747882843018,
+      "error": "Client error '422 Unprocessable Entity' for url 'https://abel-graph-computer-sit.abel.ai/graph_stats/intervention_impact?ticker=BTCUSD_close&shock_magnitude=-0.03'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422"
+    }
+  ]
+}

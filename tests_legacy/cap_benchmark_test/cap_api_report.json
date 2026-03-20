@@ -1,0 +1,286 @@
+{
+  "timestamp": "2026-03-20T15:41:33.906798",
+  "base_url": "https://cap-sit.abel.ai",
+  "cap_endpoint": "/api/v1/cap",
+  "total_tests": 10,
+  "success_count": 4,
+  "success_rate": "4/10 (40.0%)",
+  "by_primitive": {
+    "predict": {
+      "total": 8,
+      "success": 4
+    },
+    "intervene": {
+      "total": 2,
+      "success": 0
+    }
+  },
+  "results": [
+    {
+      "primitive": "predict",
+      "question_id": "A1",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "drivers"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 503: {\"cap_version\":\"0.2.2\",\"request_id\":\"e87067c0-f059-43e2-a8f2-40e8a532b699\",\"verb\":\"observe.predict\","
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A2",
+      "success": true,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": true,
+      "required_fields_present": [
+        "prediction",
+        "drivers"
+      ],
+      "required_fields_missing": [],
+      "optional_fields_present": [],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "cap_version": "0.2.2",
+        "request_id": "f05e4889-694e-40bb-b228-615ef625b3eb",
+        "verb": "observe.predict",
+        "status": "success",
+        "result": {
+          "target_node": "NVDA_close",
+          "prediction": 0.0005615547039448113,
+          "drivers": [
+            "PEAKUSD_close",
+            "MBPUSD_close",
+            "AGNCO_close"
+          ]
+        },
+        "provenance": {
+          "algorithm": "primitive.predict",
+          "graph_version": "CausalNodeV2",
+          "computation_time_ms": 39,
+          "server_name": "abel-cap",
+          "server_version": "0.1.0",
+          "cap_spec_version": "0.2.2"
+        }
+      }
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A3",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "drivers"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 503: {\"cap_version\":\"0.2.2\",\"request_id\":\"51709ea9-edb7-4a12-a7c4-4c8fa514bd22\",\"verb\":\"observe.predict\","
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A4",
+      "success": true,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": true,
+      "required_fields_present": [
+        "prediction",
+        "drivers"
+      ],
+      "required_fields_missing": [],
+      "optional_fields_present": [],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "cap_version": "0.2.2",
+        "request_id": "8372d964-d8a1-4390-ac32-6d2e976f9bdf",
+        "verb": "observe.predict",
+        "status": "success",
+        "result": {
+          "target_node": "TSLA_close",
+          "prediction": -0.003489729137001982,
+          "drivers": [
+            "PERUSD_close",
+            "MMYUSD_close",
+            "IMOUSD_close",
+            "SFIUSD_close",
+            "AGNCO_close",
+            "NLY-PG_close",
+            "CIM-PC_close",
+            "AGNCM_close",
+            "NTUSD_close"
+          ]
+        },
+        "provenance": {
+          "algorithm": "primitive.predict",
+          "graph_version": "CausalNodeV2",
+          "computation_time_ms": 38,
+          "server_name": "abel-cap",
+          "server_version": "0.1.0",
+          "cap_spec_version": "0.2.2"
+        }
+      }
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A5",
+      "success": true,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": true,
+      "required_fields_present": [
+        "prediction",
+        "drivers"
+      ],
+      "required_fields_missing": [],
+      "optional_fields_present": [],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "cap_version": "0.2.2",
+        "request_id": "70091357-435d-4dfc-ac83-ecadbb366b59",
+        "verb": "observe.predict",
+        "status": "success",
+        "result": {
+          "target_node": "AAPL_close",
+          "prediction": -0.00015695509405600926,
+          "drivers": [
+            "PRIMEUSD_close",
+            "MBPUSD_close",
+            "YFXUSD_close",
+            "CALIUSD_close",
+            "AREB_close"
+          ]
+        },
+        "provenance": {
+          "algorithm": "primitive.predict",
+          "graph_version": "CausalNodeV2",
+          "computation_time_ms": 32,
+          "server_name": "abel-cap",
+          "server_version": "0.1.0",
+          "cap_spec_version": "0.2.2"
+        }
+      }
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A6",
+      "success": true,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": true,
+      "required_fields_present": [
+        "prediction",
+        "drivers"
+      ],
+      "required_fields_missing": [],
+      "optional_fields_present": [],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "cap_version": "0.2.2",
+        "request_id": "64d689db-c0ec-4806-b28e-ed5ff4f46647",
+        "verb": "observe.predict",
+        "status": "success",
+        "result": {
+          "target_node": "ETHUSD_close",
+          "prediction": -0.0039054995307678834,
+          "drivers": [
+            "SSTK_close"
+          ]
+        },
+        "provenance": {
+          "algorithm": "primitive.predict",
+          "graph_version": "CausalNodeV2",
+          "computation_time_ms": 34,
+          "server_name": "abel-cap",
+          "server_version": "0.1.0",
+          "cap_spec_version": "0.2.2"
+        }
+      }
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A7",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "drivers"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 503: {\"cap_version\":\"0.2.2\",\"request_id\":\"b02789b1-28cf-47b5-8a67-572746a11eaa\",\"verb\":\"observe.predict\","
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A8",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "prediction",
+        "drivers"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 503: {\"cap_version\":\"0.2.2\",\"request_id\":\"15c7fcd0-e7bc-4a30-8e1a-d0e53fd56775\",\"verb\":\"observe.predict\","
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "intervene",
+      "question_id": "B1",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "intervention_effect",
+        "affected_nodes"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 404: {\"cap_version\":\"0.2.2\",\"request_id\":\"34638350-fa0a-4ace-b7ac-54ff6f188c49\",\"verb\":\"intervene.do\",\"st"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "intervene",
+      "question_id": "B2",
+      "success": false,
+      "endpoint_called": "/api/v1/cap",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "intervention_effect",
+        "affected_nodes"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "HTTP 404: {\"cap_version\":\"0.2.2\",\"request_id\":\"d7283fc7-2865-4af6-a140-518fcc3e12c2\",\"verb\":\"intervene.do\",\"st"
+      ],
+      "raw_response": null
+    }
+  ]
+}

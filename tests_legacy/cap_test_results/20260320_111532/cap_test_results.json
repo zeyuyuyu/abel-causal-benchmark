@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-03-20T11:15:35.979218",
+  "total_questions": 5,
+  "successful": 0,
+  "failed": 5,
+  "avg_cevs": 0.0,
+  "by_primitive": {
+    "predict": {
+      "count": 5,
+      "success_rate": 0.0,
+      "avg_cevs": 0.0,
+      "fallback_rate": 0.0
+    }
+  },
+  "results": [
+    {
+      "question_id": "A1",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/BTCUSD_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 1051.9609451293945,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/BTCUSD_close/multi-step-prediction?ticker=BTCUSD_close&lookahead_hours=5&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    },
+    {
+      "question_id": "A2",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/NVDA_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 539.9470329284668,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/NVDA_close/multi-step-prediction?ticker=NVDA_close&lookahead_hours=72&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    },
+    {
+      "question_id": "A3",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/SPY_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 505.6471824645996,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/SPY_close/multi-step-prediction?ticker=SPY_close&lookahead_hours=24&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    },
+    {
+      "question_id": "A4",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/TSLA_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 1228.4560203552246,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/TSLA_close/multi-step-prediction?ticker=TSLA_close&lookahead_hours=24&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    },
+    {
+      "question_id": "A5",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/AAPL_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 504.03404235839844,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/AAPL_close/multi-step-prediction?ticker=AAPL_close&lookahead_hours=12&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    }
+  ]
+}

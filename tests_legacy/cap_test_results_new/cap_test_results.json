@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-03-20T11:16:50.577224",
+  "total_questions": 3,
+  "successful": 0,
+  "failed": 3,
+  "avg_cevs": 0.0,
+  "by_primitive": {
+    "predict": {
+      "count": 3,
+      "success_rate": 0.0,
+      "avg_cevs": 0.0,
+      "fallback_rate": 0.0
+    }
+  },
+  "results": [
+    {
+      "question_id": "A1",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/BTCUSD_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 1956.4239978790283,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/BTCUSD_close/multi-step-prediction?ticker=BTCUSD_close&lookahead_hours=5&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    },
+    {
+      "question_id": "A2",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/NVDA_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 523.1027603149414,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/NVDA_close/multi-step-prediction?ticker=NVDA_close&lookahead_hours=72&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    },
+    {
+      "question_id": "A3",
+      "category": "A",
+      "cap_primitive": "predict",
+      "success": false,
+      "endpoint_used": "/causal_graph/SPY_close/multi-step-prediction",
+      "fallback_used": false,
+      "cevs_total": 0.0,
+      "cevs_breakdown": {},
+      "execution_time_ms": 521.6739177703857,
+      "error": "Server error '503 Service Unavailable' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/SPY_close/multi-step-prediction?ticker=SPY_close&lookahead_hours=24&limit=5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/503"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "benchmark_version": "v1.0-cap",
+  "description": "FutureX Causal Prediction Benchmark - CAP (Causal Agent Protocol) Format",
+  "cap_version": "0.1",
+  "primitives_supported": [
+    "discover",
+    "intervene",
+    "predict",
+    "explain",
+    "counterfactual",
+    "path",
+    "sensitivity",
+    "attest"
+  ],
+  "categories": {
+    "A": "predict - Direct causal predictions",
+    "B": "intervene - Intervention what-ifs",
+    "C": "path - Multi-hop causal chains",
+    "D": "sensitivity - Uncertainty & confidence",
+    "E": "attest - Comparative causal analysis"
+  },
+  "questions": [
+    {
+      "id": "A1-cap",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "What is the 5-hour outlook for BTCUSD based on current market conditions?",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "BTCUSD_close",
+          "horizon_hours": 5,
+          "features_limit": 3
+        }
+      },
+      "expected_cap_response": {
+        "cumulative_prediction": "float",
+        "probability_up": "float",
+        "parent_contributions": [
+          {"node": "string", "impact": "float", "tau": "int"}
+        ],
+        "confidence": "float"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "A2-cap",
+      "category": "A",
+      "cap_primitive": "predict",
+      "question": "Predict NVDA's price movement in the next 3 days given current semiconductor momentum.",
+      "cap_request": {
+        "capability": "predict",
+        "input": {
+          "target_node": "NVDA_close",
+          "horizon_hours": 72,
+          "features_limit": 5
+        }
+      },
+      "expected_cap_response": {
+        "cumulative_prediction": "float",
+        "prediction_breakdown": [
+          {"feature": "string", "lag_hours": "int", "weight": "float"}
+        ]
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "B1-cap",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What is the causal propagation if ETHUSD gets a 5% positive shock? Who gets affected downstream?",
+      "cap_request": {
+        "capability": "intervene",
+        "input": {
+          "target_node": "ETHUSD_close",
+          "intervention": {
+            "node": "ETHUSD_close",
+            "delta": 0.05,
+            "unit": "logreturn"
+          },
+          "horizon_steps": 24,
+          "max_hops": 3
+        }
+      },
+      "expected_cap_response": {
+        "intervention_effect": "float",
+        "propagation_path": [
+          {"node": "string", "hop": "int", "arrive_step": "int", "effect": "float"}
+        ],
+        "affected_nodes_count": "int",
+        "total_events": "int"
+      },
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "B2-cap",
+      "category": "B",
+      "cap_primitive": "intervene",
+      "question": "What happens if BTCUSD drops 3%? How does this shock propagate through the causal graph?",
+      "cap_request": {
+        "capability": "intervene",
+        "input": {
+          "target_node": "BTCUSD_close",
+          "intervention": {
+            "node": "BTCUSD_close",
+            "delta": -0.03,
+            "unit": "logreturn"
+          },
+          "horizon_steps": 24,
+          "max_hops": 3
+        }
+      },
+      "expected_cap_response": {
+        "propagation_chain": [
+          {"source": "string", "target": "string", "effect": "float", "tau": "int"}
+        ],
+        "vulnerable_nodes": ["string"]
+      },
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "C1-cap",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "How does DXY (Dollar Index) strength affect crypto through the causal chain?",
+      "cap_request": {
+        "capability": "path",
+        "input": {
+          "source_node": "DXY_close",
+          "target_node": "BTCUSD_close",
+          "max_depth": 10,
+          "find_all_paths": false
+        }
+      },
+      "expected_cap_response": {
+        "paths": [
+          {
+            "nodes": ["string"],
+            "total_tau": "int",
+            "strength": "float"
+          }
+        ],
+        "shortest_path_length": "int",
+        "path_exists": "boolean"
+      },
+      "cevs_weight": 1.3
+    },
+    {
+      "id": "C2-cap",
+      "category": "C",
+      "cap_primitive": "path",
+      "question": "Trace the causal path from crude oil to retail stocks via transportation costs.",
+      "cap_request": {
+        "capability": "path",
+        "input": {
+          "source_node": "CLUSD_close",
+          "target_node": "XRT_close",
+          "max_depth": 10
+        }
+      },
+      "expected_cap_response": {
+        "causal_path": [
+          {"node": "string", "role": "string", "tau_from_prev": "int"}
+        ],
+        "path_distance": "int",
+        "accumulated_lag": "int"
+      },
+      "cevs_weight": 1.3
+    },
+    {
+      "id": "D1-cap",
+      "category": "D",
+      "cap_primitive": "sensitivity",
+      "question": "What's BTCUSD's probability_up right now, and what would need to change to flip the prediction?",
+      "cap_request": {
+        "capability": "sensitivity",
+        "input": {
+          "target_node": "BTCUSD_close",
+          "analysis_type": "confidence_breakdown"
+        }
+      },
+      "expected_cap_response": {
+        "probability_up": "float",
+        "confidence_interval": ["float", "float"],
+        "critical_parents": [
+          {"node": "string", "flip_threshold": "float"}
+        ],
+        "robustness_score": "float"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D2-cap",
+      "category": "D",
+      "cap_primitive": "attest",
+      "question": "Compare graph structure: Which has more parents - BTCUSD or ETHUSD?",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "comparison_type": "structural",
+          "nodes": ["BTCUSD_close", "ETHUSD_close"],
+          "metrics": ["parent_count", "tau_variance"]
+        }
+      },
+      "expected_cap_response": {
+        "comparison": [
+          {"node": "string", "parent_count": "int", "avg_tau": "float", "reliability_score": "float"}
+        ],
+        "winner": "string"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E1-cap",
+      "category": "E",
+      "cap_primitive": "attest",
+      "question": "Between BTCUSD and ETHUSD, which has stronger causal drivers right now?",
+      "cap_request": {
+        "capability": "attest",
+        "input": {
+          "comparison_type": "predictive_power",
+          "nodes": ["BTCUSD_close", "ETHUSD_close"],
+          "metric": "graph_influence"
+        }
+      },
+      "expected_cap_response": {
+        "influence_scores": [
+          {"node": "string", "pagerank": "float", "betweenness": "float", "out_degree": "int"}
+        ],
+        "stronger_driver": "string"
+      },
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E2-cap",
+      "category": "E",
+      "cap_primitive": "explain",
+      "question": "What drives SPY's prediction more: Individual stocks or macro indices?",
+      "cap_request": {
+        "capability": "explain",
+        "input": {
+          "target_node": "SPY_close",
+          "explanation_type": "feature_attribution",
+          "group_by": "category"
+        }
+      },
+      "expected_cap_response": {
+        "explanation": {
+          "individual_stocks": {"total_impact": "float", "count": "int"},
+          "macro_indices": {"total_impact": "float", "count": "int"}
+        },
+        "dominant_category": "string"
+      },
+      "cevs_weight": 1.0
+    }
+  ],
+  "cevs_weights": {
+    "explainability": 0.3,
+    "intervenability": 0.25,
+    "confidence_calibration": 0.25,
+    "accuracy": 0.2
+  },
+  "cap_schema_notes": {
+    "predict": "Based on Markov blanket inference",
+    "intervene": "Uses do-calculus propagation through SCM",
+    "path": "Finds shortest causal path with tau accumulation",
+    "explain": "Extracts minimal causal explanation set",
+    "counterfactual": "Layer 3 inference (not in current benchmark)",
+    "sensitivity": "Robustness analysis of predictions",
+    "attest": "Cross-sectional comparison of causal claims"
+  }
+}

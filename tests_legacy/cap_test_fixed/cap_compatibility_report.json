@@ -1,0 +1,125 @@
+{
+  "timestamp": "2026-03-20T13:46:43.745989",
+  "base_url": "https://abel-graph-computer-sit.abel.ai",
+  "dry_run": false,
+  "total_tests": 3,
+  "by_primitive": {
+    "predict": {
+      "total": 3,
+      "success": 0,
+      "behavior_match": 3,
+      "required_fields_avg": 0.5,
+      "optional_fields_avg": 1.0
+    }
+  },
+  "results": [
+    {
+      "primitive": "predict",
+      "question_id": "A1",
+      "success": false,
+      "endpoint_called": "/causal_graph/BTCUSD/multi-step-prediction",
+      "response_received": true,
+      "required_fields_present": [
+        "probability_up"
+      ],
+      "required_fields_missing": [
+        "prediction"
+      ],
+      "optional_fields_present": [
+        "features"
+      ],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "ticker": "BTCUSD",
+        "name": "Bitcoin USD",
+        "asset_type": 2,
+        "description": null,
+        "sector": null,
+        "industry": null,
+        "cumulative_prediction": null,
+        "cumulative_prediction_price": null,
+        "pred_datetime": null,
+        "lookahead_datetime": null,
+        "probability_up": null,
+        "max_lookahead_hours": null,
+        "features": [],
+        "latest_price": 70619.6,
+        "latest_price_change_percent": -0.00837299091537005,
+        "latest_datetime": "2026-03-20T03:00:00Z"
+      }
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A2",
+      "success": false,
+      "endpoint_called": "/causal_graph/NVDA/multi-step-prediction",
+      "response_received": true,
+      "required_fields_present": [
+        "probability_up"
+      ],
+      "required_fields_missing": [
+        "prediction"
+      ],
+      "optional_fields_present": [
+        "features"
+      ],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "ticker": "NVDA",
+        "name": "NVIDIA Corporation",
+        "asset_type": 1,
+        "description": "NVIDIA Corporation provides graphics, and compute and networking solutions in the United States, Taiwan, China, and internationally. The company's Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and related infrastructure, and solutions for gaming platforms; Quadro/NVIDIA RTX GPUs for enterprise workstation graphics; vGPU software for cloud-based visual and virtual computing; automotive platforms for infotainment systems; and Omniverse software for building 3D designs and virtual worlds. Its Compute & Networking segment provides Data Center platforms and systems for AI, HPC, and accelerated computing; Mellanox networking and interconnect solutions; automotive AI Cockpit, autonomous driving development agreements, and autonomous vehicle solutions; cryptocurrency mining processors; Jetson for robotics and other embedded platforms; and NVIDIA AI Enterprise and other software. The company's products are used in gaming, professional visualization, datacenter, and automotive markets. NVIDIA Corporation sells its products to original equipment manufacturers, original device manufacturers, system builders, add-in board manufacturers, retailers/distributors, independent software vendors, Internet and cloud service providers, automotive manufacturers and tier-1 automotive suppliers, mapping companies, start-ups, and other ecosystem participants. It has a strategic collaboration with Kroger Co. NVIDIA Corporation was incorporated in 1993 and is headquartered in Santa Clara, California.",
+        "sector": "Technology",
+        "industry": "Semiconductors",
+        "cumulative_prediction": 0.0005615547039448113,
+        "cumulative_prediction_price": 178.62024874574823,
+        "pred_datetime": "2026-03-19T20:00:00Z",
+        "lookahead_datetime": "2026-03-20T16:00:00Z",
+        "probability_up": 0.640536333938782,
+        "max_lookahead_hours": 20.0,
+        "features": [],
+        "latest_price": 178.52,
+        "latest_price_change_percent": -0.010146936512331409,
+        "latest_datetime": "2026-03-19T19:30:00Z"
+      }
+    },
+    {
+      "primitive": "predict",
+      "question_id": "A3",
+      "success": false,
+      "endpoint_called": "/causal_graph/SPY/multi-step-prediction",
+      "response_received": true,
+      "required_fields_present": [
+        "probability_up"
+      ],
+      "required_fields_missing": [
+        "prediction"
+      ],
+      "optional_fields_present": [
+        "features"
+      ],
+      "behavior_match": true,
+      "errors": [],
+      "raw_response": {
+        "ticker": "SPY",
+        "name": "SPDR S&P 500 ETF Trust",
+        "asset_type": 1,
+        "description": "SPDR S&P 500 ETF Trust is an Exchange traded fund. The fund seeks to provide investment results that, before expenses, correspond generally to the price and yield performance of the S&P 500\u00ae Index. The S&P 500\u00ae Index is composed of five hundred selected stocks. SPDR S&P 500 ETF Trust was founded on January 22, 1993 and is headquartered in New York, NY.",
+        "sector": "Financial Services",
+        "industry": "Asset Management",
+        "cumulative_prediction": null,
+        "cumulative_prediction_price": null,
+        "pred_datetime": null,
+        "lookahead_datetime": null,
+        "probability_up": null,
+        "max_lookahead_hours": null,
+        "features": [],
+        "latest_price": 659.82,
+        "latest_price_change_percent": -0.002630146925448383,
+        "latest_datetime": "2026-03-19T19:30:00Z"
+      }
+    }
+  ]
+}

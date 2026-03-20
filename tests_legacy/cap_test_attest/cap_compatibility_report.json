@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-03-20T14:24:54.656210",
+  "base_url": "https://abel-graph-computer-sit.abel.ai",
+  "dry_run": false,
+  "total_tests": 3,
+  "by_primitive": {
+    "attest": {
+      "total": 3,
+      "success": 0,
+      "behavior_match": 0,
+      "required_fields_avg": 0.0,
+      "optional_fields_avg": 0.0
+    }
+  },
+  "results": [
+    {
+      "primitive": "attest",
+      "question_id": "E1",
+      "success": false,
+      "endpoint_called": "/causal_graph/batch/predictions",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "comparison",
+        "ranking"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '404 Not Found' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/batch/predictions?tickers=BTCUSD_close&tickers=ETHUSD_close'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "attest",
+      "question_id": "E2",
+      "success": false,
+      "endpoint_called": "/causal_graph/batch/predictions",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "comparison",
+        "ranking"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '404 Not Found' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/batch/predictions?tickers=XLK&tickers=XLE'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ],
+      "raw_response": null
+    },
+    {
+      "primitive": "attest",
+      "question_id": "E3",
+      "success": false,
+      "endpoint_called": "/causal_graph/batch/predictions",
+      "response_received": false,
+      "required_fields_present": [],
+      "required_fields_missing": [
+        "comparison",
+        "ranking"
+      ],
+      "optional_fields_present": [],
+      "behavior_match": false,
+      "errors": [
+        "Client error '404 Not Found' for url 'https://abel-graph-computer-sit.abel.ai/causal_graph/batch/predictions?tickers=NVDA&tickers=AMD&tickers=TSM&tickers=AVGO&tickers=MRVL'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404"
+      ],
+      "raw_response": null
+    }
+  ]
+}
