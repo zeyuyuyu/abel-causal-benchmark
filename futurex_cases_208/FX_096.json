@@ -5,36 +5,5 @@
   "level": 2,
   "title": "Who will win the 2026 Grammy for Record of the Year?",
   "ground_truth": "['F']",
-  "__index_level_0__": 96,
-  "file_id": "FX_096",
-  "options": [
-    {
-      "id": "A",
-      "text": "\"DtMF,\" Bad Bunny"
-    },
-    {
-      "id": "B",
-      "text": "\"Manchild,\" Sabrina Carpenter"
-    },
-    {
-      "id": "C",
-      "text": "\"Anxiety,\" Doechii"
-    },
-    {
-      "id": "D",
-      "text": "\"Wildflower,\" Billie Eilish"
-    },
-    {
-      "id": "E",
-      "text": "\"Abracadabra,\" Lady Gaga"
-    },
-    {
-      "id": "F",
-      "text": "\"Luther,\" Kendrick Lamar with SZA"
-    },
-    {
-      "id": "G",
-      "text": "\"The Subway,\" Chappell Roan\""
-    }
-  ]
+  "__index_level_0__": 96
 }

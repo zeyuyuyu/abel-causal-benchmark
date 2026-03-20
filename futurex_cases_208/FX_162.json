@@ -5,36 +5,5 @@
   "level": 2,
   "title": "Will James Talarico win the Texas Democratic primary for se by....?",
   "ground_truth": "['A', 'B', 'C', 'D']",
-  "__index_level_0__": 197,
-  "file_id": "FX_162",
-  "options": [
-    {
-      "id": "A",
-      "text": "2.000% or more?"
-    },
-    {
-      "id": "B",
-      "text": "4.000% or more?"
-    },
-    {
-      "id": "C",
-      "text": "6.000% or more?"
-    },
-    {
-      "id": "D",
-      "text": "7.00% or more?"
-    },
-    {
-      "id": "E",
-      "text": "8.00% or more?"
-    },
-    {
-      "id": "F",
-      "text": "10.00% or more?"
-    },
-    {
-      "id": "G",
-      "text": "12.00% or more?\""
-    }
-  ]
+  "__index_level_0__": 197
 }

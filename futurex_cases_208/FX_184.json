@@ -5,7 +5,5 @@
   "level": 3,
   "title": "2026-03-06, what will be the movies ranked from 3 to 5 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
   "ground_truth": "['诗人', '遇见世界', '好孩子']",
-  "__index_level_0__": 229,
-  "file_id": "FX_184",
-  "options": []
+  "__index_level_0__": 229
 }

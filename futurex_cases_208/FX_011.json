@@ -5,40 +5,5 @@
   "level": 2,
   "title": "Which team will win the 2025-2026 College Football Playoff National Championship?",
   "ground_truth": "['F']",
-  "__index_level_0__": 10,
-  "file_id": "FX_011",
-  "options": [
-    {
-      "id": "A",
-      "text": "Ole miss"
-    },
-    {
-      "id": "B",
-      "text": "Alabama"
-    },
-    {
-      "id": "C",
-      "text": "Miami"
-    },
-    {
-      "id": "D",
-      "text": "Texas Tech"
-    },
-    {
-      "id": "E",
-      "text": "Georgia"
-    },
-    {
-      "id": "F",
-      "text": "Indiana"
-    },
-    {
-      "id": "G",
-      "text": "Oregon"
-    },
-    {
-      "id": "H",
-      "text": "Other\""
-    }
-  ]
+  "__index_level_0__": 10
 }

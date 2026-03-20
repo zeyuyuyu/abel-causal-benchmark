@@ -5,56 +5,5 @@
   "level": 2,
   "title": "Best Actor nominees? (2026 Oscars)",
   "ground_truth": "['A']",
-  "__index_level_0__": 48,
-  "file_id": "FX_049",
-  "options": [
-    {
-      "id": "A",
-      "text": "Leonardo DiCaprio - One Battle After Another"
-    },
-    {
-      "id": "B",
-      "text": "Timothée Chalamet - Marty Supreme"
-    },
-    {
-      "id": "C",
-      "text": "Michael B. Jordan - Sinners"
-    },
-    {
-      "id": "D",
-      "text": "Wagner Moura - The Secret Agent"
-    },
-    {
-      "id": "E",
-      "text": "Ethan Hawke - Blue Moon"
-    },
-    {
-      "id": "F",
-      "text": "Jesse Plemons - Bugonia"
-    },
-    {
-      "id": "G",
-      "text": "Joel Edgarton - Train Dreams"
-    },
-    {
-      "id": "H",
-      "text": "Daniel Day-Lewis - Anemone"
-    },
-    {
-      "id": "I",
-      "text": "Jeremy Allen White - Springsteen: Deliver Me From Nowhere"
-    },
-    {
-      "id": "J",
-      "text": "Dwayne Johnson - The Smashing Machine"
-    },
-    {
-      "id": "K",
-      "text": "George Clooney - Jay Kelly"
-    },
-    {
-      "id": "L",
-      "text": "Paul Mescal - The History of Sound\""
-    }
-  ]
+  "__index_level_0__": 48
 }

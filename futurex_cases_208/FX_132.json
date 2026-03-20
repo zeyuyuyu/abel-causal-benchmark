@@ -5,40 +5,5 @@
   "level": 2,
   "title": "Who will win the NFL Most Valuable Player Award for the 2025 season?",
   "ground_truth": "['F']",
-  "__index_level_0__": 134,
-  "file_id": "FX_132",
-  "options": [
-    {
-      "id": "A",
-      "text": "Josh Allen"
-    },
-    {
-      "id": "B",
-      "text": "Sam Darnold"
-    },
-    {
-      "id": "C",
-      "text": "Jordan Love"
-    },
-    {
-      "id": "D",
-      "text": "Drake Maye"
-    },
-    {
-      "id": "E",
-      "text": "Dak Prescott"
-    },
-    {
-      "id": "F",
-      "text": "Matthew Stafford"
-    },
-    {
-      "id": "G",
-      "text": "Caleb Williams"
-    },
-    {
-      "id": "H",
-      "text": "Someone else\""
-    }
-  ]
+  "__index_level_0__": 134
 }

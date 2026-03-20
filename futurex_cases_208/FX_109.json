@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Nicolás Maduro released from custody by...?",
   "ground_truth": "['None of the above']",
-  "__index_level_0__": 109,
-  "file_id": "FX_109",
-  "options": [
-    {
-      "id": "A",
-      "text": "Nicolás Maduro released from custody by December 31, 2026?"
-    },
-    {
-      "id": "B",
-      "text": "Nicolás Maduro released from custody by January 9, 2026?"
-    },
-    {
-      "id": "C",
-      "text": "Nicolás Maduro released from custody by January 31, 2026?\""
-    }
-  ]
+  "__index_level_0__": 109
 }

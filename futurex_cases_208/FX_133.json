@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Who will win the Democratic Party primary for New Jersey's 11th Congressional District special election in 2026?",
   "ground_truth": "['B']",
-  "__index_level_0__": 135,
-  "file_id": "FX_133",
-  "options": [
-    {
-      "id": "A",
-      "text": "Brendan Gill"
-    },
-    {
-      "id": "B",
-      "text": "Analilia Mejia"
-    },
-    {
-      "id": "C",
-      "text": "Tom Malinowski"
-    },
-    {
-      "id": "D",
-      "text": "Tahasha Way"
-    },
-    {
-      "id": "E",
-      "text": "Someone else\""
-    }
-  ]
+  "__index_level_0__": 135
 }

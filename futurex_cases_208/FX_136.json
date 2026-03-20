@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Who will win Jet Lag: The Game Season 16?",
   "ground_truth": "['C']",
-  "__index_level_0__": 138,
-  "file_id": "FX_136",
-  "options": [
-    {
-      "id": "A",
-      "text": "Sam"
-    },
-    {
-      "id": "B",
-      "text": "Ben"
-    },
-    {
-      "id": "C",
-      "text": "Adam\""
-    }
-  ]
+  "__index_level_0__": 138
 }

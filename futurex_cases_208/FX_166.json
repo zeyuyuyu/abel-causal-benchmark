@@ -5,24 +5,5 @@
   "level": 2,
   "title": "Which party will win Colombia’s Chamber of Representatives election?",
   "ground_truth": "['A']",
-  "__index_level_0__": 204,
-  "file_id": "FX_166",
-  "options": [
-    {
-      "id": "A",
-      "text": "Pacto Histórico (PH)"
-    },
-    {
-      "id": "B",
-      "text": "Partido Liberal Colombiano (PLC)"
-    },
-    {
-      "id": "C",
-      "text": "Centro Democrático (CD)"
-    },
-    {
-      "id": "D",
-      "text": "Partido Conservador Colombiano\""
-    }
-  ]
+  "__index_level_0__": 204
 }

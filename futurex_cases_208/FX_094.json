@@ -5,40 +5,5 @@
   "level": 2,
   "title": "Which tennis player will win the Women's Singles Final at the 2026 Australian Open?",
   "ground_truth": "['F']",
-  "__index_level_0__": 94,
-  "file_id": "FX_094",
-  "options": [
-    {
-      "id": "A",
-      "text": "Mirra Andreeva"
-    },
-    {
-      "id": "B",
-      "text": "Amanda Anisimova"
-    },
-    {
-      "id": "C",
-      "text": "Coco Gauff"
-    },
-    {
-      "id": "D",
-      "text": "Madison Keys"
-    },
-    {
-      "id": "E",
-      "text": "Naomi Osaka"
-    },
-    {
-      "id": "F",
-      "text": "Elena Rybakina"
-    },
-    {
-      "id": "G",
-      "text": "Aryna Sabalenka"
-    },
-    {
-      "id": "H",
-      "text": "Iga Swiatek\""
-    }
-  ]
+  "__index_level_0__": 94
 }

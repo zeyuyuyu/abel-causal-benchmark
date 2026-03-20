@@ -5,24 +5,5 @@
   "level": 2,
   "title": "Which party will win Thailand’s legislative election?",
   "ground_truth": "['B']",
-  "__index_level_0__": 136,
-  "file_id": "FX_134",
-  "options": [
-    {
-      "id": "A",
-      "text": "People's Party (PPLE)"
-    },
-    {
-      "id": "B",
-      "text": "Bhumjaithai Party (BJT)"
-    },
-    {
-      "id": "C",
-      "text": "Pheu Thai Party (PTP)"
-    },
-    {
-      "id": "D",
-      "text": "Democrat Party (DP)\""
-    }
-  ]
+  "__index_level_0__": 136
 }

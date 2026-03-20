@@ -5,40 +5,5 @@
   "level": 2,
   "title": "Best New Artist at the 2026 Grammy Awards?",
   "ground_truth": "['A']",
-  "__index_level_0__": 123,
-  "file_id": "FX_121",
-  "options": [
-    {
-      "id": "A",
-      "text": "Olivia Dean"
-    },
-    {
-      "id": "B",
-      "text": "Katseye"
-    },
-    {
-      "id": "C",
-      "text": "The Marias"
-    },
-    {
-      "id": "D",
-      "text": "Addison Rae"
-    },
-    {
-      "id": "E",
-      "text": "Sombr"
-    },
-    {
-      "id": "F",
-      "text": "Leon Thomas"
-    },
-    {
-      "id": "G",
-      "text": "Alex Warren"
-    },
-    {
-      "id": "H",
-      "text": "Lola Young\""
-    }
-  ]
+  "__index_level_0__": 123
 }

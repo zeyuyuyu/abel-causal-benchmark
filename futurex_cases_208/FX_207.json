@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-07, which movies will be ranked from 5 to 7 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)",
   "ground_truth": "['One Battle After Another', 'Dracula', 'Nuremberg']",
-  "__index_level_0__": 259,
-  "file_id": "FX_207",
-  "options": []
+  "__index_level_0__": 259
 }

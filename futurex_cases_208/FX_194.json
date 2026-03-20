@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-06, according to the latest China Influenza Weekly Report (中国流感监测周报) from the Chinese Center for Disease Control and Prevention, how many outbreaks of influenza-like illness (流感样病例暴发疫情) will be reported nationwide?",
   "ground_truth": "['全国未报告流感样病例暴发疫情']",
-  "__index_level_0__": 243,
-  "file_id": "FX_194",
-  "options": []
+  "__index_level_0__": 243
 }

@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Will the Nepali Congress party win the most seats in the 2026 Nepali House of Representatives elections?",
   "ground_truth": "['No']",
-  "__index_level_0__": 208,
-  "file_id": "FX_169",
-  "options": [
-    {
-      "id": "A",
-      "text": "Yes"
-    },
-    {
-      "id": "B",
-      "text": "No"
-    },
-    {
-      "id": "C",
-      "text": "Another outcome\""
-    }
-  ]
+  "__index_level_0__": 208
 }

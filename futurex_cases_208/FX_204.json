@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-09, what will be the technologies ranked from 9 to 11 on the latest Smart Technologies Ranking (智能科技榜) published by Autohome (汽车之家)?",
   "ground_truth": "['AR-HUD', '智能电驱系统', '智能底盘域控制']",
-  "__index_level_0__": 256,
-  "file_id": "FX_204",
-  "options": []
+  "__index_level_0__": 256
 }

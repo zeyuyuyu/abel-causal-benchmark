@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Nepal House of Representatives Election winner?",
   "ground_truth": "['C']",
-  "__index_level_0__": 193,
-  "file_id": "FX_159",
-  "options": [
-    {
-      "id": "A",
-      "text": "Nepali congress"
-    },
-    {
-      "id": "B",
-      "text": "CPN-UML"
-    },
-    {
-      "id": "C",
-      "text": "RSP"
-    },
-    {
-      "id": "D",
-      "text": "RPP"
-    },
-    {
-      "id": "E",
-      "text": "Other\""
-    }
-  ]
+  "__index_level_0__": 193
 }

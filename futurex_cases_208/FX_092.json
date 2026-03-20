@@ -5,7 +5,5 @@
   "level": 2,
   "title": "Will Israel strike Gaza on...?",
   "ground_truth": "['C', 'E', 'G', 'H', 'J', 'K', 'L', 'M', 'O', 'U', 'X', '[', ']', '^', '_']",
-  "__index_level_0__": 92,
-  "file_id": "FX_092",
-  "options": []
+  "__index_level_0__": 92
 }

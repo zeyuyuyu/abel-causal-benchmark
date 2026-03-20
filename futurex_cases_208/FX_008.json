@@ -5,40 +5,5 @@
   "level": 2,
   "title": "Who will post the winning guess in Ben’s puzzle (round 2) as yourself!",
   "ground_truth": "['D']",
-  "__index_level_0__": 7,
-  "file_id": "FX_008",
-  "options": [
-    {
-      "id": "A",
-      "text": "Winning guess is not posted"
-    },
-    {
-      "id": "B",
-      "text": "Other"
-    },
-    {
-      "id": "C",
-      "text": "Phenomist"
-    },
-    {
-      "id": "D",
-      "text": "Eliza"
-    },
-    {
-      "id": "E",
-      "text": "Jim Hays"
-    },
-    {
-      "id": "F",
-      "text": "Q Breezy"
-    },
-    {
-      "id": "G",
-      "text": "MachiNi"
-    },
-    {
-      "id": "H",
-      "text": "@Jack1\""
-    }
-  ]
+  "__index_level_0__": 7
 }

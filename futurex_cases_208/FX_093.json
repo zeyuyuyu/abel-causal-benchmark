@@ -5,28 +5,5 @@
   "level": 2,
   "title": "How Many Days will Arlington Virginia Public Schools be Cancelled Next Week?",
   "ground_truth": "['A']",
-  "__index_level_0__": 93,
-  "file_id": "FX_093",
-  "options": [
-    {
-      "id": "A",
-      "text": "0"
-    },
-    {
-      "id": "B",
-      "text": "1"
-    },
-    {
-      "id": "C",
-      "text": "2"
-    },
-    {
-      "id": "D",
-      "text": "3"
-    },
-    {
-      "id": "E",
-      "text": "4\""
-    }
-  ]
+  "__index_level_0__": 93
 }

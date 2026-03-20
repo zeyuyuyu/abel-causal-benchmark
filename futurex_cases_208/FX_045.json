@@ -5,48 +5,5 @@
   "level": 2,
   "title": "Best Director nominees? (2026 Oscars)",
   "ground_truth": "['A', 'B', 'C', 'D', 'E']",
-  "__index_level_0__": 44,
-  "file_id": "FX_045",
-  "options": [
-    {
-      "id": "A",
-      "text": "Paul Thomas Anderson - One Battle After Another"
-    },
-    {
-      "id": "B",
-      "text": "Ryan Coogler - Sinners"
-    },
-    {
-      "id": "C",
-      "text": "Chloé Zhao - Hamnet"
-    },
-    {
-      "id": "D",
-      "text": "Joachim Trier - Sentimental Value"
-    },
-    {
-      "id": "E",
-      "text": "Jafar Panahi - It Was Just an Accident"
-    },
-    {
-      "id": "F",
-      "text": "Josh Safdie - Marty Supreme"
-    },
-    {
-      "id": "G",
-      "text": "Guillermo del Toro - Frankenstein"
-    },
-    {
-      "id": "H",
-      "text": "Yorgos Lanthimos - Bugonia"
-    },
-    {
-      "id": "I",
-      "text": "Mona Fastvold - The Testament of Ann Lee"
-    },
-    {
-      "id": "J",
-      "text": "James Cameron - Avatar: Fire and Ash\""
-    }
-  ]
+  "__index_level_0__": 44
 }

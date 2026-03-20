@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Reeves or Lammy out first?",
   "ground_truth": "['C']",
-  "__index_level_0__": 101,
-  "file_id": "FX_101",
-  "options": [
-    {
-      "id": "A",
-      "text": "Reeves first"
-    },
-    {
-      "id": "B",
-      "text": "Lammy first"
-    },
-    {
-      "id": "C",
-      "text": "Both are still in post by 1 February 2026\""
-    }
-  ]
+  "__index_level_0__": 101
 }

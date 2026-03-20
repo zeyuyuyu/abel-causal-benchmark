@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-09, what will the value (in hundreds of millions of yuan, two decimal places) of Daily Sell Trades (当日卖出成交金额) of Shanghai-Hong Kong Stock Connect's Southbound Trading (港股通) be?",
   "ground_truth": "[409.0]",
-  "__index_level_0__": 258,
-  "file_id": "FX_206",
-  "options": []
+  "__index_level_0__": 258
 }

@@ -5,7 +5,5 @@
   "level": 2,
   "title": "What will Trump say in January?",
   "ground_truth": "['F', 'G', 'H', 'I', 'J', 'L', 'M', 'N', 'O', 'P', 'Q', 'S']",
-  "__index_level_0__": 77,
-  "file_id": "FX_077",
-  "options": []
+  "__index_level_0__": 77
 }

@@ -5,24 +5,5 @@
   "level": 2,
   "title": "In what place will the Green Party (Bündnis 90/Die Grünen, or the Greens) rank in seats won in the 2026 Baden-Württemberg Landtag (state parliament) elections?",
   "ground_truth": "['A']",
-  "__index_level_0__": 202,
-  "file_id": "FX_164",
-  "options": [
-    {
-      "id": "A",
-      "text": "First"
-    },
-    {
-      "id": "B",
-      "text": "Second"
-    },
-    {
-      "id": "C",
-      "text": "Third"
-    },
-    {
-      "id": "D",
-      "text": "Fourth or lower\""
-    }
-  ]
+  "__index_level_0__": 202
 }

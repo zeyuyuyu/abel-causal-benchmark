@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-09, which works will be ranked from 1 to 3 on the latest weekly tipping chart for audio dramas (广播剧打赏榜周榜) on Maoer (猫耳) FM (MissEvan)? (Give the work names only)",
   "ground_truth": "['语义错误 第一季', '春雨秋云', '初三的六一儿童节']",
-  "__index_level_0__": 249,
-  "file_id": "FX_198",
-  "options": []
+  "__index_level_0__": 249
 }

@@ -5,7 +5,5 @@
   "level": 2,
   "title": "Which soccer players will sign with new clubs in winter window?",
   "ground_truth": "['D', 'H', 'I', 'J', 'K', 'M', 'O', 'Q', 'W', '`']",
-  "__index_level_0__": 85,
-  "file_id": "FX_085",
-  "options": []
+  "__index_level_0__": 85
 }

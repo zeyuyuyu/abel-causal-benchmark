@@ -5,20 +5,5 @@
   "level": 1,
   "title": "How will the winner of the portugal presidential election win",
   "ground_truth": "['A']",
-  "__index_level_0__": 60,
-  "file_id": "FX_061",
-  "options": [
-    {
-      "id": "A",
-      "text": "Only candidate above 50% in round one"
-    },
-    {
-      "id": "B",
-      "text": "Wins first round and the runoff"
-    },
-    {
-      "id": "C",
-      "text": "2nd place in the first round, wins runoff\""
-    }
-  ]
+  "__index_level_0__": 60
 }

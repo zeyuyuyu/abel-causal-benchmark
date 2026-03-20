@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Who will win the 2026 Grammy for Best Pop Vocal Album?",
   "ground_truth": "['D']",
-  "__index_level_0__": 95,
-  "file_id": "FX_095",
-  "options": [
-    {
-      "id": "A",
-      "text": "\"SWAG,\" Justin Bieber"
-    },
-    {
-      "id": "B",
-      "text": "\"Man's Best Friend,\" Sabrina Carpenter"
-    },
-    {
-      "id": "C",
-      "text": "\"Something Beautiful,\" Miley Cyrus"
-    },
-    {
-      "id": "D",
-      "text": "\"MAYHEM,\" Lady Gaga"
-    },
-    {
-      "id": "E",
-      "text": "\"I've Tried Everything But Therapy (Part 2),\" Teddy Swims\""
-    }
-  ]
+  "__index_level_0__": 95
 }

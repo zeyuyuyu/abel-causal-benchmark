@@ -5,32 +5,5 @@
   "level": 2,
   "title": "What will be the domestic box office gross in the opening weekend for \"28 Years Later: The Bone Temple,\" according to Box Office Mojo?",
   "ground_truth": "[\"A\"]",
-  "__index_level_0__": 31,
-  "file_id": "FX_032",
-  "options": [
-    {
-      "id": "A",
-      "text": "Less than $15 million"
-    },
-    {
-      "id": "B",
-      "text": "At least $15 million, but less than $30 million"
-    },
-    {
-      "id": "C",
-      "text": "At least $30 million, but less than $45 million"
-    },
-    {
-      "id": "D",
-      "text": "At least $45 million, but less than $60 million"
-    },
-    {
-      "id": "E",
-      "text": "At least $60 million, but less than $75 million"
-    },
-    {
-      "id": "F",
-      "text": "At least $75 million, but less than $90 million\""
-    }
-  ]
+  "__index_level_0__": 31
 }

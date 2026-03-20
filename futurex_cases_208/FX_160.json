@@ -5,24 +5,5 @@
   "level": 2,
   "title": "Team of winning driver at Australian Grand Prix?",
   "ground_truth": "['A']",
-  "__index_level_0__": 195,
-  "file_id": "FX_160",
-  "options": [
-    {
-      "id": "A",
-      "text": "McLaren"
-    },
-    {
-      "id": "B",
-      "text": "Mercedes"
-    },
-    {
-      "id": "C",
-      "text": "Ferrari"
-    },
-    {
-      "id": "D",
-      "text": "Other\""
-    }
-  ]
+  "__index_level_0__": 195
 }

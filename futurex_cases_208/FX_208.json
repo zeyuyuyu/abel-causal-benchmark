@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-10, what songs will be ranked from 3 to 5 in the latest UK's Official Singles Chart Top 100? (Give the songs only)",
   "ground_truth": "['FEVER DREAM', 'Stateside', 'So Easy (To Fall In Love)']",
-  "__index_level_0__": 261,
-  "file_id": "FX_208",
-  "options": []
+  "__index_level_0__": 261
 }

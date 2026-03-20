@@ -5,20 +5,5 @@
   "level": 1,
   "title": "At close of business on 23 January 2026, will the most recently announced Bank of Japan (BOJ) \"uncollateralized overnight call [interest] rate\" be lower, the same, or higher than it was at close of business on 19 December 2025?",
   "ground_truth": "['B']",
-  "__index_level_0__": 53,
-  "file_id": "FX_054",
-  "options": [
-    {
-      "id": "A",
-      "text": "Lower"
-    },
-    {
-      "id": "B",
-      "text": "Same"
-    },
-    {
-      "id": "C",
-      "text": "Higher\""
-    }
-  ]
+  "__index_level_0__": 53
 }

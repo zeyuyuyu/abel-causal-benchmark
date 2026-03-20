@@ -5,7 +5,5 @@
   "level": 2,
   "title": "Measles cases in U.S. by January 31?",
   "ground_truth": "['A', 'B', 'C', 'E', 'F', 'G', 'H', 'I']",
-  "__index_level_0__": 86,
-  "file_id": "FX_086",
-  "options": []
+  "__index_level_0__": 86
 }

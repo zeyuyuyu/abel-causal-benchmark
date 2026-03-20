@@ -5,36 +5,5 @@
   "level": 2,
   "title": "Who will win the 2026 MIT Science Olympiad Invitational?",
   "ground_truth": "['A']",
-  "__index_level_0__": 46,
-  "file_id": "FX_047",
-  "options": [
-    {
-      "id": "A",
-      "text": "Troy H.S. (Fullerton, CA)"
-    },
-    {
-      "id": "B",
-      "text": "Mason H.S. (Mason, OH)"
-    },
-    {
-      "id": "C",
-      "text": "Monta Vista H.S. (Cupertino, CA)"
-    },
-    {
-      "id": "D",
-      "text": "Seven Lakes H.S. (Katy, TX)"
-    },
-    {
-      "id": "E",
-      "text": "Harriton H.S. (Rosemont, PA)"
-    },
-    {
-      "id": "F",
-      "text": "Montgomery H.S. (Skillman, NJ)"
-    },
-    {
-      "id": "G",
-      "text": "Mountain View H.S. (Mountain View, CA)\""
-    }
-  ]
+  "__index_level_0__": 46
 }

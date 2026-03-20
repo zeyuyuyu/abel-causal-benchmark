@@ -5,20 +5,5 @@
   "level": 1,
   "title": "In which city will Tetra be on January 15th 2026?",
   "ground_truth": "['A']",
-  "__index_level_0__": 27,
-  "file_id": "FX_028",
-  "options": [
-    {
-      "id": "A",
-      "text": "Blackpool"
-    },
-    {
-      "id": "B",
-      "text": "Middlesbrough"
-    },
-    {
-      "id": "C",
-      "text": "Other\""
-    }
-  ]
+  "__index_level_0__": 27
 }

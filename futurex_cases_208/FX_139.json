@@ -5,20 +5,5 @@
   "level": 1,
   "title": "At close of business on 5 February 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 18 December 2025?",
   "ground_truth": "['B']",
-  "__index_level_0__": 141,
-  "file_id": "FX_139",
-  "options": [
-    {
-      "id": "A",
-      "text": "Lower"
-    },
-    {
-      "id": "B",
-      "text": "Same"
-    },
-    {
-      "id": "C",
-      "text": "Higher\""
-    }
-  ]
+  "__index_level_0__": 141
 }

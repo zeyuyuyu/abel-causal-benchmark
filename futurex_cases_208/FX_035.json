@@ -5,56 +5,5 @@
   "level": 2,
   "title": "Best Actress nominees? (2026 Oscars)",
   "ground_truth": "['A', 'B', 'C', 'D', 'E']",
-  "__index_level_0__": 34,
-  "file_id": "FX_035",
-  "options": [
-    {
-      "id": "A",
-      "text": "Jessie Buckley - Hamnet"
-    },
-    {
-      "id": "B",
-      "text": "Rose Byrne - If I Had Legs I'd Kick You"
-    },
-    {
-      "id": "C",
-      "text": "Renate Reinsve - Sentimental Value"
-    },
-    {
-      "id": "D",
-      "text": "Emma Stone - Bugonia"
-    },
-    {
-      "id": "E",
-      "text": "Chase Infiniti - One Battle After Another"
-    },
-    {
-      "id": "F",
-      "text": "Kate Hudson - Song Sung Blue"
-    },
-    {
-      "id": "G",
-      "text": "Amanda Seyfried - The Testament of Ann Lee"
-    },
-    {
-      "id": "H",
-      "text": "Cynthia Erivo - Wicked: For Good"
-    },
-    {
-      "id": "I",
-      "text": "Jennifer Lawrence - Die, My Love"
-    },
-    {
-      "id": "J",
-      "text": "June Squibb - Eleanor the Great"
-    },
-    {
-      "id": "K",
-      "text": "Sydney Sweeney - Christy"
-    },
-    {
-      "id": "L",
-      "text": "Julia Roberts - After the Hunt\""
-    }
-  ]
+  "__index_level_0__": 34
 }

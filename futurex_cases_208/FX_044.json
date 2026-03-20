@@ -5,48 +5,5 @@
   "level": 2,
   "title": "Best Supporting Actress nominees? (2026 Oscars)",
   "ground_truth": "['A']",
-  "__index_level_0__": 43,
-  "file_id": "FX_044",
-  "options": [
-    {
-      "id": "A",
-      "text": "Teyana Taylor - One Battle After Another"
-    },
-    {
-      "id": "B",
-      "text": "Amy Madigan - Weapons"
-    },
-    {
-      "id": "C",
-      "text": "Inga Ibsdotter Lilleaas - Sentimental Value"
-    },
-    {
-      "id": "D",
-      "text": "Wunmi Mosaku - Sinners"
-    },
-    {
-      "id": "E",
-      "text": "Ariana Grande - Wicked: For Good"
-    },
-    {
-      "id": "F",
-      "text": "Odessa A'zion - Marty Supreme"
-    },
-    {
-      "id": "G",
-      "text": "Elle Fanning - Sentimental Value"
-    },
-    {
-      "id": "H",
-      "text": "Gwyneth Paltrow - Marty Supreme"
-    },
-    {
-      "id": "I",
-      "text": "Regina Hall - One Battle After Another"
-    },
-    {
-      "id": "J",
-      "text": "Laura Dern - Jay Kelly\""
-    }
-  ]
+  "__index_level_0__": 43
 }

@@ -5,44 +5,5 @@
   "level": 2,
   "title": "Who will win the 2026 Prague Masters chess tournament?",
   "ground_truth": "['A']",
-  "__index_level_0__": 187,
-  "file_id": "FX_156",
-  "options": [
-    {
-      "id": "A",
-      "text": "Nodirbek Abdusattorov"
-    },
-    {
-      "id": "B",
-      "text": "Jorden van Foreest"
-    },
-    {
-      "id": "C",
-      "text": "Vincent Keymer"
-    },
-    {
-      "id": "D",
-      "text": "Gukesh Dommaraju"
-    },
-    {
-      "id": "E",
-      "text": "Nodirbek Yakubboev"
-    },
-    {
-      "id": "F",
-      "text": "David Navara OR David Antón Guijarro"
-    },
-    {
-      "id": "G",
-      "text": "Hans Niemann"
-    },
-    {
-      "id": "H",
-      "text": "Aravindh Chithambaram"
-    },
-    {
-      "id": "I",
-      "text": "Parham Maghsoodloo\""
-    }
-  ]
+  "__index_level_0__": 187
 }

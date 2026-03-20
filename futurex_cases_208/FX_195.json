@@ -5,7 +5,5 @@
   "level": 4,
   "title": "2026-03-07, what will be the projects ranked from 1 to 3 on OpenGithubs' github-daily-rank of this date? (Give the project names only)",
   "ground_truth": "['moeru-ai/airi', 'msitarzewski/agency-agents', 'shareAI-lab/learn-claude-code']",
-  "__index_level_0__": 245,
-  "file_id": "FX_195",
-  "options": []
+  "__index_level_0__": 245
 }

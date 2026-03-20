@@ -5,24 +5,5 @@
   "level": 2,
   "title": "2025 CAF Cup of Nations (AFCON) Winner",
   "ground_truth": "['A']",
-  "__index_level_0__": 4,
-  "file_id": "FX_005",
-  "options": [
-    {
-      "id": "A",
-      "text": "Senegal"
-    },
-    {
-      "id": "B",
-      "text": "Morocco"
-    },
-    {
-      "id": "C",
-      "text": "Nigeria"
-    },
-    {
-      "id": "D",
-      "text": "Egypt\""
-    }
-  ]
+  "__index_level_0__": 4
 }

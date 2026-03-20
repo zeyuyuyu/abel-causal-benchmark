@@ -5,36 +5,5 @@
   "level": 2,
   "title": "Global Average Temperature Dec 2025 per LOTI v4 vs 1951-1980 base period (NASA Gistemp)",
   "ground_truth": "['A']",
-  "__index_level_0__": 5,
-  "file_id": "FX_006",
-  "options": [
-    {
-      "id": "A",
-      "text": "December 2025 less than 1.095C"
-    },
-    {
-      "id": "B",
-      "text": "December 2025 1.095C or more and less than 1.145C"
-    },
-    {
-      "id": "C",
-      "text": "December 2025 1.145C or more and less than 1.195C"
-    },
-    {
-      "id": "D",
-      "text": "December 2025 1.195C or more and less than 1.245C"
-    },
-    {
-      "id": "E",
-      "text": "December 2025 1.245C or more and less than 1.295C"
-    },
-    {
-      "id": "F",
-      "text": "December 2025 1.295C or more and less than 1.345C"
-    },
-    {
-      "id": "G",
-      "text": "December 2025 1.345C or more\""
-    }
-  ]
+  "__index_level_0__": 5
 }

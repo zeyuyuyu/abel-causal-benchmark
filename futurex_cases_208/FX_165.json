@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Between 10 October 2025 and 6 March 2026, what will be the lowest closing price of soybeans?",
   "ground_truth": "['E']",
-  "__index_level_0__": 203,
-  "file_id": "FX_165",
-  "options": [
-    {
-      "id": "A",
-      "text": "Less than $8.00/bushel"
-    },
-    {
-      "id": "B",
-      "text": "At least $8.00/bushel, but less than $8.50/bushel"
-    },
-    {
-      "id": "C",
-      "text": "At least $8.50/bushel, but less than $9.00/bushel"
-    },
-    {
-      "id": "D",
-      "text": "At least $9.00/bushel, but less than $9.50/bushel"
-    },
-    {
-      "id": "E",
-      "text": "$9.50/bushel or more\""
-    }
-  ]
+  "__index_level_0__": 203
 }

@@ -5,24 +5,5 @@
   "level": 2,
   "title": "When will Dubai airport resume normal operations",
   "ground_truth": "['A']",
-  "__index_level_0__": 200,
-  "file_id": "FX_163",
-  "options": [
-    {
-      "id": "A",
-      "text": "March 2 or earlier"
-    },
-    {
-      "id": "B",
-      "text": "March 3 or 4"
-    },
-    {
-      "id": "C",
-      "text": "March 5 or 6"
-    },
-    {
-      "id": "D",
-      "text": "March 7 or later\""
-    }
-  ]
+  "__index_level_0__": 200
 }

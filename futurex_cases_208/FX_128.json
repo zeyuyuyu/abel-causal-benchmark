@@ -5,40 +5,5 @@
   "level": 2,
   "title": "What is the highest Sharpe ratio of any Manifold user?",
   "ground_truth": "['H']",
-  "__index_level_0__": 130,
-  "file_id": "FX_128",
-  "options": [
-    {
-      "id": "A",
-      "text": "Below 5"
-    },
-    {
-      "id": "B",
-      "text": "5 - 7.4"
-    },
-    {
-      "id": "C",
-      "text": "7.5 - 9.9"
-    },
-    {
-      "id": "D",
-      "text": "10 - 12.4"
-    },
-    {
-      "id": "E",
-      "text": "12.5 - 14.9"
-    },
-    {
-      "id": "F",
-      "text": "15 - 17.4"
-    },
-    {
-      "id": "G",
-      "text": "17.5 - 20"
-    },
-    {
-      "id": "H",
-      "text": "Above 20\""
-    }
-  ]
+  "__index_level_0__": 130
 }

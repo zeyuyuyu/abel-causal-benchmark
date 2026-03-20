@@ -5,7 +5,5 @@
   "level": 3,
   "title": "2026-03-09, what will be the vehicles ranked from 1 to 3 on the hot list across China for sedans (轿车全国热门榜) of this date published by Dongchedi (DCar, 懂车帝)? (Give the vehicle names only)",
   "ground_truth": "['迈腾', '速腾', '奥迪A6L']",
-  "__index_level_0__": 239,
-  "file_id": "FX_191",
-  "options": []
+  "__index_level_0__": 239
 }

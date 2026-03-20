@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Who will win the Masters section of the 2026 Tata Steel Chess Tournament?",
   "ground_truth": "['A']",
-  "__index_level_0__": 122,
-  "file_id": "FX_120",
-  "options": [
-    {
-      "id": "A",
-      "text": "Nodirbek Abdusattorov"
-    },
-    {
-      "id": "B",
-      "text": "Javokhir Sindarov"
-    },
-    {
-      "id": "C",
-      "text": "Jorden van Foreest"
-    },
-    {
-      "id": "D",
-      "text": "Matthias Bluebaum"
-    },
-    {
-      "id": "E",
-      "text": "Hans Niemann\""
-    }
-  ]
+  "__index_level_0__": 122
 }

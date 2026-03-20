@@ -5,24 +5,5 @@
   "level": 2,
   "title": "What will be true of the oil tanker Marinera on 14th January?",
   "ground_truth": "['A']",
-  "__index_level_0__": 9,
-  "file_id": "FX_010",
-  "options": [
-    {
-      "id": "A",
-      "text": "Under US control"
-    },
-    {
-      "id": "B",
-      "text": "US claims to have found drugs on board"
-    },
-    {
-      "id": "C",
-      "text": "US claims to have found weapons on board"
-    },
-    {
-      "id": "D",
-      "text": "Sunk / scuppered / heavily damaged\""
-    }
-  ]
+  "__index_level_0__": 9
 }

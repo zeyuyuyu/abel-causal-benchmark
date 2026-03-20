@@ -5,36 +5,5 @@
   "level": 2,
   "title": "SUPER BOWL STATS PREDICTIONS",
   "ground_truth": "['A', 'B', 'C']",
-  "__index_level_0__": 127,
-  "file_id": "FX_125",
-  "options": [
-    {
-      "id": "A",
-      "text": "5+ sacks"
-    },
-    {
-      "id": "B",
-      "text": "Completed FG over 50 yards"
-    },
-    {
-      "id": "C",
-      "text": "6+ Touchdowns"
-    },
-    {
-      "id": "D",
-      "text": "Seahawks have longest punt"
-    },
-    {
-      "id": "E",
-      "text": "Patriots have longest kickoff return"
-    },
-    {
-      "id": "F",
-      "text": "2+ fumbles"
-    },
-    {
-      "id": "G",
-      "text": "2+ missed FGs / extra points\""
-    }
-  ]
+  "__index_level_0__": 127
 }

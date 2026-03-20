@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Most streamed album of 2025",
   "ground_truth": "['B']",
-  "__index_level_0__": 121,
-  "file_id": "FX_119",
-  "options": [
-    {
-      "id": "A",
-      "text": "'The Life of a Showgirl' by Taylor Swift"
-    },
-    {
-      "id": "B",
-      "text": "'Debí Tirar Más Fotos' by Bad Bunny"
-    },
-    {
-      "id": "C",
-      "text": "'I'm the Problem' by Morgan Wallen"
-    },
-    {
-      "id": "D",
-      "text": "KPop Demon Hunters Soundtrack"
-    },
-    {
-      "id": "E",
-      "text": "Other\""
-    }
-  ]
+  "__index_level_0__": 121
 }

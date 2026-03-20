@@ -5,48 +5,5 @@
   "level": 2,
   "title": "GPT 5.2 METR time horizon",
   "ground_truth": "['J']",
-  "__index_level_0__": 80,
-  "file_id": "FX_080",
-  "options": [
-    {
-      "id": "A",
-      "text": "<2h"
-    },
-    {
-      "id": "B",
-      "text": "2h00 - 2h15"
-    },
-    {
-      "id": "C",
-      "text": "2h15 - 2h30"
-    },
-    {
-      "id": "D",
-      "text": "2h30 - 2h45"
-    },
-    {
-      "id": "E",
-      "text": "2h45 - 3h00"
-    },
-    {
-      "id": "F",
-      "text": "3h00 - 3h15"
-    },
-    {
-      "id": "G",
-      "text": "3h15 - 3h30"
-    },
-    {
-      "id": "H",
-      "text": "3h30 - 3h45"
-    },
-    {
-      "id": "I",
-      "text": "3h45 - 4h"
-    },
-    {
-      "id": "J",
-      "text": ">= 4h\""
-    }
-  ]
+  "__index_level_0__": 80
 }

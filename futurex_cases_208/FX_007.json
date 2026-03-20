@@ -5,32 +5,5 @@
   "level": 2,
   "title": "MCSR Ranked Playoffs Season 9 Winner",
   "ground_truth": "['C']",
-  "__index_level_0__": 6,
-  "file_id": "FX_007",
-  "options": [
-    {
-      "id": "A",
-      "text": "infume"
-    },
-    {
-      "id": "B",
-      "text": "doogie"
-    },
-    {
-      "id": "C",
-      "text": "hackingnoises"
-    },
-    {
-      "id": "D",
-      "text": "lowk3y_"
-    },
-    {
-      "id": "E",
-      "text": "edcr"
-    },
-    {
-      "id": "F",
-      "text": "Other\""
-    }
-  ]
+  "__index_level_0__": 6
 }

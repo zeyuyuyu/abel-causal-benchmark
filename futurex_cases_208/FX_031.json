@@ -5,20 +5,5 @@
   "level": 1,
   "title": "FC Köln vs. FC Bayern München",
   "ground_truth": "['A']",
-  "__index_level_0__": 30,
-  "file_id": "FX_031",
-  "options": [
-    {
-      "id": "A",
-      "text": "FC Bayern München"
-    },
-    {
-      "id": "B",
-      "text": "Tie"
-    },
-    {
-      "id": "C",
-      "text": "FC Köln\""
-    }
-  ]
+  "__index_level_0__": 30
 }

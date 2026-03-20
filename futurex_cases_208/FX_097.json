@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Tesla hits $400 or $500 first before end of January 2026?",
   "ground_truth": "['A']",
-  "__index_level_0__": 97,
-  "file_id": "FX_097",
-  "options": [
-    {
-      "id": "A",
-      "text": "Tesla hits or trades below $400.00 first"
-    },
-    {
-      "id": "B",
-      "text": "Tesla hits or trades above $500.00 first"
-    },
-    {
-      "id": "C",
-      "text": "Tesla hits neither $400 nor $500 before market close on Jan 30\""
-    }
-  ]
+  "__index_level_0__": 97
 }

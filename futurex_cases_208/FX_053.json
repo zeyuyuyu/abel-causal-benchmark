@@ -5,12 +5,5 @@
   "level": 1,
   "title": "Bank of Brazil decision in January?",
   "ground_truth": "['A']",
-  "__index_level_0__": 52,
-  "file_id": "FX_053",
-  "options": [
-    {
-      "id": "A",
-      "text": "No change in the Selic rate after Bank of Brazil's January 2026 meeting?"
-    }
-  ]
+  "__index_level_0__": 52
 }

@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Nvidia hits 170, 200 or neither first by end of January 2026?",
   "ground_truth": "['A']",
-  "__index_level_0__": 100,
-  "file_id": "FX_100",
-  "options": [
-    {
-      "id": "A",
-      "text": "Hits or goes below $170.00 first"
-    },
-    {
-      "id": "B",
-      "text": "Hits or goes above $200.00 first"
-    },
-    {
-      "id": "C",
-      "text": "Hits neither before end of trading January 30\""
-    }
-  ]
+  "__index_level_0__": 100
 }

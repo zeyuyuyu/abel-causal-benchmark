@@ -5,32 +5,5 @@
   "level": 2,
   "title": "チームみらいが衆院選で獲得する議席数は？(How many seats will Team Mirai win in the Feb 2026 Japan lower house election?)",
   "ground_truth": "['A']",
-  "__index_level_0__": 132,
-  "file_id": "FX_130",
-  "options": [
-    {
-      "id": "A",
-      "text": "0～2"
-    },
-    {
-      "id": "B",
-      "text": "3"
-    },
-    {
-      "id": "C",
-      "text": "4"
-    },
-    {
-      "id": "D",
-      "text": "5"
-    },
-    {
-      "id": "E",
-      "text": "6"
-    },
-    {
-      "id": "F",
-      "text": "7+\""
-    }
-  ]
+  "__index_level_0__": 132
 }

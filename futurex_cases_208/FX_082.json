@@ -5,28 +5,5 @@
   "level": 2,
   "title": "Which nation will be the focus of Stellaris Invicta Season 3?",
   "ground_truth": "['A']",
-  "__index_level_0__": 82,
-  "file_id": "FX_082",
-  "options": [
-    {
-      "id": "A",
-      "text": "United Federation of Nations"
-    },
-    {
-      "id": "B",
-      "text": "Tripartite of Sol"
-    },
-    {
-      "id": "C",
-      "text": "Holy Solar Empire"
-    },
-    {
-      "id": "D",
-      "text": "House Triton"
-    },
-    {
-      "id": "E",
-      "text": "Eternal Kreventum\""
-    }
-  ]
+  "__index_level_0__": 82
 }

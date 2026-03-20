@@ -5,40 +5,5 @@
   "level": 2,
   "title": "Which candidates will make it to the second round of the Portuguese Presidential elections on 18 Jan 2026?",
   "ground_truth": "['B']",
-  "__index_level_0__": 2,
-  "file_id": "FX_003",
-  "options": [
-    {
-      "id": "A",
-      "text": "Other"
-    },
-    {
-      "id": "B",
-      "text": "António José Seguro vs. André Ventura"
-    },
-    {
-      "id": "C",
-      "text": "Marques Mendes vs. André Ventura"
-    },
-    {
-      "id": "D",
-      "text": "Marques Mendes vs. António José Seguro"
-    },
-    {
-      "id": "E",
-      "text": "Gouveia e Melo vs. André Ventura"
-    },
-    {
-      "id": "F",
-      "text": "Gouveia e Melo vs. Marques Mendes"
-    },
-    {
-      "id": "G",
-      "text": "Gouveia e Melo vs. António José Seguro"
-    },
-    {
-      "id": "H",
-      "text": "No second round\""
-    }
-  ]
+  "__index_level_0__": 2
 }

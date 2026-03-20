@@ -5,20 +5,5 @@
   "level": 1,
   "title": "Which party will win Colombia’s Senate election?",
   "ground_truth": "['A']",
-  "__index_level_0__": 211,
-  "file_id": "FX_172",
-  "options": [
-    {
-      "id": "A",
-      "text": "Pacto Histórico (PH)"
-    },
-    {
-      "id": "B",
-      "text": "Centro Democrático (CD)"
-    },
-    {
-      "id": "C",
-      "text": "Alianza Verde / Coalición Centro Esperanza (AV/CCE)\""
-    }
-  ]
+  "__index_level_0__": 211
 }

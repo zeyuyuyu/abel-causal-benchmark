@@ -5,7 +5,5 @@
   "level": 3,
   "title": "2026-01-30, what will be the movies ranked from 4 to 6 on the latest weekly word-of-mouth movie ranking (一周口碑电影榜) published by Douban (豆瓣)? (Give the movie titles only)",
   "ground_truth": "['翠湖', '密探', '奥利维娅与云']",
-  "__index_level_0__": 114,
-  "file_id": "FX_114",
-  "options": []
+  "__index_level_0__": 114
 }
