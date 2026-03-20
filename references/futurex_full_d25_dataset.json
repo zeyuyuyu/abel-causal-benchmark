@@ -1,0 +1,663 @@
+{
+  "source": "futurex-ai/Futurex-Online",
+  "total_cases": 81,
+  "categories": {
+    "N/A": 81
+  },
+  "levels": {
+    "2": 25,
+    "1": 21,
+    "3": 13,
+    "4": 22
+  },
+  "cases": [
+    {
+      "id": "698dce247812fd005da42746",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69930e07c2413b005de8b80b",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69945f879b67cb005cfaa292",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "699702870408ab00683a025e",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-21"
+    },
+    {
+      "id": "699702870408ab00683a025c",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-21"
+    },
+    {
+      "id": "699702870408ab00683a0259",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6997062b0408ab00683a0262",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6998540873bcba006869e619",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6998540873bcba006869e61b",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6998540873bcba006869e61a",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "699c4887d1d3cf005c1e48cc",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69a03d1781109300686005fc",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69a4319df2cb3b006875e9d5",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69a5830b7554ef0068e464d8",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69a830e529c5bb005eeeb10d",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69a977a47e9d43005df0d708",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69ad6c53a6622a00642b8aad",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69ad6c53a6622a00642b8ab1",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "69b00f0e54b7b400676ea553",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "69b403b749eb3f005a923d1e",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69b5552c6ccead0066d5b482",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-21"
+    },
+    {
+      "id": "69b5552c6ccead0066d5b474",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "69b5552c6ccead0066d5b472",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "6995b1073ea64b005b11f2a2",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "698c7689b06cd2005cde5b30",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 2,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69b403b749eb3f005a923d11",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "6995b1073ea64b005b11f2a1",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "698c7689b06cd2005cde5b32",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6998540873bcba006869e617",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6998540873bcba006869e5f8",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6995b10b3ea64b005b11f2a9",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "6995b1073ea64b005b11f2a0",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69b160921ebfe30068c2cdd2",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6995b1073ea64b005b11f29e",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "69b403b749eb3f005a923d0e",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "69b2b226782d0900685d5fb6",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6998540873bcba006869e5f5",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69b403b749eb3f005a923d0d",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-24"
+    },
+    {
+      "id": "6998540873bcba006869e608",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6999a58817d430006670a390",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "6964e98652029b005bc00995",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "69b2b226782d0900685d5fb4",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-21"
+    },
+    {
+      "id": "699c4887d1d3cf005c1e48ac",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6999a58817d430006670a398",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "69a03d1781109300686005e4",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "69a4319df2cb3b006875e9d3",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 1,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "685141c3b3bf920060db7796",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "685141eca047fd005f77ef02",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "68774eaf0fc811003bd35b6d",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "685146342537420060414055",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "68517362eb11c800614780de",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "685173c159f71f006037a1e9",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "685e494b6e8dbd006cdc6f7c",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "687071f2d3d00b006b624a8c",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-21"
+    },
+    {
+      "id": "687071faab86ea0060215bc7",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "685e4893e582f0005f9cd2c8",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-21"
+    },
+    {
+      "id": "685e489b6e8dbd006cdc6f70",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "685e48b9e582f0005f9cd2c9",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "685e48ac6e8dbd006cdc6f71",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 3,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "685171e0560ebb0061efb2c3",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "6851413f7b52bf0069cac9eb",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6867949457e54a0061f98f8c",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "68514628aca664006bceb217",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "6851740359f71f006037a1ed",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6854dcb27df94a0060eb86cf",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "6854dcbc7df94a0060eb86d0",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6854e0397ff26400687d2031",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "68774e5b17ef980047f8ce68",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "68774e69336fa8003b890146",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "687df3a41d972f003b8ba68c",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-20"
+    },
+    {
+      "id": "68514682640f4c00608c5aea",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "685171b65b1af900600a3306",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "685173fb59f71f006037a1ec",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6851743b59f71f006037a1f1",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "6851738859f71f006037a1e5",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-24"
+    },
+    {
+      "id": "6870731ba3a7fb0061457aab",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-23"
+    },
+    {
+      "id": "6854dffd0635c0005f0a1d2f",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "68774ddd3083b1003c629ca8",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-19"
+    },
+    {
+      "id": "6944fde51834a500697575da",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6945055fb5edfd005d923316",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-22"
+    },
+    {
+      "id": "6945061ed2f0e700661f17a1",
+      "question": "N/A",
+      "category": "N/A",
+      "level": 4,
+      "options": [],
+      "end_time": "2026-03-24"
+    }
+  ]
+}

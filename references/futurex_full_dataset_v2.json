@@ -1,0 +1,188 @@
+{
+  "total": 81,
+  "categories": {
+    "N/A": 81
+  },
+  "cases": [
+    {
+      "index": 0,
+      "id": "698dce247812fd005da42746",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 1,
+      "id": "69930e07c2413b005de8b80b",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-19"
+    },
+    {
+      "index": 2,
+      "id": "69945f879b67cb005cfaa292",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-19"
+    },
+    {
+      "index": 3,
+      "id": "699702870408ab00683a025e",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-21"
+    },
+    {
+      "index": 4,
+      "id": "699702870408ab00683a025c",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-21"
+    },
+    {
+      "index": 5,
+      "id": "699702870408ab00683a0259",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 6,
+      "id": "6997062b0408ab00683a0262",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 7,
+      "id": "6998540873bcba006869e619",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 8,
+      "id": "6998540873bcba006869e61b",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 9,
+      "id": "6998540873bcba006869e61a",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 10,
+      "id": "699c4887d1d3cf005c1e48cc",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 11,
+      "id": "69a03d1781109300686005fc",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 12,
+      "id": "69a4319df2cb3b006875e9d5",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-19"
+    },
+    {
+      "index": 13,
+      "id": "69a5830b7554ef0068e464d8",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 14,
+      "id": "69a830e529c5bb005eeeb10d",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-19"
+    },
+    {
+      "index": 15,
+      "id": "69a977a47e9d43005df0d708",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-22"
+    },
+    {
+      "index": 16,
+      "id": "69ad6c53a6622a00642b8aad",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-19"
+    },
+    {
+      "index": 17,
+      "id": "69ad6c53a6622a00642b8ab1",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-23"
+    },
+    {
+      "index": 18,
+      "id": "69b00f0e54b7b400676ea553",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-23"
+    },
+    {
+      "index": 19,
+      "id": "69b403b749eb3f005a923d1e",
+      "question": null,
+      "category": null,
+      "level": 2,
+      "options": null,
+      "end_time": "2026-03-19"
+    }
+  ]
+}
