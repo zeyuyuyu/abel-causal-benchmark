@@ -1,0 +1,333 @@
+{
+  "benchmark_version": "v1.0",
+  "description": "FutureX Causal Prediction Benchmark - 25 Questions",
+  "categories": {
+    "A": "Direct Causal Predictions",
+    "B": "Intervention What-Ifs",
+    "C": "Multi-Hop Causal Chains",
+    "D": "Uncertainty & Confidence",
+    "E": "Comparative Causal Analysis"
+  },
+  "questions": [
+    {
+      "id": "A1",
+      "category": "A",
+      "question": "What is the 5-hour outlook for BTCUSD based on current market conditions?",
+      "api_endpoint": "/causal_graph/BTCUSD/multi-step-prediction",
+      "params": {
+        "ticker": "BTCUSD",
+        "top_factor_num": 3,
+        "selection_method": "value_weight_product"
+      },
+      "expected_causal_value": ["cumulative_prediction", "probability_up", "features[].cumulative_impact"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "A2",
+      "category": "A",
+      "question": "Predict NVDA's price movement in the next 3 days given current semiconductor momentum.",
+      "api_endpoint": "/causal_graph/NVDA/multi-step-prediction",
+      "params": {
+        "ticker": "NVDA",
+        "top_factor_num": 5
+      },
+      "expected_causal_value": ["cumulative_prediction", "max_lookahead_hours", "features"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "A3",
+      "category": "A",
+      "question": "What's the immediate next-step prediction for ETHUSD?",
+      "api_endpoint": "/causal_graph/ETHUSD/prediction",
+      "params": {
+        "ticker": "ETHUSD"
+      },
+      "expected_causal_value": ["prediction", "probability_up", "parent_features"],
+      "cevs_weight": 0.8
+    },
+    {
+      "id": "A4",
+      "category": "A",
+      "question": "Will SPY trend up or down in the next 24 hours based on VIX and bond yield parents?",
+      "api_endpoint": "/causal_graph/SPY/multi-step-prediction",
+      "params": {
+        "ticker": "SPY",
+        "top_factor_num": 5
+      },
+      "expected_causal_value": ["cumulative_prediction", "probability_up"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "A5",
+      "category": "A",
+      "question": "What drives TSLA's current prediction - EV sector momentum or broader tech trends?",
+      "api_endpoint": "/causal_graph/TSLA/features",
+      "params": {
+        "ticker": "TSLA"
+      },
+      "expected_causal_value": ["features[].impact_percent", "features[].feature"],
+      "cevs_weight": 1.2
+    },
+    {
+      "id": "A6",
+      "category": "A",
+      "question": "Predict AAPL's movement using only top 2 parent features.",
+      "api_endpoint": "/causal_graph/AAPL/multi-step-prediction",
+      "params": {
+        "ticker": "AAPL",
+        "top_factor_num": 2
+      },
+      "expected_causal_value": ["cumulative_prediction", "features"],
+      "cevs_weight": 0.8
+    },
+    {
+      "id": "B1",
+      "category": "B",
+      "question": "What is the causal propagation if ETHUSD gets a 5% positive shock? Who gets affected downstream?",
+      "api_endpoint": "/graph_stats/intervention_impact",
+      "params": {
+        "node": "ETHUSD_close",
+        "delta": 0.05,
+        "horizon_steps": 24,
+        "max_hops": 3
+      },
+      "hypothetical": true,
+      "expected_causal_value": ["timeline_effects", "node_summaries", "total_events"],
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "B2",
+      "category": "B",
+      "question": "What happens if BTCUSD drops 3%? How does this shock propagate through the causal graph?",
+      "api_endpoint": "/graph_stats/intervention_impact",
+      "params": {
+        "node": "BTCUSD_close",
+        "delta": -0.03,
+        "horizon_steps": 24,
+        "max_hops": 3
+      },
+      "hypothetical": true,
+      "expected_causal_value": ["timeline_effects", "node_summaries"],
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "B3",
+      "category": "B",
+      "question": "If NVDA gets a 10% boost from AI earnings surprise, what's the downstream causal impact?",
+      "api_endpoint": "/graph_stats/intervention_impact",
+      "params": {
+        "node": "NVDA_close",
+        "delta": 0.10,
+        "horizon_steps": 48,
+        "max_hops": 3
+      },
+      "hypothetical": true,
+      "expected_causal_value": ["timeline_effects", "node_summaries", "total_events"],
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "B4",
+      "category": "B",
+      "question": "What if SPY drops 2% due to Fed announcement? How does the shock spread through sectors?",
+      "api_endpoint": "/graph_stats/intervention_impact",
+      "params": {
+        "node": "SPY_close",
+        "delta": -0.02,
+        "horizon_steps": 24,
+        "max_hops": 2
+      },
+      "hypothetical": true,
+      "expected_causal_value": ["timeline_effects", "node_summaries"],
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "B5",
+      "category": "B",
+      "question": "If TNX (10Y Treasury) yields spike 50bp, what's the causal propagation to tech stocks?",
+      "api_endpoint": "/graph_stats/intervention_impact",
+      "params": {
+        "node": "TNX_close",
+        "delta": 0.005,
+        "horizon_steps": 48,
+        "max_hops": 3
+      },
+      "hypothetical": true,
+      "expected_causal_value": ["timeline_effects", "node_summaries"],
+      "cevs_weight": 1.5
+    },
+    {
+      "id": "C1",
+      "category": "C",
+      "question": "How does DXY (Dollar Index) strength affect crypto through the causal chain?",
+      "api_endpoint": "/graph_stats/multi_nodes_connection",
+      "params": {
+        "tickers": ["DXY", "BTCUSD", "ETHUSD"],
+        "max_depth": 10
+      },
+      "expected_causal_value": ["connections", "tickers_info"],
+      "cevs_weight": 1.3
+    },
+    {
+      "id": "C2",
+      "category": "C",
+      "question": "Trace the causal path from crude oil to retail stocks via transportation costs.",
+      "api_endpoint": "/graph_stats/nodes_connection",
+      "params": {
+        "node_id_1": "CLUSD_close",
+        "node_id_2": "XRT_close",
+        "max_depth": 10
+      },
+      "expected_causal_value": ["connected", "distance", "accumulated_tau", "paths"],
+      "cevs_weight": 1.3
+    },
+    {
+      "id": "C3",
+      "category": "C",
+      "question": "What's the 1-week propagation of a commodity price shock (metals) to EV manufacturers?",
+      "api_endpoint": "/causal_graph/TSLA/multi-step-prediction",
+      "params": {
+        "ticker": "TSLA",
+        "top_factor_num": 5
+      },
+      "expected_causal_value": ["cumulative_prediction", "features[].tau"],
+      "cevs_weight": 1.2
+    },
+    {
+      "id": "C4",
+      "category": "C",
+      "question": "How does yen weakness propagate to US tech stocks through the export channel?",
+      "api_endpoint": "/graph_stats/nodes_connection",
+      "params": {
+        "node_id_1": "USDJPY_close",
+        "node_id_2": "AAPL_close",
+        "max_depth": 10
+      },
+      "expected_causal_value": ["connected", "distance", "accumulated_tau"],
+      "cevs_weight": 1.3
+    },
+    {
+      "id": "C5",
+      "category": "C",
+      "question": "Map the causal connections between major crypto tickers",
+      "api_endpoint": "/graph_stats/multi_nodes_connection",
+      "params": {
+        "tickers": ["BTCUSD", "ETHUSD", "SOLUSD"],
+        "max_depth": 10
+      },
+      "expected_causal_value": ["connections", "tickers_info"],
+      "cevs_weight": 1.3
+    },
+    {
+      "id": "D1",
+      "category": "D",
+      "question": "What's BTCUSD's probability_up right now, and what would need to change to flip the prediction?",
+      "api_endpoint": "/causal_graph/BTCUSD/prediction",
+      "params": {
+        "ticker": "BTCUSD"
+      },
+      "expected_causal_value": ["probability_up", "parent_features", "flip_threshold"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D2",
+      "category": "D",
+      "question": "Compare graph structure: Which has more parents - BTCUSD or ETHUSD?",
+      "api_endpoint": "/causal_graph/BTCUSD/features",
+      "params_comparison": [
+        {"ticker": "BTCUSD"},
+        {"ticker": "ETHUSD"}
+      ],
+      "expected_causal_value": ["parent_features_count", "tau_stats"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D3",
+      "category": "D",
+      "question": "At what tau threshold does NVDA prediction become unreliable?",
+      "api_endpoint": "/causal_graph/NVDA/features",
+      "params": {
+        "ticker": "NVDA"
+      },
+      "expected_causal_value": ["features[].tau", "max_tau", "tau_distribution"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "D4",
+      "category": "D",
+      "question": "What's the confidence calibration for SPY predictions? (Compare probability_up to actual accuracy)",
+      "api_endpoint": "/feature/backtest",
+      "params": {
+        "target_ticker": "SPY",
+        "feature_ticker": "VIX"
+      },
+      "expected_causal_value": ["win_rate", "ic", "confidence_calibration"],
+      "cevs_weight": 1.2
+    },
+    {
+      "id": "E1",
+      "category": "E",
+      "question": "Between BTCUSD and ETHUSD, which has stronger causal drivers right now? Compare parent diversity.",
+      "api_endpoint": "/causal_graph/{ticker}/features",
+      "params_comparison": [
+        {"ticker": "BTCUSD"},
+        {"ticker": "ETHUSD"}
+      ],
+      "expected_causal_value": ["parent_count", "impact_diversity", "tau_distribution"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E2",
+      "category": "E",
+      "question": "Compare the number of children: BTCUSD vs ETHUSD - who influences more downstream nodes?",
+      "api_endpoint": "/causal_graph/BTCUSD/children",
+      "params_comparison": [
+        {"ticker": "BTCUSD"},
+        {"ticker": "ETHUSD"}
+      ],
+      "expected_causal_value": ["children_count", "children_diversity"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E3",
+      "category": "E",
+      "question": "Which has more diverse parents: BTCUSD or a traditional stock like AAPL?",
+      "api_endpoint": "/causal_graph/BTCUSD/features",
+      "params_comparison": [
+        {"ticker": "BTCUSD"},
+        {"ticker": "AAPL"}
+      ],
+      "expected_causal_value": ["parent_diversity", "sector_distribution"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E4",
+      "category": "E",
+      "question": "Compare prediction stability: BTC vs ETH probability_up trends over time",
+      "api_endpoint": "/causal_graph/BTCUSD/prediction",
+      "params_comparison": [
+        {"ticker": "BTCUSD"},
+        {"ticker": "ETHUSD"}
+      ],
+      "expected_causal_value": ["probability_up", "prediction_confidence"],
+      "cevs_weight": 1.0
+    },
+    {
+      "id": "E5",
+      "category": "E",
+      "question": "Which has more predictive power for SPY: Individual stock parents (AAPL, MSFT) or index parents (VIX, TNX)?",
+      "api_endpoint": "/causal_graph/SPY/features",
+      "params": {
+        "ticker": "SPY",
+        "group_analysis": "by_parent_type"
+      },
+      "expected_causal_value": ["feature_groups[].total_impact"],
+      "cevs_weight": 1.0
+    }
+  ],
+  "cevs_weights": {
+    "explainability": 0.3,
+    "intervenability": 0.25,
+    "confidence_calibration": 0.25,
+    "accuracy": 0.2
+  }
+}

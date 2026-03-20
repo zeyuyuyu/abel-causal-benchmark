@@ -1,0 +1,152 @@
+{
+  "benchmark_version": "futurex_d25",
+  "description": "FutureX D25 Challenge - Abel Causal Graph Computer Submission",
+  "competition": "https://futurex-ai.github.io/",
+  "submission_email": "FutureX-ai@outlook.com",
+  "submission_deadline": "Wednesday 23:59 UTC+8",
+  "data_source": "https://huggingface.co/datasets/futurex-ai/Futurex-Online",
+  "abel_advantages": [
+    "Currency/FX prediction (NIS/USD, tariff rates)",
+    "Trade flow prediction (soybean exports)",
+    "Market impact from policy events",
+    "Cross-asset causal chains"
+  ],
+  "categories": {
+    "political": {
+      "level": "L1-L2",
+      "abel_capability": "low",
+      "reason": "Requires news/sentiment, not in CG"
+    },
+    "sports": {
+      "level": "L1",
+      "abel_capability": "none",
+      "reason": "No sports data in causal graph"
+    },
+    "fx_currency": {
+      "level": "L1-L3",
+      "abel_capability": "high",
+      "reason": "FX rates in graph, causal chains visible"
+    },
+    "tech_events": {
+      "level": "L1-L2",
+      "abel_capability": "medium",
+      "reason": "May correlate with market data"
+    },
+    "trade_commodity": {
+      "level": "L2-L4",
+      "abel_capability": "high",
+      "reason": "Trade flows, commodity prices in graph"
+    },
+    "policy_tariff": {
+      "level": "L2-L4",
+      "abel_capability": "high",
+      "reason": "Policy → market → impact chains"
+    }
+  },
+  "sample_questions_futurex_format": [
+    {
+      "id": "fx_001",
+      "source": "FutureX D25 Sample",
+      "level": "L1",
+      "type": "fx_currency",
+      "question": "Will the NIS/USD exchange rate fall below 3.0 at any point between now and Jul 31 2025?",
+      "options": ["Yes", "No"],
+      "abel_approach": {
+        "primitives": ["predict", "sensitivity"],
+        "cg_query": {
+          "endpoint": "/causal_graph/NISUSD/multi-step-prediction",
+          "params": {
+            "horizon_hours": 720,
+            "top_factor_num": 5
+          }
+        },
+        "reasoning": "Predict NIS/USD trajectory using causal parents (DXY, regional FX, trade balances). Check if cumulative_prediction crosses -threshold (below 3.0)",
+        "confidence_threshold": {
+          "probability_up": 0.6,
+          "answer": "No"
+        }
+      }
+    },
+    {
+      "id": "trade_001",
+      "source": "FutureX D25 Sample",
+      "level": "L2",
+      "type": "trade_commodity",
+      "question": "How many kilograms of soybeans will US export to China between Sep 1 2024 and Aug 31 2025?",
+      "options": [
+        "Less than 12 billion kg",
+        "At least 12B but less than 18B",
+        "At least 18B but less than 24B"
+      ],
+      "abel_approach": {
+        "primitives": ["predict", "intervene"],
+        "cg_query": {
+          "endpoint": "/graph_stats/intervention_impact",
+          "params": {
+            "node": "SOYBEAN_trade_volume",
+            "intervention_shock": "tariff_policy_change"
+          }
+        },
+        "reasoning": "Use causal chain: Tariff → Trade Volume → Soybean Flows. Intervention impact shows magnitude of change",
+        "additional_data": "Commodity futures, shipping rates, tariff schedules"
+      }
+    },
+    {
+      "id": "policy_001",
+      "source": "FutureX D25 Sample",
+      "level": "L3",
+      "type": "policy_tariff",
+      "question": "On Aug 4 2025, will total reciprocal tariff rate on South Korea imports be 25%+?",
+      "options": ["Yes", "No"],
+      "abel_approach": {
+        "primitives": ["intervene", "path"],
+        "cg_query": {
+          "intervention": {
+            "node": "US_KOR_tariff_rate",
+            "delta": 0.05,
+            "target_nodes": ["KORUSD_close", "US_trade_deficit"]
+          }
+        },
+        "reasoning": "Model policy intervention through SCM. Current rate + intervention delta = projected rate",
+        "confidence": "Based on historical policy → market response lag"
+      }
+    }
+  ],
+  "submission_format": {
+    "method": "email",
+    "to": "FutureX-ai@outlook.com",
+    "subject": "FutureX Challenge Submission - Abel-CG-{date}",
+    "attachment": "predictions.json",
+    "required_fields": ["id", "prediction", "confidence", "reasoning_source"],
+    "json_schema": {
+      "predictions": [
+        {
+          "id": "question_id",
+          "prediction": "Yes|No|OptionA",
+          "confidence": 0.75,
+          "abel_primitives_used": ["predict", "intervene"],
+          "cg_evidence": {
+            "cumulative_prediction": -0.02,
+            "probability_up": 0.35,
+            "key_parents": ["DXY_close", "Trade_balance"]
+          },
+          "reasoning": "CG predicts -2% with 35% up probability based on DXY strength"
+        }
+      ]
+    }
+  },
+  "strategy": {
+    "phase_1": "Submit to FX/Trade questions only (our strength)",
+    "phase_2": "Add LLM wrapper for political/sports (RAG + CG hybrid)",
+    "phase_3": "Full CAP agent with schema discovery",
+    "target_ranking": "Top 10 by Q2 2026",
+    "differentiator": "Only causal graph-based system in leaderboard"
+  },
+  "weekly_workflow": {
+    "monday": "Download new questions from HuggingFace",
+    "tuesday_am": "Filter Abel-capable questions (FX/Trade/Policy)",
+    "tuesday_pm": "Run CG predictions + generate reasoning",
+    "wednesday_am": "Validate outputs + format JSON",
+    "wednesday_pm": "Email submission before 23:59 UTC+8"
+  }
+}
