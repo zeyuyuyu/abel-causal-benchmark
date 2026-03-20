@@ -1,0 +1,39 @@
+{
+  "fetched_count": 2,
+  "results": [
+    {
+      "case": {
+        "id": "69a830e529c5bb005eeeb10d",
+        "title": "UEFA Champions League Playoff Prop Bets, Mar 10th-Mar 1",
+        "end_time": "2026-03-19",
+        "market_id": "uefa-champions-league-playoff-prop-NOUNUs6Ql2",
+        "slug": "https://manifold.markets/Mochi/uefa-champions-league-playoff-prop-NOUNUs6Ql2"
+      },
+      "answer": {
+        "success": true,
+        "resolved": true,
+        "resolution": "MKT",
+        "resolution_time": 1773871165054,
+        "probability": null,
+        "pool": null
+      }
+    },
+    {
+      "case": {
+        "id": "69ad6c53a6622a00642b8aad",
+        "title": "Champions league round of 16 fixtures (both legs)",
+        "end_time": "2026-03-19",
+        "market_id": "champions-league-round-of-16-fixtur",
+        "slug": "https://manifold.markets/Mochi/champions-league-round-of-16-fixtur"
+      },
+      "answer": {
+        "success": true,
+        "resolved": true,
+        "resolution": "MKT",
+        "resolution_time": 1773871193670,
+        "probability": null,
+        "pool": null
+      }
+    }
+  ]
+}
