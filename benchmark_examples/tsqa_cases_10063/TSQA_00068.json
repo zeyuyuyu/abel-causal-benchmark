@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00068",
+  "question": "In 2019 In which league division is Francesco Acerbi competing at present?",
+  "year": 2019,
+  "ground_truth": "Serie A",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Serie A",
+      "tag": "correct"
+    },
+    {
+      "answer": "Serie B",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Premier League",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "La Liga",
+      "tag": "irrelevant"
+    }
+  ]
+}

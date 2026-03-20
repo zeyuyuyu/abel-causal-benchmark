@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00012",
+  "split": "train",
+  "question": "Does Stephen Hawking's September paper contain the essence of a solution to the black hole information paradox?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Hawking's famous black hole information paradox, first formulated in his 1976 paper, concerns a conflict between the reversibility of known fundamental physical laws and the irreversibility of black hole formation and evaporation.\nThe Standard Model of particle physics, General Relativity, quantum and classical mechanics, and most extant proposed extensions of these theories are \"unitary,\" meaning that all of the information in a system at some time can in principle be recovered from the same system at a later time, by running the laws of physics \"backwards.\" Black holes appear to be a possible exception: Hawking's calculation of black hole evaporation predicts an information-free spectrum of radiation emitted, no matter what was thrown into the black hole.\nWhether black holes violate unitary -- as claimed by Hawking -- has been fiercely controversial for decades. In 2004, Hawking conceded that unitarity is preserved, based on arguments related to the AdS/CFT correspondence. But even if this verdict is accepted, there is no widely-accepted explanation of how unitarity is preserved in detail, or how information actually escapes a black hole during evaporation.\nIn September 2015, Hawking claimed in a short paper to have made a breakthrough on this topic, and presented his ideas at a meeting, which also involved extensive discussions with eminent relativists Andy Strominger and Gary Gibbons. The central claim is that \"the information is stored in a supertranslation associated with the shift of the horizon that the ingoing particles caused.\" Is this the key to unraveling the paradox?\nThe question will be resolved as \"yes\" if, by November 15, 2016, both Hawking's paper receives more than 100 citations, and any two of Leonard Susskind, John Preskill, and Raphael Bousso make statements in writing that the information paradox is essentially solved, and that the solution can be cast in terms of supertranslations defined on the horizon.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-04",
+  "date_close": "2016-02-01",
+  "date_resolve_at": "2016-11-14",
+  "url": "https://www.metaculus.com/api2/questions/15/",
+  "gpt_3p5_category": "Science & Tech"
+}

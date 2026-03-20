@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00035",
+  "question": "In 2020 What is the current league division that Anders Christiansen is competing in?",
+  "year": 2020,
+  "ground_truth": "Allsvenskan",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Allsvenskan",
+      "tag": "correct"
+    },
+    {
+      "answer": "Superligaen",
+      "tag": "past"
+    },
+    {
+      "answer": "Serie A",
+      "tag": "past"
+    },
+    {
+      "answer": "First Division A",
+      "tag": "past"
+    }
+  ]
+}

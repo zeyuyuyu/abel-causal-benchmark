@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00073",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "12",
+  "question": "What was the main reason cited by the Brazilian Chamber of Deputies for accepting the impeachment request against President Dilma Rousseff in December 2015?",
+  "ground_truth": "The main reason was the accusation of \"pedaladas fiscais,\" where the government delayed payments to federal banks for social programs, creating an illegal fiscal maneuver.",
+  "event_desc": "The Brazilian Chamber of Deputies accepts the impeachment request of President Dilma Rousseff."
+}

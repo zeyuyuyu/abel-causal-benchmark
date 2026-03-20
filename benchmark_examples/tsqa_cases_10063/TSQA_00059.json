@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00059",
+  "question": "Which club was André Simões playing for in 2015?",
+  "year": 2015,
+  "ground_truth": "AEK Athens",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "AEK Athens",
+      "tag": "correct"
+    },
+    {
+      "answer": "Moreirense",
+      "tag": "past"
+    },
+    {
+      "answer": "Santa Clara",
+      "tag": "past"
+    },
+    {
+      "answer": "Famalicão",
+      "tag": "future"
+    }
+  ]
+}

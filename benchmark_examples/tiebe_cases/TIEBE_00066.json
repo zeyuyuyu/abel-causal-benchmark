@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00066",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "03",
+  "question": "How many people died in the bus accident near Joinville, Brazil, in March 2015?",
+  "ground_truth": "51 people died in the bus accident.",
+  "event_desc": "51 people die in a bus accident near Joinville."
+}

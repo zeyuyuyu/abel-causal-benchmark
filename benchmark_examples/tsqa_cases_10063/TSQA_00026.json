@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00026",
+  "question": "Which football team was the latest winner of the Cupa României in 2014?",
+  "year": 2014,
+  "ground_truth": "Astra Giurgiu",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Astra Giurgiu",
+      "tag": "correct"
+    },
+    {
+      "answer": "Petrolul Ploiești",
+      "tag": "past"
+    },
+    {
+      "answer": "Târgu Mureș",
+      "tag": "future"
+    },
+    {
+      "answer": "CFR Cluj",
+      "tag": "future"
+    }
+  ]
+}

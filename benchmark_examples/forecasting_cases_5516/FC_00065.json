@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00065",
+  "split": "train",
+  "question": "Will a full prototype car be unveiled at the Tesla Model 3 event on March 31?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "There is intense interest in Tesla's Model 3 (originally the \"Model E\", perhaps for Energy or to go between \"S\" and \"X\"). Their fourth production vehicle, it is slated to cost of order $35,000 USD and move Tesla out of the somewhat niche market required by the model S and X's price tags.\nTesla has now scheduled a March 31 \"unveiling\" of the Model 3. There is varying speculation on whether or not Tesla will unveil a full scale Model 3 prototype, or just pictures.\nWill Tesla exhibit a full prototype of the Model E at the event, in the form of a physical car with an operating electrical system?\nA non-functioning chassis, photos, holograms, or virtual reality do not qualify.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-03",
+  "date_close": "2016-03-31",
+  "date_resolve_at": "2016-04-01",
+  "url": "https://www.metaculus.com/api2/questions/166/",
+  "gpt_3p5_category": "Science & Tech"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00084",
+  "split": "train",
+  "question": "A medical pathway to complete painlessness?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The scientific community has--for over a decade--recognized that the voltage-gated sodium channel Nav1.7 protein, which is found in neurons among nearly every type of human tissue, is primarily responsible for pain sensing in mammals. Small-molecule inhibitors of this channel, however, fail to completely shut off the pain response in humans. Mysteriously, a non-functional mutant of this protein homologue in mice has been shown to achieve painlessness. Since then, a number of drugs with marginal success have been developed by multinational healthcare companies, including Roche and Biogen.\nA recent study has revealed a novel function of Nav1.7 that may present a possible new target for drug therapies against chronic pain. According to scientists from the lab of Dr. John Wood at University College London, deletion or deleterious mutation of the Nav1.7 gene in mice caused the expression of opiate-simulating proteins (\"opioids\") to be up-regulated--a contribution to their painlessness not observed in humans. A Nav1.7-lacking, pain-insensitive human subject, after being given opioid blockers, was able to feel pain for the first time. A combined treatment with opioids in addition to Nav1.7 blockers in mice proved to have the expected opposite effect: a complete suppression of the pain response.\nThe newly-discovered treatment apparently works, but still remains somewhat impractical. While relatively small, biologics like opiods are fairly difficult (and therefore expensive) to produce, store, distribute, etc. Other options would be geneitc modification or, more commonly, a small-molecule substitute--specifically, one that will inhibit the opiod-regulating function of Nav1.7, either directly or indirectly. Regardless of treatment options, the discovery has the potential to significantly change the way we approach pain management.\nBy 2020, will a US clinical trial begin in which the goal is a temporary or permanent complete inhibition of the pain response in a human?\nFor a positive resolution, there must exist by Jan 1, 2020 a clinical trial in the US database with a start date prior to Jan 1, 2020, which aims to use the Nav1.7 channel to completely suppress the human pain response in part or all of the body.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-25",
+  "date_close": "2020-01-01",
+  "date_resolve_at": "2020-01-12",
+  "url": "https://www.metaculus.com/api2/questions/196/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00076",
+  "split": "train",
+  "question": "Will robotic/AI automation be essentially ignored in the primary races?",
+  "background": "Dramatic recent progress in narrow (and arguably general) purpose AI has led to a myriad of practical but nascent technologies including autonomous vehicles, automated call-answering systems, highly automated factories, medical and legal expert systems, and so on.\nWhile the automation of repetitive physical labor is an old story, the advent of AI/robotic systems to perform essentially any repetitive physical labor, as well as many non-repetitive physical tasks and also repetitive or non-repetitive cognitive tasks, is likely to dramatically change the dynamics governing human labor and its place in the global economy.\nIn their book, Brynjolfsson & McAfee argue that we are in the early stages of this process, but that it is already underway and has contributed significantly to income inequality and other difficulties in the labor pool. It is thus quite possible that the cause of much of the anger and frustration being channeled by the Trump and Sanders campaigns is fundamentally caused by an automation process that is likely just getting started.\nHowever, while a significant topic of conversation in tech and some economic circles, and while politicians love to talk about jobs, the automation of labor has played little to no role in the presidential election thus far. Will this continue to be the case?",
+  "resolution_criteria": "Will the total time devoted to questions (and answers) directly referring to AI and/or robotic automation of labor in the remaining Republican and Democratic presidential primary debates be less than 5 minutes?\n(Note: we will launch a similar question about the post-primary presidential debates)",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-17",
+  "date_close": "2016-04-15",
+  "date_resolve_at": "2016-05-25",
+  "url": "https://www.metaculus.com/api2/questions/186/",
+  "gpt_3p5_category": "Politics & Governance"
+}

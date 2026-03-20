@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00036",
+  "split": "train",
+  "question": "by 2021, will SLAC complete an \"accelerator-on-a-chip\" prototype with an acceleration gradient of 1 GeV/meter?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Modern particle accelerators that operate in the high MeV range and above traditionally use radio-frequency (RF) waves to accelerate charged particles. They are typically very expensive and very large; Stanford's linear accelerator stretches 2 miles.\nHowever, in 2013 a proof-of-concept for small scale accelerators was demonstrated, using micro-fabricated dielectric lasers (DLA). DLAs offer a more compact (aspiring to lie anywhere between 10 cm and 100 m) and economic design with an even steeper acceleration gradient (particle energy in eV per meter) than RF accelerators (more on how they work). If successful, the concept would have major impacts on particle accelerator application in medicine, condensed matter, high energy physics, and others.\nIn November 2015, the Gordon and Betty Moore Foundation invested $13.5 million towards the research at SLAC to complete a tabletop accelerator prototype over the next 5 years. Will a paper be published in a major physical science journal before January 1, 2021 on a DLA accelerator reporting an acceleration gradient of 1 GeV/meter to within 1 sigma?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-03",
+  "date_close": "2018-01-03",
+  "date_resolve_at": "2022-03-17",
+  "url": "https://www.metaculus.com/api2/questions/56/",
+  "gpt_3p5_category": "Science & Tech"
+}

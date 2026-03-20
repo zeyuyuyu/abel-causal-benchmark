@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00071",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "09",
+  "question": "What did Brazil's Supreme Court rule regarding corporate donations to election campaigns in September 2015?",
+  "ground_truth": "Brazil's Supreme Court ruled that corporate donations to election campaigns should be illegal, allowing only individual donations.",
+  "event_desc": "The Supreme Court of Brazil ruled that campaign donations from businesses should be illegal."
+}

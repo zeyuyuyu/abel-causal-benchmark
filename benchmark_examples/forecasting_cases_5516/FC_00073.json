@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00073",
+  "split": "train",
+  "question": "Will a Self-Driving Car be available for ride service by the end of 2018?",
+  "background": "This is a sister question to the [other Metaculus Self-Driving Car question], which asked if a commercially available car would be released by 2018. This one will ask if an autonomous vehicle fleet will be in operation for ride sharing, taxi, or shuttling services.\nSelf-driving car (SDC) fleets are seen as perfect for rideshare business models like those of Lyft or Uber, who have effort in moving toward autonomous technology. This focus on rideshare became more apparent when [GM invested] $500M in autonomous vehicle fleet for Lyft, and the other dominant figures in autonomous vehicle tech like [Google], [Tesla], and [Ford] are developing fleets of their own with speculated intent for ridesharing. Like the sister question, technological maturity, regulation, cost, public policy, and safety are the primary obstacles in bringing fully autonomous vehicles to market.",
+  "resolution_criteria": "By January 1st, 2019, will a fleet of autonomous vehicles be used in a ridesharing or hailing-like service?\nTo resolve positively, there must exist a service in some geographical region available to members of the general public, taking users between two destinations within the region as chosen by the user. There must be at least 50 autonomous vehicles in use in the service, and if the autonomous vehicles are part of a service mixing autonomous and non-autonomous vehicles, rides by autonomous vehicles should make up at least 20% of all rides provided by the overall service within the area served by the autonomous vehicles.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-15",
+  "date_close": "2017-02-15",
+  "date_resolve_at": "2019-01-02",
+  "url": "https://www.metaculus.com/api2/questions/181/",
+  "gpt_3p5_category": "Science & Tech"
+}

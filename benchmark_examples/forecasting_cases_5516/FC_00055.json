@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00055",
+  "split": "train",
+  "question": "Will AirBnB will go public before 2019?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Along with ride-sharing services Lyft and Uber, AirBnB is a vanguard company in the \"sharing economy\" in which people make money sharing their property with complete strangers. It's a fairly new business model that hasn't yet achieved profitability or cleared all of its regulatory hurdles.\nThe concept is simple - people looking to spend the night in a certain city, but who don't want to shell out for a hotel, can rent spare rooms and spare spaces in people's houses. AirBnB provides the platform for renters and owners to connect, and collects a percentage of the transactions as its revenue. Pluses: The company doesn't have to spend a dime on building hotel properties or hiring hospitality staff. It's just a marketplace, where renters and owners do most of the work.\nMinuses: The company is getting blowback from the governments of both San Francisco and New York City, both of whom are cracking down on non-hotel rentals less than 30 days in duration.\nSince 2014, rumors have been circulating that AirBnB was preparing for an initial public offering, or IPO, that would make it a publicly-owned company, with stock available on a major stock exchange. As recently as June 2016 the rumors were ramping up again, based on financial rumblings that the company could initiate an IPO to raise cash for expansion. AirBnB turned again to private investors, however, raising around $850 million and valuing the company at $30 billion dollars. After such a large cash infusion, it may be a while before AirBnB need to raise more money from the public.\nA successful IPO may be all in the timing, however. New York's and San Francisco's objections to the room-sharing economy could stall growth in those major markets and decrease eventual demand for stock.\nWill AirBnB go public before 2019?\nTo resolve as positive, AirBnB must file the requisite documents for an initial public offering with the Securities and Exchange Commission on or before December 31, 2018.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-12",
+  "date_close": "2017-03-15",
+  "date_resolve_at": "2018-12-31",
+  "url": "https://www.metaculus.com/api2/questions/140/",
+  "gpt_3p5_category": "Economics & Business"
+}

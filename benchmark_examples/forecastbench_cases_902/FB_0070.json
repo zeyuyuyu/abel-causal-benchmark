@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0070",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be at least 200 military conflict deaths between Ethiopia, Somalia, and Somaliland in 2024?",
+  "background": "Somaliland is an unrecognised state, which presents itself as the successor state to British Somaliland and the short-lived State of Somaliland which followed. In 1991, Somaliland broke away from Somalia after a decade-long rebellion against Siad Barre's ruling government. Since then, it has been a de facto independent country with democratically elected governments. Despite that, it has not been formally recognised by any UN member state.\n\nEthiopia is one of the few landlocked countries of the Horn of Africa. Abiy Ahmed, Ethiopia's Prime Minister [has called](https://www.bbc.co.uk/news/world-africa-67332811) its access to the sea an \"existential question\". He also said that if Ethiopia fails to get a port by peaceful means, they will use force.\n\nEthiopia and Somaliland [recently signed a deal](https://thesoufancenter.org/intelbrief-2024-january-11/) that grants Addis Ababa twelve miles of sea access along the Somaliland coast for the next 50 years, where Ethiopia plans to construct a naval base. In return, Ethiopia would consider recognising Somaliland's independence. However, this move has been met with resistance from Somalia, which claims that the deal violates its territorial integrity. [Recently](https://www.reuters.com/world/africa/somalia-rejects-mediation-efforts-with-ethiopia-over-port-deal-2024-01-18/), Somalia rejected any mediation efforts with Ethiopia over the port deal.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "21137"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00015",
+  "question": "In 2020 Which entity owned the horse that won the Alfred G. Vanderbilt Handicap last?",
+  "year": 2020,
+  "ground_truth": "Three Chimneys Farm & Phoenix Thoroughbred III",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Three Chimneys Farm & Phoenix Thoroughbred III",
+      "tag": "correct"
+    },
+    {
+      "answer": "Raymond Mamone",
+      "tag": "past"
+    },
+    {
+      "answer": "Calumet Farm",
+      "tag": "future"
+    },
+    {
+      "answer": "J. Kirk & Juby Robison",
+      "tag": "future"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00056",
+  "split": "train",
+  "question": "Will Facebook flight-test the Aquila drone in the U.S early this year?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Facebook announced in March 2014 its plans to harness satellite, drone and other technology as part of an ambitious and costly effort to beam Internet connectivity to people in underdeveloped parts of the world.\nBy mid-2015, Facebook unveiled a solar-powered drone, code-named Aquila, which is able to fly in the air for 90 days at a time. Helium balloons will be attached to the plane and float it up into the air. The drones have a wingspan of 42 meters and will circle a three-km radius. During the day, they will float up to 90,000 feet and at night will drift down to 60,000 feet to conserve energy .\nWill there be a credible media report or Facebook official announcement that Facebook has flight-tested one of these drones prior to May 31, 2016?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-13",
+  "date_close": "2016-05-01",
+  "date_resolve_at": "2016-06-03",
+  "url": "https://www.metaculus.com/api2/questions/142/",
+  "gpt_3p5_category": "Science & Tech"
+}

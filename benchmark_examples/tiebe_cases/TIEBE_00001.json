@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00001",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "01",
+  "question": "How many weeks did the first phase of São Paulo's COVID-19 vaccination campaign last in early 2021?",
+  "ground_truth": "The first phase lasted nine weeks, from January 25 to March 28, 2021.",
+  "event_desc": "The São Paulo state government and the Butantan Institute release the calendar of the State Immunization Plan against COVID-19. The chronogram, to start on , initially serves some risk groups health professionals, indigenous people, quilombolas, and individuals aged between 60 and 75 years or older."
+}

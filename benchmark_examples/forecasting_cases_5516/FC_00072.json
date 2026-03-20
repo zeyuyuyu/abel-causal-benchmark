@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00072",
+  "split": "train",
+  "question": "Will a non-test nuclear weapon be detonated by 2020?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Weapons in which the energy is provided by nuclear fission or fusion have only twice in history been detonated outside of a controlled test environment, in the Hiroshima and Nagasaki events in World War II.\nSince then, the world has nearly gone to nuclear war as a result of international conflict (during the Cuban Missile Crisis) and by accident. There have also been a number of narrowly-averted accidental nuclear detonations. See this timeline for a sobering look at how close we have come.\nThis question (which any sane person will hope resolves negatively) regards the probability that a nuclear detonation will occur by Jan 1, 2020, outside of controlled tests. This could include:\nDeliberate or nuclear attack.\nAccidental nuclear attack (launched by accident or on the basis of erroneous information.)\nAccidental detonation of a weapon.\nNuclear terrorism.\nFor these purposes we do not consider a radiological weapon — where any fission/fusion energy is energetically sub-dominant to chemical or other explosives — to be a nuclear attack.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-13",
+  "date_close": "2017-12-01",
+  "date_resolve_at": "2019-12-30",
+  "url": "https://www.metaculus.com/api2/questions/179/",
+  "gpt_3p5_category": "Security & Defense"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00018",
+  "question": "Which character did Ian Hanlin voice in his most recent voice acting role in animation in 2016?",
+  "year": 2016,
+  "ground_truth": "Julius Nosh",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Julius Nosh",
+      "tag": "correct"
+    },
+    {
+      "answer": "Sunburst",
+      "tag": "past"
+    },
+    {
+      "answer": "Mitchell Snailford",
+      "tag": "future"
+    },
+    {
+      "answer": "Owen Grady",
+      "tag": "future"
+    }
+  ]
+}

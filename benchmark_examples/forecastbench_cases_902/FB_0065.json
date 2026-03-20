@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0065",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the combination of semaglutide and cagrilintide be approved for the treatment of obesity by the FDA or EMA by 2027?",
+  "background": "There have been a number of promising early results in drug research and development to treat obesity, particularly results with [Semaglutide](https://en.wikipedia.org/wiki/Semaglutide). Novo Nordisk recently completed a [phase 1b trial](https://doi.org/10.1016/S0140-6736(21)00845-X) pairing semaglutide with the amylin analog cagrilintide. Over 20 weeks, the addition of cagrilintide nearly doubled the rate of weight loss caused by semaglutide alone, suggesting that in a longer trial the combination may equal the weight loss caused by bariatric surgery. The combination caused somewhat more gastrointestinal side effects than semaglutide alone, but there was no indication of serious adverse events.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "8602"
+}

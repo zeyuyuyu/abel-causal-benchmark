@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0061",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be more people with HIV/AIDS in 2037 than in 2017?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "2713"
+}

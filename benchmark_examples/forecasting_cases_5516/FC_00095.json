@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00095",
+  "split": "train",
+  "question": "Will stage-3 trials of MDMA as a medical treatment be completed, with results submitted to the FDA,  by 2021?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "3,4-methylenedioxy-methamphetamine is MDMA - commonly called ecstasy, molly, or X. MDMA has a storied history beginning from its synthesis in 1912, to its use in psychotherapy in the '60s and its advent into recreational use in popular culture. While being a Schedule I substance in the U.S., and in general a legally controlled substance around the world, it's argued the classification is based on outdated science and that the drug is over-criminalized.\nMDMA chiefly acts as a releasing agent for serotonin, norepinephrine, and dopamine; here's how it works. It's taken recreationally to induce euphoria, sociability, relaxation, heightened sensation and sexuality, but also brings on short-term effects like dehydration and nausea, and potential long-term effects like paranoia and addiction. However, evidence for the true extent of harm from MDMA isn't rock-solid and it appears that side-effects can be mitigated through moderate usage and dosing. There is a body of evidence for the efficacy of MDMA-assisted psychiatric treatment, and many advocate that more research to evaluate MDMA's usefulness in this regard.\nNon-profit MAPS, the Multidisciplinary Association for Psychedelic Studies, is the only organization with funding in MDMA clinical trials to assist in the treatment of PTSD and social anxiety in autistic adults. MAPS is pushing for FDA approval of a medically available MDMA, and they are poised to enter phase 3 clinical trials in 2017. This is the last stage of research which will address the safety and effectiveness of the drug, and they are looking at trials in 200-400 people over the next 4-5 years. Their findings, if successful, are expected for submission to the FDA for approval in 2021. However, the organization says it needs about $20 million to complete the trials. At that point, the results can go to the FDA to assess MDMA as a legal medical drug. Will this happen?\nThis question will resolve positively if by Jan 1st, 2021, the MDMA stage 3 trial is complete, with the results and an official application submitted to the FDA toward medical approval.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-10",
+  "date_close": "2018-01-01",
+  "date_resolve_at": "2021-01-01",
+  "url": "https://www.metaculus.com/api2/questions/211/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

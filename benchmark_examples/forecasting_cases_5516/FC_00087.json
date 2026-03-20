@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00087",
+  "split": "train",
+  "question": "Will more than 80% of the new US electricity Generation Capacity in 2016 come from solar and wind?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "One way to measure how quickly the U.S. is striving towards clean energy is the percentage of added electricity generation capacity each year in the form of renewables. The sum total of electricity generation from solar and wind sat at 5.7% in July 2015, but the fraction of added capacity from renewables in 2015 was 69%, according to this Cleantechnica report.\nTo get the percentage of total U.S. electricicty production by solar and wind to the tens of percent necessary to significantly impact carbon emissions it doesn't just mean that more panels and turbines need to be built; wind and solar will have to proportionally overcome energy production from coal, nuclear power, hydroelectric, and natural gas, to dominate the new added capacity for years to come.\nThe sudden momentum boost for newly-added wind and solar energy recently is most likely because they're the most cost-effective ways to reduce emissions. Will this trend in renewable energy continue, such that 80% of the added U.S. electricity generation capacity in 2016 comes from solar and wind power?\nThis question will resolve positively if the 2016 Cleantechnica report (see the archive) shows renewables make up for 80% or more of added U.S. electricity generation capacity in 2016.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-30",
+  "date_close": "2016-09-01",
+  "date_resolve_at": "2018-02-22",
+  "url": "https://www.metaculus.com/api2/questions/200/",
+  "gpt_3p5_category": "Environment & Energy"
+}

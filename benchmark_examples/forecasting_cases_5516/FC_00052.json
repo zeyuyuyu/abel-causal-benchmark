@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00052",
+  "split": "train",
+  "question": "Will Theranos get more than 100 FDA approvals for blood tests by the end of 2018?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Medical testing and devices company Theranos has recently come into controversy after a Wall Street Journal article asserted that it has over-promised and under-delivered on its testing suite.\nAs summarized by The Washington Post,\nTheranos, once valued at $9 billion based on its immense promise to make blood testing cheaper and more efficient, has been embroiled in questions about its technology and regulatory strategy for months. The scrutiny was sparked by a Wall Street Journal investigation that revealed that the intensely secret company's much-touted fingerprick blood tests were barely being used and employees had raised questions about the accuracy of its tests.\nIn response, Theranos itself claims:\nOur proprietary devices are making it possible to run finger-stick samples for tests that could never be run on finger-stick before. We began using our proprietary devices in our lab at the launch of our retail operations. And we initiated filings with FDA two years ago—by choice, not necessity—because we are seeking to create a new model for laboratory testing standards, and have championed FDA oversight ever since. It is the right thing, which is also the hard thing. [...]\nCapabilities of Theranos' devices: The article implies that Theranos' proprietary devices were only capable of running a limited number of tests. First, \"Edison\" is only one of many proprietary devices used as part of Theranos proprietary technologies. In total, Theranos research and development has developed hundreds of tests for finger-stick samples using our proprietary devices. [...]\nTheranos' filings with FDA show the versatility of Theranos devices, and our confidence in the results of our tests: Theranos has publicly advocated for FDA regulation of laboratory-developed tests (LDTs), and over 120 of the tests developed for use on our devices used as part of Theranos proprietary technologies have been submitted in pre-submissions to FDA.\nWill Theranos succeed in getting 100 or more tests approved by the end of 2018?\nQuestion will be resolved per announcement by Theranos or in a major media article.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-10",
+  "date_close": "2016-09-01",
+  "date_resolve_at": "2018-09-27",
+  "url": "https://www.metaculus.com/api2/questions/131/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

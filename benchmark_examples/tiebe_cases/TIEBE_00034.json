@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00034",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "04",
+  "question": "What was the main purpose of the CPI da Covid created by the Brazilian Senate in April 2021?",
+  "ground_truth": "The CPI da Covid was created to investigate the federal government's actions and omissions in responding to the pandemic, as well as the collapse of the healthcare system in Amazonas earlier that year.",
+  "event_desc": "The Federal Senate opens a CPI (Comissão Parlamentar de Inquérito) to investigate federal government spending and omissions in relation to the coronavirus pandemic."
+}

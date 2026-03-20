@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00043",
+  "question": "How many league goals did Panagiotis Vlachodimos score for his current club in 2019 as of 2019?",
+  "year": 2019,
+  "ground_truth": "1",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "1",
+      "tag": "correct"
+    },
+    {
+      "answer": "0",
+      "tag": "past"
+    },
+    {
+      "answer": "4",
+      "tag": "future"
+    },
+    {
+      "answer": "5",
+      "tag": "future"
+    }
+  ]
+}

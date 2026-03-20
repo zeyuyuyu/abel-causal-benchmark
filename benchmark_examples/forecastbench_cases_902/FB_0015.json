@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0015",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Manifold add tabs (like the US Elections one) for other important elections this year?",
+  "background": "Resolves Yes if Manifold does add a tab for another election (Indian, Russian, etc...). Resolves No if Manifold never adds anything after the US elections tab.\n\n(Will resolve Yes at any time in the year if it does happen but No at the end of the year).",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "I4pkLvl2R7ZafZth2xIm"
+}

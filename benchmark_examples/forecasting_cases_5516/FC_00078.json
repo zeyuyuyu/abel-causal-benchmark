@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00078",
+  "split": "train",
+  "question": "Will the FDA approve GMO mosquitos for widespread release?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Oxitec, a UK-based synthetic biology company specializing in infectious vector control, has been a focus of major news outlets since the recent spike in human Zika virus cases in South America. The mosquito species Aedes aegypti has been identified as the primary carrier of Zika and several other pathogens including dengue fever. Oxitec's brand of \"self-limiting\" GMO Aedes aegypti has passed regulatory approval in several countries in central and South America, and has since shown significant efficacy in attenuating the population within targeted regions. Brazil has recently begun expanding Oxitec's vector control program, which they started in 2012.\nThe US state of Florida is now following suit with their own investigative trials into GMO mosquito control. Mosquito transmissions of Zika and dengue do not necessarily pose an imminent threat to the North American region, although there have been several recently-reported cases of transmission due to human-to-human contact. Aedes aegypti is nonetheless an invasive, non-native species. Whether for cost reduction, preemptive disease control, agricultural protection, or other environmental concerns, the US government has selected Oxitec's \"friendly Aedes aegypti\" as a candidate in the Florida Keys.\nThe proof-of-concept experiment to show efficacy and environmental impact is being conducted in Key Haven, an island in the Florida Keys. Oxitec announced in a press release on March 11th that the FDA's Center for Veterinary Medicine had determined that the GM mosquito trial yielded \"no significant impact\" on the greater ecology of the area; information on the efficacy of the trial on the mosquito population is not yet released. The FDA report is open to comments until early April.\nWill the FDA approve expanded use of Oxitec's self-limiting mosquitos for Aedes aegypti population control in the United States by September 1, 2016?\nTo resolve positively, the official approval by the FDA (which may be announced by the FDA itself or a credible media outlet) must occur by 9/1/16, and allow use of Oxitec mosquitos throughout all of at least one US state.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-20",
+  "date_close": "2016-06-01",
+  "date_resolve_at": "2016-09-01",
+  "url": "https://www.metaculus.com/api2/questions/190/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

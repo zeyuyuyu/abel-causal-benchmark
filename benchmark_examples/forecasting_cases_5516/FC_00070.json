@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00070",
+  "split": "train",
+  "question": "By 2017, will research definitively show Zika virus to be the direct cause of microencephaly in developing humans?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "On February 1st of 2016, the World Health Organization (WHO) officially recognized a public health emergency taking place in Central and South America: a sudden increase in cases of a mosquito-borne and sexually tansmitted disease known as Zika virus. This particular outbreak indicated a direct correlation with the incidence of microencephaly in children born to infected mothers. As of writing, Zika cases have been reported in dozens of countries in North and South America and the Caribbean.\nA growing focus on the situation has also sparked significant controversy surrounding the methods being employed to combat the disease, specifically the genetic modification of infection vectors such as Aedes aegypti mosquitoes, to produce sterile offspring. The intent of this effort would be to effectively reduce the A. aegypti population and thus the potential for spreading the virus.\nAmong the numerous (if somewhat unlikely) alternate explanations for the Zika outbreak, there appears to be consensus in scientific community on one point: the absence of direct evidence linking Zika to microencephaly. While some studies have shown that Zika is capable of infecting neural tissue, it is still speculative whether or not it can pass the blood-brain barrier. Due to the recent rise in popularity of the subject, researchers will undoubtedly begin digging deeper into the pathology of Zika virus and its close cousins West Nile and Dengue.\nBy January 1st, 2017, will the CDC report Zika virus to be the the known (or with words which capture a high degree of certainty) direct cause of microencephaly in developing humans?",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-13",
+  "date_close": "2016-04-13",
+  "date_resolve_at": "2016-04-13",
+  "url": "https://www.metaculus.com/api2/questions/177/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

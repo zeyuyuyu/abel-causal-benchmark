@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00006",
+  "split": "train",
+  "question": "Will the Twin Prime Conjecture be positively resolved in 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Conjecture: There are infinitely many primes p such that p + 2 is also prime.\nIn the last few years, the upper bound N for the statement “There are infinitely many primes that differ by at most N” has been reduced from 70,000,000 to 246, and down to 12 with other assumptions.\nThe question is resolved positively if a proof of the conjecture is published in a major mathematics journal.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-26",
+  "date_close": "2016-07-01",
+  "date_resolve_at": "2016-12-30",
+  "url": "https://www.metaculus.com/api2/questions/8/",
+  "gpt_3p5_category": "Science & Tech"
+}

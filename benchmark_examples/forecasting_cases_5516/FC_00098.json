@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00098",
+  "split": "train",
+  "question": "Will the Allen Telescope Array discover anything in its SETI search of red dwarf stars over the next two years?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In April 2016, the SETI (Search for Extraterrestrial Intelligence) Institute announced that its Allen Telescope Array would focus on surveying more than 20,000 red dwarf stars for signs of intelligent life over the next two years.\nSETI's Allen Telescope Array (ATA), in the mountains of Northern California, is an array of 42 antennas that, together, can achieve the astronomical observing power of much larger antenna dishes. Since its completion in 2007, the ATA has been listening to the skies for clear, repeating radio signals at frequencies that might indicate broadcasts by an intelligent civilization. From 2009-2015, the ATA focused on known extrasolar planets, but found no signals that met the criteria for alien life.\nRed dwarf stars had previously been dismissed as SETI targets because their chances for hosting habitable planets were thought to be dim. But red dwarves are abundant in the galaxy, and some are closer to the earth than more sun-like stars, meaning that signals from close red dwarves (such as Proxima Centauri, the nearest star to our Sun) would be stronger and clearer. As many as one-half of red dwarves may hold planets in the so-called \"habitable zone.\" Research into such possible planets (which would likely be locked with one side facing the star at all times and the other side in eternal night) suggest that oceans and atmospheres could move enough heat around to allow life to develop and thrive. Another plus: red dwarves are old stars, allowing life more time to develop intelligence and technology.\nBy focusing on a certain star type, astronomers will gather a large dataset on red dwarves, possibly uncovering new insights about the star type that will be useful to astronomers, even if a signal of alien life is not found.\nWill the Allen Telescope Array's survey of red dwarf stars yield valuable scientific information, whether regarding ET life or just the physics of red dwarf stars (or even some other radio sources serendipidously observed)?\nFor this question to resolve as positive, three papers must appear on arXiv.org reporting Allen Telescope Array discoveries regarding red dwarf stars on or before April 1, 2019. More specifically they must have both \"Allen Telescope\" and \"Red dwarf/ves\" or \"K/M dwarf/ves\" in the abstract. At least one of these must arguably report some type of scientific advance, not just null results. (The date is one year after the survey has concluded, to allow time for data analysis and manuscript preparation.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-15",
+  "date_close": "2018-04-15",
+  "date_resolve_at": "2019-04-01",
+  "url": "https://www.metaculus.com/api2/questions/216/",
+  "gpt_3p5_category": "Science & Tech"
+}

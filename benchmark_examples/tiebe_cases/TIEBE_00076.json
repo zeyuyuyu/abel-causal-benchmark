@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00076",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "02",
+  "question": "How many people died in Rio de Janeiro state due to floods and landslides in February 2024?",
+  "ground_truth": "At least eight people died.",
+  "event_desc": "22 February  At least eight people are killed during floods and landslides in Rio de Janeiro State."
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00047",
+  "split": "train",
+  "question": "Can quantum gravity be interestingly constrained using tabletop experiments?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Modern theories of quantum gravity are generally thought to only be testable at the Planck scale - very high energies or very small distances beyond our current technological scope. However, in the past five years proposals have been made for tabletop experiments for quantum gravity. These experiments won't need to access Planck scale physics; rather, they could use recently successful laboratory techniques (1, 2) for manipulating macroscopic quantum systems, and attempt to observe quantum gravity phenomona in these systems.\nItalian group Belenchia et al propose using opto-mechanical quantum oscillators to measure a specific predicted effect of quantum gravity. Opto-mechanical oscillators are macroscopic objects, like highly reflective silicone mirrors on springs, whose motions can be controlled by pulses of electromagnetic radiation. Belenchia et al explain that the specific effect to look for is a periodic squeezing, or localization of the oscillating component's position; the overall motion will no longer be simple harmonic oscillation, due to corrections from gravitational effects. Another paper by Australian group Gan et al also outlines the feasibility of testing quantum gravity in an opto-mechanical setting.\nThe design of these flavor of experiments is within technical scope, as claimed by the papers, albeit challenging. The opto-mechanical system must be supercooled into a highly quantum mechanical state and extremely precise measurements of the oscillator must be made. More importantly, the underlying concept's validity still needs to be explored through the peer review process.\nCan opto-mechanical systems of the proposed type interestingly constrain quantum gravity models?\nThis question will resolve positively if the following are satisfied:\n(a) either the Belanchia or Gan paper receives 10 or more citations on Google Scholar by the end of 2016\n(b) an experimental physics paper is published by January 1, 2018 which cites either of the above articles and mentions opto-mechanics to study quantum gravity in the abstract.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-02",
+  "date_close": "2016-06-01",
+  "date_resolve_at": "2018-01-04",
+  "url": "https://www.metaculus.com/api2/questions/122/",
+  "gpt_3p5_category": "Science & Tech"
+}

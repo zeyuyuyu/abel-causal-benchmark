@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00038",
+  "split": "train",
+  "question": "Will a successful proof of concept for a hyperloop be demonstrated by mid-2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In 2013, after several months of hints, Elon Musk and SpaceX released a white paper describing a new mode of transport dubbed the \"hyperloop.\" The design calls for a pod in a low-pressure tube system; the pod rides on a cushion of air to eliminate friction with a track, and the low-pressure tube dramatically reduces air drag.\nThe resulting design could achieve speeds near 760 miles per hour, taking passengers from Los Angeles to San Francisco in 35 minutes. Compare that to the California High Speed Rail (CHSR) project, still under construction, which aspires to make the same journey in just under three hours at around a quarter of the speed. Musk proposed the Hyperloop as not just a more ambitious and futuristic alternative to CHSR; Hyperloop aspires to be safer, cheaper, and self-powering.\nAfter initial skepticism, a consensus emerged that the Hyperloop idea is credible, and rather rapidly, several independent efforts to develop the Hyperloop concept began. At present, teams from the U.S. and abroad are preparing to present their own Hyperloop designs at the [design weekend] at Texas A&M University. Top designs will be tested at the SpaceX test track (also in construction) in California.\nMeanwhile, the other two prominent hyperloop companies, Hyperloop Transportation Technologies (HTT) and Hyperloop Technologies Inc. (HTI), compete to create their own Hyperloops; these will be operational at subsonic speeds, far below 800 mph but still faster than the CHSR projected speed. This means that prototype hyperloop technology may be demonstrated by one or more organizations as early as 2016.\nThe basic requirements that we'll use to define a Hyperloop are as follows. A pod or capsule in a tube of at least 2 m cross-section, suspended in an environment at pressures less than 1000 Pascals. A successful test is accomplished if the hyperloop transports a passenger load of at least 50 kg while reaching speeds of at least 300 km/h.\nWill there be a successful demonstration of a Hyperloop by June 15, 2017?\n(Updated 4/07: dropped acceleration limit of 0.5 g from criteria for success.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-11",
+  "date_close": "2016-06-15",
+  "date_resolve_at": "2017-06-28",
+  "url": "https://www.metaculus.com/api2/questions/71/",
+  "gpt_3p5_category": "Science & Tech"
+}

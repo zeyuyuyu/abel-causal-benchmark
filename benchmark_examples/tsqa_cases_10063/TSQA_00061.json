@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00061",
+  "question": "Which team was honored as the Bosnia and Herzegovina Team of the Year in 2015?",
+  "year": 2015,
+  "ground_truth": "Men's national U16 basketball team",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Men's national U16 basketball team",
+      "tag": "correct"
+    },
+    {
+      "answer": "Men's national handball team",
+      "tag": "past"
+    },
+    {
+      "answer": "National Davis Cup team",
+      "tag": "future"
+    },
+    {
+      "answer": "KK Igokea",
+      "tag": "future"
+    }
+  ]
+}

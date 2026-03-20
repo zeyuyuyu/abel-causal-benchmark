@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00081",
+  "split": "train",
+  "question": "Will a fatality of one or more per year due to accidental infections in \"select agent\" pathogen research labs be reported in the next year?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In the US, medical research on potentially human-harmful viral and bacterial pathogen and other \"select agents\" generally takes place in Biosafety level 3 and level 4 labs.\nThe US select agents program regulates the identification, acquisition, use, transfer, and disposal of select agents. Part of this program is a detailed reporting system of the theft, loss, or accidental release of select agents.\nA summary of the reports under this system from 2004-2010 by Henkel et al. found eleven laboratory-acquired infections (LAIs) during this period (along with 639 accidental \"releases\"), but none leading to human fatality. The report showed steadily and quickly increasing (> 29%/year) report numbers from 2004-2010, suggesting increasing reporting rates. (It is also likely that the number of labs working with select agents increased, and in-principle possible that the accident rate increased, but these seem unlikely to explain such a rapid rise.) This leaves open to question how many accidents (and LAIs) go unreported.\nA 2006 literature review by Harding and Byers found a large number of LAIs, with updated statistics of 2033 LAIs and 37 deaths (with 13 deaths since 2005). These numbers are difficult to compare, as LAIs can occur without an identified accident leading to them.\nA Google Scholar search of citations to Henkel et al. shows that it has been used to estimate accidental infection rates in a number of papers and reports, but reveals no more-recent followup summary based on the select agent reporting system.\nWill a new publication based on select-agent reports reveal a per-year fatality rate of unity or greater?\nTo be definite, the question will resolve as positive if, by May 2017, a publication that cites Henkel at al. in a Google Scholar search, and is based on select agent reports, lists at least one LAI fatality that occurred in the most recent year -- or at least two fatalities between the most recent two years -- fully covered by the data used in the publication.\n(Edited 4/25 to clarify that 1/year is a minimum for positive resolution.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-23",
+  "date_close": "2016-11-15",
+  "date_resolve_at": "2017-05-01",
+  "url": "https://www.metaculus.com/api2/questions/193/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

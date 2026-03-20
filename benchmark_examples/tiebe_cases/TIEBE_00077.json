@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00077",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "01",
+  "question": "How many people died in the crash involving a truck and a tourist minibus near São José do Jacuípe, Bahia, in January 2024?",
+  "ground_truth": "Twenty-five people died in the crash.",
+  "event_desc": "8 January  Twenty-five people are killed and six others are injured in a crash involving a truck and a tourist minibus on a highway near São José do Jacuípe, Bahia."
+}

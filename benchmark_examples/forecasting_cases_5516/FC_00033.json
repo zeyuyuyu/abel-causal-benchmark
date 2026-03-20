@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00033",
+  "split": "train",
+  "question": "Low-mass Doppler-detected planet in 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The catalog of known extrasolar planets is growing rapidly. At last count, NASA's Kepler Mission has generated 4,696 high-quality planet candidates, and thousands more are on the way from NASA's K2 and TESS Missions.\nThe surge in the planetary census has been almost exclusively driven by transit detections, in which the parent star is observed to undergo a subtle once-per-orbit dimming when a planet passes directly in front of the stellar disk.\nUntil recently, the Doppler velocity technique was the most productive method for discovering new planets. With the Doppler method, one monitors the shift in the parent star's line-of-sight velocity as it travels around the star-planet center of mass, thus allowing the presence of an unseen planet to be inferred.\nThe Doppler velocity technique works very well for massive planets that have short-period orbits. When the magnitude of the velocity shift lies below 1 meter per second, however, it becomes very difficult to make secure detections. Recently, a number of high-profile, front-page discoveries have been called into question.\nIn 2016, will a peer-reviewed paper appear in the literature that announces the detection of a non-transiting extrasolar planet that induces a radial velocity half amplitude for its parent star of less than one meter per second?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-30",
+  "date_close": "2016-01-15",
+  "date_resolve_at": "2017-01-20",
+  "url": "https://www.metaculus.com/api2/questions/49/",
+  "gpt_3p5_category": "Science & Tech"
+}

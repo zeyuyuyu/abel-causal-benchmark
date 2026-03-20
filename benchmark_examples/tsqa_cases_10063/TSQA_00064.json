@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00064",
+  "question": "Who was the current manager of Central Coast Mariners FC in 2019?",
+  "year": 2019,
+  "ground_truth": "Alen Stajcic",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Alen Stajcic",
+      "tag": "correct"
+    },
+    {
+      "answer": "Paul Okon",
+      "tag": "past"
+    },
+    {
+      "answer": "Nick Montgomery",
+      "tag": "future"
+    },
+    {
+      "answer": "Mike Mulvey",
+      "tag": "past"
+    }
+  ]
+}

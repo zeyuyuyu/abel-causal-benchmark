@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00097",
+  "split": "train",
+  "question": "Metaknowledge Experiment Part A: Will Bernie Sanders be the Democratic Nominee?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "As of April 15, the delegate counts in the US Democratic Primary Race (excluding superdelegates) are 1307 for Clinton and 1097 for Sanders, per fivethirtyeight; this page also outlines the route to nomination for both candidates.\nClinton is in a solid lead, though Sanders arguably has the momentum, having won the last 7 primaries, per the records of the NY times. (This streak is likely to end with New York.)\nThe proportional nature of the Democratic primaries creates a difficult path for Sanders; on the other hand low favorability ratings and persistent questions about the email scandal continue to dog Clinton.\nEveryone's got an opinion on this race, and here we ask:\nWill Sanders be the Democratic Nominee?\nThis is the first part of a two-part experiment in \"metaknowledge.\" In the second one, we ask what you think the Metaculus community prediction on this question will be (this is the reason the community prediction is hidden from view until question closing.) While of course not obligatory, it will aid in this experiment if you answer both questions. (CLICK HERE for second one.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-13",
+  "date_close": "2016-06-06",
+  "date_resolve_at": "2016-07-27",
+  "url": "https://www.metaculus.com/api2/questions/213/",
+  "gpt_3p5_category": "Politics & Governance"
+}

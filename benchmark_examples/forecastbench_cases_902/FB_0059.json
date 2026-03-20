@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0059",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the majority of new cars sold be electric vehicles by the end of 2030?",
+  "background": "Majority is 50%+ and it's worldwide marketshare",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "q6wJThcy6TJnQKrbjALm"
+}

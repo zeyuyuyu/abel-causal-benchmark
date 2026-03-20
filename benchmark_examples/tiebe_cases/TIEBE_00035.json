@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00035",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "04",
+  "question": "When did Brazil surpass 400,000 deaths from COVID-19?",
+  "ground_truth": "Brazil surpassed 400,000 deaths from COVID-19 in April 2021.",
+  "event_desc": "Brazil reaches the 400,000 mark of deaths from COVID-19."
+}

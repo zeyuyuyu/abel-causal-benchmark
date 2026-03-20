@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00014",
+  "split": "train",
+  "question": "Will superparticles be discovered at the Large Hadron Collider by July 8, 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Superparticles are partners to the standard model model particles such as protons, electrons, and photons, which would exist in supersymmetric models of fundamental physics.\nLooking for signatures of supersymmetry is one of the primary goals of the Large Hadron Collider (LHC), which restarted recently for its second run.\nThe question will be considered resolved in the affirmative if a bet between Frank Wilczek and Garrett Lisi, refereed by Max Tegmark, is resolved in favor of Wilczek.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-06",
+  "date_close": "2016-01-15",
+  "date_resolve_at": "2016-07-10",
+  "url": "https://www.metaculus.com/api2/questions/17/",
+  "gpt_3p5_category": "Science & Tech"
+}

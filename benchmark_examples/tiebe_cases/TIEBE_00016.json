@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00016",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "02",
+  "question": "How many COVID-19 deaths had Brazil recorded by February 2021?",
+  "ground_truth": "Brazil had recorded over 250,000 COVID-19 deaths by February 2021.",
+  "event_desc": "The death toll in Brazil, due to the COVID-19 pandemic surpasses 250,000; second-highest in the world."
+}

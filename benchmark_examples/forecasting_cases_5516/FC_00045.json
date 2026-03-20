@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00045",
+  "split": "train",
+  "question": "Will a consensus explanation of the strange behavior of the star KIC 8462852 emerge this year?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "NASA’s Kepler Mission revealed that the star KIC 8462852, a.k.a. \"Tabby's Star\" displays severe, aperiodic dips in brightness that have so far defied conventional astrophysical explanations.\nSeveral explanations for this behavior have been put forward, ranging from [a family of comets] to a swarm of artificial, orbiting “megastructures.”\nTo add to the mystery, an analysis of historical plate data indicates this star has dimmed by nearly 0.2 magnitudes, which is \"unprecedented\" for a star of this type. (This analysis has been criticized at potentially being due to calibration error in the photographic plates.)\nSearches for radio or other signals from the star, featured in a previous question, have as yet turned up nothing of note. As of March 01, 2016, no consensus explanation of this star's behavior has emerged.\nWill a consensus emerge in 2016?\nWe'll use the following criteria to specify consensus. Let N be the number of refereed published journal papers that:\nprovide an explanation for the aperiodic dips seen in KIC 8462852, and\nare cited by at least one published paper, or two preprints, supporting their explanation with additional analysis and/or data, and\nare cited at least 5 times in total, and\nare not cited by a published, refereed paper refuting the given explanation.\nIf N=1 we will consider a consensus to have been reached. If N > 1, and if all of the explanations are qualitatively the same, i.e. involving the same essential physics and objects (e.g. \"Comet breakup\"), we will also consider consensus to have been reached. Otherwise, we will consider that consensus has not yet been reached.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-22",
+  "date_close": "2016-06-01",
+  "date_resolve_at": "2017-01-01",
+  "url": "https://www.metaculus.com/api2/questions/110/",
+  "gpt_3p5_category": "Science & Tech"
+}

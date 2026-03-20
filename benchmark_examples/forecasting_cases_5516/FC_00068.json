@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00068",
+  "split": "train",
+  "question": "Will Lee Sedol defeat AlphaGo in any of the three games remaining?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Attention worldwide has been riveted to the unfolding match between Go master Lee Sedol and DeepMind's new Go-playing AI system AlphaGo, with millions of viewers watching, and a million dollars (along with some portion of the human mind's dignity) at stake.\nPrior to the match, Metaculus had pegged a 64% probability of an overall AlphaGo victory.\nSo far, AlphaGo has prevailed in two games played on March 8th and 9th. Although Sedol felt he had made some weak moves in game one, Sedol and many commentators felt that he played a very strong second game that was very close until the very end.\nWith the match now at 2-0, the question becomes not just whether Sedol can with the match, but whether he can win any of the three remaining games.\n(Note: This question's closing time will be retroactively changed to 30 minutes prior to end of the first game won by Sedol, or alternatively the 5th game of the match if Sedol does not win any games.)",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-10",
+  "date_close": "2016-03-13",
+  "date_resolve_at": "2016-03-17",
+  "url": "https://www.metaculus.com/api2/questions/170/",
+  "gpt_3p5_category": "Sports"
+}

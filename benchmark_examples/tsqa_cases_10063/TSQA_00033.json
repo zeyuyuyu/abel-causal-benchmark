@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00033",
+  "question": "Which team did Nino Paraíba play for in 2022?",
+  "year": 2022,
+  "ground_truth": "Ceará",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Ceará",
+      "tag": "correct"
+    },
+    {
+      "answer": "Bahia",
+      "tag": "past"
+    },
+    {
+      "answer": "América Mineiro",
+      "tag": "future"
+    },
+    {
+      "answer": "Ponte Preta",
+      "tag": "past"
+    }
+  ]
+}

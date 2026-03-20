@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00036",
+  "question": "In 2014 What is Chase Elliott's current standing position in the racing series?",
+  "year": 2014,
+  "ground_truth": "1st",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "1st",
+      "tag": "correct"
+    },
+    {
+      "answer": "28th",
+      "tag": "past"
+    },
+    {
+      "answer": "5th",
+      "tag": "future"
+    },
+    {
+      "answer": "13th",
+      "tag": "future"
+    }
+  ]
+}

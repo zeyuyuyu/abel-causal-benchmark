@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0003",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will an SEC school win the 2024-25 CFP National Championship?",
+  "background": "SEC refers to the Southeastern Conference, CFP is the Division I FBS College Football Playoff.\n\nThe teams include Alabama, Arkansas, Auburn, Florida, Georgia, Kentucky, LSU, Mississippi State, Missouri, Oklahoma, Ole Miss, South Carolina, Tennessee, Texas, Texas A&M, and Vanderbilt.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "5XPX94l5MEPEdlRYoYvn"
+}

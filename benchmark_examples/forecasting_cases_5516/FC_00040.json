@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00040",
+  "split": "train",
+  "question": "Will an attack on the electrical grid cause an extended power outage for a major U.S. city?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Ted Koppel, of ABC News and Nightline fame, has been sounding the alarm about the vulnerability of the electrical grids in the U.S. to intentional sabotage.\nIn his book Lights Out, Koppel argues that the U.S. grid(s) are both so interconnected and so fragile that a well-crafted attack could knock out power for a multi-state region, leaving residents without electric power for months.\nFor the purposes of this question, an attack with less dramatic impact will do:\nBetween March 1 and September 1, 2016, will an intentional attack on our electrical power infrastructure knock out power for more than 30% of residents in one of the ten most populous U.S. cities for a period of 72 hours or more?\nFor a positive resolution, there must be a public statement by either a law enforcement organization or a utility company confirming that the outage was not an accident.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-13",
+  "date_close": "2016-02-15",
+  "date_resolve_at": "2016-09-14",
+  "url": "https://www.metaculus.com/api2/questions/102/",
+  "gpt_3p5_category": "Security & Defense"
+}

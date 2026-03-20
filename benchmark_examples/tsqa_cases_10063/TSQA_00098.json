@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00098",
+  "question": "Which character was portrayed by Alexander Scheer in his latest film appearance in 2019?",
+  "year": 2019,
+  "ground_truth": "Siegfried Leitmann",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Siegfried Leitmann",
+      "tag": "correct"
+    },
+    {
+      "answer": "Dieter Degowski",
+      "tag": "past"
+    },
+    {
+      "answer": "Andy Warhol",
+      "tag": "future"
+    },
+    {
+      "answer": "Blixa Bargeld",
+      "tag": "past"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00082",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "05",
+  "question": "How many people were reported missing after the floods in Rio Grande do Sul in May 2024?",
+  "ground_truth": "At least 60 people were reported missing after the floods.",
+  "event_desc": "3 May  The 14 de Julho Dam fails after heavy rainfall in Rio Grande do Sul."
+}

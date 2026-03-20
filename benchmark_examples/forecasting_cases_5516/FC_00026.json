@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00026",
+  "split": "train",
+  "question": "Has a new boson been discovered at the LHC?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "On December 15th, 2015, two teams of physicists at the Large Hadron Collider at CERN announced the possible, tentative, detection of a new elementary particle. News story here.\nThe teams (comprised of the CMS and ATLAS consortia) have been accumulating data from the energetic collisions that occur when twin 6.5 TeV proton beams are directed at each other. Within the resulting subatomic collisional debris, both teams are observing an excess of 750 GeV gamma ray pairs that hint at the decay of a new type of boson that is four times heavier than the top quark.\nThe signal still has relatively low statistical significance, and was announced only because it was independently observed by both the CMS team and the ATLAS team. Further data are being acquired, and by Summer 2016, the signal, if it is real, will be of order 10x stronger than at present.\nWill there be an announcement at or before the Aug 3-10 38th International Conference on High-Energy Physics, that the evidence for a di-photon excess has increased, rather than decreased, in statistical significance, to 5-sigma equivalent incompatibility with the standard model? (This significance can arise from a combined analysis of CMS and Atlas data.)\n(Note: resolution criteria updated 3/8/16)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-16",
+  "date_close": "2016-06-01",
+  "date_resolve_at": "2016-08-15",
+  "url": "https://www.metaculus.com/api2/questions/41/",
+  "gpt_3p5_category": "Science & Tech"
+}

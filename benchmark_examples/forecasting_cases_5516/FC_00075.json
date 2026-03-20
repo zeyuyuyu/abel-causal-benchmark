@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00075",
+  "split": "train",
+  "question": "By 2020, will an implanted human embryo with artificially edited DNA be brought to term?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In April of 2015, it was announced that scientists in China had successfully edited the genome of a human embryo using the CRISPR/Cas9 system--a standard synthetic biology tool for gene editing. February 1st of this 2016 marked another major turning point in the field when UK regulators approved gene editing in viable human embryos. This is the first time that any kind of regulatory agency has approved the use of synthetic techniques in humans at the embryonic stage. This may present an open door for other agencies to make similar judgments. It should be noted that the genes targeted in the newly-approved study were chosen by the UK researchers to probe embryonic development, and specifically disapproved for future implantation and maturation.\nSingle-cell embryos are excellent subjects for CRISPR research; their relatively large size enables routine microinjection of the biological macromolecules necessary to perform the edit. A significant drawback, however, is CRISPR efficiency. Like any mutagenic process, it leaves a lot of room for improvement. Its targets still have a low chance of being successfully and appropriately edited, thus requiring a sequencing screen to find a match. This has the potential to leave many human embryos unwanted or no longer viable, as in the relatively rare case of an improper edit.\nOn the other hand, there are a number of genetic disorders (cystic fibrosis, for instance) that are rapidly fatal anyway, presenting some cases as prime candidates for CRISPR editing. Now, development of the system in human embryos has precedent, which may lead to other agencies following the example set by the UK. While still strictly illegal in the UK and US,\nby 2020, will the remaining roadblocks be lifted (or circumvented), leading to an implanted human embryo brought fully to term with CRISPR (or a similar system) edited DNA?\nThis question will resolve positively if the aforementioned event is reported in one of the top 25 media outlets by October 1st, 2020.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-17",
+  "date_close": "2018-10-01",
+  "date_resolve_at": "2019-01-21",
+  "url": "https://www.metaculus.com/api2/questions/184/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

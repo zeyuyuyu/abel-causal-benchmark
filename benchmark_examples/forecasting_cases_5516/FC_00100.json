@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00100",
+  "split": "train",
+  "question": "Zapping Zika #1: First vaccine trials by January 2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The Zika Virus has grown into a major health threat with the realization that this virus, previously considered fairly innocuous, can cause birth defects including microencephaly, as well as many other issues.\nSpread primarily by the Aedes Mosquito, Zika is currently being trasmitted person-to-person in 44 countries and territories.\nThis has motivated a major vaccine development effort, with a reported 18 agencies and companies working on a vaccine.\nProbably earliest on the horizon is an effort by the NIH:\nThe US National Institutes of Health (NIH), for instance, is developing a DNA-based vaccine in which genetic material from the Zika virus would be used to induce an immune response.\nThis could begin testing as early as December; \"inactivated\" and \"live attenuated\" vaccines are also in the works by other agencies, but on a longer timescale. Taking account of some potential delays:\nBy the end of January 2017, will the NIH begin tests of a Zika vaccine on healthy volunteers?\nResolution is by reliable media report or source.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-16",
+  "date_close": "2016-08-04",
+  "date_resolve_at": "2016-09-02",
+  "url": "https://www.metaculus.com/api2/questions/218/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

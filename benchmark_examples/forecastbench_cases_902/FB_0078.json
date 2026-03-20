@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0078",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the United States recognize the Islamic Emirate of Afghanistan before 2030?",
+  "background": "In the wake of the [Taliban takeover of Afghanistan](https://en.wikipedia.org/wiki/2021_Taliban_offensive), the [Islamic Emirate of Afghanistan](https://en.wikipedia.org/wiki/Islamic_Emirate_of_Afghanistan) has remained an [unrecognized state](https://en.wikipedia.org/wiki/List_of_states_with_limited_recognition).  The United States has said it is [premature](https://www.msn.com/en-us/news/world/white-house-premature-to-recognize-taliban-as-legitimate-government-of-afghanistan/ar-AANqEPV) to recognize the Taliban.  The US has [also said](https://www.thedailystar.net/news/world/usa/news/no-quick-recognition-taliban-us-or-allies-2163551) that recognition of the Taliban would be contingent on the Taliban respecting women's rights and not supporting terrorism.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "7872"
+}

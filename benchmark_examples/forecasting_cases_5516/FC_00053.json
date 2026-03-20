@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00053",
+  "split": "train",
+  "question": "Wil the VIX index top 30 before March 15th, 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "So far, this year hasn't worked out particularly well for the stock market. The S&P 500 index is down 10% since the start of 2016, the price of oil has tanked, and the VIX volatility index has jumped by more than 50%, with recent closes consistently above 25.\nIn the popular financial press, the VIX Index is often referred to as the “fear gauge”, and indeed, it's behavior can be modeled as the rate of flow from a reservoir of \"fear\" that is replenished by an autocorrelated process.\nIn reality, it is a quantitative assessment of expected stock market volatility over the next thirty day period, and is computed from S&P 500 stock index option prices.\nTo rule-of-thumb accuracy, the numerical value of the VIX corresponds to the annualized one-sigma percentage change in the value of the S&P 500 Index over the next month. So at present, with the VIX standing at 26, the market ascribes roughly a 30% chance that stocks will have changed in price by more than 7.5%, come March 10th (a month from now).\nTypically, the value of the VIX lies between 10 and 20, but it regularly spikes during times of market turmoil. During the 2008 financial crisis, for example, the VIX briefly reached values above 80.\nPrior to the close of the US equities markets at 4:00 PM EDT on March 15th, 2016, will the VIX Index have an intra-day print with a value above 30?",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-11",
+  "date_close": "2016-02-11",
+  "date_resolve_at": "2016-02-11",
+  "url": "https://www.metaculus.com/api2/questions/138/",
+  "gpt_3p5_category": "Economics & Business"
+}

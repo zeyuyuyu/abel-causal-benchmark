@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00045",
+  "question": "Who is the primary champion of the World Boxing Association in the Bantamweight category in 2017?",
+  "year": 2017,
+  "ground_truth": "Ryan Burnett – Super champion",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Ryan Burnett – Super champion",
+      "tag": "correct"
+    },
+    {
+      "answer": "Anselmo Moreno – Super champion",
+      "tag": "past"
+    },
+    {
+      "answer": "Naoya Inoue",
+      "tag": "future"
+    },
+    {
+      "answer": "Nonito Donaire",
+      "tag": "future"
+    }
+  ]
+}

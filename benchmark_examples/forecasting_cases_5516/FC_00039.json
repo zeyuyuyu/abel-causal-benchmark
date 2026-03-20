@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00039",
+  "split": "train",
+  "question": "Has North Korea tested a boosted fission nuclear device?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "North Korea claimed that it had successfully tested a hydrogen bomb last week on January 6th. Seismic data the same day registered 5.1 magnitude body waves, corresponding to estimates that the blast would have contained between 4.7 and 7 kilotons of energy. That energy yield is much smaller that previous tests of H-bombs, which release upwards of 30 kilotons, and the current consensus (1,2) is that the test was not a thermonuclear device. While an H-bomb is most likely ruled out, it still leaves the possibility that North Korea has the capability to design compact nuclear weapons that use boosted fission, in which a relatively small energy release from nuclear fusion catalyzes a higher rate -- and higher yield -- of nuclear fission. A boosted fission nuclear device is still a threatening weapon of mass destruction and indicates a significant technological advance in the North Korean nuclear program.\nBy February 1, 2016, will a major news source run an article reporting that the blast detected on January 6th is from a boosted fission nuclear weapon?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-11",
+  "date_close": "2016-01-18",
+  "date_resolve_at": "2016-02-01",
+  "url": "https://www.metaculus.com/api2/questions/72/",
+  "gpt_3p5_category": "Security & Defense"
+}

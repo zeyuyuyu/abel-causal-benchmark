@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0085",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the Detroit Pistons change their name by 2055?",
+  "background": "The [Detroit Pistons](https://en.wikipedia.org/wiki/Detroit_Pistons) started as the \"Fort Wayne Zollner Pistons\", a semi-professional team in 1937 in Indiana. The founder, [Fred Zollner](https://en.wikipedia.org/wiki/Fred_Zollner), had a foundry that made piston engines in Fort Wayne, Indiana. In 1948, the team became the \"Fort Wayne Pistons\" when they joined the Basketball Association of America (BAA). In 1949, Zollner brokered the formation of the National Basketball Association from merger of the BAA and National Basketball League. In 1957, Zollner moved his team to Detroit, as his team was unable to generate enough revenue in Fort Wayne's small market. Zollner retained the \"Pistons\" name as it was still apt - Detroit was considered then as the center of the automotive industry.\n\n[There is currently a transition to electric vehicles](https://www.iea.org/energy-system/transport/electric-vehicles) where many observers expect it to completely displace internal combustion engines in the next few decades. Electric vehicles do not use pistons in propulsion. Hydrogen vehicles also do not.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "20767"
+}

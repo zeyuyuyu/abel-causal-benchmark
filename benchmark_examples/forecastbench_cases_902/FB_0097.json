@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0097",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will one of the first AGI claim to be conscious?",
+  "background": "[Consciousness](https://en.wikipedia.org/wiki/Consciousness) is a concept hard to define. Wikipedia states that consciousness at its simplest is \"awareness or sentience of internal or external existence\". And that despite centuries of analyses, definitions, explanations and debates by philosophers and scientists, consciousness remains puzzling and controversial, being \"at once the most familiar and most mysterious aspect of our lives\".\n\nThis question will not attempt to define consciousness or solve the so called [hard problem of consciousness](https://en.wikipedia.org/wiki/Hard_problem_of_consciousness). \n\nInstead this question simply asks will one of the first AGI claim to be conscious?",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "4409"
+}

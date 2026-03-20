@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00066",
+  "question": "In 2013 Who is the lead in Briar Schwaller-Hürlimann's curling team?",
+  "year": 2013,
+  "ground_truth": "Tamara Michel",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Tamara Michel",
+      "tag": "correct"
+    },
+    {
+      "answer": "Claudia Baumann",
+      "tag": "future"
+    },
+    {
+      "answer": "Céline Koller",
+      "tag": "future"
+    },
+    {
+      "answer": "Anna Gut",
+      "tag": "future"
+    }
+  ]
+}

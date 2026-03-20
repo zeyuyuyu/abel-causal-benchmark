@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00051",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "07",
+  "question": "Why was Brazilian President Jair Bolsonaro hospitalized in July 2021?",
+  "ground_truth": "He was hospitalized due to an intestinal obstruction and persistent hiccups lasting over ten days.",
+  "event_desc": "President Jair Bolsonaro is diagnosed with an intestinal obstruction and is hospitalized in Brasília. Hours later he was transferred to São Paulo to undergo further tests."
+}

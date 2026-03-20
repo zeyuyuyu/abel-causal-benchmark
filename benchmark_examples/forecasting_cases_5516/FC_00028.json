@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00028",
+  "split": "train",
+  "question": "By the end of 2017 will a gene drive targeting malaria be initiated?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "\"Gene drives\" are phenomena in a species' population in which one version of a gene, or allele, is probabilistically favored over other alleles that are otherwise equally favored by fitness. A gene drive in a particular allele shows up as a bias for the corresponding phenotype in the offspring. Consider two parents with different alleles for the same gene; if there exists a gene drive for one allele, it is highly likely that all of the parents' offspring will carry the driven gene's trait.\nWith new advances in genetic engineering using CRISPR, it is now much easier to modify an organism's genes. This makes engineered gene drives tractable: a gene coding for the CRISPR system itself can be encoded near to the gene being \"driven,\" so that if one copy of the driven allele and one \"wild\" allele are inherited, the CRISPR system modifies the wild gene so that the driven gene plus CRISPR system is inherited. This process can spread the driven gene expoentially throughout a population, at a rate far exceeding the spread of a gene that is merely favorable for survival.\nUses of this method include the potential to eliminate diseases like malaria or lyme disease that are spread by a fast-reproducing vector, by promoting disease-resistant traits. Valentino Gantz et. al. have genetically altered a primary malaria vector native to India, the Anopheles stephensi mosquito, to carry and pass on anti-malaria traits. Another study published in nature biotechnology offers a more drastic approach that would render female Anopheles gambiae mosquitoes, native to Africa, completely infertile, with the intent of wiping out the species in affected ecosystems. Similar studies have investigated engineering mice (a prime carrier) to be immune to Lyme disease.\nWith Malaria afflicting hundreds of millions of people per year, advances in gene drive research have insitgated public conversation about the usefulness, feasibility, and ethics of gene drives is being encouraged before testing them in wild ecosystems. By January 1st, 2018, will a formal submission be made to a regulatory body proposing to test a malaria-combatting gene drive in a wild population?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-19",
+  "date_close": "2016-05-15",
+  "date_resolve_at": "2018-01-14",
+  "url": "https://www.metaculus.com/api2/questions/44/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

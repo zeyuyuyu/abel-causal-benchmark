@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0099",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will it be legal to pay taxes in the US using bitcoin before 2030?",
+  "background": "*Related Question on Metaculus:*\n\n* [Will anyone be convicted in the US for the possession of Bitcoin before 2060?](https://www.metaculus.com/questions/7209/conviction-in-us-for-bitcoin-ownership-2060/)\n\n----",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "7509"
+}

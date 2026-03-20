@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00091",
+  "split": "train",
+  "question": "A is in the I of the beholder #3: it's beAIutiful!",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Along with rather \"left brain\" endeavors such as trading stocks and playing Go, machine learning systems have also been developed for more aesthetic pursuits.\nIn recent news, a computer system (using lots of human input) has been developed to create realistic Rembrandt paintings.\nIn April 2016, a program (again with lots of human support) assembled a novel that passed the first round in a Japanese literary competition.\nAnd computer-generated music has been with us for a while, with systems capable of generating novel pieces in the style of existing composers.\nAs these systems improve, we are likely to see more attempts, like the Japanese novel, to enter AI systems into human competitions -- it's great press.\nWill one succeed by mid-2017?\nThis resolves as positive if a computer system enters a competition and wins a prize of monetary value >$500 USD in art, literature or music. The computer system must be capable -- after training -- of generating the entire piece on its own as well as generating qualitatively different pieces. (That is, a human-computer hybrid system does not count, as there are many of these already.) If the computer system wins, but is then not awarded a prize due to rules/outrage, that still fulfills the criteria. The competition should be one targeted explicitly or implicitly at humans rather than programs.\nTo mix things up, this will also resolve positive if (as in our startup fraud question) a sneaky human masquerading as an AI enters and wins a competition in art, literature or music created for computer systems.\nIn either case, we anticipate sufficient media coverage to bring the event to light, but some potential but hard-to-avoid ambiguity in a clean resolution.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-06",
+  "date_close": "2016-09-01",
+  "date_resolve_at": "2017-06-03",
+  "url": "https://www.metaculus.com/api2/questions/207/",
+  "gpt_3p5_category": "Arts & Recreation"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00024",
+  "question": "What is the latest television series Tayanç Ayaydın has starred in in 2017?",
+  "year": 2017,
+  "ground_truth": "Kırgın Çiçekler",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Kırgın Çiçekler",
+      "tag": "correct"
+    },
+    {
+      "answer": "Emanet",
+      "tag": "past"
+    },
+    {
+      "answer": "Tek Yürek",
+      "tag": "future"
+    },
+    {
+      "answer": "Yeni Hayat",
+      "tag": "past"
+    }
+  ]
+}

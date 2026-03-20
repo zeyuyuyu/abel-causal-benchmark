@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00088",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "07",
+  "question": "How much of the Pantanal wetland in Brazil was burned by wildfires in 2024?",
+  "ground_truth": "Wildfires burned 760,000 hectares (1.8 million acres) of the Pantanal in 2024, destroying over 4% of Brazil's largest wetland.",
+  "event_desc": "9 July  2024 Brazil wildfires Wildfires burn 760,000 hectares (1.8 million acres) of the Pantanal, destroying over 4% of Brazil's largest wetland."
+}

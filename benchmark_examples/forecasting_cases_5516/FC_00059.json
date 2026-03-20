@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00059",
+  "split": "train",
+  "question": "Will Apple help the FBI access the 'San Bernardino iPhone'?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The past several years have seen escalating tension between tech giants such as Apple and Google, and government agencies including the CIA and FBI, over the encryption of data on devices and over the internet.\nIn recent weeks this has escalated into a confrontation between the FBI and Apple computer concerning encryption on iPhones. In this case, the FBI wishes for Apple to provide it access to an iPhone owned by Syed Farook, alleged shooter in the San Bernardino shooting event.\nOn Feb. 16, a judge ordered Apple to assist the FBI in providing access to this device via a \"one time\" weakening of the security technology, in essence allowing the FBI to much more quickly brute-force the iPhone's pin.\nApple, via CEO Tim Cook, has protested this, writing in a letter to its customers that this would compromise security of iPhones in general, to which it is strongly committed. On Feb. 18, Google CEO Sundar Pichai expressed support for Apple's position.\nThis conflict raises long-term questions about the future of encryption in consumer devices. Here, we address just the short term question:\nWill the FBI have access to the information on the iphone in question by March 30, 2016?\nResolution will be positive if credible media reports by March 30, 2016 report that Apple has indeed complied with the order to assist the FBI, and the FBI has indeed accessed the data.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-18",
+  "date_close": "2016-02-28",
+  "date_resolve_at": "2016-03-29",
+  "url": "https://www.metaculus.com/api2/questions/150/",
+  "gpt_3p5_category": "Security & Defense"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00027",
+  "split": "train",
+  "question": "Will the SEC approve the IEX's application to operate as a registered exchange?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The development of the new IEX exchange was a central theme in Michael Lewis' controversial 2014 book Flash Boys, which describes aspects of computerized high-frequency trading of stocks.\nA stated aim of the IEX Exchange is to provide a level playing field for all market participants through the implementation of a 350 microsecond delay between order submission and execution.\nIEX has been operating as an Alternative Trading System since October 2013. In September 2015, it applied to the U.S. Securities Exchange Commision for approval to operate as a Registered Exchange. The application generated a large amount of public comment, with arguments being placed both in favor of and against IEX's plans.\nThe SEC was scheduled to issue a decision statement on IEX's application on Dec. 21st, 2015. On Friday December 18th, however, it announced that IEX has approved a delay until next March 21st for a final decision.\nOn March 21, 2016, will the SEC grant approval for IEX to operate as a Registered Securities Exchange? In order for the question to be resolved as yes, any amended version of IEX's application must retain the critical feature in which the 350 microsecond delay is placed between order submissions and executions.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-19",
+  "date_close": "2016-03-20",
+  "date_resolve_at": "2016-03-21",
+  "url": "https://www.metaculus.com/api2/questions/43/",
+  "gpt_3p5_category": "Economics & Business"
+}

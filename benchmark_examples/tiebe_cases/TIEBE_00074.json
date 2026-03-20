@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00074",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "01",
+  "question": "Which regions of Brazil were affected by the 6.6 magnitude earthquake in January 2024?",
+  "ground_truth": "The earthquake primarily affected the states of Acre and Amazonas in northern Brazil.",
+  "event_desc": "20 January  A magnitude 6.6 earthquake strikes Acre and Amazonas states, making it the strongest recorded earthquake to hit Brazil. No casualties or damage are reported."
+}

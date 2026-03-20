@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0044",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will over 100,000 people be conceived with the help of advanced embryo selection techniques by 2030?",
+  "background": "See:\n\nhttps://lifeview.com\n\nhttps://www.gwern.net/Embryo-selection\n\nDoesn't matter what the traits selected are; can be predicted health, personality traits, intelligence, criminality, whatever. Just matters that the embryo was selected based on not specific, simple criteria (i.e. how many chromosomes a fertilized egg has or whether or not it will have sickle cell disease) but more wide ranging quality of life or \"child success\" predictions. ",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "orkfisZxTY9ratCDidWK"
+}

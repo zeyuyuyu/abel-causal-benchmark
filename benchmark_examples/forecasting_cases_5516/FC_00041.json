@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00041",
+  "split": "train",
+  "question": "Will an AI successfully masquerade as human for 20 questions by 2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The Turing Test (aka the \"Imitation Game\") is a well-known thought experiment as well as an actual test that can be done on computer programs that converse via text. The idea is simple: a human judge converses with the machine, and if it cannot discern the machine from a human conversant, then the machine has \"passed.\"\nNo conversing system (or \"Chatbot\") has passed the Turing test (despite some reports), but they are getting better. Each year there is an annual competition in artificial intelligence for the Loebner Prize, which awards a bronze-level prize to the most human chatbox, and offers a silver- and gold-level prizes for actually passing versions of the full Turing test.\nTo qualify for the conversation test, chatbot contestants answer 20 open-ended questions designed by a panel. The questions are new each year, and the same questions offered to each chatbot. You can see the 2014 and 2015 questions here, along with the answers that each of 15-20 chatbots gave.\nSome of the chatbots give pretty convincing answers to many of the questions, scoring as much as 89% in the contest's scoring system. Examination suggests a typical human would easily score 100% most of the time.\nAs a step toward passing a full Turing test, in the 2016 or 2017 competitions, will a chatbot score 100% in the 20-question preliminary round?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-14",
+  "date_close": "2016-07-01",
+  "date_resolve_at": "2017-11-18",
+  "url": "https://www.metaculus.com/api2/questions/106/",
+  "gpt_3p5_category": "Science & Tech"
+}

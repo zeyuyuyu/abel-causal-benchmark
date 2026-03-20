@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00062",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "12",
+  "question": "How many cities in Bahia were in a state of emergency due to heavy rains by December 2021?",
+  "ground_truth": "By December 2021, 66 cities in Bahia were in a state of emergency due to heavy rains.",
+  "event_desc": "Heavy rain once again causes flooding in at least 19 municipalities in Bahia."
+}

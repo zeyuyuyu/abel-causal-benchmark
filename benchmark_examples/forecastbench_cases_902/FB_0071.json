@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0071",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be major civil unrest or rioting in America before 2031?",
+  "background": "Incidents of civil unrest are not terribly uncommon in the United States, but large-scale rioting is quite rare. One of the most severe incidents in recent history was the 1992 Los Angeles riots, during which more than 60 people were killed, more than 2,350 people were injured, and more than 12,000 people were arrested. Property damage was estimated at more than $1bn.\n\nThere have been four previous questions of this type on Metaculus. Each of them resolved as “No.”\n\n-\t[Will the US see a massive riot in 2020?]( https://www.metaculus.com/questions/3900/will-the-us-see-a-massive-riot-in-2020/) by Jgalt\n-\t[Will there be a major civil unrest or rioting in the US before 1 March 2021?]( https://www.metaculus.com/questions/6244/large-scale-rioting-in-us-in-early-2021/) by Jgalt\n-\t[Will there be large-scale rioting in the US before April 15th, 2023?]( https://www.metaculus.com/questions/15573/huge-riots-in-the-us-before-april-15th-2023/) by Matthew_Barnett\n-\t[Will the US see widespread rioting in 2020?]( https://www.metaculus.com/questions/4536/will-the-us-see-widespread-rioting-in-2020/) by juancambeiro",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "18663"
+}

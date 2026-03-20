@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00089",
+  "split": "train",
+  "question": "Will Wikileaks publish the full \"Panama Papers\" in a publicly-accessible and searchable format?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In August 2015 German Newspaper Süddeutsche Zeitung received from an anonymous source 11.5 million documents (totaling 2.6 terabytes of data) from the Panamanian corporate service provider Mossack Fonseca. (Mossack Fonseca claims the data was taken in a hacking incident)\nThey subsequently shared the data with the U.S.-based International Consortium of Investigative Journalists (ICIJ) which distributed the data to 400 journalists in 107 media organizations which whom it has contacts.\nThe data reveals widespread use of tax havens and other tax avoidance schemes.\nAt the moment most of the data isn't acccesible by the public. By the end of 2016 will Wikileaks get hold of the data and publish it directly to the public in a searchable format, as Wikileaks published \"Cablegate\" and the Hillary Clinton Email Archive?\nResolution is positive if at least 95% of the documents by number are posted by Wikileaks and searchable by end of 2016.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-06",
+  "date_close": "2016-06-20",
+  "date_resolve_at": "2016-12-30",
+  "url": "https://www.metaculus.com/api2/questions/205/",
+  "gpt_3p5_category": "Politics & Governance"
+}

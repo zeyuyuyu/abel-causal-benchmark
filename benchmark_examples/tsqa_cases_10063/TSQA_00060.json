@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00060",
+  "question": "In 2019 Who joined Josh Morgerman on his latest tropical cyclone chase team?",
+  "year": 2019,
+  "ground_truth": "Solo",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Solo",
+      "tag": "correct"
+    },
+    {
+      "answer": "James Reynolds",
+      "tag": "past"
+    },
+    {
+      "answer": "Anthony van Dyck",
+      "tag": "future"
+    },
+    {
+      "answer": "Erik Sereno",
+      "tag": "future"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00069",
+  "split": "train",
+  "question": "Will online voting spread in the US before the next presidential election?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Although critical to the democratic model of government, voting in America has some problems. Turnout is often low, and the terms \"butterfly ballot\" and \"hanging chad\" still linger in our collective consciousness following the uncertainty of the 2000 presidential election.\nSince we are already able to do practically everything else via the internet –bank, shop, communicate, etc., – online voting seems like a natural next step. Some argue that online voting would increase turnout and bring voting access to anyone with the internet, without the need to go to a polling place on Election Day.\nCurrently, 22 states allow for some form of online voting, allowing members of the military and other citizens living overseas to return their ballots by email. Only one state - Alaska - allows any registered voter, provided they pre-register, to use an online voting portal. Four other states offer an online voting portal. In March 2016 the Utah Republican Party offered online voting to all registered voters in its presidential caucus.\nThe major problem that hampers every proposal for online voting is security. Repeated analyses find that, given the impossibility of sufficiently protecting the millions of personal devices that would be used in an online election, the risk of malicious interference in the election is too high to recommend proceeding with online voting. The stakes are also too high, the analysts say, with no less than the balance of American political power in play.\nStill, multiple online voting vendors exist, each claiming to be secure. The fate of online voting may depend on who can make the most innovative advances in internet security: vendors or hackers.\nWill online voting for all registered voters expand by the 2020 general election?\nTo resolve as positive, a credible news outlet must report that at least five states will allow any registered voter to submit their ballot for the 2020 general election via email or an online voting portal on or before November 3, 2020.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-11",
+  "date_close": "2020-01-01",
+  "date_resolve_at": "2020-11-03",
+  "url": "https://www.metaculus.com/api2/questions/172/",
+  "gpt_3p5_category": "Politics & Governance"
+}

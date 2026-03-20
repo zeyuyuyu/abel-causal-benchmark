@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00063",
+  "split": "train",
+  "question": "Will over 70% of internet traffic be encrypted by 2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The NSA revelations in 2013 demonstrated how vulnerable and frequently breached the world's internet data is. Following Edward Snowden's advocacy, and the advocacy of the CA Security Council, Wikipedia CEO Jimmy Wales and other internet leaders have pushed for the move to end-to-end encryption, or the practice of encrypting data packets at every stage between user and host. This movement is dubbed 'Always-On SSL,' a reference to the cryptographic protocols used to elevate HTTP domains to HTTPS (HTTP - Secure). Many sites with huge traffic shares, like Facebook, Microsoft, Google, and Yahoo, have already been moving towards end-to-end encryption.\nAccording to this report by Sandvine, the amount of encrypted data packets in North American internet traffic is projected to increase from 29.1% (April 2015) to nearly 60-70% by 2017. A large contributor to the projections could be Netflix, comprising over 30% of downloaded traffic, which announced last April to shareholders that it would be moving towards HTTPS soon.\nThese projections suggest a rapid transition, but there is reasonable speculation that full end-to-end encryption won't be accomplished as soon as reports predict.\nBy April 2017, will Sandvine or one of the top 25 media outlets publish a report finding that 70% or more of either North American or the world's internet traffic be encrypted?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-03",
+  "date_close": "2016-06-01",
+  "date_resolve_at": "2017-04-15",
+  "url": "https://www.metaculus.com/api2/questions/164/",
+  "gpt_3p5_category": "Science & Tech"
+}

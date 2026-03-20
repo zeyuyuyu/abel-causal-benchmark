@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0040",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will AI have a trillion+ dollar impact by the end of 2025?",
+  "background": "This market is intended to use the same resolution criteria as https://manifold.markets/dreev/will-ai-have-a-sudden-trillion-doll, but for 2025 instead of 2023. For the sake of consistency with that market, I'll ask @dreev for a judgement if the resolution seems non-obvious to me. For convenience, what follows is the description of the linked market: > I'm picking \"trillion+ dollar impact\" as a proxy for \"obviously life-changing for normal people\". It need not count as human-level AI aka artificial general intelligence (AGI). Examples of things that would surely count: > 1. Virtual assistants that are better than well-paid humans > 2. Superhuman art, i.e., people tend to prefer to read / view / listen to AI-generated art > 3. AI generating wholly new science/tech > 4. A technological singularity, obviously > 5. Level 5 self-driving cars or level 4 available mostly everywhere Close date updated to 2026-01-01 11:59 pm\n\nNov 29, 5:10pm: Will AI have a sudden trillion+ dollar impact by the end of 2025? → Will AI have a trillion+ dollar impact by the end of 2025?",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "WDTbFd6CPJezD1j41U5s"
+}

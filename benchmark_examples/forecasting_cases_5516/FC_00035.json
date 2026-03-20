@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00035",
+  "split": "train",
+  "question": "[Tutorial:] Will a magnitude 6.0+ Earthquake hit California this year?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Note: This question is part of the Metaculus tutorial series on the art and science of making successful quantitative predictions. Additional useful information can be found at the Metaculus FAQ.\nCalifornia is well-know to be very geologically active, and has in the past experienced major earthquakes: 15 recorded since the mid-19th century above magnitude 7.0. Even a 6.0 earthquake can cause significant damage, and there are 47 listed in the same source.\nThe USGS maintains a comprehensive searchable data store of past earthquakes around the world. Occurrence of specific earthquakes is notoriously difficult. However, their statistics are fairly well-characterized over long timescales: a reasonable prediction can be obtained by simply dividing taking the number of 6.0 or greater earthquakes that have occurred in the last N years and dividing by N. (For example, the Wikipedia list has 39 since 1900.)\nBetter estimates would integrate the Poisson probability distribution, would consider incompleteness in the early historical records, would consider correlated Earthquakes in the historical list, etc.\nWill (at least one) magnitude 6.0 or greater earthquake strike California in 2016?\nFeel free to explain your reasoning and numbers!",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-31",
+  "date_close": "2016-02-01",
+  "date_resolve_at": "2017-01-01",
+  "url": "https://www.metaculus.com/api2/questions/51/",
+  "gpt_3p5_category": "Environment & Energy"
+}

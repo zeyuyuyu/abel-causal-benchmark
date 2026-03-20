@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00058",
+  "split": "train",
+  "question": "In 2016, will gravitational wave astronomy discover something completely new?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "On 11 Feb 2016 the Laser Interferometer Gravitational-Wave Observatory (LIGO) collaboration announced for the first time the observation of gravitational waves from a black hole merger, ushering the era of gravitational wave astronomy. Furthermore, the detected event (GW150914) had a number of unusual features:\nThe black holes involved in the merger were heavier than expected to be seen, likely requiring the adjustment of stellar evolution models.\nThe event was observed almost as soon as the machine was turned on. This, combined with the fact that another significant trigger event was also seen in the first few days of data (LVT151012), though not yet confirmed to be genuine, suggests a rate of mergers at the high end of what was considered possible.\nA gamma ray burst counterpart candidate was unexpectedly observed by Fermi GBM 0.4s after the merger.\nThis all suggests that an influx of gravitational wave discoveries will challenge prevailing astrophysical assumptions. Will the burgeoning field of gravitational wave astronomy discover something totally unexpected in 2016?\nThe question will be resolved yes if and only if, by 2017 Jan 01 00:00:00 UTC, all of the following conditions hold:\nThere is a published paper or preprint by the LIGO scientific collaboration, VIRGO scientific collaboration or other relevant gravitational wave experiments, possibly in coordination with electromagnetic and neutrino observatories, announcing the observation of a gravitational wave event.\nThe gravitational wave event is observed with high statistical significance in multiple detectors (>4 sigma equivalent combined significance) and does not correlate with any known background or possible noise source. This observation is possibly accompanied by a high statistical significance detection of an electromagnetic or neutrino counterpart.\nAt least two distinct explanations for the event have been proposed and published in peer reviewed journals by the resolve date OR at least three distinct explanations have been proposed in preprints on the arXiv or published papers. (\"Distinct\" here implies qualitatively different physical processes or objects involved.)\n(note: third criterion updated 2/23/16)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-17",
+  "date_close": "2016-05-31",
+  "date_resolve_at": "2016-12-30",
+  "url": "https://www.metaculus.com/api2/questions/147/",
+  "gpt_3p5_category": "Science & Tech"
+}

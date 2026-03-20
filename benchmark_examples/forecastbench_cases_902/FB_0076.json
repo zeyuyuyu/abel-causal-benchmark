@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0076",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be at least 1 fatality from a non-test nuclear detonation before 2025?",
+  "background": "Weapons in which the energy is provided by nuclear fission or fusion have only twice in history been detonated outside of a controlled test environment, in the Hiroshima and Nagasaki events in World War II.\n\nSince then, the world has nearly gone to nuclear war as a result of international conflict (during the Cuban Missile Crisis) and by accident.  There have also been a number of narrowly-averted accidental nuclear detonations.  See [this timeline](http://futureoflife.org/background/nuclear-close-calls-a-timeline/) for a sobering look at how close we have come.\n\nOn September 21, 2022, Russian President [Vladimir Putin delivered a speech](https://www.bbc.com/news/world-europe-62984985) in which he announced the partial mobilization of reservists and also issued what [media sources have characterized](https://apnews.com/article/russia-ukraine-putin-moscow-nuclear-weapons-e0b9ba6d3eac964b9c0b7192b3adff2e) as a threatened willingness to use nuclear weapons, saying\n\n>When the territorial integrity of our country is threatened, we will certainly use all the means at our disposal to protect Russia and our people. It's not a bluff.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "16164"
+}

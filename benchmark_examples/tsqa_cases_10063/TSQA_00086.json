@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00086",
+  "question": "In 2018 How many league appearances has Conor Washington made in the current season?",
+  "year": 2018,
+  "ground_truth": "15",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "15",
+      "tag": "correct"
+    },
+    {
+      "answer": "40",
+      "tag": "past"
+    },
+    {
+      "answer": "33",
+      "tag": "future"
+    },
+    {
+      "answer": "35",
+      "tag": "future"
+    }
+  ]
+}

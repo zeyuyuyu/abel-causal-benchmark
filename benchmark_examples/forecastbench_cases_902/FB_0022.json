@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0022",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will 'Avatar: The Way of Water' become the highest-grossing movie of all time?",
+  "background": "'Avatar: The Way of Water' (2022) is the second instalment of the Avatar film series directed by James Cameron.\n\nThis is a market on whether 'Avatar: The Way of Water' will become the highest-grossing movie of all time, worldwide.\n\n[image]The BoxOfficeMojo stats will be used to resolve this market, available at: https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/?area=XWW&ref_=bo_cso_ac\n\nThis is the current (January 9, 2023) list of Top 10 highest-grossing movies:\n\n[image]this market will resolve to YES as soon as Avatar: The Way of Water hits the #1 box office spot\n\nthis market will resolve to NO, if Avatar: The Way of Water does not hit the box office record before December 31 2025.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "POZ2i84qdzsmKIN5b2xd"
+}

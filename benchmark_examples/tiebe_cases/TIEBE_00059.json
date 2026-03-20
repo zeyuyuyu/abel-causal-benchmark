@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00059",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "12",
+  "question": "Which cities in southern Bahia were most affected by the flooding in December 2021?",
+  "ground_truth": "The most affected cities included Itamaraju, Eunápolis, and Itabela, where rising river levels and landslides caused significant damage.",
+  "event_desc": "Heavy rains cause flooding in municipalities in southern Bahia, where thousands of people are left homeless. Fatalities and disappearances are also being recorded. The state government has declared a state of emergency in dozens of municipalities."
+}

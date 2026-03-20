@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0058",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the average global temperature in 2024 exceed 2023?",
+  "background": "2023 is trending to be the hottest year on record.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "TPkEjiNb1wVCIGFnPcDD"
+}

@@ -1,0 +1,6322 @@
+{
+  "metadata": {
+    "source": "Duruo/forecastbench-single_question",
+    "total_cases": 902
+  },
+  "cases": [
+    {
+      "file_id": "FB_0001",
+      "question": "Will a New York sports team win a championship by the end of",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0001.json"
+    },
+    {
+      "file_id": "FB_0002",
+      "question": "Will Manchester City win the 2024/25 Premier League?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0002.json"
+    },
+    {
+      "file_id": "FB_0003",
+      "question": "Will an SEC school win the 2024-25 CFP National Championship",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0003.json"
+    },
+    {
+      "file_id": "FB_0004",
+      "question": "Will there be a televised match between a robot and a top-10",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0004.json"
+    },
+    {
+      "file_id": "FB_0005",
+      "question": "Will Joel Embiid finish his career with 2 or more regular se",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0005.json"
+    },
+    {
+      "file_id": "FB_0006",
+      "question": "Will there be a \"low scorigami\" before 2030?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0006.json"
+    },
+    {
+      "file_id": "FB_0007",
+      "question": "Will Magnus Carlsen compete for the FIDE Classical World Che",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0007.json"
+    },
+    {
+      "file_id": "FB_0008",
+      "question": "F1 2024 - Will Lewis Hamilton finish ahead of George Russell",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0008.json"
+    },
+    {
+      "file_id": "FB_0009",
+      "question": "Will the Philadelphia 76ers or Philadelphia Eagles win a cha",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0009.json"
+    },
+    {
+      "file_id": "FB_0010",
+      "question": "Will Saudi Arabia abandon (or vastly scale back) the NEOM li",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0010.json"
+    },
+    {
+      "file_id": "FB_0011",
+      "question": "Will Saudi Arabia and Israel establish diplomatic relations ",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0011.json"
+    },
+    {
+      "file_id": "FB_0012",
+      "question": "Will Trump & Elon cut >250,000 government employees in 2025?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0012.json"
+    },
+    {
+      "file_id": "FB_0013",
+      "question": "Will MrBeast (Jimmy Donaldson) be convicted of a crime befor",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0013.json"
+    },
+    {
+      "file_id": "FB_0014",
+      "question": "Will Andrew Tate be found guilty of a crime before Alec Bald",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0014.json"
+    },
+    {
+      "file_id": "FB_0015",
+      "question": "Will Manifold add tabs (like the US Elections one) for other",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0015.json"
+    },
+    {
+      "file_id": "FB_0016",
+      "question": "Will the OpenAI board fire Sam Altman again in 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0016.json"
+    },
+    {
+      "file_id": "FB_0017",
+      "question": "Will Joe Biden get impeached in his first term?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0017.json"
+    },
+    {
+      "file_id": "FB_0018",
+      "question": "In early 2028, will an AI be able to generate a full high-qu",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0018.json"
+    },
+    {
+      "file_id": "FB_0019",
+      "question": "Will Denis Villeneuve’s next film be related to Dune?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0019.json"
+    },
+    {
+      "file_id": "FB_0020",
+      "question": "Will the \"Nintendo Switch 2\" (or other successor) be reveale",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0020.json"
+    },
+    {
+      "file_id": "FB_0021",
+      "question": "Will there be consensus on who Dwarkesh's \"biggest guest yet",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0021.json"
+    },
+    {
+      "file_id": "FB_0022",
+      "question": "Will 'Avatar: The Way of Water' become the highest-grossing ",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0022.json"
+    },
+    {
+      "file_id": "FB_0023",
+      "question": "Will a video game be played in the Olympics as an official e",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0023.json"
+    },
+    {
+      "file_id": "FB_0024",
+      "question": "Will GTA VI get delayed again?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0024.json"
+    },
+    {
+      "file_id": "FB_0025",
+      "question": "Will the Oscars Best Picture winner for 2027 pass the Bechde",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0025.json"
+    },
+    {
+      "file_id": "FB_0026",
+      "question": "Will Grimes come out of retirement in 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0026.json"
+    },
+    {
+      "file_id": "FB_0027",
+      "question": "Will Threads have more daily active users than Twitter by th",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0027.json"
+    },
+    {
+      "file_id": "FB_0028",
+      "question": "Will an AI get a perfect SAT score before 2025?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0028.json"
+    },
+    {
+      "file_id": "FB_0029",
+      "question": "Will we get AGI before 2027?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0029.json"
+    },
+    {
+      "file_id": "FB_0030",
+      "question": "Will manifold markets still have >2000 daily active users in",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0030.json"
+    },
+    {
+      "file_id": "FB_0031",
+      "question": "Will we get AGI before 2032?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0031.json"
+    },
+    {
+      "file_id": "FB_0032",
+      "question": "Will the Meissner effect be confirmed near room temperature ",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0032.json"
+    },
+    {
+      "file_id": "FB_0033",
+      "question": "In 2028, will at least 350,000 (1/1000) Americans be talking",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0033.json"
+    },
+    {
+      "file_id": "FB_0034",
+      "question": "In 2028, will at least 350,000 Americans (1/1000) be talking",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0034.json"
+    },
+    {
+      "file_id": "FB_0035",
+      "question": "Will white-collar workers unionize to prevent job loss to AI",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0035.json"
+    },
+    {
+      "file_id": "FB_0036",
+      "question": "Will over 70% of Manifold users think that Elon Musk does no",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0036.json"
+    },
+    {
+      "file_id": "FB_0037",
+      "question": "Will AI replace over 50 million jobs by end of 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0037.json"
+    },
+    {
+      "file_id": "FB_0038",
+      "question": "Will Rational Animations' video about Manifold Markets reach",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0038.json"
+    },
+    {
+      "file_id": "FB_0039",
+      "question": "Trump impose large tariffs in first year?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0039.json"
+    },
+    {
+      "file_id": "FB_0040",
+      "question": "Will AI have a trillion+ dollar impact by the end of 2025?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0040.json"
+    },
+    {
+      "file_id": "FB_0041",
+      "question": "Will prediction markets become mainstream by 2028?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0041.json"
+    },
+    {
+      "file_id": "FB_0042",
+      "question": "Is the \"100% effective against solid tumors\" cancer pill AOH",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0042.json"
+    },
+    {
+      "file_id": "FB_0043",
+      "question": "Will Noam Chomsky become a centenarian?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0043.json"
+    },
+    {
+      "file_id": "FB_0044",
+      "question": "Will over 100,000 people be conceived with the help of advan",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0044.json"
+    },
+    {
+      "file_id": "FB_0045",
+      "question": "Will any of the four main characters of Severance die in sea",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0045.json"
+    },
+    {
+      "file_id": "FB_0046",
+      "question": "By 2030, will there be a cure to aging?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0046.json"
+    },
+    {
+      "file_id": "FB_0047",
+      "question": "Did COVID-19 come from a laboratory?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0047.json"
+    },
+    {
+      "file_id": "FB_0048",
+      "question": "Will anybody born before 2000 live to be 150?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0048.json"
+    },
+    {
+      "file_id": "FB_0049",
+      "question": "Will Neuralink successfully enable a blind person to see aga",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0049.json"
+    },
+    {
+      "file_id": "FB_0050",
+      "question": "Will there be a ceasefire in Gaza by Eoy 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0050.json"
+    },
+    {
+      "file_id": "FB_0051",
+      "question": "Will China launch a full-scale invasion of Taiwan before 203",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0051.json"
+    },
+    {
+      "file_id": "FB_0052",
+      "question": "Will Zubear Abdi face legal trouble for sharing explicit pho",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0052.json"
+    },
+    {
+      "file_id": "FB_0053",
+      "question": "Will Ukraine win the Russo-Ukrainian War?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0053.json"
+    },
+    {
+      "file_id": "FB_0054",
+      "question": "Will Ukraine regain control over Crimea before the end of 20",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0054.json"
+    },
+    {
+      "file_id": "FB_0055",
+      "question": "Will the first person to walk on Mars make it back to Earth?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0055.json"
+    },
+    {
+      "file_id": "FB_0056",
+      "question": "Will the front line in Ukraine change significantly in 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0056.json"
+    },
+    {
+      "file_id": "FB_0057",
+      "question": "Will there be a robot uprising by 2035?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0057.json"
+    },
+    {
+      "file_id": "FB_0058",
+      "question": "Will the average global temperature in 2024 exceed 2023?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0058.json"
+    },
+    {
+      "file_id": "FB_0059",
+      "question": "Will the majority of new cars sold be electric vehicles by t",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0059.json"
+    },
+    {
+      "file_id": "FB_0060",
+      "question": "Will the majority of new cars sold worldwide be electric bef",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0060.json"
+    },
+    {
+      "file_id": "FB_0061",
+      "question": "Will there be more people with HIV/AIDS in 2037 than in 2017",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0061.json"
+    },
+    {
+      "file_id": "FB_0062",
+      "question": "Will most of the first 100 IQ-selected \"designer babies\" be ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0062.json"
+    },
+    {
+      "file_id": "FB_0063",
+      "question": "Will the USA be one of the first ten countries to embryo sel",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0063.json"
+    },
+    {
+      "file_id": "FB_0064",
+      "question": "Will Israel be one of the first ten countries to embryo sele",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0064.json"
+    },
+    {
+      "file_id": "FB_0065",
+      "question": "Will the combination of semaglutide and cagrilintide be appr",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0065.json"
+    },
+    {
+      "file_id": "FB_0066",
+      "question": "Will there be a novel pathogen that kills over 25 million pe",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0066.json"
+    },
+    {
+      "file_id": "FB_0067",
+      "question": "Will NAD+ boosters be shown in a systematic review to increa",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0067.json"
+    },
+    {
+      "file_id": "FB_0068",
+      "question": "Will the CDC adopt a Health at Every Size approach towards a",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0068.json"
+    },
+    {
+      "file_id": "FB_0069",
+      "question": "Will there be a direct conflict between Russia and any NATO ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0069.json"
+    },
+    {
+      "file_id": "FB_0070",
+      "question": "Will there be at least 200 military conflict deaths between ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0070.json"
+    },
+    {
+      "file_id": "FB_0071",
+      "question": "Will there be major civil unrest or rioting in America befor",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0071.json"
+    },
+    {
+      "file_id": "FB_0072",
+      "question": "Will the first nuclear conflict involving >100 detonations c",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0072.json"
+    },
+    {
+      "file_id": "FB_0073",
+      "question": "By 2025, will a majority of US Intelligence Community organi",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0073.json"
+    },
+    {
+      "file_id": "FB_0074",
+      "question": "If a NATO state other than the US offensively detonates a nu",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0074.json"
+    },
+    {
+      "file_id": "FB_0075",
+      "question": "Will China carry out a cyberattack on Taiwan’s electricity i",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0075.json"
+    },
+    {
+      "file_id": "FB_0076",
+      "question": "Will there be at least 1 fatality from a non-test nuclear de",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0076.json"
+    },
+    {
+      "file_id": "FB_0077",
+      "question": "Will Russia and Ukraine sign or prolong natural gas transit ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0077.json"
+    },
+    {
+      "file_id": "FB_0078",
+      "question": "Will the United States recognize the Islamic Emirate of Afgh",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0078.json"
+    },
+    {
+      "file_id": "FB_0079",
+      "question": "Will a post-Putin Russia substantially democratise within 5 ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0079.json"
+    },
+    {
+      "file_id": "FB_0080",
+      "question": "Will an international AI regulatory agency, like IAEA, for o",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0080.json"
+    },
+    {
+      "file_id": "FB_0081",
+      "question": "Will Israel recognize Palestine by 2070?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0081.json"
+    },
+    {
+      "file_id": "FB_0082",
+      "question": "Will a US Supreme Court Justice be impeached and removed bef",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0082.json"
+    },
+    {
+      "file_id": "FB_0083",
+      "question": "If the US Supreme Court hears a case on the Bank Secrecy Act",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0083.json"
+    },
+    {
+      "file_id": "FB_0084",
+      "question": "Will space-based technologies facilitate the creation of an ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0084.json"
+    },
+    {
+      "file_id": "FB_0085",
+      "question": "Will the Detroit Pistons change their name by 2055?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0085.json"
+    },
+    {
+      "file_id": "FB_0086",
+      "question": "Will space-based technology enable effective enforcement of ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0086.json"
+    },
+    {
+      "file_id": "FB_0087",
+      "question": "By 2100, will the human population decrease by at least 10% ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0087.json"
+    },
+    {
+      "file_id": "FB_0088",
+      "question": "Will British Petroleum (BP) successfully drill a production ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0088.json"
+    },
+    {
+      "file_id": "FB_0089",
+      "question": "Will the European Union meet its 2030 targets under the Pari",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0089.json"
+    },
+    {
+      "file_id": "FB_0090",
+      "question": "Will the International Maritime Organization permit more sul",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0090.json"
+    },
+    {
+      "file_id": "FB_0091",
+      "question": "Will more than 34 countries have committed to a stringent an",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0091.json"
+    },
+    {
+      "file_id": "FB_0092",
+      "question": "Will a functional Alcubierre drive-like FTL device be demons",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0092.json"
+    },
+    {
+      "file_id": "FB_0093",
+      "question": "Will SpaceX land people on Mars before 2030?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0093.json"
+    },
+    {
+      "file_id": "FB_0094",
+      "question": "Will more than 50% of US adults own a personal augmented rea",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0094.json"
+    },
+    {
+      "file_id": "FB_0095",
+      "question": "Will the majority of leading cosmologists in 2030 agree that",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0095.json"
+    },
+    {
+      "file_id": "FB_0096",
+      "question": "Will online poker be dead on January 1, 2031?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0096.json"
+    },
+    {
+      "file_id": "FB_0097",
+      "question": "Will one of the first AGI claim to be conscious?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0097.json"
+    },
+    {
+      "file_id": "FB_0098",
+      "question": "Will RoboCup announce that robots have beaten professional h",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0098.json"
+    },
+    {
+      "file_id": "FB_0099",
+      "question": "Will it be legal to pay taxes in the US using bitcoin before",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0099.json"
+    },
+    {
+      "file_id": "FB_0100",
+      "question": "Will FreeTON cryptocurrency project be successful?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0100.json"
+    },
+    {
+      "file_id": "FB_0101",
+      "question": "Will the US unemployment rate reach 10% before 2031?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0101.json"
+    },
+    {
+      "file_id": "FB_0102",
+      "question": "Will X declare bankruptcy in 2024?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0102.json"
+    },
+    {
+      "file_id": "FB_0103",
+      "question": "Will England build at least 1.5 million new homes over the c",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0103.json"
+    },
+    {
+      "file_id": "FB_0104",
+      "question": "Will Any Major AI Company Commit to an AI Windfall Clause by",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0104.json"
+    },
+    {
+      "file_id": "FB_0105",
+      "question": "Will the population of the United States be higher than the ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0105.json"
+    },
+    {
+      "file_id": "FB_0106",
+      "question": "Will the S&P 500 rise or fall more than 15% in a single day ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0106.json"
+    },
+    {
+      "file_id": "FB_0107",
+      "question": "Will Valve release a game before 2030 with 3 in the Title?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0107.json"
+    },
+    {
+      "file_id": "FB_0108",
+      "question": "Will George R. R. Martin publish the sixth novel in \"A Song ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0108.json"
+    },
+    {
+      "file_id": "FB_0109",
+      "question": "Will Meghan Markle's book be reported to have outsold Prince",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0109.json"
+    },
+    {
+      "file_id": "FB_0110",
+      "question": "By 2050, will at least 25% of Year-End Billboard Hot 100 son",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0110.json"
+    },
+    {
+      "file_id": "FB_0111",
+      "question": "Will at least 200 Benin Bronzes go from the British Museum t",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0111.json"
+    },
+    {
+      "file_id": "FB_0112",
+      "question": "Will any science fiction literature originally written in Sp",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0112.json"
+    },
+    {
+      "file_id": "FB_0113",
+      "question": "Will the next James Bond be female?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0113.json"
+    },
+    {
+      "file_id": "FB_0114",
+      "question": "Will the New York Yankees win the World Series in 2032 in ex",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0114.json"
+    },
+    {
+      "file_id": "FB_0115",
+      "question": "Will the WTA and ATP merge before 2031?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0115.json"
+    },
+    {
+      "file_id": "FB_0116",
+      "question": "Will the NBA raise the rim to 10'6\" (or higher) before 2030?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0116.json"
+    },
+    {
+      "file_id": "FB_0117",
+      "question": "Will an MLB pitcher who averages 91.0 mph or slower on his f",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0117.json"
+    },
+    {
+      "file_id": "FB_0118",
+      "question": "Will a fourth manufacturer enter the NASCAR Cup Series befor",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0118.json"
+    },
+    {
+      "file_id": "FB_0119",
+      "question": "Will Brazil win the FIFA World Cup by the end of 2050?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0119.json"
+    },
+    {
+      "file_id": "FB_0120",
+      "question": "Will there be an breakaway European Soccer League match befo",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0120.json"
+    },
+    {
+      "file_id": "FB_0121",
+      "question": "Will Nicolás Maduro be president of Venezuela on 11 January ",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0121.json"
+    },
+    {
+      "file_id": "FB_0122",
+      "question": "Will Myanmar hold national elections before 1 July 2025?",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0122.json"
+    },
+    {
+      "file_id": "FB_0123",
+      "question": "Will Vladimir Putin cease to be the president of the Russian",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0123.json"
+    },
+    {
+      "file_id": "FB_0124",
+      "question": "Before 1 January 2025, will Iran announce that it will leave",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0124.json"
+    },
+    {
+      "file_id": "FB_0125",
+      "question": "Will a JCPOA participant country begin the process of imposi",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0125.json"
+    },
+    {
+      "file_id": "FB_0126",
+      "question": "By 31 December 2024, will uranium enriched to 90% or more be",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0126.json"
+    },
+    {
+      "file_id": "FB_0127",
+      "question": "Will the Houthi movement and Yemen reach a ceasefire that is",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0127.json"
+    },
+    {
+      "file_id": "FB_0128",
+      "question": "Will the China Coast Guard or PLA Navy attempt to anchor one",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0128.json"
+    },
+    {
+      "file_id": "FB_0129",
+      "question": "Will the Syrian Democratic Forces collapse, fragment, or los",
+      "ground_truth": 1,
+      "source": "infer",
+      "filename": "FB_0129.json"
+    },
+    {
+      "file_id": "FB_0130",
+      "question": "Will another Chinese military base in an African country (ex",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0130.json"
+    },
+    {
+      "file_id": "FB_0131",
+      "question": "Will Huawei sell or announce plans to sell Open RAN equipmen",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0131.json"
+    },
+    {
+      "file_id": "FB_0132",
+      "question": "By 31 December 2024, will Microsoft announce that its AI Res",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0132.json"
+    },
+    {
+      "file_id": "FB_0133",
+      "question": "Will a collaboration between Huawei and the O-RAN Alliance b",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0133.json"
+    },
+    {
+      "file_id": "FB_0134",
+      "question": "Will at least five more exoplanets be found to be potentiall",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0134.json"
+    },
+    {
+      "file_id": "FB_0135",
+      "question": "Will a North American testing center (OTIC) issue an O-RAN C",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0135.json"
+    },
+    {
+      "file_id": "FB_0136",
+      "question": "On 31 May 2025, will Nvidia be the world’s most valuable com",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0136.json"
+    },
+    {
+      "file_id": "FB_0137",
+      "question": "Will Egypt experience an economic collapse (as defined by an",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0137.json"
+    },
+    {
+      "file_id": "FB_0138",
+      "question": "No Ethereum all time high in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0138.json"
+    },
+    {
+      "file_id": "FB_0139",
+      "question": "Will Fed cut interest rates 6+ times in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0139.json"
+    },
+    {
+      "file_id": "FB_0140",
+      "question": "Ethereum all time high in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0140.json"
+    },
+    {
+      "file_id": "FB_0141",
+      "question": "Will Ethereum hit $15k in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0141.json"
+    },
+    {
+      "file_id": "FB_0142",
+      "question": "Tether Insolvent in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0142.json"
+    },
+    {
+      "file_id": "FB_0143",
+      "question": "Fed rate hike in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0143.json"
+    },
+    {
+      "file_id": "FB_0144",
+      "question": "Will Milady flip BAYC in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0144.json"
+    },
+    {
+      "file_id": "FB_0145",
+      "question": "Will Bitcoin hit $100k in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0145.json"
+    },
+    {
+      "file_id": "FB_0146",
+      "question": "Will Fed cut interest rates 4 times in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0146.json"
+    },
+    {
+      "file_id": "FB_0147",
+      "question": "Solana ETF approved in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0147.json"
+    },
+    {
+      "file_id": "FB_0148",
+      "question": "Will a new country buy Bitcoin in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0148.json"
+    },
+    {
+      "file_id": "FB_0149",
+      "question": "Will FTX payouts start in Q4 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0149.json"
+    },
+    {
+      "file_id": "FB_0150",
+      "question": "Will USDC flip USDT in market cap in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0150.json"
+    },
+    {
+      "file_id": "FB_0151",
+      "question": "Will Bitcoin hit $250k in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0151.json"
+    },
+    {
+      "file_id": "FB_0152",
+      "question": "Doge ETF approved in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0152.json"
+    },
+    {
+      "file_id": "FB_0153",
+      "question": "Ethena USDe flips USDC market cap in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0153.json"
+    },
+    {
+      "file_id": "FB_0154",
+      "question": "Rege-Jean Page announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0154.json"
+    },
+    {
+      "file_id": "FB_0155",
+      "question": "Will 'Inside Out 2' gross most in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0155.json"
+    },
+    {
+      "file_id": "FB_0156",
+      "question": "Cosmo Jarvis announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0156.json"
+    },
+    {
+      "file_id": "FB_0157",
+      "question": "Will 'Joker 2' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0157.json"
+    },
+    {
+      "file_id": "FB_0158",
+      "question": "Will 'Furiosa: A Mad Max Saga' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0158.json"
+    },
+    {
+      "file_id": "FB_0159",
+      "question": "Henry Cavill announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0159.json"
+    },
+    {
+      "file_id": "FB_0160",
+      "question": "Another actor announced as next James Bond actor?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0160.json"
+    },
+    {
+      "file_id": "FB_0161",
+      "question": "James Norton announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0161.json"
+    },
+    {
+      "file_id": "FB_0162",
+      "question": "Will 'Deadpool 3' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0162.json"
+    },
+    {
+      "file_id": "FB_0163",
+      "question": "Will 'Dune: Part 2' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0163.json"
+    },
+    {
+      "file_id": "FB_0164",
+      "question": "Aaron Taylor-Johnson announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0164.json"
+    },
+    {
+      "file_id": "FB_0165",
+      "question": "Will 'Despicable Me 4' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0165.json"
+    },
+    {
+      "file_id": "FB_0166",
+      "question": "Taylor Swift engaged in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0166.json"
+    },
+    {
+      "file_id": "FB_0167",
+      "question": "Will another movie gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0167.json"
+    },
+    {
+      "file_id": "FB_0168",
+      "question": "Damson Idris announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0168.json"
+    },
+    {
+      "file_id": "FB_0169",
+      "question": "Trump $83.3m verdict reduced on appeal?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0169.json"
+    },
+    {
+      "file_id": "FB_0170",
+      "question": "Will Joe pardon Hunter Biden?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0170.json"
+    },
+    {
+      "file_id": "FB_0171",
+      "question": "Will Putin remain President of Russia through 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0171.json"
+    },
+    {
+      "file_id": "FB_0172",
+      "question": "Canada federal election in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0172.json"
+    },
+    {
+      "file_id": "FB_0173",
+      "question": "Will weed be rescheduled in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0173.json"
+    },
+    {
+      "file_id": "FB_0174",
+      "question": "COVID lab leak confirmed by US in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0174.json"
+    },
+    {
+      "file_id": "FB_0175",
+      "question": "TikTok banned in the US in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0175.json"
+    },
+    {
+      "file_id": "FB_0176",
+      "question": "Will Biden pardon Ross Ulbricht?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0176.json"
+    },
+    {
+      "file_id": "FB_0177",
+      "question": "Supreme Court vacancy in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0177.json"
+    },
+    {
+      "file_id": "FB_0178",
+      "question": "Will America ban Zyn in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0178.json"
+    },
+    {
+      "file_id": "FB_0179",
+      "question": "Will Ukraine join NATO in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0179.json"
+    },
+    {
+      "file_id": "FB_0180",
+      "question": "Will Biden pardon SBF?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0180.json"
+    },
+    {
+      "file_id": "FB_0181",
+      "question": "OpenAI announces it has achieved AGI in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0181.json"
+    },
+    {
+      "file_id": "FB_0182",
+      "question": "Will four SpaceX Starship launches successfully reach outer ",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0182.json"
+    },
+    {
+      "file_id": "FB_0183",
+      "question": "OpenSea token in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0183.json"
+    },
+    {
+      "file_id": "FB_0184",
+      "question": "GPT-5 not announced in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0184.json"
+    },
+    {
+      "file_id": "FB_0185",
+      "question": "Meissner effect confirmed near room temperature?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0185.json"
+    },
+    {
+      "file_id": "FB_0186",
+      "question": "Will Satoshi Nakamoto's identity be proven in Q4 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0186.json"
+    },
+    {
+      "file_id": "FB_0187",
+      "question": "GPT-5 announced in Q4 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0187.json"
+    },
+    {
+      "file_id": "FB_0188",
+      "question": "OpenAI settlement with NYT by end of 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0188.json"
+    },
+    {
+      "file_id": "FB_0189",
+      "question": "Will five or more SpaceX Starship launches successfully reac",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0189.json"
+    },
+    {
+      "file_id": "FB_0190",
+      "question": "Will Satoshi Nakamoto's identity not be proven in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0190.json"
+    },
+    {
+      "file_id": "FB_0191",
+      "question": "Will 2024 be the hottest year on record?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0191.json"
+    },
+    {
+      "file_id": "FB_0192",
+      "question": "Will China invade Taiwan in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0192.json"
+    },
+    {
+      "file_id": "FB_0193",
+      "question": "Andrew Tate guilty of human trafficking in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0193.json"
+    },
+    {
+      "file_id": "FB_0194",
+      "question": "Iggy Azalea criminal charges in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0194.json"
+    },
+    {
+      "file_id": "FB_0195",
+      "question": "Ansem criminal charges in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0195.json"
+    },
+    {
+      "file_id": "FB_0196",
+      "question": "Is John McAfee alive?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0196.json"
+    },
+    {
+      "file_id": "FB_0197",
+      "question": "Will North Korea invade South Korea in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0197.json"
+    },
+    {
+      "file_id": "FB_0198",
+      "question": "Russian nuke in space in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0198.json"
+    },
+    {
+      "file_id": "FB_0199",
+      "question": "Bird flu pandemic in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0199.json"
+    },
+    {
+      "file_id": "FB_0200",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0200.json"
+    },
+    {
+      "file_id": "FB_0201",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0201.json"
+    },
+    {
+      "file_id": "FB_0202",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0202.json"
+    },
+    {
+      "file_id": "FB_0203",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0203.json"
+    },
+    {
+      "file_id": "FB_0204",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0204.json"
+    },
+    {
+      "file_id": "FB_0205",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0205.json"
+    },
+    {
+      "file_id": "FB_0206",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0206.json"
+    },
+    {
+      "file_id": "FB_0207",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0207.json"
+    },
+    {
+      "file_id": "FB_0208",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0208.json"
+    },
+    {
+      "file_id": "FB_0209",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0209.json"
+    },
+    {
+      "file_id": "FB_0210",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0210.json"
+    },
+    {
+      "file_id": "FB_0211",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0211.json"
+    },
+    {
+      "file_id": "FB_0212",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0212.json"
+    },
+    {
+      "file_id": "FB_0213",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0213.json"
+    },
+    {
+      "file_id": "FB_0214",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0214.json"
+    },
+    {
+      "file_id": "FB_0215",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0215.json"
+    },
+    {
+      "file_id": "FB_0216",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0216.json"
+    },
+    {
+      "file_id": "FB_0217",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0217.json"
+    },
+    {
+      "file_id": "FB_0218",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0218.json"
+    },
+    {
+      "file_id": "FB_0219",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0219.json"
+    },
+    {
+      "file_id": "FB_0220",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0220.json"
+    },
+    {
+      "file_id": "FB_0221",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0221.json"
+    },
+    {
+      "file_id": "FB_0222",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0222.json"
+    },
+    {
+      "file_id": "FB_0223",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0223.json"
+    },
+    {
+      "file_id": "FB_0224",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0224.json"
+    },
+    {
+      "file_id": "FB_0225",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0225.json"
+    },
+    {
+      "file_id": "FB_0226",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0226.json"
+    },
+    {
+      "file_id": "FB_0227",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0227.json"
+    },
+    {
+      "file_id": "FB_0228",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0228.json"
+    },
+    {
+      "file_id": "FB_0229",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0229.json"
+    },
+    {
+      "file_id": "FB_0230",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0230.json"
+    },
+    {
+      "file_id": "FB_0231",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0231.json"
+    },
+    {
+      "file_id": "FB_0232",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0232.json"
+    },
+    {
+      "file_id": "FB_0233",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0233.json"
+    },
+    {
+      "file_id": "FB_0234",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0234.json"
+    },
+    {
+      "file_id": "FB_0235",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0235.json"
+    },
+    {
+      "file_id": "FB_0236",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0236.json"
+    },
+    {
+      "file_id": "FB_0237",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0237.json"
+    },
+    {
+      "file_id": "FB_0238",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0238.json"
+    },
+    {
+      "file_id": "FB_0239",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0239.json"
+    },
+    {
+      "file_id": "FB_0240",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0240.json"
+    },
+    {
+      "file_id": "FB_0241",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0241.json"
+    },
+    {
+      "file_id": "FB_0242",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0242.json"
+    },
+    {
+      "file_id": "FB_0243",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0243.json"
+    },
+    {
+      "file_id": "FB_0244",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0244.json"
+    },
+    {
+      "file_id": "FB_0245",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0245.json"
+    },
+    {
+      "file_id": "FB_0246",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0246.json"
+    },
+    {
+      "file_id": "FB_0247",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0247.json"
+    },
+    {
+      "file_id": "FB_0248",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0248.json"
+    },
+    {
+      "file_id": "FB_0249",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0249.json"
+    },
+    {
+      "file_id": "FB_0250",
+      "question": "Will the spot exchange rate of US dollars to euros have incr",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0250.json"
+    },
+    {
+      "file_id": "FB_0251",
+      "question": "Will USD money supply as measured by M1 have increased by {r",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0251.json"
+    },
+    {
+      "file_id": "FB_0252",
+      "question": "Will the number of US software development job postings on I",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0252.json"
+    },
+    {
+      "file_id": "FB_0253",
+      "question": "Will Moody's Seasoned Baa Corporate Bond Yield compared to t",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0253.json"
+    },
+    {
+      "file_id": "FB_0254",
+      "question": "Will AMERIBOR, an interest rate based on overnight loans mad",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0254.json"
+    },
+    {
+      "file_id": "FB_0255",
+      "question": "Will the yield spread between the 10-year US Treasury bond a",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0255.json"
+    },
+    {
+      "file_id": "FB_0256",
+      "question": "Will the weekly dollar amount associated with Federal Reserv",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0256.json"
+    },
+    {
+      "file_id": "FB_0257",
+      "question": "Will Moody's Seasoned Aaa Corporate Bond Yield have increase",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0257.json"
+    },
+    {
+      "file_id": "FB_0258",
+      "question": "Will the Chicago Fed's National Financial Conditions Credit ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0258.json"
+    },
+    {
+      "file_id": "FB_0259",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0259.json"
+    },
+    {
+      "file_id": "FB_0260",
+      "question": "Will the total dollar amount of reserve balances held with F",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0260.json"
+    },
+    {
+      "file_id": "FB_0261",
+      "question": "Will Moody's Seasoned Baa Corporate Bond Yield have increase",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0261.json"
+    },
+    {
+      "file_id": "FB_0262",
+      "question": "Will the European Central Bank's deposit facility rate for t",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0262.json"
+    },
+    {
+      "file_id": "FB_0263",
+      "question": "Will the option-adjusted spread of the ICE BofA Euro High Yi",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0263.json"
+    },
+    {
+      "file_id": "FB_0264",
+      "question": "Will the weekly number of initial unemployment claims have i",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0264.json"
+    },
+    {
+      "file_id": "FB_0265",
+      "question": "Will the market yield on US treasury securities at 10-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0265.json"
+    },
+    {
+      "file_id": "FB_0266",
+      "question": "Will the market yield on US treasury securities at 7-year co",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0266.json"
+    },
+    {
+      "file_id": "FB_0267",
+      "question": "Will the weekly dollar amount of loans made by the Federal R",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0267.json"
+    },
+    {
+      "file_id": "FB_0268",
+      "question": "Will the spot exchange rate of South Korean won to US dollar",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0268.json"
+    },
+    {
+      "file_id": "FB_0269",
+      "question": "Will the price of Brent crude oil have increased by {resolut",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0269.json"
+    },
+    {
+      "file_id": "FB_0270",
+      "question": "Will the 90-day average of the Federal Reserve's Secured Ove",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0270.json"
+    },
+    {
+      "file_id": "FB_0271",
+      "question": "Will the total dollar amount representing all commercial and",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0271.json"
+    },
+    {
+      "file_id": "FB_0272",
+      "question": "Will the lower limit of the target range of the federal fund",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0272.json"
+    },
+    {
+      "file_id": "FB_0273",
+      "question": "Will the effective yield of securities with an investment gr",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0273.json"
+    },
+    {
+      "file_id": "FB_0274",
+      "question": "Will the effective yield of securities with an investment gr",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0274.json"
+    },
+    {
+      "file_id": "FB_0275",
+      "question": "Will the effective yield of the ICE BofA Euro High Yield Ind",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0275.json"
+    },
+    {
+      "file_id": "FB_0276",
+      "question": "Will the market yield on US treasury securities at 5-year co",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0276.json"
+    },
+    {
+      "file_id": "FB_0277",
+      "question": "Will the 30-year fixed rate FHA mortgage index have increase",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0277.json"
+    },
+    {
+      "file_id": "FB_0278",
+      "question": "Will the market yield on US treasury securities at 2-year co",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0278.json"
+    },
+    {
+      "file_id": "FB_0279",
+      "question": "Will the effective yield of the ICE BofA Corporate Index, wh",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0279.json"
+    },
+    {
+      "file_id": "FB_0280",
+      "question": "Will the amount of money representing all commercial real es",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0280.json"
+    },
+    {
+      "file_id": "FB_0281",
+      "question": "Will the Nominal Advanced Foreign Economies US Dollar Index,",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0281.json"
+    },
+    {
+      "file_id": "FB_0282",
+      "question": "Will the Chicago Fed's Adjusted National Financial Condition",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0282.json"
+    },
+    {
+      "file_id": "FB_0283",
+      "question": "Will the average price of regular gas in the US have increas",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0283.json"
+    },
+    {
+      "file_id": "FB_0284",
+      "question": "Will the market yield on US treasury securities at 30-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0284.json"
+    },
+    {
+      "file_id": "FB_0285",
+      "question": "Will the total dollar amount of securities held by US Federa",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0285.json"
+    },
+    {
+      "file_id": "FB_0286",
+      "question": "Will the NASDAQ Composite Index, which represents the daily ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0286.json"
+    },
+    {
+      "file_id": "FB_0287",
+      "question": "Will the Federal Reserve's 4-week secondary market treasury ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0287.json"
+    },
+    {
+      "file_id": "FB_0288",
+      "question": "Will Retail Money Market Funds, a component of M2, a measure",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0288.json"
+    },
+    {
+      "file_id": "FB_0289",
+      "question": "Will the 30-day average of the Federal Reserve's Secured Ove",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0289.json"
+    },
+    {
+      "file_id": "FB_0290",
+      "question": "Will the award rate of US Treasury securities sold by the Fe",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0290.json"
+    },
+    {
+      "file_id": "FB_0291",
+      "question": "Will the aggregated daily value of US Treasury securities re",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0291.json"
+    },
+    {
+      "file_id": "FB_0292",
+      "question": "Will the US' 5-year breakeven inflation rate have increased ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0292.json"
+    },
+    {
+      "file_id": "FB_0293",
+      "question": "Will the weekly average of deposits other than reserve balan",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0293.json"
+    },
+    {
+      "file_id": "FB_0294",
+      "question": "Will the Federal Reserve's 1-year secondary market treasury ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0294.json"
+    },
+    {
+      "file_id": "FB_0295",
+      "question": "Will the market yield on US treasury securities at 20-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0295.json"
+    },
+    {
+      "file_id": "FB_0296",
+      "question": "Will the market yield on US treasury securities at 6-month c",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0296.json"
+    },
+    {
+      "file_id": "FB_0297",
+      "question": "Will the total dollar amount of assets held by all US Federa",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0297.json"
+    },
+    {
+      "file_id": "FB_0298",
+      "question": "Will the effective yield of securities with an investment gr",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0298.json"
+    },
+    {
+      "file_id": "FB_0299",
+      "question": "Will the effective yield of securities with an investment gr",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0299.json"
+    },
+    {
+      "file_id": "FB_0300",
+      "question": "Will the total dollar amount of mortgage-backed securities h",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0300.json"
+    },
+    {
+      "file_id": "FB_0301",
+      "question": "Will the spot exchange rate of US dollars to UK pound sterli",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0301.json"
+    },
+    {
+      "file_id": "FB_0302",
+      "question": "Will the 30-year fixed rate mortgage average in the US have ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0302.json"
+    },
+    {
+      "file_id": "FB_0303",
+      "question": "Will the market yield on US treasury securities at 30-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0303.json"
+    },
+    {
+      "file_id": "FB_0304",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0304.json"
+    },
+    {
+      "file_id": "FB_0305",
+      "question": "Will the option-adjusted spread for the ICE BofA High Yield ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0305.json"
+    },
+    {
+      "file_id": "FB_0306",
+      "question": "According to Wikipedia, will Shakhriyar Mamedyarov have a FI",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0306.json"
+    },
+    {
+      "file_id": "FB_0307",
+      "question": "According to Wikipedia, will Magnus Carlsen have a FIDE rank",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0307.json"
+    },
+    {
+      "file_id": "FB_0308",
+      "question": "According to Wikipedia, will Nino Batsiashvili have a FIDE r",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0308.json"
+    },
+    {
+      "file_id": "FB_0309",
+      "question": "According to Wikipedia, will Kaylee McKeown still hold the w",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0309.json"
+    },
+    {
+      "file_id": "FB_0310",
+      "question": "According to Wikipedia, will Magnus Carlsen have an Elo rati",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0310.json"
+    },
+    {
+      "file_id": "FB_0311",
+      "question": "According to Wikipedia, will Maxime Vachier-Lagrave have a F",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0311.json"
+    },
+    {
+      "file_id": "FB_0312",
+      "question": "According to Wikipedia, will Vaishali Rameshbabu have an Elo",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0312.json"
+    },
+    {
+      "file_id": "FB_0313",
+      "question": "According to Wikipedia, will Vidit Santosh Gujrathi have a F",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0313.json"
+    },
+    {
+      "file_id": "FB_0314",
+      "question": "According to Wikipedia, will Bibisara Assaubayeva have a FID",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0314.json"
+    },
+    {
+      "file_id": "FB_0315",
+      "question": "According to Wikipedia, will Zhu Jiner have an Elo rating on",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0315.json"
+    },
+    {
+      "file_id": "FB_0316",
+      "question": "According to Wikipedia, will Rūta Meilutytė still hold the w",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0316.json"
+    },
+    {
+      "file_id": "FB_0317",
+      "question": "According to Wikipedia, will Nana Dzagnidze have a FIDE rank",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0317.json"
+    },
+    {
+      "file_id": "FB_0318",
+      "question": "According to Wikipedia, will Nana Dzagnidze have an Elo rati",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0318.json"
+    },
+    {
+      "file_id": "FB_0319",
+      "question": "According to Wikipedia, will Tan Zhongyi have an Elo rating ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0319.json"
+    },
+    {
+      "file_id": "FB_0320",
+      "question": "According to Wikipedia, will César Cielo still hold the worl",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0320.json"
+    },
+    {
+      "file_id": "FB_0321",
+      "question": "According to Wikipedia, will Kate Douglass still hold the wo",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0321.json"
+    },
+    {
+      "file_id": "FB_0322",
+      "question": "According to Wikipedia, will Harika Dronavalli have a FIDE r",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0322.json"
+    },
+    {
+      "file_id": "FB_0323",
+      "question": "According to Wikipedia, will Arjun Erigaisi have a FIDE rank",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0323.json"
+    },
+    {
+      "file_id": "FB_0324",
+      "question": "According to Wikipedia, will Leinier Dominguez have a FIDE r",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0324.json"
+    },
+    {
+      "file_id": "FB_0325",
+      "question": "According to Wikipedia, will Vincent Keymer have a FIDE rank",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0325.json"
+    },
+    {
+      "file_id": "FB_0326",
+      "question": "According to Wikipedia, will Wei Yi have a FIDE ranking on {",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0326.json"
+    },
+    {
+      "file_id": "FB_0327",
+      "question": "According to Wikipedia, will Sarah Sjöström still hold the w",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0327.json"
+    },
+    {
+      "file_id": "FB_0328",
+      "question": "According to Wikipedia, will Andriy Govorov still hold the w",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0328.json"
+    },
+    {
+      "file_id": "FB_0329",
+      "question": "According to Wikipedia, will Thomas Ceccon still hold the wo",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0329.json"
+    },
+    {
+      "file_id": "FB_0330",
+      "question": "According to Wikipedia, will Anna Muzychuk have an Elo ratin",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0330.json"
+    },
+    {
+      "file_id": "FB_0331",
+      "question": "According to Wikipedia, will Aleksandra Goryachkina have an ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0331.json"
+    },
+    {
+      "file_id": "FB_0332",
+      "question": "According to Wikipedia, will Leinier Dominguez Pérez have an",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0332.json"
+    },
+    {
+      "file_id": "FB_0333",
+      "question": "According to Wikipedia, will R Praggnanandhaa have a FIDE ra",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0333.json"
+    },
+    {
+      "file_id": "FB_0334",
+      "question": "According to Wikipedia, will Fabiano Caruana have an Elo rat",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0334.json"
+    },
+    {
+      "file_id": "FB_0335",
+      "question": "According to Wikipedia, will Sergey Karjakin have an Elo rat",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0335.json"
+    },
+    {
+      "file_id": "FB_0336",
+      "question": "According to Wikipedia, will Meri Arabidze have an Elo ratin",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0336.json"
+    },
+    {
+      "file_id": "FB_0337",
+      "question": "According to Wikipedia, will Gukesh D have an Elo rating on ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0337.json"
+    },
+    {
+      "file_id": "FB_0338",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0338.json"
+    },
+    {
+      "file_id": "FB_0339",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0339.json"
+    },
+    {
+      "file_id": "FB_0340",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0340.json"
+    },
+    {
+      "file_id": "FB_0341",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0341.json"
+    },
+    {
+      "file_id": "FB_0342",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0342.json"
+    },
+    {
+      "file_id": "FB_0343",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0343.json"
+    },
+    {
+      "file_id": "FB_0344",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0344.json"
+    },
+    {
+      "file_id": "FB_0345",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0345.json"
+    },
+    {
+      "file_id": "FB_0346",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0346.json"
+    },
+    {
+      "file_id": "FB_0347",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0347.json"
+    },
+    {
+      "file_id": "FB_0348",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0348.json"
+    },
+    {
+      "file_id": "FB_0349",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0349.json"
+    },
+    {
+      "file_id": "FB_0350",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0350.json"
+    },
+    {
+      "file_id": "FB_0351",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0351.json"
+    },
+    {
+      "file_id": "FB_0352",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0352.json"
+    },
+    {
+      "file_id": "FB_0353",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0353.json"
+    },
+    {
+      "file_id": "FB_0354",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0354.json"
+    },
+    {
+      "file_id": "FB_0355",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0355.json"
+    },
+    {
+      "file_id": "FB_0356",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0356.json"
+    },
+    {
+      "file_id": "FB_0357",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0357.json"
+    },
+    {
+      "file_id": "FB_0358",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0358.json"
+    },
+    {
+      "file_id": "FB_0359",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0359.json"
+    },
+    {
+      "file_id": "FB_0360",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0360.json"
+    },
+    {
+      "file_id": "FB_0361",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0361.json"
+    },
+    {
+      "file_id": "FB_0362",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0362.json"
+    },
+    {
+      "file_id": "FB_0363",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0363.json"
+    },
+    {
+      "file_id": "FB_0364",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0364.json"
+    },
+    {
+      "file_id": "FB_0365",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0365.json"
+    },
+    {
+      "file_id": "FB_0366",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0366.json"
+    },
+    {
+      "file_id": "FB_0367",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0367.json"
+    },
+    {
+      "file_id": "FB_0368",
+      "question": "Will REG's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0368.json"
+    },
+    {
+      "file_id": "FB_0369",
+      "question": "Will PEG's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0369.json"
+    },
+    {
+      "file_id": "FB_0370",
+      "question": "Will TJX's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0370.json"
+    },
+    {
+      "file_id": "FB_0371",
+      "question": "Will AVY's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0371.json"
+    },
+    {
+      "file_id": "FB_0372",
+      "question": "Will TT's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0372.json"
+    },
+    {
+      "file_id": "FB_0373",
+      "question": "Will VMC's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0373.json"
+    },
+    {
+      "file_id": "FB_0374",
+      "question": "Will RVTY's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0374.json"
+    },
+    {
+      "file_id": "FB_0375",
+      "question": "Will AES's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0375.json"
+    },
+    {
+      "file_id": "FB_0376",
+      "question": "Will HPQ's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0376.json"
+    },
+    {
+      "file_id": "FB_0377",
+      "question": "Will INTC's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0377.json"
+    },
+    {
+      "file_id": "FB_0378",
+      "question": "Will EVRG's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0378.json"
+    },
+    {
+      "file_id": "FB_0379",
+      "question": "Will MO's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0379.json"
+    },
+    {
+      "file_id": "FB_0380",
+      "question": "Will CPT's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0380.json"
+    },
+    {
+      "file_id": "FB_0381",
+      "question": "Will PSA's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0381.json"
+    },
+    {
+      "file_id": "FB_0382",
+      "question": "Will MS's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0382.json"
+    },
+    {
+      "file_id": "FB_0383",
+      "question": "Will KMX's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0383.json"
+    },
+    {
+      "file_id": "FB_0384",
+      "question": "Will TMUS's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0384.json"
+    },
+    {
+      "file_id": "FB_0385",
+      "question": "Will MDT's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0385.json"
+    },
+    {
+      "file_id": "FB_0386",
+      "question": "Will ETSY's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0386.json"
+    },
+    {
+      "file_id": "FB_0387",
+      "question": "Will PPG's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0387.json"
+    },
+    {
+      "file_id": "FB_0388",
+      "question": "Will JPM's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0388.json"
+    },
+    {
+      "file_id": "FB_0389",
+      "question": "Will AMGN's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0389.json"
+    },
+    {
+      "file_id": "FB_0390",
+      "question": "Will ADSK's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0390.json"
+    },
+    {
+      "file_id": "FB_0391",
+      "question": "Will NCLH's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0391.json"
+    },
+    {
+      "file_id": "FB_0392",
+      "question": "Will SYK's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0392.json"
+    },
+    {
+      "file_id": "FB_0393",
+      "question": "Will PGR's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0393.json"
+    },
+    {
+      "file_id": "FB_0394",
+      "question": "Will VZ's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0394.json"
+    },
+    {
+      "file_id": "FB_0395",
+      "question": "Will DE's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0395.json"
+    },
+    {
+      "file_id": "FB_0396",
+      "question": "Will LULU's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0396.json"
+    },
+    {
+      "file_id": "FB_0397",
+      "question": "Will IBM's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0397.json"
+    },
+    {
+      "file_id": "FB_0398",
+      "question": "Will CB's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0398.json"
+    },
+    {
+      "file_id": "FB_0399",
+      "question": "Will ADI's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0399.json"
+    },
+    {
+      "file_id": "FB_0400",
+      "question": "Will OMC's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0400.json"
+    },
+    {
+      "file_id": "FB_0401",
+      "question": "Will HCA's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0401.json"
+    },
+    {
+      "file_id": "FB_0402",
+      "question": "Will ROST's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0402.json"
+    },
+    {
+      "file_id": "FB_0403",
+      "question": "Will SNPS's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0403.json"
+    },
+    {
+      "file_id": "FB_0404",
+      "question": "Will BIO's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0404.json"
+    },
+    {
+      "file_id": "FB_0405",
+      "question": "Will SRE's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0405.json"
+    },
+    {
+      "file_id": "FB_0406",
+      "question": "Will CE's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0406.json"
+    },
+    {
+      "file_id": "FB_0407",
+      "question": "Will FI's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0407.json"
+    },
+    {
+      "file_id": "FB_0408",
+      "question": "Will NEM's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0408.json"
+    },
+    {
+      "file_id": "FB_0409",
+      "question": "Will D's market close price on {resolution_date} be higher t",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0409.json"
+    },
+    {
+      "file_id": "FB_0410",
+      "question": "Will NOW's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0410.json"
+    },
+    {
+      "file_id": "FB_0411",
+      "question": "Will MCO's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0411.json"
+    },
+    {
+      "file_id": "FB_0412",
+      "question": "Will GPN's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0412.json"
+    },
+    {
+      "file_id": "FB_0413",
+      "question": "Will CLX's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0413.json"
+    },
+    {
+      "file_id": "FB_0414",
+      "question": "Will CMCSA's market close price on {resolution_date} be high",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0414.json"
+    },
+    {
+      "file_id": "FB_0415",
+      "question": "Will ENPH's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0415.json"
+    },
+    {
+      "file_id": "FB_0416",
+      "question": "Will BRO's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0416.json"
+    },
+    {
+      "file_id": "FB_0417",
+      "question": "Will CTLT's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0417.json"
+    },
+    {
+      "file_id": "FB_0418",
+      "question": "Will CPB's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0418.json"
+    },
+    {
+      "file_id": "FB_0419",
+      "question": "Will TPL's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0419.json"
+    },
+    {
+      "file_id": "FB_0420",
+      "question": "Will BR's market close price on {resolution_date} be higher ",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0420.json"
+    },
+    {
+      "file_id": "FB_0421",
+      "question": "Will DTE's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0421.json"
+    },
+    {
+      "file_id": "FB_0422",
+      "question": "Will NWS's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0422.json"
+    },
+    {
+      "file_id": "FB_0423",
+      "question": "Will AMP's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0423.json"
+    },
+    {
+      "file_id": "FB_0424",
+      "question": "Will TER's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0424.json"
+    },
+    {
+      "file_id": "FB_0425",
+      "question": "Will SBUX's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0425.json"
+    },
+    {
+      "file_id": "FB_0426",
+      "question": "Will L's market close price on {resolution_date} be higher t",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0426.json"
+    },
+    {
+      "file_id": "FB_0427",
+      "question": "Will TTWO's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0427.json"
+    },
+    {
+      "file_id": "FB_0428",
+      "question": "Will VST's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0428.json"
+    },
+    {
+      "file_id": "FB_0429",
+      "question": "Will TSLA's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0429.json"
+    },
+    {
+      "file_id": "FB_0430",
+      "question": "Will Vladimir Putin be the President of Russia at the end of",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0430.json"
+    },
+    {
+      "file_id": "FB_0431",
+      "question": "Will the OpenAI board fire Sam Altman again in 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0431.json"
+    },
+    {
+      "file_id": "FB_0432",
+      "question": "Will Kamala Harris be the Democratic Nominee for President i",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0432.json"
+    },
+    {
+      "file_id": "FB_0433",
+      "question": "Will Jimmy Carter exist at the end of August 2024?",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0433.json"
+    },
+    {
+      "file_id": "FB_0434",
+      "question": "Will sports betting be legal in California and Texas by 2030",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0434.json"
+    },
+    {
+      "file_id": "FB_0435",
+      "question": "👍👎 Manifold Leadership Approval Rating [Market Index]",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0435.json"
+    },
+    {
+      "file_id": "FB_0436",
+      "question": "Will a Democrat win the 2024 US presidential election?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0436.json"
+    },
+    {
+      "file_id": "FB_0437",
+      "question": "Will Taylor Swift release Reputation (Taylor's Version) befo",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0437.json"
+    },
+    {
+      "file_id": "FB_0438",
+      "question": "Will the upcoming Minecraft movie get over a 6.0 on IMDB?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0438.json"
+    },
+    {
+      "file_id": "FB_0439",
+      "question": "Will a video game be played in the Olympics as an official e",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0439.json"
+    },
+    {
+      "file_id": "FB_0440",
+      "question": "Will the next Agent 007 (after \"No Time To Die\") be black?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0440.json"
+    },
+    {
+      "file_id": "FB_0441",
+      "question": "Will Doors of Stone, the third book of the Kingkiller Chroni",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0441.json"
+    },
+    {
+      "file_id": "FB_0442",
+      "question": "Will the Oscars Best Picture winner for 2027 pass the Bechde",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0442.json"
+    },
+    {
+      "file_id": "FB_0443",
+      "question": "Will an LLM co/author a NYT Bestseller in the next year?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0443.json"
+    },
+    {
+      "file_id": "FB_0444",
+      "question": "Will an artificial intelligence system play a major artistic",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0444.json"
+    },
+    {
+      "file_id": "FB_0445",
+      "question": "In 2028, will at least 350,000 Americans (1/1000) be talking",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0445.json"
+    },
+    {
+      "file_id": "FB_0446",
+      "question": "In 2028, will at least 350,000 (1/1000) Americans be talking",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0446.json"
+    },
+    {
+      "file_id": "FB_0447",
+      "question": "Instant deepfakes of anyone (doing anything) by the end of 2",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0447.json"
+    },
+    {
+      "file_id": "FB_0448",
+      "question": "Will Google Chrome be the most popular browser at the end of",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0448.json"
+    },
+    {
+      "file_id": "FB_0449",
+      "question": "Will most Apple customers use a visionOS interface by 2030?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0449.json"
+    },
+    {
+      "file_id": "FB_0450",
+      "question": "Will Sam Altman be a co-founder of a serious OpenAI competit",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0450.json"
+    },
+    {
+      "file_id": "FB_0451",
+      "question": "Will a large scale Alignment Project like The Omega Protocol",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0451.json"
+    },
+    {
+      "file_id": "FB_0452",
+      "question": "Will Apple’s next iPhone (2024) include an on-device LLM “Ch",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0452.json"
+    },
+    {
+      "file_id": "FB_0453",
+      "question": "Will England win the 2026 FIFA World Cup?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0453.json"
+    },
+    {
+      "file_id": "FB_0454",
+      "question": "Will Ding Liren repeat as World Chess Champion?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0454.json"
+    },
+    {
+      "file_id": "FB_0455",
+      "question": "Will Manchester City be severely punished by the Premier Lea",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0455.json"
+    },
+    {
+      "file_id": "FB_0456",
+      "question": "Will the U.S. win the gold medal in the Men's Basketball at ",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0456.json"
+    },
+    {
+      "file_id": "FB_0457",
+      "question": "Will Rafael Nadal win another Grand Slam before his retireme",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0457.json"
+    },
+    {
+      "file_id": "FB_0458",
+      "question": "Will Lionel Messi retire before the end of 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0458.json"
+    },
+    {
+      "file_id": "FB_0459",
+      "question": "[2024 Formula 1 Season] Will Sergio Perez finish 2nd or high",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0459.json"
+    },
+    {
+      "file_id": "FB_0460",
+      "question": "Will white-collar workers unionize to prevent job loss to AI",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0460.json"
+    },
+    {
+      "file_id": "FB_0461",
+      "question": "Will Rational Animations' video about Manifold Markets reach",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0461.json"
+    },
+    {
+      "file_id": "FB_0462",
+      "question": "Will over 70% of Manifold users think that Elon Musk does no",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0462.json"
+    },
+    {
+      "file_id": "FB_0463",
+      "question": "Will AI cause the US Unemployment Rate to exceed 10% before ",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0463.json"
+    },
+    {
+      "file_id": "FB_0464",
+      "question": "Will the US enter a recession by the end of 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0464.json"
+    },
+    {
+      "file_id": "FB_0465",
+      "question": "Will Binance collapse before the end of 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0465.json"
+    },
+    {
+      "file_id": "FB_0466",
+      "question": "Will TSLA reach >$ 275 before 8pm EST on 8/8?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0466.json"
+    },
+    {
+      "file_id": "FB_0467",
+      "question": "Will AI replace over 50 million jobs by end of 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0467.json"
+    },
+    {
+      "file_id": "FB_0468",
+      "question": "Will any of the four main characters of Severance die in sea",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0468.json"
+    },
+    {
+      "file_id": "FB_0469",
+      "question": "Will over 100,000 people be conceived with the help of advan",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0469.json"
+    },
+    {
+      "file_id": "FB_0470",
+      "question": "Will anybody born before 2000 live to be 150?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0470.json"
+    },
+    {
+      "file_id": "FB_0471",
+      "question": "Did COVID-19 come from a laboratory?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0471.json"
+    },
+    {
+      "file_id": "FB_0472",
+      "question": "By 2030, will there be a cure to aging?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0472.json"
+    },
+    {
+      "file_id": "FB_0473",
+      "question": "Will Noam Chomsky become a centenarian?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0473.json"
+    },
+    {
+      "file_id": "FB_0474",
+      "question": "Is the \"100% effective against solid tumors\" cancer pill AOH",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0474.json"
+    },
+    {
+      "file_id": "FB_0475",
+      "question": "Will Neuralink successfully enable a blind person to see aga",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0475.json"
+    },
+    {
+      "file_id": "FB_0476",
+      "question": "Will there be a robot uprising by 2035?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0476.json"
+    },
+    {
+      "file_id": "FB_0477",
+      "question": "Will China launch a full-scale invasion of Taiwan before 203",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0477.json"
+    },
+    {
+      "file_id": "FB_0478",
+      "question": "Will China attempt to invade Taiwan by the end of 2027?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0478.json"
+    },
+    {
+      "file_id": "FB_0479",
+      "question": "Will Hezbollah directly engage in combat operations against ",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0479.json"
+    },
+    {
+      "file_id": "FB_0480",
+      "question": "Will there be a ceasefire in Gaza by Eoy 2024?",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0480.json"
+    },
+    {
+      "file_id": "FB_0481",
+      "question": "Will Zubear Abdi face legal trouble for sharing explicit pho",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0481.json"
+    },
+    {
+      "file_id": "FB_0482",
+      "question": "Will Drake be found guilty of a crime before the end of 2028",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0482.json"
+    },
+    {
+      "file_id": "FB_0483",
+      "question": "Will OpenAI be the target and victim of a major cyber attack",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0483.json"
+    },
+    {
+      "file_id": "FB_0484",
+      "question": "Will the average global temperature in 2024 exceed 2023?",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0484.json"
+    },
+    {
+      "file_id": "FB_0485",
+      "question": "Will the majority of new cars sold be electric vehicles by t",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0485.json"
+    },
+    {
+      "file_id": "FB_0486",
+      "question": "Will any event of the Paris 2024 Olympic Games be postponed ",
+      "ground_truth": 1,
+      "source": "manifold",
+      "filename": "FB_0486.json"
+    },
+    {
+      "file_id": "FB_0487",
+      "question": "Will the majority of new cars sold worldwide be electric bef",
+      "ground_truth": 0,
+      "source": "manifold",
+      "filename": "FB_0487.json"
+    },
+    {
+      "file_id": "FB_0488",
+      "question": "By December 31st, 2028, will it be considered best practice ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0488.json"
+    },
+    {
+      "file_id": "FB_0489",
+      "question": "Will the FDA or EMA withdraw approval of Semaglutide for the",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0489.json"
+    },
+    {
+      "file_id": "FB_0490",
+      "question": "Will oral semaglutide be approved for the treatment of obesi",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0490.json"
+    },
+    {
+      "file_id": "FB_0491",
+      "question": "Will Guinea Worm be eradicated by the end of 2030?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0491.json"
+    },
+    {
+      "file_id": "FB_0492",
+      "question": "Will wheat be successfully de-allergenized by 2030?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0492.json"
+    },
+    {
+      "file_id": "FB_0493",
+      "question": "Ragnarök Question Series: If a global catastrophe occurs, wi",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0493.json"
+    },
+    {
+      "file_id": "FB_0494",
+      "question": "Will human cases of HPAI clade 2.3.4.4b avian influenza exce",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0494.json"
+    },
+    {
+      "file_id": "FB_0495",
+      "question": "By the year 2100, will any jurisdiction enforce requirements",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0495.json"
+    },
+    {
+      "file_id": "FB_0496",
+      "question": "If there's a nuclear conflict involving >1,000 detonations, ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0496.json"
+    },
+    {
+      "file_id": "FB_0497",
+      "question": "Conditional on New START not being renewed or replaced by an",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0497.json"
+    },
+    {
+      "file_id": "FB_0498",
+      "question": "Will Russia start a second mobilization wave before 2025, ac",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0498.json"
+    },
+    {
+      "file_id": "FB_0499",
+      "question": "Will a theft of >$10M of intellectual property be widely att",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0499.json"
+    },
+    {
+      "file_id": "FB_0500",
+      "question": "Will diplomatic expulsions or recalls take place between the",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0500.json"
+    },
+    {
+      "file_id": "FB_0501",
+      "question": "Will an infrastructure disaster costing >$1B in a G20 countr",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0501.json"
+    },
+    {
+      "file_id": "FB_0502",
+      "question": "Will there be a tsunami that kills at least 50,000 people be",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0502.json"
+    },
+    {
+      "file_id": "FB_0503",
+      "question": "Will there be adversarial use of consumer genomic data befor",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0503.json"
+    },
+    {
+      "file_id": "FB_0504",
+      "question": "Will there be an 8.0 magnitude or greater earthquake in the ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0504.json"
+    },
+    {
+      "file_id": "FB_0505",
+      "question": "Will the global methane output from the energy sector be at ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0505.json"
+    },
+    {
+      "file_id": "FB_0506",
+      "question": "Will the Cavendish account for less than 50% of banana expor",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0506.json"
+    },
+    {
+      "file_id": "FB_0507",
+      "question": "Will Bayer cease selling all Roundup products, or substantia",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0507.json"
+    },
+    {
+      "file_id": "FB_0508",
+      "question": "Will the EU phase out high-concentration CO2 stunning or kil",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0508.json"
+    },
+    {
+      "file_id": "FB_0509",
+      "question": "Will at least ten countries have committed to any diplomatic",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0509.json"
+    },
+    {
+      "file_id": "FB_0510",
+      "question": "Will >1% of global primary aluminum be produced by carbon-fr",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0510.json"
+    },
+    {
+      "file_id": "FB_0511",
+      "question": "Will we know what Dark Matter is before 2050?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0511.json"
+    },
+    {
+      "file_id": "FB_0512",
+      "question": "Will an AI be able to reliably construct bug-free code of mo",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0512.json"
+    },
+    {
+      "file_id": "FB_0513",
+      "question": "Will the entire Internet Archive website be taken offline be",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0513.json"
+    },
+    {
+      "file_id": "FB_0514",
+      "question": "Will an AI system solve one of the remaining Millennium Priz",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0514.json"
+    },
+    {
+      "file_id": "FB_0515",
+      "question": "Will OpenAI offer ChatGPT in China before 2026?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0515.json"
+    },
+    {
+      "file_id": "FB_0516",
+      "question": "Will a mission to land a spacecraft on Europa launch by 2030",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0516.json"
+    },
+    {
+      "file_id": "FB_0517",
+      "question": "Will Elon Musk be the richest person in the world on Decembe",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0517.json"
+    },
+    {
+      "file_id": "FB_0518",
+      "question": "Will annual US core CPI inflation be above 3% in December 20",
+      "ground_truth": 1,
+      "source": "metaculus",
+      "filename": "FB_0518.json"
+    },
+    {
+      "file_id": "FB_0519",
+      "question": "Will GB News be broadcasting in 2025?",
+      "ground_truth": 1,
+      "source": "metaculus",
+      "filename": "FB_0519.json"
+    },
+    {
+      "file_id": "FB_0520",
+      "question": "Will the Eurozone collapse before 2030?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0520.json"
+    },
+    {
+      "file_id": "FB_0521",
+      "question": "Will the US unemployment rate be above 4% in November 2024?",
+      "ground_truth": 1,
+      "source": "metaculus",
+      "filename": "FB_0521.json"
+    },
+    {
+      "file_id": "FB_0522",
+      "question": "Will Bryan Caplan win his bet that India's average fertility",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0522.json"
+    },
+    {
+      "file_id": "FB_0523",
+      "question": "Will Próspera at any point before 2035 have at least 10,000 ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0523.json"
+    },
+    {
+      "file_id": "FB_0524",
+      "question": "Will a politician claim they lost a major election due to a ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0524.json"
+    },
+    {
+      "file_id": "FB_0525",
+      "question": "Will the REAL ID deadline be extended beyond May 7, 2025?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0525.json"
+    },
+    {
+      "file_id": "FB_0526",
+      "question": "Will the US and the EU (or one of its member states) cut dip",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0526.json"
+    },
+    {
+      "file_id": "FB_0527",
+      "question": "Will Scotland leave the United Kingdom before 2025?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0527.json"
+    },
+    {
+      "file_id": "FB_0528",
+      "question": "Will Donald Trump be jailed or incarcerated before 2030?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0528.json"
+    },
+    {
+      "file_id": "FB_0529",
+      "question": "Will Valve release a game before 2030 with 3 in the Title?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0529.json"
+    },
+    {
+      "file_id": "FB_0530",
+      "question": "Will Robert Caro's fifth and final volume of his Lyndon John",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0530.json"
+    },
+    {
+      "file_id": "FB_0531",
+      "question": "Will a Star Trek and Star Wars crossover movie or TV show be",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0531.json"
+    },
+    {
+      "file_id": "FB_0532",
+      "question": "Will Meghan Markle's book be reported to have outsold Prince",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0532.json"
+    },
+    {
+      "file_id": "FB_0533",
+      "question": "Will AI be able to watch a movie and tell you accurately wha",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0533.json"
+    },
+    {
+      "file_id": "FB_0534",
+      "question": "Will George R. R. Martin publish the sixth novel in \"A Song ",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0534.json"
+    },
+    {
+      "file_id": "FB_0535",
+      "question": "By 2050, will at least 25% of Year-End Billboard Hot 100 son",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0535.json"
+    },
+    {
+      "file_id": "FB_0536",
+      "question": "Will Russian athletes be barred from competing at the 2024 O",
+      "ground_truth": 1,
+      "source": "metaculus",
+      "filename": "FB_0536.json"
+    },
+    {
+      "file_id": "FB_0537",
+      "question": "Will USA top the Olympic Medal Table at Paris 2024?",
+      "ground_truth": 1,
+      "source": "metaculus",
+      "filename": "FB_0537.json"
+    },
+    {
+      "file_id": "FB_0538",
+      "question": "Will Derrick Rose make the Hall of Fame?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0538.json"
+    },
+    {
+      "file_id": "FB_0539",
+      "question": "Will there be a Super Bowl 100 before 2076?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0539.json"
+    },
+    {
+      "file_id": "FB_0540",
+      "question": "Will Andy Carlile's 7:10 BTG Nürburgring Nordschleife motorc",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0540.json"
+    },
+    {
+      "file_id": "FB_0541",
+      "question": "Will the use of whips be banned on or before the 2026 Melbou",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0541.json"
+    },
+    {
+      "file_id": "FB_0542",
+      "question": "Will the WTA and ATP merge before 2031?",
+      "ground_truth": 0,
+      "source": "metaculus",
+      "filename": "FB_0542.json"
+    },
+    {
+      "file_id": "FB_0543",
+      "question": "Will Vladimir Putin cease to be the president of the Russian",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0543.json"
+    },
+    {
+      "file_id": "FB_0544",
+      "question": "In the next six months, will the Global Protest Tracker reco",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0544.json"
+    },
+    {
+      "file_id": "FB_0545",
+      "question": "Will Myanmar hold national elections before 1 July 2025?",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0545.json"
+    },
+    {
+      "file_id": "FB_0546",
+      "question": "Before 1 January 2025, will Iran announce that it will leave",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0546.json"
+    },
+    {
+      "file_id": "FB_0547",
+      "question": "Will Nicolás Maduro be president of Venezuela on 11 January ",
+      "ground_truth": 1,
+      "source": "infer",
+      "filename": "FB_0547.json"
+    },
+    {
+      "file_id": "FB_0548",
+      "question": "Will a JCPOA participant country begin the process of imposi",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0548.json"
+    },
+    {
+      "file_id": "FB_0549",
+      "question": "Will the Houthi movement and Yemen reach a ceasefire that is",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0549.json"
+    },
+    {
+      "file_id": "FB_0550",
+      "question": "Will there be an agreed-upon pause in the conflict between I",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0550.json"
+    },
+    {
+      "file_id": "FB_0551",
+      "question": "By 31 December 2024, will uranium enriched to 90% or more be",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0551.json"
+    },
+    {
+      "file_id": "FB_0552",
+      "question": "Will Iran be impacted by a cyberattack targeting critical in",
+      "ground_truth": 1,
+      "source": "infer",
+      "filename": "FB_0552.json"
+    },
+    {
+      "file_id": "FB_0553",
+      "question": "Will Huawei sell or announce plans to sell Open RAN equipmen",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0553.json"
+    },
+    {
+      "file_id": "FB_0554",
+      "question": "Will a North American testing center (OTIC) issue an O-RAN C",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0554.json"
+    },
+    {
+      "file_id": "FB_0555",
+      "question": "By 31 December 2024, will Microsoft announce that its AI Res",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0555.json"
+    },
+    {
+      "file_id": "FB_0556",
+      "question": "Will a collaboration between Huawei and the O-RAN Alliance b",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0556.json"
+    },
+    {
+      "file_id": "FB_0557",
+      "question": "Will at least five more exoplanets be found to be potentiall",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0557.json"
+    },
+    {
+      "file_id": "FB_0558",
+      "question": "On 31 May 2025, will Nvidia be the world’s most valuable com",
+      "ground_truth": 0,
+      "source": "infer",
+      "filename": "FB_0558.json"
+    },
+    {
+      "file_id": "FB_0559",
+      "question": "Will a Republican win Ohio Presidential Election?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0559.json"
+    },
+    {
+      "file_id": "FB_0560",
+      "question": "Will a Democrat win Washington US Senate Election?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0560.json"
+    },
+    {
+      "file_id": "FB_0561",
+      "question": "Will weed be rescheduled in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0561.json"
+    },
+    {
+      "file_id": "FB_0562",
+      "question": "[Single Market] Will Joe Biden win the U.S. 2024 Democratic ",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0562.json"
+    },
+    {
+      "file_id": "FB_0563",
+      "question": "Will a candidate from another party win Washington DC Presid",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0563.json"
+    },
+    {
+      "file_id": "FB_0564",
+      "question": "Will a Democrat win Vermont Governor Election?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0564.json"
+    },
+    {
+      "file_id": "FB_0565",
+      "question": "[Single Market] Will Joe Rogan win the U.S. 2024 Republican ",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0565.json"
+    },
+    {
+      "file_id": "FB_0566",
+      "question": "Will Hillary Clinton win the 2024 US Presidential Election?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0566.json"
+    },
+    {
+      "file_id": "FB_0567",
+      "question": "Will a candidate from another party win Massachusetts Presid",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0567.json"
+    },
+    {
+      "file_id": "FB_0568",
+      "question": "Will TOSHI reach $1b first?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0568.json"
+    },
+    {
+      "file_id": "FB_0569",
+      "question": "Will Fed cut interest rates 0 times in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0569.json"
+    },
+    {
+      "file_id": "FB_0570",
+      "question": "TikTok sale announced before August?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0570.json"
+    },
+    {
+      "file_id": "FB_0571",
+      "question": "Will POPCAT reach $1b first?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0571.json"
+    },
+    {
+      "file_id": "FB_0572",
+      "question": "Will Fed cut interest rates 1 time in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0572.json"
+    },
+    {
+      "file_id": "FB_0573",
+      "question": "Will another cat memecoin reach $1b first?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0573.json"
+    },
+    {
+      "file_id": "FB_0574",
+      "question": "Will a new country buy Bitcoin in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0574.json"
+    },
+    {
+      "file_id": "FB_0575",
+      "question": "Eigenlayer market cap (FDV) between $20-25b one day after la",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0575.json"
+    },
+    {
+      "file_id": "FB_0576",
+      "question": "Russian nuke in space in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0576.json"
+    },
+    {
+      "file_id": "FB_0577",
+      "question": "Israel x Hamas ceasefire before September?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0577.json"
+    },
+    {
+      "file_id": "FB_0578",
+      "question": "Will North Korea invade South Korea in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0578.json"
+    },
+    {
+      "file_id": "FB_0579",
+      "question": "Israel military action against Iran by end of 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0579.json"
+    },
+    {
+      "file_id": "FB_0580",
+      "question": "Is John McAfee alive?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0580.json"
+    },
+    {
+      "file_id": "FB_0581",
+      "question": "Ceasefire between Russia and Ukraine before October?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0581.json"
+    },
+    {
+      "file_id": "FB_0582",
+      "question": "Will China invade Taiwan in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0582.json"
+    },
+    {
+      "file_id": "FB_0583",
+      "question": "Iggy Azalea criminal charges in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0583.json"
+    },
+    {
+      "file_id": "FB_0584",
+      "question": "Andrew Tate guilty of human trafficking in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0584.json"
+    },
+    {
+      "file_id": "FB_0585",
+      "question": "James Norton announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0585.json"
+    },
+    {
+      "file_id": "FB_0586",
+      "question": "Will 'Deadpool 3' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0586.json"
+    },
+    {
+      "file_id": "FB_0587",
+      "question": "Damson Idris announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0587.json"
+    },
+    {
+      "file_id": "FB_0588",
+      "question": "Will 'Deadpool & Wolverine' gross between $110m and $130m op",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0588.json"
+    },
+    {
+      "file_id": "FB_0589",
+      "question": "Will 'Deadpool & Wolverine' gross between $130m and $150m op",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0589.json"
+    },
+    {
+      "file_id": "FB_0590",
+      "question": "Will 'Dune: Part 2' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0590.json"
+    },
+    {
+      "file_id": "FB_0591",
+      "question": "Tom Hardy announced as next James Bond?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0591.json"
+    },
+    {
+      "file_id": "FB_0592",
+      "question": "Will 'Joker 2' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0592.json"
+    },
+    {
+      "file_id": "FB_0593",
+      "question": "Will 'Despicable Me 4' gross most in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0593.json"
+    },
+    {
+      "file_id": "FB_0594",
+      "question": "No Eigenlayer token launch in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0594.json"
+    },
+    {
+      "file_id": "FB_0595",
+      "question": "Will two SpaceX Starship launches successfully reach outer s",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0595.json"
+    },
+    {
+      "file_id": "FB_0596",
+      "question": "GPT-5 announced in Q4 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0596.json"
+    },
+    {
+      "file_id": "FB_0597",
+      "question": "Will four SpaceX Starship launches successfully reach outer ",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0597.json"
+    },
+    {
+      "file_id": "FB_0598",
+      "question": "Will Satoshi Nakamoto's identity be proven in Q4 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0598.json"
+    },
+    {
+      "file_id": "FB_0599",
+      "question": "Will Satoshi Nakamoto's identity not be proven in 2024?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0599.json"
+    },
+    {
+      "file_id": "FB_0600",
+      "question": "Eigenlayer market cap (FDV) <$10b one day after launch?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0600.json"
+    },
+    {
+      "file_id": "FB_0601",
+      "question": "Tesla Robotaxi unveiling delayed?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0601.json"
+    },
+    {
+      "file_id": "FB_0602",
+      "question": "Sony doesn't release Playstation 5 Pro in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0602.json"
+    },
+    {
+      "file_id": "FB_0603",
+      "question": "Will there be between 21 and 25 named storms during Atlantic",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0603.json"
+    },
+    {
+      "file_id": "FB_0604",
+      "question": "Will 2024 be the hottest year on record?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0604.json"
+    },
+    {
+      "file_id": "FB_0605",
+      "question": "Will there be less than 16 named storms during Atlantic Hurr",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0605.json"
+    },
+    {
+      "file_id": "FB_0606",
+      "question": "Will there be more than 25 named storms during Atlantic Hurr",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0606.json"
+    },
+    {
+      "file_id": "FB_0607",
+      "question": "Will there be between 16 and 20 named storms during Atlantic",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0607.json"
+    },
+    {
+      "file_id": "FB_0608",
+      "question": "Will Belichick head coach the Eagles in the 2024-25 NFL seas",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0608.json"
+    },
+    {
+      "file_id": "FB_0609",
+      "question": "Will Belichick head coach the Chargers in the 2024-25 NFL se",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0609.json"
+    },
+    {
+      "file_id": "FB_0610",
+      "question": "Will Belichick head coach the Commanders in the 2024-25 NFL ",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0610.json"
+    },
+    {
+      "file_id": "FB_0611",
+      "question": "Will Belichick head coach the Giants in the 2024-25 NFL seas",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0611.json"
+    },
+    {
+      "file_id": "FB_0612",
+      "question": "Another player Week 1 starter for Steelers?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0612.json"
+    },
+    {
+      "file_id": "FB_0613",
+      "question": "Justin Fields Week 1 starter for Steelers?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0613.json"
+    },
+    {
+      "file_id": "FB_0614",
+      "question": "Will Belichick not be head coach in the 2024-25 NFL season?",
+      "ground_truth": 1,
+      "source": "polymarket",
+      "filename": "FB_0614.json"
+    },
+    {
+      "file_id": "FB_0615",
+      "question": "Will Belichick head coach another team in the 2024-25 NFL se",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0615.json"
+    },
+    {
+      "file_id": "FB_0616",
+      "question": "Will Belichick head coach the Titans in the 2024-25 NFL seas",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0616.json"
+    },
+    {
+      "file_id": "FB_0617",
+      "question": "Bird flu pandemic in 2024?",
+      "ground_truth": 0,
+      "source": "polymarket",
+      "filename": "FB_0617.json"
+    },
+    {
+      "file_id": "FB_0618",
+      "question": "Will there be more than ten times as many 'Explosions/Remote",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0618.json"
+    },
+    {
+      "file_id": "FB_0619",
+      "question": "Will there be more than ten times as many fatalities in Niue",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0619.json"
+    },
+    {
+      "file_id": "FB_0620",
+      "question": "Will there be more 'Strategic developments' in Anguilla for ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0620.json"
+    },
+    {
+      "file_id": "FB_0621",
+      "question": "Will there be more than ten times as many 'Protests' in Bahr",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0621.json"
+    },
+    {
+      "file_id": "FB_0622",
+      "question": "Will there be more 'Protests' in Eritrea for the 30 days bef",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0622.json"
+    },
+    {
+      "file_id": "FB_0623",
+      "question": "Will there be more 'Riots' in Syria for the 30 days before {",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0623.json"
+    },
+    {
+      "file_id": "FB_0624",
+      "question": "Will there be more 'Battles' in Madagascar for the 30 days b",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0624.json"
+    },
+    {
+      "file_id": "FB_0625",
+      "question": "Will there be more 'Violence against civilians' in Bolivia f",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0625.json"
+    },
+    {
+      "file_id": "FB_0626",
+      "question": "Will there be more than ten times as many 'Riots' in Luxembo",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0626.json"
+    },
+    {
+      "file_id": "FB_0627",
+      "question": "Will there be more than ten times as many 'Battles' in Syria",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0627.json"
+    },
+    {
+      "file_id": "FB_0628",
+      "question": "Will there be more 'Riots' in Saint-Martin for the 30 days b",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0628.json"
+    },
+    {
+      "file_id": "FB_0629",
+      "question": "Will there be more than ten times as many 'Battles' in Slove",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0629.json"
+    },
+    {
+      "file_id": "FB_0630",
+      "question": "Will there be more than ten times as many 'Battles' in Iraq ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0630.json"
+    },
+    {
+      "file_id": "FB_0631",
+      "question": "Will there be more 'Strategic developments' in Angola for th",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0631.json"
+    },
+    {
+      "file_id": "FB_0632",
+      "question": "Will there be more than ten times as many 'Explosions/Remote",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0632.json"
+    },
+    {
+      "file_id": "FB_0633",
+      "question": "Will there be more than ten times as many 'Protests' in Hond",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0633.json"
+    },
+    {
+      "file_id": "FB_0634",
+      "question": "Will there be more fatalities in Qatar for the 30 days befor",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0634.json"
+    },
+    {
+      "file_id": "FB_0635",
+      "question": "Will there be more fatalities in Mexico for the 30 days befo",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0635.json"
+    },
+    {
+      "file_id": "FB_0636",
+      "question": "Will there be more than ten times as many 'Riots' in Bhutan ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0636.json"
+    },
+    {
+      "file_id": "FB_0637",
+      "question": "Will there be more than ten times as many 'Violence against ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0637.json"
+    },
+    {
+      "file_id": "FB_0638",
+      "question": "Will there be more 'Battles' in Laos for the 30 days before ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0638.json"
+    },
+    {
+      "file_id": "FB_0639",
+      "question": "Will there be more than ten times as many 'Protests' in Mont",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0639.json"
+    },
+    {
+      "file_id": "FB_0640",
+      "question": "Will there be more 'Riots' in Haiti for the 30 days before {",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0640.json"
+    },
+    {
+      "file_id": "FB_0641",
+      "question": "Will there be more than ten times as many 'Violence against ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0641.json"
+    },
+    {
+      "file_id": "FB_0642",
+      "question": "Will there be more than ten times as many 'Violence against ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0642.json"
+    },
+    {
+      "file_id": "FB_0643",
+      "question": "Will there be more 'Battles' in Costa Rica for the 30 days b",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0643.json"
+    },
+    {
+      "file_id": "FB_0644",
+      "question": "Will there be more 'Violence against civilians' in Guadeloup",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0644.json"
+    },
+    {
+      "file_id": "FB_0645",
+      "question": "Will there be more than ten times as many 'Explosions/Remote",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0645.json"
+    },
+    {
+      "file_id": "FB_0646",
+      "question": "Will there be more than ten times as many 'Violence against ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0646.json"
+    },
+    {
+      "file_id": "FB_0647",
+      "question": "Will there be more than ten times as many 'Protests' in Urug",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0647.json"
+    },
+    {
+      "file_id": "FB_0648",
+      "question": "Will there be more than ten times as many fatalities in Koso",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0648.json"
+    },
+    {
+      "file_id": "FB_0649",
+      "question": "Will there be more than ten times as many 'Strategic develop",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0649.json"
+    },
+    {
+      "file_id": "FB_0650",
+      "question": "Will there be more 'Strategic developments' in Bosnia and He",
+      "ground_truth": 1,
+      "source": "acled",
+      "filename": "FB_0650.json"
+    },
+    {
+      "file_id": "FB_0651",
+      "question": "Will there be more than ten times as many 'Riots' in Sri Lan",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0651.json"
+    },
+    {
+      "file_id": "FB_0652",
+      "question": "Will there be more than ten times as many 'Strategic develop",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0652.json"
+    },
+    {
+      "file_id": "FB_0653",
+      "question": "Will there be more 'Riots' in Oman for the 30 days before {r",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0653.json"
+    },
+    {
+      "file_id": "FB_0654",
+      "question": "Will there be more than ten times as many 'Explosions/Remote",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0654.json"
+    },
+    {
+      "file_id": "FB_0655",
+      "question": "Will there be more than ten times as many 'Strategic develop",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0655.json"
+    },
+    {
+      "file_id": "FB_0656",
+      "question": "Will there be more 'Strategic developments' in North Korea f",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0656.json"
+    },
+    {
+      "file_id": "FB_0657",
+      "question": "Will there be more than ten times as many 'Violence against ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0657.json"
+    },
+    {
+      "file_id": "FB_0658",
+      "question": "Will there be more than ten times as many fatalities in Sain",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0658.json"
+    },
+    {
+      "file_id": "FB_0659",
+      "question": "Will there be more than ten times as many 'Explosions/Remote",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0659.json"
+    },
+    {
+      "file_id": "FB_0660",
+      "question": "Will there be more 'Explosions/Remote violence' in Norway fo",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0660.json"
+    },
+    {
+      "file_id": "FB_0661",
+      "question": "Will there be more than ten times as many 'Battles' in Carib",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0661.json"
+    },
+    {
+      "file_id": "FB_0662",
+      "question": "Will there be more than ten times as many fatalities in Ivor",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0662.json"
+    },
+    {
+      "file_id": "FB_0663",
+      "question": "Will there be more than ten times as many 'Battles' in Uzbek",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0663.json"
+    },
+    {
+      "file_id": "FB_0664",
+      "question": "Will there be more 'Riots' in Poland for the 30 days before ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0664.json"
+    },
+    {
+      "file_id": "FB_0665",
+      "question": "Will there be more than ten times as many fatalities in Geor",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0665.json"
+    },
+    {
+      "file_id": "FB_0666",
+      "question": "Will there be more than ten times as many 'Battles' in Andor",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0666.json"
+    },
+    {
+      "file_id": "FB_0667",
+      "question": "Will there be more than ten times as many 'Riots' in Guatema",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0667.json"
+    },
+    {
+      "file_id": "FB_0668",
+      "question": "Will there be more 'Battles' in Israel for the 30 days befor",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0668.json"
+    },
+    {
+      "file_id": "FB_0669",
+      "question": "Will there be more 'Violence against civilians' in Zimbabwe ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0669.json"
+    },
+    {
+      "file_id": "FB_0670",
+      "question": "Will there be more than ten times as many 'Explosions/Remote",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0670.json"
+    },
+    {
+      "file_id": "FB_0671",
+      "question": "Will there be more 'Violence against civilians' in Ghana for",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0671.json"
+    },
+    {
+      "file_id": "FB_0672",
+      "question": "Will there be more than ten times as many 'Riots' in India f",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0672.json"
+    },
+    {
+      "file_id": "FB_0673",
+      "question": "Will there be more 'Violence against civilians' in New Zeala",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0673.json"
+    },
+    {
+      "file_id": "FB_0674",
+      "question": "Will there be more than ten times as many 'Strategic develop",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0674.json"
+    },
+    {
+      "file_id": "FB_0675",
+      "question": "Will there be more than ten times as many 'Protests' in Chin",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0675.json"
+    },
+    {
+      "file_id": "FB_0676",
+      "question": "Will there be more 'Strategic developments' in Laos for the ",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0676.json"
+    },
+    {
+      "file_id": "FB_0677",
+      "question": "Will there be more fatalities in Slovakia for the 30 days be",
+      "ground_truth": 0,
+      "source": "acled",
+      "filename": "FB_0677.json"
+    },
+    {
+      "file_id": "FB_0678",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0678.json"
+    },
+    {
+      "file_id": "FB_0679",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0679.json"
+    },
+    {
+      "file_id": "FB_0680",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0680.json"
+    },
+    {
+      "file_id": "FB_0681",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0681.json"
+    },
+    {
+      "file_id": "FB_0682",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0682.json"
+    },
+    {
+      "file_id": "FB_0683",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0683.json"
+    },
+    {
+      "file_id": "FB_0684",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0684.json"
+    },
+    {
+      "file_id": "FB_0685",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0685.json"
+    },
+    {
+      "file_id": "FB_0686",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0686.json"
+    },
+    {
+      "file_id": "FB_0687",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0687.json"
+    },
+    {
+      "file_id": "FB_0688",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0688.json"
+    },
+    {
+      "file_id": "FB_0689",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0689.json"
+    },
+    {
+      "file_id": "FB_0690",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0690.json"
+    },
+    {
+      "file_id": "FB_0691",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0691.json"
+    },
+    {
+      "file_id": "FB_0692",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0692.json"
+    },
+    {
+      "file_id": "FB_0693",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0693.json"
+    },
+    {
+      "file_id": "FB_0694",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0694.json"
+    },
+    {
+      "file_id": "FB_0695",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0695.json"
+    },
+    {
+      "file_id": "FB_0696",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0696.json"
+    },
+    {
+      "file_id": "FB_0697",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0697.json"
+    },
+    {
+      "file_id": "FB_0698",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0698.json"
+    },
+    {
+      "file_id": "FB_0699",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0699.json"
+    },
+    {
+      "file_id": "FB_0700",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0700.json"
+    },
+    {
+      "file_id": "FB_0701",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0701.json"
+    },
+    {
+      "file_id": "FB_0702",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0702.json"
+    },
+    {
+      "file_id": "FB_0703",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0703.json"
+    },
+    {
+      "file_id": "FB_0704",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0704.json"
+    },
+    {
+      "file_id": "FB_0705",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0705.json"
+    },
+    {
+      "file_id": "FB_0706",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0706.json"
+    },
+    {
+      "file_id": "FB_0707",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0707.json"
+    },
+    {
+      "file_id": "FB_0708",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0708.json"
+    },
+    {
+      "file_id": "FB_0709",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0709.json"
+    },
+    {
+      "file_id": "FB_0710",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0710.json"
+    },
+    {
+      "file_id": "FB_0711",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0711.json"
+    },
+    {
+      "file_id": "FB_0712",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0712.json"
+    },
+    {
+      "file_id": "FB_0713",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0713.json"
+    },
+    {
+      "file_id": "FB_0714",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0714.json"
+    },
+    {
+      "file_id": "FB_0715",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0715.json"
+    },
+    {
+      "file_id": "FB_0716",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0716.json"
+    },
+    {
+      "file_id": "FB_0717",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0717.json"
+    },
+    {
+      "file_id": "FB_0718",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0718.json"
+    },
+    {
+      "file_id": "FB_0719",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0719.json"
+    },
+    {
+      "file_id": "FB_0720",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 0,
+      "source": "dbnomics",
+      "filename": "FB_0720.json"
+    },
+    {
+      "file_id": "FB_0721",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0721.json"
+    },
+    {
+      "file_id": "FB_0722",
+      "question": "What is the probability that the daily average temperature a",
+      "ground_truth": 1,
+      "source": "dbnomics",
+      "filename": "FB_0722.json"
+    },
+    {
+      "file_id": "FB_0723",
+      "question": "Will the Federal Reserve's 1-year secondary market treasury ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0723.json"
+    },
+    {
+      "file_id": "FB_0724",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0724.json"
+    },
+    {
+      "file_id": "FB_0725",
+      "question": "Will the 4-week moving average of initial unemployment claim",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0725.json"
+    },
+    {
+      "file_id": "FB_0726",
+      "question": "Will the number of insured unemployment claims have increase",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0726.json"
+    },
+    {
+      "file_id": "FB_0727",
+      "question": "Will the weekly dollar amount of loans made under the primar",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0727.json"
+    },
+    {
+      "file_id": "FB_0728",
+      "question": "Will the spot exchange rate of South Korean won to US dollar",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0728.json"
+    },
+    {
+      "file_id": "FB_0729",
+      "question": "Will the Federal Reserve Bank of Cleveland's 30-year expecte",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0729.json"
+    },
+    {
+      "file_id": "FB_0730",
+      "question": "Will the term premium on a 10-year zero-coupon bond have inc",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0730.json"
+    },
+    {
+      "file_id": "FB_0731",
+      "question": "Will the price of Brent crude oil have increased by {resolut",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0731.json"
+    },
+    {
+      "file_id": "FB_0732",
+      "question": "Will the Federal Reserve's SOFR (Secured Overnight Financing",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0732.json"
+    },
+    {
+      "file_id": "FB_0733",
+      "question": "Will the Federal Reserve's 3-month secondary market treasury",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0733.json"
+    },
+    {
+      "file_id": "FB_0734",
+      "question": "Will the average price of diesel in the US have increased by",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0734.json"
+    },
+    {
+      "file_id": "FB_0735",
+      "question": "Will the average price of regular gas in the US have increas",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0735.json"
+    },
+    {
+      "file_id": "FB_0736",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0736.json"
+    },
+    {
+      "file_id": "FB_0737",
+      "question": "Will the Federal Reserve's 4-week secondary market treasury ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0737.json"
+    },
+    {
+      "file_id": "FB_0738",
+      "question": "Will the aggregated daily value of securities sold by the Fe",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0738.json"
+    },
+    {
+      "file_id": "FB_0739",
+      "question": "Will the market yield on US treasury securities at 20-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0739.json"
+    },
+    {
+      "file_id": "FB_0740",
+      "question": "Will the total return of the ICE BofA US Corporate Index, wh",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0740.json"
+    },
+    {
+      "file_id": "FB_0741",
+      "question": "Will the NASDAQ 100 Index, which represents the daily index ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0741.json"
+    },
+    {
+      "file_id": "FB_0742",
+      "question": "Will the US' 10-year breakeven inflation rate have increased",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0742.json"
+    },
+    {
+      "file_id": "FB_0743",
+      "question": "Will the market yield on US treasury securities at 3-month c",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0743.json"
+    },
+    {
+      "file_id": "FB_0744",
+      "question": "Will the 30-year fixed rate jumbo mortgage index have increa",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0744.json"
+    },
+    {
+      "file_id": "FB_0745",
+      "question": "Will the Federal Reserve's Bank Prime Loan Rate, the rate po",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0745.json"
+    },
+    {
+      "file_id": "FB_0746",
+      "question": "Will Moody's Seasoned Baa Corporate Bond Yield compared to t",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0746.json"
+    },
+    {
+      "file_id": "FB_0747",
+      "question": "Will the Weekly Economic Index (Lewis-Mertens-Stock) have in",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0747.json"
+    },
+    {
+      "file_id": "FB_0748",
+      "question": "Will Moody's Seasoned Aaa Corporate Bond Yield have increase",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0748.json"
+    },
+    {
+      "file_id": "FB_0749",
+      "question": "Will the market yield on US treasury securities at 20-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0749.json"
+    },
+    {
+      "file_id": "FB_0750",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0750.json"
+    },
+    {
+      "file_id": "FB_0751",
+      "question": "Will the discount rate for the Federal Reserve's primary cre",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0751.json"
+    },
+    {
+      "file_id": "FB_0752",
+      "question": "Will the number of US job postings on Indeed have increased ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0752.json"
+    },
+    {
+      "file_id": "FB_0753",
+      "question": "Will the amount of money representing deposits in all US com",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0753.json"
+    },
+    {
+      "file_id": "FB_0754",
+      "question": "Will the amount of money loaned as part of the Bank Term Fun",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0754.json"
+    },
+    {
+      "file_id": "FB_0755",
+      "question": "Will the US' 5-year forward inflation expectation rate have ",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0755.json"
+    },
+    {
+      "file_id": "FB_0756",
+      "question": "Will the Federal Reserve's interest rate on reserve balances",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0756.json"
+    },
+    {
+      "file_id": "FB_0757",
+      "question": "Will the daily Sterling Overnight Index Average, the interes",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0757.json"
+    },
+    {
+      "file_id": "FB_0758",
+      "question": "Will the amount of money representing all central bank asset",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0758.json"
+    },
+    {
+      "file_id": "FB_0759",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0759.json"
+    },
+    {
+      "file_id": "FB_0760",
+      "question": "Will the aggregated daily value of US Treasury securities so",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0760.json"
+    },
+    {
+      "file_id": "FB_0761",
+      "question": "Will the Federal Reserve Bank of Cleveland's 2-year expected",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0761.json"
+    },
+    {
+      "file_id": "FB_0762",
+      "question": "Will the 30-day average of the Federal Reserve's Secured Ove",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0762.json"
+    },
+    {
+      "file_id": "FB_0763",
+      "question": "Will the total dollar amount of mortgage-backed securities h",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0763.json"
+    },
+    {
+      "file_id": "FB_0764",
+      "question": "Will the cash assets of all commercial US banks have increas",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0764.json"
+    },
+    {
+      "file_id": "FB_0765",
+      "question": "Will the Chicago Board Options Exchange's Volatility Index h",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0765.json"
+    },
+    {
+      "file_id": "FB_0766",
+      "question": "Will the Chicago Fed's National Financial Conditions Leverag",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0766.json"
+    },
+    {
+      "file_id": "FB_0767",
+      "question": "Will the European Central Bank's deposit facility rate for t",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0767.json"
+    },
+    {
+      "file_id": "FB_0768",
+      "question": "Will the market yield on US treasury securities at 30-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0768.json"
+    },
+    {
+      "file_id": "FB_0769",
+      "question": "Will the effective yield of the ICE BofA Euro High Yield Ind",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0769.json"
+    },
+    {
+      "file_id": "FB_0770",
+      "question": "Will the market yield on US treasury securities at 10-year c",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0770.json"
+    },
+    {
+      "file_id": "FB_0771",
+      "question": "Will the option-adjusted spread of the ICE BofA Corporate In",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0771.json"
+    },
+    {
+      "file_id": "FB_0772",
+      "question": "Will the option-adjusted spread of securities with an invest",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0772.json"
+    },
+    {
+      "file_id": "FB_0773",
+      "question": "Will the effective yield of securities with an investment gr",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0773.json"
+    },
+    {
+      "file_id": "FB_0774",
+      "question": "Will the market yield on US treasury securities at 1-year co",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0774.json"
+    },
+    {
+      "file_id": "FB_0775",
+      "question": "Will the spot exchange rate of Mexican pesos to US dollars h",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0775.json"
+    },
+    {
+      "file_id": "FB_0776",
+      "question": "Will the option-adjusted spread of the ICE BofA Euro High Yi",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0776.json"
+    },
+    {
+      "file_id": "FB_0777",
+      "question": "Will the S&P 500, which represents the daily index value at ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0777.json"
+    },
+    {
+      "file_id": "FB_0778",
+      "question": "Will the Federal Reserve Bank of Cleveland's estimate for th",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0778.json"
+    },
+    {
+      "file_id": "FB_0779",
+      "question": "Will the 15-year fixed rate mortgage average in the US have ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0779.json"
+    },
+    {
+      "file_id": "FB_0780",
+      "question": "Will the 30-year fixed rate Veterans Affairs mortgage index ",
+      "ground_truth": 1,
+      "source": "fred",
+      "filename": "FB_0780.json"
+    },
+    {
+      "file_id": "FB_0781",
+      "question": "Will the effective yield of securities with an investment gr",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0781.json"
+    },
+    {
+      "file_id": "FB_0782",
+      "question": "Will the effective yield of the ICE BofA US High Yield Index",
+      "ground_truth": 0,
+      "source": "fred",
+      "filename": "FB_0782.json"
+    },
+    {
+      "file_id": "FB_0783",
+      "question": "According to Wikipedia, will Kateryna Lagno have an Elo rati",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0783.json"
+    },
+    {
+      "file_id": "FB_0784",
+      "question": "According to Wikipedia, will Koneru Humpy have an Elo rating",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0784.json"
+    },
+    {
+      "file_id": "FB_0785",
+      "question": "According to Wikipedia, will Fabiano Caruana have a FIDE ran",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0785.json"
+    },
+    {
+      "file_id": "FB_0786",
+      "question": "According to Wikipedia, will R. Vaishali have a FIDE ranking",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0786.json"
+    },
+    {
+      "file_id": "FB_0787",
+      "question": "According to Wikipedia, will Alireza Firouzja have an Elo ra",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0787.json"
+    },
+    {
+      "file_id": "FB_0788",
+      "question": "According to Wikipedia, will Kristóf Milák still hold the wo",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0788.json"
+    },
+    {
+      "file_id": "FB_0789",
+      "question": "According to Wikipedia, will Aaron Peirsol still hold the wo",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0789.json"
+    },
+    {
+      "file_id": "FB_0790",
+      "question": "According to Wikipedia, will Leinier Dominguez have a FIDE r",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0790.json"
+    },
+    {
+      "file_id": "FB_0791",
+      "question": "According to Wikipedia, will R. Vaishali have an Elo rating ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0791.json"
+    },
+    {
+      "file_id": "FB_0792",
+      "question": "According to Wikipedia, will Gretchen Walsh still hold the w",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0792.json"
+    },
+    {
+      "file_id": "FB_0793",
+      "question": "According to Wikipedia, will Viswanathan Anand have a FIDE r",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0793.json"
+    },
+    {
+      "file_id": "FB_0794",
+      "question": "According to Wikipedia, will Aleksandra Goryachkina have a F",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0794.json"
+    },
+    {
+      "file_id": "FB_0795",
+      "question": "According to Wikipedia, will Mollie O'Callaghan still hold t",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0795.json"
+    },
+    {
+      "file_id": "FB_0796",
+      "question": "According to Wikipedia, will Koneru Humpy have a FIDE rankin",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0796.json"
+    },
+    {
+      "file_id": "FB_0797",
+      "question": "According to Wikipedia, will Alina Kashlinskaya have an Elo ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0797.json"
+    },
+    {
+      "file_id": "FB_0798",
+      "question": "According to Wikipedia, will Gukesh Dommaraju have an Elo ra",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0798.json"
+    },
+    {
+      "file_id": "FB_0799",
+      "question": "According to Wikipedia, will Jan-Krzysztof Duda have a FIDE ",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0799.json"
+    },
+    {
+      "file_id": "FB_0800",
+      "question": "According to Wikipedia, will Sarasadat Khademalsharieh have ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0800.json"
+    },
+    {
+      "file_id": "FB_0801",
+      "question": "According to Wikipedia, will Magnus Carlsen have an Elo rati",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0801.json"
+    },
+    {
+      "file_id": "FB_0802",
+      "question": "According to Wikipedia, will Ding Liren have an Elo rating o",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0802.json"
+    },
+    {
+      "file_id": "FB_0803",
+      "question": "According to Wikipedia, will Nodirbek Abdusattorov have an E",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0803.json"
+    },
+    {
+      "file_id": "FB_0804",
+      "question": "According to Wikipedia, will Ariarne Titmus still hold the w",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0804.json"
+    },
+    {
+      "file_id": "FB_0805",
+      "question": "According to Wikipedia, will Erigaisi Arjun have a FIDE rank",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0805.json"
+    },
+    {
+      "file_id": "FB_0806",
+      "question": "According to Wikipedia, will Praggnanandhaa R have a FIDE ra",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0806.json"
+    },
+    {
+      "file_id": "FB_0807",
+      "question": "According to Wikipedia, will César Cielo still hold the worl",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0807.json"
+    },
+    {
+      "file_id": "FB_0808",
+      "question": "According to Wikipedia, will Levon Aronian have a FIDE ranki",
+      "ground_truth": 1,
+      "source": "wikipedia",
+      "filename": "FB_0808.json"
+    },
+    {
+      "file_id": "FB_0809",
+      "question": "According to Wikipedia, will Ian Nepomniachtchi have an Elo ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0809.json"
+    },
+    {
+      "file_id": "FB_0810",
+      "question": "According to Wikipedia, will Kateryna Lagno have a FIDE rank",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0810.json"
+    },
+    {
+      "file_id": "FB_0811",
+      "question": "According to Wikipedia, will Quang Liem Le have an Elo ratin",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0811.json"
+    },
+    {
+      "file_id": "FB_0812",
+      "question": "According to Wikipedia, will Sarasadat Khademalsharieh have ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0812.json"
+    },
+    {
+      "file_id": "FB_0813",
+      "question": "According to Wikipedia, will Gukesh D have an Elo rating on ",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0813.json"
+    },
+    {
+      "file_id": "FB_0814",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0814.json"
+    },
+    {
+      "file_id": "FB_0815",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0815.json"
+    },
+    {
+      "file_id": "FB_0816",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0816.json"
+    },
+    {
+      "file_id": "FB_0817",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0817.json"
+    },
+    {
+      "file_id": "FB_0818",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0818.json"
+    },
+    {
+      "file_id": "FB_0819",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0819.json"
+    },
+    {
+      "file_id": "FB_0820",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0820.json"
+    },
+    {
+      "file_id": "FB_0821",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0821.json"
+    },
+    {
+      "file_id": "FB_0822",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0822.json"
+    },
+    {
+      "file_id": "FB_0823",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0823.json"
+    },
+    {
+      "file_id": "FB_0824",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0824.json"
+    },
+    {
+      "file_id": "FB_0825",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0825.json"
+    },
+    {
+      "file_id": "FB_0826",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0826.json"
+    },
+    {
+      "file_id": "FB_0827",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0827.json"
+    },
+    {
+      "file_id": "FB_0828",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0828.json"
+    },
+    {
+      "file_id": "FB_0829",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0829.json"
+    },
+    {
+      "file_id": "FB_0830",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0830.json"
+    },
+    {
+      "file_id": "FB_0831",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0831.json"
+    },
+    {
+      "file_id": "FB_0832",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0832.json"
+    },
+    {
+      "file_id": "FB_0833",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0833.json"
+    },
+    {
+      "file_id": "FB_0834",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0834.json"
+    },
+    {
+      "file_id": "FB_0835",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0835.json"
+    },
+    {
+      "file_id": "FB_0836",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0836.json"
+    },
+    {
+      "file_id": "FB_0837",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0837.json"
+    },
+    {
+      "file_id": "FB_0838",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0838.json"
+    },
+    {
+      "file_id": "FB_0839",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0839.json"
+    },
+    {
+      "file_id": "FB_0840",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0840.json"
+    },
+    {
+      "file_id": "FB_0841",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0841.json"
+    },
+    {
+      "file_id": "FB_0842",
+      "question": "According to Wikipedia, will a vaccine have been developed f",
+      "ground_truth": 0,
+      "source": "wikipedia",
+      "filename": "FB_0842.json"
+    },
+    {
+      "file_id": "FB_0843",
+      "question": "Will AWK's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0843.json"
+    },
+    {
+      "file_id": "FB_0844",
+      "question": "Will FFIV's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0844.json"
+    },
+    {
+      "file_id": "FB_0845",
+      "question": "Will WYNN's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0845.json"
+    },
+    {
+      "file_id": "FB_0846",
+      "question": "Will CLX's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0846.json"
+    },
+    {
+      "file_id": "FB_0847",
+      "question": "Will BWA's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0847.json"
+    },
+    {
+      "file_id": "FB_0848",
+      "question": "Will PFE's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0848.json"
+    },
+    {
+      "file_id": "FB_0849",
+      "question": "Will FANG's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0849.json"
+    },
+    {
+      "file_id": "FB_0850",
+      "question": "Will RVTY's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0850.json"
+    },
+    {
+      "file_id": "FB_0851",
+      "question": "Will JCI's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0851.json"
+    },
+    {
+      "file_id": "FB_0852",
+      "question": "Will MNST's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0852.json"
+    },
+    {
+      "file_id": "FB_0853",
+      "question": "Will T's market close price on {resolution_date} be higher t",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0853.json"
+    },
+    {
+      "file_id": "FB_0854",
+      "question": "Will HUM's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0854.json"
+    },
+    {
+      "file_id": "FB_0855",
+      "question": "Will CSGP's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0855.json"
+    },
+    {
+      "file_id": "FB_0856",
+      "question": "Will CTAS's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0856.json"
+    },
+    {
+      "file_id": "FB_0857",
+      "question": "Will CZR's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0857.json"
+    },
+    {
+      "file_id": "FB_0858",
+      "question": "Will MHK's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0858.json"
+    },
+    {
+      "file_id": "FB_0859",
+      "question": "Will PHM's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0859.json"
+    },
+    {
+      "file_id": "FB_0860",
+      "question": "Will PNW's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0860.json"
+    },
+    {
+      "file_id": "FB_0861",
+      "question": "Will FI's market close price on {resolution_date} be higher ",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0861.json"
+    },
+    {
+      "file_id": "FB_0862",
+      "question": "Will HUBB's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0862.json"
+    },
+    {
+      "file_id": "FB_0863",
+      "question": "Will JKHY's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0863.json"
+    },
+    {
+      "file_id": "FB_0864",
+      "question": "Will CCL's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0864.json"
+    },
+    {
+      "file_id": "FB_0865",
+      "question": "Will SNA's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0865.json"
+    },
+    {
+      "file_id": "FB_0866",
+      "question": "Will NDAQ's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0866.json"
+    },
+    {
+      "file_id": "FB_0867",
+      "question": "Will DVA's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0867.json"
+    },
+    {
+      "file_id": "FB_0868",
+      "question": "Will NTAP's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0868.json"
+    },
+    {
+      "file_id": "FB_0869",
+      "question": "Will LULU's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0869.json"
+    },
+    {
+      "file_id": "FB_0870",
+      "question": "Will LH's market close price on {resolution_date} be higher ",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0870.json"
+    },
+    {
+      "file_id": "FB_0871",
+      "question": "Will GWW's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0871.json"
+    },
+    {
+      "file_id": "FB_0872",
+      "question": "Will RSG's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0872.json"
+    },
+    {
+      "file_id": "FB_0873",
+      "question": "Will KHC's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0873.json"
+    },
+    {
+      "file_id": "FB_0874",
+      "question": "Will INTU's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0874.json"
+    },
+    {
+      "file_id": "FB_0875",
+      "question": "Will AXON's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0875.json"
+    },
+    {
+      "file_id": "FB_0876",
+      "question": "Will VICI's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0876.json"
+    },
+    {
+      "file_id": "FB_0877",
+      "question": "Will TT's market close price on {resolution_date} be higher ",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0877.json"
+    },
+    {
+      "file_id": "FB_0878",
+      "question": "Will CDNS's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0878.json"
+    },
+    {
+      "file_id": "FB_0879",
+      "question": "Will DECK's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0879.json"
+    },
+    {
+      "file_id": "FB_0880",
+      "question": "Will TSCO's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0880.json"
+    },
+    {
+      "file_id": "FB_0881",
+      "question": "Will AMD's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0881.json"
+    },
+    {
+      "file_id": "FB_0882",
+      "question": "Will KMB's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0882.json"
+    },
+    {
+      "file_id": "FB_0883",
+      "question": "Will CBRE's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0883.json"
+    },
+    {
+      "file_id": "FB_0884",
+      "question": "Will LVS's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0884.json"
+    },
+    {
+      "file_id": "FB_0885",
+      "question": "Will ETR's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0885.json"
+    },
+    {
+      "file_id": "FB_0886",
+      "question": "Will IBM's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0886.json"
+    },
+    {
+      "file_id": "FB_0887",
+      "question": "Will PNC's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0887.json"
+    },
+    {
+      "file_id": "FB_0888",
+      "question": "Will CSX's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0888.json"
+    },
+    {
+      "file_id": "FB_0889",
+      "question": "Will DPZ's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0889.json"
+    },
+    {
+      "file_id": "FB_0890",
+      "question": "Will CFG's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0890.json"
+    },
+    {
+      "file_id": "FB_0891",
+      "question": "Will GLW's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0891.json"
+    },
+    {
+      "file_id": "FB_0892",
+      "question": "Will HST's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0892.json"
+    },
+    {
+      "file_id": "FB_0893",
+      "question": "Will AIG's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0893.json"
+    },
+    {
+      "file_id": "FB_0894",
+      "question": "Will ABNB's market close price on {resolution_date} be highe",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0894.json"
+    },
+    {
+      "file_id": "FB_0895",
+      "question": "Will CHRW's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0895.json"
+    },
+    {
+      "file_id": "FB_0896",
+      "question": "Will WDC's market close price on {resolution_date} be higher",
+      "ground_truth": 0,
+      "source": "yfinance",
+      "filename": "FB_0896.json"
+    },
+    {
+      "file_id": "FB_0897",
+      "question": "Will RJF's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0897.json"
+    },
+    {
+      "file_id": "FB_0898",
+      "question": "Will SOLV's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0898.json"
+    },
+    {
+      "file_id": "FB_0899",
+      "question": "Will DAY's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0899.json"
+    },
+    {
+      "file_id": "FB_0900",
+      "question": "Will STT's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0900.json"
+    },
+    {
+      "file_id": "FB_0901",
+      "question": "Will TPR's market close price on {resolution_date} be higher",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0901.json"
+    },
+    {
+      "file_id": "FB_0902",
+      "question": "Will CPRT's market close price on {resolution_date} be highe",
+      "ground_truth": 1,
+      "source": "yfinance",
+      "filename": "FB_0902.json"
+    }
+  ]
+}

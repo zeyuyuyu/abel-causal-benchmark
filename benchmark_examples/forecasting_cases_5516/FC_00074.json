@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00074",
+  "split": "train",
+  "question": "Will Polarized 3D vision tech be used on self-driving cars by 2019?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "MIT researchers Kadambi et al have developed a 3D imaging system called Polarized 3D that integrates the polarization of light in its rendering of depth maps. Incorporating polarization into enhancing a map of a 3D surface hasn't been engineered before, and the advantage it offers is additional information about the geometry of physical objects based on the way polarized light interacts with their surfaces. For example, specular highlights on objects often lower the rendering capability of computer vision algorithms, but it can be subtracted from objects in computer vision by using polarization filters.\nThe obvious focus for applications of Polarized 3D is in the 3D camera and printing industry. Less obvious is whether this technology can be used on driverless and autonomous cars, most of which require stereoscopic camera arrays as part of their object detection and depth sensing. Self-driving cars do well in fair conditions, but in high precipitation environments, water helps create a variety of optical aberrations that throw off an autonomous car's vision algorithms. In particular, those specular highlights mentioned earlier get amplified on various surfaces in rainy conditions, and subtracting them out would allow for a more accurate depth map.\nWill an autonomous vehicle project, like the Google Self-Driving Car, integrate light polarization technology into their 3D vision systems by 2019?\nThis question will resolve positively if there is an article published by a top media news outlet, or if a public release is made by an autonomous vehicle developer stating that Polarized 3D (or a closely-related system) is being used to enhance the computer vision systems on a production-model autonomous vehicle.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-17",
+  "date_close": "2017-02-15",
+  "date_resolve_at": "2019-04-30",
+  "url": "https://www.metaculus.com/api2/questions/183/",
+  "gpt_3p5_category": "Science & Tech"
+}

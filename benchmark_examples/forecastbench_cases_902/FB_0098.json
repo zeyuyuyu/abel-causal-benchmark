@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0098",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will RoboCup announce that robots have beaten professional human soccer players before 2050?",
+  "background": "The [RoboCup](http://www.robocup.org/objective) (short for Robot World Cup Initiative) was launched in the mid-1990s as a \"grand challenge\" in robotics. The RoboCup Federation hosts annual RoboCup competitions where robotic teams compete in soccer matches. In [a paper published in 1995](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.7511) the creators of the RoboCup describe the initiative as \n\n>an attempt to foster AI and intelligent robotics research by providing a standard problem where [a] wide range of technologies can be integrated and examined.\n\nThe stated ultimate goal of the RoboCup Initiative is:\n\n> By the middle of the 21st century, a team of fully autonomous humanoid robot soccer players shall win a soccer game, complying with the official rules of FIFA, against the winner of the most recent World Cup. \n\nAs a part of this process, annual RoboCup games are played; see [here](http://www.robocup.org/events/upcoming_events) for upcoming events.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "397"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00093",
+  "split": "train",
+  "question": "To the stars! #3: Will a first test of a high-power phased array laser system occur by 2018?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The idea of using an array of lasers to focus a beam and propel a spacecraft, \"beamed propulsion,\" recently received a major boost with the announcement that entrepreneur and Philanthropist Yuri Milner has committed $100 Million to a \"research and engineering program [that] will seek proof of concept for using light beam to propel gram-scale ‘nanocraft’ to 20% light speed.\" (See this previous question for background.)\nA key part of the plan (see initiative description and earlier detailed summary paper) is to used a phased array of many relatively small (but still quite powerful!) lasers to form a tight beam to bounce off of the accelerated craft. A reasonable first step in this plan is to test a 10 kW phased laser array to test beam targeting and stability.\nGiven the cash infusion into this field, will such a test occur by the end of 2017?\nTo resolve positively, such a test must just be performed (as described by any credible information source), not meet any particular design objectives, but the data and results of the test must be either publicly available or at least available to the starshot initiative.\n(Edit 4/18 so that military tests with classified data do not count.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-09",
+  "date_close": "2016-09-01",
+  "date_resolve_at": "2018-01-09",
+  "url": "https://www.metaculus.com/api2/questions/209/",
+  "gpt_3p5_category": "Science & Tech"
+}

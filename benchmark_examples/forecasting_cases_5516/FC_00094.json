@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00094",
+  "split": "train",
+  "question": "To the stars! #2: Mountaintop lasers, rockets, optics and wafers?  Or something else?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The idea of using an array of lasers to focus a beam and propel a spacecraft, \"beamed propulsion,\" recently received a major boost with the announcement that entrepreneur and Philanthropist Yuri Milner has committed $100 Million to a \"research and engineering program [that] will seek proof of concept for using light beam to propel gram-scale ‘nanocraft’ to 20% light speed.\" (See this previous question for background.)\nThe plan outlined in the funding announcement closely mirrors the roadmap laid out in a paper by Philip Lubin at UC Santa Barbara that was posted last year. It calls for:\n1) An accelerating system comprised of:\nA kilometer-scale Earthbound phased array of lasers\nFacility to store and discharge Gigawatts of energy to drive the beam\nA conventional rocket system that would deliver many \"nanocrafts\" to high-altitude orbit\nUsing adaptive optics to compensate for atmospheric distortions in the beam array\n2) A design for ultra-light miniaturized probes with:\nSuper-reflective coating and high surface/mass ratio.\nAbility to withstand collisions with interplanetary and interstellar dust grains\nAbility to capture and store images and other scientific data\nAbility to transmit data back to Earth from great distances using an onboard laser\nWhile this plan has a lot of thinking behind it, many plans change when confronted with experimental reality. Here we ask for an assessment of the probability that a major component of this plan will change. Such changes could include, for example,\nUsing a space-based laser (or other) system\nUsing a millimeter wave or microwave system rather than optical/IR system\nRelatively larger spacecraft (e.g. meter-scale or above)\nThis question resolves positively if, on June 1, 2018, a description of the initiative found on the website of (a) a for-profit or nonprofit organization created to house this project, or (b) an institution or center receiving more that $10M in funding from the project, describes the project in a way that qualitatively differs from its initial announcement, at the level of the above potential changes.\n(Note: this question may be updated soon after launch to make sure that the listing accurately reflects the initial plan of the project.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-09",
+  "date_close": "2017-06-01",
+  "date_resolve_at": "2018-06-05",
+  "url": "https://www.metaculus.com/api2/questions/210/",
+  "gpt_3p5_category": "Science & Tech"
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00003",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "01",
+  "question": "When was the first case of the Gamma Variant of SARS-CoV-2 detected in travelers arriving in Tokyo from Brazil?",
+  "ground_truth": "The first case was detected in January 2021.",
+  "event_desc": "The first case of the Gamma Variant of SARS-CoV-2, also known as the Manaus variant, is detected in four people who arrived in Tokyo after visiting the Amazonas region of Brazil four days prior."
+}

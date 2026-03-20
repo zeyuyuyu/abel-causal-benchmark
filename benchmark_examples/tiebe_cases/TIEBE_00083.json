@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00083",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "05",
+  "question": "Which country was awarded the hosting rights for the 2027 FIFA Women's World Cup?",
+  "ground_truth": "Brazil was awarded the hosting rights for the 2027 FIFA Women's World Cup.",
+  "event_desc": "17 May  Brazil is awarded the hosting rights for the 2027 FIFA Women's World Cup."
+}

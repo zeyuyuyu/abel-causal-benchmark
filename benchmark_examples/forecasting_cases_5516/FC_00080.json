@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00080",
+  "split": "train",
+  "question": "Will the London housing market deflate in 2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "London, England ranks as one of the most expensive cities in the world. Property prices grew by nearly 10% in 2015, stoking fears of a housing price bubble. In May 2013, the median home price in London topped 600,000 GBP, around double the median price in 2009, during the Great Recession. Afraid of a bubble bursting, particularly among the priciest homes, the Bank of Ireland in March stated that it would not give loans greater than 500,000 GBP to protect itself from possible losses in a market correction.\nTo support prices that are well out of range for average Londoners, the British government amended its Help to Buy program, which allows prospective homeowners to borrow up to 20% of the cost of the home from the government before seeking a mortgage for the rest. In London, the government borrowing limit is up to 40% of the home's value, and is capped at 600,000 GBP. But critics note that the program still requires a hefty down payment with loopholes that benefit the wealthy, keeping affordable housing out of reach.\nAdd into this mix the specter of the Brexit referendum. In the weeks following the vote, the number of homes sold in London's wealthiest neighborhoods dropped 43% from the same period the year before. Sales dropped around 18% in other neighborhoods.\nWill 2017 be the year that the London housing market deflates?\nThis question will resolve as positive if the Mix-adjusted average house price and annual change by region, December 2017 for the London region drops below zero.\n(Edit 11/12/16: fixed resolution criterion and question body to match title: 2017 NOT 2016.)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-22",
+  "date_close": "2017-03-01",
+  "date_resolve_at": "2018-02-22",
+  "url": "https://www.metaculus.com/api2/questions/192/",
+  "gpt_3p5_category": "Economics & Business"
+}

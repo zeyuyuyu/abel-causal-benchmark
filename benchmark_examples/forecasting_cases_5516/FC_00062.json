@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00062",
+  "split": "train",
+  "question": "Will a prediction market outperform Nate Silver's forecasts for the Super Tuesday primaries?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Nate Silver has achieved significant notoriety for developing a system to carefully aggregate election polls to create well-calibrated statistical forecasts of outcome elections; his site publishes daily updates to predictions for primary and general elections in House, Senate and Presidential races.\nPrediction markets have offered an alternative to poll aggregation in forecasting elections. Markets such as (the now defunct) InTrade, the Iowa Electronic Markets, PredictIt, and others ask users to buy and sell shares assigned to each candidate in each race, so that the price point corresponds to the probability of victory. In this question we focus on PredictIt, which allows users to place relatively small real-money bets on candidates.\nBoth fivethirtyeight.com and PredictIt have published probabilities for each of the 11 Super Tuesday Primaries on both the Republican and Democratic side.\nWhich forecasts will prove to be more accurate?\nTo compare, we will score each set of predictions using a Brier score averaged over all races, computed as where j enumerates the possible outcomes (i.e. possible winners) in the ith race out of N, where is the forecast probability of candidate j winning the ith race, and is assigned 1 if candidate j wins the ith race, and 0 otherwise.\nFor example, PredictIt assigns (as of writing) 52% to Clinton and 48% to Sanders in the Minnesota Democratic Primary. If this were the only primary, and Clinton won, PredictIt would achieve a Brier Score of A lower Brier score is better, with perfect predictions corresponding to . (In the case where PredictIt's prices do not add up to $1, we will normalize them to $1 to convert to probabilities.)\nThis question resolves positively if the Brier score for the 22 races is lower for PredictIt's probabilities than for fivethirtyeight.com's probabilities, where we will take values as of noon EST on 2/29/2016, and election outcomes as reported on 3/1-3/2.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-27",
+  "date_close": "2016-03-01",
+  "date_resolve_at": "2016-03-03",
+  "url": "https://www.metaculus.com/api2/questions/159/",
+  "gpt_3p5_category": "Politics & Governance"
+}

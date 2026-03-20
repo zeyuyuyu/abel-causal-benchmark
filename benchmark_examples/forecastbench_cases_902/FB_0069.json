@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0069",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be a direct conflict between Russia and any NATO member state before 2027?",
+  "background": "Following the Russian invasion of Ukraine, Western countries have repeatedly claimed that they will not directly engage Russian forces. However, recent news have mentioned a possibility of escalation, including France (one of the five recognized nuclear states and the only nuclear EU member state) mentioning that intervention [cannot be ruled out](https://www.reuters.com/world/europe/frances-macron-says-sending-troops-ukraine-cannot-be-ruled-out-2024-02-26/). The US and UK since have [re-stated](https://www.bbc.com/news/world-europe-68417223) they have no intent of engaging Russia in Ukraine. \n\nShould Russia expand its Ukraine war, possibly carrying it beyond the initial war goals of Eastern and Southern Ukraine, a direct conflict seems more plausible. Possible theaters of operation include Russia and Ukraine proper (in their internationally recognized borders), the Russian enclave of Kaliningrad, the Baltic States, and Moldova (including Transnistria.)",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "21548"
+}

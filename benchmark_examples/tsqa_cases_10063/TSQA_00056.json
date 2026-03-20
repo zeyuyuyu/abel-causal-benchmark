@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00056",
+  "question": "In 2016 Who is the winner of the Men's Open in the Noosa Festival of Surfing?",
+  "year": 2016,
+  "ground_truth": "Nic Jones",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Nic Jones",
+      "tag": "correct"
+    },
+    {
+      "answer": "Taylor Jensen",
+      "tag": "past"
+    },
+    {
+      "answer": "Kai Takayama",
+      "tag": "future"
+    },
+    {
+      "answer": "Kai Sallas",
+      "tag": "future"
+    }
+  ]
+}

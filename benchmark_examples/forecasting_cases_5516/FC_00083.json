@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00083",
+  "split": "train",
+  "question": "Will the next Ebola outbreak kill less than 1,000 people?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The 2014 Ebola outbreak was the largest in history, and revealed a disturbing lack of local and international preparedness in dealing with potential pandemics. As of March 20, 2016, according to CDC numbers, the outbreak caused 28608 cases and 11305 fatalities. The outbreak is now largely contained thanks to a belated but significant international effort, including ~$5.3B in funding allocated by the US.\nAs of writing, there is a standoff in congress between the Obama Administration and Congress over where funding to address the current Zika outbreak should come from. The administration has requested approx. $1.9B US; congress has so far left this request unfunded, requiring instead that the Administration spend money remaining from the emergency Ebola funding instead of appropriating additional money to address Zika.\nApprox. $2.5B in Ebola funding remains unspent (out of $5.3B allocated during the epidemic). However, the current plan for that funding is to spend it on preparedness infrastructure in developing countries so that they can better prevent, detect, or respond to outbreaks in the future.\nFuture outbreaks of Ebola -- among other diseases -- are inevitable (the CDC site lists 13 Ebola outbreaks since 2000); the question is how large they will become, which depends largely on the infrastructure in-place and the ability for local and global fast response to the outbreak.\nWill the next outbreak of Ebola be better contained than the last?\nThe question will resolve as positive if the next Ebola outbreak (whenever it occurs) that leads to at least 50 cases of the disease does not lead to more than 1000 deaths in the 6 months following the crossing of the 50-case threshold.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-25",
+  "date_close": "2018-07-23",
+  "date_resolve_at": "2018-07-31",
+  "url": "https://www.metaculus.com/api2/questions/195/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

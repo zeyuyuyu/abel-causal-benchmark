@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0005",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Joel Embiid finish his career with 2 or more regular season MVPs?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "j77xsrAcelYkOAdy4Tz7"
+}

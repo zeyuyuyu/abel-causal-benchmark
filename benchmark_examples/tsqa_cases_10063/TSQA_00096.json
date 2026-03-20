@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00096",
+  "question": "In 2021 Who is the most recent winner of the men's singles event in the Uganda International Challenge?",
+  "year": 2021,
+  "ground_truth": "Varun Kapur",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Varun Kapur",
+      "tag": "correct"
+    },
+    {
+      "answer": "Niluka Karunaratne",
+      "tag": "past"
+    },
+    {
+      "answer": "Arnaud Merklé",
+      "tag": "future"
+    },
+    {
+      "answer": "Justin Hoh",
+      "tag": "future"
+    }
+  ]
+}

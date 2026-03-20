@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0074",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "If a NATO state other than the US offensively detonates a nuclear weapon before 2030, will an offensive detonation by the US also occur as part of the same conflict?",
+  "background": "*Related Question on Metaculus:*\n\n* [Will there be a deadly clash involving gunfire or explosives between Russia and a NATO country before 2024, without US involvement?](https://www.metaculus.com/questions/8148/clash-between-russia-and-nato-ex-us-by-2024/)\n\n----\n\nDifferent nuclear conflict scenarios would hugely differ in how harmful they'd be in the near term and how much existential risk they create. In light of this, it would be helpful to have a clearer sense of whether it's plausible that there'd be a nuclear conflict in which a NATO state detonates a nuclear weapon, but the US doesn't. We ask this question to inform ourselves of the overall risk and determine how best to intervene to reduce this risk.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "8370"
+}

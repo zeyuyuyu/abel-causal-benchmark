@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00066",
+  "split": "train",
+  "question": "Will the US develop a new satellite for early-warning of severe geomagnetic storms?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The attention of policymakers and business leaders is being drawn towards space weather, the body of environmental dynamics of the solar wind, magnetosphere and thermosphere, and the risks it poses to global infrastructure. The NOAA tracks space weather, and has a set of space weather scales for solar radiation storms and geomagnetic storms. The highest ratings, S5 and G5, can disable satellites, affect power grids, and cause other mayhem.\nThis scale would appear to cover too little dynamic range, however, as much stronger storms than S5 and G5 are a matter of historical record (see for example the Carrington Event of 1859), and extrapolating the frequencies provided by the NOAA suggests a high probability of trans-G5 geomagnetic storms in the coming two decades, and a ~1-10\\% probabilitiy of a Carrington-like event with an order of magnitude higher energy. Given modern infrastructure, such an event could lead to widespread and long-term blackouts, and cause trillions in damage.\nIn October 2015, the White House published a space weather plan outlining the challenges, and enumerating a number of action items to increase monitoring, understanding, and mitigation of space weather.\nA key issue is monitoring: early warning of a solar storm can allow significantly mitigation of its effects. While there are already numerous observation sites on Earth and a handful of satellites (SOHO, STEREO, the Van Allen probes, ACE, and most recently DSCOVR) monitoring space weather phenomena, there is a huge volume of measurement left untouched. Most of the aforementioned spacecraft observe solar wind and the Sun's surface, while the Van Allen probes watch for radiation and magnetic storms; DSCOVR is the only satellite to provide early detection of coronal mass ejections.\nPlans to find a long-term replacement for DSCOVR at the L1 Lagrange point do exist as part of the National Space Weather Program's mission over the next decade. Beyond just finding replacements, the recommendations of policymakers (like this whisper coming out of this year's AAAS meeting) push for more observation spacecraft which can collect forecast data in assessment of risks from space weather. The space weather plan contains the action item (5.3.2) to be completed by October 2016:\nNASA and DOC will assess space-weather-observation platforms with deep-space orbital positions (including candidate propulsion technology), which allow for additional warning time of incoming space-weather events.\nBy June 2017, will a US or NASA budget appropriation exist (making reference to the October 2015 report) for the (perhaps initial) design and/or development of a spacecraft whose chief mission is to provide early warning of space weather events?",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-08",
+  "date_close": "2016-12-01",
+  "date_resolve_at": "2017-05-31",
+  "url": "https://www.metaculus.com/api2/questions/168/",
+  "gpt_3p5_category": "Science & Tech"
+}

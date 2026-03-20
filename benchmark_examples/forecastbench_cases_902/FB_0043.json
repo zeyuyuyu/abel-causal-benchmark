@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0043",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Noam Chomsky become a centenarian?",
+  "background": "Born December 7, 1928",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "szUrSgdNQDBxn14E5D7E"
+}

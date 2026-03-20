@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0050",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be a ceasefire in Gaza by Eoy 2024?",
+  "background": "I will resolve this if a multiple month (minimum 3) ceasefire happens before the end of 2024",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "5PBiCM7mofSHR55eoXkP"
+}

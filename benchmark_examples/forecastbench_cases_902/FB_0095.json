@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0095",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the majority of leading cosmologists in 2030 agree that the evidence points to an accelerating universe?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "3608"
+}

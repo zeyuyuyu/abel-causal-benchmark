@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00034",
+  "split": "train",
+  "question": "Will the California drought ease significantly this Winter?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "California is in the midst of a severe drought, following several years of well-below-average rain and snowfall.\nThere is cause for optimism, however. There is currently a band of warm ocean water in the central and east-central Pacific associated with the El Niño Southern Oscillation. The associated meteorological conditions favor the tracking of winter storms into California. Indeed, early-season snowpack measurements in the Sierra Nevada are currently running above average. If strong storms materialize as expected during the coming months, California could see significant relief.\nThe severity of regional drought conditions is tracked and updated weekly by the National Drought Monitor. As of Dec. 31, 2015, 69% of the state's area is classified as experiencing \"extreme\" (code D3) or \"exceptional\" (code D4) drought. The last date at which California was free of such conditions was August 6th, 2013.\nOn April 15, 2016, will the National Drought Monitor show that California is entirely free of areas experiencing extreme (D3) or exceptional (D4) drought?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-31",
+  "date_close": "2016-01-31",
+  "date_resolve_at": "2016-04-15",
+  "url": "https://www.metaculus.com/api2/questions/50/",
+  "gpt_3p5_category": "Environment & Energy"
+}

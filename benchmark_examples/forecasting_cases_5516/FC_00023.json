@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00023",
+  "split": "train",
+  "question": "Are there physical systems with properties that are impossible in principle to predict?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Godel's first incompleteness theorem, one of the most celebrated results in mathematics, asserts that in sufficiently complex axiomatic formal systems there will be statements that are knowably true, yet unprovable within the formal system.\nA related result due to Turing proves that the halting problem (of determining whether a general computer program will halt or run forever) is undecidable in that no Turing Machine exists that can solve it.\nThough of deep importance in mathematics and theoretical computer science, these results have generally been considered to have few if any implications for physics, and by extension the natural world. (Though see this result in classical physics, and the extended discussions by Penrose, Chaitin, Barrow, Tegmark and Aaronson.)\nA fascinating new result by Cubitt, Perez-Garcia, and Wolf (CPW; see Nature paper and infinitely long arXiv paper) suggests that the implications may be stronger than previously thought. They prove that in certain idealized quantum systems, the existence of a finite energy \"gap\" between the ground state and first excited state is formally undecidable. They moreover prove that as the number of lattice sites L increases toward infinite, a gap may appear and/or disappear at values of L that are undecidable.\nThis result potentially calls into question standard operating procedure in many quantum many-body physics problems. However, its applicability to realistic physical systems is as yet unclear, calling for further work.\nIn the next year will a paper be published establishing a new version of, extension to, or result derived from, Cubitt et al.'s theorem that applies to an actually existing physical system (including one fabricated in the lab for this purpose)?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-10",
+  "date_close": "2016-06-01",
+  "date_resolve_at": "2016-12-05",
+  "url": "https://www.metaculus.com/api2/questions/36/",
+  "gpt_3p5_category": "Science & Tech"
+}

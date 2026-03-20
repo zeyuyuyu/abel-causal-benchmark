@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00025",
+  "question": "How many laps was the most recent UNOH 200 in 2014?",
+  "year": 2014,
+  "ground_truth": "200",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "200",
+      "tag": "correct"
+    },
+    {
+      "answer": "202",
+      "tag": "future"
+    },
+    {
+      "answer": "203",
+      "tag": "future"
+    },
+    {
+      "answer": "201",
+      "tag": "irrelevant"
+    }
+  ]
+}

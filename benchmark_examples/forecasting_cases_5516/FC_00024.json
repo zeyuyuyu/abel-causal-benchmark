@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00024",
+  "split": "train",
+  "question": "Has new a planetary-mass object been discovered in the outer solar system?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "On December 8th 2015, two papers independently suggesting the possible discoveries of new planet-sized objects in the outer reaches of our own solar system were posted to the astro-ph pre-print server.\nThe first paper -- submitted for publication, but as-yet not peer reviewed -- describes the serendipitous detection, using the new ALMA array, of a moving source in the constellation Aquila:\nVlemmings et al. (2015) -- The serendipitous discovery of a possible new solar system object with ALMA\nThe Vlemmings et al. object, which the authors of the paper have named \"Gna\", was observed in the sub-millimeter continuum at 345 GHz. It has properties that are consistent with either a Centaur-like minor planet at a roughly Uranus-like distance of 12 to 25 AU, or more intriguingly, with a large rogue planet traversing the the solar system at ~4,000 Earth-Sun distances. (A third possibility, of course, is that the source is a false alarm, or something else entirely.)\nThe second proposed candidate was also found with ALMA, as described in this unrefereed preprint:\nLiseau et al. (2015) -- A new submm source within a few arcseconds of α Centauri: ALMA discovers the most distant object of the solar system\nThe discoverers argue that this source is either an extreme TNO (trans-Neptunian object), a super-earth sized planet, or a very cool brown dwarf in the outer realm of the solar system.\nExtraordinary claims require extraordinary proof. Fortunately, however, if either one of these observations has actually found an planet-sized or larger object in the outer solar system, it will be easy to confirm that the object truly exists.\nOn or before January 15th, 2016, will confirmation by an independent team of astronomers of one (or both) of these objects as a planetary-mass object beyond 100 AU be reported in either the New York Times or the Washington Post?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-10",
+  "date_close": "2015-12-31",
+  "date_resolve_at": "2016-01-16",
+  "url": "https://www.metaculus.com/api2/questions/37/",
+  "gpt_3p5_category": "Science & Tech"
+}

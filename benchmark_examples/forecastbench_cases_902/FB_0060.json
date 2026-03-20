@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0060",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the majority of new cars sold worldwide be electric before the end of 2030?",
+  "background": "This question will resolve as YES if more than 50% of new cars sold worldwide in the year 2030 are electric. \n\nThe source for determining the percentage of electric cars sold will be the International Energy Agency (IEA) annual report on electric vehicles. The report will be released in 2031 and will provide data on the percentage of electric cars sold in 2030. This question does not include hybrid cars, only fully electric cars.\n\nThe question does not consider any potential changes in regulations or government policies that may affect the sales of electric cars.\n\nThis question does not consider any potential changes in consumer behavior or technology development that may affect the sales of electric cars.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "cLxfTH5GDfmqeNJwClVF"
+}

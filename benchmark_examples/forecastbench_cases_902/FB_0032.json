@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0032",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the Meissner effect be confirmed near room temperature in copper-substituted lead apatite?",
+  "background": "This question is based on a study suggesting the potential presence of the Meissner effect in copper-substituted lead apatite near room temperature. The market will resolve to 'Yes' if firm, peer-reviewed evidence or independent/laboratory verification confirming this is published by December 31, 2024.\n\nhttps://arxiv.org/abs/2401.00999\n\nhttps://twitter.com/mattparlmer/status/1742566608554627227",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "KqFhckN3PBuJE7tZcbaf"
+}

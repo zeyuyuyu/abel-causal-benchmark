@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00029",
+  "split": "train",
+  "question": "In 2016, will an AI player beat a professionally ranked human in the ancient game of Go?",
+  "background": "The [game of Go] originated in China more than 2,500 years ago. While similar to chess in many ways, Go is much more minimalist in its ruleset and more esoteric in strategy. The aspect of pattern recognition and the huge state space of possible moves in Go (vastly greater than chess) make it an excellent metric for the capabilities of artifical intelligence. Many computer Go players have been developed, and the University of Electro-Communications (UEC) in Japan has held annual cups that pit AI vs. AI in games of Go to determine the strongest computer player. A five-year agreement was made in 2012 to grant the AI victors of the UEC cup additional matches against highly ranked human Go professionals. These are called Densei-sen, or \"electric Sage battles,\" made to test the AI's effectiveness against human opponents.\nThe [Crazy Stone go engine], created by Rémi Coulom, beat Go Sensei Norimoto Yoda in the second Densei-sen competition at the UEC. However, Crazy Stone was granted an extremely generous handicap of a four-stone advantage at the start. Many other computer Go players exist, including ones in development by AI giants like [Facebook] and [Google DeepMind], but none have beaten a [professionally ranked] human player without a handicap.\nThe next UEC cup is in March 2016 and [many prominent AI teams have already registered], including Crazy Stone and Facebook AI's own darkforest. Additionally, Google's Demis Hassabis has [implied] a new breakthrough in Go artificial intelligence. With Computer Go getting more and more powerful, an AI player beating a Go master is a real possibility.",
+  "resolution_criteria": "This question is positively resolved if, in 2016, an AI with no handicap beats a professional human player in an official game of Go.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-20",
+  "date_close": "2016-03-01",
+  "date_resolve_at": "2016-03-15",
+  "url": "https://www.metaculus.com/api2/questions/45/",
+  "gpt_3p5_category": "Science & Tech"
+}

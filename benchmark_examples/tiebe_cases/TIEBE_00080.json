@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00080",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "05",
+  "question": "What caused the severe flooding in Rio Grande do Sul in May 2024?",
+  "ground_truth": "The flooding was caused by heavy rains.",
+  "event_desc": "2-13 May  2024 Rio Grande do Sul floods At least 147 people are killed from flooding caused by heavy rains in Rio Grande do Sul. At least 127 others are listed as missing and 372 injured, while more than two million people in the state are affected and 600,000 others displaced.[excessive citations]"
+}

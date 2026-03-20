@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0091",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will more than 34 countries have committed to a stringent anti-solar-geoengineering pact before 2026?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "10176"
+}

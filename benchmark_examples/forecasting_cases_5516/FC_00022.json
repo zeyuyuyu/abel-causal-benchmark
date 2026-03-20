@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00022",
+  "split": "train",
+  "question": "[Tutorial:] Will Metaculus have over one thousand users signed up by May 1, 2016.",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Note: This question is part of the Metaculus tutorial series on the art and science of making successful quantitative predictions. Additional useful information can be found at the Metaculus FAQ.\nMost new internet sites don't generate much interest. If a site can bring in over a thousand active users in a few months, it's doing very well. In this question, we set the bar a little lower, and see whether:\nMetaculus has greater than one thousand total unique sign ups by May.\nThis is an exercise in extrapolation, a key method of prediction. To get things started, the total number of registered users (albeit with some duplicate registrations) for the few weeks prior to question publication are:\n12/12/2015 38\n12/19/2015 67\n12/26/2015 93\n01/01/2015 129\nPositive or negative resolution to be decided by site moderators by May 4, 2016.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-07",
+  "date_close": "2016-03-01",
+  "date_resolve_at": "2016-05-01",
+  "url": "https://www.metaculus.com/api2/questions/33/",
+  "gpt_3p5_category": "Science & Tech"
+}

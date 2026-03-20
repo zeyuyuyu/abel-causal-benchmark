@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00044",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "02",
+  "question": "Who was appointed as the new head of Petrobras in February 2021, replacing Roberto Castello Branco?",
+  "ground_truth": "General Joaquim Silva e Luna was appointed by President Jair Bolsonaro to lead Petrobras.",
+  "event_desc": "Stock prices of Petrobras fall 21%, as investors worry that the appointment of General Joaquim Silva e Luna as head of the company means that economic decisions will be made based on politics."
+}

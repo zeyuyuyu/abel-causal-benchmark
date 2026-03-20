@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0036",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will over 70% of Manifold users think that Elon Musk does not deserve 100 billion dollars?",
+  "background": "Resolves according to this poll\n\n(https://manifold.markets/embed/KeenenWatts/does-elon-musk-deserve-100-billion)\nTake the total vote on \"No\", divided by the total number of voters on the market, to compute the % voted on \"No\".\n\nMarket Resolves Yes if the % voted on \"No\" is larger than 70% at the end of 2024",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "0yVJeShTMcm0FA8UrcCL"
+}

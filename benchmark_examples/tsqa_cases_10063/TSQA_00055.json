@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00055",
+  "question": "What was the current team of Nikola Jokic in 2019?",
+  "year": 2019,
+  "ground_truth": "Denver Nuggets",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Denver Nuggets",
+      "tag": "correct"
+    },
+    {
+      "answer": "KK Mega Basket",
+      "tag": "past"
+    },
+    {
+      "answer": "Not Enough Information",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "KK Mega Basket, Denver Nuggets",
+      "tag": "past"
+    }
+  ]
+}

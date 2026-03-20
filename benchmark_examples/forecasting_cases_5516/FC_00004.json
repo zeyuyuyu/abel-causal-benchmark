@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00004",
+  "split": "train",
+  "question": "The FAA to soon open the door to commercial use of unmanned aerial systems?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The FAA has for several years been developing a set of regulations governing the use of unmanned aeriel systems (UASs, or \"drones\"), but has repeatedly missed deadlines to finalize those rules. Current regulations allow consumer use of \"model aircraft\" under certain conditions, and it was recently announced that one of those conditions would be registration of the drone.\nCurrent FAA rules do not allow commercial operation of UASs except by special license. Comprehensive regulation specifying conditions under which commerical UASs can operate beyond line-of-sight of their operators (or autonomously) would open a host of industry uses of UAVs in aerial reconnaisance, delivery, etc.\nWill such regulation be finalized by the FAA by June 15, 2016?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-26",
+  "date_close": "2016-04-15",
+  "date_resolve_at": "2016-06-16",
+  "url": "https://www.metaculus.com/api2/questions/6/",
+  "gpt_3p5_category": "Security & Defense"
+}

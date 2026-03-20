@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00068",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "01",
+  "question": "How many people were injured in the train collision in Mesquita, Rio de Janeiro, in January 2015?",
+  "ground_truth": "158 people were injured in the train collision.",
+  "event_desc": "Two commuter trains collide at Mesquita, Rio de Janeiro, injuring 158 people."
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00008",
+  "question": "Who is the current Member of State Assembly for Jeram Padang in 2016?",
+  "year": 2016,
+  "ground_truth": "Manickam Letchuman",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Manickam Letchuman",
+      "tag": "correct"
+    },
+    {
+      "answer": "V Mogan",
+      "tag": "past"
+    },
+    {
+      "answer": "Mohd Zaidy Abdul Kadir",
+      "tag": "future"
+    },
+    {
+      "answer": "Unknown",
+      "tag": "irrelevant"
+    }
+  ]
+}

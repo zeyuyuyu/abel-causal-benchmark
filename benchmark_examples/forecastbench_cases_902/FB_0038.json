@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0038",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Rational Animations' video about Manifold Markets reach 200k views by the end of 2024?",
+  "background": "Here's the video: https://youtu.be/DB5TfX7eaVY",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "taYZcNp99aWqZLI2nq9v"
+}

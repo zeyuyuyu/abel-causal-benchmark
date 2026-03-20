@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00063",
+  "question": "Chris Blackburn played for which team in the year of 2013?",
+  "year": 2013,
+  "ground_truth": "AFC Telford United",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "AFC Telford United",
+      "tag": "correct"
+    },
+    {
+      "answer": "Manchester United",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Liverpool",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Chelsea",
+      "tag": "irrelevant"
+    }
+  ]
+}

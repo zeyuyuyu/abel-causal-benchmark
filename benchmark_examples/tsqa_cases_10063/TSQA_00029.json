@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00029",
+  "question": "What television show did Alfred Molina most recently provide a voice for in 2020?",
+  "year": 2020,
+  "ground_truth": "Robot Chicken",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Robot Chicken",
+      "tag": "correct"
+    },
+    {
+      "answer": "Cosmos: A Spacetime Odyssey",
+      "tag": "future"
+    },
+    {
+      "answer": "Monday Mornings",
+      "tag": "past"
+    },
+    {
+      "answer": "Praise Petey",
+      "tag": "irrelevant"
+    }
+  ]
+}

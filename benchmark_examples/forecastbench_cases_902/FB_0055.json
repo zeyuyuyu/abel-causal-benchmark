@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0055",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the first person to walk on Mars make it back to Earth?",
+  "background": "If there are multiple people in the first mission, any of them getting back to Earth will resolve YES. Must still be alive.\n\nMarket open until it happens \n\nSee: @/strutheo/will-elon-musk-be-the-first-person ",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "cb4s0TO4eh4exBuFyldp"
+}

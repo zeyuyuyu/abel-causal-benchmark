@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0014",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Andrew Tate be found guilty of a crime before Alec Baldwin? (50% if neither before end of 2030)",
+  "background": "Resolves 50% if neither happens by the end of 2030",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "63IqOzxPIVsOkeXJXVIx"
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0020",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the \"Nintendo Switch 2\" (or other successor) be revealed before end of year?",
+  "background": "This market will resolve to YES if Nintendo's next generation system is revealed by Nintendo before December 31st, 2024 at 11:59PM PST. A reveal will be defined as a major announcement that shows official imagery or render of the new system and an official name. Anything remotely resembling the original Switch's reveal trailer would qualify, but something such as a social media posting showing a visual of the system and its name would resolve to YES as well.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "AhQLzRl29O"
+}

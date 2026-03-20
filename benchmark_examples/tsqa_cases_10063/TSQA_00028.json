@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00028",
+  "question": "Who was the head of state in Bangladesh in 2020?",
+  "year": 2020,
+  "ground_truth": "Abdul Hamid",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Abdul Hamid",
+      "tag": "correct"
+    },
+    {
+      "answer": "Zillur Rahman",
+      "tag": "past"
+    },
+    {
+      "answer": "Mohammad Shahabuddin",
+      "tag": "future"
+    },
+    {
+      "answer": "Sheikh Mujibur Rahman",
+      "tag": "irrelevant"
+    }
+  ]
+}

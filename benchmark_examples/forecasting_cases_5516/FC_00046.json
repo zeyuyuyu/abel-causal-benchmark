@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00046",
+  "split": "train",
+  "question": "Will Google's AlphaGo beat Go player Lee Sedol in March 2016?",
+  "background": "The game of Go originated in China more than 2,500 years ago. While similar to chess in many ways, Go is much more minimalist in its ruleset and more esoteric in strategy. The aspect of pattern recognition and the huge state space of possible moves in Go (vastly greater than chess) make it an excellent metric for the capabilities of artifical intelligence.\nWhereas [DeepBlue defeated chess grandmaster Gary Kasparov] in 1997, it has taken 20 years for computer Go systems to become competitive with top human players. Recently, dramatic advances in [\"deep learning\"] AI systems have led to the development of much more competitive Go software.\nIn a [previous question] we asked if a computer Go system would defeat a professional player in 2016. In this question the stakes go up.\nGoogle's [DeepMind] recently [announced] that their Go-playing program [AlphaGo] defeated European Go champion Fan Hui in a closed-door game, and will be playing against the reigning Go world champion, Lee Sedol, in a five-game match in March. Will AlphaGo win?",
+  "resolution_criteria": "This question will resolve positively if AlphaGo finishes five official games against Lee Sedol and wins three or more games, or if Lee Sedol concedes defeat. If AlphaGo loses or if the match is not finished by April 1 2016, the question resolves negatively.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-27",
+  "date_close": "2016-03-08",
+  "date_resolve_at": "2016-04-01",
+  "url": "https://www.metaculus.com/api2/questions/112/",
+  "gpt_3p5_category": "Science & Tech"
+}

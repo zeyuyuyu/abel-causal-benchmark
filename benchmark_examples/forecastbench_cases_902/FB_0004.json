@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0004",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be a televised match between a robot and a top-10 human tennis player by 2035?",
+  "background": "Top-10 players to be determined by https://www.espn.com/tennis/rankings, or other official rankings list.\n\nA \"televised match\" consists of either a conventional TV broadcast or a youtube video with over 100k views.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "0587u5Mk7ng2NaOkgCu1"
+}

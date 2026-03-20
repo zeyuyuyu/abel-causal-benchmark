@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00061",
+  "split": "train",
+  "question": "Will the (theoretical) existence of \"dark matter hair\" change the way we look for dark matter?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Mid 2015, a paper by Gary Prezéau of NASA Jet Propulsion Lab was submitted to ApJ exploring the theoretical dynamics of fine-grained dark matter filaments, streams of dark matter particles, that may be emanating out of the Earth and other bodies in our solar system.\nSo called dark matter \"hairs,\" these would constitute a new prediction of the Big Bang standard model of cosmology, CDM. Dark matter halos are known to collect themselves into cosmic scale filaments, but if the dark matter is sufficiently cold, smaller filaments can also exist on scales comparable to our solar system. Prezéau predicts that if one of these fine-grain streams passes through a planet, gravity squeezes the streams into dense regions (hairs), which exhibit points of critical density (roots) at specified distances away from the center of the planet in question.\nIn the case of Earth, these roots would be located around km away from the planetary center, a bit more than twice the distance to the Moon. They would be high-density hot spots for us to look for dark matter particles. If Prezéau's findings are substantially valid, they provide a potential channel of discovery for detecting dark matter. Will dark matter hairs receive scientific support over the next year?\nThis question resolves positively if by June 2017, Prezéau's paper Dense Dark Matter Hairs Spreading Out from Earth, Jupiter and Other Compact Bodies is cited more than 5 times on Google scholar by papers which mention dark matter hairs as a supporting directive in the abstract.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-23",
+  "date_close": "2016-05-01",
+  "date_resolve_at": "2017-06-02",
+  "url": "https://www.metaculus.com/api2/questions/157/",
+  "gpt_3p5_category": "Science & Tech"
+}

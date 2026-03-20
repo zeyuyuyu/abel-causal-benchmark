@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00021",
+  "split": "train",
+  "question": "Is Nefertiti's tomb adjacent to King Tut's?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Egyptologist Nicholas Reeves has put together a case that King Tut was buried in an expanded entryway to Queen Nefertiti's tomb, and that her tomb remains undisturbed through a (proposed) sealed doorway.\nIn September, Reeves, along with Mamdouh Eldamaty, the Egypt's Minister of Antiquities, were granted permission to enter Tutankhamun's tomb.\nReeves' group has reported that recent radar scans reveal (with \"approximately 90 percent\" probability) that there is an additional chamber (or more.)\nWill Reeves turn out to be correct that another royal tomb lays beyond King Tut's that may be Nefertiti's?\nThe question resolves positively if by June 30, the New York Times or Washington Post carries a news article stating that an additional royal burial chamber has been \"discovered\" and that the chamber is not inconsistent with being Nefertiti's.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-02",
+  "date_close": "2016-02-29",
+  "date_resolve_at": "2016-06-30",
+  "url": "https://www.metaculus.com/api2/questions/32/",
+  "gpt_3p5_category": "Arts & Recreation"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00075",
+  "question": "Who was the director of the film where Colin Firth plays General Erinmore in 2022, as of 2022?",
+  "year": 2022,
+  "ground_truth": "Sam Mendes",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Sam Mendes",
+      "tag": "correct"
+    },
+    {
+      "answer": "Michael Winterbottom",
+      "tag": "past"
+    },
+    {
+      "answer": "John Madden",
+      "tag": "past"
+    },
+    {
+      "answer": "Greta Gerwig",
+      "tag": "future"
+    }
+  ]
+}

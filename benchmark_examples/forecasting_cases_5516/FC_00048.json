@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00048",
+  "split": "train",
+  "question": "Will 2016 be the warmest year on record?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Climate change driven largely by increased atmospheric levels of CO2 and other greenhouse gases, is generating an upward trend to the global average surface temperature, as exhibited in this summary plot\nLast year (2015) the average temperature set new record highs by a large margin, according to the NASA Goddard Institute for Space Sciences (GISS) data analysis.\nWill 2016 again set a new record? Or will it fall below the level of 2015?\nThis will resolve in the positive if the NASA GISS global average temperature for 2016 is published above that of 2015.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-04",
+  "date_close": "2016-07-31",
+  "date_resolve_at": "2017-01-18",
+  "url": "https://www.metaculus.com/api2/questions/126/",
+  "gpt_3p5_category": "Environment & Energy"
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0006",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will there be a \"low scorigami\" before 2030?",
+  "background": "In the original scorigami video, Jon Bois also coins the term \"low scorigami\", to describe a scorigami where both teams score 15 points or fewer. He then showcases the most recent case of low scorigami at the time, a 2011 49ers-Bengals game that ended 13-8. Since the video was published in 2016, while there have been many new scorigami, there have been no low scorigami. With only one low scorigami in the entire 2010s, will this decade see even a single instance of it?\n\nThis market resolves YES if an NFL game ends with a final score that has never occurred before in which both teams score 15 points or fewer before January 1st, 2030. I will use https://nflscorigami.com/ for resolution, or another reliable source if the site no longer exists.\n\n ",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "mJEq1SbuIVP9PBJrspof"
+}

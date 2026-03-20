@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00099",
+  "split": "train",
+  "question": "A is in the I of the beholder #4: Patently Obvious",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The US patent system is an issue of great current controversy, with the rise of companies that purchase large numbers of broadly-interpretable patents then request (at threat of lawsuit) licensing fees from companies using technologies that arguably fall under those patents.\nWhile described as \"patent trolls\" by some, such companies argue that they are fostering the generation of intellectual property and then protecting the owners (including themselves) of that IP.\nAn interesting effort was recently launched to -- it would seem -- throw a wrench in various gears grinding in the patent (and patent litigation) industries. All Prior Art generates and publishes online an immense number of \"known inventions\" that are algorithmically generated using the text from the US patent database. (A sister entity All Prior Claims does something similar.)\nThe stated claim is:\nThe intent is not to prevent actual creative and innovative patents from being filed, it is to take the obvious and easily automated ideas out-of-play. If an idea is truly creative and innovative, a computer should have difficulty coming up with it.\nIt is unclear whether this database has actually been used in patent evaluation at this time.\nAlthough most of the published inventions are (readable) nonsense, it is quite possible that some of them describe (perhaps with some interpretation) actual workable inventions, and that with better algorithms some of those inventions might even become interesting or make up a higher proportion of the total. As the site says:\nIt is not unforeseeable with current technology (along with sufficient cash for fees) to flood the actual patent application process itself with sufficiently advanced patent applications based on this concept.\nIt is also easy to imagine (though possibly challenging to implement) a system that ensures novelty by comparing against both the US patent database and the Prior Art database. One can also envisage a \"competitor\" system that generates patents more effectively than Prior Art, runs them against the Prior Art database to ensure that they are novel, and files them for patenting. This would be an interesting algorithmic war in which course and the overall winners would be unclear.\nFor a specific predictable, we ask:\nBy April 15, 2019, will a patent be issued for an invention that was generated entirely algorithmically using a machine learning (or similar) system applied to the U.S. patent database?\n(Note: updated timeline to 3 years on 4/16/16)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-15",
+  "date_close": "2016-11-15",
+  "date_resolve_at": "2019-12-21",
+  "url": "https://www.metaculus.com/api2/questions/217/",
+  "gpt_3p5_category": "Arts & Recreation"
+}

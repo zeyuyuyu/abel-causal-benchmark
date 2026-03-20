@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00032",
+  "split": "train",
+  "question": "Will the US restore funding for research that creates more dangerous versions of Influenza, MERS and SARS?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The decreasing cost and difficulty of genetic engineering have opened up a number of new research fields. One that is highly controversial is \"gain of function\" (GoF) pathogen research, in which researchers deliberately engineer existing pathogens to increase their virulence, transmissibility, or other qualities.\nThe goal of such research is to understand the natural pathways by which existing wild pathogens may become more dangerous, so as to enhance our ability to respond, to create better vaccines, etc.\nHowever, there are obvious potential dangers as well, as an accidental release, or deliberate theft of such organisms could create a potential pandemic; even the information published about such efforts could increase the probability of bioterror or bioerror events.\nIn October 2014, the White house issued a funding pause on such experiments involving influenza and coronaviruses, partly in response to a statement by the Cambridge Working Group that called for a curtailment of experiments to create potential pandemic pathogens in the laboratory, pending a risk and benefit assessment. The White house charged the National Science Advisory Board on Biosecurity (NSABB) with commissioning such a report.\nThat report has recently been posted online by the NSABB and its chosen contractor, Gryphon Scientific.\nOn January 7-8 the NSABB will meet to consider the analysis and its response to the assessment, which will form a policy recommendation. Further discussion will occur at the National Academy of Sciences on March 10-11.\nAfter these discussions, will the funding restriction of GoF research on Influenza and coronaviruses be lifted (or replaced by something considerably less restrictive) by November 1, 2016?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-27",
+  "date_close": "2016-03-01",
+  "date_resolve_at": "2016-11-06",
+  "url": "https://www.metaculus.com/api2/questions/48/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

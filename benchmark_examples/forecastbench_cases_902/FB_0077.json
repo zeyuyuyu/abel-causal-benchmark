@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0077",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Russia and Ukraine sign or prolong natural gas transit deal before 2025?",
+  "background": "Until Russian invasion into Ukraine in 2022, most of Russian natural gas was sold in Europe, transited through pipelines in Ukraine. Use of those pipelines, transit and natural gas prices were set in convoluted bilateral agreements, which caused [a lot of tensions](https://en.wikipedia.org/wiki/Russia%E2%80%93Ukraine_gas_disputes).\n\nAfter Russia annexed Crimea in 2014, Ukraine stopped buying natural gas from Russia directly, but transit remained, and agreements [were renewed](https://www.naftogaz.com/en/news/naftogaz-gtsou-and-gazprom-signed-a-set-of-agreements-to-ensure-russian-gas-transit-over-the-next-five-years) in 2019 for five years. Even the Russia-Ukraine war didn't stop the flow, although transit levels dropped by [an order of magnitude](https://www.energypolicy.columbia.edu/qa-russian-gas-transit-through-ukraine/) since its heights in 2008.\n\nThe current bilateral agreement is set to expire at the end of 2024, and the Ukraine government said [it doesn't plan to extend or renew it](https://www.reuters.com/business/energy/ukraine-has-no-plan-extend-russian-gas-transit-deal-2024-03-17/). However, Ukraine remains reliant on Russian natural gas, which is still bought via [virtual reverse flow](https://www.enerdata.net/publications/daily-energy-news/ukraine-launches-virtual-gas-reverse-flow-slovakia.html). Replacing it with actual reverse flow requires large capital investments, and it is not clear if infrastructure can be prepared in time.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "25499"
+}

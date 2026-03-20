@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00075",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "03",
+  "question": "What natural disaster caused fatalities in Espírito Santo and Rio de Janeiro in March 2024?",
+  "ground_truth": "A rainstorm caused fatalities in those states.",
+  "event_desc": "24 March  Twenty-three people are killed in a rainstorm in Espírito Santo and Rio de Janeiro states."
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00082",
+  "question": "What was the regular season standing for the Capital FC's men's team in their league in 2015?",
+  "year": 2015,
+  "ground_truth": "2nd, Northwest",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "2nd, Northwest",
+      "tag": "correct"
+    },
+    {
+      "answer": "4th, Northwest",
+      "tag": "future"
+    },
+    {
+      "answer": "1st, Northwest",
+      "tag": "future"
+    },
+    {
+      "answer": "7th, Northwest",
+      "tag": "future"
+    }
+  ]
+}

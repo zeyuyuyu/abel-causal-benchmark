@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00067",
+  "split": "train",
+  "question": "Will a record-setting brown dwarf be discovered by the end of 2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Brown dwarfs occupy an astronomical netherworld. Too small to stably burn hydrogen as full-fledged stars and too massive to qualify as planets, they drift in vast numbers through interstellar space, slowly cooling as they radiate remnant heat from their formation.\nAfter years of dedicated searching, the first brown dwarf was found in the Pleiades Cluster in 1994, and its discovery was published in Nature in 1995. During the past two decades, over 1,800 brown dwarfs have been identified, several of which rank among the nearest known extrasolar objects. The binary brown dwarf system Luhman 16 A and B is particularly remarkable. It was discovered in 2013 by Prof. Kevin Luhman of Pennsylvania State University using publicly available archival data from NASA's WISE Mission. Only Barnard's star and the Alpha-Proxima Centauri triple system lie closer than Luhman 16 AB's 6.5 light year distance. Wikipedia has an up-to-date list of the nearest stars and brown dwarfs to the Sun.\nPrior to 31 December, 2017, will a brown dwarf that lies closer to the Sun than Luhman 16 AB be discovered and published in the peer-reviewed astronomical literature? For the purposes of the question, a brown dwarf must have a mass between 13 and 75 Jupiter masses.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-10",
+  "date_close": "2017-06-30",
+  "date_resolve_at": "2018-01-05",
+  "url": "https://www.metaculus.com/api2/questions/169/",
+  "gpt_3p5_category": "Science & Tech"
+}

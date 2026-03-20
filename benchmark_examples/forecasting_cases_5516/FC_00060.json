@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00060",
+  "split": "train",
+  "question": "Will the nuclear triad be modernized with mobile or exotically-based ICBMs?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The U.S. nuclear weapons policy under the Obama administration includes large-scale modernization of the nuclear triad, with projections nearing $1 Trillion in spending over the next 30 years. ICBMs (Intercontinental Ballistic Missiles) in particular are slated for renovation; the LGM-30 Minuteman III has been in service since 1970 and planned to remain in operation only until 2030. Although the stockpile of Minuteman III missiles has been upgraded over the years, the spending plan incorporates a budget for a new line of ICBMs, which may be mobile and may even feature a new basing option.\nThe only live ICBMs are currently based in silos; more exotic basing options were outlined in this Cold War era 1980 paper, including mobile options that use rail systems that constantly shuffle ICBM positions as a way of increasing survivability.\nWill one of the top 25 news outlets by media traffic publish a story by June 1st, 2019 reporting that the Minuteman III ICBMs will be replaced with a new model of ICBM that is either (a) mobilized or (b) not silo-based?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-22",
+  "date_close": "2017-06-01",
+  "date_resolve_at": "2019-06-02",
+  "url": "https://www.metaculus.com/api2/questions/156/",
+  "gpt_3p5_category": "Security & Defense"
+}

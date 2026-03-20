@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00090",
+  "split": "train",
+  "question": "A is in the I of the beholder #2: Wow this AI is very realistic",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "This is second in a series of the blurring lines between AI and \"natural\" systems.\nThe AI and machine learning space is currently booming, with dramatically increasing investment by both large companies such as Google/Deepmind, IBM, Facebook, etc., as well as a major rise in AI startups.\nAmong its many projects, Facebook's \"M\" personal assistant service is in active testing and development. According to a piece written by an early adopter, it is rather unclear to what extent this service is an AI and to what extent it is human, and at least some queries appear to be human-fulfilled. This may be a temporary phase in which the system learns how humans fulfill a variety of requests, or may harbinger a future model of hybrid human-AI system.\nAs the startup space -- with its intense competition and often exaggerated claims -- heats up in AI, this sort of ambiguity opens the possibility that an over-enterprising developer might have a human or group of humans masquerading as a new AI system, in an overdue product launch, pitch, etc.\nBy end of 2018, will a complaint be filed by an investor or potential investor in a tech company alleging that a (partially or fully) human-powered system was fraudulently portrayed as being a fully-autonomous computing system?\nResolution can be satisfied by any of the following:\nAn actual lawsuit filing\nA credible media report in a major news outlet describing such an event and naming a particular investor or firm complainant and particular company accused\nA publicly-accessible or reported complaint to a federal agency",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-06",
+  "date_close": "2016-10-01",
+  "date_resolve_at": "2019-01-19",
+  "url": "https://www.metaculus.com/api2/questions/206/",
+  "gpt_3p5_category": "Science & Tech"
+}

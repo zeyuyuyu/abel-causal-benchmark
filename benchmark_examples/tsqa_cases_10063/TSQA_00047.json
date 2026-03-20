@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00047",
+  "question": "Who directed the most recent television series produced by Brain's Base in 2023 as of 2023?",
+  "year": 2023,
+  "ground_truth": "Minoru Ohama, Shūsei Morishita",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Minoru Ohama, Shūsei Morishita",
+      "tag": "correct"
+    },
+    {
+      "answer": "Hiroshi Ishiodori, Masahiko Murata",
+      "tag": "future"
+    },
+    {
+      "answer": "The director of the most recent television series produced by Brain's Base in 2023 was Hayao Miyazaki.",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "The most recent television series produced by Brain's Base in 2023 was directed by Hayao Miyazaki.",
+      "tag": "irrelevant"
+    }
+  ]
+}

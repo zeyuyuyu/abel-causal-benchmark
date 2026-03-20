@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00009",
+  "split": "train",
+  "question": "Will quantized gravity soon be tested in the lab?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "While it is very difficult to combine quantum mechanics and gravity into a single theory of quantum gravity, it is widely believed that gravity is quantum mechanical -- in particular, that the gravitational field can exist in a quantum superposition of two configurations. However, this has never been directly tested. (The detection of gravitational waves in the CMB probably would have counted, but that detection is in serious doubt.)\nRecently a table-top expermiment has been proposed that uses low-lying gravity-dependent energy states of an ultracold but macroscopic system to probe whether a gravitational superposition exists; see a useful explication of the idea here.\nWill the proposed experiment -- or a close variant -- be performed by November 15, 2016 and submitted for publication or posted to a pre-print archive?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-02",
+  "date_close": "2016-05-15",
+  "date_resolve_at": "2016-11-18",
+  "url": "https://www.metaculus.com/api2/questions/12/",
+  "gpt_3p5_category": "Science & Tech"
+}

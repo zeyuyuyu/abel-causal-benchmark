@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00082",
+  "split": "train",
+  "question": "Will SpaceX's next attempt to land a Falcon 9 rocket on a barge be successful?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "SpaceX's Falcon 9 rockets are designed to be re-used after landing vertically on a floating barge-based landing site. SpaceX has successfully (and might we add awesomely) landed a rocket on land, but so far has not succeeded with a barge.\nWill SpaceX's next attempt to land a Falcon 9 on a barge be a success?\nResolution is positive if the Falcon 9 rocket sustains little enough damage that it can be re-used, and negative if the rocket is in either small or large pieces on or near the landing site.\n(Note: the closing and resolution time of this question will be retroactively changed to the launch time of the next SpaceX Falcon 9 launch that attempts a barge landing.)",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-25",
+  "date_close": "2016-04-08",
+  "date_resolve_at": "2016-04-08",
+  "url": "https://www.metaculus.com/api2/questions/194/",
+  "gpt_3p5_category": "Science & Tech"
+}

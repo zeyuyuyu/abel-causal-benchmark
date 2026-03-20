@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00085",
+  "split": "train",
+  "question": "Will Bigelow Aerospace's inflatable habitation module inflate, attach to the ISS, and be inhabitable?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Bigelow Aerospace has formed a partnership with SpaceX in which SpaceX launches habitats developed by Bigelow. Bigelow is currently developing a long-term inflatable space habitat called the B330.\nThe \"Bigelow Expandable Activity Module\" (BEAM) is an \"experimental program developed under a NASA contract in an effort to test and validate expandable habitat technology.\" The habitat is built to fit in a small cargo volume, then inflate into a much larger (565 cubit foot) habitable structure.\nIt is slated to be carried on an upcoming SpaceX resupply mission to the International Space Station (ISS). The BEAM model will be attached to the ISS and inflated, to constitute a test of the habitat's radiation shielding, structural integrity, durability, leak resistance, etc.\nWill this test begin successfully?\nThe question resolves positively if both:\nThe BEAM launches with, and is deployed by, the Dragon spacecraft,\nThe BEAM is successfully attached to the ISS and inflated, so that a crew member may enter.\nResolution is negative if the BEAM unit is destroyed or rendered unrecoverable during launch or deployment, fails to inflate, etc. The question will resolve when either resolution criterion is reached, and will (retroactively) close 1 hour prior to launch.",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-28",
+  "date_close": "2016-04-08",
+  "date_resolve_at": "2016-06-09",
+  "url": "https://www.metaculus.com/api2/questions/198/",
+  "gpt_3p5_category": "Science & Tech"
+}

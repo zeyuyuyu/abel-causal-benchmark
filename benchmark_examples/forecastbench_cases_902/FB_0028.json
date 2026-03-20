@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0028",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will an AI get a perfect SAT score before 2025?",
+  "background": "Resolves YES if an AI can gain a perfect score of 1600 on an SAT under standard conditions before Jan 1, 2025, resolves NO otherwise.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "fovo3TFMXjJLhkL1hw9G"
+}

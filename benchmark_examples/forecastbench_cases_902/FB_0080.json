@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0080",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will an international AI regulatory agency, like IAEA, for oversight of transformative AI systems be established before 2030?",
+  "background": "Holden Karnofsky, in [Nearcast-based \"deployment problem\" analysis](https://www.lesswrong.com/posts/vZzg8NS7wBtqcwhoJ/nearcast-based-deployment-problem-analysis), suggests establishing an organization, which he calls  the IAIA: an organization, which could range from a private nonprofit to a treaty-backed international agency, that tracks transformative AI projects and takes actions to censure or shut down dangerous ones.\n\nThis IAIA organization would play a similar role to that which the [IAEA](https://www.iaea.org/) plays in nuclear weapons regulation. The IAEA enforces nuclear weapons restrictions through on-site inspections, monitoring, and analysis of environmental samples, as well as by providing technical assistance and promoting transparency.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "19298"
+}

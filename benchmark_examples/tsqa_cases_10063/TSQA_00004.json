@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00004",
+  "question": "Who was the head of state in Norway in 2017?",
+  "year": 2017,
+  "ground_truth": "Harald V of Norway",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Harald V of Norway",
+      "tag": "correct"
+    },
+    {
+      "answer": "Olav V of Norway",
+      "tag": "past"
+    },
+    {
+      "answer": "Haakon VII of Norway",
+      "tag": "past"
+    },
+    {
+      "answer": "Olav V of Norway",
+      "tag": "past"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00019",
+  "split": "train",
+  "question": "Will Google make a \"watershed\" announcement about quantum computing in early December?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Quantum computers make use of the properties of quantum mechanical (as opposed to classical) systems to solve certain problems much more efficiently than a classical computer can.\nFor example, using a quantum computer, large numbers could in principle be factored into primes using Shor's algorithm in polynomial time, versus near-exponential time for classical computers; this latter inefficiency underlies the security of many encryption schemes.\nA prototypical quantum computer is composed of N \"qubits,\" or quantum mechanical bits. Keeping these qubits operating as a closed system that retains its quantum character (without \"decohering\" via interactions with the environment) is a difficult challenge for more than a handful of qubits.\nHowever, there have been a series of claims by D-wave systems that it had constructed quantum computers of a different type with thousands of qubits. These machines cannot enact generic quantum compuing algorithms like Shor's. However they are claimed to be dramatically faster at certain optimization problems.\nThere has been widespread skepticism towards D-wave's claims, with some asserting that D-wave's system does not use quantum mechanics at all, and others arguing that even if it does, that this provides no real speedup relative to classical computers.\nNonetheless, Google has purchased D-wave systems for testing, and Google, NASA and others recently signed a multi-year agreement to test the systems.\nOn November 11, a D-wave board member has announced that there will be a \"watershed announcement\" at Google on Dec. 8 about quantum computing. Will this occur, and be a major change or breakthrough in computing or quantum computing?\nThe question resolves as \"true\" if either the New York Times or Washington Post carries a story based on Google's Announcement on the front page prior to December 15, 2015.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-13",
+  "date_close": "2015-12-01",
+  "date_resolve_at": "2015-12-16",
+  "url": "https://www.metaculus.com/api2/questions/30/",
+  "gpt_3p5_category": "Science & Tech"
+}

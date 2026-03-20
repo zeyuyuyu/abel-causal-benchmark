@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00020",
+  "question": "Where was Derek Chisora's most recent professional boxing match held in 2018?",
+  "year": 2018,
+  "ground_truth": "The O2 Arena, London, England",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "The O2 Arena, London, England",
+      "tag": "correct"
+    },
+    {
+      "answer": "Echo Arena, Liverpool, England",
+      "tag": "past"
+    },
+    {
+      "answer": "AO Arena, Manchester, England",
+      "tag": "future"
+    },
+    {
+      "answer": "Tottenham Hotspur Stadium, London, England",
+      "tag": "future"
+    }
+  ]
+}

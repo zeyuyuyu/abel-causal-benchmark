@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0053",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Ukraine win the Russo-Ukrainian War?",
+  "background": "This market will resolve YES if and when Wikipedia's English page on the Russo-Ukrainian War (or the nearest equivalent if that page no longer exists) lists in its infobox \"Result: Ukrainian victory\", and I am satisfied that this is not part of an edit war.\n\nIt will also resolve YES if the result describes the victor as some coalition of which Ukraine is a part, or describes the outcome in terms of the defeated side being Russia or some coalition of which Russia is a part.\n\nAny other \"result\" after the war is no longer described by Wikipedia as \"ongoing\" will cause the market to resolve NO, including hedged statements like \"Partial Ukrainian victory\" or \"Ukrainian victory with territorial losses\".\n\nResolution only depends on the first, non-dotpoint statement in the \"result\" section of the infobox. If hedging/concessions follow the intitial statement as dotpoints, or if they appear in the body of the article, this is not relevant to resolution. If the \"result\" comprises only dotpoints, the market will resolve NO.\n\nThe closing date for this market will be extended as needed until the market can resolve.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "RiB3ECnJ48CXPeRVKKu7"
+}

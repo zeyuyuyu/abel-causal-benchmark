@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00003",
+  "split": "train",
+  "question": "Will Lockheed Martin and Skunkworks announce a successful test of a break-even compact fusion reactor by April 2019?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Lockheed Martin's Skunkworks has publicly announced that it is developing compact fusion energy generation devices.\nIn their announcemend dated 10/15/14 they suggested a one-year timeframe for developing a test, and a 5-year timeframe for a prototype device. Similar predictions were made in a recent article.\nAs of 1/2/16 this effort is still featured on the Lockheed Martin website.\nWIll they announce a successful test of a break-even device by April 15, 2019?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-10-26",
+  "date_close": "2016-10-18",
+  "date_resolve_at": "2019-04-23",
+  "url": "https://www.metaculus.com/api2/questions/5/",
+  "gpt_3p5_category": "Science & Tech"
+}

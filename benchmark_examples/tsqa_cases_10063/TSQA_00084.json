@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00084",
+  "question": "Which team was the runner-up in the Paradise Jam Tournament in 2016?",
+  "year": 2016,
+  "ground_truth": "Ole Miss",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Ole Miss",
+      "tag": "correct"
+    },
+    {
+      "answer": "Tulsa",
+      "tag": "past"
+    },
+    {
+      "answer": "Missouri",
+      "tag": "future"
+    },
+    {
+      "answer": "Providence",
+      "tag": "past"
+    }
+  ]
+}

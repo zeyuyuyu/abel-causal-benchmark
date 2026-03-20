@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00017",
+  "split": "train",
+  "question": "Will a clinical trial begin by the end of 2017 using CRISPR to genetically modify a living human?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "A major recent advance in genetic engineering has occurred in the past several years with the discovery of CRISPR (clustered regularly interspaced short palindromic repeats), a bacterial DNA sequence that codes for a protein (Cas9) and RNA combination that can locate a specific DNA sequence and splice the DNA strand at that location. This enables dramatically simplified genetic editing and engineering relative to recombinant DNA technologies.\nThe CRISPR system has been used successfully in complex organisms including adult mice and embryonic humans.\nRecently, biotech startup Editas has announced that it hopes to begin clinical trials using CRISPR to modify the DNA of living adult humans to treat a rare eye disease called Leber congenital amaurosis.\nWill Editas or another company enter into the US database a clinical trial with a start date prior to Dec. 31, 2017 that uses CRISPR to modify the DNA of a living human in order to treat a medical condition?",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-08",
+  "date_close": "2016-06-07",
+  "date_resolve_at": "2016-06-07",
+  "url": "https://www.metaculus.com/api2/questions/23/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

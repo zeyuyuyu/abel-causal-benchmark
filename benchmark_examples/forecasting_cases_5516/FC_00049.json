@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00049",
+  "split": "train",
+  "question": "Will Mochizuki's proof of the \"abc conjecture\" be formally accepted by the mathematics community by the end of 2017?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The so-called \"abc conjecture\" (or the Oesterlé–Masse conjecture) states that, given relatively prime numbers (a,b,c) such that a+b=c, and the product d of the unique prime factors of a,b, and c, then for a specified value of an index , there are only a finite number of triples (a,b,c) such that\n(That is, almost all the time d is substantially greater than c -- for instance for a=5, b=7, c=12, we have d=2 x 3 x 5 x 7=210 > c. An example of the opposite (rare, finitely occuring) kind is a=3,b=125,c=128, where d=2 x 3 x 5=30. )\nThe abc conjecture, if true, is regarded as a revelation of deep and surprising connections between the basic arithmetical operations of addition and multiplication, and its truth would have a large number of implications for number theory.\nIn 2012 the mathematician Shinichi Mochizuki posted several long papers on his website in which he claimed to have found a proof of the conjecture. Mochizuki is a highly respected mathematician, but the papers (and previous results) total more than five hundred pages and the mathematics community has yet to understand Mochizuki's work, let alone verify the proof. A conference of experts in December 2015 that took place in Oxford was unable to resolve the matter, but some progress is being made, and a further conference is scheduled for July 2016.\nThe question will be regarded as answered in the affirmative if a formal paper (or set of papers) by Mochizuki proving the abc conjecture is accepted by a peer-reviewed mathematics journal by the end of December 2017.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-07",
+  "date_close": "2016-07-01",
+  "date_resolve_at": "2018-01-09",
+  "url": "https://www.metaculus.com/api2/questions/127/",
+  "gpt_3p5_category": "Education & Research"
+}

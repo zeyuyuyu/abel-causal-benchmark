@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00012",
+  "question": "Who was the chair of Gáivuotna – Kåfjord – Kaivuono in the year of 2019?",
+  "year": 2019,
+  "ground_truth": "Svein O . Leiros",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Svein O . Leiros",
+      "tag": "correct"
+    },
+    {
+      "answer": "John Doe",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Jane Smith",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Robert Johnson",
+      "tag": "irrelevant"
+    }
+  ]
+}

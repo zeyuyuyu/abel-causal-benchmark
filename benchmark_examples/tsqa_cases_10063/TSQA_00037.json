@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00037",
+  "question": "Which league and division was Nicolae Stanciu competing in with his current team in 2016?",
+  "year": 2016,
+  "ground_truth": "Liga I",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Liga I",
+      "tag": "correct"
+    },
+    {
+      "answer": "Not Enough Information",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Czech First League",
+      "tag": "future"
+    },
+    {
+      "answer": "Saudi Pro League",
+      "tag": "future"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0067",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will NAD+ boosters be shown in a systematic review to increase human lifespan by >=5% by 2030?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "4290"
+}

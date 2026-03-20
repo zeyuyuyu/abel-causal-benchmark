@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00096",
+  "split": "train",
+  "question": "To the Stars! #4: Do Potentially Habitable Planets exist in orbit around Alpha Centauri A or B?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The philanthropist Yuri Milner recently announced a $100 Million commitment to start the development of gram-scale \"nanocraft\" that can travel at 20% of the speed of light. The prospect of building interstellar probes places a suddenly renewed emphasis on discovering the planetary companions to the closest stars. Exhibits A, B, and C in this effort are the members of the Alpha-Proxima Centauri triple system.\nThe Alpha Centauri A-B binary, which lies a mere 4.37 light years distant, harbors two sun-like stars of 1.1 and 0.9 solar masses on a moderately eccentric (e=0.52) 79-year orbit. The red dwarf Proxima Centauri is likely bound to the A-B pair on a roughly million year orbit, and will be the subject of future questions in this series.\nOrbital integrations show that potentially habitable planets can exist in stable orbits around either Alpha Cen A or Alpha Cen B. Various methods have been proposed to detect such planets, with the Doppler Velocity technique providing the most likely route to success. Indeed, in 2012, tentative (but now largely discredited) evidence of a very short period Earth-mass planet orbiting Alpha Cen B was published in Nature.\nBy January 1, 2020, will there be an announcement in the peer-reviewed astronomical literature of the detection of a planet with period P > 200d orbiting either (but not both) Alpha Cen A or Alpha Cen B?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-12",
+  "date_close": "2016-12-31",
+  "date_resolve_at": "2020-09-27",
+  "url": "https://www.metaculus.com/api2/questions/212/",
+  "gpt_3p5_category": "Science & Tech"
+}

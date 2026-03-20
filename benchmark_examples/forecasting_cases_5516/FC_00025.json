@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00025",
+  "split": "train",
+  "question": "Will the IAU-sanctioned Exoplanet Names come into regular use?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Names and labels carry a heavy freight and they get people worked up. The agonized IAU deliberations vis-à-vis Pluto’s status as a \"plutoid\" or a planet or a dwarf planet constituted by far the biggest planet news of 2006. The issue of what to call an astronomical object can have important consequences. It’s unlikely that the wildly successful New Horizons Mission would have gotten its congressional funding approval if Pluto had never held the status of a named planet.\nGalileo, in sighting the moons of Jupiter, made the first telescopic discovery of new worlds. He tried to increase his odds of patronage by naming his new moons “The Medicean Stars” in reference to Cosimo II de’ Medici, fourth Grand Duke of Tuscany. The \"Medicean Stars\", however, are neither medicean nor stars, and so it’s not surprising that the name failed to stick.\nThe International Astronomical Union has just announced officially sanctioned names for 31 extrasolar planets. For example, the first extrasolar planet discovered in orbit around a sunlike star, 51 Peg b, can now officially be referred to as \"Dimidium\".\nThere have been numerous attempts to name extrasolar planets, but none have replaced the system currently in use, in which lower-case letters are appended to the name of the parent star as successive planets are discovered, for example Gliese 876b, Gliese 876c, etc.\nWill the official IAU sanction be enough to influence astronomical usage?\nDuring the month of December, 2016, will papers published in the peer-reviewed astronomical literature refer to the 31 IAU-sanctioned planet names with greater frequency than they refer to the same 31 planets by their traditional names?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-15",
+  "date_close": "2016-01-15",
+  "date_resolve_at": "2017-01-20",
+  "url": "https://www.metaculus.com/api2/questions/38/",
+  "gpt_3p5_category": "Science & Tech"
+}

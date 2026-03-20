@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0056",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the front line in Ukraine change significantly in 2024?",
+  "background": "Will the territory controlled by Ukraine/Russia change significantly at any time before January 1, 2025? This would include major territorial gains or capture of important cities/objects.\n\nPossible examples: Russian capture of Zaporizhzhia/Kherson, Ukrainian Capture of Melitopol. Not sufficient: capture of cities like Bakhmut (little strategic importance or territorial gains).\n\nThe resolution will be subjective to a degree, feel free to ask about any particular cases. There are quite a few discussions on individual cases in the comments of previous markets.\n\nSee also:\n\n[markets]",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "Cjc9jjkQvT0hBWFGoaN7"
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0100",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will FreeTON cryptocurrency project be successful?",
+  "background": "Telegram Open Network was a cryptocurrency project that would allow to make transactions within Telegram messenger. It was [cancelled](https://www.interactivecrypto.com/telegram-cancels-telegram-open-network-and-grams-project) after a lawsuit initiated by the Securities Exchange Commission (SEC) in the USA.\n\nAfter that, a group of developers [forked](https://cryptopotato.com/free-ton-forks-to-decentralized-independence-in-telegram-token-sales-departure/) the project under name [FreeTON](https://freeton.org/) to develop it independently from Telegram messenger.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "4934"
+}

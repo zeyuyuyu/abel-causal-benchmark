@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00038",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "05",
+  "question": "When did the Brazilian Ministry of Health authorize COVID-19 vaccination for adults aged 18 to 59?",
+  "ground_truth": "In May 2021.",
+  "event_desc": "The Ministry of Health authorizes vaccination against COVID-19 for people over the age of 18 across the country."
+}

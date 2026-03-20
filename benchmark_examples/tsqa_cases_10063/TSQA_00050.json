@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00050",
+  "question": "What was the latest music video released by Maroon 5 in 2020?",
+  "year": 2020,
+  "ground_truth": "Nobody's Love",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Nobody's Love",
+      "tag": "correct"
+    },
+    {
+      "answer": "Memories",
+      "tag": "past"
+    },
+    {
+      "answer": "Lost",
+      "tag": "future"
+    },
+    {
+      "answer": "One Light",
+      "tag": "future"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0075",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will China carry out a cyberattack on Taiwan’s electricity infrastructure before 2030?",
+  "background": "In 2021, the Taiwanese Defense Minister warned that tensions between Taiwan and China—which has repeatedly claimed that Taiwan is part of its territory—were at a [40-year high](https://www.bbc.com/news/world-asia-58812100). And between [trade](https://www.bloomberg.com/news/articles/2023-12-15/china-determines-taiwan-s-ban-on-mainland-goods-is-trade-barrier) [restrictions](https://www.reuters.com/world/asia-pacific/china-lifts-ban-taiwanese-grouper-fish-imports-carrot-stick-diplomacy-2023-12-22/) and [air defense zone incursions](https://www.metaculus.com/questions/21801/taiwan-adiz-violations/#:~:text=Relations%20have%20grown%20worse%20over%20recent%20years%3A%20in%202021%20there%20were%2021%20days%20of%20%E2%80%9Creactionary%E2%80%9D%20air%20incursions%2C%20while%20in%202022%20there%20were%2055%2C%20and%20in%202023%20there%20were%2064%20(Brown%20%26%20Lewis%2C%202024).), relations between China and Taiwan have taken a turn for the worse since then. This question asks about the possibility of a major escalation, namely, that China carries out a cyberattack on Taiwan’s electricity infrastructure.\n\nAs context, assistant professor Chen Yi-fan from Taiwan's Tamkang University has suggested that [cyberattacks could precede a Chinese invasion of Taiwan](https://www.voanews.com/a/how-china-could-cyberattack-taiwan/6349594.html), making the invasion less costly on Chinese resources.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "21805"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00057",
+  "question": "Who received the AVN Award for Best Actor in 2022?",
+  "year": 2022,
+  "ground_truth": "Tommy Pistol",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Tommy Pistol",
+      "tag": "correct"
+    },
+    {
+      "answer": "Seth Gamble",
+      "tag": "past"
+    },
+    {
+      "answer": "Xander Corvus",
+      "tag": "past"
+    },
+    {
+      "answer": "Steven St. Croix",
+      "tag": "past"
+    }
+  ]
+}

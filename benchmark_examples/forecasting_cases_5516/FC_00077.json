@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00077",
+  "split": "train",
+  "question": "Will Planet Nine be found in 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In mid-January, two Caltech Professors -- Konstantin Batygin and Mike Brown -- created a worldwide stir by proposing the existence of a new, but as-yet unseen, planet in the outer solar system. This world, now known as \"Planet Nine\", is predicted to have a mass roughly ten times that of Earth, an orbital period of about 20,000 years, and a large eccentricity (e~0.6).\nBatygin and Brown's paper (which, by 3/17, had been downloaded a staggering 307,188 times) presents indirect dynamical evidence for Planet Nine. Its presence is inferred through the gravitational sculpting that it has produced in the trajectories of small Pluto-like worlds that lie beyond Neptune's orbit.\nA recent paper by Fienga et al. adds credibility and detail to the Planet Nine hypothesis. The authors examine how Planet Nine affects the orbit of Saturn, whose orbital trajectory can be measured to great accuracy using ranging data from NASA's Cassini spacecraft. Inclusion of Planet Nine in the ultra-precise INPOP Solar System ephemerides reduces the error in Cassini's position relative to the model if Planet Nine's true anomaly is of order 118 degrees.\nBased on the Fienga et al. result, Metaculus calculates a most probable current sky position for Planet Nine of RA=2h, Dec=-20 deg, in the constellation Cetus. This area of the sky becomes visible to ground-based wide-field cameras in mid-Summer. At the most probable location, the planet's current distance would be r=620 AU, and the expected V magnitude is 21. An update to our original Planet Nine question is thus definitely in order:\nWill the discovery by direct observation of a new solar system planet having characteristics substantially similar to those described in the Batygin-Brown paper, and at a sky position within 20 degrees of the Fienga et al. best-fit location be announced in a peer-reviewed paper prior to Dec. 31, 2016?\n(For this question to resolve as \"Yes\", the new planet should have an inferred radius larger than that of Earth, an orbital period greater than 5,000 years, and an orbital eccentricity e > 0.25).",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-18",
+  "date_close": "2016-07-31",
+  "date_resolve_at": "2017-01-01",
+  "url": "https://www.metaculus.com/api2/questions/188/",
+  "gpt_3p5_category": "Science & Tech"
+}

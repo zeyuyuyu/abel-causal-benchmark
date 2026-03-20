@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0048",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will anybody born before 2000 live to be 150?",
+  "background": "Time spent uploaded counts, but only real time, not simulated time. If reanimated from cryonic storage, only the time they spent \"alive\" counts.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "Vn56ON2GtAd65aSB4A5m"
+}

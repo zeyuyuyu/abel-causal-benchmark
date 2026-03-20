@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00054",
+  "split": "train",
+  "question": "Will there be more novel new drugs approved by the FDA in 2016 than in 2015?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The U.S. Food and Drug Administration’s Center for Drug Evaluation and Research (CDER) regulates all over-the-counter and prescription drugs released for sale to the public. CDER approves hundreds of new medications each year, most of which are variations of existing products (such as new dosages or generics). A small portion of these approvals are for “novel drugs,” products that are innovative and/or previously unavailable. These are approved either as new molecular entities under New Drug Applications or as new therapeutic biologics under Biologics License Applications.\nFrom 2006 to 2014, CDER averaged about 28 novel drug approvals per year. In 2015, CDER hit a 19-year high with 45 approvals. The higher number is due in part to the center’s implementation of four expedited pathways to hasten the approval and release of certain medications judged to be important for the public; 27 of 2015’s 45 novel drugs were approved through this expedited process. A context of rapid progress in a range of medical technologies may also foster a “hyper-innovation age”, yielding many new kinds of therapies and potentially increasing the quantity of innovative drugs approved. As of July 27, CDER lists 16 novel drug approvals for 2016.\nWill the FDA's Center for Drug Evaluation and Research make more than 45 novel drug approvals in 2016? Note: this figure does not include approvals made by the FDA's Center for Biologics Evaluation and Research (CBER), which regulates certain categories of biologically derived drugs.\nThe question will resolve as positive if CDER’s list of novel drug approvals for 2016 shows 46 or more entries by January 1, 2017.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-12",
+  "date_close": "2016-11-01",
+  "date_resolve_at": "2016-12-30",
+  "url": "https://www.metaculus.com/api2/questions/139/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

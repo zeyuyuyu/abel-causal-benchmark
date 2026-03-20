@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00043",
+  "split": "train",
+  "question": "Will Uber drivers win a class-action lawsuit to define them as employees?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Ride sharing company Uber is being sued in June 2016 in a class-action lawsuit. The lawsuit is intended to deal with drivers' claims that they are misclassified as independent contractors, rather than employees. The current definition of Uber's workers has several important legal implications, including whether the company or drivers pay for gas, insurance, vehicle upkeep, and other costs, conditions of hiring and firing drivers, ability to take tips, collective bargaining protections, etc.\nNoted class-action labor lawyer Shannon Liss-Riordan is leading the efforts of the lawsuit, and she has been raising labor rights issues with other companies with business models similar to Uber's. Arguing that the corpus of Uber drivers, sourced from the general population, does not qualify as a class lies at the core of Uber's fight against the case. Uber also argues that the lawsuit is against the interests of the workers, that establishing the drivers as employees will remove the flexibility of their scheduling.\nA ruling against Uber would change Uber's business model and have significant economic impact on the company as well as the sharing market. The lawsuit is scheduled to go to trial this June.\nWill the trial be completed, and rule that Uber drivers have been misclassified as contractors?\nTo resolve as positive, the case must litigated through to a bench or jury verdict, there having been no settlement, and Uber's appeal of the certification of the class having been denied with finality. Also, this question regards only the case before judge Edward Chen, and not any subsequent appeals or parallel cases.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-18",
+  "date_close": "2017-06-15",
+  "date_resolve_at": "2017-07-05",
+  "url": "https://www.metaculus.com/api2/questions/108/",
+  "gpt_3p5_category": "Economics & Business"
+}

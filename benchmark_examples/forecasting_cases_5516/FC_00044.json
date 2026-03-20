@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00044",
+  "split": "train",
+  "question": "Will \"Planet Nine\" be discovered in 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In a provocative new paper published in the Astronomical Journal (see typical news story), two Caltech professors -- Konstantin Batygin and Mike Brown -- propose the existence of a new, but as-yet unseen, planet in the outer solar system. This world, tentatively dubbed \"Planet Nine\", is predicted to have a mass ten times that of Earth, an orbital period of about 20,000 years, and a large eccentricity (e~0.6).\nThe evidence for Planet Nine is indirect, and is based on alignments of known Kuiper Belt objects that are very difficult to explain through simple chance occurrence. In essence, the presence of the new planet is inferred through the gravitational sculpting that it has produced in the trajectories of small objects that lie beyond Neptune's orbit.\nThe current distance to Planet Nine is likely about a thousand times the Earth-Sun distance, and so if it exists, it is quite faint, explaining why it has thus far gone unnoticed. Its detection would be possible, but would require a systematic search using large telescopes such as the Keck Observatory or Subaru Observatory telescopes on Mauna Kea.\nWill the discovery by direct observation of a new solar system planet having characteristics substantially similar to those described in the Batygin-Brown paper be announced in a peer-reviewed paper prior to Dec. 31, 2016?\n(For this question to resolve as \"Yes\", the new planet should have an inferred radius larger than that of Earth, an orbital period greater than 5,000 years, and an orbital eccentricity e > 0.25).",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-19",
+  "date_close": "2016-02-29",
+  "date_resolve_at": "2017-01-01",
+  "url": "https://www.metaculus.com/api2/questions/109/",
+  "gpt_3p5_category": "Science & Tech"
+}

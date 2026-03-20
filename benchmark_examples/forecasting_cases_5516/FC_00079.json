@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00079",
+  "split": "train",
+  "question": "Will NASA's InSight Mars Mission Launch in 2018?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The NASA Discovery Program space missions are designed to be low cost but effective missions in the space and planetary exploration of our solar system. InSight, and the InSight Mars lander, is the 12th standalone Discovery Program mission managed at NASA JPL. It's purpose: investigate the seismic activity of Mars by drilling to position a seismomitor a few meters under the martian surface.\nThe InSight probe would have been mission-ready this March if not for mechanical failures on the craft and budget constraints. The failure was a leak in the vacuum chamber that contains the seismometer's sensors, discovered last December, and costing at least $150M to fix and exceeding the overall budget of $625M.\nEven with the budget constraints, NASA announced on March 9, 2016 that the repairs would be carried out and the launch would be rescheduled for May of 2018. Given that there was a failure during the course of development of this craft, and the success history of Mars missions is known, what can be said about the likelihood of success for the InSight probe?\nNote that the probe must be mission-ready by May, otherwise it will miss the critical launch window when Mars and Earth are closest in their orbits, and the mission will have to wait another 26 months.\nWill the Insight Mars probe land safely on the Martian surface by January 1st, 2019?",
+  "ground_truth": 1.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-21",
+  "date_close": "2016-07-01",
+  "date_resolve_at": "2018-12-20",
+  "url": "https://www.metaculus.com/api2/questions/191/",
+  "gpt_3p5_category": "Science & Tech"
+}

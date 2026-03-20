@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0081",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Israel recognize Palestine by 2070?",
+  "background": "The [two-state solution](https://en.wikipedia.org/wiki/Two-state_solution) is a proposed solution to the [Israeli-Palestinian conflict](https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_conflict), involving mutual recognition of Israel and Palestine.  [Many attempts](https://en.wikipedia.org/wiki/Israeli%E2%80%93Palestinian_peace_process) have been made to reach such a solution.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "7631"
+}

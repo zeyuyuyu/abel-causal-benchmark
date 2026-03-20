@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00016",
+  "split": "train",
+  "question": "Will the AI's major professional society take a position on \"killer robots\"?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "There has been significant interest in the imminent advent of autonomous lethal weapons, which would select, engage, and harm targets that they have chosen according to some pre-assigned mission or criteria. Most major military powers formally claim to eschew such weapons, but there is little question that they are under active development.\nA recent open letter signed by over 3000 AI researchers has argued that an arms race in autonomous offensive weapons would likely lead to their widespread use and that \"Autonomous weapons are ideal for tasks such as assassinations, destabilizing nations, subduing populations and selectively killing a particular ethnic group.\" The letter calls for an international agreement pre-emptively banning such weapons.\nSeveral advocacy groups including the Campaign to Stop Killer Robots have also called for such a ban, and the issue has been discussed at the UN, most recently at a meeting on the Convention on Certain Conventional Weapons.\nAlthough there appears to be strong support in the AI research community to avoid such an arms race, there is an active debate, with some arguing against such a ban.\nThe Association for the Advancement of Artificial Intelligence (AAAI), the major professional organization for AI researchers, has discussed the issue at past meetings, and hosted a debate in 2015 regarding these weapons. But the AAAI as an organization has not taken any formal position on autonomous weapons.\nWhen the AAAI next meets in February 12-17 2016, will it vote on and adopt a formal position (of any sort) on autonomous weapons?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-08",
+  "date_close": "2016-01-01",
+  "date_resolve_at": "2016-02-18",
+  "url": "https://www.metaculus.com/api2/questions/22/",
+  "gpt_3p5_category": "Security & Defense"
+}

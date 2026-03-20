@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0033",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "In 2028, will at least 350,000 (1/1000) Americans be talking at least monthly to an AI therapist or coach?",
+  "background": "I will try to find estimates of how many people are doing this in order to resolve it, but no guarantees.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "YREnvVjBXi5qQFCQhzSv"
+}

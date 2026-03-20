@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00069",
+  "country": "Brazil",
+  "year": "2015",
+  "month": "01",
+  "question": "Who was inaugurated as the President of Brazil in January 2015?",
+  "ground_truth": "Dilma Rousseff was inaugurated for her second term as President of Brazil in January 2015.",
+  "event_desc": "Dilma Rousseff is inaugurated for a second term as Brazilian President."
+}

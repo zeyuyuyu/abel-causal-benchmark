@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00086",
+  "split": "train",
+  "question": "Will the Xenon1T experiment discover WIMP dark matter?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Making up 85% of the matter in the observable universe, dark matter is, per its name, invisible to us. Its presence is manifested gravitationally, however, as it is required to explain the dynamics of galaxies, clusters, and cosmic large-scale structures, affects the microwave background anisotropies, and can even be mapped using gravitational lensing.\nSeveral candidate particles responsible for dark matter have been proposed, but the current front-runners are Weakly Interacting Massive Particles (WIMPs). This attractiveness stems largely from the fact that SUSY naturally predicts the existence of a supersymmetric WIMP with kinematic and cosmological constraints consistent with dark matter.\nSince WIMPs interact with ordinary matter via the electroweak interaction, they can in principle be detected directly in [scattering events with atomic nuclei], among other methods. However, experiments to detect them have only given null results so far.\nA major ongoing test for WIMP-nucleon scattering is Xenon1T in Italy, with a much higher sensitivity than preceding experiments; this dark matter detector is essentially a 3500 kilogram target of liquid Xenon sandwiched between two arrays of photomultiplier tubes. The arrays will detect signals from scintillation and electron drift generated from particles scattering off Xenon nuclei, at which point known backgrounds will be subtracted out to get the WIMP signal. Xenon1T is expected to start collecting data in spring 2016.\nFailure to see supersymmetry at the LHC so far, with no sign of WIMPs in direct-detection so far has raised the question as to whether WIMPs deserve their dark matter frontrunner status. But perhaps they will be vindicated soon?\nBy January 1st, 2018, will a paper appear on the physics arXiv or in a refereed journal describing 5-sigma equivalent evidence for dark matter detection in th Xenon1T experiment?\n[scattering events with atomic nuclei]:",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-30",
+  "date_close": "2017-02-15",
+  "date_resolve_at": "2018-01-03",
+  "url": "https://www.metaculus.com/api2/questions/199/",
+  "gpt_3p5_category": "Science & Tech"
+}

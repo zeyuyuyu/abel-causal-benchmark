@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00037",
+  "split": "train",
+  "question": "Will radical new \"low-energy nuclear reaction\" technologies prove effective before 2019?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "The idea that nuclear reactions at relatively low temperatures using relatively stable elements has a checkered past. Basic physics makes such phenomena difficult: the electromagnetic repulsion between two nuclei generally prevents fusion unless there is very high energy given to at least one of them, which suggests a very high temperature.\nHowever, that does not mean such processes are physically impossible. For example, \"pycnonuclear reactions\" can occur at zero temperature and ultrahigh density, muons can catalyze fusion at low temperatures, and the right system can accelerate particles at low temperature up to MeVs over a millimeter.\nThe possibility of cheap unlimited energy has motivated several groups to pursue the possibility of \"Low Energy Nuclear Reaction\" (LENR) energy production. As featured in a previous question, for the past 4 years, Andrea Rossi has been claiming to make large amounts of heat in his various \"E-Cat\" reactors, apparently inexplicable in terms of chemical reactions. A somewhat similar LENR project is led by Robert Godes, who runs the company Brillouin Energy. These efforts have generated several websites such as this one tracking news in the field.\nThere is a strong consensus in the physics community that these LENR efforts have a low probability of being scientifically valid and leading to a useful energy-generation technology. But how low? So we ask:\nBy Dec. 31, 2018, will Andrea Rossi/Leonardo/Industrial Heat or Robert Godes/Brillouin Energy have produced fairly convincing evidence (> 50% credence) that their new technology that generates substantial excess heat relative to electrical and chemical inputs?\nThe question resolves in the positive if Huw Price is declared winner of a bet of £1,000 against Carl Shulman's £10,000. The bet will be settled by Price and Shulman by New Years Eve 2018, and in the case of disagreement shall defer to majority vote of a panel of three physicists: Anthony Aguirre, Martin Rees, and Max Tegmark.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-01-05",
+  "date_close": "2016-12-01",
+  "date_resolve_at": "2019-06-28",
+  "url": "https://www.metaculus.com/api2/questions/65/",
+  "gpt_3p5_category": "Science & Tech"
+}

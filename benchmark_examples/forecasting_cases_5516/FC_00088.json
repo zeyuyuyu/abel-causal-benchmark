@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00088",
+  "split": "train",
+  "question": "A is in the I of the beholder #1: Wait, is this video for real?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "As ever-more sophisticated expert systems, machine learning systems, and other \"narrow AI\" systems are developed and commercialized, the line between the \"natural\" and \"artificial\" is becoming blurred in more and more everyday interactions.\nAutomated call-processing systems leave (temporary) ambiguity as to whether one is addressing a person or machine. Autonomous vehicles drive relatively unnoticed on the roads. In an amusing twist, Facebook's \"M\" personal assistant led to an actual investigative report as to whether it was actually an AI or humans masquerading as AI.\nIn this series of questions we probe some fun, interesting, and disquieting possibilities that may come to pass over the next few years through the blurring of these lines.\nWe start with video. The ability of generate highly believable CGI has existed for some time, but has generally fallen short of of creating believable humans, with a dangerous \"uncanny valley\" discouraging many attempts. That is changing, however.\nIn the movie Terminator 5, a relatively convincing circa-1980's Arnold Schwarzenegger was digitally generated atop a live actor to create scenes in which \"young Arnold\" fought \"old Arnold.\" (So this was a CGI simulating a human playing a robot pretending to be a human...)\nLate last year, a new system was announced that can superimposed both words and facial movements upon a person who never said those words, simulating for example Obama giving Bush's speech or vice-versa.\nWhile photographs have long been realized to be suspect due to photoshopping, the era of spoofed videos is just beginning and probably not widely known.\nBy late 2017, will there be a wide-scale hoax be created using video-alteration technology to put words in a famous figure's mouth?\nFor a positive resolution, a video must exist and satisfy the follow criteria by Oct 31, 2017:\nIt is originally posted without any indication of non-authenticity (i.e. it is at least tacitly suggested that the video is of actual events.)\nIt portrays a well-known person doing and/or saying something they did not in reality say or do.\nThe video has had more than 1 million views.\nThe video is referred to in at least one major news outlet as a \"hoax.\"\nSelective/misleading editing does not count here, as that is old news (though still can be quite effective!)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-05",
+  "date_close": "2016-12-01",
+  "date_resolve_at": "2017-11-16",
+  "url": "https://www.metaculus.com/api2/questions/204/",
+  "gpt_3p5_category": "Arts & Recreation"
+}

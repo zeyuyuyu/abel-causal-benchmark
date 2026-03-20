@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0089",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will the European Union meet its 2030 targets under the Paris Climate Treaty?",
+  "background": "Although the United States has announced intentions to withdraw from the Paris Climate Agreement, 194 countries are still part of [the agreement](https://en.wikipedia.org/wiki/Paris_Agreement), including the European Union, [the world's #3 carbon dioxide emitter.](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions)\n\nUnder the agreement, each country sets its own emission reduction goals. The EU's goal was to reduce emissions by 40% below 1990 levels. If achieved, by 2030 the EU will emit around [3.4-3.9 gigatons of CO2-equivalent greenhouse gases per year](http://climateactiontracker.org/countries/eu.html), whereas today the region accounts for [3.46 gigatons per year, or nearly ten percent of the global total](https://en.wikipedia.org/wiki/List_of_countries_by_carbon_dioxide_emissions). Emissions have been in decline since 1990. Current projections estimate that the EU goals represent [a slowdown in the region's trend of emission reduction](http://climateactiontracker.org/countries/eu.html) and that the slowdown is not be enough to limit global temperature rise to only 1.5 or even 2 degrees C.\n\n[Other goals](https://ec.europa.eu/clima/citizens/eu_en) of the EU's by 2030:\n\n- At least 27% of total energy consumption from renewable energy\n\n- At least 27% increase in energy efficiency",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "489"
+}

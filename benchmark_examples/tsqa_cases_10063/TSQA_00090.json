@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00090",
+  "question": "What was Nico Müller's current team in 2017?",
+  "year": 2017,
+  "ground_truth": "Audi Sport Team WRT",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Audi Sport Team WRT",
+      "tag": "correct"
+    },
+    {
+      "answer": "Audi Sport Team Rosberg",
+      "tag": "past"
+    },
+    {
+      "answer": "ABT CUPRA Formula E Team",
+      "tag": "future"
+    },
+    {
+      "answer": "GEOX Dragon",
+      "tag": "future"
+    }
+  ]
+}

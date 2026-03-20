@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0049",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Neuralink successfully enable a blind person to see again using its technology by 2030?",
+  "background": "Resolves Yes if there's credible news coverage of a Neuralink patient regaining the ability to see using Neuralink's tech.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "NYISJsNFjI3aIMGExGgo"
+}

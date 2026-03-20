@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0093",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will SpaceX land people on Mars before 2030?",
+  "background": "[SpaceX](http://www.spacex.com) recently released a detailed plan ([transcription and slides here](http://www.businessinsider.com/elon-musk-mars-speech-transcript-2016-9/#-52)) to send people to Mars using an \"Interplanetary Transport System\" based on heavily reusable launch boosters, tanker-assisted refueling in low-Earth orbit, and a futuristic interplanetary spaceship. The ship is to traverse deep space and land intact on Mars after a high-speed retro-assisted atmospheric entry. The system will rely on in-situ fuel generation on Mars for return journeys, and it is envisioned that destinations across the Solar System may be within its reach.\n\nThe timeline has not been set in stone, but Elon Musk [has noted](https://www.washingtonpost.com/news/the-switch/wp/2016/06/10/Elon-musk-provides-new-details-on-his-mind-blowing-mission-to-mars/) that if SpaceX \"gets lucky and things go according to plan\", a manned flight could launch in the 2024 window with a landing on Mars in 2025. Subsequent launch windows, which are dictated by the Earth-Mars synodic period, occur at a roughly 2-year cadence. \n\nThere have been [numerous proposals](https://en.wikipedia.org/wiki/Human_mission_to_Mars) over the years for landing people on Mars. Perhaps the first one that was both concrete and marginally credible was Wernher von Braun's *Marsprojekt* of the late 1940s and early 1950s. For the past six decades, trips to Mars have tended to lie 20-30 years in the future. The SpaceX plan is particularly notable for aggressively compressing the timeline.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "349"
+}

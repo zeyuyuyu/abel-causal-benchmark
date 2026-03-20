@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00030",
+  "split": "train",
+  "question": "Fully autonomous self-driving cars by 2018?",
+  "background": "Self-driving cars (SDC) are [anticipated] to become increasingly integrated into the driving population in the coming years; greatly reducing accident rates, giving driving independence to the impaired, and reducing fuel consumption are a few major benefits (see more [here] and [here.]) [Google] and [Tesla] in the U.S. and [Baidu] in China lead the race to bring their SDC technology to market, and other companies like [Nissan] and [Mobileye] are also invested in autonomous vehicle technology.\nTesla's Elon Musk marked 2018 as the due date for fully autonomous Tesla vehicles in a [recent interview]. Meanwhile, Google does have autonomous SDC prototypes being live tested in [cities]. Still, economic and [regulatory] obstacles have to be overcome.",
+  "resolution_criteria": "Will there be a car commercially-available in at least two US states with an MSRP of less than $75,000 and delivery date within 2018, that can autonomously carry its passenger between two generic drivable destinations that are 20-100 km apart via public roads in those states?\n(updated 2/20 to clarify resolution criteria of two US states and public roads)",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-22",
+  "date_close": "2016-03-01",
+  "date_resolve_at": "2018-01-09",
+  "url": "https://www.metaculus.com/api2/questions/46/",
+  "gpt_3p5_category": "Science & Tech"
+}

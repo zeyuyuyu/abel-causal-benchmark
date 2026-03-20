@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00039",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "05",
+  "question": "How many people were killed in the police operation in Jacarezinho, Rio de Janeiro, in May 2021?",
+  "ground_truth": "At least 28 people were killed in the police operation in Jacarezinho.",
+  "event_desc": "An operation against drug trafficking by the Civil Police leaves at least 28 dead and 2 injured in the Jacarezinho neighborhood, in Rio de Janeiro."
+}

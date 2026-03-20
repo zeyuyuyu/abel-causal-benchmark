@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0054",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will Ukraine regain control over Crimea before the end of 2024?",
+  "background": "Will resolve to YES, if at any point before the end of 2024, Ukrainian forces control majority of Crimea territory\n\nresolution source: Institute for the Study of War, https://www.understandingwar.org/",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "PzPTjSi9k6JCDUYqPpe8"
+}

@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00092",
+  "split": "train",
+  "question": "To the stars! #1: Will the private investment in laser-sail extra-solar travel be matched by a comparable amount within 5 years?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Chemical rockets, while great for many purposes, will never get us far outside of the solar system. With the nearest stars parsecs away, reaching them in a human lifetime requires speeds of at least 10% the speed of light. As can be seen from the rocket equation, chemical rockets with exhaust speeds of a few km/s would require exponentially large mass to attain relativistic speeds of ~100,000 km/s. It's hopeless.\nUnless relativistic exhaust speeds can be obtained (difficult!), leaving the solar system will require external acceleration. A variety of schemes along these lines have been proposed over the years.\nFor example, the \"starwisp\" is a small nanowire mesh \"sail\" driven by the radiation pressure of reflected microwaves; the microwaves would be produced by a phased array of terrestrial or orbital dishes.\nRecently, a detailed study of laser-driven sails was posted proposing use of newly-developed ultra-high-reflectivity materials, and (now technically feasible) phased arrays of optical/IR lasers. High reflectivity allows acceleration without incineration; phased arrays allow a highly collimated beam without a laser of enormous diameter.\nWhile technically plausible, such systems would require large-scale investment in both R&D and deployment on the scale of at least a major NASA mission or large-scale particle physics project.\nThe possibility of this occurring just received a major boost with the announcement that entrepreneur and Philanthropist Yuri Milner has committed $100 Million to a \"research and engineering program [that] will seek proof of concept for using light beam to propel gram-scale ‘nanocraft’ to 20% light speed.\"\nIn subsequent questions we will look at the probability of developing some of the necessary technologies to make a project like this a reality. Here gauge the overall prediction of success, as quantified by further investment joining Milner's, either before or after some of the results of the research it funds.\nBy April of 2021, will additional private or governmental sources provide a total commitment of funding to light-beam propulsion at least matching Milner's $100M?\nPrivate funding commitment would come in the form of a publicly-announced commitment like Milner's April 12 commitment; public commitment should come in the form of one or more allocated grants to institutions, or approved budget line-items at NASA or other government agencies.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-04-06",
+  "date_close": "2018-02-01",
+  "date_resolve_at": "2022-03-17",
+  "url": "https://www.metaculus.com/api2/questions/208/",
+  "gpt_3p5_category": "Science & Tech"
+}

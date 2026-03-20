@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00090",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "07",
+  "question": "How many tons of fish died in the Piracicaba River incident in July 2024?",
+  "ground_truth": "Between 10 and 20 tons of fish died in the incident.",
+  "event_desc": "17 July  A massive fishkill suspected to have been caused by the dumping of industrial waste from a sugar and ethanol plant results in the deaths of between 10 and 20 tons of fish in the Piracicaba River in São Paulo state."
+}

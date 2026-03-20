@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0062",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will most of the first 100 IQ-selected \"designer babies\" be born in China?",
+  "background": "[A previous question](https://www.metaculus.com/questions/5525/ivf-based-embryo-selection-for-intelligence/) asks when 100 babies will be born who are selected for intelligence.  Here, we ask how many of them will be born in China.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "7925"
+}

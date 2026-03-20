@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00057",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "11",
+  "question": "How many people were killed in the collapse of a three-story house in Morro do Salgueiro, Rio de Janeiro, in November 2021?",
+  "ground_truth": "One person was killed in the collapse.",
+  "event_desc": "A three-story house collapses in Morro do Salgueiro, North Zone of Rio de Janeiro, killing one person and injuring three others."
+}

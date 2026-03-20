@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00006",
+  "country": "Brazil",
+  "year": "2021",
+  "month": "01",
+  "question": "Which two COVID-19 vaccines received emergency use approval in Brazil in January 2021?",
+  "ground_truth": "The CoronaVac vaccine (produced by the Butantan Institute in partnership with Sinovac) and the AstraZeneca vaccine (produced by Fiocruz with the University of Oxford).",
+  "event_desc": "The Brazilian Health Regulatory Agency (Anvisa) unanimously approves requests for the emergency use of the vaccines CoronaVac (produced by the Butantan Institute in partnership with the Chinese laboratory Sinovac) and AstraZeneca (produced by the University of Oxford with Fiocruz). A nurse named Mônica Calazans, an employee of the Emílio Ribas Institute of Infectious Diseases, receives the first dose of CoronaVac in the country."
+}

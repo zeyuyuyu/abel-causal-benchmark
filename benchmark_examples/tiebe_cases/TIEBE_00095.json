@@ -1,0 +1,9 @@
+{
+  "file_id": "TIEBE_00095",
+  "country": "Brazil",
+  "year": "2024",
+  "month": "08",
+  "question": "How many people were killed in the attack on the Guarani-Kaiowa community in Douradina, Mato Grosso do Sul, in August 2024?",
+  "ground_truth": "Eight people were killed in the attack.",
+  "event_desc": "3 August  Eight people are killed in an attack by farmers on members of the indigenous Guarani-Kaiowa community in Douradina, Mato Grosso do Sul."
+}

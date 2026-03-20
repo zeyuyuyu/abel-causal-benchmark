@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0084",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will space-based technologies facilitate the creation of an effective global system for tracking and mitigating illegal wildlife trade before 2031?",
+  "background": "Illegal wildlife trade is a major global problem, threatening biodiversity and fueling organized crime. Space-based technologies, such as satellite imaging, could potentially be used to track and mitigate this illegal trade by providing near real-time monitoring of wildlife habitats, migration routes, and poaching activities. However, such a global system would require significant technological, legal, and diplomatic efforts.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "18551"
+}

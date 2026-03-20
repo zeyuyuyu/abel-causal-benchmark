@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00071",
+  "split": "train",
+  "question": "Ambulance chasing the LHC diphoton resonance",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In a recent paper, Backović has studied the phenomenon of \"ambulance chasing\" in particle physics, i.e. the flood of papers in the months following a tentative experimental signal, only to slow as interest is lost, fresh ideas are exhausted or the experimental signatures disproven.\nBacković shows that a simple two parameter model accurately fits the evolution of the cumulative number of preprints on a topic for nine episodes of ambulance chasing in recent history. The model is then used to forecast the total number of preprints that will be written about the recent 750 GeV diphoton excess seen at the Large Hadron Collider. There is a recent Metaculus question about this topic, asking whether the statistical significance of the excess will increase by the ICHEP conference. The present question is not about the excess itself, but about whether Backović's forecast for the number of preprints on the excess will prove correct.\nSpecifically, Backović predicts that the number of preprints on the arxiv about the diphoton excess by June 1, 2016 follows a Poisson distribution with a mean of 271 papers. In other words, the 90% credible interval for the number of preprints is predicted as 244 to 298 (inclusive).\nThis question resolves positively if, on June 1, 2016, the number of preprints on the diphoton excess falls within the range given above. The number of preprints is measured using Backović's methodology, namely, trawling the inSPIRE and arXiv repositories for citations to the original announcement of an excess by ATLAS and selecting only those papers with an arXiv number assigned.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-03-13",
+  "date_close": "2016-04-15",
+  "date_resolve_at": "2016-05-12",
+  "url": "https://www.metaculus.com/api2/questions/178/",
+  "gpt_3p5_category": "Science & Tech"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00062",
+  "question": "Which character was Kellie Bright portraying on television in 2020?",
+  "year": 2020,
+  "ground_truth": "Linda Carter",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Linda Carter",
+      "tag": "correct"
+    },
+    {
+      "answer": "Shona",
+      "tag": "past"
+    },
+    {
+      "answer": "Vanessa Barnes",
+      "tag": "past"
+    },
+    {
+      "answer": "Tina Caffola",
+      "tag": "past"
+    }
+  ]
+}

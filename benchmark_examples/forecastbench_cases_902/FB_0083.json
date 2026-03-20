@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0083",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "If the US Supreme Court hears a case on the Bank Secrecy Act by 2070, will they find it to be constitutional?",
+  "background": "*Related Question on Metaculus:*\n\n* [When will the US Supreme Court rule on the constitutionality of any part of the Bank Secrecy Act?](https://www.metaculus.com/questions/8522/date-of-scotus-decision-on-bank-secrecy-act/)\n\n----\n\nThe [Bank Secrecy Act of 1970](https://en.wikipedia.org/wiki/Bank_Secrecy_Act) was signed into law in 1970, giving US government agencies more capabilities to catch money laundering, criminal activity, and tax evasion.  It was challenged promptly by several banks and the [ACLU](https://en.wikipedia.org/wiki/Bank_Secrecy_Act), resulting in the Supreme Court case [California Bankers Association v. Schulz](https://en.wikipedia.org/wiki/California_Bankers_Assn._v._Shultz).  The Plaintiffs argued that the BSA violated customer's First and Fourth Amendment rights to privacy and Fifth amendment rights to Due Process.\n\nThe court decided 7-2 that the BSA was constitutional, with Justices William Brennan and William Douglas dissenting.  The BSA survived another challenge in [United States v. Miller (1976)](https://en.wikipedia.org/wiki/United_States_v._Miller_(1976)), and the BSA has formed the basis of further expansions in the government's financial surveillance powers.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "8526"
+}

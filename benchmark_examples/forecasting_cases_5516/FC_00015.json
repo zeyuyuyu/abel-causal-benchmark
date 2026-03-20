@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00015",
+  "split": "train",
+  "question": "By July 1, 2016 will a 'biohacker' create a new life form that enters the ecosystem?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "A major recent advance in genetic engineering has occurred in the past several years with the discovery of CRISPR (clustered regularly interspaced short palindromic repeats), a bacterial DNA sequence that codes for a protein (Cas9) and RNA combination that can locate a specific DNA sequence and splice the DNA strand at that location. This enables dramatically simplified genetic editing and engineering relative to recombinant DNA technologies.\nThe CRISPR system has been used successfully in complex organisms including adult mice and embryonic humans.\nThe ease and low cost of CRISPR techniques have opened the doors to the creation of novel organisms both by professional biologists and also by amateur self-described 'biohackers.' For example, there is now an \"iGEM\" yearly competition for DIY genetic engineering (modification of existing organisms) and synthetic biology (generation of qualitatively novel organisms.) Another example is a current crowdfunded campaign to produce low-cost 'biohack at home' kits.\nBy July 1, 2016, will a verified incident occur in which a non-professional (neither employed by a company, government or university, nor a PhD student) genetically engineer an organism that is then released (or escapes) into the wild where it becomes distinct and detectable part of the population?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-11-07",
+  "date_close": "2016-02-16",
+  "date_resolve_at": "2016-07-10",
+  "url": "https://www.metaculus.com/api2/questions/20/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

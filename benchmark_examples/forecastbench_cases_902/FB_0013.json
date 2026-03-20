@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0013",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will MrBeast (Jimmy Donaldson) be convicted of a crime before the end of 2026?",
+  "background": "Recently, MrBeast got into some heat for a few things, including the content in this vid and this vid \n\nLegal offenses can be divided into three main categories under the North Carolina justice system: infractions, misdemeanors, and felonies. Infractions are non-criminal (will NOT resolve YES with non-criminal infraction alone), or petty offenses, while misdemeanors and felonies are the two main types of criminal offenses.\n\nIf MrBeast (Jimmy Donaldson) is charged and convicted, found guilty, for any crime (misdemeanor or felony or criminal infraction) by any state in the US, before the end of 2026, then this market resolves YES. \n\nOtherwise this market will resolve NO on Dec 31st, 2026.\n\nalso, if he’s mid trial during the deadline with no criminal conviction yet this will resolve NO even if he gets convicted in that particular trial after the deadline (which will be 11:59pm ET)\n\nComment any questions or news you have! 💙",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "s1sb2v5t9m"
+}

@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00031",
+  "question": "Who was the Chief Executive Officer of Amazon in 2014?",
+  "year": 2014,
+  "ground_truth": "Jeff Bezos",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Jeff Bezos",
+      "tag": "correct"
+    },
+    {
+      "answer": "Andy Jassy",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Not Enough Information",
+      "tag": "irrelevant"
+    },
+    {
+      "answer": "Andy Jassy",
+      "tag": "irrelevant"
+    }
+  ]
+}

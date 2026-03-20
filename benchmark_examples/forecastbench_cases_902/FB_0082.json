@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0082",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will a US Supreme Court Justice be impeached and removed before 2030?",
+  "background": "A Supreme Court impeachment has only happened once in the history of the US: Justice Samuel Chase in 1804.  However, he was only impeached by the House of Representatives-- the Senate aquitted him.  Thus, a precedent was set for judicial independence, that justices serve for life without political interference.\n\nWe live in unprecedented times, and that precedent could change.  Article 3, section 1 states \"judges [...] shall hold their Offices during good Behaviour\"; in other words, impeachment is still constitutional.",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "5540"
+}

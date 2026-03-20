@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00057",
+  "split": "train",
+  "question": "Will the WHO classify aging as a disease by 2018?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "Scientists are beginning to target aging itself as a pathology, viewing it as a root cause to many age-related problems like diabetes, cardiovascular disease, and Alzheimer's. The World Health Organization (WHO) is being pushed by many drug developers to classify aging as a disease, which would allow pharmaceuticals to produce commercialized medication that specifically targets the process, and in turn treating all the pathology, of aging.\nA change like this would take place in the final release of ICD-11 (International Classification of Diseases, 11th revision), which will be released by WHO by 2018. The change in classification would have an imact in aging research and drugs that are currently in trial or under review, allowing for a non-ambiguous approach to treating aging itself as a condition. For example, the drug Metformin, whose marketed intent is to treat type II diabetes but shown to increase longevity in animal studies, would gain traction with the FDA to officially classify it as an aging treatment.\nWill WHO recognize ageing as a disease in ICD-11?\nThis question resolves in the affirmative if the ICD-11 carries a health code for the biological process of ageing or senescence by December 31, 2018.",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2016-02-15",
+  "date_close": "2017-02-15",
+  "date_resolve_at": "2018-12-20",
+  "url": "https://www.metaculus.com/api2/questions/143/",
+  "gpt_3p5_category": "Healthcare & Biology"
+}

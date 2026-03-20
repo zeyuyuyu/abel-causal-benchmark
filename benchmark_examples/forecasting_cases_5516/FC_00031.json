@@ -1,0 +1,16 @@
+{
+  "file_id": "FC_00031",
+  "split": "train",
+  "question": "Will the VIX Index print above 50 in 2016?",
+  "background": "Not applicable/available for this question.",
+  "resolution_criteria": "In the popular financial press, the VIX Index is often referred to as the \"fear gauge\". In reality, it is a quantitative assessment of expected stock market volatility over the next thirty day period, and is computed from S&P 500 stock index option prices.\nTo rule-of-thumb accuracy, the numerical value of the VIX corresponds to the annualized one-sigma percentage change in the value of the S&P 500 Index over the next month. At present, the VIX stands just above 16, so very roughly speaking, this means that the market ascribes a 30% chance that stocks will have changed in price by more than 3.5% by late January 2016.\nTypically, the value of the VIX lies between 10 and 20, but it regularly spikes during times of market turmoil. During the 2008 financial crisis, for example, the VIX briefly reached values above 80.\nDuring the calendar year 2016, will the VIX Index have an intra-day print with a value above 50?",
+  "ground_truth": 0.0,
+  "is_resolved": true,
+  "data_source": "metaculus",
+  "question_type": "binary",
+  "date_begin": "2015-12-23",
+  "date_close": "2016-01-31",
+  "date_resolve_at": "2016-12-30",
+  "url": "https://www.metaculus.com/api2/questions/47/",
+  "gpt_3p5_category": "Economics & Business"
+}

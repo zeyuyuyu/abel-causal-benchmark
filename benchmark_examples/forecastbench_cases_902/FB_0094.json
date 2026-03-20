@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0094",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will more than 50% of US adults own a personal augmented reality device by 2050?",
+  "background": "The Merriam-Webster Dictionary [defines augmented reality (AR) as](https://www.merriam-webster.com/dictionary/augmented%20reality)\n\n>an enhanced version of reality created by the use of technology to overlay digital information on an image of something being viewed through a device (such as a smartphone camera)\n\nSome expect AR devices to be much more prevalent in the future. Neuroscientist and fiction author Erik Hoel wrote the following about augmented reality in the year 2050 in a [blog post published August 25, 2021](https://erikhoel.substack.com/p/futurists-have-their-heads-in-the)\n\n>By 2050 pretty much everyone will be wearing smart glasses for augmented reality, and eventually these glasses will replace a lot of phones (no one will carry a wallet in 2050).\n\nAccording to a PEW survey, [85% of US adults said they owned a smartphone in 2021](https://www.pewresearch.org/internet/fact-sheet/mobile/).",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "8516"
+}

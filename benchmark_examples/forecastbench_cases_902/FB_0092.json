@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0092",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "Will a functional Alcubierre drive-like FTL device be demonstrated before 2100?",
+  "background": "",
+  "ground_truth": 0,
+  "source": "metaculus",
+  "id": "6558"
+}

@@ -1,0 +1,9 @@
+{
+  "file_id": "FB_0034",
+  "source_dataset": "forecastbench_single_questions_2024-12-08",
+  "question": "In 2028, will at least 350,000 Americans (1/1000) be talking at least weekly to an AI they consider a romantic companion?",
+  "background": "I will try to resolve this from estimates available at the time, but no guarantee of perfect accuracy.",
+  "ground_truth": 0,
+  "source": "manifold",
+  "id": "kpG0hv16d75ai3JcKZds"
+}

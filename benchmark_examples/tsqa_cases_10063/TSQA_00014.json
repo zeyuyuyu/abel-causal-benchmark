@@ -1,0 +1,25 @@
+{
+  "file_id": "TSQA_00014",
+  "question": "Who was the head coach for Incarnate Word Cardinals football team in 2017?",
+  "year": 2017,
+  "ground_truth": "Larry Kennan",
+  "ground_truth_tag": "correct",
+  "options": [
+    {
+      "answer": "Larry Kennan",
+      "tag": "correct"
+    },
+    {
+      "answer": "Eric Morris",
+      "tag": "future"
+    },
+    {
+      "answer": "G. J. Kinne",
+      "tag": "future"
+    },
+    {
+      "answer": "Clint Killough",
+      "tag": "future"
+    }
+  ]
+}
